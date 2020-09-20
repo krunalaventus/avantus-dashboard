@@ -1,10 +1,4 @@
-import {
-	CheckboxFormsy,
-	FuseChipSelectFormsy,
-	RadioGroupFormsy,
-	SelectFormsy,
-	TextFieldFormsy
-} from '@fuse/core/formsy';
+import { TextFieldFormsy } from '@fuse/core/formsy';
 import { useForm } from '@fuse/hooks';
 import FuseUtils from '@fuse/utils/FuseUtils';
 import AppBar from '@material-ui/core/AppBar';

@@ -1,3 +1,4 @@
+import { TextFieldFormsy } from '@fuse/core/formsy';
 import { useForm } from '@fuse/hooks';
 import FuseUtils from '@fuse/utils/FuseUtils';
 import AppBar from '@material-ui/core/AppBar';
@@ -11,7 +12,8 @@ import IconButton from '@material-ui/core/IconButton';
 import TextField from '@material-ui/core/TextField';
 import Toolbar from '@material-ui/core/Toolbar';
 import Typography from '@material-ui/core/Typography';
-import React, { useCallback, useEffect } from 'react';
+import Formsy from 'formsy-react';
+import React, { useCallback, useEffect, useRef, useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { removeTask, updateTask, addTask, closeNewTaskDialog, closeEditTaskDialog } from './store/taskSlice';
 
@@ -24,6 +26,17 @@ const defaultFormState = {
 };
 
 function TaskDialog(props) {
+	const [isFormValid, setIsFormValid] = useState(false);
+	const formRef = useRef(null);
+
+	function disableButton() {
+		setIsFormValid(false);
+	}
+
+	function enableButton() {
+		setIsFormValid(true);
+	}
+
 	const dispatch = useDispatch();
 	const taskDialog = useSelector(({ taskApp }) => taskApp.task.taskDialog);
 
@@ -107,50 +120,73 @@ function TaskDialog(props) {
 					)}
 				</div> */}
 			</AppBar>
-			<form noValidate onSubmit={handleSubmit} className="flex flex-col md:overflow-hidden">
+			<Formsy
+				onValidSubmit={handleSubmit}
+				onValid={enableButton}
+				onInvalid={disableButton}
+				ref={formRef}
+				className="flex flex-col md:overflow-hidden"
+			>
 				<DialogContent classes={{ root: 'p-24' }}>
 					<div className="flex">
 						<div className="min-w-48 pt-20">{/* <Icon color="action">account_circle</Icon> */}</div>
 
-						<TextField
+						<TextFieldFormsy
 							className="mb-24"
 							label="Title"
 							autoFocus
 							id="task_title"
 							name="task_title"
 							value={form.task_title}
-							onChange={handleChange}
 							variant="outlined"
-							required
 							fullWidth
+							validations={{
+								minLength: 4
+							}}
+							validationErrors={{
+								minLength: 'Min character length is 4'
+							}}
+							required
 						/>
 					</div>
 
 					<div className="flex">
 						<div className="min-w-48 pt-20" />
-						<TextField
+						<TextFieldFormsy
 							className="mb-24"
 							label="Description"
 							id="task_description"
 							name="task_description"
 							value={form.task_description}
-							onChange={handleChange}
 							variant="outlined"
 							fullWidth
+							validations={{
+								minLength: 4
+							}}
+							validationErrors={{
+								minLength: 'Min character length is 4'
+							}}
+							required
 						/>
 					</div>
 
 					<div className="flex">
 						<div className="min-w-48 pt-20" />
-						<TextField
+						<TextFieldFormsy
 							className="mb-24"
 							label="Customer"
 							id="customer_id"
 							name="customer_id"
 							value={form.customer_id}
-							onChange={handleChange}
 							variant="outlined"
 							fullWidth
+							validations={{
+								minLength: 4
+							}}
+							validationErrors={{
+								minLength: 'Min character length is 4'
+							}}
+							required
 						/>
 					</div>
 				</DialogContent>
@@ -159,13 +195,13 @@ function TaskDialog(props) {
 					<DialogActions className="justify-between p-8">
 						<div className="px-16">
 							<Button
+								type="submit"
 								variant="contained"
 								color="primary"
-								onClick={handleSubmit}
-								type="submit"
-								disabled={!canBeSubmitted()}
+								className="mx-auto mt-32 mb-80"
+								disabled={!isFormValid}
 							>
-								Add
+								Save
 							</Button>
 						</div>
 					</DialogActions>
@@ -173,11 +209,11 @@ function TaskDialog(props) {
 					<DialogActions className="justify-between p-8">
 						<div className="px-16">
 							<Button
+								type="submit"
 								variant="contained"
 								color="primary"
-								type="submit"
-								onClick={handleSubmit}
-								disabled={!canBeSubmitted()}
+								className="mx-auto mt-32 mb-80"
+								disabled={!isFormValid}
 							>
 								Save
 							</Button>
@@ -187,7 +223,7 @@ function TaskDialog(props) {
 						</IconButton>
 					</DialogActions>
 				)}
-			</form>
+			</Formsy>
 		</Dialog>
 	);
 }
