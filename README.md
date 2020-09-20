@@ -1,15 +1,15 @@
 # Dashboard
-Clone Project
-Open UI Folder in VS Code for React APP
-Open Terminal and execute following commands
-- Install dependencies
-npm i
-- Run App
-npm run start
-===================================================
-Open api Folder in VS Code for node api
-Open Terminal and execute following commands
-- Install dependencies
-npm i
-- Run App
-npm run dev
+Clone Project<br/>
+Open UI Folder in VS Code for React APP<br/>
+Open Terminal and execute following commands<br/>
+- Install dependencies<br/>
+npm i<br/><br/>
+- Run App<br/>
+npm run start<br/><br/><br/>
+===================================================<br/><br/><br/>
+Open api Folder in VS Code for node api<br/>
+Open Terminal and execute following commands<br/>
+- Install dependencies<br/>
+npm i<br/>
+- Run App<br/>
+npm run dev<br/>
