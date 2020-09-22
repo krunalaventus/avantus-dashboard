@@ -24,7 +24,10 @@ const defaultFormState = {
 	task_title: '',
 	task_description: '',
 	completion_flag: '',
-	customer_id: 0
+	customer_id: 0,
+	user: {
+		first_name: ''
+	}
 };
 
 function TaskDialog(props) {
@@ -101,7 +104,13 @@ function TaskDialog(props) {
 	}, [loading]);
 	useEffect(() => {
 		if (!open) {
-			setOptions([]);
+			(async () => {
+				const response = await fetch(`${process.env.REACT_APP_API_URL}user/search`);
+				await sleep(1e3);
+				const res = await response.json();
+				const countries = res.data;
+				setOptions(countries);
+			})();
 		}
 	}, [open]);
 
@@ -194,7 +203,7 @@ function TaskDialog(props) {
 
 					<div className="flex">
 						<div className="min-w-48 pt-20" />
-						<TextFieldFormsy name="customer_id" value={customerValue} type="hidden" />
+						<TextFieldFormsy name="customer_id" value={form.customer_id} type="hidden" />
 						<Autocomplete
 							id="asynchronous-demo"
 							style={{ width: 300 }}
@@ -205,7 +214,7 @@ function TaskDialog(props) {
 							onClose={() => {
 								setOpen(false);
 							}}
-							inputValue={inputValue}
+							inputValue={form.user.first_name}
 							onInputChange={(event, newInputValue) => {
 								setInputValue(newInputValue);
 							}}

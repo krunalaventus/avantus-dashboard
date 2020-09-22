@@ -4,7 +4,13 @@ import { getUserData } from './userSlice';
 
 export const gettask = createAsyncThunk('taskApp/task/getTask', async (routeParams, { getState }) => {
 	routeParams = routeParams || getState().taskApp.task.routeParams;
-	const response = await axios.get(`${process.env.REACT_APP_API_URL}task`);
+	const token = localStorage.getItem('token');
+
+	const response = await axios.get(`${process.env.REACT_APP_API_URL}task`, {
+		headers: {
+			Authorization: token
+		}
+	});
 	const data = await response.data.data;
 
 	return { data, routeParams };

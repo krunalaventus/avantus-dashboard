@@ -6,7 +6,13 @@ export const getcustomerTask = createAsyncThunk(
 	'customerTaskApp/customerTask/getCustomerTask',
 	async (routeParams, { getState }) => {
 		routeParams = routeParams || getState().customerTaskApp.customerTask.routeParams;
-		const response = await axios.get(`${process.env.REACT_APP_API_URL}task`);
+		const token = localStorage.getItem('token');
+
+		const response = await axios.get(`${process.env.REACT_APP_API_URL}task`, {
+			headers: {
+				Authorization: token
+			}
+		});
 		const data = await response.data.data;
 
 		return { data, routeParams };

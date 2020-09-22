@@ -333,7 +333,7 @@ exports.loginUser = async function(data, res) {
                         uuid: 'XgbuVEXBU5gtSKdbQRP1Zbbby1i1',
                         from: 'custom-db',
                         password: '',
-                        role: 'admin',
+                        role: finddata.user_role,
                         data: {
                             displayName: finddata.first_name,
                             photoURL: 'assets/images/avatars/Arnold.jpg',

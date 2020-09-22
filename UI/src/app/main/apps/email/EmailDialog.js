@@ -114,7 +114,13 @@ function EmailDialog(props) {
 	}, [loading]);
 	useEffect(() => {
 		if (!open) {
-			setOptions([]);
+			(async () => {
+				const response = await fetch(`${process.env.REACT_APP_API_URL}user/search`);
+				await sleep(1e3);
+				const res = await response.json();
+				const countries = res.data;
+				setOptions(countries);
+			})();
 		}
 	}, [open]);
 
@@ -258,7 +264,7 @@ function EmailDialog(props) {
 							onClose={() => {
 								setOpen(false);
 							}}
-							inputValue={inputValue}
+							inputValue={form.user.first_name}
 							onInputChange={(event, newInputValue) => {
 								setInputValue(newInputValue);
 							}}

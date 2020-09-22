@@ -238,7 +238,7 @@ function ContactDialog(props) {
 							label="Status"
 							id="status"
 							name="status"
-							value={form.status}
+							value={form.status ?? '1'}
 							variant="outlined"
 							required
 						>

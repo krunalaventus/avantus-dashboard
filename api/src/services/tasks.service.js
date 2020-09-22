@@ -7,12 +7,17 @@ import {
 } from "../utility/statusCode";
 import fs from 'fs';
 import "@babel/polyfill";
+import User from "../models/users";
 
 exports.getAllTask = async function(req, res) {
     try {
-        let createdata = await Task.findAll({
-           
-        });
+        let createdata = {};
+        var decodedData = req.decoded.data;
+        if (decodedData.user_role === "super user") {
+            createdata = await Task.findAll({ include:[User] });
+        } else {
+            createdata = await Task.findAll({ where: { customer_id: decodedData.id }, include:[User] });
+        }
         if (createdata) {
             return {
                 statusCode: res.statusCode,

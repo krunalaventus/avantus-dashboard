@@ -40,8 +40,14 @@ function CustomerTaskList(props) {
 				sortable: true
 			},
 			{
+				Header: 'Description',
+				accessor: 'task_description',
+				className: 'font-bold',
+				sortable: true
+			},
+			{
 				id: 'action',
-				Header: 'Completion Flag',
+				Header: 'Completed',
 				width: 128,
 				sortable: false,
 				Cell: ({ row }) => (

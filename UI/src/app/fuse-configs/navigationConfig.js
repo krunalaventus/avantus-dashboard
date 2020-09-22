@@ -139,6 +139,7 @@ const navigationConfig = [
 				title: 'Customers',
 				translate: 'CUSTOMERS',
 				type: 'item',
+				auth: authRoles.admin,
 				icon: 'account_box',
 				url: '/apps/contacts/all'
 			},
@@ -147,6 +148,7 @@ const navigationConfig = [
 				title: 'Tasks',
 				translate: 'TASKS',
 				type: 'item',
+				auth: authRoles.admin,
 				icon: 'account_box',
 				url: '/apps/task/all'
 			},
@@ -155,14 +157,16 @@ const navigationConfig = [
 				title: 'Emails',
 				translate: 'EMAIL',
 				type: 'item',
+				auth: authRoles.admin,
 				icon: 'account_box',
 				url: '/apps/email/all'
 			},
 			{
 				id: 'customerTask',
-				title: 'CUSTOMER TASK',
-				translate: 'CUSTOMER TASK',
+				title: 'TASK',
+				translate: 'TASK',
 				type: 'item',
+				auth: authRoles.customer,
 				icon: 'account_box',
 				url: '/apps/customerTask/all'
 			}

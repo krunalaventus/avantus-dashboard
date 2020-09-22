@@ -83,6 +83,8 @@ export const setUserData = user => async (dispatch, getState) => {
 	dispatch(setDefaultSettings(user.data.settings));
 
 	dispatch(setUser(user));
+	const token = user.access_token;
+	localStorage.setItem('token', token);
 };
 
 export const updateUserSettings = settings => async (dispatch, getState) => {
