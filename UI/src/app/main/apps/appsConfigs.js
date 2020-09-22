@@ -12,6 +12,7 @@ import ScrumboardAppConfig from './scrumboard/ScrumboardAppConfig';
 import TodoAppConfig from './todo/TodoAppConfig';
 import TaskAppConfig from './task/TaskAppConfig';
 import EmailAppConfig from './email/EmailAppConfig';
+import CustomerTaskAppConfig from './customerTask/CustomerTaskConfig';
 
 const appsConfigs = [
 	AnalyticsDashboardAppConfig,
@@ -27,7 +28,8 @@ const appsConfigs = [
 	AcademyAppConfig,
 	NotesAppConfig,
 	TaskAppConfig,
-	EmailAppConfig
+	EmailAppConfig,
+	CustomerTaskAppConfig
 ];
 
 export default appsConfigs;

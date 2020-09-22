@@ -14,6 +14,7 @@ export const addContact = createAsyncThunk(
 	'contactsApp/contacts/addContact',
 	async (contact, { dispatch, getState }) => {
 		contact.user_role = 'customer';
+		contact.id = null;
 		const response = await axios.post(`${process.env.REACT_APP_API_URL}user`, contact);
 		const data = await response.data;
 
@@ -113,6 +114,14 @@ export const setContactsUnstarred = createAsyncThunk(
 		return data;
 	}
 );
+
+export const deleteThis = createAsyncThunk('contactsApp/contacts/deleteThis', async (id, { dispatch, getState }) => {
+	// eslint-disable-next-line no-restricted-globals
+	const d = confirm('Do You want to delete this entry?');
+	if (d === true) {
+		dispatch(removeContact(id));
+	}
+});
 
 const contactsAdapter = createEntityAdapter({});
 

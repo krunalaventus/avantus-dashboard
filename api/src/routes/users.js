@@ -2,9 +2,10 @@ import { Router } from 'express';
 const UserRoutes = Router();
 import { checkToken } from '../utility/tokenValidation';
 
-import { login,signup,adminLogin, getUsers, getUser, createUser, updateUser, deleteUser } from '../controllers/users.controller';
+import { login,signup,adminLogin, getUsers, getUser, createUser, updateUser, deleteUser, searchUsers } from '../controllers/users.controller';
 
 UserRoutes.get('/', getUsers);
+UserRoutes.get('/search', searchUsers);
 UserRoutes.get('/:id', getUser);
 UserRoutes.post('/', createUser);
 UserRoutes.put('/:id', updateUser);

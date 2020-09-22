@@ -30,7 +30,7 @@ function AnalyticsDashboardApp() {
 
 	return (
 		<div className="w-full">
-			<Widget1 data={widgets.widget1} />
+			{/* <Widget1 data={widgets.widget1} />
 
 			<FuseAnimate animation="transition.slideUpIn" delay={200}>
 				<div className="flex flex-col md:flex-row sm:p-8 container">
@@ -109,7 +109,7 @@ function AnalyticsDashboardApp() {
 						</div>
 					</div>
 				</div>
-			</FuseAnimate>
+			</FuseAnimate> */}
 		</div>
 	);
 }

@@ -119,6 +119,31 @@ export async function updateTask(req, res) {
     }
 }
 
+export async function setCompletionFlag(req, res) {
+    try{
+        if(!req.params.id){
+            return res.json({
+                statusCode:await checkCode('validation'),
+                success: false,
+                message:"Task id required!",
+                Customer:{}
+            });
+        }
+       
+        let logindata = await TaskServices.setCompletionFlag(req.params, res);
+        if(logindata){
+            res.json(logindata);
+        }
+    }catch(err){
+        res.status(500).json({
+            statusCode:await checkCode('error'),
+            error:err,
+            success: false,
+            message:"Something went wrong!"
+        })
+    }
+}
+
 export async function deleteTask(req, res) {
     try{
         if(!req.params.id){

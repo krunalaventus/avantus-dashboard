@@ -42,6 +42,52 @@ exports.getAllUser = async function(data, res) {
     }
 };
 
+exports.getSearch = async function(data, res) {
+    try {
+        let createdata = [];
+        if(data.params.searchString){
+            createdata = await User.findAll({
+                attributes: ['id', ['first_name', 'name']], 
+                where: {
+                    user_role:'customer',
+                    first_name: {$like: `%${data.searchString}`}
+            }});
+        } else {
+            createdata = await User.findAll({
+                attributes: ['id', ['first_name', 'name']], 
+                where: {
+                    user_role:'customer'
+            }});
+        }
+        
+        if (createdata) {
+            return {
+                statusCode: res.statusCode,
+                success: true,
+                message: "Customer fetch Successfully",
+                data: createdata
+            };
+        } else {
+            return {
+                statusCode: res.statusCode,
+                success: true,
+                message: "Customer not Found!",
+            };
+        }
+    } catch (e) {
+        return {
+            statusCode: await checkCode("error"),
+            success: false,
+            error: {
+                error_code: e.parent.errno,
+                error_type: e.parent.code,
+                message:e.name
+            },
+            message: e.name
+        };
+    }
+};
+
 exports.getSingleUser = async function(params, data, res) {
     try {
         let find = await User.findOne({
@@ -90,7 +136,8 @@ exports.create = async function(data, res) {
             };
         }else {
            
-            data.password =await sha1(data.password);
+            // data.password =await sha1(data.password);
+            console.log(data);
             let create  = await User.create(data);
             if(create){
                 let token = await jwt.sign({
@@ -267,12 +314,13 @@ exports.delete = async function(params, data, res) {
 
 exports.loginUser = async function(data, res) {
     try {
-        let finddata = await User.findOne({ where: {email:data.email}});
+        let finddata = await User.findOne({ where: {user_name: data.email, status: 1}});
         if (finddata) {
-            if (sha1(data.password) === finddata.dataValues.password) {
+            // if (sha1(data.password) === finddata.dataValues.password) {
+            if (data.password === finddata.dataValues.password) {
                 let updateObj = {
-                    android_token:data.android_token,
-                    apple_token:data.apple_token
+                    android_token: data.android_token,
+                    apple_token: data.apple_token
                 }
                 await finddata.update(updateObj)
                 let token = await jwt.sign({

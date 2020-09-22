@@ -13,6 +13,8 @@ import TextField from '@material-ui/core/TextField';
 import Toolbar from '@material-ui/core/Toolbar';
 import Typography from '@material-ui/core/Typography';
 import Formsy from 'formsy-react';
+import Autocomplete from '@material-ui/lab/Autocomplete';
+import CircularProgress from '@material-ui/core/CircularProgress';
 import React, { useCallback, useEffect, useRef, useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { removeEmail, updateEmail, addEmail, closeNewEmailDialog, closeEditEmailDialog } from './store/emailSlice';
@@ -24,7 +26,10 @@ const defaultFormState = {
 	server_address: '',
 	port: '',
 	port_a: '',
-	customer_id: 0
+	customer_id: 0,
+	user: {
+		first_name: ''
+	}
 };
 
 function EmailDialog(props) {
@@ -80,14 +85,50 @@ function EmailDialog(props) {
 	function canBeSubmitted() {
 		return form.username.length > 0;
 	}
+	const [open, setOpen] = React.useState(false);
+	const [options, setOptions] = React.useState([]);
+	const [customerValue, setValue] = React.useState(options[0]);
+	const [inputValue, setInputValue] = React.useState('');
+	const loading = open && options.length === 0;
+	useEffect(() => {
+		let active = true;
+
+		if (!loading) {
+			return undefined;
+		}
+
+		(async () => {
+			const response = await fetch(`${process.env.REACT_APP_API_URL}user/search`);
+			await sleep(1e3);
+			const res = await response.json();
+			const countries = res.data;
+
+			if (active) {
+				setOptions(countries);
+			}
+		})();
+
+		return () => {
+			active = false;
+		};
+	}, [loading]);
+	useEffect(() => {
+		if (!open) {
+			setOptions([]);
+		}
+	}, [open]);
+
+	function sleep(delay = 0) {
+		return new Promise(resolve => {
+			setTimeout(resolve, delay);
+		});
+	}
 
 	function handleSubmit(event) {
-		event.preventDefault();
-		console.log(emailDialog.type);
 		if (emailDialog.type === 'new') {
-			dispatch(addEmail(form));
+			dispatch(addEmail(event));
 		} else {
-			dispatch(updateEmail(form));
+			dispatch(updateEmail(event));
 		}
 		closeComposeDialog();
 	}
@@ -133,6 +174,7 @@ function EmailDialog(props) {
 					<div className="flex">
 						<div className="min-w-48 pt-20">{/* <Icon color="action">account_circle</Icon> */}</div>
 
+						<TextFieldFormsy name="id" value={form.id} type="hidden" />
 						<TextFieldFormsy
 							className="mb-24"
 							label="Username"
@@ -142,12 +184,6 @@ function EmailDialog(props) {
 							value={form.username}
 							variant="outlined"
 							fullWidth
-							validations={{
-								minLength: 4
-							}}
-							validationErrors={{
-								minLength: 'Min character length is 4'
-							}}
 							required
 						/>
 					</div>
@@ -162,12 +198,6 @@ function EmailDialog(props) {
 							value={form.password}
 							variant="outlined"
 							fullWidth
-							validations={{
-								minLength: 4
-							}}
-							validationErrors={{
-								minLength: 'Min character length is 4'
-							}}
 							required
 						/>
 					</div>
@@ -182,12 +212,6 @@ function EmailDialog(props) {
 							value={form.server_address}
 							variant="outlined"
 							fullWidth
-							validations={{
-								minLength: 4
-							}}
-							validationErrors={{
-								minLength: 'Min character length is 4'
-							}}
 							required
 						/>
 					</div>
@@ -202,12 +226,6 @@ function EmailDialog(props) {
 							value={form.port}
 							variant="outlined"
 							fullWidth
-							validations={{
-								minLength: 4
-							}}
-							validationErrors={{
-								minLength: 'Min character length is 4'
-							}}
 							required
 						/>
 					</div>
@@ -222,33 +240,51 @@ function EmailDialog(props) {
 							value={form.port_a}
 							variant="outlined"
 							fullWidth
-							validations={{
-								minLength: 4
-							}}
-							validationErrors={{
-								minLength: 'Min character length is 4'
-							}}
 							required
 						/>
 					</div>
 
 					<div className="flex">
 						<div className="min-w-48 pt-20" />
-						<TextFieldFormsy
-							className="mb-24"
-							label="Customer"
-							id="customer_id"
-							name="customer_id"
-							value={form.customer_id}
-							variant="outlined"
-							fullWidth
-							validations={{
-								minLength: 4
+						<TextFieldFormsy name="customer_id" value={form.customer_id} type="hidden" />
+						<Autocomplete
+							id="asynchronous-demo"
+							style={{ width: 300 }}
+							open={open}
+							value={form.user.first_name}
+							onOpen={() => {
+								setOpen(true);
 							}}
-							validationErrors={{
-								minLength: 'Min character length is 4'
+							onClose={() => {
+								setOpen(false);
 							}}
-							required
+							inputValue={inputValue}
+							onInputChange={(event, newInputValue) => {
+								setInputValue(newInputValue);
+							}}
+							onChange={(event, newValue) => {
+								setValue(newValue.id);
+							}}
+							getOptionSelected={(option, value) => option.name === value.name}
+							getOptionLabel={option => option.name}
+							options={options}
+							loading={loading}
+							renderInput={params => (
+								<TextField
+									{...params}
+									label="Customer"
+									variant="outlined"
+									InputProps={{
+										...params.InputProps,
+										endAdornment: (
+											<>
+												{loading ? <CircularProgress color="inherit" size={20} /> : null}
+												{params.InputProps.endAdornment}
+											</>
+										)
+									}}
+								/>
+							)}
 						/>
 					</div>
 				</DialogContent>
@@ -280,9 +316,6 @@ function EmailDialog(props) {
 								Save
 							</Button>
 						</div>
-						<IconButton onClick={handleRemove}>
-							<Icon>delete</Icon>
-						</IconButton>
 					</DialogActions>
 				)}
 			</Formsy>

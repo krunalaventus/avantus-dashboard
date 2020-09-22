@@ -6,15 +6,15 @@ import IconButton from '@material-ui/core/IconButton';
 import Typography from '@material-ui/core/Typography';
 import React, { useEffect, useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
-import TaskMultiSelectMenu from './TaskMultiSelectMenu';
-import TaskTable from './TaskTable';
-import { openEditTaskDialog, deleteThis, toggleStarredTask, selecttask } from './store/taskSlice';
+import CustomerTaskMultiSelectMenu from './CustomerTaskMultiSelectMenu';
+import CustomerTaskTable from './CustomerTaskTable';
+import { openEditCustomerTaskDialog, selectcustomerTask } from './store/customerTaskSlice';
 
-function TaskList(props) {
+function CustomerTaskList(props) {
 	const dispatch = useDispatch();
-	const task = useSelector(selecttask);
-	const searchText = useSelector(({ taskApp }) => taskApp.task.searchText);
-	const user = useSelector(({ taskApp }) => taskApp.user);
+	const customerTask = useSelector(selectcustomerTask);
+	const searchText = useSelector(({ customerTaskApp }) => customerTaskApp.customerTask.searchText);
+	const user = useSelector(({ customerTaskApp }) => customerTaskApp.user);
 
 	const [filteredData, setFilteredData] = useState(null);
 	function CompletionFlag(prop) {
@@ -40,37 +40,13 @@ function TaskList(props) {
 				sortable: true
 			},
 			{
-				id: 'star',
+				id: 'action',
 				Header: 'Completion Flag',
 				width: 128,
 				sortable: false,
 				Cell: ({ row }) => (
 					<div className="flex items-center">
-						<IconButton
-							onClick={ev => {
-								ev.stopPropagation();
-								dispatch(toggleStarredTask(row.original.id));
-							}}
-						>
-							<IsCompletionFlag completion_flag={row.original.completion_flag} />
-						</IconButton>
-					</div>
-				)
-			},
-			{
-				id: 'action',
-				width: 128,
-				sortable: false,
-				Cell: ({ row }) => (
-					<div className="flex items-center">
-						<IconButton
-							onClick={ev => {
-								ev.stopPropagation();
-								dispatch(deleteThis(row.original.id));
-							}}
-						>
-							<Icon>delete</Icon>
-						</IconButton>
+						<IsCompletionFlag completion_flag={row.original.completion_flag} />
 					</div>
 				)
 			}
@@ -81,15 +57,15 @@ function TaskList(props) {
 	useEffect(() => {
 		function getFilteredArray(entities, _searchText) {
 			if (_searchText.length === 0) {
-				return task;
+				return customerTask;
 			}
-			return FuseUtils.filterArrayByString(task, _searchText);
+			return FuseUtils.filterArrayByString(customerTask, _searchText);
 		}
 
-		if (task) {
-			setFilteredData(getFilteredArray(task, searchText));
+		if (customerTask) {
+			setFilteredData(getFilteredArray(customerTask, searchText));
 		}
-	}, [task, searchText]);
+	}, [customerTask, searchText]);
 
 	if (!filteredData) {
 		return null;
@@ -99,7 +75,7 @@ function TaskList(props) {
 		return (
 			<div className="flex flex-1 items-center justify-center h-full">
 				<Typography color="textSecondary" variant="h5">
-					There are no task!
+					There are no Task!
 				</Typography>
 			</div>
 		);
@@ -107,17 +83,9 @@ function TaskList(props) {
 
 	return (
 		<FuseAnimate animation="transition.slideUpIn" delay={300}>
-			<TaskTable
-				columns={columns}
-				data={filteredData}
-				onRowClick={(ev, row) => {
-					if (row) {
-						dispatch(openEditTaskDialog(row.original));
-					}
-				}}
-			/>
+			<CustomerTaskTable columns={columns} data={filteredData} />
 		</FuseAnimate>
 	);
 }
 
-export default TaskList;
+export default CustomerTaskList;

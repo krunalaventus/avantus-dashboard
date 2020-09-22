@@ -6,8 +6,23 @@ import "@babel/polyfill"
 
 export async function getUsers(req, res) {
     try{
-        console.log("as")
         let logindata = await UserServices.getAllUser(req, res);
+        if(logindata){
+            res.json(logindata);
+        }
+    }catch(err){
+        res.status(500).json({
+            statusCode:await checkCode('error'),
+            error:err,
+            success: false,
+            message:"Something went wrong!"
+        })
+    }
+}
+
+export async function searchUsers(req, res) {
+    try{
+        let logindata = await UserServices.getSearch(req, res);
         if(logindata){
             res.json(logindata);
         }

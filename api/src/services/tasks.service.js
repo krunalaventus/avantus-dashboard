@@ -214,6 +214,57 @@ exports.update = async function(params, data, res) {
     }
 };
 
+exports.setCompletionFlag = async function(params, res) {
+    try {
+        let finddata = await Task.findOne({
+            where: {
+                id: params.id
+            }
+        });
+        if (finddata) {
+            let completion_flag = "";
+            if(finddata.completion_flag === "COMPLETED") {
+                completion_flag = ""
+            } else {
+                completion_flag = "COMPLETED"
+            }
+            let updatedata = await Task.update({ completion_flag }, { where: {id: params.id}});
+            if (updatedata) {
+                return {
+                    statusCode: res.statusCode,
+                    success: true,
+                    message: "Task update Successfully",
+                    data: updatedata
+                };
+            } else {
+                return {
+                    statusCode: res.statusCode,
+                    success: false,
+                    message: "Task not update!"
+                };
+            }
+        } else {
+            return {
+                statusCode: res.statusCode,
+                success: false,
+                message: "Task not found!",
+            };
+        }
+    } catch (e) {
+        console.log(e)
+        return {
+            statusCode: await checkCode("error"),
+            success: false,
+            error: {
+                error_code: e.parent.errno,
+                error_type: e.parent.code,
+                message:e.name
+            },
+            message: e.name
+        };
+    }
+};
+
 exports.delete = async function(params, data, res) {
     try {
         let find = await Task.findOne({where:{id:params.id}});

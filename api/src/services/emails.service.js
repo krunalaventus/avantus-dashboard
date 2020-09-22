@@ -7,10 +7,11 @@ import {
 } from "../utility/statusCode";
 import fs from 'fs';
 import "@babel/polyfill";
+import User from "../models/users";
 
 exports.getAllEmail = async function(params, data, res) {
     try {
-        let createdata = await Email.findAll({
+        let createdata = await Email.findAll({ include:[User]
            
         });
         if (createdata) {
@@ -165,23 +166,6 @@ exports.create = async function(data, res) {
         }else {
             let create  = await Email.create(data);
             if(create){
-                var elasticsearch=require('elasticsearch');
-                var client = new elasticsearch.Client( {  
-                    hosts: [
-                      'localhost:443/email/1'
-                    ],
-                    log: 'trace'
-                  });
-                
-                client.indices.create({
-                    index: create.id,
-                    type: 'email',
-                    body: data
-                },function (error, response,status) {
-                    if (error){
-                      console.log("search error: "+error)
-                    }
-                });
                 return {
                     statusCode: res.statusCode,
                     success: true,

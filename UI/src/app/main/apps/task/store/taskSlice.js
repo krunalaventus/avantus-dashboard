@@ -11,6 +11,7 @@ export const gettask = createAsyncThunk('taskApp/task/getTask', async (routePara
 });
 
 export const addTask = createAsyncThunk('taskApp/task/addTask', async (task, { dispatch, getState }) => {
+	task.id = null;
 	const response = await axios.post(`${process.env.REACT_APP_API_URL}task`, task);
 	const data = await response.data;
 	dispatch(gettask());
@@ -31,6 +32,14 @@ export const removeTask = createAsyncThunk('taskApp/task/removeTask', async (tas
 	return data;
 });
 
+export const getUsers = createAsyncThunk('taskApp/task/getUser', async (routeParams, { getState }) => {
+	routeParams = routeParams || getState().taskApp.task.routeParams;
+	const response = await axios.get(`${process.env.REACT_APP_API_URL}user`);
+	const data = await response.data.data;
+
+	return { data, routeParams };
+});
+
 export const removetask = createAsyncThunk('taskApp/task/removetask', async (taskIds, { dispatch, getState }) => {
 	const response = await axios.post('/api/task-app/remove-task', { taskIds });
 	const data = await response.data;
@@ -41,7 +50,7 @@ export const removetask = createAsyncThunk('taskApp/task/removetask', async (tas
 export const toggleStarredTask = createAsyncThunk(
 	'taskApp/task/toggleStarredTask',
 	async (taskId, { dispatch, getState }) => {
-		const response = await axios.post('/api/task-app/toggle-starred-task', { taskId });
+		const response = await axios.get(`${process.env.REACT_APP_API_URL}task/completion-flag/${taskId}`);
 		const data = await response.data;
 
 		dispatch(getUserData());
@@ -93,6 +102,14 @@ export const settaskUnstarred = createAsyncThunk(
 		return data;
 	}
 );
+
+export const deleteThis = createAsyncThunk('taskApp/task/deleteThis', async (id, { dispatch, getState }) => {
+	// eslint-disable-next-line no-restricted-globals
+	const d = confirm('Do You want to delete this entry?');
+	if (d === true) {
+		dispatch(removeTask(id));
+	}
+});
 
 const taskAdapter = createEntityAdapter({});
 

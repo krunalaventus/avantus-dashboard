@@ -11,22 +11,22 @@ import TableRow from '@material-ui/core/TableRow';
 import TableSortLabel from '@material-ui/core/TableSortLabel';
 import { useGlobalFilter, usePagination, useRowSelect, useSortBy, useTable } from 'react-table';
 import clsx from 'clsx';
-import EmailTablePaginationActions from './EmailTablePaginationActions';
+import CustomerTaskTablePaginationActions from './CustomerTaskTablePaginationActions';
 
-// const IndeterminateCheckbox = React.forwardRef(({ indeterminate, ...rest }, ref) => {
-// 	const defaultRef = React.useRef();
-// 	const resolvedRef = ref || defaultRef;
+const IndeterminateCheckbox = React.forwardRef(({ indeterminate, ...rest }, ref) => {
+	const defaultRef = React.useRef();
+	const resolvedRef = ref || defaultRef;
 
-// 	React.useEffect(() => {
-// 		resolvedRef.current.indeterminate = indeterminate;
-// 	}, [resolvedRef, indeterminate]);
+	React.useEffect(() => {
+		resolvedRef.current.indeterminate = indeterminate;
+	}, [resolvedRef, indeterminate]);
 
-// 	return (
-// 		<>
-// 			<Checkbox ref={resolvedRef} {...rest} />
-// 		</>
-// 	);
-// });
+	return (
+		<>
+			<Checkbox ref={resolvedRef} {...rest} />
+		</>
+	);
+});
 
 const EnhancedTable = ({ columns, data, onRowClick }) => {
 	const {
@@ -118,11 +118,7 @@ const EnhancedTable = ({ columns, data, onRowClick }) => {
 						{page.map((row, i) => {
 							prepareRow(row);
 							return (
-								<TableRow
-									{...row.getRowProps()}
-									onClick={ev => onRowClick(ev, row)}
-									className="truncate cursor-pointer"
-								>
+								<TableRow {...row.getRowProps()} className="truncate cursor-pointer">
 									{row.cells.map(cell => {
 										return (
 											<TableCell
@@ -155,7 +151,7 @@ const EnhancedTable = ({ columns, data, onRowClick }) => {
 				}}
 				onChangePage={handleChangePage}
 				onChangeRowsPerPage={handleChangeRowsPerPage}
-				ActionsComponent={EmailTablePaginationActions}
+				ActionsComponent={CustomerTaskTablePaginationActions}
 			/>
 		</div>
 	);

@@ -132,12 +132,12 @@ function Login() {
 								</Typography>
 							</FuseAnimate>
 
-							<FuseAnimate delay={500}>
+							{/* <FuseAnimate delay={500}>
 								<Typography variant="subtitle1" color="inherit" className="mt-32">
 									Powerful and professional admin template for Web Applications, CRM, CMS, Admin
 									Panels and more.
 								</Typography>
-							</FuseAnimate>
+							</FuseAnimate> */}
 						</div>
 					</div>
 				</div>

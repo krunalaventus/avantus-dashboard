@@ -8,7 +8,7 @@ import React, { useEffect, useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import ContactsMultiSelectMenu from './ContactsMultiSelectMenu';
 import ContactsTable from './ContactsTable';
-import { openEditContactDialog, removeContact, toggleStarredContact, selectContacts } from './store/contactsSlice';
+import { openEditContactDialog, deleteThis, toggleStarredContact, selectContacts } from './store/contactsSlice';
 
 function ContactsList(props) {
 	const dispatch = useDispatch();
@@ -17,7 +17,13 @@ function ContactsList(props) {
 	const user = useSelector(({ contactsApp }) => contactsApp.user);
 
 	const [filteredData, setFilteredData] = useState(null);
-
+	function StatusChecker(prop) {
+		const isCompleted = prop.status;
+		if (isCompleted === 1) {
+			return <p>Active</p>;
+		}
+		return <p>InActive</p>;
+	}
 	const columns = React.useMemo(
 		() => [
 			{
@@ -48,6 +54,17 @@ function ContactsList(props) {
 				sortable: true
 			},
 			{
+				id: 'status',
+				Header: 'Status',
+				width: 128,
+				sortable: false,
+				Cell: ({ row }) => (
+					<div className="flex items-center">
+						<StatusChecker status={row.original.status} />
+					</div>
+				)
+			},
+			{
 				id: 'action',
 				width: 128,
 				sortable: false,
@@ -56,7 +73,7 @@ function ContactsList(props) {
 						<IconButton
 							onClick={ev => {
 								ev.stopPropagation();
-								dispatch(removeContact(row.original.id));
+								dispatch(deleteThis(row.original.id));
 							}}
 						>
 							<Icon>delete</Icon>

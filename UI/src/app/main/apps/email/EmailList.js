@@ -8,7 +8,7 @@ import React, { useEffect, useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import EmailMultiSelectMenu from './EmailMultiSelectMenu';
 import EmailTable from './EmailTable';
-import { openEditEmailDialog, removeEmail, toggleStarredEmail, selectemail } from './store/emailSlice';
+import { openEditEmailDialog, deleteThis, toggleStarredEmail, selectemail } from './store/emailSlice';
 
 function EmailList(props) {
 	const dispatch = useDispatch();
@@ -59,7 +59,7 @@ function EmailList(props) {
 						<IconButton
 							onClick={ev => {
 								ev.stopPropagation();
-								dispatch(removeEmail(row.original.id));
+								dispatch(deleteThis(row.original.id));
 							}}
 						>
 							<Icon>delete</Icon>

@@ -15,7 +15,9 @@ import Typography from '@material-ui/core/Typography';
 import Formsy from 'formsy-react';
 import React, { useCallback, useEffect, useRef, useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
-import { removeTask, updateTask, addTask, closeNewTaskDialog, closeEditTaskDialog } from './store/taskSlice';
+import Autocomplete from '@material-ui/lab/Autocomplete';
+import CircularProgress from '@material-ui/core/CircularProgress';
+import { removeTask, updateTask, addTask, closeNewTaskDialog, closeEditTaskDialog, getUsers } from './store/taskSlice';
 
 const defaultFormState = {
 	id: '',
@@ -70,22 +72,54 @@ function TaskDialog(props) {
 			initDialog();
 		}
 	}, [taskDialog.props.open, initDialog]);
+	const [open, setOpen] = React.useState(false);
+	const [options, setOptions] = React.useState([]);
+	const [customerValue, setValue] = React.useState(options[0]);
+	const [inputValue, setInputValue] = React.useState('');
+	const loading = open && options.length === 0;
+	useEffect(() => {
+		let active = true;
+
+		if (!loading) {
+			return undefined;
+		}
+
+		(async () => {
+			const response = await fetch(`${process.env.REACT_APP_API_URL}user/search`);
+			await sleep(1e3);
+			const res = await response.json();
+			const countries = res.data;
+
+			if (active) {
+				setOptions(countries);
+			}
+		})();
+
+		return () => {
+			active = false;
+		};
+	}, [loading]);
+	useEffect(() => {
+		if (!open) {
+			setOptions([]);
+		}
+	}, [open]);
+
+	function sleep(delay = 0) {
+		return new Promise(resolve => {
+			setTimeout(resolve, delay);
+		});
+	}
 
 	function closeComposeDialog() {
 		return taskDialog.type === 'edit' ? dispatch(closeEditTaskDialog()) : dispatch(closeNewTaskDialog());
 	}
 
-	function canBeSubmitted() {
-		return form.task_title.length > 0;
-	}
-
 	function handleSubmit(event) {
-		event.preventDefault();
-		console.log(taskDialog.type);
 		if (taskDialog.type === 'new') {
-			dispatch(addTask(form));
+			dispatch(addTask(event));
 		} else {
-			dispatch(updateTask(form));
+			dispatch(updateTask(event));
 		}
 		closeComposeDialog();
 	}
@@ -94,7 +128,6 @@ function TaskDialog(props) {
 		dispatch(removeTask(form.id));
 		closeComposeDialog();
 	}
-
 	return (
 		<Dialog
 			classes={{
@@ -131,6 +164,7 @@ function TaskDialog(props) {
 					<div className="flex">
 						<div className="min-w-48 pt-20">{/* <Icon color="action">account_circle</Icon> */}</div>
 
+						<TextFieldFormsy name="id" value={form.id} type="hidden" />
 						<TextFieldFormsy
 							className="mb-24"
 							label="Title"
@@ -140,12 +174,6 @@ function TaskDialog(props) {
 							value={form.task_title}
 							variant="outlined"
 							fullWidth
-							validations={{
-								minLength: 4
-							}}
-							validationErrors={{
-								minLength: 'Min character length is 4'
-							}}
 							required
 						/>
 					</div>
@@ -160,33 +188,50 @@ function TaskDialog(props) {
 							value={form.task_description}
 							variant="outlined"
 							fullWidth
-							validations={{
-								minLength: 4
-							}}
-							validationErrors={{
-								minLength: 'Min character length is 4'
-							}}
 							required
 						/>
 					</div>
 
 					<div className="flex">
 						<div className="min-w-48 pt-20" />
-						<TextFieldFormsy
-							className="mb-24"
-							label="Customer"
-							id="customer_id"
-							name="customer_id"
-							value={form.customer_id}
-							variant="outlined"
-							fullWidth
-							validations={{
-								minLength: 4
+						<TextFieldFormsy name="customer_id" value={customerValue} type="hidden" />
+						<Autocomplete
+							id="asynchronous-demo"
+							style={{ width: 300 }}
+							open={open}
+							onOpen={() => {
+								setOpen(true);
 							}}
-							validationErrors={{
-								minLength: 'Min character length is 4'
+							onClose={() => {
+								setOpen(false);
 							}}
-							required
+							inputValue={inputValue}
+							onInputChange={(event, newInputValue) => {
+								setInputValue(newInputValue);
+							}}
+							onChange={(event, newValue) => {
+								setValue(newValue.id);
+							}}
+							getOptionSelected={(option, value) => option.name === value.name}
+							getOptionLabel={option => option.name}
+							options={options}
+							loading={loading}
+							renderInput={params => (
+								<TextField
+									{...params}
+									label="Customer"
+									variant="outlined"
+									InputProps={{
+										...params.InputProps,
+										endAdornment: (
+											<>
+												{loading ? <CircularProgress color="inherit" size={20} /> : null}
+												{params.InputProps.endAdornment}
+											</>
+										)
+									}}
+								/>
+							)}
 						/>
 					</div>
 				</DialogContent>
@@ -218,9 +263,6 @@ function TaskDialog(props) {
 								Save
 							</Button>
 						</div>
-						<IconButton onClick={handleRemove}>
-							<Icon>delete</Icon>
-						</IconButton>
 					</DialogActions>
 				)}
 			</Formsy>

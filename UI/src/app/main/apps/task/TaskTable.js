@@ -13,20 +13,20 @@ import { useGlobalFilter, usePagination, useRowSelect, useSortBy, useTable } fro
 import clsx from 'clsx';
 import TaskTablePaginationActions from './TaskTablePaginationActions';
 
-const IndeterminateCheckbox = React.forwardRef(({ indeterminate, ...rest }, ref) => {
-	const defaultRef = React.useRef();
-	const resolvedRef = ref || defaultRef;
+// const IndeterminateCheckbox = React.forwardRef(({ indeterminate, ...rest }, ref) => {
+// 	const defaultRef = React.useRef();
+// 	const resolvedRef = ref || defaultRef;
 
-	React.useEffect(() => {
-		resolvedRef.current.indeterminate = indeterminate;
-	}, [resolvedRef, indeterminate]);
+// 	React.useEffect(() => {
+// 		resolvedRef.current.indeterminate = indeterminate;
+// 	}, [resolvedRef, indeterminate]);
 
-	return (
-		<>
-			<Checkbox ref={resolvedRef} {...rest} />
-		</>
-	);
-});
+// 	return (
+// 		<>
+// 			<Checkbox ref={resolvedRef} {...rest} />
+// 		</>
+// 	);
+// });
 
 const EnhancedTable = ({ columns, data, onRowClick }) => {
 	const {
@@ -60,18 +60,16 @@ const EnhancedTable = ({ columns, data, onRowClick }) => {
 					// rows in most cases.  The client should only download data for the current page.
 					// In that case, getToggleAllRowsSelectedProps works fine.
 					Header: ({ getToggleAllRowsSelectedProps }) => (
-						<div>
-							<IndeterminateCheckbox {...getToggleAllRowsSelectedProps()} />
-						</div>
+						<div>{/* <IndeterminateCheckbox {...getToggleAllRowsSelectedProps()} /> */}</div>
 					),
 					// The cell can use the individual row's getToggleRowSelectedProps method
 					// to the render a checkbox
 					Cell: ({ row }) => (
 						<div>
-							<IndeterminateCheckbox
+							{/* <IndeterminateCheckbox
 								{...row.getToggleRowSelectedProps()}
 								onClick={ev => ev.stopPropagation()}
-							/>
+							/> */}
 						</div>
 					)
 				},

@@ -1,6 +1,7 @@
-import { TextFieldFormsy } from '@fuse/core/formsy';
+import { SelectFormsy, TextFieldFormsy } from '@fuse/core/formsy';
 import { useForm } from '@fuse/hooks';
 import FuseUtils from '@fuse/utils/FuseUtils';
+import { MenuItem } from '@material-ui/core';
 import AppBar from '@material-ui/core/AppBar';
 import Avatar from '@material-ui/core/Avatar';
 import Button from '@material-ui/core/Button';
@@ -138,7 +139,7 @@ function ContactDialog(props) {
 				<DialogContent classes={{ root: 'p-24' }}>
 					<div className="flex">
 						<div className="min-w-48 pt-20">{/* <Icon color="action">account_circle</Icon> */}</div>
-
+						<TextFieldFormsy name="id" value={form.id} type="hidden" />
 						<TextFieldFormsy
 							className="mb-24"
 							label="First name"
@@ -148,12 +149,6 @@ function ContactDialog(props) {
 							value={form.first_name}
 							variant="outlined"
 							fullWidth
-							validations={{
-								minLength: 4
-							}}
-							validationErrors={{
-								minLength: 'Min character length is 4'
-							}}
 							required
 						/>
 					</div>
@@ -168,12 +163,6 @@ function ContactDialog(props) {
 							value={form.last_name}
 							variant="outlined"
 							fullWidth
-							validations={{
-								minLength: 4
-							}}
-							validationErrors={{
-								minLength: 'Min character length is 4'
-							}}
 							required
 						/>
 					</div>
@@ -210,12 +199,6 @@ function ContactDialog(props) {
 							value={form.user_name}
 							variant="outlined"
 							fullWidth
-							validations={{
-								minLength: 4
-							}}
-							validationErrors={{
-								minLength: 'Min character length is 4'
-							}}
 							required
 						/>
 					</div>
@@ -230,12 +213,6 @@ function ContactDialog(props) {
 							value={form.password}
 							variant="outlined"
 							fullWidth
-							validations={{
-								minLength: 4
-							}}
-							validationErrors={{
-								minLength: 'Min character length is 4'
-							}}
 							required
 						/>
 					</div>
@@ -250,14 +227,24 @@ function ContactDialog(props) {
 							value={form.api_link}
 							variant="outlined"
 							fullWidth
-							validations={{
-								minLength: 10
-							}}
-							validationErrors={{
-								minLength: 'Min character length is 4'
-							}}
 							required
 						/>
+					</div>
+					<div className="flex">
+						<div className="min-w-48 pt-20" />
+
+						<SelectFormsy
+							className="mb-24 MuiFormControl-fullWidth"
+							label="Status"
+							id="status"
+							name="status"
+							value={form.status}
+							variant="outlined"
+							required
+						>
+							<MenuItem value="1">Active</MenuItem>
+							<MenuItem value="0">InActive</MenuItem>
+						</SelectFormsy>
 					</div>
 				</DialogContent>
 
@@ -288,9 +275,6 @@ function ContactDialog(props) {
 								Save
 							</Button>
 						</div>
-						<IconButton onClick={handleRemove}>
-							<Icon>delete</Icon>
-						</IconButton>
 					</DialogActions>
 				)}
 			</Formsy>

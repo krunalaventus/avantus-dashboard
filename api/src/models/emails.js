@@ -1,5 +1,6 @@
 import Sequelize from 'sequelize';
 import { sequelize } from '../database/database'
+import User from './users';
 
 
 const Emails =  sequelize.define('emails', {
@@ -37,5 +38,6 @@ const Emails =  sequelize.define('emails', {
 });
 
 export default Emails;
-// Product.belongsTo(Brands, { foreignKey:'brand_id'})
-// Brands.hasOne(Product, { foreignKey:'id' }) 
+
+User.belongsTo(Emails, { foreignKey:'id', as: "CustomerId", targetKey: 'customer_id'})
+Emails.hasOne(User, { foreignKey:'id', targetKey: 'customer_id' }) 

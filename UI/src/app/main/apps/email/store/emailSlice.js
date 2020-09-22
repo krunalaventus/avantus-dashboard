@@ -1,5 +1,6 @@
 import { createSlice, createAsyncThunk, createEntityAdapter } from '@reduxjs/toolkit';
 import axios from 'axios';
+import { confirmAlert } from 'react-confirm-alert';
 import { getUserData } from './userSlice';
 
 export const getemail = createAsyncThunk('emailApp/email/getEmail', async (routeParams, { getState }) => {
@@ -11,6 +12,7 @@ export const getemail = createAsyncThunk('emailApp/email/getEmail', async (route
 });
 
 export const addEmail = createAsyncThunk('emailApp/email/addEmail', async (email, { dispatch, getState }) => {
+	email.id = null;
 	const response = await axios.post(`${process.env.REACT_APP_API_URL}email`, email);
 	const data = await response.data;
 	dispatch(getemail());
@@ -93,6 +95,14 @@ export const setemailUnstarred = createAsyncThunk(
 		return data;
 	}
 );
+
+export const deleteThis = createAsyncThunk('emailApp/email/deleteThis', async (id, { dispatch, getState }) => {
+	// eslint-disable-next-line no-restricted-globals
+	const d = confirm('Do You want to delete this entry?');
+	if (d === true) {
+		dispatch(removeEmail(id));
+	}
+});
 
 const emailAdapter = createEntityAdapter({});
 

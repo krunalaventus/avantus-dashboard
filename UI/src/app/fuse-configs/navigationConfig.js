@@ -157,6 +157,14 @@ const navigationConfig = [
 				type: 'item',
 				icon: 'account_box',
 				url: '/apps/email/all'
+			},
+			{
+				id: 'customerTask',
+				title: 'CUSTOMER TASK',
+				translate: 'CUSTOMER TASK',
+				type: 'item',
+				icon: 'account_box',
+				url: '/apps/customerTask/all'
 			}
 			// {
 			// 	id: 'chat',
