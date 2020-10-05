@@ -46,7 +46,7 @@ export async function getTask(req, res) {
 
 export async function getTaskByCustomers(req, res) {
     try{
-        if(!req.params.customer_id){
+        if(!req.params.id){
             return res.json({
                 statusCode:await checkCode('validation'),
                 success: false,
@@ -54,7 +54,7 @@ export async function getTaskByCustomers(req, res) {
             });
         }
        
-        let Taskdata = await TaskServices.getTaskByCustomer(req.params, req.body, res);
+        let Taskdata = await TaskServices.getTaskByCustomer(req.params, res);
         if(Taskdata){
             res.json(Taskdata);
         }

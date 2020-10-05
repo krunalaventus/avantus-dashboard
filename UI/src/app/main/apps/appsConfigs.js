@@ -13,6 +13,8 @@ import TodoAppConfig from './todo/TodoAppConfig';
 import TaskAppConfig from './task/TaskAppConfig';
 import EmailAppConfig from './email/EmailAppConfig';
 import CustomerTaskAppConfig from './customerTask/CustomerTaskConfig';
+import LeadsAppConfig from './leads/LeadsConfig';
+import UnsubscribeListAppConfig from './unsubscribeList/UnsubscribeListConfig';
 
 const appsConfigs = [
 	AnalyticsDashboardAppConfig,
@@ -29,7 +31,9 @@ const appsConfigs = [
 	NotesAppConfig,
 	TaskAppConfig,
 	EmailAppConfig,
-	CustomerTaskAppConfig
+	CustomerTaskAppConfig,
+	LeadsAppConfig,
+	UnsubscribeListAppConfig
 ];
 
 export default appsConfigs;

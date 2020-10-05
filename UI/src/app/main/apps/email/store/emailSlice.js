@@ -4,8 +4,19 @@ import { confirmAlert } from 'react-confirm-alert';
 import { getUserData } from './userSlice';
 
 export const getemail = createAsyncThunk('emailApp/email/getEmail', async (routeParams, { getState }) => {
-	routeParams = routeParams || getState().emailApp.email.routeParams;
-	const response = await axios.get(`${process.env.REACT_APP_API_URL}email`);
+	routeParams = routeParams || getState().taskApp.task.routeParams;
+	let url = '';
+	if (routeParams.id === 'all') {
+		url = `${process.env.REACT_APP_API_URL}email`;
+	} else {
+		url = `${process.env.REACT_APP_API_URL}email/customer/${routeParams.id}`;
+	}
+	const token = localStorage.getItem('token');
+	const response = await axios.get(url, {
+		headers: {
+			Authorization: token
+		}
+	});
 	const data = await response.data.data;
 
 	return { data, routeParams };
@@ -13,27 +24,43 @@ export const getemail = createAsyncThunk('emailApp/email/getEmail', async (route
 
 export const addEmail = createAsyncThunk('emailApp/email/addEmail', async (email, { dispatch, getState }) => {
 	email.id = null;
-	const response = await axios.post(`${process.env.REACT_APP_API_URL}email`, email);
+	const token = localStorage.getItem('token');
+	const response = await axios.post(`${process.env.REACT_APP_API_URL}email`, email, {
+		headers: {
+			Authorization: token
+		}
+	});
 	const data = await response.data;
 	dispatch(getemail());
 	return data;
 });
 
 export const updateEmail = createAsyncThunk('emailApp/email/updateEmail', async (email, { dispatch, getState }) => {
-	const response = await axios.put(`${process.env.REACT_APP_API_URL}email/${email.id}`, email);
+	const token = localStorage.getItem('token');
+	const response = await axios.put(`${process.env.REACT_APP_API_URL}email/${email.id}`, email, {
+		headers: {
+			Authorization: token
+		}
+	});
 	const data = await response.data;
 	dispatch(getemail());
 	return data;
 });
 
 export const removeEmail = createAsyncThunk('emailApp/email/removeEmail', async (emailId, { dispatch, getState }) => {
-	const response = await axios.delete(`${process.env.REACT_APP_API_URL}email/${emailId}`);
+	const token = localStorage.getItem('token');
+	const response = await axios.delete(`${process.env.REACT_APP_API_URL}email/${emailId}`, {
+		headers: {
+			Authorization: token
+		}
+	});
 	const data = await response.data;
 	dispatch(getemail());
 	return data;
 });
 
 export const removeemail = createAsyncThunk('emailApp/email/removeemail', async (emailIds, { dispatch, getState }) => {
+	const token = localStorage.getItem('token');
 	const response = await axios.post('/api/email-app/remove-email', { emailIds });
 	const data = await response.data;
 	dispatch(getemail());

@@ -13,6 +13,9 @@ exports.getAllTask = async function(req, res) {
     try {
         let createdata = {};
         var decodedData = req.decoded.data;
+        if(req.params.id) {
+            createdata = await Task.findAll({ where: { customer_id: req.params.id }, include:[User] });
+        }
         if (decodedData.user_role === "super user") {
             createdata = await Task.findAll({ include:[User] });
         } else {
@@ -47,16 +50,16 @@ exports.getAllTask = async function(req, res) {
     }
 };
 
-exports.getTaskByCustomer = async function(params, data, res) {
+exports.getTaskByCustomer = async function(params, res) {
     try {
-        let find = await Task.findOne({
+        let find = await Task.findAll({
             where:{
-                customer_id:params.customer_id,
-            }
+                customer_id:params.id,
+            }, include:[User]
         });
         if (find) {
             return {
-                statusCode: res.statusCode,
+                statusCode: 200,
                 success: true,
                 message: "Task fetch Successfully",
                 data: find

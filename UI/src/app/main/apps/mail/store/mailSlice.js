@@ -3,19 +3,24 @@ import axios from 'axios';
 import { showMessage } from 'app/store/fuse/messageSlice';
 
 export const getMail = createAsyncThunk('mailApp/mail/getMail', async params => {
-	const response = await axios.get('/api/mail-app/mail', { params });
-	const data = await response.data;
-	return data;
+	const token = localStorage.getItem('token');
+	const response = await fetch(`${process.env.REACT_APP_API_URL}imapEmails/${params.mailId}`, {
+		headers: {
+			Authorization: token
+		}
+	});
+	const res = await response.json();
+	return res;
 });
 
 export const updateMail = createAsyncThunk('mailApp/mail/updateMail', async (_data, { getState, dispatch }) => {
 	const { id } = getState().mailApp.mail;
 
 	const response = await axios.post('/api/mail-app/update-mail', { id, ..._data });
-	const data = await response.data;
+	const data = await response;
 
 	dispatch(showMessage({ message: 'Mail Saved' }));
-
+	console.log(data);
 	return data;
 });
 

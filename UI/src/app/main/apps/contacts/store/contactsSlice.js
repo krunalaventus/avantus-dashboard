@@ -4,7 +4,12 @@ import { getUserData } from './userSlice';
 
 export const getContacts = createAsyncThunk('contactsApp/contacts/getContacts', async (routeParams, { getState }) => {
 	routeParams = routeParams || getState().contactsApp.contacts.routeParams;
-	const response = await axios.get(`${process.env.REACT_APP_API_URL}user`);
+	const token = localStorage.getItem('token');
+	const response = await axios.get(`${process.env.REACT_APP_API_URL}user`, {
+		headers: {
+			Authorization: token
+		}
+	});
 	const data = await response.data.data;
 
 	return { data, routeParams };
@@ -15,7 +20,12 @@ export const addContact = createAsyncThunk(
 	async (contact, { dispatch, getState }) => {
 		contact.user_role = 'customer';
 		contact.id = null;
-		const response = await axios.post(`${process.env.REACT_APP_API_URL}user`, contact);
+		const token = localStorage.getItem('token');
+		const response = await axios.post(`${process.env.REACT_APP_API_URL}user`, contact, {
+			headers: {
+				Authorization: token
+			}
+		});
 		const data = await response.data;
 
 		dispatch(getContacts());
@@ -27,7 +37,12 @@ export const addContact = createAsyncThunk(
 export const updateContact = createAsyncThunk(
 	'contactsApp/contacts/updateContact',
 	async (contact, { dispatch, getState }) => {
-		const response = await axios.put(`${process.env.REACT_APP_API_URL}user/${contact.id}`, contact);
+		const token = localStorage.getItem('token');
+		const response = await axios.put(`${process.env.REACT_APP_API_URL}user/${contact.id}`, contact, {
+			headers: {
+				Authorization: token
+			}
+		});
 		const data = await response.data;
 
 		dispatch(getContacts());
@@ -39,7 +54,12 @@ export const updateContact = createAsyncThunk(
 export const removeContact = createAsyncThunk(
 	'contactsApp/contacts/removeContact',
 	async (contactId, { dispatch, getState }) => {
-		const response = await axios.delete(`${process.env.REACT_APP_API_URL}user/${contactId}`);
+		const token = localStorage.getItem('token');
+		const response = await axios.delete(`${process.env.REACT_APP_API_URL}user/${contactId}`, {
+			headers: {
+				Authorization: token
+			}
+		});
 		const data = await response.data;
 		dispatch(getContacts());
 
@@ -120,6 +140,15 @@ export const deleteThis = createAsyncThunk('contactsApp/contacts/deleteThis', as
 	const d = confirm('Do You want to delete this entry?');
 	if (d === true) {
 		dispatch(removeContact(id));
+	}
+});
+
+export const login = createAsyncThunk('contactsApp/contacts/login', async (id, { dispatch, getState }) => {
+	// eslint-disable-next-line no-restricted-globals
+	const d = confirm('Do You want to login as this customer?');
+	if (d === true) {
+		// dispatch(removeContact(id));
+		localStorage.setItem('custom_user_id', id);
 	}
 });
 

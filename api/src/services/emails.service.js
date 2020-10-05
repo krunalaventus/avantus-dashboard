@@ -9,11 +9,18 @@ import fs from 'fs';
 import "@babel/polyfill";
 import User from "../models/users";
 
-exports.getAllEmail = async function(params, data, res) {
+exports.getAllEmail = async function(req, res) {
     try {
-        let createdata = await Email.findAll({ include:[User]
-           
-        });
+        let createdata = {};
+        var decodedData = req.decoded.data;
+        if(req.params.id) {
+            createdata = await Email.findAll({ where: { customer_id: req.params.id }, include:[User] });
+        }
+        if (decodedData.user_role === "super user") {
+            createdata = await Email.findAll({ include:[User] });
+        } else {
+            createdata = await Email.findAll({ where: { customer_id: decodedData.id }, include:[User] });
+        }
         if (createdata) {
             return {
                 statusCode: res.statusCode,
@@ -43,16 +50,16 @@ exports.getAllEmail = async function(params, data, res) {
     }
 };
 
-exports.getEmailByUserName = async function(params, data, res) {
+exports.getEmailByCustomer = async function(params, res) {
     try {
-        let find = await Email.findOne({
+        let find = await Email.findAll({
             where:{
-                customer_id:params.customer_id,
-            }
+                customer_id:params.id,
+            }, include:[User]
         });
         if (find) {
             return {
-                statusCode: res.statusCode,
+                statusCode: 200,
                 success: true,
                 message: "Email fetch Successfully",
                 data: find

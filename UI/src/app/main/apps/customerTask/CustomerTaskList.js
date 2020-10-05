@@ -18,11 +18,11 @@ function CustomerTaskList(props) {
 
 	const [filteredData, setFilteredData] = useState(null);
 	function CompletionFlag(prop) {
-		return <Icon>star</Icon>;
+		return <Icon>check_circle</Icon>;
 	}
 
 	function DecompletionFlag(prop) {
-		return <Icon>star_border</Icon>;
+		return <Icon>highlight_off</Icon>;
 	}
 	function IsCompletionFlag(prop) {
 		const isCompleted = prop.completion_flag;

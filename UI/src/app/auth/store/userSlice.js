@@ -83,8 +83,34 @@ export const setUserData = user => async (dispatch, getState) => {
 	dispatch(setDefaultSettings(user.data.settings));
 
 	dispatch(setUser(user));
+	// history.push({
+	// 	pathname: '/'
+	// });
 	const token = user.access_token;
 	localStorage.setItem('token', token);
+};
+
+export const setCustomerData = user => async (dispatch, getState) => {
+	/*
+        You can redirect the logged-in user to a specific route depending on his role
+         */
+
+	// history.location.state = {
+	// 	redirectUrl: user.redirectUrl // for example 'apps/academy'
+	// };
+
+	/*
+    Set User Settings
+     */
+	dispatch(setDefaultSettings(user.data.settings));
+
+	dispatch(setUser(user));
+
+	const token = user.access_token;
+	localStorage.setItem('token', token);
+	history.push({
+		pathname: '/'
+	});
 };
 
 export const updateUserSettings = settings => async (dispatch, getState) => {

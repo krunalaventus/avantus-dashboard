@@ -5,7 +5,7 @@ import "@babel/polyfill"
 
 export async function getAllEmails(req, res) {
     try{
-        let logindata = await EmailServices.getAllEmail(req.params, req.body, res);
+        let logindata = await EmailServices.getAllEmail(req, res);
         if(logindata){
             res.json(logindata);
         }
@@ -44,7 +44,7 @@ export async function getEmail(req, res) {
 
 export async function getEmailByUserNames(req, res) {
     try{
-        if(!req.params.username){
+        if(!req.params.id){
             return res.json({
                 statusCode:await checkCode('validation'),
                 success: false,
@@ -52,7 +52,7 @@ export async function getEmailByUserNames(req, res) {
             });
         }
        
-        let Emaildata = await EmailServices.getEmailByUserName(req.params, req.body, res);
+        let Emaildata = await EmailServices.getEmailByCustomer(req.params, res);
         if(Emaildata){
             res.json(Emaildata);
         }

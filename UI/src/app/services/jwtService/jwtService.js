@@ -77,6 +77,24 @@ class JwtService extends FuseUtils.EventEmitter {
 		});
 	};
 
+	signInAsCustomer = id => {
+		return new Promise((resolve, reject) => {
+			axios
+				.post(`${process.env.REACT_APP_API_URL}user/loginCustomer`, {
+					id
+				})
+				.then(response => {
+					console.log(response);
+					if (response.data.user) {
+						this.setSession(response.data.access_token);
+						resolve(response.data.user);
+					} else {
+						reject(response.data.error);
+					}
+				});
+		});
+	};
+
 	signInWithToken = () => {
 		return new Promise((resolve, reject) => {
 			axios

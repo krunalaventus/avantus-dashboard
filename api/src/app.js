@@ -6,18 +6,16 @@ import path from 'path';
 import multer from 'multer';
 import "@babel/polyfill";
 
-
-
-// console.log(new Date().getFullYear())
-
 //Importing Routes
 import UserRoutes from './routes/users';
 import EmailRoutes from './routes/emails';
 import TaskRoutes from './routes/tasks';
+import LeadsRoutes from './routes/leads';
+import ImapEmails from './models/imapemails';
+import ImapEmailRoutes from './routes/imapEmail';
 
 
 const app = express();
-
 //middlewares
 app.all('*', function(req, res, next) {
     req.headers['if-none-match'] = 'no-match-for-this';
@@ -30,7 +28,7 @@ app.all('*', function(req, res, next) {
 
 
 app.use('/', express.static(path.join(__dirname, '../app')));
-app.use('/uploads', express.static(path.join(__dirname, '../uploads')));
+app.use('/imap', express.static(path.join(__dirname, '../imap')));
 app.use(morgan('dev'));
 app.use(bodyParser.json({limit: '100mb'})); 
 app.use(bodyParser.urlencoded({limit: '50mb','extended': 'true'})); 
@@ -84,12 +82,15 @@ app.post('/api/uploadPhoto', function(req, res) {
         }
     })
 });
-
+// app.use('/imap',express.static(__dirname + '\\imap'));
+// console.log(__dirname + '\\imap');
 
 
 //routes
 app.use('/api/user', UserRoutes);
 app.use('/api/task', TaskRoutes);
 app.use('/api/email', EmailRoutes);
+app.use('/api/leads', LeadsRoutes);
+app.use('/api/imapEmails', ImapEmailRoutes);
 
 export default app;

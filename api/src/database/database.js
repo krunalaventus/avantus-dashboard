@@ -11,6 +11,8 @@ import Sequelize from 'sequelize';
 //   }
 // });
 
+var mysql = require('mysql');
+
 export const sequelize =  new Sequelize('customer_app', 'sa', 'ye2991noh', { 
   host: "localhost",
   dialect: 'mssql',
@@ -19,7 +21,10 @@ export const sequelize =  new Sequelize('customer_app', 'sa', 'ye2991noh', {
     "timestamps":false,
     "freezeTableName":true,  
     "underscored": true
-  }
+  },
+  dialectOptions: {
+    requestTimeout: 10000000
+  },
 });
 
 sequelize.authenticate()

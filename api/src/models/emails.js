@@ -34,10 +34,12 @@ const Emails =  sequelize.define('emails', {
     customer_id:{
         type: Sequelize.INTEGER
     },
-   
+    last_updated_uid:{
+        type: Sequelize.INTEGER
+    }
 });
 
 export default Emails;
 
-User.belongsTo(Emails, { foreignKey:'id', as: "CustomerId", targetKey: 'customer_id'})
-Emails.hasOne(User, { foreignKey:'id', targetKey: 'customer_id' }) 
+User.hasMany(Emails, { foreignKey: 'customer_id' });
+Emails.belongsTo(User, { foreignKey: 'customer_id', targetKey: 'id' });

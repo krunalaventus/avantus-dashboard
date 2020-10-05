@@ -25,5 +25,8 @@ const Tasks =  sequelize.define('tasks', {
 });
 
 export default Tasks;
-User.belongsTo(Tasks, { foreignKey:'id', targetKey: 'customer_id'})
-Tasks.hasOne(User, { foreignKey:'id', targetKey: 'customer_id' }) 
+// User.belongsTo(Tasks, { foreignKey:'id', targetKey: 'customer_id'})
+// Tasks.hasOne(User, { foreignKey:'id', targetKey: 'customer_id' }) 
+//AccountGroup
+User.hasMany(Tasks, { foreignKey: 'customer_id' });
+Tasks.belongsTo(User, { foreignKey: 'customer_id', targetKey: 'id' });

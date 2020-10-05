@@ -4,9 +4,15 @@ import { getUserData } from './userSlice';
 
 export const gettask = createAsyncThunk('taskApp/task/getTask', async (routeParams, { getState }) => {
 	routeParams = routeParams || getState().taskApp.task.routeParams;
+	let url = '';
+	if (routeParams.id === 'all') {
+		url = `${process.env.REACT_APP_API_URL}task`;
+	} else {
+		url = `${process.env.REACT_APP_API_URL}task/customer/${routeParams.id}`;
+	}
 	const token = localStorage.getItem('token');
 
-	const response = await axios.get(`${process.env.REACT_APP_API_URL}task`, {
+	const response = await axios.get(url, {
 		headers: {
 			Authorization: token
 		}
@@ -16,23 +22,51 @@ export const gettask = createAsyncThunk('taskApp/task/getTask', async (routePara
 	return { data, routeParams };
 });
 
+export const gettaskByCustomer = createAsyncThunk('taskApp/task/gettaskByCustomer', async (id, { getState }) => {
+	const token = localStorage.getItem('token');
+
+	const response = await axios.get(`${process.env.REACT_APP_API_URL}task/customer/${id}`, {
+		headers: {
+			Authorization: token
+		}
+	});
+	const data = await response.data.data;
+
+	return data;
+});
+
 export const addTask = createAsyncThunk('taskApp/task/addTask', async (task, { dispatch, getState }) => {
 	task.id = null;
-	const response = await axios.post(`${process.env.REACT_APP_API_URL}task`, task);
+	const token = localStorage.getItem('token');
+	const response = await axios.post(`${process.env.REACT_APP_API_URL}task`, task, {
+		headers: {
+			Authorization: token
+		}
+	});
 	const data = await response.data;
 	dispatch(gettask());
 	return data;
 });
 
 export const updateTask = createAsyncThunk('taskApp/task/updateTask', async (task, { dispatch, getState }) => {
-	const response = await axios.put(`${process.env.REACT_APP_API_URL}task/${task.id}`, task);
+	const token = localStorage.getItem('token');
+	const response = await axios.put(`${process.env.REACT_APP_API_URL}task/${task.id}`, task, {
+		headers: {
+			Authorization: token
+		}
+	});
 	const data = await response.data;
 	dispatch(gettask());
 	return data;
 });
 
 export const removeTask = createAsyncThunk('taskApp/task/removeTask', async (taskId, { dispatch, getState }) => {
-	const response = await axios.delete(`${process.env.REACT_APP_API_URL}task/${taskId}`);
+	const token = localStorage.getItem('token');
+	const response = await axios.delete(`${process.env.REACT_APP_API_URL}task/${taskId}`, {
+		headers: {
+			Authorization: token
+		}
+	});
 	const data = await response.data;
 	dispatch(gettask());
 	return data;
@@ -40,7 +74,12 @@ export const removeTask = createAsyncThunk('taskApp/task/removeTask', async (tas
 
 export const getUsers = createAsyncThunk('taskApp/task/getUser', async (routeParams, { getState }) => {
 	routeParams = routeParams || getState().taskApp.task.routeParams;
-	const response = await axios.get(`${process.env.REACT_APP_API_URL}user`);
+	const token = localStorage.getItem('token');
+	const response = await axios.get(`${process.env.REACT_APP_API_URL}user`, {
+		headers: {
+			Authorization: token
+		}
+	});
 	const data = await response.data.data;
 
 	return { data, routeParams };
@@ -56,7 +95,12 @@ export const removetask = createAsyncThunk('taskApp/task/removetask', async (tas
 export const toggleStarredTask = createAsyncThunk(
 	'taskApp/task/toggleStarredTask',
 	async (taskId, { dispatch, getState }) => {
-		const response = await axios.get(`${process.env.REACT_APP_API_URL}task/completion-flag/${taskId}`);
+		const token = localStorage.getItem('token');
+		const response = await axios.get(`${process.env.REACT_APP_API_URL}task/completion-flag/${taskId}`, {
+			headers: {
+				Authorization: token
+			}
+		});
 		const data = await response.data;
 
 		dispatch(getUserData());

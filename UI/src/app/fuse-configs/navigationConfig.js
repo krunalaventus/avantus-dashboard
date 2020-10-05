@@ -101,19 +101,6 @@ const navigationConfig = [
 			// 	url: '/apps/academy'
 			// },
 			// {
-			// 	id: 'mail',
-			// 	title: 'Mail',
-			// 	translate: 'MAIL',
-			// 	type: 'item',
-			// 	icon: 'email',
-			// 	url: '/apps/mail',
-			// 	badge: {
-			// 		title: 25,
-			// 		bg: '#F44336',
-			// 		fg: '#FFFFFF'
-			// 	}
-			// },
-			// {
 			// 	id: 'todo',
 			// 	title: 'To-Do',
 			// 	translate: 'TODO',
@@ -134,10 +121,29 @@ const navigationConfig = [
 			// 	icon: 'folder',
 			// 	url: '/apps/file-manager'
 			// },
+
+			{
+				id: 'dashboard',
+				title: 'Dashboard',
+				translate: 'Dashboard',
+				type: 'item',
+				auth: authRoles.customer,
+				icon: 'account_box',
+				url: '/apps/dashboards/analytics'
+			},
+			{
+				id: 'mail',
+				title: 'Mail',
+				translate: 'Mail',
+				type: 'item',
+				icon: 'email',
+				url: '/apps/mail',
+				auth: authRoles.customer
+			},
 			{
 				id: 'customers',
 				title: 'Customers',
-				translate: 'CUSTOMERS',
+				translate: 'Customers',
 				type: 'item',
 				auth: authRoles.admin,
 				icon: 'account_box',
@@ -146,7 +152,7 @@ const navigationConfig = [
 			{
 				id: 'tasks',
 				title: 'Tasks',
-				translate: 'TASKS',
+				translate: 'Tasks',
 				type: 'item',
 				auth: authRoles.admin,
 				icon: 'account_box',
@@ -155,7 +161,7 @@ const navigationConfig = [
 			{
 				id: 'email',
 				title: 'Emails',
-				translate: 'EMAIL',
+				translate: 'Emails',
 				type: 'item',
 				auth: authRoles.admin,
 				icon: 'account_box',
@@ -163,12 +169,30 @@ const navigationConfig = [
 			},
 			{
 				id: 'customerTask',
-				title: 'TASK',
-				translate: 'TASK',
+				title: 'Tasks',
+				translate: 'Tasks',
 				type: 'item',
 				auth: authRoles.customer,
 				icon: 'account_box',
 				url: '/apps/customerTask/all'
+			},
+			{
+				id: 'leads',
+				title: 'Contacts',
+				translate: 'Contacts',
+				type: 'item',
+				auth: authRoles.customer,
+				icon: 'account_box',
+				url: '/apps/leads/all'
+			},
+			{
+				id: 'unsubscribedList',
+				title: 'File Manager',
+				translate: 'File Manager',
+				type: 'item',
+				auth: authRoles.customer,
+				icon: 'account_box',
+				url: '/apps/unsubscribeList/all'
 			}
 			// {
 			// 	id: 'chat',

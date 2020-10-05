@@ -2,13 +2,25 @@ import { createSlice } from '@reduxjs/toolkit';
 import { showMessage } from 'app/store/fuse/messageSlice';
 import firebaseService from 'app/services/firebaseService';
 import jwtService from 'app/services/jwtService';
-import { setUserData } from './userSlice';
+import { logoutUser, setCustomerData, setUserData } from './userSlice';
 
 export const submitLogin = ({ email, password }) => async dispatch => {
 	return jwtService
 		.signInWithEmailAndPassword(email, password)
 		.then(user => {
 			dispatch(setUserData(user));
+			return dispatch(loginSuccess());
+		})
+		.catch(error => {
+			return dispatch(loginError(error));
+		});
+};
+
+export const submitCustomerLogin = ({ id }) => async dispatch => {
+	return jwtService
+		.signInAsCustomer(id)
+		.then(user => {
+			dispatch(setCustomerData(user));
 			return dispatch(loginSuccess());
 		})
 		.catch(error => {

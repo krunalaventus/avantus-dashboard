@@ -3,10 +3,17 @@ import axios from 'axios';
 
 export const getMails = createAsyncThunk('mailApp/mails/getMails', async (routeParams, { getState }) => {
 	routeParams = routeParams || getState().mailApp.mails.routeParams;
-	const response = await axios.get('/api/mail-app/mails', {
-		params: routeParams
+	const token = localStorage.getItem('token');
+	const response = await axios.get(`${process.env.REACT_APP_API_URL}imapEmails`, {
+		headers: {
+			Authorization: token
+		}
 	});
-	const data = await response.data;
+	const data = await response.data.data;
+	// const response = await axios.get('/api/mail-app/mails', {
+	// 	params: routeParams
+	// });
+	// const data = await response.data;
 
 	return { data, routeParams };
 });

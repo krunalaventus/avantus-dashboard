@@ -5,11 +5,11 @@ import { checkToken, checkSecretToken } from '../utility/tokenValidation';
 
 import {getEmail, createEmail, updateEmail, deleteEmail, getEmailByUserNames, getAllEmails } from '../controllers/emails.controller';
 
-EmailRoutes.get('/', getAllEmails);
-EmailRoutes.get('/:limit/:offset/:customer_id', getEmailByUserNames);
-EmailRoutes.get('/:id', getEmail);
-EmailRoutes.post('/', createEmail);
-EmailRoutes.put('/:id', updateEmail);
-EmailRoutes.delete('/:id', deleteEmail);
+EmailRoutes.get('/',checkToken, getAllEmails);
+EmailRoutes.get('/customer/:id',checkToken, getEmailByUserNames);
+EmailRoutes.get('/:id',checkToken, getEmail);
+EmailRoutes.post('/',checkToken, createEmail);
+EmailRoutes.put('/:id',checkToken, updateEmail);
+EmailRoutes.post('/delete',checkToken, deleteEmail);
 
 export default EmailRoutes;

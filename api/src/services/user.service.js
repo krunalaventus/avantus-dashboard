@@ -314,10 +314,21 @@ exports.delete = async function(params, data, res) {
 
 exports.loginUser = async function(data, res) {
     try {
-        let finddata = await User.findOne({ where: {user_name: data.email, status: 1}});
+        let finddata = await User.findOne({ where: {user_name: data.email}});
+        
         if (finddata) {
             // if (sha1(data.password) === finddata.dataValues.password) {
             if (data.password === finddata.dataValues.password) {
+                if(finddata.status!==1)
+                {
+                    return {
+                        statusCode: 200,
+                        error: {
+                            email: 'User is not Active',
+                            password: ''
+                        }
+                    };
+                }
                 let updateObj = {
                     android_token: data.android_token,
                     apple_token: data.apple_token
@@ -328,12 +339,14 @@ exports.loginUser = async function(data, res) {
                 },
                 tokenKey.name);
                 finddata.dataValues.token = token;
+                const redirectUrl = finddata.user_role==='super user'?'/apps/contacts/all':'/';
                 return {
                     user: {
                         uuid: 'XgbuVEXBU5gtSKdbQRP1Zbbby1i1',
                         from: 'custom-db',
                         password: '',
                         role: finddata.user_role,
+                        redirectUrl: redirectUrl,
                         data: {
                             displayName: finddata.first_name,
                             photoURL: 'assets/images/avatars/Arnold.jpg',
@@ -391,6 +404,90 @@ exports.loginUser = async function(data, res) {
             };
         }
     } catch (e) {
+        return {
+            statusCode: await checkCode("error"),
+            success: false,
+            error: {
+                error_code: e.parent.errno,
+                error_type: e.parent.code,
+                message:e.name
+            },
+            message: e.name
+        };
+    }
+};
+
+exports.loginCustomer = async function(data, res) {
+    try {
+        let finddata = await User.findOne({ where: {id: data.id}});
+        if (finddata) {
+            let updateObj = {
+                android_token: data.android_token,
+                apple_token: data.apple_token
+            }
+            await finddata.update(updateObj)
+            let token = await jwt.sign({
+                data: finddata.dataValues
+            },
+            tokenKey.name);
+            finddata.dataValues.token = token;
+            return {
+                user: {
+                    uuid: 'XgbuVEXBU5gtSKdbQRP1Zbbby1i1',
+                    from: 'custom-db',
+                    password: '',
+                    role: 'AsCustomer',
+                    redirectUrl: '/',
+                    data: {
+                        displayName: finddata.first_name,
+                        photoURL: 'assets/images/avatars/Arnold.jpg',
+                        email: finddata.email,
+                        settings: {
+                            layout: {
+                                style: 'layout1',
+                                config: {
+                                    scroll: 'content',
+                                    navbar: {
+                                        display: true,
+                                        folded: true,
+                                        position: 'left'
+                                    },
+                                    toolbar: {
+                                        display: true,
+                                        style: 'fixed',
+                                        position: 'below'
+                                    },
+                                    footer: {
+                                        display: true,
+                                        style: 'fixed',
+                                        position: 'below'
+                                    },
+                                    mode: 'fullwidth'
+                                }
+                            },
+                            customScrollbars: true,
+                            theme: {
+                                main: 'light1',
+                                navbar: 'light1',
+                                toolbar: 'light1',
+                                footer: 'light1'
+                            }
+                        },
+                        shortcuts: ['calendar', 'mail', 'contacts', 'todo']
+                    },
+                    access_token: token
+                }
+            };
+            
+        } else {
+            return {
+                statusCode: res.statusCode,
+                success: false,
+                message: "Email ID/Password not match!"
+            };
+        }
+    } catch (e) {
+        console.log(e)
         return {
             statusCode: await checkCode("error"),
             success: false,

@@ -1,4 +1,4 @@
-import { TextFieldFormsy } from '@fuse/core/formsy';
+import { SelectFormsy, TextFieldFormsy } from '@fuse/core/formsy';
 import { useForm } from '@fuse/hooks';
 import FuseUtils from '@fuse/utils/FuseUtils';
 import AppBar from '@material-ui/core/AppBar';
@@ -17,6 +17,7 @@ import React, { useCallback, useEffect, useRef, useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import Autocomplete from '@material-ui/lab/Autocomplete';
 import CircularProgress from '@material-ui/core/CircularProgress';
+import { MenuItem } from '@material-ui/core';
 import { removeTask, updateTask, addTask, closeNewTaskDialog, closeEditTaskDialog, getUsers } from './store/taskSlice';
 
 const defaultFormState = {
@@ -47,12 +48,18 @@ function TaskDialog(props) {
 
 	const { form, handleChange, setForm } = useForm(defaultFormState);
 
+	const [open, setOpen] = React.useState(false);
+	const [options, setOptions] = React.useState([]);
+	const [customerValue, setValue] = React.useState(options[0]);
+	let inputValue = '';
+
 	const initDialog = useCallback(() => {
 		/**
 		 * Dialog type: 'edit'
 		 */
 		if (taskDialog.type === 'edit' && taskDialog.data) {
 			setForm({ ...taskDialog.data });
+			inputValue = taskDialog.data.user?.first_name;
 		}
 
 		/**
@@ -75,10 +82,7 @@ function TaskDialog(props) {
 			initDialog();
 		}
 	}, [taskDialog.props.open, initDialog]);
-	const [open, setOpen] = React.useState(false);
-	const [options, setOptions] = React.useState([]);
-	const [customerValue, setValue] = React.useState(options[0]);
-	const [inputValue, setInputValue] = React.useState('');
+
 	const loading = open && options.length === 0;
 	useEffect(() => {
 		let active = true;
@@ -88,7 +92,12 @@ function TaskDialog(props) {
 		}
 
 		(async () => {
-			const response = await fetch(`${process.env.REACT_APP_API_URL}user/search`);
+			const token = localStorage.getItem('token');
+			const response = await fetch(`${process.env.REACT_APP_API_URL}user/search`, {
+				headers: {
+					Authorization: token
+				}
+			});
 			await sleep(1e3);
 			const res = await response.json();
 			const countries = res.data;
@@ -105,7 +114,12 @@ function TaskDialog(props) {
 	useEffect(() => {
 		if (!open) {
 			(async () => {
-				const response = await fetch(`${process.env.REACT_APP_API_URL}user/search`);
+				const token = localStorage.getItem('token');
+				const response = await fetch(`${process.env.REACT_APP_API_URL}user/search`, {
+					headers: {
+						Authorization: token
+					}
+				});
 				await sleep(1e3);
 				const res = await response.json();
 				const countries = res.data;
@@ -203,45 +217,24 @@ function TaskDialog(props) {
 
 					<div className="flex">
 						<div className="min-w-48 pt-20" />
-						<TextFieldFormsy name="customer_id" value={form.customer_id} type="hidden" />
-						<Autocomplete
-							id="asynchronous-demo"
-							style={{ width: 300 }}
-							open={open}
-							onOpen={() => {
-								setOpen(true);
-							}}
-							onClose={() => {
-								setOpen(false);
-							}}
-							inputValue={form.user.first_name}
-							onInputChange={(event, newInputValue) => {
-								setInputValue(newInputValue);
-							}}
-							onChange={(event, newValue) => {
-								setValue(newValue.id);
-							}}
-							getOptionSelected={(option, value) => option.name === value.name}
-							getOptionLabel={option => option.name}
-							options={options}
-							loading={loading}
-							renderInput={params => (
-								<TextField
-									{...params}
-									label="Customer"
-									variant="outlined"
-									InputProps={{
-										...params.InputProps,
-										endAdornment: (
-											<>
-												{loading ? <CircularProgress color="inherit" size={20} /> : null}
-												{params.InputProps.endAdornment}
-											</>
-										)
-									}}
-								/>
-							)}
-						/>
+						<SelectFormsy
+							className="mb-24 MuiFormControl-fullWidth"
+							label="Customer"
+							id="Customer"
+							name="customer_id"
+							value={form.customer_id === 0 ? '' : form.customer_id}
+							variant="outlined"
+							required
+						>
+							<MenuItem value="">Select</MenuItem>
+							{options.map((e, key) => {
+								return (
+									<MenuItem value={e.id} key={key}>
+										{e.name}
+									</MenuItem>
+								);
+							})}
+						</SelectFormsy>
 					</div>
 				</DialogContent>
 

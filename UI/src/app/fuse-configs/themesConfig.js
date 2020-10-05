@@ -63,13 +63,13 @@ const themesConfig = {
 		palette: {
 			type: 'light',
 			primary: {
-				light: '#b3d1d1',
-				main: '#006565',
+				light: '#16324F',
+				main: '#16324F',
 				dark: '#003737'
 			},
 			secondary: {
 				light: '#ffecc0',
-				main: '#FFBE2C',
+				main: '#F95738',
 				dark: '#ff9910',
 				contrastText: '#272727'
 			},

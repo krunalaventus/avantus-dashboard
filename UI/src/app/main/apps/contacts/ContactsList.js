@@ -4,11 +4,12 @@ import Avatar from '@material-ui/core/Avatar';
 import Icon from '@material-ui/core/Icon';
 import IconButton from '@material-ui/core/IconButton';
 import Typography from '@material-ui/core/Typography';
+import { submitCustomerLogin } from 'app/auth/store/loginSlice';
 import React, { useEffect, useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import ContactsMultiSelectMenu from './ContactsMultiSelectMenu';
 import ContactsTable from './ContactsTable';
-import { openEditContactDialog, deleteThis, toggleStarredContact, selectContacts } from './store/contactsSlice';
+import { openEditContactDialog, deleteThis, toggleStarredContact, selectContacts, login } from './store/contactsSlice';
 
 function ContactsList(props) {
 	const dispatch = useDispatch();
@@ -20,9 +21,9 @@ function ContactsList(props) {
 	function StatusChecker(prop) {
 		const isCompleted = prop.status;
 		if (isCompleted === 1) {
-			return <p>Active</p>;
+			return 'Active';
 		}
-		return <p>InActive</p>;
+		return 'InActive';
 	}
 	const columns = React.useMemo(
 		() => [
@@ -54,19 +55,15 @@ function ContactsList(props) {
 				sortable: true
 			},
 			{
-				id: 'status',
 				Header: 'Status',
-				width: 128,
-				sortable: false,
-				Cell: ({ row }) => (
-					<div className="flex items-center">
-						<StatusChecker status={row.original.status} />
-					</div>
-				)
+				accessor: 'status',
+				sortable: true,
+				Cell: ({ row }) => <StatusChecker status={row.original.status} />
 			},
 			{
 				id: 'action',
 				width: 128,
+				Header: 'Delete',
 				sortable: false,
 				Cell: ({ row }) => (
 					<div className="flex items-center">
@@ -77,6 +74,25 @@ function ContactsList(props) {
 							}}
 						>
 							<Icon>delete</Icon>
+						</IconButton>
+					</div>
+				)
+			},
+			{
+				id: 'login',
+				Header: 'Login as Customer',
+				width: 128,
+				sortable: false,
+				Cell: ({ row }) => (
+					<div className="flex items-center">
+						<IconButton
+							onClick={ev => {
+								ev.stopPropagation();
+								dispatch(submitCustomerLogin({ id: row.original.id }));
+								// dispatch(login(row.original.id));
+							}}
+						>
+							<Icon>exit_to_app</Icon>
 						</IconButton>
 					</div>
 				)
