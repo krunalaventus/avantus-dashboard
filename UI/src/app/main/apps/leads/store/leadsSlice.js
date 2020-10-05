@@ -5,7 +5,7 @@ import { getUserData } from './userSlice';
 export const getleads = createAsyncThunk('leadsApp/leads/getLeads', async (routeParams, { getState }) => {
 	routeParams = routeParams || getState().leadsApp.leads.routeParams;
 	const token = localStorage.getItem('token');
-	const response = await axios.get(`${process.env.REACT_APP_API_URL}leads`, {
+	const response = await axios.get(`${process.env.REACT_APP_API_URL}leads/0`, {
 		headers: {
 			Authorization: token
 		}

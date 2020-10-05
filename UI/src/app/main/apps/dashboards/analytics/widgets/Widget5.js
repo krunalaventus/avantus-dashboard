@@ -13,7 +13,7 @@ function Widget5(props) {
 		(async () => {
 			await sleep(3000);
 			const token = localStorage.getItem('token');
-			const response = await fetch(`${process.env.REACT_APP_API_URL}leads/getGraphData`, {
+			const response = await fetch(`${process.env.REACT_APP_API_URL}leads/getGraphData/0`, {
 				headers: {
 					Authorization: token
 				}

@@ -22,7 +22,7 @@ function AnalyticsDashboardApp() {
 		if (i === 1) {
 			(async () => {
 				const token = localStorage.getItem('token');
-				const response = await fetch(`${process.env.REACT_APP_API_URL}leads/total`, {
+				const response = await fetch(`${process.env.REACT_APP_API_URL}leads/total/0`, {
 					headers: {
 						Authorization: token
 					}

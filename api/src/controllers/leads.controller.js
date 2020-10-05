@@ -92,3 +92,19 @@ export async function UnsubscribeLeads(req, res) {
         })
     }
 }
+
+export async function allCampaigns(req, res) {
+    try{
+        let logindata = await LeadsServices.allCampaign(req, res);
+        if(logindata){
+            res.json(logindata);
+        }
+    }catch(err){
+        res.status(500).json({
+            statusCode:await checkCode('error'),
+            error:err,
+            success: false,
+            message:"Something went wrong!"
+        })
+    }
+}

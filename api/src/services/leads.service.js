@@ -447,3 +447,26 @@ exports.unsubscribe = async function(req, data, res) {
         };
     }
 };
+
+exports.allCampaign = async function(req, res) {
+    var decodedData = req.decoded.data;
+    let user = await User.findOne({where:{
+        id: decodedData.id
+    }});
+        const auth = "Basic " + new Buffer('' + ":" + user.api_link).toString("base64");
+    request({
+        uri: 'https://api.lemlist.com/api/campaigns',
+        headers : {
+            "Authorization" : auth
+        }
+      },
+      async function (error, response, body) {
+          var bodyJson = JSON.parse(body);
+            return {
+                statusCode: 200,
+                success: true,
+                message: "Campaigns Found",
+                data: bodyJson
+            };                      
+          });
+}
