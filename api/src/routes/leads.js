@@ -13,4 +13,4 @@ LeadsRoutes.post('/delete',checkToken, deleteLeads);
 LeadsRoutes.post('/unsubscribe',checkToken, uploadPhoto.array('myFile'), UnsubscribeLeads);
 LeadsRoutes.get('/allCampaigns',checkToken, allCampaigns);
 
-export default LeadsRoutes;
+export default LeadsRoutes; 
