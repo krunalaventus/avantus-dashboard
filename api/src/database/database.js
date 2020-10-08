@@ -13,8 +13,8 @@ import Sequelize from 'sequelize';
 
 var mysql = require('mysql');
 
-export const sequelize =  new Sequelize('customer_app', 'sa', 'ye2991noh', { 
-  host: "localhost",
+export const sequelize =  new Sequelize('funnelboost', 'admin', 'Gmail.com098', { 
+  host: "funnelboost.clubkt760gyd.us-east-2.rds.amazonaws.com",
   dialect: 'mssql',
   login:false,
   define:{
