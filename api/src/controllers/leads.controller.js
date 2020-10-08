@@ -20,9 +20,9 @@ export async function getAllLeads(req, res) {
 }
 
 export async function getTotal(req, res) {
-    console.log(req.params)
     try{
         let logindata = await LeadsServices.getTotal(req, res);
+
         if(logindata){
             res.json(logindata);
         }

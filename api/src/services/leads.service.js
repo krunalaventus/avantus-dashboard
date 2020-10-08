@@ -52,20 +52,26 @@ exports.getAllLeads = async function(req, res) {
 
 exports.getGraphData = async function(req, res) {
     try {
+        let wherecondition ='';
+        let withwherecondition ='where ';
+        if(req.params.id !== '0') {
+            wherecondition = `and campaign_id ='${req.params.id}'`
+            withwherecondition = `where campaign_id ='${req.params.id}'`
+        }
         let createdata = {};
         var decodedData = req.decoded.data;
         if (decodedData.user_role === "super user") {
-            const sentAt_data = await sequelize.query("select count(a.id) count from leads a where a.sent_at !='' group by SUBSTRING(a.sent_At, 1, 10)", { type: QueryTypes.SELECT });
+            const sentAt_data = await sequelize.query(`select count(a.id) count from leads a where a.sent_at !='' ${wherecondition} group by SUBSTRING(a.sent_At, 1, 10)`, { type: QueryTypes.SELECT });
             let sentAt_array = [];
             sentAt_data.forEach(element => {
                 sentAt_array.push(element.count);
             });
-            const dates = await sequelize.query("select SUBSTRING(a.sent_At, 1, 10) AS date from leads a where a.sent_at !='' group by SUBSTRING(a.sent_At, 1, 10)", { type: QueryTypes.SELECT });
+            const dates = await sequelize.query(`select SUBSTRING(a.sent_At, 1, 10) AS date from leads a where a.sent_at !='' ${wherecondition} group by SUBSTRING(a.sent_At, 1, 10)`, { type: QueryTypes.SELECT });
             let dates_array = [];
             dates.forEach(element => {
                 dates_array.push(element.date);
             });
-            const repliedAt_data = await sequelize.query("select count(a.id) count from leads a where a.replied_at !='' group by SUBSTRING(a.replied_at, 1, 10)", { type: QueryTypes.SELECT });
+            const repliedAt_data = await sequelize.query(`select count(a.id) count from leads a where a.replied_at !='' ${wherecondition} group by SUBSTRING(a.replied_at, 1, 10)`, { type: QueryTypes.SELECT });
             let repliedAt_array = [];
             repliedAt_data.forEach(element => {
                 repliedAt_array.push(element.count);
@@ -143,19 +149,19 @@ exports.getGraphData = async function(req, res) {
                 }
             };
         } else {
-            const sentAt_data = await sequelize.query(`select count(a.id) count from leads a where a.sent_at !='' and a.customer_id=${decodedData.id} group by SUBSTRING(a.sent_At, 1, 10)`, { type: QueryTypes.SELECT });
+            const sentAt_data = await sequelize.query(`select count(a.id) count from leads a where a.sent_at !='' and a.customer_id=${decodedData.id}  ${wherecondition} group by SUBSTRING(a.sent_At, 1, 10)`, { type: QueryTypes.SELECT });
             console.log(sentAt_data)
             let sentAt_array = [];
             sentAt_data.forEach(element => {
                 sentAt_array.push(element.count);
             });
             console.log(sentAt_array)
-            const dates = await sequelize.query(`select SUBSTRING(a.sent_At, 1, 10) AS date from leads a where a.sent_at !='' and a.customer_id=${decodedData.id} group by SUBSTRING(a.sent_At, 1, 10)`, { type: QueryTypes.SELECT });
+            const dates = await sequelize.query(`select SUBSTRING(a.sent_At, 1, 10) AS date from leads a where a.sent_at !='' and a.customer_id=${decodedData.id}  ${wherecondition} group by SUBSTRING(a.sent_At, 1, 10)`, { type: QueryTypes.SELECT });
             let dates_array = [];
             dates.forEach(element => {
                 dates_array.push(element.date);
             });
-            const repliedAt_data = await sequelize.query(`select count(a.id) count from leads a where a.replied_at !='' and a.customer_id=${decodedData.id} group by SUBSTRING(a.replied_at, 1, 10)`, { type: QueryTypes.SELECT });
+            const repliedAt_data = await sequelize.query(`select count(a.id) count from leads a where a.replied_at !='' and a.customer_id=${decodedData.id}  ${wherecondition} group by SUBSTRING(a.replied_at, 1, 10)`, { type: QueryTypes.SELECT });
             let repliedAt_array = [];
             repliedAt_data.forEach(element => {
                 repliedAt_array.push(element.count);
@@ -265,6 +271,12 @@ exports.getGraphData = async function(req, res) {
 
 exports.getTotal = async function(req, res) {
     try {
+        let wherecondition ='';
+        let withwherecondition ='where ';
+        if(req.params.id !== '0') {
+            wherecondition = `and campaign_id ='${req.params.id}'`
+            withwherecondition = `where campaign_id ='${req.params.id}'`
+        }
         let createdata = {
             totalCount: 0,
             openedCount: 0,
@@ -273,20 +285,20 @@ exports.getTotal = async function(req, res) {
         };
         var decodedData = req.decoded.data;
         if (decodedData.user_role === "super user") {
-            const totalCount = await sequelize.query("select count(id) as count from leads", { type: QueryTypes.SELECT });
-            const openedCount = await sequelize.query("select count(id) as count from leads where opened_at !=''", { type: QueryTypes.SELECT });
-            const repliedCount = await sequelize.query("select count(id) as count from leads where replied_at !=''", { type: QueryTypes.SELECT });
-            const clickedCount = await sequelize.query("select count(id) as count from leads where clicked_at !=''", { type: QueryTypes.SELECT });
+            const totalCount = await sequelize.query($`select count(id) as count from leads ${withwherecondition}`, { type: QueryTypes.SELECT });
+            const openedCount = await sequelize.query(`select count(id) as count from leads where opened_at !='' ${wherecondition}`, { type: QueryTypes.SELECT });
+            const repliedCount = await sequelize.query(`select count(id) as count from leads where replied_at !='' ${wherecondition}`, { type: QueryTypes.SELECT });
+            const clickedCount = await sequelize.query(`select count(id) as count from leads where clicked_at !='' ${wherecondition}`, { type: QueryTypes.SELECT });
             console.log(totalCount)
             createdata.totalCount = totalCount[0].count;
             createdata.openedCount = openedCount[0].count;
             createdata.repliedCount = repliedCount[0].count;
             createdata.clickedCount = clickedCount[0].count;
         } else {
-            const totalCount = await sequelize.query(`select count(id) as count from leads where customer_id=${decodedData.id}`, { type: QueryTypes.SELECT });
-            const openedCount = await sequelize.query(`select count(id) as count from leads where opened_at !='' and customer_id=${decodedData.id}`, { type: QueryTypes.SELECT });
-            const repliedCount = await sequelize.query(`select count(id) as count from leads where replied_at !='' and customer_id=${decodedData.id}`, { type: QueryTypes.SELECT });
-            const clickedCount = await sequelize.query(`select count(id) as count from leads where clicked_at !='' and customer_id=${decodedData.id}`, { type: QueryTypes.SELECT });
+            const totalCount = await sequelize.query(`select count(id) as count from leads where customer_id=${decodedData.id} ${wherecondition}`, { type: QueryTypes.SELECT });
+            const openedCount = await sequelize.query(`select count(id) as count from leads where opened_at !='' and customer_id=${decodedData.id} ${wherecondition}`, { type: QueryTypes.SELECT });
+            const repliedCount = await sequelize.query(`select count(id) as count from leads where replied_at !='' and customer_id=${decodedData.id} ${wherecondition}`, { type: QueryTypes.SELECT });
+            const clickedCount = await sequelize.query(`select count(id) as count from leads where clicked_at !='' and customer_id=${decodedData.id} ${wherecondition}`, { type: QueryTypes.SELECT });
             console.log(totalCount)
             createdata.totalCount = totalCount[0].count;
             createdata.openedCount = openedCount[0].count;
