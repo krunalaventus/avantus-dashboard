@@ -142,7 +142,7 @@ const EnhancedTable = ({ columns, data, onRowClick }) => {
 				classes={{
 					root: 'flex-shrink-0 border-t-1'
 				}}
-				rowsPerPageOptions={[5, 10, 25, { label: 'All', value: data.length + 1 }]}
+				rowsPerPageOptions={[5, 10, 25, 100, { label: 'All', value: data.length + 1 }]}
 				colSpan={5}
 				count={data.length}
 				rowsPerPage={pageSize}

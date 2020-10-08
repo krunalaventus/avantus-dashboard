@@ -54,61 +54,7 @@ function MailAppSidebarContent(props) {
 	return (
 		<FuseAnimate animation="transition.slideUpIn" delay={400}>
 			<div className="flex-auto border-l-1">
-				<MailCompose />
-
 				<div>
-					<List>
-						<ListSubheader className={classes.listSubheader} disableSticky>
-							{t('FOLDERS')}
-						</ListSubheader>
-
-						{folders.length > 0 &&
-							folders.map(folder => (
-								<ListItem
-									button
-									component={NavLinkAdapter}
-									to={`/apps/mail/${folder.handle}`}
-									key={folder.id}
-									activeClassName="active"
-									className={classes.listItem}
-								>
-									<Icon className="list-item-icon" color="action">
-										{folder.icon}
-									</Icon>
-									<ListItemText
-										primary={folder.translate ? t(folder.translate) : folder.title}
-										disableTypography
-									/>
-								</ListItem>
-							))}
-					</List>
-
-					<List>
-						<ListSubheader className={classes.listSubheader} disableSticky>
-							{t('FILTERS')}
-						</ListSubheader>
-
-						{filters.length > 0 &&
-							filters.map(filter => (
-								<ListItem
-									button
-									component={NavLinkAdapter}
-									to={`/apps/mail/filter/${filter.handle}`}
-									activeClassName="active"
-									className={classes.listItem}
-									key={filter.id}
-								>
-									<Icon className="list-item-icon" color="action">
-										{filter.icon}
-									</Icon>
-									<ListItemText
-										primary={filter.translate ? t(filter.translate) : filter.title}
-										disableTypography
-									/>
-								</ListItem>
-							))}
-					</List>
-
 					<List>
 						<ListSubheader className={classes.listSubheader} disableSticky>
 							{t('LABELS')}

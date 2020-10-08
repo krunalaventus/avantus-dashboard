@@ -18,7 +18,7 @@ exports.getAllLeads = async function(req, res) {
         if (decodedData.user_role === "super user") {
             createdata = await Leads.findAll();
         } else {
-            createdata = await Leads.findAll({ where: { customer_id: decodedData.id }});
+            createdata = await Leads.findAll({ where: { customer_id: decodedData.id, campaignId: req.params.id }});
         }
         if (createdata) {
             return {
@@ -56,12 +56,10 @@ exports.getGraphData = async function(req, res) {
         var decodedData = req.decoded.data;
         if (decodedData.user_role === "super user") {
             const sentAt_data = await sequelize.query("select count(a.id) count from leads a where a.sent_at !='' group by SUBSTRING(a.sent_At, 1, 10)", { type: QueryTypes.SELECT });
-            console.log(sentAt_data)
             let sentAt_array = [];
             sentAt_data.forEach(element => {
                 sentAt_array.push(element.count);
             });
-            console.log(sentAt_array)
             const dates = await sequelize.query("select SUBSTRING(a.sent_At, 1, 10) AS date from leads a where a.sent_at !='' group by SUBSTRING(a.sent_At, 1, 10)", { type: QueryTypes.SELECT });
             let dates_array = [];
             dates.forEach(element => {
@@ -419,7 +417,8 @@ exports.delete = async function(req, res) {
 exports.unsubscribe = async function(req, data, res) {
     try {
         var decodedData = req.decoded.data;
-        var user = await User.findAll({ where:{ id: decodedData.id }})
+        var user = await User.findAll({ where:{ id: decodedData.id }});
+        let loadi = 0;
         data.forEach(element => {
             const auth = "Basic " + new Buffer('' + ":" + user.api_link).toString("base64");
             request({
@@ -430,6 +429,13 @@ exports.unsubscribe = async function(req, data, res) {
                 method: 'POST'
               },
               async function (error, response, body) {
+                    loadi = loadi+1;
+                  if(loadi === data.length) {
+                      res.json({
+                          status: 200,
+                          message: 'File upload.'
+                      })
+                  }
               });    
         });
         
@@ -462,11 +468,11 @@ exports.allCampaign = async function(req, res) {
       },
       async function (error, response, body) {
           var bodyJson = JSON.parse(body);
-            return {
+          res.json({
                 statusCode: 200,
                 success: true,
                 message: "Campaigns Found",
                 data: bodyJson
-            };                      
+            });
           });
 }

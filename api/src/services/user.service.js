@@ -329,11 +329,6 @@ exports.loginUser = async function(data, res) {
                         }
                     };
                 }
-                let updateObj = {
-                    android_token: data.android_token,
-                    apple_token: data.apple_token
-                }
-                await finddata.update(updateObj)
                 let token = await jwt.sign({
                     data: finddata.dataValues
                 },
@@ -421,11 +416,7 @@ exports.loginCustomer = async function(data, res) {
     try {
         let finddata = await User.findOne({ where: {id: data.id}});
         if (finddata) {
-            let updateObj = {
-                android_token: data.android_token,
-                apple_token: data.apple_token
-            }
-            await finddata.update(updateObj)
+            finddata.dataValues.user_role = finddata.user_role === 'super user'?'super user':'AsCustomer';
             let token = await jwt.sign({
                 data: finddata.dataValues
             },
@@ -436,7 +427,7 @@ exports.loginCustomer = async function(data, res) {
                     uuid: 'XgbuVEXBU5gtSKdbQRP1Zbbby1i1',
                     from: 'custom-db',
                     password: '',
-                    role: 'AsCustomer',
+                    role: finddata.user_role === 'super user'?'super user':'AsCustomer',
                     redirectUrl: '/',
                     data: {
                         displayName: finddata.first_name,
@@ -500,6 +491,87 @@ exports.loginCustomer = async function(data, res) {
         };
     }
 };
+
+exports.loginUsingToken = async function(req, res) {
+    var decodedData = req.decoded.data;
+    try {
+        let finddata = await User.findOne({ where: {id: decodedData.id}});
+        if (finddata) {
+            let token = await jwt.sign({
+                data: finddata.dataValues
+            },
+            tokenKey.name);
+            finddata.dataValues.token = token;
+            return {
+                user: {
+                    uuid: 'XgbuVEXBU5gtSKdbQRP1Zbbby1i1',
+                    from: 'custom-db',
+                    password: '',
+                    role: decodedData.user_role,
+                    redirectUrl: '/',
+                    data: {
+                        displayName: finddata.first_name,
+                        photoURL: 'assets/images/avatars/Arnold.jpg',
+                        email: finddata.email,
+                        settings: {
+                            layout: {
+                                style: 'layout1',
+                                config: {
+                                    scroll: 'content',
+                                    navbar: {
+                                        display: true,
+                                        folded: true,
+                                        position: 'left'
+                                    },
+                                    toolbar: {
+                                        display: true,
+                                        style: 'fixed',
+                                        position: 'below'
+                                    },
+                                    footer: {
+                                        display: true,
+                                        style: 'fixed',
+                                        position: 'below'
+                                    },
+                                    mode: 'fullwidth'
+                                }
+                            },
+                            customScrollbars: true,
+                            theme: {
+                                main: 'light1',
+                                navbar: 'light1',
+                                toolbar: 'light1',
+                                footer: 'light1'
+                            }
+                        },
+                        shortcuts: ['calendar', 'mail', 'contacts', 'todo']
+                    },
+                    access_token: token
+                }
+            };
+            
+        } else {
+            return {
+                statusCode: res.statusCode,
+                success: false,
+                message: "Email ID/Password not match!"
+            };
+        }
+    } catch (e) {
+        console.log(e)
+        return {
+            statusCode: await checkCode("error"),
+            success: false,
+            error: {
+                error_code: e.parent.errno,
+                error_type: e.parent.code,
+                message:e.name
+            },
+            message: e.name
+        };
+    }
+};
+
 
 exports.loginadmin = async function(data, res) {
     try {

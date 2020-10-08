@@ -4,8 +4,10 @@ import { getUserData } from './userSlice';
 
 export const getleads = createAsyncThunk('leadsApp/leads/getLeads', async (routeParams, { getState }) => {
 	routeParams = routeParams || getState().leadsApp.leads.routeParams;
+	console.log('Selected Value is', getState().leadsApp.leads.selectedValue);
 	const token = localStorage.getItem('token');
-	const response = await axios.get(`${process.env.REACT_APP_API_URL}leads/0`, {
+	const campaignId = getState().leadsApp.leads.selectedValue;
+	const response = await axios.get(`${process.env.REACT_APP_API_URL}leads/getAllLeads/${routeParams.id}`, {
 		headers: {
 			Authorization: token
 		}
@@ -17,21 +19,25 @@ export const getleads = createAsyncThunk('leadsApp/leads/getLeads', async (route
 export const removeLeads = createAsyncThunk(
 	'contactsApp/contacts/removeLeads',
 	async (contactIds, { dispatch, getState }) => {
-		const token = localStorage.getItem('token');
-		const response = await axios.post(
-			`${process.env.REACT_APP_API_URL}leads/delete`,
-			{ contactIds },
-			{
-				headers: {
-					Authorization: token
+		// eslint-disable-next-line no-restricted-globals
+		const d = confirm('Do You want to delete this entry?');
+		if (d === true) {
+			const token = localStorage.getItem('token');
+			const response = await axios.post(
+				`${process.env.REACT_APP_API_URL}leads/delete`,
+				{ contactIds },
+				{
+					headers: {
+						Authorization: token
+					}
 				}
-			}
-		);
-		const data = await response.data;
+			);
+			const data = await response.data;
 
-		dispatch(getleads());
+			dispatch(getleads());
 
-		return data;
+			return data;
+		}
 	}
 );
 

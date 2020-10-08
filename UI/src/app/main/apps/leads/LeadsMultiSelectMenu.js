@@ -6,10 +6,11 @@ import Menu from '@material-ui/core/Menu';
 import MenuItem from '@material-ui/core/MenuItem';
 import MenuList from '@material-ui/core/MenuList';
 import React, { useState } from 'react';
-import { useDispatch } from 'react-redux';
+import { useDispatch, useSelector } from 'react-redux';
 import { removeLeads } from './store/leadsSlice';
 
 function LeadsMultiSelectMenu(props) {
+	const user = useSelector(({ auth }) => auth.user);
 	const dispatch = useDispatch();
 	const { selectedLeadIds } = props;
 
@@ -23,7 +24,9 @@ function LeadsMultiSelectMenu(props) {
 		setAnchorEl(null);
 	}
 
-	return (
+	return user.role === 'AsCustomer' ? (
+		''
+	) : (
 		<>
 			<IconButton
 				className="p-0"

@@ -17,8 +17,8 @@ class Auth extends Component {
 	componentDidMount() {
 		return Promise.all([
 			// Comment the lines which you do not use
-			this.firebaseCheck(),
-			this.auth0Check(),
+			// this.firebaseCheck(),
+			// this.auth0Check(),
 			this.jwtCheck()
 		]).then(() => {
 			this.setState({ waitAuthCheck: false });
@@ -33,6 +33,7 @@ class Auth extends Component {
 				/**
 				 * Sign in and retrieve user data from Api
 				 */
+
 				jwtService
 					.signInWithToken()
 					.then(user => {
@@ -54,7 +55,7 @@ class Auth extends Component {
 					this.props.showMessage({ message });
 				}
 
-				this.props.logout();
+				// this.props.logout();
 
 				resolve();
 			});

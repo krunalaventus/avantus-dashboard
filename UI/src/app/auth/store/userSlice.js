@@ -108,9 +108,15 @@ export const setCustomerData = user => async (dispatch, getState) => {
 
 	const token = user.access_token;
 	localStorage.setItem('token', token);
-	history.push({
-		pathname: '/'
-	});
+	if (user.role === 'super user') {
+		history.push({
+			pathname: '/apps/contacts/all'
+		});
+	} else {
+		history.push({
+			pathname: '/'
+		});
+	}
 };
 
 export const updateUserSettings = settings => async (dispatch, getState) => {

@@ -13,13 +13,10 @@ exports.getAllEmail = async function(req, res) {
     try {
         let createdata = {};
         var decodedData = req.decoded.data;
-        if(req.params.id) {
-            createdata = await Email.findAll({ where: { customer_id: req.params.id }, include:[User] });
-        }
         if (decodedData.user_role === "super user") {
             createdata = await Email.findAll({ include:[User] });
         } else {
-            createdata = await Email.findAll({ where: { customer_id: decodedData.id }, include:[User] });
+            createdata = await Email.findAll({ where: { customer_id: decodedData.id }});
         }
         if (createdata) {
             return {

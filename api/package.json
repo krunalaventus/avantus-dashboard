@@ -18,6 +18,7 @@
     "csvtojson": "^2.0.10",
     "elasticsearch": "^16.7.1",
     "emailjs-imap-client": "^3.1.0",
+    "empty-folder": "^2.0.4",
     "express": "^4.17.1",
     "express-validator": "^6.3.1",
     "fs": "0.0.1-security",

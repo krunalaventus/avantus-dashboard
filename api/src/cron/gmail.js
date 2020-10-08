@@ -6,12 +6,21 @@ const fs = require('fs');
 import  Emails from '../models/emails';
 import ImapEmails from '../models/imapemails';
 const path = require('path'); 
-cron.schedule('* * * * *', async function() {
+const empty = require('empty-folder');
+cron.schedule('0 */4 * * *', async function() {
+  console.log("=========================start=========================")
     try{
-      const emails =await Emails.findAll({where:{status: 1}});
+      empty('./imap', false, (o)=>{
+        if(o.error) console.error(o.error);
+      });
+        await ImapEmails.destroy({ truncate: true });
+      const emails = await Emails.findAll({where:{status: 1}});
       let allImapEmails = [];
-      let lastUid =0;
+      let lastUid = 0;
       for(let email of emails){
+        if (!fs.existsSync(`imap/${email.id}`)) {
+          fs.mkdirSync(`imap/${email.id}`);
+        }
         var Imap = require('imap'),
             inspect = require('util').inspect;
 
@@ -23,9 +32,8 @@ cron.schedule('* * * * *', async function() {
           tls: true
         });
         email.last_updated_uid = email.last_updated_uid === undefined || email.last_updated_uid === null ? 1 : Number(email.last_updated_uid)+1;
-        console.log(email.last_updated_uid)
         function openInbox(cb) {
-          imap.openBox('INBOX', true, cb);
+          imap.openBox('lemlist', true, cb);
         }
 
         imap.once('ready', function() {
@@ -33,7 +41,7 @@ cron.schedule('* * * * *', async function() {
             if (err) throw err;
             imap.search([ ['x-gm-labels', 'Test'] ], function(err, results) {
               if (err) throw err;
-              var f = imap.fetch(`${email.last_updated_uid}:*`, { bodies: ['HEADER.FIELDS (FROM TO SUBJECT DATE)','2']});
+              var f = imap.fetch(`1:*`, { bodies: ['HEADER.FIELDS (FROM TO SUBJECT DATE)','2']});
               f.on('message', function(msg, seqno) {
                 let imapEmails =  {
                   email_date:'',
@@ -59,7 +67,7 @@ cron.schedule('* * * * *', async function() {
                   var buffer = '', count = 0;
                   // console.log(prefix + 'Body');
                   
-                  stream.pipe(fs.createWriteStream(`imap/msg-${seqno}-body${email.customer_id}_${email.id}.txt`));
+                  stream.pipe(fs.createWriteStream(`imap/${email.id}/msg-${seqno}.txt`));
                   stream.on('data', function(chunk) {
                     count += chunk.length;
                     buffer += chunk.toString('utf8');
@@ -71,8 +79,24 @@ cron.schedule('* * * * *', async function() {
                   stream.once('end', function() {
                     if (info.which !== '2')
                     {
-                      const rawData=inspect(Imap.parseHeader(buffer)).replace(/\n/g,'').replace(/`/g,'\'').replace(/    /g,' ').replace(/  /g,' ').replace(/'/g,'"').replace(/\[ "/g,'[ \'').replace(/" ]/g,'\' ]').replace(/"/g, '').replace(/'/g, '"').replace(/([a-z]+)(: ?[\[\n])/g, '"$1"$2');
+                      const rawData=inspect(Imap.parseHeader(buffer))
+                                    .replace(/\n/g,'')
+                                    .replace(/`/g,'\'')
+                                    .replace(/    /g,' ')
+                                    .replace(/  /g,' ')
+                                    .replace(/'/g,'"')
+                                    .replace(/\[ "/g,'[ \'')
+                                    .replace(/" ]/g,'\' ]')
+                                    .replace(/"/g, '')
+                                    .replace(/'/g, '"')
+                                    .replace(/Re:/g, 'Re')
+                                    .replace(/Undeliverable:/g, 'Undeliverable')
+                                    .replace(/Fwd:/g, 'Fwd')
+                                    .replace(/Automatic reply:/g, 'Automatic reply')
+                                    .replace(/([a-z]+)(: ?[\[\n])/g, '"$1"$2');
                       const data = JSON.parse(rawData)
+                      console.log(data);
+                      try{
                       imapEmails.email_date = data.date[0];
                       imapEmails.email_subject = data.subject[0];
                       var email_from = data.from[0].substring(
@@ -85,6 +109,10 @@ cron.schedule('* * * * *', async function() {
                         data.to[0].lastIndexOf(">")
                       );
                       imapEmails.email_to = email_to === ""||email_to === null||email_to === undefined ? data.to[0]: email_to;
+                      }
+                      catch(ex){
+
+                      }
                       // console.log(data.date[0]);
                       // console.log(data.subject[0]);
                       // console.log(data.from[0]);
@@ -98,45 +126,40 @@ cron.schedule('* * * * *', async function() {
                 });
                 msg.once('attributes', async function(attrs) {
                   const rawattributes = inspect(attrs, false, 8).replace('date: ','date: \'').replace('Z,','Z\',').replace(/'/g,'"').replace(/\[ "/g,'[ \'').replace(/" ]/g,'\' ]').replace(/'/g, '"').replace(/-/g,'_').replace('date','"date"').replace('uid','"uid"').replace('modseq','"modseq"').replace('flags','"flags"');
-                  console.log(rawattributes)
+                  // console.log(rawattributes)
                   const data = JSON.parse(rawattributes)
                   imapEmails.email_uid = data.uid;
                   imapEmails.email_date_o = data.date_o;
                   imapEmails.email_modseq = data.modseq;
               
-                  if(data.x_gm_labels.indexOf("FB _ Deferred Interest") !== -1)
+                  if(data.x_gm_labels.indexOf("lemlist/FB _ Deferred Interest") !== -1)
                   {
                     imapEmails.x_gm_label = "FB - Deferred Interest";
                   }
-                  else if (data.x_gm_labels.indexOf("FB _ Polite Decline") !== -1)
+                  else if (data.x_gm_labels.indexOf("lemlist/FB _ Polite Decline") !== -1)
                   {
                     imapEmails.x_gm_label = "FB - Polite Decline";
                   }
-                  else if(data.x_gm_labels.indexOf("FB _ Positive Response") !== -1)
+                  else if(data.x_gm_labels.indexOf("lemlist/FB _ Positive Response") !== -1)
                   {
                     imapEmails.x_gm_label = "FB - Positive Response";
                   }
-                  else if(data.x_gm_labels.indexOf("FB _ Referral") !== -1)
+                  else if(data.x_gm_labels.indexOf("lemlist/FB _ Referral") !== -1)
                   {
                     imapEmails.x_gm_label = "FB - Referral";
-                  }
-                  else{
-                    imapEmails.x_gm_label = "";
                   }
                   // imapEmails.x_gm_label = data.x_gm_label;
                   imapEmails.x_gm_msgid = data.x_gm_msgid;
                   imapEmails.x_gm_thrid = data.x_gm_thrid;
-                  if(imapEmails.x_gm_label !== "")
-                  {
-                    lastUid = data.uid;
-                    allImapEmails.push(imapEmails);
-                    // console.log(data.date)
-                    // console.log(data.uid)
-                    // console.log(data.modseq)
-                    // console.log(data.x_gm_label)
-                    // console.log(data.x_gm_msgid)
-                    // console.log(data.x_gm_thrid)
-                  }
+                  lastUid = data.uid;
+                  allImapEmails.push(imapEmails);
+                  // console.log(data.date)
+                  // console.log(data.uid)
+                  // console.log(data.modseq)
+                  // console.log(data.x_gm_label)
+                  // console.log(data.x_gm_msgid)
+                  // console.log(data.x_gm_thrid)
+                  
                 });
                 msg.once('end', function() {
                   // console.log(prefix + 'Finished');
@@ -147,12 +170,9 @@ cron.schedule('* * * * *', async function() {
               });
               f.once('end', async function() {
                 // console.log('Done fetching all messages!');
-                if(Number(email.last_updated_uid)<=Number(lastUid))
-                {
                   await Emails.update({last_updated_uid: lastUid}, {where: { id: email.id }});
                   await ImapEmails.bulkCreate(allImapEmails);
-                  await sequelize.query("UPDATE im SET flag = gm.x_gm_label FROM leads im JOIN imapEmails gm ON im.email = gm.email_from")
-                }
+                  await sequelize.query("UPDATE im SET flag = gm.x_gm_label FROM leads im JOIN imapEmails gm ON (im.email = gm.email_from or im.email = gm.email_to) where gm.x_gm_label != '' and gm.x_gm_label is not null")
                 imap.end();
               });
             });
@@ -160,6 +180,7 @@ cron.schedule('* * * * *', async function() {
         });
 
         imap.once('error', function(err) {
+          console.log(email)
           console.log(err);
         });
 

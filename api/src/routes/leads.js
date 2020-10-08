@@ -6,7 +6,7 @@ import { uploadPhoto } from '../utility/fileUpload';
 
 import { getAllLeads, deleteLeads, getTotal, getGraphData, UnsubscribeLeads, allCampaigns } from '../controllers/leads.controller';
 
-LeadsRoutes.get('/:id', checkToken, getAllLeads);
+LeadsRoutes.get('/getAllLeads/:id', checkToken, getAllLeads);
 LeadsRoutes.get('/total/:id', checkToken, getTotal);
 LeadsRoutes.get('/getGraphData/:id', checkToken, getGraphData);
 LeadsRoutes.post('/delete',checkToken, deleteLeads);

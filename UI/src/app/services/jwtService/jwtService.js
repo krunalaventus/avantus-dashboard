@@ -29,7 +29,7 @@ class JwtService extends FuseUtils.EventEmitter {
 
 	handleAuthentication = () => {
 		const access_token = this.getAccessToken();
-
+		console.log(access_token);
 		if (!access_token) {
 			this.emit('onNoAccessToken');
 
@@ -97,10 +97,11 @@ class JwtService extends FuseUtils.EventEmitter {
 
 	signInWithToken = () => {
 		return new Promise((resolve, reject) => {
+			const token = localStorage.getItem('token');
 			axios
-				.get('/api/auth/access-token', {
-					data: {
-						access_token: this.getAccessToken()
+				.get(`${process.env.REACT_APP_API_URL}user/auth/access-token`, {
+					headers: {
+						Authorization: token
 					}
 				})
 				.then(response => {
@@ -108,7 +109,6 @@ class JwtService extends FuseUtils.EventEmitter {
 						this.setSession(response.data.access_token);
 						resolve(response.data.user);
 					} else {
-						this.logout();
 						reject(new Error('Failed to login with token.'));
 					}
 				})
@@ -127,10 +127,10 @@ class JwtService extends FuseUtils.EventEmitter {
 
 	setSession = access_token => {
 		if (access_token) {
-			localStorage.setItem('jwt_access_token', access_token);
+			localStorage.setItem('token', access_token);
 			axios.defaults.headers.common.Authorization = `Bearer ${access_token}`;
 		} else {
-			localStorage.removeItem('jwt_access_token');
+			localStorage.removeItem('token');
 			delete axios.defaults.headers.common.Authorization;
 		}
 	};
@@ -154,7 +154,7 @@ class JwtService extends FuseUtils.EventEmitter {
 	};
 
 	getAccessToken = () => {
-		return window.localStorage.getItem('jwt_access_token');
+		return window.localStorage.getItem('token');
 	};
 }
 

@@ -76,6 +76,7 @@ const MailListItem = props => {
 						<Typography variant="subtitle1" className="mx-8">
 							{props.mail.email_from}
 						</Typography>
+						<b>{props.mail.count} email</b>
 					</div>
 					<Typography variant="subtitle1">{props.mail.email_date}</Typography>
 				</div>

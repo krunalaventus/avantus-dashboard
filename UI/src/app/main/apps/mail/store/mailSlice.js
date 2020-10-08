@@ -10,7 +10,7 @@ export const getMail = createAsyncThunk('mailApp/mail/getMail', async params => 
 		}
 	});
 	const res = await response.json();
-	return res;
+	return res.data;
 });
 
 export const updateMail = createAsyncThunk('mailApp/mail/updateMail', async (_data, { getState, dispatch }) => {

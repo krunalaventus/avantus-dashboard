@@ -193,6 +193,15 @@ const navigationConfig = [
 				auth: authRoles.customer,
 				icon: 'account_box',
 				url: '/apps/unsubscribeList/all'
+			},
+			{
+				id: 'adminlogin',
+				title: 'Login as Admin',
+				translate: 'Login as Admin',
+				type: 'item',
+				auth: authRoles.ascustomer,
+				icon: 'account_box',
+				url: '/apps/adminlogin/all'
 			}
 			// {
 			// 	id: 'chat',

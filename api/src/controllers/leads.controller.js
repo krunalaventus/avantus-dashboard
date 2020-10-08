@@ -20,6 +20,7 @@ export async function getAllLeads(req, res) {
 }
 
 export async function getTotal(req, res) {
+    console.log(req.params)
     try{
         let logindata = await LeadsServices.getTotal(req, res);
         if(logindata){
@@ -95,10 +96,7 @@ export async function UnsubscribeLeads(req, res) {
 
 export async function allCampaigns(req, res) {
     try{
-        let logindata = await LeadsServices.allCampaign(req, res);
-        if(logindata){
-            res.json(logindata);
-        }
+        await LeadsServices.allCampaign(req, res);
     }catch(err){
         res.status(500).json({
             statusCode:await checkCode('error'),

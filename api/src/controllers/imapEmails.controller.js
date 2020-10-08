@@ -19,6 +19,23 @@ export async function getAllImapEmails(req, res) {
     }
 }
 
+export async function getAllImapEmailsLabel(req, res) {
+    try{
+        let logindata = await ImapEmail.getAllImapEmailsLabel(req, res);
+        if(logindata){
+            res.json(logindata);
+        }
+    }catch(err){
+        console.log(err)
+        res.status(500).json({
+            statusCode:await checkCode('error'),
+            error:err,
+            success: false,
+            message:"Something went wrong!"
+        })
+    }
+}
+
 export async function getEmailDetail(req, res) {
     try{
         if(!req.params.id){
@@ -30,6 +47,19 @@ export async function getEmailDetail(req, res) {
             });
         }
         await ImapEmail.getEmailDetail(req.params, res);
+    }catch(err){
+        res.status(500).json({
+            statusCode:await checkCode('error'),
+            error:err,
+            success: false,
+            message:"Something went wrong!"
+        })
+    }
+}
+
+export async function loadEmail(req, res) {
+    try{
+        await ImapEmail.loadEmails(req.params, res);
     }catch(err){
         res.status(500).json({
             statusCode:await checkCode('error'),

@@ -465,28 +465,22 @@ const mailDB = {
 	],
 	labels: [
 		{
-			id: 0,
-			handle: 'note',
-			title: 'Note',
+			id: 'FB - Deferred Interest',
+			handle: 'FB - Deferred Interest',
+			title: 'FB - Deferred Interest',
 			color: '#7CB342'
 		},
 		{
-			id: 1,
-			handle: 'paypal',
-			title: 'Paypal',
+			id: 'FB - Referral',
+			handle: 'FB - Referral',
+			title: 'FB - Referral',
 			color: '#D84315'
 		},
 		{
 			id: 2,
-			handle: 'invoice',
-			title: 'Invoice',
+			handle: 'FB - Positive Response',
+			title: 'FB - Positive Response',
 			color: '#607D8B'
-		},
-		{
-			id: 3,
-			handle: 'amazon',
-			title: 'Amazon',
-			color: '#03A9F4'
 		}
 	]
 };

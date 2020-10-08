@@ -194,6 +194,23 @@ export async function loginCustomer(req, res) {
     }
 }
 
+export async function loginUsingToken(req, res) {
+    try{
+        let logindata = await UserServices.loginUsingToken(req, res);
+        if(logindata){
+            res.json(logindata);
+        }
+    }catch(err){
+        console.log(err);
+        res.status(500).json({
+            statusCode:await checkCode('error'),
+            error:err,
+            success: false,
+            message:"Something went wrong!"
+        })
+    }
+}
+
 export async function adminLogin(req, res) {
     try{
         let logindata = await UserServices.loginadmin(req.body, res);

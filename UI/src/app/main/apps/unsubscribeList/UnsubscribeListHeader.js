@@ -30,21 +30,11 @@ function UnsubscribeListHeader(props) {
 				Authorization: token
 			}
 		});
+		alert('File is uploaded and we are processing data. It may take time.');
 	}
 	return (
 		<div className="flex flex-1 items-center justify-between p-4 sm:p-24">
 			<div className="flex flex-shrink items-center sm:w-224">
-				<Hidden lgUp>
-					<IconButton
-						onClick={ev => {
-							props.pageLayout.current.toggleLeftSidebar();
-						}}
-						aria-label="open left sidebar"
-					>
-						<Icon>menu</Icon>
-					</IconButton>
-				</Hidden>
-
 				<div className="flex items-center">
 					<FuseAnimate animation="transition.expandIn" delay={300}>
 						<Icon className="text-32">account_box</Icon>

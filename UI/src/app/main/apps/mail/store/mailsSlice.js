@@ -3,8 +3,15 @@ import axios from 'axios';
 
 export const getMails = createAsyncThunk('mailApp/mails/getMails', async (routeParams, { getState }) => {
 	routeParams = routeParams || getState().mailApp.mails.routeParams;
+	console.log('==============================================');
+	console.log(routeParams);
+	let url = `${process.env.REACT_APP_API_URL}imapEmails`;
+	if (routeParams.labelHandle) {
+		url += `/get/all/label/${routeParams.labelHandle}`;
+	}
+	const label = routeParams.labelHandle;
 	const token = localStorage.getItem('token');
-	const response = await axios.get(`${process.env.REACT_APP_API_URL}imapEmails`, {
+	const response = await axios.get(url, {
 		headers: {
 			Authorization: token
 		}
