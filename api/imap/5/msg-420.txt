@@ -1,0 +1,9 @@
+Reporting-MTA: dns;VI1PR0301MB2239.eurprd03.prod.outlook.com
+Received-From-MTA: dns;mail-il1-f178.google.com
+Arrival-Date: Fri, 11 Sep 2020 12:48:21 +0000
+
+Final-Recipient: rfc822;colm.ohare@bombardier.com
+Action: failed
+Status: 5.1.10
+Diagnostic-Code: smtp;550 5.1.10 RESOLVER.ADR.RecipientNotFound; Recipient colm.ohare@bombardier.com not found by SMTP address lookup
+

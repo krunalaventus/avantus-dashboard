@@ -59,7 +59,7 @@ export async function getEmailDetail(req, res) {
 
 export async function loadEmail(req, res) {
     try{
-        await ImapEmail.loadEmails(req.params, res);
+        await ImapEmail.loadEmails(req, res);
     }catch(err){
         res.status(500).json({
             statusCode:await checkCode('error'),

@@ -41,6 +41,7 @@ function LeadsApp(props) {
 	const handleChange = event => {
 		setSelectedValue(event.target.value);
 		history.push(`/apps/leads/${event.target.value}`);
+		// window.location.reload();
 	};
 
 	useEffect(() => {
@@ -76,29 +77,33 @@ function LeadsApp(props) {
 				}}
 				header={<LeadsHeader pageLayout={pageLayout} />}
 				content={
-					<>
-						<FormControl className={classes.formControl}>
-							<Select
-								value={selectedValue}
-								onChange={handleChange}
-								displayEmpty
-								className={classes.selectEmpty}
-								inputProps={{ 'aria-label': '' }}
-							>
-								<MenuItem value="" disabled>
-									Select Campaign
-								</MenuItem>
-								{campaign &&
-									campaign.map((item, key) => (
-										<MenuItem key={key} value={item._id}>
-											{item.name}
-										</MenuItem>
-									))}
-							</Select>
-						</FormControl>
-						{/* <WidgetDropdown fetchSelected={value => setSelectedValue(value)} items={campaign} /> */}
-						<LeadsList />
-					</>
+					campaign.length <= 0 ? (
+						''
+					) : (
+						<>
+							<FormControl className={classes.formControl}>
+								<Select
+									value={routeParams.id}
+									onChange={handleChange}
+									displayEmpty
+									className="campaigndropdown"
+									inputProps={{ 'aria-label': '' }}
+								>
+									<MenuItem value="" disabled>
+										Select Campaign
+									</MenuItem>
+									{campaign &&
+										campaign.map((item, key) => (
+											<MenuItem key={key} value={item._id}>
+												{item.name}
+											</MenuItem>
+										))}
+								</Select>
+							</FormControl>
+							{/* <WidgetDropdown fetchSelected={value => setSelectedValue(value)} items={campaign} /> */}
+							<LeadsList />
+						</>
+					)
 				}
 				// leftSidebarContent={<leadsSidebarContent />}
 				sidebarInner

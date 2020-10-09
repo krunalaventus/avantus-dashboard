@@ -17,7 +17,7 @@ const useStyles = makeStyles(theme => ({
 }));
 
 export default function SelectCampaign({ items = [], fetchSelected }) {
-	console.log('Data', items);
+	console.log('Data', fetchSelected);
 	const classes = useStyles();
 	const [campaign, setCampaign] = React.useState('');
 	const history = useHistory();
@@ -29,11 +29,13 @@ export default function SelectCampaign({ items = [], fetchSelected }) {
 		// setCampaign(event.target.value);
 	};
 
-	return (
+	return items.length <= 0 ? (
+		''
+	) : (
 		<div>
 			<FormControl className={classes.formControl}>
 				<Select
-					value={campaign}
+					value={fetchSelected ?? ''}
 					onChange={handleChange}
 					displayEmpty
 					className={classes.selectEmpty}

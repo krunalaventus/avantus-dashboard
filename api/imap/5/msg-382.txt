@@ -1,0 +1,9 @@
+Reporting-MTA: dns;VI1PR08MB4542.eurprd08.prod.outlook.com
+Received-From-MTA: dns;mail-io1-f48.google.com
+Arrival-Date: Fri, 11 Sep 2020 08:37:55 +0000
+
+Final-Recipient: rfc822;cmgr.thomas@beadlight.com
+Action: failed
+Status: 5.1.10
+Diagnostic-Code: smtp;550 5.1.10 RESOLVER.ADR.RecipientNotFound; Recipient cmgr.thomas@beadlight.com not found by SMTP address lookup
+

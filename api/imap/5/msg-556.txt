@@ -1,0 +1,9 @@
+Reporting-MTA: dns;VI1PR01MB6223.eurprd01.prod.exchangelabs.com
+Received-From-MTA: dns;mail-io1-f44.google.com
+Arrival-Date: Wed, 16 Sep 2020 09:14:01 +0000
+
+Final-Recipient: rfc822;duncan.green@coxmarine.com
+Action: failed
+Status: 5.1.10
+Diagnostic-Code: smtp;550 5.1.10 RESOLVER.ADR.RecipientNotFound; Recipient duncan.green@coxmarine.com not found by SMTP address lookup
+

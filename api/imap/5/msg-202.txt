@@ -1,0 +1,9 @@
+Reporting-MTA: dns; server205.appriver.com
+
+Original-Recipient: rfc822;<b.saggers@4lcommunications.com>
+Final-Recipient: rfc822;<b.saggers@4lcommunications.com>
+Action: failed
+Status: 5.0.0
+Remote-MTA: dns; 4lcommunications-com.mail.protection.outlook.com:25
+Diagnostic-Code: smtp;host 4lcommunications-com.mail.protection.outlook.com:25 says:
+ 550 5.4.1 Recipient address rejected: Access denied. AS(201806281) [QB1CAN01FT018.eop-CAN01.prod.protection.outlook.com]

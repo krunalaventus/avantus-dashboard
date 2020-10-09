@@ -105,7 +105,11 @@ const leadsSlice = createSlice({
 		}
 	},
 	extraReducers: {
+		[getleads.pending]: (state, action) => {
+			state.status = 'loading';
+		},
 		[getleads.fulfilled]: (state, action) => {
+			state.status = 'succeeded';
 			const { data, routeParams } = action.payload;
 			leadsAdapter.setAll(state, data);
 			state.routeParams = routeParams;

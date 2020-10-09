@@ -1,0 +1,10 @@
+Reporting-MTA: dns;corpappl16254.corp.saab.se
+Received-From-MTA: dns;mailhub2.air.saab.se
+Arrival-Date: Fri, 4 Sep 2020 08:38:35 +0000
+
+Original-Recipient: rfc822;g.boswell@saab.com
+Final-Recipient: rfc822;g.boswell@saab.com
+Action: failed
+Status: 5.1.10
+Diagnostic-Code: smtp;550 5.1.10 RESOLVER.ADR.RecipientNotFound; Recipient not found by SMTP address lookup
+

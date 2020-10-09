@@ -1,0 +1,6 @@
+Date: 13 Sep 2020 08:05:55 +0000
+To: kevin@codem-composites.com
+From: "Mail Delivery System" <smtp.gateway@baesystems.com>
+Subject: Delivery Status Notification (Failure)
+
+p; 5.4.7 - Delivery expired (message too old) 'timeout' (delivery attempts: 0)

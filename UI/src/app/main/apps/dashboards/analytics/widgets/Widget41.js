@@ -9,7 +9,10 @@ import _ from '@lodash';
 function Widget4(props) {
 	const theme = useTheme();
 	const data = _.merge({}, props.data);
-	const per = Math.round((data.clickedCount * 100) / data.totalCount);
+	let per = Math.round((data.clickedCount * 100) / data.totalCount);
+	if (isNaN(per)) {
+		per = 0;
+	}
 	return (
 		<Card className="w-full rounded-8 shadow-1">
 			<div className="p-16 pb-0 flex flex-row flex-wrap items-end">

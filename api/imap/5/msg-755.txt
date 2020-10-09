@@ -1,0 +1,7 @@
+Reporting-MTA: dns; ch-msw-2k8.CompaniesHouse.local
+Received-From-MTA: dns; cluster-a.mailcontrol.com (cluster-a.mailcontrol.com [85.115.52.190])
+Arrival-Date: Tue, 22 Sep 2020 13:29:38 +0100
+
+Final-Recipient: rfc822; d.thornton@companieshouse.gov.uk
+Action: failed
+Status: 4.4.7 (Persistent transient failure - routing/network: delivery time expired)

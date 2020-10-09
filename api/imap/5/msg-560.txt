@@ -1,0 +1,10 @@
+From: <postmaster@cranfieldaerospace.com>
+To: <kevin@codem-composites.com>
+Date: Wed, 16 Sep 2020 09:32:29 +0000
+Subject: Undeliverable: Quick Question, Hussain
+
+ient: rfc822;hussain-t@cranfieldaerospace.com
+Action: failed
+Status: 5.1.10
+Diagnostic-Code: smtp;550 5.1.10 RESOLVER.ADR.RecipientNotFound; Recipient hussain-t@cranfieldaerospace.com not found by SMTP address lookup
+

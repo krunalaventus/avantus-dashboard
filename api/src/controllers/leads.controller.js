@@ -19,6 +19,23 @@ export async function getAllLeads(req, res) {
     }
 }
 
+export async function getAllLeadsLabel(req, res) {
+    try{
+        let logindata = await LeadsServices.getAllLeadsLabel(req, res);
+        if(logindata){
+            res.json(logindata);
+        }
+    }catch(err){
+        console.log(err)
+        res.status(500).json({
+            statusCode:await checkCode('error'),
+            error:err,
+            success: false,
+            message:"Something went wrong!"
+        })
+    }
+}
+
 export async function getTotal(req, res) {
     try{
         let logindata = await LeadsServices.getTotal(req, res);

@@ -1,0 +1,9 @@
+Reporting-MTA: dns;BYAPR05MB4566.namprd05.prod.outlook.com
+Received-From-MTA: dns;mail-io1-f45.google.com
+Arrival-Date: Thu, 17 Sep 2020 09:56:29 +0000
+
+Final-Recipient: rfc822;b.tim@cummins.com
+Action: failed
+Status: 5.1.10
+Diagnostic-Code: smtp;550 5.1.10 RESOLVER.ADR.RecipientNotFound; Recipient b.tim@cummins.com not found by SMTP address lookup
+

@@ -15,10 +15,49 @@ exports.getAllLeads = async function(req, res) {
     try {
         let createdata = {};
         var decodedData = req.decoded.data;
-        if (decodedData.user_role === "super user") {
-            createdata = await Leads.findAll();
+        if (req.params.id === "0" || req.params.id === "all") {
+            createdata = await Leads.findAll({ where: { customer_id: decodedData.id }});
         } else {
             createdata = await Leads.findAll({ where: { customer_id: decodedData.id, campaignId: req.params.id }});
+        }
+        if (createdata) {
+            return {
+                statusCode: res.statusCode,
+                success: true,
+                message: "Leads fetch Successfully",
+                data: createdata
+            };
+        } else {
+            return {
+                statusCode: res.statusCode,
+                success: true,
+                message: "Leads not Found!",
+                data:[]
+            };
+        }
+    } catch (e) {
+        console.log(e)
+        return {
+            statusCode: await checkCode("error"),
+            success: false,
+            error: {
+                error_code: e.parent.errno,
+                error_type: e.parent.code,
+                message:e.name
+            },
+            message: e.name
+        };
+    }
+};
+
+exports.getAllLeadsLabel = async function(req, res) {
+    try {
+        let createdata = {};
+        var decodedData = req.decoded.data;
+        if (req.params.campaignId === "all") {
+            createdata = await Leads.findAll({where: {customer_id: decodedData.id, flag: req.params.label}});
+        } else {
+            createdata = await Leads.findAll({ where: { customer_id: decodedData.id, campaignId: req.params.id, flag: req.params.label }});
         }
         if (createdata) {
             return {
@@ -54,7 +93,7 @@ exports.getGraphData = async function(req, res) {
     try {
         let wherecondition ='';
         let withwherecondition ='where ';
-        if(req.params.id !== '0') {
+        if(req.params.id !== 'all') {
             wherecondition = `and campaign_id ='${req.params.id}'`
             withwherecondition = `where campaign_id ='${req.params.id}'`
         }
@@ -273,7 +312,7 @@ exports.getTotal = async function(req, res) {
     try {
         let wherecondition ='';
         let withwherecondition ='where ';
-        if(req.params.id !== '0') {
+        if(req.params.id !== 'all') {
             wherecondition = `and campaign_id ='${req.params.id}'`
             withwherecondition = `where campaign_id ='${req.params.id}'`
         }
@@ -281,7 +320,8 @@ exports.getTotal = async function(req, res) {
             totalCount: 0,
             openedCount: 0,
             repliedCount: 0,
-            clickedCount: 0
+            clickedCount: 0,
+            tableResp: []
         };
         var decodedData = req.decoded.data;
         if (decodedData.user_role === "super user") {
@@ -299,11 +339,13 @@ exports.getTotal = async function(req, res) {
             const openedCount = await sequelize.query(`select count(id) as count from leads where opened_at !='' and customer_id=${decodedData.id} ${wherecondition}`, { type: QueryTypes.SELECT });
             const repliedCount = await sequelize.query(`select count(id) as count from leads where replied_at !='' and customer_id=${decodedData.id} ${wherecondition}`, { type: QueryTypes.SELECT });
             const clickedCount = await sequelize.query(`select count(id) as count from leads where clicked_at !='' and customer_id=${decodedData.id} ${wherecondition}`, { type: QueryTypes.SELECT });
+            const tableResponse = await sequelize.query(`select flag,count(id) as count from leads where flag!='' and customer_id=${decodedData.id} ${wherecondition} group by flag`, { type: QueryTypes.SELECT });
             console.log(totalCount)
             createdata.totalCount = totalCount[0].count;
             createdata.openedCount = openedCount[0].count;
             createdata.repliedCount = repliedCount[0].count;
             createdata.clickedCount = clickedCount[0].count;
+            createdata.tableResp = tableResponse;
         }
         if (createdata) {
             return {

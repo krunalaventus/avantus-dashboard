@@ -1,0 +1,9 @@
+Reporting-MTA: dns;DB7PR01MB5048.eurprd01.prod.exchangelabs.com
+Received-From-MTA: dns;mail-io1-f42.google.com
+Arrival-Date: Thu, 3 Sep 2020 08:53:41 +0000
+
+Final-Recipient: rfc822;andrewc@acs-ag.ch
+Action: failed
+Status: 5.1.10
+Diagnostic-Code: smtp;550 5.1.10 RESOLVER.ADR.RecipientNotFound; Recipient andrewc@acs-ag.ch not found by SMTP address lookup
+

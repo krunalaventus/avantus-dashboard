@@ -6,10 +6,12 @@ import { fade } from '@material-ui/core/styles/colorManipulator';
 import Typography from '@material-ui/core/Typography';
 import React, { useEffect, useState } from 'react';
 import { Line } from 'react-chartjs-2';
+import Loader from 'react-loader-spinner';
 
 function Widget5(selected, props) {
 	console.log('New Props', selected);
 	const [data1, setgraphData] = React.useState();
+	const [state, setState] = React.useState({ loading: true });
 	useEffect(() => {
 		(async () => {
 			const token = localStorage.getItem('token');
@@ -21,6 +23,7 @@ function Widget5(selected, props) {
 			const res = await response.json();
 			const ddata = res.data;
 			setgraphData(ddata);
+			setState({ loading: false });
 		})();
 	}, []);
 	function sleep(delay = 0) {
@@ -35,7 +38,9 @@ function Widget5(selected, props) {
 		_.setWith(data1, 'options.scales.yAxes[0].ticks.fontColor', theme.palette.text.secondary);
 		_.setWith(data1, 'options.scales.yAxes[0].gridLines.color', fade(theme.palette.text.secondary, 0.1));
 
-		return (
+		return state.loading ? (
+			<Loader type="Puff" color="#00BFFF" height={100} width={100} />
+		) : (
 			<Card className="w-full rounded-8 shadow-1">
 				<div className="relative p-24 flex flex-row items-center justify-between">
 					<div className="flex flex-col">

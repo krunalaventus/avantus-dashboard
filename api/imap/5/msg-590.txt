@@ -1,0 +1,13 @@
+From: <postmasters@cummins.com>
+To: <kevin@codem-composites.com>
+Date: Thu, 17 Sep 2020 03:48:29 -0500
+Subject: Undeliverable: Quick Question, John
+
+7:50 +0000
+
+Final-Recipient: rfc822;john.clark@cummins.com
+Action: failed
+Status: 5.4.14
+Diagnostic-Code: smtp;554 5.4.14 Hop count exceeded - possible mail loop ATTR1 [SN1NAM01FT011.eop-nam01.prod.protection.outlook.com]
+Remote-MTA: dns;SN1NAM01FT011.mail.protection.outlook.com
+

@@ -1,0 +1,10 @@
+Reporting-MTA: dns;exchange.SpeakerTech.local
+Received-From-MTA: dns;barracuda.paradigm.com
+Arrival-Date: Fri, 4 Sep 2020 12:58:51 +0000
+
+Original-Recipient: rfc822;jgodfrey@paradigm.com
+Final-Recipient: rfc822;jgodfrey@paradigm.com
+Action: failed
+Status: 5.1.10
+Diagnostic-Code: smtp;550 5.1.10 RESOLVER.ADR.RecipientNotFound; Recipient not found by SMTP address lookup
+

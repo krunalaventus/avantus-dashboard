@@ -1,3 +1,4 @@
+import Loader from 'react-loader-spinner';
 import FuseAnimate from '@fuse/core/FuseAnimate';
 import FuseAnimateGroup from '@fuse/core/FuseAnimateGroup';
 import FuseUtils from '@fuse/utils';
@@ -16,12 +17,15 @@ function MailList(props) {
 	const mails = useSelector(selectMails);
 	const searchText = useSelector(({ mailApp }) => mailApp.mails.searchText);
 
+	const postStatus = useSelector(state => state.mailApp.mails.status);
 	const routeParams = useParams();
 	const [filteredData, setFilteredData] = useState(null);
 	const { t } = useTranslation('mailApp');
+	const [state, setState] = React.useState({ loading: true });
 
 	useDeepCompareEffect(() => {
 		dispatch(getMails(routeParams));
+		setState({ loading: false });
 	}, [dispatch, routeParams]);
 
 	useEffect(() => {
@@ -29,6 +33,7 @@ function MailList(props) {
 			if (searchText.length === 0) {
 				return mails;
 			}
+
 			return FuseUtils.filterArrayByString(mails, searchText);
 		}
 
@@ -42,7 +47,9 @@ function MailList(props) {
 	}
 
 	if (filteredData.length === 0) {
-		return (
+		return postStatus === 'loading' ? (
+			<Loader type="Puff" color="#00BFFF" height={100} width={100} />
+		) : (
 			<FuseAnimate delay={100}>
 				<div className="flex flex-1 items-center justify-center h-full">
 					<Typography color="textSecondary" variant="h5">
@@ -53,7 +60,9 @@ function MailList(props) {
 		);
 	}
 
-	return (
+	return postStatus === 'loading' ? (
+		<Loader type="Puff" color="#00BFFF" height={100} width={100} />
+	) : (
 		<List className="p-0">
 			<FuseAnimateGroup
 				enter={{

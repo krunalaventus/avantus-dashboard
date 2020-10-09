@@ -1,0 +1,11 @@
+From: <postmaster@amey.co.uk>
+To: <kevin@codem-composites.com>
+Date: Fri, 4 Sep 2020 10:45:32 +0000
+Subject: Undeliverable: Quick Question, Kapil
+
+l-Recipient: rfc822;kapil@amey.co.uk
+Action: failed
+Status: 5.4.6
+Diagnostic-Code: smtp;554 5.4.6 Hop count exceeded - possible mail loop
+Remote-MTA: dns;ADC2-ACO-ED1N2.ameyad.ameygroup.net
+

@@ -1,0 +1,9 @@
+Reporting-MTA: dns;BL0PR02MB4481.namprd02.prod.outlook.com
+Received-From-MTA: dns;mail-il1-f174.google.com
+Arrival-Date: Mon, 7 Sep 2020 10:22:07 +0000
+
+Final-Recipient: rfc822;rob@arsa.org
+Action: failed
+Status: 5.1.10
+Diagnostic-Code: smtp;550 5.1.10 RESOLVER.ADR.RecipientNotFound; Recipient rob@arsa.org not found by SMTP address lookup
+

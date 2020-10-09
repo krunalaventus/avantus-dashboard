@@ -1,0 +1,9 @@
+Reporting-MTA: dns;CWXP265MB0133.GBRP265.PROD.OUTLOOK.COM
+Received-From-MTA: dns;mail-io1-f43.google.com
+Arrival-Date: Fri, 11 Sep 2020 10:10:20 +0000
+
+Final-Recipient: rfc822;rob.mead@bizkarts.com
+Action: failed
+Status: 5.1.10
+Diagnostic-Code: smtp;550 5.1.10 RESOLVER.ADR.RecipientNotFound; Recipient rob.mead@bizkarts.com not found by SMTP address lookup
+

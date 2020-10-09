@@ -1,0 +1,11 @@
+Date: Wed, 23 Sep 2020 11:41:30 +0200
+From: Mail Delivery Subsystem <postmaster@kerio.vitkovice.cz>
+To: <kevin@codem-composites.com>
+Subject: Returned email: Quick Question, John
+
+on: failed
+Status: 5.1.1
+Remote-MTA: 172.22.67.46
+Diagnostic-Code: SMTP; 550 5.7.54 SMTP; Unable to relay recipient in non-acc
+	epted domain
+	

@@ -17,7 +17,7 @@ exports.getAllImapEmails = async function(req, res) {
         let createdata = {};
         var decodedData = req.decoded.data;
         createdata = await ImapEmails.findAll({ where: { customer_id: decodedData.id }, order: [['id','DESC']]});
-        createdata = await sequelize.query(`select a.*, (select count(id) from imapEmails b where b.x_gm_thrid=a.x_gm_thrid) as count from imapEmails a where a.customer_id = ${decodedData.id}`, { type: QueryTypes.SELECT });
+        createdata = await sequelize.query(`select a.* from imapEmails a where a.customer_id = ${decodedData.id}`, { type: QueryTypes.SELECT });
         
         if (createdata) {
             return {
@@ -194,7 +194,7 @@ exports.loadEmails =async function(req, res){
         email.last_updated_uid = email.last_updated_uid === undefined || email.last_updated_uid === null ? 1 : Number(email.last_updated_uid)+1;
         console.log(email.last_updated_uid)
         function openInbox(cb) {
-          imap.openBox('INBOX', true, cb);
+          imap.openBox('lemlist', true, cb);
         }
 
         imap.once('ready', function() {
@@ -202,7 +202,7 @@ exports.loadEmails =async function(req, res){
             if (err) throw err;
             imap.search([ ['x-gm-labels', 'Test'] ], function(err, results) {
               if (err) throw err;
-              var f = imap.fetch(`${email.last_updated_uid}:*`, { bodies: ['HEADER.FIELDS (FROM TO SUBJECT DATE)','2']});
+              var f = imap.fetch(`1:*`, { bodies: ['HEADER.FIELDS (FROM TO SUBJECT DATE)','2']});
               f.on('message', function(msg, seqno) {
                 let imapEmails =  {
                   email_date:'',
@@ -256,6 +256,7 @@ exports.loadEmails =async function(req, res){
                       .replace(/Automatic reply:/g, 'Automatic reply')
                       .replace(/([a-z]+)(: ?[\[\n])/g, '"$1"$2');
                       const data = JSON.parse(rawData)
+                      try{
                       imapEmails.email_date = data.date[0];
                       imapEmails.email_subject = data.subject[0];
                       var email_from = data.from[0].substring(
@@ -272,6 +273,10 @@ exports.loadEmails =async function(req, res){
                       // console.log(data.subject[0]);
                       // console.log(data.from[0]);
                       // console.log(data.to[0]);
+                      }
+                      catch(er) {
+
+                      }
                     }
                     else{
                       // console.log("=======================================")
@@ -306,7 +311,7 @@ exports.loadEmails =async function(req, res){
                   // imapEmails.x_gm_label = data.x_gm_label;
                   imapEmails.x_gm_msgid = data.x_gm_msgid;
                   imapEmails.x_gm_thrid = data.x_gm_thrid;
-                  lastUid = data.uid;
+                  // lastUid = data.uid;
                   allImapEmails.push(imapEmails);
                   // console.log(data.date)
                   // console.log(data.uid)
@@ -317,20 +322,16 @@ exports.loadEmails =async function(req, res){
                   
                 });
                 msg.once('end', function() {
-                  // console.log(prefix + 'Finished');
+                  console.log(prefix + 'Finished');
                 });
               });
               f.once('error', function(err) {
-                // console.log('Fetch error: ' + err);
+                console.log('Fetch error: ' + err);
               });
               f.once('end', async function() {
-                // console.log('Done fetching all messages!');
-                if(Number(email.last_updated_uid)<=Number(lastUid))
-                {
-                  await Emails.update({last_updated_uid: lastUid}, {where: { id: email.id }});
+                console.log('Done fetching all messages!');
                   await ImapEmails.bulkCreate(allImapEmails);
                   await sequelize.query("UPDATE im SET flag = gm.x_gm_label FROM leads im JOIN imapEmails gm ON (im.email = gm.email_from or im.email = gm.email_to) where gm.x_gm_label != '' and gm.x_gm_label is not null")
-                }
                 imap.end();
               });
             });

@@ -1,0 +1,11 @@
+Reporting-MTA: dns; googlemail.com
+Arrival-Date: Tue, 08 Sep 2020 03:26:51 -0700 (PDT)
+X-Original-Message-ID: <CAK4cLxjaDZKFTo+MYXrdRa2rqOBn0E-_JtWcr0zdMCmP0CBg=Q@mail.gmail.com>
+
+Final-Recipient: rfc822; michael.ledger@babcockinternational.com
+Action: failed
+Status: 5.1.1
+Remote-MTA: dns; mxb-001c8e01.gslb.pphosted.com. (148.163.158.182, the server
+ for the domain babcockinternational.com.)
+Diagnostic-Code: smtp; 550 5.1.1 User Unknown
+Last-Attempt-Date: Tue, 08 Sep 2020 03:26:52 -0700 (PDT)

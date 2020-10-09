@@ -1,0 +1,11 @@
+Reporting-MTA: dns; googlemail.com
+Arrival-Date: Wed, 23 Sep 2020 05:26:10 -0700 (PDT)
+X-Original-Message-ID: <CAK4cLxiGVH72naL-2iN512Pma3APRTOTrvJm29U5fpLvsGdd=A@mail.gmail.com>
+
+Final-Recipient: rfc822; ah@thameslinkrailway.com
+Action: failed
+Status: 5.1.1
+Remote-MTA: dns; mxb-004fcd01.gslb.pphosted.com. (185.132.183.202, the server
+ for the domain thameslinkrailway.com.)
+Diagnostic-Code: smtp; 550 5.1.1 User Unknown
+Last-Attempt-Date: Wed, 23 Sep 2020 05:26:11 -0700 (PDT)

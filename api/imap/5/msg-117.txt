@@ -1,0 +1,12 @@
+To: kevin@codem-composites.com
+Date: Fri, 04 Sep 2020 04:41:57 -0700 (PDT)
+From: Mail Delivery Subsystem <mailer-daemon@googlemail.com>
+Subject: Delivery Status Notification (Failure)
+
+Recipient: rfc822; cillianhickey@electro-mechanical.com
+Action: failed
+Status: 5.0.0
+Remote-MTA: dns; d165231a.ess.barracudanetworks.com. (209.222.82.144, the
+ server for the domain electro-mechanical.com.)
+Diagnostic-Code: smtp; 550 permanent failure for one or more recipients (cillianhickey@electro-mechanical.com:550 5.1.1 User unknown)
+Last-Attempt-Date: Fri, 04 Sep 2020 04:41:57 -0700 (PDT)

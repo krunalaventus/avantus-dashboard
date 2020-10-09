@@ -1,0 +1,9 @@
+Reporting-MTA: dns;CWXP123MB3046.GBRP123.PROD.OUTLOOK.COM
+Received-From-MTA: dns;mail-il1-f181.google.com
+Arrival-Date: Mon, 21 Sep 2020 08:09:37 +0000
+
+Final-Recipient: rfc822;gordon@electracommercialvehicles.com
+Action: failed
+Status: 5.1.10
+Diagnostic-Code: smtp;550 5.1.10 RESOLVER.ADR.RecipientNotFound; Recipient gordon@electracommercialvehicles.com not found by SMTP address lookup
+

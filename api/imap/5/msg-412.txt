@@ -1,0 +1,10 @@
+From: <postmaster@bodycote.plc>
+To: <kevin@codem-composites.com>
+Date: Fri, 11 Sep 2020 13:24:50 +0100
+Subject: Undeliverable: Quick Question, Terry
+
+ent: rfc822;terry.winrow@bodycote.com
+Action: failed
+Status: 5.1.1
+Diagnostic-Code: smtp;550 5.1.1 RESOLVER.ADR.RecipNotFound; not found
+

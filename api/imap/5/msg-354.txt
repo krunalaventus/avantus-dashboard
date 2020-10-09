@@ -1,0 +1,10 @@
+Date: Thu, 10 Sep 2020 03:13:23 -0500
+From: Mail Delivery Subsystem <MAILER-DAEMON@kbr.com>
+To: <kevin@codem-composites.com>
+Subject: [External] Returned mail: see transcript for details
+
+ed
+Status: 5.1.1
+Remote-MTA: DNS; [161.51.4.24]
+Diagnostic-Code: SMTP; 550 Rule imposed mailbox access for peter.gallik@kbr.com refused: user invalid
+Last-Attempt-Date: Thu, 10 Sep 2020 03:13:21 -0500

@@ -5,6 +5,7 @@ import React, { useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import _ from '@lodash';
 import { useHistory, useParams } from 'react-router';
+import Loader from 'react-loader-spinner';
 import reducer from './store';
 import { selectWidgetsEntities, getWidgets } from './store/widgetsSlice';
 import Widget2 from './widgets/Widget2';
@@ -22,6 +23,7 @@ function AnalyticsDashboardApp() {
 	const [campaign, setCampaign] = React.useState('');
 	const widgets = useSelector(selectWidgetsEntities);
 	const [flag, setFlag] = React.useState(false);
+	const [state, setState] = React.useState({ loading: true });
 
 	const routeParams = useParams();
 	// if(selectedValue){
@@ -30,17 +32,15 @@ function AnalyticsDashboardApp() {
 	function loadDashboard() {
 		(async () => {
 			const token = localStorage.getItem('token');
-			const response = await fetch(
-				`${process.env.REACT_APP_API_URL}leads/total/${routeParams.id === 'all' ? 0 : routeParams.id}`,
-				{
-					headers: {
-						Authorization: token
-					}
+			const response = await fetch(`${process.env.REACT_APP_API_URL}leads/total/${routeParams.id}`, {
+				headers: {
+					Authorization: token
 				}
-			);
+			});
 			const res = await response.json();
 			const ddata = res.data;
 			setData(ddata);
+			setState({ loading: false });
 		})();
 		(async () => {
 			const token = localStorage.getItem('token');
@@ -65,7 +65,9 @@ function AnalyticsDashboardApp() {
 		return null;
 	}
 
-	return (
+	return state.loading ? (
+		<Loader type="Puff" color="#00BFFF" height={100} width={100} />
+	) : (
 		<div className="w-full">
 			<FuseAnimate animation="transition.slideUpIn" delay={200}>
 				<div className="flex flex-col md:flex-row sm:p-8 container">
@@ -73,7 +75,7 @@ function AnalyticsDashboardApp() {
 						<div className="flex flex-col sm:flex sm:flex-row pb-32">
 							<div className="widget sm:w-1/6 p-16">
 								<div className="widget">
-									<WidgetDropdown fetchSelected={value => setSelectedValue(value)} items={campaign} />
+									<WidgetDropdown fetchSelected={routeParams.id} items={campaign} />
 								</div>
 							</div>
 							<div className="widget sm:w-1/6 p-16">
@@ -103,7 +105,7 @@ function AnalyticsDashboardApp() {
 							</div>
 						</div>
 						<div>
-							<LeadTabs />
+							<LeadTabs data={{ campaignId: routeParams.id, data1: data }} />
 						</div>
 					</div>
 				</div>

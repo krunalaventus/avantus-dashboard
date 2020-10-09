@@ -97,7 +97,11 @@ const mailsSlice = createSlice({
 		}
 	},
 	extraReducers: {
+		[getMails.pending]: (state, action) => {
+			state.status = 'loading';
+		},
 		[getMails.fulfilled]: (state, action) => {
+			state.status = 'succeeded';
 			const { data, routeParams } = action.payload;
 			mailsAdapter.setAll(state, data);
 			state.routeParams = routeParams;

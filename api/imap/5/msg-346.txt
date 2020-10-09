@@ -1,0 +1,9 @@
+Reporting-MTA: dns;leonardo.com
+Received-From-MTA: dns;hsmx01-hz5.hornetsecurity.com
+Arrival-Date: Thu, 10 Sep 2020 07:55:41 +0000
+
+Final-Recipient: rfc822;keith.driver@leonardo.com
+Action: failed
+Status: 5.1.1
+Diagnostic-Code: smtp;550 5.1.1 RESOLVER.ADR.RecipNotFound; not found
+

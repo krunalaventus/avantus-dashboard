@@ -1,0 +1,116 @@
+<html xmlns:o=3D"urn:schemas-microsoft-com:office:office" xmlns:w=3D"urn:sc=
+hemas-microsoft-com:office:word" xmlns:m=3D"http://schemas.microsoft.com/of=
+fice/2004/12/omml" xmlns=3D"http://www.w3.org/TR/REC-html40">
+<head>
+<META http-equiv=3D"Content-Type" content=3D"text/html; charset=3DISO-8859-=
+1">
+<meta name=3D"Generator" content=3D"Microsoft Word 15 (filtered medium)">
+<style><!--=0A/* Font Definitions */=0A@font-face=0A	{font-family:Calibri;=
+=0A	panose-1:2 15 5 2 2 2 4 3 2 4;}=0A@font-face=0A	{font-family:Tahoma;=0A=
+	panose-1:2 11 6 4 3 5 4 4 2 4;}=0A@font-face=0A	{font-family:"Lucida Brigh=
+t";=0A	panose-1:2 4 6 2 5 5 5 2 3 4;}=0A/* Style Definitions */=0Ap.MsoNorm=
+al, li.MsoNormal, div.MsoNormal=0A	{margin:0cm;=0A	margin-bottom:.0001pt;=
+=0A	font-size:11.0pt;=0A	font-family:"Calibri",sans-serif;=0A	mso-fareast-l=
+anguage:EN-US;}=0Aa:link, span.MsoHyperlink=0A	{mso-style-priority:99;=0A	c=
+olor:#0563C1;=0A	text-decoration:underline;}=0Aa:visited, span.MsoHyperlink=
+Followed=0A	{mso-style-priority:99;=0A	color:#954F72;=0A	text-decoration:un=
+derline;}=0Aspan.EmailStyle17=0A	{mso-style-type:personal-compose;=0A	font-=
+family:"Lucida Bright",serif;}=0A.MsoChpDefault=0A	{mso-style-type:export-o=
+nly;=0A	font-family:"Calibri",sans-serif;=0A	mso-fareast-language:EN-US;}=
+=0A@page WordSection1=0A	{size:612.0pt 792.0pt;=0A	margin:72.0pt 72.0pt 72.=
+0pt 72.0pt;}=0Adiv.WordSection1=0A	{page:WordSection1;}=0A--></style>
+</head>
+<body lang=3D"EN-GB" link=3D"#0563C1" vlink=3D"#954F72">
+<div class=3D"WordSection1">
+<p class=3D"MsoNormal" style=3D"text-autospace:none"><span style=3D"font-si=
+ze:10.0pt;font-family:&quot;Lucida Bright&quot;,serif">I am now out of the =
+office until Monday 28th September. For anything urgent please contact Ruth=
+ Hutchings/ Richard Greenfield/Lisa Tyson. Thanks-Eilis</span><span style=
+=3D"font-size:8.5pt;font-family:&quot;Tahoma&quot;,sans-serif"><o:p></o:p><=
+/span></p>
+</div>
+=0A=A0<b><span style=3D"font-size: 8pt; line-height: 115%; font-family: Tah=
+oma, sans-serif; color: rgb(89, 89, 89); position: relative; top: -3pt;">Co=
+nnect=0Awith</span><span style=3D"font-size: 8pt; line-height: 115%; font-f=
+amily: Tahoma, sans-serif; color: rgb(252, 76, 2); position: relative; top:=
+ -3pt;">=A0BAE Systems:</span><span style=3D"font-size: 10pt; line-height: =
+115%; font-family: Arial, sans-serif; color: rgb(89, 89, 89); position: rel=
+ative; top: 3pt;">&nbsp;</span></b><span style=3D"font-size: 11pt; line-hei=
+ght: 115%; font-family: Calibri, sans-serif;"><a href=3D"https://www.facebo=
+ok.com/BAESystemsplc"><b><span style=3D"font-size: 10pt; line-height: 115%;=
+ font-family: Arial, sans-serif; color: rgb(89, 89, 89); position: relative=
+; top: 3pt; text-decoration-line: none;"><!--=0A=0A[if gte vml 1]><v:shapet=
+ype id=3D"_x0000_t75"=0A coordsize=3D"21600,21600" o:spt=3D"75" o:preferrel=
+ative=3D"t" path=3D"m@4@5l@4@11@9@11@9@5xe"=0A filled=3D"f" stroked=3D"f">=
+=0A <v:stroke joinstyle=3D"miter"/>=0A <v:formulas>=0A  <v:f eqn=3D"if line=
+Drawn pixelLineWidth 0"/>=0A  <v:f eqn=3D"sum @0 1 0"/>=0A  <v:f eqn=3D"sum=
+ 0 0 @1"/>=0A  <v:f eqn=3D"prod @2 1 2"/>=0A  <v:f eqn=3D"prod @3 21600 pix=
+elWidth"/>=0A  <v:f eqn=3D"prod @3 21600 pixelHeight"/>=0A  <v:f eqn=3D"sum=
+ @0 0 1"/>=0A  <v:f eqn=3D"prod @6 1 2"/>=0A  <v:f eqn=3D"prod @7 21600 pix=
+elWidth"/>=0A  <v:f eqn=3D"sum @8 21600 0"/>=0A  <v:f eqn=3D"prod @7 21600 =
+pixelHeight"/>=0A  <v:f eqn=3D"sum @10 21600 0"/>=0A </v:formulas>=0A <v:pa=
+th o:extrusionok=3D"f" gradientshapeok=3D"t" o:connecttype=3D"rect"/>=0A <o=
+:lock v:ext=3D"edit" aspectratio=3D"t"/>=0A</v:shapetype><v:shape id=3D"_x0=
+000_i1028" type=3D"#_x0000_t75" style=3D'width:17.25pt;=0A height:17.25pt;v=
+isibility:visible'>=0A <v:imagedata src=3D"https://scontent-lhr3-1.xx.fbcdn=
+.net/v/t1.0-1/p56x56/69285458_10162616498326337_4798130956768641024_n.png?_=
+nc_cat=3D1&_nc_oc=3DAQly5_xLgMX_tyJDaHpxRdnUf560q3bcB-Y3CCRlQgRTmXEsNM-_48P=
+Mcd2h6-=0A=0As9n4M&_nc_ht=3Dscontent-lhr3-1.xx&oh=3D39c8ea4e9c11d0a67f0e834=
+4fd2678fa&oe=3D5E4450DB"=0A  o:href=3D"cid:image005.jpg@01D18C00.767012C0"/=
+>=0A</v:shape><![endif]--><!--[if !vml]--><img border=3D"0" width=3D"23" he=
+ight=3D"23" src=3D"https://scontent-lhr3-1.xx.fbcdn.net/v/t1.0-1/p56x56/692=
+85458_10162616498326337_4798130956768641024_n.png?=0A=0A_nc_cat=3D1&_nc_oc=
+=3DAQly5_xLgMX_tyJDaHpxRdnUf560q3bcB-Y3CCRlQgRTmXEsNM-_48PMcd2h6-s9n4M&_nc_=
+ht=3Dscontent-lhr3-1.xx&oh=3D39c8ea4e9c11d0a67f0e8344fd2678fa&oe=3D5E4450DB=
+" v:shapes=3D"_x0000_i1028" /><!--[endif]--></span></b></a><a href=3D"https=
+://twitter.com/baesystemsplc"><b><span style=3D"font-size: 10pt; line-heigh=
+t: 115%; font-family: Arial, sans-serif; color: rgb(89, 89, 89); position: =
+relative; top: 3pt; text-decoration-line: none;"><!--[if =0A=0Agte vml 1]><=
+v:shape=0A id=3D"_x0000_i1027" type=3D"#_x0000_t75" style=3D'width:17.25pt;=
+height:17.25pt;=0A visibility:visible'>=0A <v:imagedata src=3D"https://abs.=
+twimg.com/icons/apple-touch-icon-192x192.png"=0A  o:href=3D"cid:image006.jp=
+g@01D18C00.767012C0"/>=0A</v:shape><![endif]--><!--[if !vml]--><img border=
+=3D"0" width=3D"23" height=3D"23" src=3D"https://abs.twimg.com/icons/apple-=
+touch-icon-192x192.png" v:shapes=3D"_x0000_i1027" /><!--[endif]--></span></=
+b></a><a href=3D"https://www.linkedin.com/company/bae-systems"><b><span sty=
+le=3D"font-size: 10pt; line-height: 115%; font-family: Arial, sans-serif; c=
+olor: rgb(89, 89, 89); position: relative; top: 3pt; text-decoration-line: =
+none;"><!--[if gte vml 1]><v:shape=0A id=3D"_x0000_i1026" type=3D"#_x0000_t=
+75" style=3D'width:17.25pt;height:17.25pt;=0A visibility:visible'>=0A <v:im=
+agedata src=3D"https://static.licdn.com/scds/common/u/img/icon/apple-touch-=
+icon.png"=0A  o:href=3D"cid:image007.jpg@01D18C00.767012C0"/>=0A</v:shape><=
+![endif]--><!--[if !vml]--><img border=3D"0" width=3D"23" height=3D"23" src=
+=3D"https://static.licdn.com/scds/common/u/img/icon/apple-touch-icon.png" v=
+:shapes=3D"_x0000_i1026" /><!--=0A=0A[endif]--></span></b></a><b><span styl=
+e=3D"font-size: 10pt; line-height: 115%; font-family: Arial, sans-serif; co=
+lor: rgb(89, 89, 89); position: relative; top: 3pt; text-decoration-line: n=
+one;"><a href=3D"https://www.youtube.com/user/BAESystemsplc"><!--[if gte vm=
+l 1]><v:shape=0A id=3D"_x0000_i1025" type=3D"#_x0000_t75" style=3D'width:17=
+.25pt;height:17.25pt;=0A visibility:visible'>=0A <v:imagedata src=3D"https:=
+//s.ytimg.com/yts/img/favicon_32-vflOogEID.png"=0A  o:href=3D"cid:image008.=
+jpg@01D18C00.767012C0"/>=0A</v:shape><![endif]--><!--[if !vml]--><img borde=
+r=3D"0" width=3D"23" height=3D"23" src=3D"https://s.ytimg.com/yts/img/favic=
+on_32-vflOogEID.png" v:shapes=3D"_x0000_i1025" /></a></span></b></span><p c=
+lass=3D"MsoNormal" style=3D"background: white;">***************************=
+**********************************************************</p><p>The inform=
+ation contained in this communication may be commercially sensitive and/or =
+legally privileged.=A0 <br />If you have received this message in error ple=
+ase notify the sender or a member of the Communications <br />team immediat=
+ely by reply e-mail and then delete this message from your system.=A0 You m=
+ust not disclose <br />it to any other person or third party who is not on =
+the original distribution.</p><p>BAE SYSTEMS MARINE Limited. Registered num=
+ber is 00229770.<br />Registered Office: Warwick House, PO Box 87, <br />Fa=
+rnborough Aerospace Centre, Farnborough, Hampshire, GU14 6YU</p><p><br />Th=
+is document contains sensitive information of the United Kingdom Government=
+ which is not available in<br />the public domain in the United Kingdom. It=
+ is provided to the United States Government and/or United States<br />Cont=
+ractors acting on behalf of the United States Government on the condition t=
+hat it is not released to the<br />public without the approval of the Unite=
+d Kingdom Government.</p><p>BAE Systems may process information about you t=
+hat may be subject to data protection laws. For more information about how =
+we use your personal information, how we protect your information, our lega=
+l basis for using your information, your rights and who you can contact, pl=
+ease refer to our Privacy Notice at=A0 www.baesystems.com/en/privacy</p><p>=
+***************************************************************************=
+**********</p>=0A=0A=0A=0A=0A</body>
+</html>

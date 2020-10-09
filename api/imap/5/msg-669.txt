@@ -1,0 +1,9 @@
+Reporting-MTA: dns;LNXP123MB1865.GBRP123.PROD.OUTLOOK.COM
+Received-From-MTA: dns;mail-il1-f169.google.com
+Arrival-Date: Mon, 21 Sep 2020 08:32:35 +0000
+
+Final-Recipient: rfc822;louis@electro-flight.com
+Action: failed
+Status: 5.1.10
+Diagnostic-Code: smtp;550 5.1.10 RESOLVER.ADR.RecipientNotFound; Recipient louis@electro-flight.com not found by SMTP address lookup
+

@@ -1,3 +1,4 @@
+import Loader from 'react-loader-spinner';
 import FuseAnimate from '@fuse/core/FuseAnimate';
 import FuseUtils from '@fuse/utils';
 import Avatar from '@material-ui/core/Avatar';
@@ -13,24 +14,11 @@ import { openEditLeadsDialog, selectleads } from './store/leadsSlice';
 function LeadsList(props) {
 	const dispatch = useDispatch();
 	const leads = useSelector(selectleads);
+	const postStatus = useSelector(state => state.leadsApp.leads.status);
 	const searchText = useSelector(({ leadsApp }) => leadsApp.leads.searchText);
 	const user = useSelector(({ leadsApp }) => leadsApp.user);
-
+	const [state, setState] = React.useState({ loading: false });
 	const [filteredData, setFilteredData] = useState(null);
-	function CompletionFlag(prop) {
-		return <Icon>star</Icon>;
-	}
-
-	function DecompletionFlag(prop) {
-		return <Icon>star_border</Icon>;
-	}
-	function IsCompletionFlag(prop) {
-		const isCompleted = prop.completion_flag;
-		if (isCompleted === 'COMPLETED') {
-			return <CompletionFlag />;
-		}
-		return <DecompletionFlag />;
-	}
 	const columns = React.useMemo(
 		() => [
 			{
@@ -190,6 +178,7 @@ function LeadsList(props) {
 	);
 
 	useEffect(() => {
+		setState({ loading: true });
 		function getFilteredArray(entities, _searchText) {
 			if (_searchText.length === 0) {
 				return leads;
@@ -198,16 +187,24 @@ function LeadsList(props) {
 		}
 
 		if (leads) {
+			if (leads.length > 0) {
+				setState({ loading: false });
+			}
 			setFilteredData(getFilteredArray(leads, searchText));
 		}
+		// if (leads != null) {
+		// }
 	}, [leads, searchText]);
 
 	if (!filteredData) {
 		return null;
 	}
-
+	console.log('============================================')
+	console.log(postStatus);
 	if (filteredData.length === 0) {
-		return (
+		return postStatus === 'loading' ? (
+			<Loader type="Puff" color="#00BFFF" height={100} width={100} />
+		) : (
 			<div className="flex flex-1 items-center justify-center h-full">
 				<Typography color="textSecondary" variant="h5">
 					There are no Leads!
@@ -216,7 +213,9 @@ function LeadsList(props) {
 		);
 	}
 
-	return (
+	return postStatus === 'loading' ? (
+		<Loader type="Puff" color="#00BFFF" height={100} width={100} />
+	) : (
 		<FuseAnimate animation="transition.slideUpIn" delay={300}>
 			<LeadsTable columns={columns} data={filteredData} />
 		</FuseAnimate>
