@@ -1,0 +1,11 @@
+Reporting-MTA: dns; kerio.vitkovice.cz
+Arrival-Date: Wed, 23 Sep 2020 11:41:23 +0200
+
+Original-Recipient: jlenthall@cylinders.cz
+Final-Recipient: rfc822;jlenthall@cylinders.cz
+Action: failed
+Status: 5.1.1
+Remote-MTA: 172.22.67.46
+Diagnostic-Code: SMTP; 550 5.7.54 SMTP; Unable to relay recipient in non-acc
+	epted domain
+	

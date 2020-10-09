@@ -1,0 +1,10 @@
+To: kevin@codem-composites.com
+Subject: Delivery failure (d.thornton@companieshouse.gov.uk)
+From: postmaster@companieshouse.gov.uk
+Date: Tue, 22 Sep 2020 16:06:33 +0100
+
+020 13:29:38 +0100
+
+Final-Recipient: rfc822; d.thornton@companieshouse.gov.uk
+Action: failed
+Status: 4.4.7 (Persistent transient failure - routing/network: delivery time expired)

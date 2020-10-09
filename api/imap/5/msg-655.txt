@@ -1,0 +1,11 @@
+From: <postmaster@directed.com>
+To: <kevin@codem-composites.com>
+Date: Fri, 18 Sep 2020 01:50:50 -0700
+Subject: Undeliverable: Quick Question, Shaun
+
+t: rfc822;shaun.findley@directed.com
+Final-Recipient: rfc822;shaun.findley@directed.com
+Action: failed
+Status: 5.1.10
+Diagnostic-Code: smtp;550 5.1.10 RESOLVER.ADR.RecipientNotFound; Recipient not found by SMTP address lookup
+

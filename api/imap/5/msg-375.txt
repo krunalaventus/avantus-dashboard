@@ -1,0 +1,11 @@
+Reporting-MTA: dns; googlemail.com
+Arrival-Date: Fri, 11 Sep 2020 01:08:18 -0700 (PDT)
+X-Original-Message-ID: <CAK4cLxj_1KwQthw3==wBMfEoUJZts-qZ4z4-ggz3uhCOJawjXw@mail.gmail.com>
+
+Final-Recipient: rfc822; pjones@wcwelding.com
+Action: failed
+Status: 5.0.0
+Remote-MTA: dns; webmail2.sitebuildit.com. (66.43.52.5, the server for the
+ domain wcwelding.com.)
+Diagnostic-Code: smtp; 554 Sorry, your email was refused. You may have sent it to an address that does NOT exist. OR perhaps YOUR address is not on recipient's WHITELIST of accepted addresses.  Click on http://whitelist.sitesell.com to add your address.  You only EVER need to do this ONCE.  This simple act eliminates spammers since they never read messages like this, but it allows REAL people like you to pass through. (#5.7.1)
+Last-Attempt-Date: Fri, 11 Sep 2020 01:08:20 -0700 (PDT)

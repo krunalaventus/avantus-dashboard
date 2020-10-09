@@ -1,0 +1,11 @@
+Reporting-MTA: dns; googlemail.com
+Arrival-Date: Thu, 17 Sep 2020 01:00:36 -0700 (PDT)
+X-Original-Message-ID: <CAK4cLxgQmx0GGVq2Xrd=NukVwgiQaYfrHj0iayF4HR1To5fW2g@mail.gmail.com>
+
+Final-Recipient: rfc822; stuart.falconer@baesystems.com
+Action: failed
+Status: 5.0.0
+Remote-MTA: dns; dmzms99901.na.baesystems.com. (149.32.200.65, the server for
+ the domain baesystems.com.)
+Diagnostic-Code: smtp; 550 #5.7.1 Your access to submit messages to this e-mail system has been rejected.
+Last-Attempt-Date: Thu, 17 Sep 2020 01:00:38 -0700 (PDT)

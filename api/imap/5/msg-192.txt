@@ -1,0 +1,11 @@
+From: <postmaster@mbda-systems.com>
+To: <kevin@codem-composites.com>
+Date: Mon, 7 Sep 2020 12:08:30 +0200
+Subject: Non remis : Quick Question, Andy
+
+wattmcips@mbda-systems.com
+Final-Recipient: rfc822;andy.wattmcips@mbda-systems.com
+Action: failed
+Status: 5.1.10
+Diagnostic-Code: smtp;550 5.1.10 RESOLVER.ADR.RecipientNotFound; Recipient not found by SMTP address lookup
+

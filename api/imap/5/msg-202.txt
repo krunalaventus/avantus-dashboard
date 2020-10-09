@@ -1,0 +1,10 @@
+Subject: Undeliverable mail: Quick Question, Brian
+From: <MAILER-DAEMON@server205.appriver.com>
+To: <kevin@codem-composites.com>
+Date: Mon, 07 Sep 2020 06:30:59 -0400
+
+failed
+Status: 5.0.0
+Remote-MTA: dns; 4lcommunications-com.mail.protection.outlook.com:25
+Diagnostic-Code: smtp;host 4lcommunications-com.mail.protection.outlook.com:25 says:
+ 550 5.4.1 Recipient address rejected: Access denied. AS(201806281) [QB1CAN01FT018.eop-CAN01.prod.protection.outlook.com]

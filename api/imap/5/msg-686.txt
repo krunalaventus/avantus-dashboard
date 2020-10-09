@@ -1,0 +1,10 @@
+From: <postmaster@entegrasolutions.com>
+To: <kevin@codem-composites.com>
+Date: Mon, 21 Sep 2020 10:18:47 +0000
+Subject: Undeliverable: Quick Question, John
+
+l-Recipient: rfc822;j_owen@entegrasolutions.com
+Action: failed
+Status: 5.1.10
+Diagnostic-Code: smtp;550 5.1.10 RESOLVER.ADR.RecipientNotFound; Recipient j_owen@entegrasolutions.com not found by SMTP address lookup
+

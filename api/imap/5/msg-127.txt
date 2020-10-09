@@ -1,0 +1,11 @@
+Date: Fri, 4 Sep 2020 09:21:48 -0400
+From: Mail Delivery Subsystem <MAILER-DAEMON@chl-ppmailsec-001.state.ma.us>
+To: <kevin@codem-composites.com>
+Subject: Returned mail: see transcript for details
+
+s.gov
+Action: failed
+Status: 5.0.0
+Remote-MTA: DNS; sdc-ppmta-002.state.ma.us
+Diagnostic-Code: SMTP; 550 5.0.0 <martin.tohermcmimcgi@mass.gov>... User unknown
+Last-Attempt-Date: Fri, 4 Sep 2020 09:21:48 -0400

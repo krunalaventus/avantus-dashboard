@@ -1,0 +1,10 @@
+From: <postmaster@ts.eads.net>
+To: <kevin@codem-composites.com>
+Date: Tue, 8 Sep 2020 11:51:41 +0200
+Subject: Non remis : Quick Question, Chris
+
+ecipient: rfc822;gorringe.chris@spherea.com
+Action: failed
+Status: 5.1.1
+Diagnostic-Code: smtp;550 5.1.1 RESOLVER.ADR.RecipNotFound; not found
+

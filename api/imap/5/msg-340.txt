@@ -1,0 +1,12 @@
+To: kevin@codem-composites.com
+Date: Wed, 09 Sep 2020 06:37:07 -0700 (PDT)
+From: Mail Delivery Subsystem <mailer-daemon@googlemail.com>
+Subject: Delivery Status Notification (Failure)
+
+Recipient: rfc822; donald.grahammiet@babcockinternational.com
+Action: failed
+Status: 5.1.1
+Remote-MTA: dns; mxb-001c8e01.gslb.pphosted.com. (148.163.156.185, the server
+ for the domain babcockinternational.com.)
+Diagnostic-Code: smtp; 550 5.1.1 User Unknown
+Last-Attempt-Date: Wed, 09 Sep 2020 06:37:07 -0700 (PDT)

@@ -1,0 +1,11 @@
+Reporting-MTA: dns; googlemail.com
+Arrival-Date: Tue, 08 Sep 2020 02:05:04 -0700 (PDT)
+X-Original-Message-ID: <CAK4cLxg1Pt0WGZ3=H7=k+Xe+9q6Js6gBKAt2en5P_0suLpjahw@mail.gmail.com>
+
+Final-Recipient: rfc822; richard@babcockinternational.com
+Action: failed
+Status: 5.1.1
+Remote-MTA: dns; mxb-001c8e01.gslb.pphosted.com. (148.163.156.185, the server
+ for the domain babcockinternational.com.)
+Diagnostic-Code: smtp; 550 5.1.1 User Unknown
+Last-Attempt-Date: Tue, 08 Sep 2020 02:05:06 -0700 (PDT)

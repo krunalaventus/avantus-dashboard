@@ -1,0 +1,10 @@
+From: <postmaster@beam-it.eu>
+To: <kevin@codem-composites.com>
+Date: Fri, 11 Sep 2020 08:43:48 +0000
+Subject: Undeliverable: Quick Question, Cristiano
+
+Final-Recipient: rfc822;cristianog@beam-it.eu
+Action: failed
+Status: 5.1.10
+Diagnostic-Code: smtp;550 5.1.10 RESOLVER.ADR.RecipientNotFound; Recipient cristianog@beam-it.eu not found by SMTP address lookup
+

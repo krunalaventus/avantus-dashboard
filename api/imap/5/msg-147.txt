@@ -1,0 +1,10 @@
+From: Mail Delivery System <MAILER-DAEMON@messagelabs.com>
+To: <kevin@codem-composites.com>
+Subject: Mail Delivery Failure
+Date: Fri, 04 Sep 2020 15:06:30 +0000
+
+s rejected: Access denied. AS(201806281) [AM5EUR02FT029.eop-EUR02.prod.protection.outlook.com]
+Last-Attempt-Date: Fri, 04 Sep 2020 15:06:30 +0000
+Status: 5.4.1
+Final-Recipient: rfc822; paul.horstmann@scl.org
+Action: failed

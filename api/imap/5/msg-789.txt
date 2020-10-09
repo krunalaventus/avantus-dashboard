@@ -1,0 +1,10 @@
+From: <postmaster@hamaton-tpms.com>
+To: <kevin@codem-composites.com>
+Date: Wed, 23 Sep 2020 12:51:32 +0000
+Subject: Undeliverable: Quick Question, Jade
+
+inal-Recipient: rfc822;j_young@hamaton-tpms.com
+Action: failed
+Status: 5.1.10
+Diagnostic-Code: smtp;550 5.1.10 RESOLVER.ADR.RecipientNotFound; Recipient j_young@hamaton-tpms.com not found by SMTP address lookup
+

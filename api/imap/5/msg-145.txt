@@ -1,0 +1,10 @@
+Reporting-MTA: dns; mailp6.kbr.com
+Received-From-MTA: DNS; mail-io1-f43.google.com
+Arrival-Date: Fri, 4 Sep 2020 09:54:46 -0500
+
+Final-Recipient: RFC822; paul.wilks@kbr.com
+Action: failed
+Status: 5.1.1
+Remote-MTA: DNS; [161.51.4.24]
+Diagnostic-Code: SMTP; 550 Rule imposed mailbox access for paul.wilks@kbr.com refused: user invalid
+Last-Attempt-Date: Fri, 4 Sep 2020 09:54:46 -0500

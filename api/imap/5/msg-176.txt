@@ -1,0 +1,9 @@
+Reporting-MTA: dns;BYAPR08MB5432.namprd08.prod.outlook.com
+Received-From-MTA: dns;mail-io1-f48.google.com
+Arrival-Date: Mon, 7 Sep 2020 08:54:39 +0000
+
+Final-Recipient: rfc822;fluinrichard@arcadis-fr.com
+Action: failed
+Status: 5.1.10
+Diagnostic-Code: smtp;550 5.1.10 RESOLVER.ADR.RecipientNotFound; Recipient fluinrichard@arcadis-fr.com not found by SMTP address lookup
+

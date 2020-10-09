@@ -1,0 +1,6 @@
+Reporting-MTA: dns; txanms90001.us.baesystems.com
+
+Final-Recipient: rfc822;michael.stewart@bluelnk.net
+Action: failed
+Status: 5.0.0 (permanent failure)
+Diagnostic-Code: smtp; 5.4.7 - Delivery expired (message too old) 'timeout' (delivery attempts: 0)

@@ -1,0 +1,6 @@
+Date: 22 Sep 2020 16:01:58 +0800
+To: kevin@codem-composites.com
+From: "Mail Delivery Sysom
+Action: failed
+Status: 5.0.0 (permanent failure)
+Diagnostic-Code: smtp; 5.1.1 - Bad destination email address 'reject' (delivery attempts: 0)

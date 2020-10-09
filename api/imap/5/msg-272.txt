@@ -1,0 +1,10 @@
+Reporting-MTA: dns; chl-ppmailsec-001.state.ma.us
+Received-From-MTA: DNS; chl-ppmailsec-001.state.ma.us
+Arrival-Date: Tue, 8 Sep 2020 05:28:20 -0400
+
+Final-Recipient: RFC822; chris.smith@mass.gov
+Action: failed
+Status: 5.0.0
+Remote-MTA: DNS; chl-ppmta-001.state.ma.us
+Diagnostic-Code: SMTP; 550 5.0.0 <chris.smith@mass.gov>... User unknown
+Last-Attempt-Date: Tue, 8 Sep 2020 05:28:21 -0400

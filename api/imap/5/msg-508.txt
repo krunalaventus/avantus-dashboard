@@ -1,0 +1,11 @@
+Reporting-MTA: dns; googlemail.com
+Arrival-Date: Tue, 15 Sep 2020 03:05:38 -0700 (PDT)
+X-Original-Message-ID: <CAK4cLxjcN_iwKfTPmN7MT=Nj_Shw9MGb3q+c_M8qHyqpY7-k6A@mail.gmail.com>
+
+Final-Recipient: rfc822; halfordk@leidos.com
+Action: failed
+Status: 5.0.0
+Remote-MTA: dns; smtp201.leidos.com. (149.8.242.13, the server for the domain leidos.com.)
+Diagnostic-Code: smtp; 554-EMP-MX212.dcs.leidos.com
+ 554 Rejected - [209.85.166.68]
+Last-Attempt-Date: Tue, 15 Sep 2020 03:05:39 -0700 (PDT)
