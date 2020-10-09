@@ -1,6 +1,9 @@
-Reporting-MTA: dns;SVR-PR-MB365B.cb.careerbuilder.com
-Received-From-MTA: dns;NAM11-DM6-obe.outbound.protection.outlook.com
-Arrival-Date: Mon, 14 Sep 2020 11:37:43 +0000
+From: <postmaster@careerbuilder.com>
+To: <kevin@codem-composites.com>
+Date: Mon, 14 Sep 2020 07:37:43 -0400
+Subject: Undeliverable: Quick Question, Anthony
+
+43 +0000
 
 Final-Recipient: rfc822;anthonydavis@railwaypeople.com
 Action: failed

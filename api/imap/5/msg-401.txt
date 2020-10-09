@@ -1,6 +1,7 @@
-Reporting-MTA: dns;AM6PR03MB5639.eurprd03.prod.outlook.com
-Received-From-MTA: dns;mail-io1-f41.google.com
-Arrival-Date: Fri, 11 Sep 2020 10:16:09 +0000
+From: <postmaster@BladonJets.com>
+To: <kevin@codem-composites.com>
+Date: Fri, 11 Sep 2020 10:16:10 +0000
+Subject: Undeliverable: Quick Question, Chris
 
 Final-Recipient: rfc822;bladon_chris@bladonmt.com
 Action: failed

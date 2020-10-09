@@ -1,6 +1,9 @@
-<html><div style=3D"min-width: 360px"></div><div dir=3D"ltr">
-    <div><p fr-original-style=3D"margin: 0px; box-sizing: border-box;" =
-style=3D"margin: 0px; box-sizing: border-box;"><span =
+From: Kevin Doherty <kevin@codem-composites.com>
+To: michael_kousoulou@cummins.com
+Subject: Quick Question, Michael
+Date: Thu, 17 Sep 2020 02:25:54 -0700
+
+ox-sizing: border-box;"><span =
 fr-original-style=3D"font-family: Arial, Helvetica, sans-serif; box-sizing:=
  border-box;" style=3D"font-family: Arial, Helvetica, sans-serif; =
 box-sizing: border-box;">Hi Michael,&nbsp;</span></p><p =

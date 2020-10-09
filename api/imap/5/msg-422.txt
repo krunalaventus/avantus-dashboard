@@ -1,7 +1,6 @@
-From: <postmaster@bombardierinc.com>
-To: <kevin@codem-composites.com>
-Date: Fri, 11 Sep 2020 12:54:16 +0000
-Subject: Undeliverable: Quick Question, Ghita
+Reporting-MTA: dns;HE1PR0301MB2297.eurprd03.prod.outlook.com
+Received-From-MTA: dns;mail-il1-f173.google.com
+Arrival-Date: Fri, 11 Sep 2020 12:54:15 +0000
 
 Final-Recipient: rfc822;jabri.ghita@bombardier.com
 Action: failed

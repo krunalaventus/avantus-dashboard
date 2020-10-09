@@ -1,8 +1,9 @@
-Reporting-MTA: dns;eu-colo-exch-03.chemring.net
-Received-From-MTA: dns;eu-colo-imsva.chemring.net
-Arrival-Date: Tue, 8 Sep 2020 09:05:06 +0000
+From: <postmaster@chemring.net>
+To: <kevin@codem-composites.com>
+Date: Tue, 8 Sep 2020 10:05:06 +0100
+Subject: Undeliverable: Quick Question, Nick
 
-Original-Recipient: rfc822;nickp@chemring.co.uk
+nal-Recipient: rfc822;nickp@chemring.co.uk
 Final-Recipient: rfc822;nickp@chemring.co.uk
 Action: failed
 Status: 5.1.10

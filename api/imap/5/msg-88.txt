@@ -1,6 +1,9 @@
-PGRpdiBkaXI9Imx0ciI+PGRpdiBkaXI9Imx0ciI+SGkgS2V2aW4sPGRpdj5JdCB3b3VsZCBiZSBn
-b29kIHRvIHVuZGVyc3RhbmTCoHlvdXIgYXJlYXMgb2bCoGV4cGVydGlzZSBhbmQgc3luZXJnaWVz
-IHdpdGggQWlyYnVzLiBJZiB5b3UgaGF2ZSBhIHBhY2sgb3LCoHByZXNlbnRhdGlvbiB0aGF0IEkg
+From: "Surendran, Vin" <vinodh.surendran@airbus.com>
+Date: Fri, 4 Sep 2020 09:47:41 +0100
+Subject: Re: Quick Question, Vinodh
+To: kevin@codem-composites.com
+
+gQWlyYnVzLiBJZiB5b3UgaGF2ZSBhIHBhY2sgb3LCoHByZXNlbnRhdGlvbiB0aGF0IEkg
 Y291bGQgcmV2aWV3IHRvIHVuZGVyc3RhbmQgdGhpcyBpbiB0aGUgZmlyc3QgaW5zdGFuY2UgdGhh
 dMKgd291bGQgYmUgZ3JlYXQuPC9kaXY+PGRpdj48YnI+PC9kaXY+PGRpdj5LaW5kIHJlZ2FyZHMs
 PGJyIGNsZWFyPSJhbGwiPjxkaXY+PGRpdiBkaXI9Imx0ciIgY2xhc3M9ImdtYWlsX3NpZ25hdHVy

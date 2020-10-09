@@ -1,9 +1,6 @@
-From: <postmaster@emprise.co.uk>
-To: <kevin@codem-composites.com>
-Date: Mon, 7 Sep 2020 12:59:30 +0100
-Subject: Undeliverable: Quick Question, Glenn
-
-000
+Reporting-MTA: dns;ES-EXMgmt.EMPRISE.LOCAL
+Received-From-MTA: dns;EUR05-DB8-obe.outbound.protection.outlook.com
+Arrival-Date: Mon, 7 Sep 2020 11:59:30 +0000
 
 Final-Recipient: rfc822;glenn@atlasfm.com
 Action: failed

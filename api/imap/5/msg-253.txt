@@ -1,7 +1,6 @@
-From: <postmaster@axlegroup.co.uk>
-To: <kevin@codem-composites.com>
-Date: Tue, 8 Sep 2020 08:30:24 +0000
-Subject: Undeliverable: Quick Question, Alastair
+Reporting-MTA: dns;LO2P265MB0429.GBRP265.PROD.OUTLOOK.COM
+Received-From-MTA: dns;dispatch1-eu1.ppe-hosted.com
+Arrival-Date: Tue, 8 Sep 2020 08:30:23 +0000
 
 Original-Recipient: rfc822;alastair@axlegroup.co.uk
 Final-Recipient: rfc822;alastair@axlegroup.co.uk

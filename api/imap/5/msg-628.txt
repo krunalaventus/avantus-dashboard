@@ -1,9 +1,9 @@
-Reporting-MTA: dns; mx07-00315301.pphosted.com
-Received-From-MTA: DNS; m0148955.ppops.net
-Arrival-Date: Fri, 18 Sep 2020 08:07:01 GMT
+Date: Fri, 18 Sep 2020 08:07:01 GMT
+From: Mail Delivery Subsystem <MAILER-DAEMON@mx07-00315301.pphosted.com>
+To: <kevin@codem-composites.com>
+Subject: Returned mail: see transcript for details
 
-Final-Recipient: RFC822; scott.monteith@delphi.com
-Action: failed
+failed
 Status: 5.4.1
 Remote-MTA: DNS; delphi-com.mail.protection.outlook.com
 Diagnostic-Code: SMTP; 550 5.4.1 Recipient address rejected: Access denied. AS(201806281) [LO2GBR01FT015.eop-gbr01.prod.protection.outlook.com]

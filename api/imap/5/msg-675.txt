@@ -1,6 +1,9 @@
-Reporting-MTA: dns;DETSVMXSMBX6.ekgroup.org
-Received-From-MTA: dns;EUR01-VE1-obe.outbound.protection.outlook.com
-Arrival-Date: Mon, 21 Sep 2020 09:11:03 +0000
+From: <postmaster@ElringKlinger.com>
+To: <kevin@codem-composites.com>
+Date: Mon, 21 Sep 2020 11:11:03 +0200
+Subject: Undeliverable: Quick Question, Jon
+
+00
 
 Final-Recipient: rfc822;jon.readman@elringklinger.de
 Action: failed

@@ -1,6 +1,9 @@
-Reporting-MTA: dns;DB8PR08MB4137.eurprd08.prod.outlook.com
-Received-From-MTA: dns;EUR05-VI1-obe.outbound.protection.outlook.com
-Arrival-Date: Fri, 4 Sep 2020 14:08:03 +0000
+From: <postmaster@kemtron.co.uk>
+To: <kevin@codem-composites.com>
+Date: Fri, 4 Sep 2020 14:08:05 +0000
+Subject: Undeliverable: Quick Question, Stephen
+
+20 14:08:03 +0000
 
 Final-Recipient: rfc822;stephenh@kemtron.co.uk
 Action: failed

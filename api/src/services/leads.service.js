@@ -57,7 +57,7 @@ exports.getAllLeadsLabel = async function(req, res) {
         if (req.params.campaignId === "all") {
             createdata = await Leads.findAll({where: {customer_id: decodedData.id, flag: req.params.label}});
         } else {
-            createdata = await Leads.findAll({ where: { customer_id: decodedData.id, campaignId: req.params.id, flag: req.params.label }});
+            createdata = await Leads.findAll({ where: { customer_id: decodedData.id, campaignId: req.params.campaignId, flag: req.params.label }});
         }
         if (createdata) {
             return {

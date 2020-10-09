@@ -1,6 +1,9 @@
-Reporting-MTA: dns;MWHPR08MB2959.namprd08.prod.outlook.com
-Received-From-MTA: dns;mail-il1-f181.google.com
-Arrival-Date: Mon, 7 Sep 2020 08:43:06 +0000
+From: <postmaster@arcadis.com>
+To: <kevin@codem-composites.com>
+Date: Mon, 7 Sep 2020 08:43:06 +0000
+Subject: Undeliverable: Quick Question, Paul
+
+0
 
 Final-Recipient: rfc822;garthwaitepaul@arcadis-fr.com
 Action: failed

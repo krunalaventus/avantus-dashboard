@@ -1,6 +1,8 @@
-Reporting-MTA: dns;PR2PR03MB5465.eurprd03.prod.outlook.com
-Received-From-MTA: dns;mail-il1-f194.google.com
-Arrival-Date: Fri, 4 Sep 2020 14:37:00 +0000
+From: <postmaster@marshallamps.ie>
+To: <kevin@codem-composites.com>
+Date: Fri, 4 Sep 2020 14:37:01 +0000
+Subject: Undeliverable: Quick Question, Andy
+
 
 Final-Recipient: rfc822;andyday@marshall.com
 Action: failed

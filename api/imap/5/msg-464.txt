@@ -1,8 +1,9 @@
-Reporting-MTA: dns;EMP-EXMR1862.corp.leidos.com
-Received-From-MTA: dns;EMP-MX113.dcs.leidos.com
-Arrival-Date: Mon, 14 Sep 2020 07:54:52 +0000
+From: <postmaster@leidos.com>
+To: <kevin@codem-composites.com>
+Date: Mon, 14 Sep 2020 02:54:52 -0500
+Subject: Undeliverable: EXTERNAL: Quick Question, Edward
 
-Final-Recipient: rfc822;askewfcipscmilte@leidos.com
+rfc822;askewfcipscmilte@leidos.com
 Action: failed
 Status: 5.1.10
 Diagnostic-Code: smtp;550 5.1.10 RESOLVER.ADR.RecipientNotFound; Recipient not found by SMTP address lookup

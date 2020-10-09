@@ -89,7 +89,7 @@ function LeadsApp(props) {
 									className="campaigndropdown"
 									inputProps={{ 'aria-label': '' }}
 								>
-									<MenuItem value="" disabled>
+									<MenuItem value="all" disabled>
 										Select Campaign
 									</MenuItem>
 									{campaign &&

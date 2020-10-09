@@ -1,9 +1,6 @@
-From: <postmaster@dymag.com>
-To: <kevin@codem-composites.com>
-Date: Fri, 18 Sep 2020 10:10:32 +0000
-Subject: Undeliverable: Quick Question, Iain
-
-+0000
+Reporting-MTA: dns;DB6PR0501MB2552.eurprd05.prod.outlook.com
+Received-From-MTA: dns;mail-il1-f196.google.com
+Arrival-Date: Fri, 18 Sep 2020 10:10:32 +0000
 
 Final-Recipient: rfc822;iain.walker@dymag.com
 Action: failed

@@ -1,8 +1,6 @@
-From: <postmaster@elemental.biz>
-To: <kevin@codem-composites.com>
-Date: Mon, 21 Sep 2020 08:55:59 +0000
-Subject: Undeliverable: Quick Question, John
-
+Reporting-MTA: dns;VI1P194MB0159.EURP194.PROD.OUTLOOK.COM
+Received-From-MTA: dns;mail-io1-f43.google.com
+Arrival-Date: Mon, 21 Sep 2020 08:55:58 +0000
 
 Final-Recipient: rfc822;j-begley@elemental.biz
 Action: failed

@@ -1,6 +1,9 @@
-Reporting-MTA: dns;VI1PR0501MB2479.eurprd05.prod.outlook.com
-Received-From-MTA: dns;mail-io1-f45.google.com
-Arrival-Date: Mon, 14 Sep 2020 10:17:28 +0000
+From: <postmaster@sagroup.aero>
+To: <kevin@codem-composites.com>
+Date: Mon, 14 Sep 2020 10:17:29 +0000
+Subject: Undeliverable: Quick Question, Peter
+
+
 
 Final-Recipient: rfc822;peter@cabinairservices.com
 Action: failed

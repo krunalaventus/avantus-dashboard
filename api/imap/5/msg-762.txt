@@ -1,9 +1,6 @@
-Date: Wed, 23 Sep 2020 09:40:23 +0100
-Subject: RE: Quick Question, Graham
-From: "graham.lillis" <graham.lillis@cmmprogramming.co.uk>
-To: Kevin Doherty <kevin@codem-composites.com>
-
-l2IGRpcj0iYXV0byI+WWVzLiBGcmVlIGFsbCBkYXkgdG9k
+PGh0bWw+PGhlYWQ+PG1ldGEgaHR0cC1lcXVpdj0iQ29udGVudC1UeXBlIiBjb250ZW50PSJ0ZXh0
+L2h0bWw7IGNoYXJzZXQ9VVRGLTgiPjwvaGVhZD48Ym9keSBkaXI9ImF1dG8iPgo8ZGl2IGRpcj0i
+YXV0byI+SGkgS2V2aW48L2Rpdj48ZGl2IGRpcj0iYXV0byI+WWVzLiBGcmVlIGFsbCBkYXkgdG9k
 YXkuPC9kaXY+PGRpdiBkaXI9ImF1dG8iPlJlZ2FyZHMgR3JhaGFtJm5ic3A7PC9kaXY+PGRpdiBk
 aXI9ImF1dG8iPjxicj48L2Rpdj48ZGl2IGRpcj0iYXV0byI+PGJyPjwvZGl2PjxkaXYgZGlyPSJh
 dXRvIj48YnI+PC9kaXY+PGRpdiBpZD0iY29tcG9zZXJfc2lnbmF0dXJlIiBkaXI9ImF1dG8iPjxk

@@ -1,6 +1,9 @@
-Reporting-MTA: dns;CWLP123MB2403.GBRP123.PROD.OUTLOOK.COM
-Received-From-MTA: dns;GBR01-CWL-obe.outbound.protection.outlook.com
-Arrival-Date: Thu, 17 Sep 2020 10:27:26 +0000
+From: <postmaster@d2hengineering.com>
+To: <kevin@codem-composites.com>
+Date: Thu, 17 Sep 2020 10:27:27 +0000
+Subject: Undeliverable: Quick Question, Matthew
+
+27:26 +0000
 
 Final-Recipient: rfc822;matthew@d2hengineering.com
 Action: failed

@@ -1,6 +1,8 @@
-Reporting-MTA: dns;HE1PR0301MB2153.eurprd03.prod.outlook.com
-Received-From-MTA: dns;mail-il1-f194.google.com
-Arrival-Date: Fri, 11 Sep 2020 13:12:18 +0000
+From: <postmaster@bombardierinc.com>
+To: <kevin@codem-composites.com>
+Date: Fri, 11 Sep 2020 13:12:19 +0000
+Subject: Undeliverable: Quick Question, John
+
 
 Final-Recipient: rfc822;hjohn@bombardier.com
 Action: failed

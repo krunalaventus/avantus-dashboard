@@ -1,6 +1,9 @@
-iVBORw0KGgoAAAANSUhEUgAAAKIAAABMCAYAAADuvGzpAAAAAXNSR0IArs4c6QAAAAlwSFlzAAAO
-xAAADsQBlSsOGwAAABl0RVh0U29mdHdhcmUATWljcm9zb2Z0IE9mZmljZX/tNXEAABumSURBVHhe
-7V0HeFRV2v4mvSfUhA6KSlMsqFhQUYoFUUABRVf01/1X/VcplrXsrj/2XQuya0XEFUV3VURAkGKo
+From: Chris Bickham <cbickham@british-gaskets.co.uk>
+To: Kevin Doherty <kevin@codem-composites.com>
+Subject: RE: Quick Question, Chris
+Date: Mon, 21 Sep 2020 10:33:24 +0000
+
+sqFhQUYoFUUABRVf01/1X/VcplrXsrj/2XQuya0XEFUV3VURAkGKo
 glQFBKkhNFGBkE569n3PuXdmEmYyd1oyITk8Q2By7rmnvOc7Xz8RlZUVldJYGmegDmdgwoSnbRF1
 +P7GVzfOgH0GGoHYCIaQmIFGIIbEMjR24iQEoq2GVa3ODtdUNxjgqE12PNhjC+xYTg4gVmJSbJx4
 T5OP31dWGNXCgoE0D22665+/i8rnXY+nrKxUiouL5XhRsZSVlfk0ZtU65jc2Nlbi8ImIIGycx4I5

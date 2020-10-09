@@ -1,8 +1,9 @@
-Reporting-MTA: dns;AM6PR03MB6072.eurprd03.prod.outlook.com
-Received-From-MTA: dns;mail-il1-f175.google.com
-Arrival-Date: Fri, 11 Sep 2020 12:42:29 +0000
+From: <postmaster@bombardierinc.com>
+To: <kevin@codem-composites.com>
+Date: Fri, 11 Sep 2020 12:42:29 +0000
+Subject: Undeliverable: Quick Question, Chris
 
-Final-Recipient: rfc822;chris@bombardier.com
+nal-Recipient: rfc822;chris@bombardier.com
 Action: failed
 Status: 5.7.193
 Diagnostic-Code: smtp;550 5.7.193 UnifiedGroupAgent; Delivery failed because the sender isn't a group member or external senders aren't permitted to send to this group.

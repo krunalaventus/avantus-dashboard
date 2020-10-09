@@ -1,9 +1,8 @@
-From: <postmaster@cloud-trade.com>
-To: <kevin@codem-composites.com>
-Date: Tue, 15 Sep 2020 10:13:10 +0000
-Subject: Undeliverable: Quick Question, Hawkins
+Reporting-MTA: dns;HE1PR02MB3065.eurprd02.prod.outlook.com
+Received-From-MTA: dns;mail-il1-f180.google.com
+Arrival-Date: Tue, 15 Sep 2020 10:13:09 +0000
 
-nal-Recipient: rfc822;htaigh@cloud-trade.com
+Final-Recipient: rfc822;htaigh@cloud-trade.com
 Action: failed
 Status: 5.1.10
 Diagnostic-Code: smtp;550 5.1.10 RESOLVER.ADR.RecipientNotFound; Recipient htaigh@cloud-trade.com not found by SMTP address lookup

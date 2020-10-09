@@ -1,9 +1,6 @@
-From: Mike Fuller <mfuller@apollomotorgroup.com>
-To: Kevin Doherty <kevin@codem-composites.com>
-Subject: RE: Quick Question, Mike
-Date: Wed, 23 Sep 2020 15:47:56 +0000
-
-DCvguIuKEILrjHqEmMMZrENNs00yRtmnP69TvTnnY606/TMz3TdjLtdGYy
+iVBORw0KGgoAAAANSUhEUgAAAO8AAABCCAYAAAC/8oGJAAAAAXNSR0IArs4c6QAAAAlwSFlzAAAO
+xAAADsQBlSsOGwAAABl0RVh0U29mdHdhcmUATWljcm9zb2Z0IE9mZmljZX/tNXEAAC94SURBVHhe
+7X0JVNXnmfcjIKiAoODCvguIuKEILrjHqEmMMZrENNs00yRtmnP69TvTnnY606/TMz3TdjLtdGYy
 k32bJE1cEk3c9xVFRUUEBWRfZN8RRP1+v/fyx8v1Xu6KaHKf9h6C3P/2/N9n+z3L6/a7tz6/9fCC
 ZEmIDhMnOTng5MD9wwG3Ye7u8qPfviHL582Qx5bMlpiwwPvn7p136uTAd5gDbotTpsiGXUdk8+5j
 kn7ukjw4d7qshhCPHe3zHWaL89GdHLj3OeAWFRIAlzlUsvKKpa6xWT7csk8OncqGAKfIsjnTxdtz

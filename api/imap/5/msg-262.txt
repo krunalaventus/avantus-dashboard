@@ -1,8 +1,9 @@
-Reporting-MTA: dns;USEIMAIL1902.ATL.CW.LOCAL
-Received-From-MTA: dns;USEIEDGE1902.curtisswright.com
-Arrival-Date: Tue, 8 Sep 2020 08:47:50 +0000
+From: <postmaster@curtisswright.com>
+To: <kevin@codem-composites.com>
+Date: Tue, 8 Sep 2020 04:47:51 -0400
+Subject: Undeliverable: Quick Question, Peter [EXTERNAL]
 
-Original-Recipient: rfc822;pgreen@curtisswright.com
+fc822;pgreen@curtisswright.com
 Final-Recipient: rfc822;pgreen@curtisswright.com
 Action: failed
 Status: 5.1.10

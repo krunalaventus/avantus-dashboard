@@ -1,6 +1,9 @@
-PGh0bWw+DQo8aGVhZD4NCjxtZXRhIGh0dHAtZXF1aXY9IkNvbnRlbnQtVHlwZSIgY29udGVudD0i
-dGV4dC9odG1sOyBjaGFyc2V0PXV0Zi04Ij4NCjwvaGVhZD4NCjxib2R5IGRpcj0iYXV0byI+DQpE
-ZWFyIEtldmluLA0KPGRpdj48YnI+DQo8L2Rpdj4NCjxkaXY+RXhjdXNlcyBmb3IgdGhlIGxhdGUg
+From: Edwin Vandermaat <edwin.vandermaat@2excel.uk>
+To: Kevin Doherty <kevin@codem-composites.com>
+Subject: Re: Quick Question, Edwin
+Date: Wed, 9 Sep 2020 08:17:36 +0000
+
+j48YnI+DQo8L2Rpdj4NCjxkaXY+RXhjdXNlcyBmb3IgdGhlIGxhdGUg
 cmVwbHkuIEkgYW0gY3VycmVudGx5IG9uIGhvbGlkYXkgYW5kIHdpbGwgYmUgYmFjayBpbiB0aGUg
 b2ZmaWNlIG5leHQgd2Vlay48L2Rpdj4NCjxkaXY+PGJyPg0KPC9kaXY+DQo8ZGl2PklzIG5leHQg
 TW9uZGF5IGFmdGVybm9vbiBvayBmb3IgeW91PzwvZGl2Pg0KPGRpdj48YnI+DQo8L2Rpdj4NCjxk

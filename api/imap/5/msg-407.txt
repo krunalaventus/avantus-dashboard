@@ -1,8 +1,9 @@
-Reporting-MTA: dns;smucm08l.europe.bmw.corp
-Received-From-MTA: dns;esabb6.muc
-Arrival-Date: Fri, 11 Sep 2020 11:26:13 +0000
+From: <postmaster@bmwgroup.com>
+To: <kevin@codem-composites.com>
+Date: Fri, 11 Sep 2020 13:26:13 +0200
+Subject: Undeliverable: Quick Question, Dave
 
-Original-Recipient: rfc822;dave@rolls-roycemotorcars.com
+2;dave@rolls-roycemotorcars.com
 Final-Recipient: rfc822;dave@bmw.de
 Action: failed
 Status: 5.2.2

@@ -1,9 +1,6 @@
-From: <postmaster@surrey.ac.uk>
-To: <kevin@codem-composites.com>
-Date: Tue, 8 Sep 2020 10:57:34 +0100
-Subject: Undeliverable: Quick Question, Malcolm
-
-
+Reporting-MTA: dns;exch01v.surrey.ac.uk
+Received-From-MTA: dns;EUR05-VI1-obe.outbound.protection.outlook.com
+Arrival-Date: Tue, 8 Sep 2020 09:57:34 +0000
 
 Final-Recipient: rfc822;m.grahamcengbengmraes@surrey.ac.uk
 Action: failed

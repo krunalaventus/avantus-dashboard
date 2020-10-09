@@ -1,9 +1,7 @@
-From: Mail Delivery System <MAILER-DAEMON@messagelabs.com>
-To: <kevin@codem-composites.com>
-Subject: Mail Delivery Failure
-Date: Tue, 08 Sep 2020 12:23:47 +0000
+Reporting-MTA: dns; server-2.bemta.az-a.eu-central-1.aws.symcld.net
+Arrival-Date: Tue, 08 Sep 2020 12:23:46 +0000
 
-
+Final-Recipient: rfc822; gibson@bankofscotland.de
 Status: 5.0.0
 Last-Attempt-Date: Tue, 08 Sep 2020 12:23:47 +0000
 Action: failed

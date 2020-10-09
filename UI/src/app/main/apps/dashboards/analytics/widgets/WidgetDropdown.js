@@ -35,15 +35,12 @@ export default function SelectCampaign({ items = [], fetchSelected }) {
 		<div>
 			<FormControl className={classes.formControl}>
 				<Select
-					value={fetchSelected ?? ''}
+					value={fetchSelected ?? 'all'}
 					onChange={handleChange}
-					displayEmpty
-					className={classes.selectEmpty}
+					className="campaigndropdown"
 					inputProps={{ 'aria-label': '' }}
 				>
-					<MenuItem value="" disabled>
-						Select Campaign
-					</MenuItem>
+					<MenuItem value="all">Select Campaign</MenuItem>
 					{items &&
 						items.map((item, key) => (
 							<MenuItem key={key} value={item._id}>

@@ -1,8 +1,9 @@
-Reporting-MTA: dns;leonardo.com
-Received-From-MTA: dns;hsmx01-hz5.hornetsecurity.com
-Arrival-Date: Thu, 10 Sep 2020 07:55:41 +0000
+From: <postmaster@leonardo.com>
+To: <kevin@codem-composites.com>
+Date: Thu, 10 Sep 2020 03:55:41 -0400
+Subject: Undeliverable: Quick Question, Keith
 
-Final-Recipient: rfc822;keith.driver@leonardo.com
+c822;keith.driver@leonardo.com
 Action: failed
 Status: 5.1.1
 Diagnostic-Code: smtp;550 5.1.1 RESOLVER.ADR.RecipNotFound; not found

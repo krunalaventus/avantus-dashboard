@@ -1,6 +1,9 @@
-iVBORw0KGgoAAAANSUhEUgAAAMkAAAByCAMAAADOFQWBAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
-jwv8YQUAAALrUExURf///+Tk5LOzsouLinBwb5eXlr+/v+7u7kVFQzs7OfX19czMy0hIR25ubHx8
-e7GxsJubmmhoZ+/v75iYlx0dGycnJVdXVq6urp2dnPPz8r29vTw8OqOjoioqKNzc28XFxC4uLFBQ
+From: Colin Drain <colin.drain@basf.com>
+To: Kevin Doherty <kevin@codem-composites.com>
+Subject: RE: Quick Question, Colin
+Date: Fri, 11 Sep 2020 09:16:34 +0000
+
+oZ+/v75iYlx0dGycnJVdXVq6urp2dnPPz8r29vTw8OqOjoioqKNzc28XFxC4uLFBQ
 T+bm5oKCgSkpJ/Pz88TEw2trasfHx4iIh4eHhi0tK46OjWFhYGNjYjAwLv7+/uDg4Li4t/j4+CEh
 H8jIyNLS0Tg4N62trJaWldfX1x8fHfHx8dPT0mJiYZWVlLu7ulJSUTU1M2pqac7Ozq+vr5KSkba2
 ts/Pz+Pj4sXFxSQkInt7enJycezs7G1ta4mJiI+PjiAgHl9fXqGhoEpKSbS0s1dXVVVVU4GBgNjY
