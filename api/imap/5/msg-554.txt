@@ -1,9 +1,0 @@
-Reporting-MTA: dns;VI1PR01MB6303.eurprd01.prod.exchangelabs.com
-Received-From-MTA: dns;mail-il1-f170.google.com
-Arrival-Date: Wed, 16 Sep 2020 09:07:56 +0000
-
-Final-Recipient: rfc822;david@coxmarine.com
-Action: failed
-Status: 5.1.10
-Diagnostic-Code: smtp;550 5.1.10 RESOLVER.ADR.RecipientNotFound; Recipient david@coxmarine.com not found by SMTP address lookup
-

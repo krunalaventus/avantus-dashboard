@@ -1,9 +1,0 @@
-Reporting-MTA: dns;PR3PR03MB6459.eurprd03.prod.outlook.com
-Received-From-MTA: dns;mail-io1-f66.google.com
-Arrival-Date: Fri, 11 Sep 2020 13:36:54 +0000
-
-Final-Recipient: rfc822;paul@bombardier.com
-Action: failed
-Status: 5.7.193
-Diagnostic-Code: smtp;550 5.7.193 UnifiedGroupAgent; Delivery failed because the sender isn't a group member or external senders aren't permitted to send to this group.
-

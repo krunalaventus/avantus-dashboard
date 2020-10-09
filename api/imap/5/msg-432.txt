@@ -1,9 +1,0 @@
-Reporting-MTA: dns;AM5PR03MB3154.eurprd03.prod.outlook.com
-Received-From-MTA: dns;mail-il1-f195.google.com
-Arrival-Date: Fri, 11 Sep 2020 13:24:35 +0000
-
-Final-Recipient: rfc822;nichola.robinson@bombardier.com
-Action: failed
-Status: 5.1.10
-Diagnostic-Code: smtp;550 5.1.10 RESOLVER.ADR.RecipientNotFound; Recipient nichola.robinson@bombardier.com not found by SMTP address lookup
-

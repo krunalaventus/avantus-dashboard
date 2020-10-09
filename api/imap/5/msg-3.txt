@@ -1,9 +1,0 @@
-Reporting-MTA: dns;CWLP265MB0145.GBRP265.PROD.OUTLOOK.COM
-Received-From-MTA: dns;mail-il1-f176.google.com
-Arrival-Date: Tue, 1 Sep 2020 13:36:04 +0000
-
-Final-Recipient: rfc822;grahamobemvo.alastair@rbhealthandsafety.co.uk
-Action: failed
-Status: 5.1.10
-Diagnostic-Code: smtp;550 5.1.10 RESOLVER.ADR.RecipientNotFound; Recipient grahamobemvo.alastair@rbhealthandsafety.co.uk not found by SMTP address lookup
-

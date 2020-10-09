@@ -1,9 +1,0 @@
-Reporting-MTA: dns;BN7PR08MB5492.namprd08.prod.outlook.com
-Received-From-MTA: dns;mail-io1-f54.google.com
-Arrival-Date: Mon, 7 Sep 2020 09:00:24 +0000
-
-Final-Recipient: rfc822;b_tim@arcadis-fr.com
-Action: failed
-Status: 5.1.10
-Diagnostic-Code: smtp;550 5.1.10 RESOLVER.ADR.RecipientNotFound; Recipient b_tim@arcadis-fr.com not found by SMTP address lookup
-

@@ -1,9 +1,0 @@
-Reporting-MTA: dns;sra3pp-aexc02.ad.serco.com
-Received-From-MTA: dns;NAM12-BN8-obe.outbound.protection.outlook.com
-Arrival-Date: Tue, 8 Sep 2020 12:59:44 +0000
-
-Final-Recipient: rfc822;mike.mitchell@serco.com
-Action: failed
-Status: 5.1.10
-Diagnostic-Code: smtp;550 5.1.10 RESOLVER.ADR.RecipientNotFound; Recipient not found by SMTP address lookup
-

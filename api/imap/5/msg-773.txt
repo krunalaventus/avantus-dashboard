@@ -1,9 +1,0 @@
-From: Microsoft Outlook
- <MicrosoftExchange329e71ec88ae4615bbc36ab6ce41109e@survitecgroup.com>
-To: <kevin@codem-composites.com>
-Date: Wed, 23 Sep 2020 11:03:26 +0100
-Subject: Undeliverable: Quick Question, David
-
-Status: 5.1.1
-Diagnostic-Code: smtp;550 5.1.1 RESOLVER.ADR.RecipNotFound; not found
-

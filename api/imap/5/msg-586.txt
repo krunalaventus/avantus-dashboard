@@ -1,9 +1,0 @@
-Reporting-MTA: dns;CO2PR05MB2471.namprd05.prod.outlook.com
-Received-From-MTA: dns;mail-il1-f174.google.com
-Arrival-Date: Thu, 17 Sep 2020 08:18:52 +0000
-
-Final-Recipient: rfc822;joe_everitt@cummins.com
-Action: failed
-Status: 5.1.10
-Diagnostic-Code: smtp;550 5.1.10 RESOLVER.ADR.RecipientNotFound; Recipient joe_everitt@cummins.com not found by SMTP address lookup
-

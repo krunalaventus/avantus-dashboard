@@ -1,9 +1,0 @@
-Reporting-MTA: dns;SN6PR0102MB3357.prod.exchangelabs.com
-Received-From-MTA: dns;mail-io1-f50.google.com
-Arrival-Date: Mon, 21 Sep 2020 09:03:25 +0000
-
-Final-Recipient: rfc822;andy-b@elma.com
-Action: failed
-Status: 5.1.10
-Diagnostic-Code: smtp;550 5.1.10 RESOLVER.ADR.RecipientNotFound; Recipient andy-b@elma.com not found by SMTP address lookup
-

@@ -1,7 +1,0 @@
-Reporting-MTA: dns; in3m.electric.net
-
-Action: failed
-Final-Recipient: rfc822;graham.vaughan@metalfinishingsltd.co.uk
-Status: 5.0.0
-Remote-MTA: dns; ohm.metalfinishingsltd.co.uk
-Diagnostic-Code: smtp; 550 Unrouteable address

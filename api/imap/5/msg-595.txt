@@ -1,9 +1,0 @@
-Reporting-MTA: dns;CY4PR05MB2904.namprd05.prod.outlook.com
-Received-From-MTA: dns;mail-io1-f53.google.com
-Arrival-Date: Thu, 17 Sep 2020 09:07:40 +0000
-
-Final-Recipient: rfc822;martin.t@cummins.com
-Action: failed
-Status: 5.1.10
-Diagnostic-Code: smtp;550 5.1.10 RESOLVER.ADR.RecipientNotFound; Recipient martin.t@cummins.com not found by SMTP address lookup
-

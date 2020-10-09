@@ -1,9 +1,0 @@
-Reporting-MTA: dns;MWHPR05MB3536.namprd05.prod.outlook.com
-Received-From-MTA: dns;mail-io1-f44.google.com
-Arrival-Date: Wed, 16 Sep 2020 11:16:17 +0000
-
-Final-Recipient: rfc822;deakin-thomas-anjuli@cummins.com
-Action: failed
-Status: 5.1.10
-Diagnostic-Code: smtp;550 5.1.10 RESOLVER.ADR.RecipientNotFound; Recipient deakin-thomas-anjuli@cummins.com not found by SMTP address lookup
-

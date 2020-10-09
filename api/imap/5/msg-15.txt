@@ -1,9 +1,0 @@
-Reporting-MTA: dns;MWHPR04MB0464.namprd04.prod.outlook.com
-Received-From-MTA: dns;mx0a-001ac602.pphosted.com
-Arrival-Date: Wed, 2 Sep 2020 07:40:12 +0000
-
-Final-Recipient: rfc822;das.dijesh@amec.com
-Action: failed
-Status: 5.1.10
-Diagnostic-Code: smtp;550 5.1.10 RESOLVER.ADR.RecipientNotFound; Recipient das.dijesh@amec.com not found by SMTP address lookup
-

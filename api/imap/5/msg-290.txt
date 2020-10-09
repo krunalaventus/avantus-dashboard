@@ -1,9 +1,0 @@
-Reporting-MTA: dns;exch01v.surrey.ac.uk
-Received-From-MTA: dns;EUR05-AM6-obe.outbound.protection.outlook.com
-Arrival-Date: Tue, 8 Sep 2020 11:13:25 +0000
-
-Final-Recipient: rfc822;s.gibson@surrey.ac.uk
-Action: failed
-Status: 5.1.10
-Diagnostic-Code: smtp;550 5.1.10 RESOLVER.ADR.RecipientNotFound; Recipient not found by SMTP address lookup
-
