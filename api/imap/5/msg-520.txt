@@ -1,11 +1,39 @@
-Reporting-MTA: dns; googlemail.com
-Arrival-Date: Tue, 15 Sep 2020 04:12:14 -0700 (PDT)
-X-Original-Message-ID: <CAK4cLxjBArwjeYVA1Dhs6-_e_gyhzpvxsT-yKrO4KihqhX8_aw@mail.gmail.com>
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=codem-composites.com; s=google;
+        h=from:in-reply-to:references:mime-version:date:message-id:subject:to;
+        bh=vveVQWcYKXXhu0ADQsDF59u1E1gt2d9FpQo4eqsOgXo=;
+        b=hbAGC8LesXg9a1qEPWlLC12OBdRWew4BUS99w8XrU+ROKqacJtT4BNziwOBfbw7Rsj
+         Ba3nKiagLojpTnIk96JWedsaVP1tYdAv3nR4dXv6K+knxzKZFfuQYF7nw/u5z+e/bZIP
+         KTqA2zlBnnVsoo8ybbE3eOjrGBMcftu1vqrYEqtcjeX0aaZL9Ws3IhR9pnDuDQ6OaAWp
+         KFIT7eJWZuAKs5Gh5ieTt3wJSLQZco2I/MsmGQccufDUknZXeopkYmKlOR8VFa9Yb4qS
+         DtdwRWBk2Vv/M3u7I05vM3xhSxdEypkNsDKbj71o/BG8Jo9LH2+S3+9kJMzv9KGRtg8U
+         Ez6Q==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20161025;
+        h=x-gm-message-state:from:in-reply-to:references:mime-version:date
+         :message-id:subject:to;
+        bh=vveVQWcYKXXhu0ADQsDF59u1E1gt2d9FpQo4eqsOgXo=;
+        b=MchySLoYCvC8aJ9Ek4A0zpwDc8iuKI4fxt6UDUBmpRee7JF8gdE2JkqfGqOSGR0Prh
+         hgZCENm3R9Al8cw0EutC8Td7uasJJU8vycdEQn6XkojqkvAtGgXlg6lvhRtDKHWKkADv
+         Qpt4AC62U2e7OSeJAfkxoOHjzKH2NcWXUi4myhponvhiMVEvVRV+ASpBjTvCyqCTtd/+
+         vyvKdc55gsjwWe+nnF8KiVFNeoizV/zqEvI5pvfroqMqN3Aq+eb9tIPTDZ6zm3imbNVj
+         DiCGviE6A+w5c4hXCUgAmrXsC0ivw+tScySH2YWP9y0fe56tqBfC7PxxqdXieaDzEdv5
+         MQ4A==
+X-Gm-Message-State: AOAM533l9wRjaEQVKFLuXrfPlEY6lb6FmqUWr8cuxazotOpp/zqDQrbl
+	DvFz+IplD7IYn7CCo1ND8bdfo+Qr59prAnFApayx8SGXnw0=
+X-Google-Smtp-Source: ABdhPJy/uOEPYCYg2Y2Bq9JX7TdRNoiDhO2ApdSCKEzmn0EA7QaazlvsW47ReTGZ9qnqMGEHhmt0cSnxsL376b6rlKQ=
+X-Received: by 2002:a5e:9916:: with SMTP id t22mr14701233ioj.163.1600168334961;
+ Tue, 15 Sep 2020 04:12:14 -0700 (PDT)
+Received: from 696963989851 named unknown by gmailapi.google.com with
+ HTTPREST; Tue, 15 Sep 2020 04:12:14 -0700
+From: Kevin Doherty <kevin@codem-composites.com>
+In-Reply-To: <CAK4cLxjV5s02SU+EmyQhEE6xNOdovNvB8XpNRtohv+cDb0LVJg@mail.gmail.com>
+References: <CAK4cLxjV5s02SU+EmyQhEE6xNOdovNvB8XpNRtohv+cDb0LVJg@mail.gmail.com>
+MIME-Version: 1.0
+Date: Tue, 15 Sep 2020 04:12:14 -0700
+Message-ID: <CAK4cLxjBArwjeYVA1Dhs6-_e_gyhzpvxsT-yKrO4KihqhX8_aw@mail.gmail.com>
+Subject: Quick Question, Jonathan
+To: jonathan.townsley@baesystems.com
+Content-Type: multipart/alternative; boundary="0000000000002fc26905af583917"
 
-Final-Recipient: rfc822; jonathan.townsley@baesystems.com
-Action: failed
-Status: 5.0.0
-Remote-MTA: dns; dmzms99901.na.baesystems.com. (149.32.200.65, the server for
- the domain baesystems.com.)
-Diagnostic-Code: smtp; 550 #5.7.1 Your access to submit messages to this e-mail system has been rejected.
-Last-Attempt-Date: Tue, 15 Sep 2020 04:12:15 -0700 (PDT)
+----- Message truncated -----

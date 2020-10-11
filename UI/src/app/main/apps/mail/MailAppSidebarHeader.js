@@ -16,7 +16,7 @@ function MailAppSidebarHeader(props) {
 	const [selectedAccount, setSelectedCount] = useState('creapond');
 	const { t } = useTranslation('mailApp');
 	function loadEmails() {
-		alert('load');
+		// alert('load');
 		const url = `${process.env.REACT_APP_API_URL}imapEmails/loadEmails/all`;
 		const token = localStorage.getItem('token');
 		const response = axios

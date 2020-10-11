@@ -3,10 +3,39 @@ Date: Wed, 16 Sep 2020 04:40:39 -0700 (PDT)
 From: Mail Delivery Subsystem <mailer-daemon@googlemail.com>
 Subject: Delivery Status Notification (Failure)
 
-Recipient: rfc822; sao@baesystems.com
-Action: failed
-Status: 5.0.0
-Remote-MTA: dns; dmzms99901.na.baesystems.com. (149.32.200.65, the server for
- the domain baesystems.com.)
-Diagnostic-Code: smtp; 550 #5.7.1 Your access to submit messages to this e-mail system has been rejected.
-Last-Attempt-Date: Wed, 16 Sep 2020 04:40:39 -0700 (PDT)
+lVBc8XQELmjEZM7DGshMwv6aKDc+oCyaNTQIaeWs98=;
+        b=BzhIZlJAt1jSWdi2Wqe3LXwABWAG3GLcxJ9Mtu9CxW1zb7czz1ZezA4jDlp3oLR9l7
+         qvkpvkYMLtW30TiHk2a0zpmmLVIYIuhOgF0OaIeQXTaiaNM257goMBUC6kkzhgHd8giJ
+         U4V4RxsUzAxpMFeQbXjUrr9jW7szmROITh8BT7d2xe9AH3qPYzTxEINbSPEBWqODMAUg
+         UJxdMXj8VuwHlYGSxd9uQz5RD/CKMZfyP1ptfAgV6CEFCrVXsNgbfLRvUbmfWf4IhNVJ
+         tMDdORedtU5KrbJ23QbN8FqcMfgBNBTnXQCJT3JPSc4b/IuiOFIWoYCpCVHcZ9FDyd+6
+         +Ajg==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20161025;
+        h=x-gm-message-state:from:in-reply-to:references:mime-version:date
+         :message-id:subject:to;
+        bh=flVBc8XQELmjEZM7DGshMwv6aKDc+oCyaNTQIaeWs98=;
+        b=dUPgEwE7xTSPpEjI8ON++yKLMDfA+b1cO/6S0l1iiYTUDYIB2Z36TgXHhyh/UYGBIf
+         pLFlxfV41XtMDLe0SwMBpxtEuO96Pmx3MyLCal/UU23NnwmY4D06xluyEzSLzE6l9DUl
+         xcXxsYU29EdN65tN6NhmamTJI1+E+NHNLQpLIMFuncvkHnc0EtROwe7zM6sHJE4qVYIe
+         8CjyjojrzLYSz81hagym5wLfAniK+yTHwZ+gisWIvgnEc1asnMS3wWk4r6LTHRB8XDtw
+         zLSOzf6M2ow/WagaGNXnKbGzk5b6iBlrkmNTonMkGHcTHpbVh5Qw85WXnzGleWxiI4v+
+         wxKA==
+X-Gm-Message-State: AOAM532QDWFEGp0YcoFWSZeYxTl6+GRdzur4t6d04IfvlyToI9dnMXTr
+	eaxvsfQeNMGLpnCikRtejgWBNLXNd3dAJH1SwtBISHC6oF4=
+X-Google-Smtp-Source: ABdhPJwq5BEL9Eo38lXsMxgyIkwZ/8dxUchuA249V3lXin9NZSIVMFjgzm1M1p/TPBmY3o2i/hMIdZM2upEzcqIcvhc=
+X-Received: by 2002:a02:605c:: with SMTP id d28mr21400113jaf.12.1600256438508;
+ Wed, 16 Sep 2020 04:40:38 -0700 (PDT)
+Received: from 696963989851 named unknown by gmailapi.google.com with
+ HTTPREST; Wed, 16 Sep 2020 04:40:37 -0700
+From: Kevin Doherty <kevin@codem-composites.com>
+In-Reply-To: <CAK4cLxg0QmycyWnhojncRKcKUPMUfqP-LD_wsX2DUjQHE9XNKw@mail.gmail.com>
+References: <CAK4cLxg0QmycyWnhojncRKcKUPMUfqP-LD_wsX2DUjQHE9XNKw@mail.gmail.com>
+MIME-Version: 1.0
+Date: Wed, 16 Sep 2020 04:40:37 -0700
+Message-ID: <CAK4cLximXKe2xSuq6M7jr_-4fgJesmE4KozOHq-Wr=5gEtLnbw@mail.gmail.com>
+Subject: Quick Question, Simon
+To: sao@baesystems.com
+Content-Type: multipart/alternative; boundary="00000000000091301b05af6cbc56"
+
+----- Message truncated -----

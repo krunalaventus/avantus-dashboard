@@ -190,7 +190,7 @@ const navigationConfig = [
 				title: 'File Manager',
 				translate: 'File Manager',
 				type: 'item',
-				auth: authRoles.customer,
+				auth: authRoles.customeronly,
 				icon: 'account_box',
 				url: '/apps/unsubscribeList/all'
 			},

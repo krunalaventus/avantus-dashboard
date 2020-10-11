@@ -1,9 +1,277 @@
-Reporting-MTA: dns;HE1PR0701MB2874.eurprd07.prod.outlook.com
-Received-From-MTA: dns;mail-il1-f177.google.com
-Arrival-Date: Thu, 24 Sep 2020 08:45:14 +0000
+Received: from AM5PR04CA0013.eurprd04.prod.outlook.com (2603:10a6:206:1::26)
+ by HE1PR0701MB2874.eurprd07.prod.outlook.com (2603:10a6:3:4b::7) with
+ Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.3412.8; Thu, 24 Sep
+ 2020 08:45:14 +0000
+Received: from AM5EUR03FT056.eop-EUR03.prod.protection.outlook.com
+ (2603:10a6:206:1:cafe::34) by AM5PR04CA0013.outlook.office365.com
+ (2603:10a6:206:1::26) with Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.3412.22 via Frontend
+ Transport; Thu, 24 Sep 2020 08:45:13 +0000
+Authentication-Results: spf=pass (sender IP is 209.85.166.177)
+ smtp.mailfrom=codem-composites.com; hepburnbiocare.com; dkim=pass (signature
+ was verified) header.d=codem-composites.com;hepburnbiocare.com; dmarc=pass
+ action=none header.from=codem-composites.com;
+Received-SPF: Pass (protection.outlook.com: domain of codem-composites.com
+ designates 209.85.166.177 as permitted sender)
+ receiver=protection.outlook.com; client-ip=209.85.166.177;
+ helo=mail-il1-f177.google.com;
+Received: from mail-il1-f177.google.com (209.85.166.177) by
+ AM5EUR03FT056.mail.protection.outlook.com (10.152.17.224) with Microsoft SMTP
+ Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id
+ 15.20.3412.21 via Frontend Transport; Thu, 24 Sep 2020 08:45:13 +0000
+Received: by mail-il1-f177.google.com with SMTP id s88so2344673ilb.6
+        for <christopher-hipsey@hepburnbiocare.com>; Thu, 24 Sep 2020 01:45:13 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=codem-composites.com; s=google;
+        h=from:mime-version:date:message-id:subject:to;
+        bh=dHLuYUVjoEkBhVR+0OT9nxDmKXW7/By2HC5QOF7Kr10=;
+        b=pnyau7fmv08h0gnOPbGnCjTKQBpX1+Iks61Vs4jOLBH3yC9D+Npv9JVRAfHNf5tycb
+         gmL8liLprsgjj4W+vPUstY+qnxyhvwwDsg6PWZuysr377FXutRRFpBWHdoIIwRGHn/ZC
+         uBGuJkMXPFe3I2P26e0QxYknuQTA3x8n6HivPJ230YjUl6xEjfZfgKjevnDeveAWkeI9
+         AsmJb35O3xokuAcAvVhi5eYVhaLcaD5YYaXBGCTGWJq+uHKJmEmRQu+Qp665uTPfnC75
+         PsCxdHZNMagDg3N8a62TfCPsNuRZnjHEg1nwWd6o6ODCPlYnTDVgLw5P8Qv4VMqqRI/5
+         bTSA==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20161025;
+        h=x-gm-message-state:from:mime-version:date:message-id:subject:to;
+        bh=dHLuYUVjoEkBhVR+0OT9nxDmKXW7/By2HC5QOF7Kr10=;
+        b=P5+Nv+DuqvvnSsy12DqOQlTmb4j4sjr7OjLps1d6JX2a4Q6ul7xjo2nVdsvNvu9um/
+         oA3jusJZpDOSxOUTrSPd5EjzD/ExbdQmSaaO1jUIKS+ct2xqVtM1m3mFHj2tDHAakslE
+         ffHMFcIz9jo5wnl/fn8BqF2hq+AdiQac3+oJJqKrExwSN6PXZZn5MTFpNHBsrr60KAPQ
+         VKVqD/5AOkLJ7X6GIZoiBcZfauJhtA58F0Fe8gubsASb1BfdaOvsguSnXPguauBvEHDQ
+         4szVCn/WUGi7AkCu33+upsQaAE9qiGq9mShak2jeHi0RIZd0xAPItQO2GLih0lOJQnV5
+         1CCA==
+X-Gm-Message-State: AOAM533TH//AU8q7NEwqxWROchaW0ua0lLmZ5QCTHPIU20SMsBTh49Sh
+	L0PJE9+jiGbwLkpKCWPi/tYHQFelMfgBosMRAX3RPKvoHg0=
+X-Google-Smtp-Source: ABdhPJwc11+hy9N+jp1kQP6Z8o07SvujHmW++FDjTxkAgcAbUQveIFX2uG4a0zqEYwq8gJw+xS0i77oK09FSIIyeghk=
+X-Received: by 2002:a05:6e02:13ae:: with SMTP id h14mr3207056ilo.208.1600937112100;
+ Thu, 24 Sep 2020 01:45:12 -0700 (PDT)
+Received: from 696963989851 named unknown by gmailapi.google.com with
+ HTTPREST; Thu, 24 Sep 2020 03:45:11 -0500
+From: Kevin Doherty <kevin@codem-composites.com>
+MIME-Version: 1.0
+Date: Thu, 24 Sep 2020 03:45:11 -0500
+Message-ID: <CAK4cLxjkVFsifeCCGACwT6--p5k+hF4yj4=Jb29LfBLh2-9R8A@mail.gmail.com>
+Subject: Quick Question, Christopher
+To: christopher-hipsey@hepburnbiocare.com
+Content-Type: multipart/alternative; boundary="000000000000dfed5205b00b37d4"
+Return-Path: kevin@codem-composites.com
+X-EOPAttributedMessage: 0
+X-EOPTenantAttributedMessage: 971994a4-86db-4e8e-9e82-1ef3d033f9d8:0
+X-MS-PublicTrafficType: Email
+X-MS-Office365-Filtering-Correlation-Id: 41ebafb0-af25-4ca2-5603-08d860662772
+X-MS-TrafficTypeDiagnostic: HE1PR0701MB2874:
 
-Final-Recipient: rfc822;christopher-hipsey@hepburnbiocare.com
-Action: failed
-Status: 5.1.10
-Diagnostic-Code: smtp;550 5.1.10 RESOLVER.ADR.RecipientNotFound; Recipient christopher-hipsey@hepburnbiocare.com not found by SMTP address lookup
+--000000000000dfed5205b00b37d4
+Content-Type: text/plain; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
 
+Hi Christopher,
+
+
+I trust this Thursday morning is treating you well. I came across your
+LinkedIn profile whilst looking for the right person at Hepburn Bio Care
+for a quick chat, so wanted to drop you a line by way of introduction.
+
+
+I'm the Managing Director here at Codem Composites and we provide
+end-to-end solutions for all things carbon fibre. Recently we=E2=80=99ve wo=
+rked on
+projects with Mercedes F1, manufactured Raytheon's military antennas and
+produced props for the latest Star Wars movie, just to name a few.
+
+
+The reason for my email is that I think there's great synergy between Codem
+and Hepburn Bio Care, so I'm hoping that you can spare me a few minutes to
+chat.
+
+
+I'm available for a quick call on Monday or Tuesday afternoon. If that
+doesn=E2=80=99t work, tell me what does, and I=E2=80=99ll make it happen.
+
+
+Best regards,
+
+
+*Kevin Doherty*
+
+[image: Description: CODEM Composites Ltd]          [image:
+cid:image009.jpg@01D362BA.5DA65FA0]         [image:
+cid:image008.jpg@01D362BA.5DA65FA0]
+
+CODEM Composites Ltd Unit E Harrier Park, Southgate Way, Orton Southgate,
+Peterborough PE2 6YQ
+
+
+
+*Tel: +44 (0) 1487 832123 Mob: +44 (0) 7785 996218Email:
+**kevin@codem-composites.com
+<kevin@codemcomposites.com>*
+*Web: **www.codem-composites.com
+<http://track.codem-composites.com/api/t/c/usr_a8xLmetmsZe2dZKhP/tsk_9D7MDe=
+99Bui4TRWaX/aHR0cDovL3d3dy5jb2RlbWNvbXBvc2l0ZXMuY29tLw=3D=3D>*
+
+As a GDPR compliant company, we would like to explain why you have received
+this email. We believe that Hepburn Bio Care has a legitimate interest in
+the products and services that Codem Composites offers. Our research has
+identified your email address christopher-hipsey@hepburnbiocare.com as the
+appropriate contact within your organisation. If you have received this
+email in error or do not wish to receive further communications from Codem
+Composites, just hit unsubscribe
+<http://track.codem-composites.com/api/unsubscribe/cam_dpCiXy7uz9SNiJCbN/Y2=
+hyaXN0b3BoZXItaGlwc2V5QGhlcGJ1cm5iaW9jYXJlLmNvbQ=3D=3D>
+.
+
+
+[image: picture] [image: logo]
+
+--000000000000dfed5205b00b37d4
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<html><div style=3D"min-width:360px"></div><div dir=3D"ltr">
+    <div><p style=3D"margin:0px;box-sizing:border-box"><span style=3D"font-=
+family:Arial,Helvetica,sans-serif;box-sizing:border-box">Hi Christopher,=C2=
+=A0</span></p><p style=3D"margin:0px;box-sizing:border-box"><span style=3D"=
+font-family:Arial,Helvetica,sans-serif"><span style=3D"box-sizing:border-bo=
+x"><br style=3D"box-sizing:border-box"></span></span></p><p style=3D"margin=
+:0px;box-sizing:border-box"><span style=3D"font-family:Arial,Helvetica,sans=
+-serif"><span style=3D"box-sizing:border-box">I trust this Thursday</span><=
+/span><span style=3D"font-family:Arial,Helvetica,sans-serif"><span style=3D=
+"box-sizing:border-box">=C2=A0morning=20
+is treating you well. I came across your LinkedIn profile whilst looking fo=
+r the right person at Hepburn Bio Care for a quick chat, so wanted to drop =
+you a line by way of introduction.</span></span></p><p style=3D"margin:0px;=
+box-sizing:border-box"><span style=3D"font-family:Arial,Helvetica,sans-seri=
+f"><span style=3D"box-sizing:border-box"><br style=3D"box-sizing:border-box=
+"></span></span></p><p style=3D"margin:0px;box-sizing:border-box"><span sty=
+le=3D"font-family:Arial,Helvetica,sans-serif"><span style=3D"box-sizing:bor=
+der-box"> I&#39;m the Managing Director here at  Codem Composites and we pr=
+ovide end-to-end solutions for all things carbon fibre. Recently we=E2=80=
+=99ve worked on projects with Mercedes F1, manufactured Raytheon&#39;s mili=
+tary antennas and produced props for the latest Star Wars movie, just to na=
+me a few.</span></span></p><p style=3D"margin:0px;box-sizing:border-box"><s=
+pan style=3D"font-family:Arial,Helvetica,sans-serif"><br></span></p><p styl=
+e=3D"margin:0px;box-sizing:border-box"><span style=3D"font-family:Arial,Hel=
+vetica,sans-serif"><span style=3D"box-sizing:border-box">The reason for my =
+email is that I think there&#39;s great synergy between Codem and Hepburn B=
+io Care, so I&#39;m hoping that you can spare me a few minutes to chat.=C2=
+=A0</span></span></p><p style=3D"margin:0px;box-sizing:border-box"><span st=
+yle=3D"font-family:Arial,Helvetica,sans-serif"><br></span></p><p style=3D"m=
+argin:0px;box-sizing:border-box"><span style=3D"font-family:Arial,Helvetica=
+,sans-serif"><span style=3D"box-sizing:border-box"></span>I&#39;m available=
+ for a quick call on Monday or Tuesday afternoon. If that doesn=E2=80=99t w=
+ork, tell me what does, and I=E2=80=99ll make it happen.
+<span style=3D"box-sizing:border-box"></span></span></p><p style=3D"margin:=
+0px;box-sizing:border-box"><span style=3D"font-family:Arial,Helvetica,sans-=
+serif"><span style=3D"box-sizing:border-box"><br style=3D"box-sizing:border=
+-box"></span></span></p><p style=3D"margin:0px;box-sizing:border-box"><span=
+ style=3D"font-family:Arial,Helvetica,sans-serif">  Best regards, </span></=
+p><p style=3D"margin:0px;box-sizing:border-box"><span style=3D"font-family:=
+Arial,Helvetica,sans-serif"><span style=3D"box-sizing:border-box"><br style=
+=3D"box-sizing:border-box"></span></span></p><p style=3D"margin:0px;box-siz=
+ing:border-box"><span style=3D"font-family:Arial,Helvetica,sans-serif;box-s=
+izing:border-box"><table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" s=
+tyle=3D"width:525pt;border-collapse:collapse;border:none;empty-cells:show;m=
+ax-width:100%;box-sizing:border-box" width=3D"700"><tbody style=3D"box-sizi=
+ng:border-box"><tr style=3D"box-sizing:border-box"><td style=3D"padding:0cm=
+;height:15pt;min-width:5px;box-sizing:border-box"><table border=3D"0" cellp=
+adding=3D"0" cellspacing=3D"0" style=3D"width:525pt;border-collapse:collaps=
+e;border:none;empty-cells:show;max-width:100%;box-sizing:border-box" width=
+=3D"700"><tbody style=3D"box-sizing:border-box"><tr style=3D"box-sizing:bor=
+der-box"><td style=3D"padding:0cm;min-width:5px;box-sizing:border-box"><p s=
+tyle=3D"margin:0cm;font-size:15px;font-family:Calibri,sans-serif;box-sizing=
+:border-box"><strong style=3D"font-weight:700;box-sizing:border-box"><span =
+style=3D"font-size:18px;color:black;font-family:Arial,Helvetica,sans-serif;=
+box-sizing:border-box">Kevin Doherty</span></strong></p></td></tr><tr style=
+=3D"box-sizing:border-box"><td style=3D"padding:0cm;height:15pt;min-width:5=
+px;box-sizing:border-box"><span style=3D"font-family:Arial,Helvetica,sans-s=
+erif;box-sizing:border-box"><br style=3D"box-sizing:border-box"></span></td=
+></tr><tr style=3D"box-sizing:border-box"><td style=3D"padding:0cm;min-widt=
+h:5px;box-sizing:border-box"><p style=3D"margin:0cm;font-size:15px;font-fam=
+ily:Calibri,sans-serif;box-sizing:border-box"><span style=3D"font-family:Ar=
+ial,Helvetica,sans-serif;box-sizing:border-box"><span style=3D"color:rgb(31=
+,73,125);box-sizing:border-box"><img width=3D"200" src=3D"http://track.code=
+m-composites.com/api/froala/files/tea_NfYyMpjZ5LayPy6cN-6001bc8f655e1d227c7=
+ea5f14c4fc96a" alt=3D"Description: CODEM Composites Ltd" style=3D"vertical-=
+align: middle; border-style: none; cursor: pointer; padding: 0px 1px; max-w=
+idth: 100%; box-sizing: border-box;"></span><span style=3D"color:rgb(153,51=
+,102);box-sizing:border-box">=C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0=C2=A0</span=
+><span style=3D"color:rgb(31,73,125);box-sizing:border-box"><img width=3D"1=
+01" src=3D"http://track.codem-composites.com/api/froala/files/tea_NfYyMpjZ5=
+LayPy6cN-ba66bf715631fc5ad46e49d0879aa5bc" alt=3D"cid:image009.jpg@01D362BA=
+.5DA65FA0" style=3D"vertical-align: middle; border-style: none; cursor: poi=
+nter; padding: 0px 1px; max-width: 100%; box-sizing: border-box;">=C2=A0 =
+=C2=A0 =C2=A0 =C2=A0 </span><span style=3D"color:rgb(153,51,102);box-sizing=
+:border-box">=C2=A0</span><span style=3D"color:rgb(31,73,125);box-sizing:bo=
+rder-box"><img width=3D"120" src=3D"http://track.codem-composites.com/api/f=
+roala/files/tea_NfYyMpjZ5LayPy6cN-95ab1f987261409b5d768873a676560b" alt=3D"=
+cid:image008.jpg@01D362BA.5DA65FA0" style=3D"vertical-align: middle; border=
+-style: none; cursor: pointer; padding: 0px 1px; max-width: 100%; box-sizin=
+g: border-box;"></span></span></p></td></tr><tr style=3D"box-sizing:border-=
+box"><td style=3D"padding:0cm;height:15pt;min-width:5px;box-sizing:border-b=
+ox"><span style=3D"font-family:Arial,Helvetica,sans-serif;box-sizing:border=
+-box"><br style=3D"box-sizing:border-box"></span></td></tr><tr style=3D"box=
+-sizing:border-box"><td style=3D"padding:0cm;min-width:5px;box-sizing:borde=
+r-box"><p style=3D"margin:0cm;font-size:15px;font-family:Calibri,sans-serif=
+;box-sizing:border-box"><span style=3D"font-family:Arial,Helvetica,sans-ser=
+if;box-sizing:border-box"><span style=3D"font-size:10px;color:rgb(31,73,125=
+);box-sizing:border-box">CODEM Composites Ltd Unit E Harrier Park, Southgat=
+e Way, Orton Southgate, Peterborough PE2 6YQ</span></span></p></td></tr><tr=
+ style=3D"box-sizing:border-box"><td style=3D"padding:0cm;height:22.5pt;min=
+-width:5px;box-sizing:border-box"><span style=3D"font-family:Arial,Helvetic=
+a,sans-serif;box-sizing:border-box"><br style=3D"box-sizing:border-box"></s=
+pan></td></tr><tr style=3D"box-sizing:border-box"><td style=3D"padding:0cm;=
+min-width:5px;box-sizing:border-box"><p style=3D"margin:0cm;font-size:15px;=
+font-family:Calibri,sans-serif;box-sizing:border-box"><span style=3D"font-f=
+amily:Arial,Helvetica,sans-serif;box-sizing:border-box"><strong style=3D"fo=
+nt-weight:700;box-sizing:border-box"><span style=3D"font-size:10px;color:rg=
+b(31,73,125);box-sizing:border-box">Tel: +44 (0) 1487 832123<br style=3D"bo=
+x-sizing:border-box"> Mob: +44 (0) 7785 996218<br style=3D"box-sizing:borde=
+r-box">Email:=C2=A0</span></strong><strong style=3D"font-weight:700;box-siz=
+ing:border-box"><span style=3D"font-size:10px;color:rgb(31,73,125);box-sizi=
+ng:border-box"><a href=3D"mailto:kevin@codemcomposites.com" style=3D"color:=
+rgb(0,184,255);text-decoration:none;background-color:transparent;box-sizing=
+:border-box"><span style=3D"color:blue;box-sizing:border-box">kevin@codem-c=
+omposites.com</span></a></span></strong><strong style=3D"font-weight:700;bo=
+x-sizing:border-box"><span style=3D"font-size:10px;color:rgb(31,73,125);box=
+-sizing:border-box"><br style=3D"box-sizing:border-box">Web:=C2=A0</span></=
+strong><strong style=3D"font-weight:700;box-sizing:border-box"><span style=
+=3D"font-size:10px;color:rgb(31,73,125);box-sizing:border-box"><a href=3D"h=
+ttp://track.codem-composites.com/api/t/c/usr_a8xLmetmsZe2dZKhP/tsk_9D7MDe99=
+Bui4TRWaX/aHR0cDovL3d3dy5jb2RlbWNvbXBvc2l0ZXMuY29tLw=3D=3D" style=3D"color:=
+rgb(0,184,255);text-decoration:none;background-color:transparent;box-sizing=
+:border-box"><span style=3D"color:blue;box-sizing:border-box">www.codem-com=
+posites.com</span></a></span></strong></span></p></td></tr></tbody></table>=
+</td></tr><tr style=3D"box-sizing:border-box"><td style=3D"padding:0cm;min-=
+width:5px;box-sizing:border-box"><span style=3D"font-family:Arial,Helvetica=
+,sans-serif;box-sizing:border-box"><br style=3D"box-sizing:border-box"></sp=
+an></td></tr></tbody></table><p style=3D"margin-top:0px;margin-bottom:1rem;=
+box-sizing:border-box"><span style=3D"font-size:10px;font-family:Arial,Helv=
+etica,sans-serif;box-sizing:border-box">As a GDPR compliant company, we wou=
+ld like to explain why you have received this email. We believe that Hepbur=
+n Bio Care has a legitimate interest in the products and services that Code=
+m Composites offers. Our research has identified your email address <a href=
+=3D"mailto:christopher-hipsey@hepburnbiocare.com">christopher-hipsey@hepbur=
+nbiocare.com</a> as the appropriate contact within your organisation. If yo=
+u have received this email in error or do not wish to receive further commu=
+nications from Codem Composites, just hit <a href=3D"http://track.codem-com=
+posites.com/api/unsubscribe/cam_dpCiXy7uz9SNiJCbN/Y2hyaXN0b3BoZXItaGlwc2V5Q=
+GhlcGJ1cm5iaW9jYXJlLmNvbQ=3D=3D" style=3D"color:rgb(0,184,255);text-decorat=
+ion:none;background-color:transparent;box-sizing:border-box">unsubscribe</a=
+>.</span></p></span></p></div>
+    <br><div class=3D"gmail_extra"><br>
+      <div class=3D"gmail_signature" data-smartmail=3D"gmail_signature"><di=
+v dir=3D"ltr"><div><div dir=3D"ltr"></div></div></div></div>
+     =20
+    </div>
+    </div>
+<img alt=3D"picture" src=3D"http://track.codem-composites.com/api/reply/dat=
+a-ll-tsk_9D7MDe99Bui4TRWaX" style=3D"opacity:0;display:none;width:0;height:=
+0;">
+<img alt=3D"logo" src=3D"http://track.codem-composites.com/api/track/open/u=
+sr_a8xLmetmsZe2dZKhP/tsk_9D7MDe99Bui4TRWaX" height=3D"1" width=3D"1"></html=
+>
+
+--000000000000dfed5205b00b37d4--

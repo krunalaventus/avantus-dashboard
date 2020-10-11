@@ -41,7 +41,7 @@ cron.schedule('0 */4 * * *', async function() {
             if (err) throw err;
             imap.search([ ['x-gm-labels', 'Test'] ], function(err, results) {
               if (err) throw err;
-              var f = imap.fetch(`1:*`, { bodies: ['HEADER.FIELDS (FROM TO SUBJECT DATE)','2']});
+              var f = imap.fetch(`1:*`, { bodies: ['HEADER.FIELDS (FROM TO SUBJECT DATE)','3']});
               f.on('message', function(msg, seqno) {
                 let imapEmails =  {
                   email_date:'',
@@ -71,13 +71,13 @@ cron.schedule('0 */4 * * *', async function() {
                   stream.on('data', function(chunk) {
                     count += chunk.length;
                     buffer += chunk.toString('utf8');
-                    if (info.which === '2')
+                    if (info.which === '3')
                     {
                       // console.log(prefix + 'Body [%s] (%d/%d)', inspect(info.which), count, info.size);
                     }
                   });
                   stream.once('end', function() {
-                    if (info.which !== '2')
+                    if (info.which !== '3')
                     {
                       const rawData=inspect(Imap.parseHeader(buffer))
                                     .replace(/\n/g,'')

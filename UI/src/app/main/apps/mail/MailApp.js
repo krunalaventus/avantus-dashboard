@@ -34,7 +34,7 @@ function MailApp(props) {
 				content: 'flex flex-col',
 				header: 'items-center min-h-72 h-72 sm:h-136 sm:min-h-136'
 			}}
-			header={<MailAppHeader pageLayout={pageLayout} />}
+			// header={<MailAppHeader pageLayout={pageLayout} />}
 			// contentToolbar={routeParams.mailId ? <MailToolbar /> : <MailsToolbar />}
 			content={routeParams.mailId ? <MailDetails /> : <MailList />}
 			leftSidebarHeader={<MailAppSidebarHeader />}

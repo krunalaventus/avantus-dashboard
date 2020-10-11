@@ -144,7 +144,8 @@ exports.getEmailDetail = async function(params, res) {
                     console.log("==================================")
                     console.log(element.id)
                 }
-                const gdata= (data ?? '').replace(/3D"/g, '"').replace(/=09/g,'').replace(/=20/g,'').replace(/=C2=A0=/g,'').replace(/=C2=A0/g,'').replace(/=C2=A9/g,'').replace(/=E2=82=B9/g,'').replace(/<=\r\n/g, '<').replace(/=\r\n/g,'');
+                const gdata= (data ?? '');
+                // .replace(/3D"/g, '"').replace(/=09/g,'').replace(/=20/g,'').replace(/=C2=A0=/g,'').replace(/=C2=A0/g,'').replace(/=C2=A9/g,'').replace(/=E2=82=B9/g,'').replace(/<=\r\n/g, '<').replace(/=\r\n/g,'');
                 response.push({data: element, body: gdata})
                 loopno = loopno + 1;
                 if(loopno === find.length)

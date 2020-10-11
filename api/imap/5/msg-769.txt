@@ -1,11 +1,54 @@
-Reporting-MTA: dns; kerio.vitkovice.cz
-Arrival-Date: Wed, 23 Sep 2020 11:41:23 +0200
-
-Original-Recipient: jlenthall@cylinders.cz
-Final-Recipient: rfc822;jlenthall@cylinders.cz
-Action: failed
-Status: 5.1.1
-Remote-MTA: 172.22.67.46
-Diagnostic-Code: SMTP; 550 5.7.54 SMTP; Unable to relay recipient in non-acc
-	epted domain
-	
+X-Spam-Status: No, hits=0.0 required=5.0
+	tests=BAYES_00: -1.665,HTML_MESSAGE: 0.001,UNPARSEABLE_RELAY: 0.001,
+	TOTAL_SCORE: -1.663,autolearn=ham
+X-Spam-Level: 
+Received: from kerioext.vitkovice.cz ([176.67.229.201])
+	by kerio.vitkovice.cz
+	(using TLSv1.1 with cipher ECDHE-RSA-AES256-SHA (256 bits))
+	for jlenthall@cylinders.cz;
+	Wed, 23 Sep 2020 11:41:23 +0200
+X-Spam-Status: No, hits=2.4 required=5.2
+	tests=DNSBL_DNSBL.SORBS.NET: 4.10, BAYES_00: -1.665, HTML_MESSAGE: 0.001,
+	UNPARSEABLE_RELAY: 0.001, TOTAL_SCORE: 2.437,autolearn=ham
+X-Spam-Level: **
+Received: from mail-il1-f194.google.com ([209.85.166.194])
+	by kerioext.vitkovice.cz (Kerio Connect 9.0.4 patch 1) with ESMTPS
+	(using TLSv1.2 with cipher ECDHE-RSA-AES256-GCM-SHA384 (256 bits))
+	for jlenthall@cylinders.cz;
+	Wed, 23 Sep 2020 11:41:21 +0200
+Received: by mail-il1-f194.google.com with SMTP id q5so13637278ilj.1
+        for <jlenthall@cylinders.cz>; Wed, 23 Sep 2020 02:41:21 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=codem-composites.com; s=google;
+        h=from:mime-version:date:message-id:subject:to;
+        bh=WyvrjKvbPWSS1B85EtlhcmMszaBxC6S9+krLT2XHIqc=;
+        b=BNELVfXPVbb949n3qW6EstXqS75tx/WoFpT82EvUPhfF48uZuTU/F0aTn8QajmdGFm
+         6yOiIAduddIOyYKrlsM2YaZ6A7BD5a3OGYdajmpAFe4c4I56FaVh0XsH0GOBqWJ0K7KR
+         B5xPVTNqoXZeLVitUUvq3BHFkluat39/MNT7HAh5WbrKPh6SKB7C5c0yfuo7anyB/NxB
+         9Blb7UzdoVEd7LyZdR0N5uQR+etUdUW1MDJuiLWztWgQDotrfPtNu2H++iIGje9gzMB+
+         4RSCVxBIW6Nz/6ey+UzmCi9eSHKQGTKDt4f7Qzbj0qlfHAC2/LVfnXpMAElsU4/V3j00
+         bctw==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20161025;
+        h=x-gm-message-state:from:mime-version:date:message-id:subject:to;
+        bh=WyvrjKvbPWSS1B85EtlhcmMszaBxC6S9+krLT2XHIqc=;
+        b=jpbbS2nJy774ub+J/ZTtUulXl3pnOgqJu86JLcUozipkh9Y3tP3obxe4ieCB/V1ge2
+         DPcCwGxyaa3VQ4+V4L+x8R/kNsqt/+7W5AEKMoUtfsRqjWujCBFgj2MZlcnCHHU6wCpL
+         f+2tnlgRvId78f2OYZnbXXCpCxxb2osoZYXt0siCGRNQdUNpSXbIMk1vvjSCSHYQmVJX
+         HPAP35zn+RWVqXU2Rmfsc4bGFl96MzyUHZMyARkavh8NkAtSGI8v3OBvi9M21Px3/q06
+         RheoLAdWQNxSxg1TVXX4vdX5X9zwYR8PczOvxcV+zr5j8Cdrv4mBK6gZMZSGI3qvldJt
+         20TA==
+X-Gm-Message-State: AOAM531iWhcEkTUj4heViiad9kSCZ+Sfo6QOnfXVBI9pevVWXePmGbvC
+	5qoyrSDMIf0g3FVaqEQKljAEbYITgi1cQKPfalD6cco6tgs=
+X-Google-Smtp-Source: ABdhPJz1SavH/5ZpFNGN5eJ+uA2h70uGuhcTfzK3j5l7lhW2465j9AgDOTryGWpUaWcKNXrp8wPwAC2MxRUiOmu0Ndg=
+X-Received: by 2002:a92:1b8b:: with SMTP id f11mr7665363ill.216.1600854059646;
+ Wed, 23 Sep 2020 02:40:59 -0700 (PDT)
+Received: from 696963989851 named unknown by gmailapi.google.com with
+ HTTPREST; Wed, 23 Sep 2020 05:40:59 -0400
+From: Kevin Doherty <kevin@codem-composites.com>
+MIME-Version: 1.0
+Date: Wed, 23 Sep 2020 05:40:59 -0400
+Message-ID: <CAK4cLxhfy-VgoK3+sFDVVgVnOQskvERCZkvXSjKUOZOtjY568A@mail.gmail.com>
+Subject: Quick Question, John
+To: jlenthall@cylinders.cz
+Content-Type: multipart/alternative; boundary="000000000000901c1d05aff7e1a8"

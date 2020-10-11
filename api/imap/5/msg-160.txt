@@ -1,11 +1,38 @@
-Reporting-MTA: dns; googlemail.com
-Arrival-Date: Mon, 07 Sep 2020 01:18:31 -0700 (PDT)
-X-Original-Message-ID: <CAK4cLxiTrwYq36pokVA8tDS602chafyywG1sf+VkpzciWtzEJQ@mail.gmail.com>
+To: kevin@codem-composites.com
+Date: Mon, 07 Sep 2020 01:18:32 -0700 (PDT)
+From: Mail Delivery Subsystem <mailer-daemon@googlemail.com>
+Subject: Delivery Status Notification (Failure)
 
-Final-Recipient: rfc822; jonathan.ceng@babcockinternational.com
-Action: failed
-Status: 5.1.1
-Remote-MTA: dns; mxb-001c8e01.gslb.pphosted.com. (148.163.158.182, the server
- for the domain babcockinternational.com.)
-Diagnostic-Code: smtp; 550 5.1.1 User Unknown
-Last-Attempt-Date: Mon, 07 Sep 2020 01:18:32 -0700 (PDT)
+atTvXhPAvcihvCSDzPU=;
+        b=sA7yv9CuyKuVrHfbHd+DiKIw6mZ4/noXxDcUDywfIM80b+HfY8/ermYeuBeoAcBuTP
+         XBUvPSh7bpIrSFYATy8B2fOAF2cOmJm+Nxwy1ItI377uePKH6idEY9JfC4Yt7eTcQRhM
+         rfVYD02HOJI1BVnQQRPY5+r9DxFg+xZyDdNbVCuLkrS5PNtlBoZ4wzJnEn0VLl6lU+Sa
+         ic8J7aT29/Rrn6pw8ehxk065DIyPfu0xBljsjSUypEHX/8mCOV3G2qWQqDw0G+QiuPvC
+         PIOtZEERASiyRlS2fIU7QkjbLJk6wm7t/eHqbYHOvn90lTIOu8tCgJZ0cMlNwzRGTEBk
+         OPZQ==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20161025;
+        h=x-gm-message-state:from:mime-version:date:message-id:subject:to;
+        bh=S0eLfyrdRvJLxyvdHiyPFrciatTvXhPAvcihvCSDzPU=;
+        b=JF+uFiwPLK4JP6xnLdAWaU2IGi8WCtlelxwn3wrUEKy0QQe4rIjdCRBNB/1LGyLjG2
+         TYa1dGrJERKA780cv4gwny4QHnVwKCdmebChHPIDYuCDRtocv7EunvA+3ay/DstTriD6
+         gifWkXf0U7tWC4aNQfURCyu4UmcS4o8stgbOONPw2RcEwc5IuoQRHSEKg8FKayVGGlP6
+         fCLOyswwSZVhd6xqlc/1YEd8kxyFxq0z5rnLKpBNhfTk/vhBaJ8WUNzkxc6ZS/4+ELWk
+         R3Q425IWxHMUC40W3t84pU0HyCofdqSFowf4LBh8yN/Y5Qg96g8Mg4iI57dIjVWFmYb2
+         SbCw==
+X-Gm-Message-State: AOAM530YyC4qzv5ZG9mYLfwOqVS5970W1klUm9Z7xv/eCVtOoUM54zsG
+	O5XWo/pt+swzagP7Sequ9gf16Nbw1YYzLZsVUettwjpKSwg=
+X-Google-Smtp-Source: ABdhPJxU/WO6fBAzdFtTkHP43pX818X2QrlkNMB+sbpRkGCuNOhM9uIDq2zhLaNZrS0WqjeMifkZzObnuJ0tPLgDyUE=
+X-Received: by 2002:a92:9996:: with SMTP id t22mr17479357ilk.216.1599466711011;
+ Mon, 07 Sep 2020 01:18:31 -0700 (PDT)
+Received: from 696963989851 named unknown by gmailapi.google.com with
+ HTTPREST; Mon, 7 Sep 2020 01:18:30 -0700
+From: Kevin Doherty <kevin@codem-composites.com>
+MIME-Version: 1.0
+Date: Mon, 7 Sep 2020 01:18:30 -0700
+Message-ID: <CAK4cLxiTrwYq36pokVA8tDS602chafyywG1sf+VkpzciWtzEJQ@mail.gmail.com>
+Subject: Quick Question, Jonathan
+To: jonathan.ceng@babcockinternational.com
+Content-Type: multipart/alternative; boundary="00000000000023e5d305aeb4ddb1"
+
+----- Message truncated -----

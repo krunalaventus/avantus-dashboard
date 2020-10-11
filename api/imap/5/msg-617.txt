@@ -1,9 +1,277 @@
-Reporting-MTA: dns;AM0PR10MB3665.EURPRD10.PROD.OUTLOOK.COM
-Received-From-MTA: dns;mail-il1-f194.google.com
-Arrival-Date: Thu, 17 Sep 2020 11:22:25 +0000
+Received: from AM6P193CA0041.EURP193.PROD.OUTLOOK.COM (2603:10a6:209:8e::18)
+ by AM0PR10MB3665.EURPRD10.PROD.OUTLOOK.COM (2603:10a6:20b:157::10) with
+ Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.3370.16; Thu, 17 Sep
+ 2020 11:22:25 +0000
+Received: from HE1EUR02FT053.eop-EUR02.prod.protection.outlook.com
+ (2603:10a6:209:8e:cafe::f9) by AM6P193CA0041.outlook.office365.com
+ (2603:10a6:209:8e::18) with Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.3391.11 via Frontend
+ Transport; Thu, 17 Sep 2020 11:22:25 +0000
+Authentication-Results: spf=pass (sender IP is 209.85.166.194)
+ smtp.mailfrom=codem-composites.com; dbsantasalo.com; dkim=pass (signature was
+ verified) header.d=codem-composites.com;dbsantasalo.com; dmarc=pass
+ action=none header.from=codem-composites.com;
+Received-SPF: Pass (protection.outlook.com: domain of codem-composites.com
+ designates 209.85.166.194 as permitted sender)
+ receiver=protection.outlook.com; client-ip=209.85.166.194;
+ helo=mail-il1-f194.google.com;
+Received: from mail-il1-f194.google.com (209.85.166.194) by
+ HE1EUR02FT053.mail.protection.outlook.com (10.152.11.109) with Microsoft SMTP
+ Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id
+ 15.20.3391.15 via Frontend Transport; Thu, 17 Sep 2020 11:22:24 +0000
+Received: by mail-il1-f194.google.com with SMTP id t12so1895412ilh.3
+        for <timothy@dbsantasalo.com>; Thu, 17 Sep 2020 04:22:24 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=codem-composites.com; s=google;
+        h=from:mime-version:date:message-id:subject:to;
+        bh=lU2c/5mH81CVTbFWvdachYeXLCB0+4Tw4CdINcaRCnE=;
+        b=o1+wEJEgkMAeqIH6JPmvproLM72xhjIkzIRbFJDK2rBY2yAUNjGYwHcZ4FCspaOIHq
+         S3rbJJZJAEwl+imblH8ZyYp98ZIqtqbzhVaxbnDrRK11ZDVDAR1eFDxy1Hf/avVD/0zn
+         Xig+bbqyqdN0Pdb6h6z2GUfdkq4mCNzrEaiMbBJnaw7mwmG579W7X/fL4bkVeBc5/Kmh
+         rSJm1ddgcxrB15NO2cv2rLbT5UTpUw9BasWAGYKdFapcV1FtNUFNKIKRQA/TwiA1F6dK
+         be6qOD2xuaJdvmHyQbavGei9smbRR/I7gWVh+vvA9kujzAQXaXobopvU90i/dN84rIW6
+         NtPw==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20161025;
+        h=x-gm-message-state:from:mime-version:date:message-id:subject:to;
+        bh=lU2c/5mH81CVTbFWvdachYeXLCB0+4Tw4CdINcaRCnE=;
+        b=sgwmSkjKdXz0Oj0iAc9SQwqX7moz+OsLzy4QE58CP+f31QGYhrbCe8c7KT+m+PYYN6
+         3EsJODz/z2gJGEV8UmLnQJJIFfkaG4Mx/5m7OqrlZjeEGAzPVnjqBAmmbedTJEOSTYms
+         BMmSkwWBrGyW1x1KfotUeEwrwItOQAV5zPW9iWvAMzYx/+n43XLIoIwshFOVA5JhGsYx
+         e1BR2aIfQPpRFJLZ1U2+DMkAiv0XBRxRrunxEo2fgU7+xYhSgBrm5LtiCMGduk6TFtCb
+         XL3AcsHhaVIfQdRSn+Fu3jJp+0aPyZHsRSkNrNrj/LD1IB+ThYRQFpkfzwkMrMRyY0yG
+         geMQ==
+X-Gm-Message-State: AOAM532+oAJ6+f6OQLnn/KDU7s5+vGdj+o4psTjZVajsVAMGILLfB36f
+	y7evvb7HGqJ5ZCWaXIhzmF76AYPidMRWYn+2QL8u8dev2YU=
+X-Google-Smtp-Source: ABdhPJzn9qsIUpTspbXunMun1uwrtfLqjDn8Z4eyhHoyxB1zPD6qmnsuo/8FaXn0JiBVQjxTqTo/QYVKifqBeG2Q5tw=
+X-Received: by 2002:a92:1b8b:: with SMTP id f11mr7896182ill.216.1600341741854;
+ Thu, 17 Sep 2020 04:22:21 -0700 (PDT)
+Received: from 696963989851 named unknown by gmailapi.google.com with
+ HTTPREST; Thu, 17 Sep 2020 04:22:21 -0700
+From: Kevin Doherty <kevin@codem-composites.com>
+MIME-Version: 1.0
+Date: Thu, 17 Sep 2020 04:22:21 -0700
+Message-ID: <CAK4cLxi0Ks7xeH_0Ntyy1hePgHR9kRw69gQtJB6oJr0Tg3fnsg@mail.gmail.com>
+Subject: Quick Question, Timothy
+To: timothy@dbsantasalo.com
+Content-Type: multipart/alternative; boundary="0000000000000afaba05af8099f2"
+Return-Path: kevin@codem-composites.com
+X-EOPAttributedMessage: 0
+X-EOPTenantAttributedMessage: 703881f1-4a8d-40cc-a227-61817e51328a:0
+X-MS-PublicTrafficType: Email
+X-MS-Office365-Filtering-Correlation-Id: 9328157f-11b7-4ab3-0232-08d85afbf40c
+X-MS-TrafficTypeDiagnostic: AM0PR10MB3665:
 
-Final-Recipient: rfc822;timothy@dbsantasalo.com
-Action: failed
-Status: 5.1.10
-Diagnostic-Code: smtp;550 5.1.10 RESOLVER.ADR.RecipientNotFound; Recipient timothy@dbsantasalo.com not found by SMTP address lookup
+--0000000000000afaba05af8099f2
+Content-Type: text/plain; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
 
+Hi Timothy,
+
+
+I trust this Thursday afternoon is treating you well. I came across your
+LinkedIn profile whilst looking for the right person at David Brown
+Santasalo for a quick chat, so wanted to drop you a line by way of
+introduction.
+
+
+I head up the team here at Codem Composites and we provide end-to-end
+solutions for all things carbon fibre. Recently we=E2=80=99ve worked on pro=
+jects
+with Mercedes F1, manufactured Raytheon's military antennas and produced
+props for the latest Star Wars movie, just to name a few.
+
+
+The reason for my email is that I think there's great synergy between Codem
+and David Brown Santasalo, so I'm hoping that you can spare me a few
+minutes to chat.
+
+
+I'm available for a quick call on Monday or Tuesday afternoon. If that
+doesn=E2=80=99t work, tell me what does, and I=E2=80=99ll make it happen.
+
+
+Best regards,
+
+
+*Kevin Doherty*
+
+[image: Description: CODEM Composites Ltd]          [image:
+cid:image009.jpg@01D362BA.5DA65FA0]         [image:
+cid:image008.jpg@01D362BA.5DA65FA0]
+
+CODEM Composites Ltd Unit E Harrier Park, Southgate Way, Orton Southgate,
+Peterborough PE2 6YQ
+
+
+
+*Tel: +44 (0) 1487 832123 Mob: +44 (0) 7785 996218Email:
+**kevin@codem-composites.com
+<kevin@codemcomposites.com>*
+*Web: **www.codem-composites.com
+<http://track.codem-composites.com/api/t/c/usr_a8xLmetmsZe2dZKhP/tsk_3b7Q2T=
+FzciMpd5MZj/aHR0cDovL3d3dy5jb2RlbWNvbXBvc2l0ZXMuY29tLw=3D=3D>*
+
+As a GDPR compliant company, we would like to explain why you have received
+this email. We believe that David Brown Santasalo has a legitimate interest
+in the products and services that Codem Composites offers. Our research has
+identified your email address timothy@dbsantasalo.com as the appropriate
+contact within your organisation. If you have received this email in error
+or do not wish to receive further communications from Codem Composites,
+just hit unsubscribe
+<http://track.codem-composites.com/api/unsubscribe/cam_dpCiXy7uz9SNiJCbN/dG=
+ltb3RoeUBkYnNhbnRhc2Fsby5jb20=3D>
+.
+
+
+[image: picture] [image: logo]
+
+--0000000000000afaba05af8099f2
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<html><div style=3D"min-width:360px"></div><div dir=3D"ltr">
+    <div><p style=3D"margin:0px;box-sizing:border-box"><span style=3D"font-=
+family:Arial,Helvetica,sans-serif;box-sizing:border-box">Hi Timothy,=C2=A0<=
+/span></p><p style=3D"margin:0px;box-sizing:border-box"><span style=3D"font=
+-family:Arial,Helvetica,sans-serif"><span style=3D"box-sizing:border-box"><=
+br style=3D"box-sizing:border-box"></span></span></p><p style=3D"margin:0px=
+;box-sizing:border-box"><span style=3D"font-family:Arial,Helvetica,sans-ser=
+if"><span style=3D"box-sizing:border-box">I trust this Thursday</span></spa=
+n><span style=3D"font-family:Arial,Helvetica,sans-serif"><span style=3D"box=
+-sizing:border-box">=C2=A0afternoon=20
+is treating you well. I came across your LinkedIn profile whilst looking fo=
+r the right person at David Brown Santasalo for a quick chat, so wanted to =
+drop you a line by way of introduction.</span></span></p><p style=3D"margin=
+:0px;box-sizing:border-box"><span style=3D"font-family:Arial,Helvetica,sans=
+-serif"><span style=3D"box-sizing:border-box"><br style=3D"box-sizing:borde=
+r-box"></span></span></p><p style=3D"margin:0px;box-sizing:border-box"><spa=
+n style=3D"font-family:Arial,Helvetica,sans-serif"><span style=3D"box-sizin=
+g:border-box"> I head up the team here at  Codem Composites and we provide =
+end-to-end solutions for all things carbon fibre. Recently we=E2=80=99ve wo=
+rked on projects with Mercedes F1, manufactured Raytheon&#39;s military ant=
+ennas and produced props for the latest Star Wars movie, just to name a few=
+.</span></span></p><p style=3D"margin:0px;box-sizing:border-box"><span styl=
+e=3D"font-family:Arial,Helvetica,sans-serif"><br></span></p><p style=3D"mar=
+gin:0px;box-sizing:border-box"><span style=3D"font-family:Arial,Helvetica,s=
+ans-serif"><span style=3D"box-sizing:border-box">The reason for my email is=
+ that I think there&#39;s great synergy between Codem and David Brown Santa=
+salo, so I&#39;m hoping that you can spare me a few minutes to chat.=C2=A0<=
+/span></span></p><p style=3D"margin:0px;box-sizing:border-box"><span style=
+=3D"font-family:Arial,Helvetica,sans-serif"><br></span></p><p style=3D"marg=
+in:0px;box-sizing:border-box"><span style=3D"font-family:Arial,Helvetica,sa=
+ns-serif"><span style=3D"box-sizing:border-box"></span>I&#39;m available fo=
+r a quick call on Monday or Tuesday afternoon. If that doesn=E2=80=99t work=
+, tell me what does, and I=E2=80=99ll make it happen.
+<span style=3D"box-sizing:border-box"></span></span></p><p style=3D"margin:=
+0px;box-sizing:border-box"><span style=3D"font-family:Arial,Helvetica,sans-=
+serif"><span style=3D"box-sizing:border-box"><br style=3D"box-sizing:border=
+-box"></span></span></p><p style=3D"margin:0px;box-sizing:border-box"><span=
+ style=3D"font-family:Arial,Helvetica,sans-serif">  Best regards, </span></=
+p><p style=3D"margin:0px;box-sizing:border-box"><span style=3D"font-family:=
+Arial,Helvetica,sans-serif"><span style=3D"box-sizing:border-box"><br style=
+=3D"box-sizing:border-box"></span></span></p><p style=3D"margin:0px;box-siz=
+ing:border-box"><span style=3D"font-family:Arial,Helvetica,sans-serif;box-s=
+izing:border-box"><table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" s=
+tyle=3D"width:525pt;border-collapse:collapse;border:none;empty-cells:show;m=
+ax-width:100%;box-sizing:border-box" width=3D"700"><tbody style=3D"box-sizi=
+ng:border-box"><tr style=3D"box-sizing:border-box"><td style=3D"padding:0cm=
+;height:15pt;min-width:5px;box-sizing:border-box"><table border=3D"0" cellp=
+adding=3D"0" cellspacing=3D"0" style=3D"width:525pt;border-collapse:collaps=
+e;border:none;empty-cells:show;max-width:100%;box-sizing:border-box" width=
+=3D"700"><tbody style=3D"box-sizing:border-box"><tr style=3D"box-sizing:bor=
+der-box"><td style=3D"padding:0cm;min-width:5px;box-sizing:border-box"><p s=
+tyle=3D"margin:0cm;font-size:15px;font-family:Calibri,sans-serif;box-sizing=
+:border-box"><strong style=3D"font-weight:700;box-sizing:border-box"><span =
+style=3D"font-size:18px;color:black;font-family:Arial,Helvetica,sans-serif;=
+box-sizing:border-box">Kevin Doherty</span></strong></p></td></tr><tr style=
+=3D"box-sizing:border-box"><td style=3D"padding:0cm;height:15pt;min-width:5=
+px;box-sizing:border-box"><span style=3D"font-family:Arial,Helvetica,sans-s=
+erif;box-sizing:border-box"><br style=3D"box-sizing:border-box"></span></td=
+></tr><tr style=3D"box-sizing:border-box"><td style=3D"padding:0cm;min-widt=
+h:5px;box-sizing:border-box"><p style=3D"margin:0cm;font-size:15px;font-fam=
+ily:Calibri,sans-serif;box-sizing:border-box"><span style=3D"font-family:Ar=
+ial,Helvetica,sans-serif;box-sizing:border-box"><span style=3D"color:rgb(31=
+,73,125);box-sizing:border-box"><img width=3D"200" src=3D"http://track.code=
+m-composites.com/api/froala/files/tea_NfYyMpjZ5LayPy6cN-6001bc8f655e1d227c7=
+ea5f14c4fc96a" alt=3D"Description: CODEM Composites Ltd" style=3D"vertical-=
+align: middle; border-style: none; cursor: pointer; padding: 0px 1px; max-w=
+idth: 100%; box-sizing: border-box;"></span><span style=3D"color:rgb(153,51=
+,102);box-sizing:border-box">=C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0=C2=A0</span=
+><span style=3D"color:rgb(31,73,125);box-sizing:border-box"><img width=3D"1=
+01" src=3D"http://track.codem-composites.com/api/froala/files/tea_NfYyMpjZ5=
+LayPy6cN-ba66bf715631fc5ad46e49d0879aa5bc" alt=3D"cid:image009.jpg@01D362BA=
+.5DA65FA0" style=3D"vertical-align: middle; border-style: none; cursor: poi=
+nter; padding: 0px 1px; max-width: 100%; box-sizing: border-box;">=C2=A0 =
+=C2=A0 =C2=A0 =C2=A0 </span><span style=3D"color:rgb(153,51,102);box-sizing=
+:border-box">=C2=A0</span><span style=3D"color:rgb(31,73,125);box-sizing:bo=
+rder-box"><img width=3D"120" src=3D"http://track.codem-composites.com/api/f=
+roala/files/tea_NfYyMpjZ5LayPy6cN-95ab1f987261409b5d768873a676560b" alt=3D"=
+cid:image008.jpg@01D362BA.5DA65FA0" style=3D"vertical-align: middle; border=
+-style: none; cursor: pointer; padding: 0px 1px; max-width: 100%; box-sizin=
+g: border-box;"></span></span></p></td></tr><tr style=3D"box-sizing:border-=
+box"><td style=3D"padding:0cm;height:15pt;min-width:5px;box-sizing:border-b=
+ox"><span style=3D"font-family:Arial,Helvetica,sans-serif;box-sizing:border=
+-box"><br style=3D"box-sizing:border-box"></span></td></tr><tr style=3D"box=
+-sizing:border-box"><td style=3D"padding:0cm;min-width:5px;box-sizing:borde=
+r-box"><p style=3D"margin:0cm;font-size:15px;font-family:Calibri,sans-serif=
+;box-sizing:border-box"><span style=3D"font-family:Arial,Helvetica,sans-ser=
+if;box-sizing:border-box"><span style=3D"font-size:10px;color:rgb(31,73,125=
+);box-sizing:border-box">CODEM Composites Ltd Unit E Harrier Park, Southgat=
+e Way, Orton Southgate, Peterborough PE2 6YQ</span></span></p></td></tr><tr=
+ style=3D"box-sizing:border-box"><td style=3D"padding:0cm;height:22.5pt;min=
+-width:5px;box-sizing:border-box"><span style=3D"font-family:Arial,Helvetic=
+a,sans-serif;box-sizing:border-box"><br style=3D"box-sizing:border-box"></s=
+pan></td></tr><tr style=3D"box-sizing:border-box"><td style=3D"padding:0cm;=
+min-width:5px;box-sizing:border-box"><p style=3D"margin:0cm;font-size:15px;=
+font-family:Calibri,sans-serif;box-sizing:border-box"><span style=3D"font-f=
+amily:Arial,Helvetica,sans-serif;box-sizing:border-box"><strong style=3D"fo=
+nt-weight:700;box-sizing:border-box"><span style=3D"font-size:10px;color:rg=
+b(31,73,125);box-sizing:border-box">Tel: +44 (0) 1487 832123<br style=3D"bo=
+x-sizing:border-box"> Mob: +44 (0) 7785 996218<br style=3D"box-sizing:borde=
+r-box">Email:=C2=A0</span></strong><strong style=3D"font-weight:700;box-siz=
+ing:border-box"><span style=3D"font-size:10px;color:rgb(31,73,125);box-sizi=
+ng:border-box"><a href=3D"mailto:kevin@codemcomposites.com" style=3D"color:=
+rgb(0,184,255);text-decoration:none;background-color:transparent;box-sizing=
+:border-box"><span style=3D"color:blue;box-sizing:border-box">kevin@codem-c=
+omposites.com</span></a></span></strong><strong style=3D"font-weight:700;bo=
+x-sizing:border-box"><span style=3D"font-size:10px;color:rgb(31,73,125);box=
+-sizing:border-box"><br style=3D"box-sizing:border-box">Web:=C2=A0</span></=
+strong><strong style=3D"font-weight:700;box-sizing:border-box"><span style=
+=3D"font-size:10px;color:rgb(31,73,125);box-sizing:border-box"><a href=3D"h=
+ttp://track.codem-composites.com/api/t/c/usr_a8xLmetmsZe2dZKhP/tsk_3b7Q2TFz=
+ciMpd5MZj/aHR0cDovL3d3dy5jb2RlbWNvbXBvc2l0ZXMuY29tLw=3D=3D" style=3D"color:=
+rgb(0,184,255);text-decoration:none;background-color:transparent;box-sizing=
+:border-box"><span style=3D"color:blue;box-sizing:border-box">www.codem-com=
+posites.com</span></a></span></strong></span></p></td></tr></tbody></table>=
+</td></tr><tr style=3D"box-sizing:border-box"><td style=3D"padding:0cm;min-=
+width:5px;box-sizing:border-box"><span style=3D"font-family:Arial,Helvetica=
+,sans-serif;box-sizing:border-box"><br style=3D"box-sizing:border-box"></sp=
+an></td></tr></tbody></table><p style=3D"margin-top:0px;margin-bottom:1rem;=
+box-sizing:border-box"><span style=3D"font-size:10px;font-family:Arial,Helv=
+etica,sans-serif;box-sizing:border-box">As a GDPR compliant company, we wou=
+ld like to explain why you have received this email. We believe that David =
+Brown Santasalo has a legitimate interest in the products and services that=
+ Codem Composites offers. Our research has identified your email address <a=
+ href=3D"mailto:timothy@dbsantasalo.com">timothy@dbsantasalo.com</a> as the=
+ appropriate contact within your organisation. If you have received this em=
+ail in error or do not wish to receive further communications from Codem Co=
+mposites, just hit <a href=3D"http://track.codem-composites.com/api/unsubsc=
+ribe/cam_dpCiXy7uz9SNiJCbN/dGltb3RoeUBkYnNhbnRhc2Fsby5jb20=3D" style=3D"col=
+or:rgb(0,184,255);text-decoration:none;background-color:transparent;box-siz=
+ing:border-box">unsubscribe</a>.</span></p></span></p></div>
+    <br><div class=3D"gmail_extra"><br>
+      <div class=3D"gmail_signature" data-smartmail=3D"gmail_signature"><di=
+v dir=3D"ltr"><div><div dir=3D"ltr"></div></div></div></div>
+     =20
+    </div>
+    </div>
+<img alt=3D"picture" src=3D"http://track.codem-composites.com/api/reply/dat=
+a-ll-tsk_3b7Q2TFzciMpd5MZj" style=3D"opacity:0;display:none;width:0;height:=
+0;">
+<img alt=3D"logo" src=3D"http://track.codem-composites.com/api/track/open/u=
+sr_a8xLmetmsZe2dZKhP/tsk_3b7Q2TFzciMpd5MZj" height=3D"1" width=3D"1"></html=
+>
+
+--0000000000000afaba05af8099f2--

@@ -3,10 +3,36 @@ Date: Wed, 09 Sep 2020 05:12:06 -0700 (PDT)
 From: Mail Delivery Subsystem <mailer-daemon@googlemail.com>
 Subject: Delivery Status Notification (Failure)
 
-Recipient: rfc822; louise.cengmicheme@babcockinternational.com
-Action: failed
-Status: 5.1.1
-Remote-MTA: dns; mxb-001c8e01.gslb.pphosted.com. (148.163.156.185, the server
- for the domain babcockinternational.com.)
-Diagnostic-Code: smtp; 550 5.1.1 User Unknown
-Last-Attempt-Date: Wed, 09 Sep 2020 05:12:06 -0700 (PDT)
+qnAywkMNWQqyfXIyWS0=;
+        b=jB7kjlJBMrY02d7oR0Bf9jliDZk235apJKyS8IpmnKyEuKOWb27kfSVnoEieP3xsB8
+         YwyXUyHzdyxP/Yz8ff1drcPeNSaov53xMn0JUXTmTLQ6CAZ6jHnL/UYqPEeidKoIOvdG
+         nfKpJ/LE4xtXhCxm5TaUdzNRzDtMq+2gsostylj8fyNWtsr5+IyhpR+mUnEyqFRqH7lg
+         Tbjf4jhZ62OjDGaijL2U9/iIoLkioDZuIasLKTS/ou5XvEiQf4HZjR4sVJbStWmezV0j
+         4uBOZvg9EvQL/c//F6/Zylkp7AvEp00MrQCwwr3ZqjXvKFq6sD4geZIwXaipWIQUjgoP
+         i+1Q==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20161025;
+        h=x-gm-message-state:from:mime-version:date:message-id:subject:to;
+        bh=M6PcUDxZTs9yRGtLovgEoiyJqnAywkMNWQqyfXIyWS0=;
+        b=eIWoY6dIXa96+6NSK5H+hFTM5Tdz46SE9PYM5UUwZtQ0vFE6beHqmxTwrMM6+XIrxZ
+         KzZLtqRCU72RrqYGowGJ+QPaGXXS40YuJIEF5QZuWcaXCHOBRc0+sKUMmtSdKbamL4DR
+         o/rO0HRbAwQo3F4Al7ktNbqAID3Su8olXO0Ydocz+9z2H/7DWUT5Ur4PBPusvCtCGhVa
+         PK+6OHHmHcI7NTLXLABVK6VgTsXCQqRkPk1A/Qx5QjY+3EpOYvuMOPGIDnNB6mjJkByM
+         f++Jz13sJb08h16fFtEPiWZoEP/yNPCdjEW0tS5XetmvD+HHOXssDnG+G/85Obp9I0oP
+         kgQw==
+X-Gm-Message-State: AOAM532ObkOKXuPPBXzjKMoFFh3qOvGzuQPdaOSWKNQSTuN3W/CsYuJ5
+	2sEfrg6doQsQUZQ9Sjpzje53npt17ynzbm2V2j9Czkwya58=
+X-Google-Smtp-Source: ABdhPJyPA7PidFMiuL7PJkBzIDEE6qUVIo39MqT11Ho1yz7yFCWcIf3Q/+kYkXCW7P1ZhZXF53KMWkffVVRE9y51OA0=
+X-Received: by 2002:a02:605c:: with SMTP id d28mr3671287jaf.12.1599653525385;
+ Wed, 09 Sep 2020 05:12:05 -0700 (PDT)
+Received: from 696963989851 named unknown by gmailapi.google.com with
+ HTTPREST; Wed, 9 Sep 2020 05:12:04 -0700
+From: Kevin Doherty <kevin@codem-composites.com>
+MIME-Version: 1.0
+Date: Wed, 9 Sep 2020 05:12:04 -0700
+Message-ID: <CAK4cLxjGemJt9KX0VSWh6vV4bq-aPT1Ym6edk9JipNFuvr6Gsw@mail.gmail.com>
+Subject: Quick Question, Louise
+To: louise.cengmicheme@babcockinternational.com
+Content-Type: multipart/alternative; boundary="00000000000024fcd005aee05cfd"
+
+----- Message truncated -----

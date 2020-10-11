@@ -1,10 +1,414 @@
-Reporting-MTA: dns;VI1PR08MB3008.eurprd08.prod.outlook.com
-Received-From-MTA: dns;EUR02-HE1-obe.outbound.protection.outlook.com
-Arrival-Date: Fri, 4 Sep 2020 13:16:11 +0000
+Received: from AM6PR01CA0046.eurprd01.prod.exchangelabs.com
+ (2603:10a6:20b:e0::23) by VI1PR08MB3008.eurprd08.prod.outlook.com
+ (2603:10a6:803:43::18) with Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.3348.15; Fri, 4 Sep
+ 2020 13:16:11 +0000
+Received: from VE1EUR03FT063.eop-EUR03.prod.protection.outlook.com
+ (2603:10a6:20b:e0:cafe::77) by AM6PR01CA0046.outlook.office365.com
+ (2603:10a6:20b:e0::23) with Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.3348.15 via Frontend
+ Transport; Fri, 4 Sep 2020 13:16:11 +0000
+Authentication-Results: spf=softfail (sender IP is 104.47.5.54)
+ smtp.mailfrom=codem-composites.com; kemtron.co.uk; dkim=pass (signature was
+ verified) header.d=codem-composites.com;kemtron.co.uk; dmarc=pass action=none
+ header.from=codem-composites.com;compauth=pass reason=100
+Received-SPF: SoftFail (protection.outlook.com: domain of transitioning
+ codem-composites.com discourages use of 104.47.5.54 as permitted sender)
+Received: from EUR02-HE1-obe.outbound.protection.outlook.com (104.47.5.54) by
+ VE1EUR03FT063.mail.protection.outlook.com (10.152.18.236) with Microsoft SMTP
+ Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id
+ 15.20.3348.16 via Frontend Transport; Fri, 4 Sep 2020 13:16:11 +0000
+Received: from MR2P264CA0157.FRAP264.PROD.OUTLOOK.COM (2603:10a6:501:1::20) by
+ HE1PR08MB2857.eurprd08.prod.outlook.com (2603:10a6:7:2e::32) with Microsoft
+ SMTP Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id
+ 15.20.3326.23; Fri, 4 Sep 2020 13:16:08 +0000
+Received: from VE1EUR03FT046.eop-EUR03.prod.protection.outlook.com
+ (2603:10a6:501:1:cafe::be) by MR2P264CA0157.outlook.office365.com
+ (2603:10a6:501:1::20) with Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.3348.15 via Frontend
+ Transport; Fri, 4 Sep 2020 13:16:07 +0000
+Authentication-Results-Original: spf=softfail (sender IP is 104.47.12.54)
+ smtp.mailfrom=codem-composites.com; kemtron.co.uk; dkim=pass (signature was
+ verified) header.d=codem-composites.com;kemtron.co.uk; dmarc=pass action=none
+ header.from=codem-composites.com;compauth=pass reason=100
+Received-SPF: SoftFail (protection.outlook.com: domain of transitioning
+ codem-composites.com discourages use of 104.47.12.54 as permitted sender)
+Received: from EUR04-DB3-obe.outbound.protection.outlook.com (104.47.12.54) by
+ VE1EUR03FT046.mail.protection.outlook.com (10.152.19.226) with Microsoft SMTP
+ Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id
+ 15.20.3348.16 via Frontend Transport; Fri, 4 Sep 2020 13:16:07 +0000
+Received: from MR2P264CA0130.FRAP264.PROD.OUTLOOK.COM (2603:10a6:500:30::22)
+ by PR3PR08MB5771.eurprd08.prod.outlook.com (2603:10a6:102:83::23) with
+ Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.3348.15; Fri, 4 Sep
+ 2020 13:16:05 +0000
+Received: from VE1EUR03FT021.eop-EUR03.prod.protection.outlook.com
+ (2603:10a6:500:30:cafe::c) by MR2P264CA0130.outlook.office365.com
+ (2603:10a6:500:30::22) with Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.3348.15 via Frontend
+ Transport; Fri, 4 Sep 2020 13:16:05 +0000
+Authentication-Results-Original: spf=pass (sender IP is 209.85.166.181)
+ smtp.mailfrom=codem-composites.com; kemtron.co.uk; dkim=pass (signature was
+ verified) header.d=codem-composites.com;kemtron.co.uk; dmarc=pass action=none
+ header.from=codem-composites.com;compauth=pass reason=100
+Received-SPF: Pass (protection.outlook.com: domain of codem-composites.com
+ designates 209.85.166.181 as permitted sender)
+ receiver=protection.outlook.com; client-ip=209.85.166.181;
+ helo=mail-il1-f181.google.com;
+Received: from mail-il1-f181.google.com (209.85.166.181) by
+ VE1EUR03FT021.mail.protection.outlook.com (10.152.18.117) with Microsoft SMTP
+ Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id
+ 15.20.3348.16 via Frontend Transport; Fri, 4 Sep 2020 13:16:05 +0000
+Received: by mail-il1-f181.google.com with SMTP id b17so6301874ilh.4
+        for <dominich@kemtron.co.uk>; Fri, 04 Sep 2020 06:16:05 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=codem-composites.com; s=google;
+        h=from:mime-version:date:message-id:subject:to;
+        bh=qVZ+ZXyH+pbIGwYo7MmtGdHR14I/l74JLXruKpJ+/No=;
+        b=YPb5Lm2oHwKw2IuwceFLBGNcFdMltOkoLJ/4HCUAJ0n/fXFEe+nVF/66KSsX5MKKfX
+         dO7/uXtHKHVnOxZrTVThrxC2rjEgiB7PIZmFGy2OLYepDkFPT5bY4xn417Hk0zdZcoNe
+         L5u9TEEOzx2SvQeGRj3/N6RXdt6RxCm2Rxt65Msu/64UcA9Nx++GYNczbf8yHck8/6z4
+         H1GSDLLQaWNqx4Xa4tKxyyZzFLpf8IIrgk1LyESSY66BBRG7nmolHkNXS9oPqaUQCcIO
+         56LsBlG0qEQ+D+zgj+33sarwwnFBlADikHiM+fXklqZpvx6r/r1h996PAJlrdl+rL+4I
+         o0uQ==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20161025;
+        h=x-gm-message-state:from:mime-version:date:message-id:subject:to;
+        bh=qVZ+ZXyH+pbIGwYo7MmtGdHR14I/l74JLXruKpJ+/No=;
+        b=jZTZlCSYBNthi7eFer8nqSBDyjSo/aotd0x6NVWK3LTdkEGcUCt8dObGo2sC1wCrUd
+         qvPDeoJLSku61ngjhB9rFUmii0PWlYS2MLgC3rETF8a3WhSRLkGlE+BUIKyZe3tYMWwS
+         7xWQ21ZMKsxPxo745up82SCagJrlbGIg0b/avkzhBSpKRaUNhgwIOc2A8MYdEGRJqFe+
+         Zxs55TPvJsph8mV2Mb5neuLSFvA7O5ea/Tr1Ohfq+sk7lSAOkeLSV3POBkaTy7QG+wxy
+         8oTuF/KAKEoJ35xmkh4d6oaxTCJLyarqyeWBCiDxhqy5q5JrG/q819fgH79lciBD2as/
+         rQcQ==
+X-Gm-Message-State: AOAM531wVoarTFBBl5rHWHzAZJE+tQn4fc9GeDtKSl7wxjDH/8Q/3vCk
+	5RUoeBE7ma3aJ9sD+jJzQx2xP71Mtk1Fw3TfBBdfOzBzFmqO8g==
+X-Google-Smtp-Source: ABdhPJxsfOtW2wZlh+a5bhk4mJaOL2/P5Q6wHjhQwVhRxzV1Ne8R8QPzz4B3I7E18TvchZKBy3G823PPKhr7K0iaVqA=
+X-Received: by 2002:a92:c083:: with SMTP id h3mr8012176ile.208.1599225363806;
+ Fri, 04 Sep 2020 06:16:03 -0700 (PDT)
+Received: from 696963989851 named unknown by gmailapi.google.com with
+ HTTPREST; Fri, 4 Sep 2020 13:16:02 +0000
+From: Kevin Doherty <kevin@codem-composites.com>
+MIME-Version: 1.0
+Date: Fri, 4 Sep 2020 13:16:02 +0000
+Message-ID: <CAK4cLxjPy1yCzG+0OY0QNWKnXd9RPZtEp5w5--c4TD+OuFUvuw@mail.gmail.com>
+Subject: Quick Question, Dominic
+To: dominich@kemtron.co.uk
+Content-Type: multipart/alternative; boundary="000000000000b9c99505ae7cab81"
+Return-Path: kevin@codem-composites.com
+X-EOPAttributedMessage: 2
+X-EOPTenantAttributedMessage: 41b81e5c-c9e7-4986-865a-3ae83d427a5c:2
+X-MS-PublicTrafficType: Email
+X-MS-Office365-Filtering-Correlation-Id: d7100179-cb1a-431a-0723-08d850d4b15b
+X-MS-TrafficTypeDiagnostic: PR3PR08MB5771:|HE1PR08MB2857:|VI1PR08MB3008:
+X-MS-Oob-TLC-OOBClassifiers: OLM:8882;OLM:8882;OLM:8882;
+X-Microsoft-Antispam-Untrusted: BCL:0;
+X-Microsoft-Antispam-Message-Info-Original: =?us-ascii?Q?UqFDtxPR1GdCP4lrcEMR1OKU8u6RcMu/+dytVTZJ6SOgrWTlJWwVYcsGx6Vz?=
+ =?us-ascii?Q?qE9m+xprJowFLXj+jB1geikF7Gp2NVEdW4rmz7MAYoZvb+mqBnyMdxApvAIU?=
+ =?us-ascii?Q?KrGE93HfXEiVBEynZEY660CMK8Bn4Ps6D4a1sz2kipqoEqMfbGpknbEfCnT6?=
+ =?us-ascii?Q?WbFLm0SKu1VCDGUyr4LeYajsPYPGwm1zdbJGwcylQuv+I6doGO8/cRsmM4fO?=
+ =?us-ascii?Q?Wj8txkX8HTBxv8pG/q/sj58dZifBdaWt0rwD6Ctedb0G002ysCQnMbGu7+Vq?=
+ =?us-ascii?Q?FbMdyicSapP0xtN/zDPW+dK0VAOVZtnz4SbiJyEXEVJuduvD4cX2Gj5r5BuT?=
+ =?us-ascii?Q?xR5ORZJMtHmi4WDRC+akEy/k9UmpUnbqleW2UE1AanLiOCBdSpsiJt3GdidP?=
+ =?us-ascii?Q?jNPS3UTTgTCtTDWNWxLgFScP9I5Dv/v3PDPWqeir1++lzYMkxAV0a5R42a/P?=
+ =?us-ascii?Q?5U15p4n9WBTqZXWpCI2maXW64spd8mCQtG5vYnfHLpl64WFdVX9wsdTs9O43?=
+ =?us-ascii?Q?ZEzbpr2lCf2VJuKuCyx56Hten1giyv5lNX/H8IbLnG78fbZkSIpTgnP1TPVn?=
+ =?us-ascii?Q?m5znMfx5zGEIbekyz3w1l0OsH5wbBouz2MrHCagX0NtNCu915WqIxqHcrS4q?=
+ =?us-ascii?Q?8TJpBdzHbqmc6eyWwAEG9sfjXWk27ef0aFOIVhddfAzuvqiJbiYHly+swmZk?=
+ =?us-ascii?Q?9wsll2rPmkdK8zYgzow5q6KlpZ3Jn9EBmsSYdbGKs0FzxnQvv4aLh7c7Cy6N?=
+ =?us-ascii?Q?opxoOrRWDqJ/MIFd6yRACfFD5oa3+Rhfos0j/58tUlVnSNcLZKIEWquzJ6eT?=
+ =?us-ascii?Q?pJwBhtunFti6YXTX5jwnf29z5s51BwYKWIU3lkdlzAeYmZY9S/AEKSQc8Rfx?=
+ =?us-ascii?Q?sMQuMvcDdBVth+NmxWpim7TuECKrHkx1HXWltSfzEnFL82jglYvWiaU1PdZl?=
+ =?us-ascii?Q?Er0rh7NluEBgbkPgWfbfS8WYCzSCsEOobBcxdEHQvkLveXlCIhgGVRTIZprg?=
+ =?us-ascii?Q?hwzpWrU4HZE7qtKdK8e3WxZ5gSeZOi/uVW5L/G2Ccr598AkbmseQhLx/LZde?=
+ =?us-ascii?Q?hr9GGGNIFH+ngDs7wPtBr0EryPHGIXGCP8AnhxBtcqAMlCNmcHgxw/RbZuJK?=
+ =?us-ascii?Q?7vogGHYSdIa2V456zr8S+HiSmP4Kg9d4JrARgGD2jg1RTjwfFAJtMdQYqqs5?=
+ =?us-ascii?Q?Y2D6+ZkSs5vV3sm4g4Z/qwQkQqLJEcmXhoI4Z+9z7y5jw4jQCCzXEX1KNyvL?=
+ =?us-ascii?Q?PcfpDNnViS9pJH7bdryVbY8+AQ7juekzWkI60ObUabB5Sr6BOsaoWVGU7Ola?=
+ =?us-ascii?Q?nm59pSfg7dPwUjU+oACPPovc?=
+X-Forefront-Antispam-Report-Untrusted: CIP:209.85.166.181;CTRY:US;LANG:en;SCL:1;SRV:;IPV:NLI;SFV:NSPM;H:mail-il1-f181.google.com;PTR:mail-il1-f181.google.com;CAT:NONE;SFS:(8676002)(76236003)(1096003)(9686003)(336012)(86362001)(26005)(6916009)(83380400001)(83080400001)(45080400002)(55446002)(33964004)(166002)(2160300002)(5660300002)(19627405001)(7066003)(356005)(7596003)(7636003)(43950500001)(44020500001);DIR:INB;
+X-ExternalRecipientOutboundConnectors: 41b81e5c-c9e7-4986-865a-3ae83d427a5c
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: PR3PR08MB5771
+X-MS-Exchange-Transport-CrossTenantHeadersStripped: VE1EUR03FT046.eop-EUR03.prod.protection.outlook.com
+X-MS-Exchange-Transport-CrossTenantHeadersPromoted: VE1EUR03FT046.eop-EUR03.prod.protection.outlook.com
+X-MS-Office365-Filtering-Correlation-Id-Prvs: dab913cd-ae16-431f-e98d-08d850d4ae04
+X-Microsoft-Antispam-Untrusted: BCL:0;
+X-Microsoft-Antispam-Message-Info-Original: =?us-ascii?Q?m9YXikiliU+kzqz3TgqKLIz509kZn3N0nOpV5FmqysXj+mVWSXziiXdyO8C1?=
+ =?us-ascii?Q?Oa2Ar1q0PitmAZiC0bHxU7jJGKZuSNOh7fx4Zp5l/rYpvNgIv+l0MdZ8p47Z?=
+ =?us-ascii?Q?4GP97Kk/rnkOghhs//GcatuIclurXk4NKHOWmrz2vOxrru4DW59lzvdH57aQ?=
+ =?us-ascii?Q?8UJX62F0BgWOTqLk4lyvbag01T5LpLUVMbcAknnoYxcKvChx/FEUuZ/EBKEg?=
+ =?us-ascii?Q?w8U3xl3fvES6jqU9DgRb2eo68Cd96TOmMe457TaVIT2+FtRiW9pEJOsqktvc?=
+ =?us-ascii?Q?byMfLpe4Dgo81tEazQV58B7YXfWbkvJgEPNGYuNtXXQ0XO+Y+vpg9NQq2Nqb?=
+ =?us-ascii?Q?jJ952YaJSa+MburrUhRejeNie3CAOnvbkYHv+uLyE3R0maHfm39A9LizUXLJ?=
+ =?us-ascii?Q?Z4HwBqaNN2XtfvnDSzyqBwSrIm0fWq89PEyDJdrNso7nG+ncyKgvHIPlv750?=
+ =?us-ascii?Q?dqWvsMR5yTdLTfi9WzaMW+2C7l/624HNjEUNQUr3Y60VQI5yvFcKFdoGw/sy?=
+ =?us-ascii?Q?W8DoHvLhKgrdhMYFO0KD5EkAmzTM/O/4fdvy/kzvvSmPypTnGbhoVeBPxd/h?=
+ =?us-ascii?Q?sLZ96wNSKkCsDRgz4i01z9ET3O6OLqbjiDUyh49SiMSrU5Jdqjqasqltaokg?=
+ =?us-ascii?Q?KgspnUeWKJGg7r4qb0TQswj4JXpEBMDwuVz7Gd85XvcjUyslYPuW/2twCl29?=
+ =?us-ascii?Q?96xVSXHR8YqqDAe+aU6VP6nLXBvTrrcyrfZ1ldMFF5OntDPH4OHdc1MU5Tst?=
+ =?us-ascii?Q?1hhAvZG7NOxrh8jdm7vfdTOeLUSiCwwFwf4njtzNj64rFw37/70FXVgVImym?=
+ =?us-ascii?Q?Av6MZy3ML4RQmPUpA9HLq+Y+a3dzINeJiv8TahR+loasH2tdQVk3uMrD2zCm?=
+ =?us-ascii?Q?bY6JGnQNvOj9KoyXVOeR5FttwOpX1Dmx5M9CvAw3NaR4DIitTiTK4Ng5M9J4?=
+ =?us-ascii?Q?/k/gjx6VLcFvn17VCH2VOK7upMe7HsPtE98g65Gb4ZxGK3WjRoFf0QQk8qT4?=
+ =?us-ascii?Q?1DTOsK0n2AynbOYx0JkUg+e8jIoJNyfjGBuebvzLFLV2sJDIISUvD2ZnQ4ua?=
+ =?us-ascii?Q?JOrT+OeVYyZ5p7QJr3Bfqa12+RrJa4nb2r3RBo04hzqHO+Mz4/QiYeQNhOfy?=
+ =?us-ascii?Q?xFcf8xhi79JqR09GejuIkKlaJ2UoSIgZ+0IyQxmWYCQBOFCcyxlkaw8ly5xy?=
+ =?us-ascii?Q?G4BfOd2bckkDvc9lh9pxaEvg9Fnr3Pm1w7fb8kZoQ78keNlY3R9SFIh28H22?=
+ =?us-ascii?Q?L8orvkzrgIso5yhMSk5naJiSBD9fU0MTXscQ8aLcNyll4KW5ucxTRZPR7qd6?=
+ =?us-ascii?Q?V2Nogr82VNh/KBYohUfFnZWm9JJAHN8rfKkGxpXCICrkJXVZCHs7k73ADrh2?=
+ =?us-ascii?Q?87vGtZw=3D?=
+X-Forefront-Antispam-Report-Untrusted: CIP:104.47.12.54;CTRY:IE;LANG:en;SCL:1;SRV:;IPV:NLI;SFV:NSPM;H:EUR04-DB3-obe.outbound.protection.outlook.com;PTR:mail-db3eur04lp2054.outbound.protection.outlook.com;CAT:NONE;SFS:(9686003)(166002)(83380400001)(33964004)(45080400002)(55446002)(86362001)(7636003)(83080400001)(336012)(2160300002)(8676002)(1096003)(5660300002)(6916009)(76236003)(7066003)(19627405001)(26005)(43950500001)(44020500001);DIR:INB;
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: HE1PR08MB2857
+X-MS-Exchange-Transport-CrossTenantHeadersStripped: VE1EUR03FT063.eop-EUR03.prod.protection.outlook.com
+X-MS-Exchange-Transport-CrossTenantHeadersPromoted: VE1EUR03FT063.eop-EUR03.prod.protection.outlook.com
+X-MS-Office365-Filtering-Correlation-Id-Prvs:
+ 8fa997b3-d9a1-49b4-683e-08d850d4af37
+X-Microsoft-Antispam: BCL:0;
+X-Microsoft-Antispam-Message-Info:
+ =?us-ascii?Q?Wda5mpPeAmNaGZcbQYrhdnzeHE32iFb7GZpqZXgsHv7RaOYwqtmC5zjp+8e9?=
+ =?us-ascii?Q?nibPN6Diu2hbu+637M0hgxswjSbnNWML/pxS3Y1rW6HhLNDz132w8lSGrBim?=
+ =?us-ascii?Q?9PMJnBSHAYYdRa7Zc914slbkgFgpibeSGI1dQb96q2jxyCS+L8F+olnqla+w?=
+ =?us-ascii?Q?LP6/+gE/nBLPLqvPQHWFP2QQfhpj3TXw/qXk7BCFVmPFRZjoFpG7FTHDUzGd?=
+ =?us-ascii?Q?EoQNO5FbeuWCveVE5EvXJiglmkW0hfX6jtyU3mCFwEQGxOnYhyxqFX/CRBSN?=
+ =?us-ascii?Q?nJ9AMfmMfuyP2S7jDf8cglrxO3u/8B+XLeRbAt3YDisLzQBkagh2YRlRWSyM?=
+ =?us-ascii?Q?of6uLXoXmvOwp1Bd8MSIyWwR8D1D3+R5Y4bivlWLjTQwwr1F+GHV+ssrHK03?=
+ =?us-ascii?Q?Wzhx2ADSwtaH27LdYO6qbqJ96UDna7Gh79bFL/DiomaSmNamhlHgMGZgSsAD?=
+ =?us-ascii?Q?ClsswKTn5W6diaHgiWFwFw3zPo6D09ZnO3CaxAxP1ybtcIwSiadDXVUdgHz9?=
+ =?us-ascii?Q?26tbq6xlIup1H27UK03Nkmpyo18lE2HvAbd2I/VpXITrWbmUpD8khbw37URQ?=
+ =?us-ascii?Q?LYvW1sxDgq33M/ZJxh0umfa8etnyjqyVvXbjQFZ4WatVlDwsxrLhCYn0DO5Z?=
+ =?us-ascii?Q?ONgKxhOoaj/CJsuDxtufbnE3WwfGiYf/BYnt/7om8KTyMJzuXcO3edBrvF5D?=
+ =?us-ascii?Q?UE8r7NaHtAH/STlylSzl+oOrI4sFpAJbzrcrzOxepRQTrg9MtvTxbLq8h05Q?=
+ =?us-ascii?Q?DAlAdxKGfZ7b/+7SgujihCCYSZrTzZZCJjWg0jscB8AAvwiG/MRZAGiA34Ur?=
+ =?us-ascii?Q?b092AsyBBbWYyIxecCvS5OwE7OqO9BqUzO6n66RcK3k7bXiXoskcoFTjN/9B?=
+ =?us-ascii?Q?N4b22CEZy2KqBadHE97nb/0XH+cvJy4Uj9l52/8acNTfYd4lgXNEtg0X9cpu?=
+ =?us-ascii?Q?GU83odf6OEh6xjhAmZvc53EBmCALsC/m21JF2E8zzMakLnVg8mm2UzeNo1hK?=
+ =?us-ascii?Q?y4VxKHNPy8eFuLXWVjbBvx0CTZi0Jkofl8fKd+qKqwxyHWtdQ/kPiCRi0wjg?=
+ =?us-ascii?Q?d5lFkFjSX4qkQPLqmIKBTlbuVp24HKzb12IeMbfJYU+vGZLwgS8+WZGBsy06?=
+ =?us-ascii?Q?CcX4WuFjmG1Ext5oRSRnbdraAdAg7z2y8sRJ53rjRqoS72/7mSlmB1Qqtwbd?=
+ =?us-ascii?Q?lDPacHPIxtl+NhaLZv1Wv0MZIyaGU3srxtTd/m1LISN9Wc64v77avu1yR4HW?=
+ =?us-ascii?Q?4cHwP5I/wZye5sPhfQB0mdDt8kAdmjuYfsUIrElwpp3u8oHxY9Uuot+slRmL?=
+ =?us-ascii?Q?CKuplWSz3HzIveNMB0acNuGPm8Vk1LnwJsP34QKf9ZBSXL/hXzN+99lYY0Sy?=
+ =?us-ascii?Q?Bwf/10I=3D?=
+X-Forefront-Antispam-Report:
+ CIP:104.47.5.54;CTRY:FI;LANG:en;SCL:1;SRV:;IPV:NLI;SFV:NSPM;H:EUR02-HE1-obe.outbound.protection.outlook.com;PTR:mail-he1eur02lp2054.outbound.protection.outlook.com;CAT:NONE;SFS:(19627405001)(83380400001)(76236003)(6916009)(7066003)(86362001)(1096003)(336012)(33964004)(166002)(8676002)(45080400002)(55446002)(2160300002)(26005)(7636003)(9686003)(83080400001)(5660300002)(43950500001)(44020500001);DIR:INB;
+X-OriginatorOrg: kemtron.co.uk
+X-MS-Exchange-CrossTenant-OriginalArrivalTime: 04 Sep 2020 13:16:11.0507
+ (UTC)
+X-MS-Exchange-CrossTenant-Network-Message-Id: d7100179-cb1a-431a-0723-08d850d4b15b
+X-MS-Exchange-CrossTenant-Id: 41b81e5c-c9e7-4986-865a-3ae83d427a5c
+X-MS-Exchange-CrossTenant-AuthSource:
+ VE1EUR03FT063.eop-EUR03.prod.protection.outlook.com
+X-MS-Exchange-CrossTenant-AuthAs: Anonymous
+X-MS-Exchange-CrossTenant-FromEntityHeader: Internet
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: VI1PR08MB3008
 
-Final-Recipient: rfc822;dominich@kemtron.co.uk
-Action: failed
-Status: 5.4.14
-Diagnostic-Code: smtp;554 5.4.14 Hop count exceeded - possible mail loop ATTR34 [AM5EUR03FT028.eop-EUR03.prod.protection.outlook.com]
-Remote-MTA: dns;AM5EUR03FT028.mail.protection.outlook.com
+--000000000000b9c99505ae7cab81
+Content-Type: text/plain; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
 
+Hi Dominic,
+
+
+I trust this Friday afternoon is treating you well. I came across your
+LinkedIn profile whilst looking for the right person at Kemtron for a quick
+chat, so wanted to drop you a line by way of introduction.
+
+
+I head up the team here at Codem Composites and we provide end-to-end
+solutions for all things carbon fibre. Recently we=E2=80=99ve worked on pro=
+jects
+with Mercedes F1, manufactured Raytheon's military antennas and produced
+props for the latest Star Wars movie, just to name a few.
+
+
+The reason for my email is that I think there's great synergy between Codem
+and Kemtron, so I'm hoping that you can spare me a few minutes to chat.
+
+
+I'm available for a quick call on Monday or Tuesday afternoon. If that
+doesn=E2=80=99t work, tell me what does, and I=E2=80=99ll make it happen.
+
+
+Hope you have a great weekend.
+
+
+*Kevin Doherty*
+
+[image: Description: CODEM Composites Ltd]          [image:
+cid:image009.jpg@01D362BA.5DA65FA0]         [image:
+cid:image008.jpg@01D362BA.5DA65FA0]
+
+CODEM Composites Ltd Unit E Harrier Park, Southgate Way, Orton Southgate,
+Peterborough PE2 6YQ
+
+
+
+*Tel: +44 (0) 1487 832123 Mob: +44 (0) 7785 996218Email:
+**kevin@codem-composites.com
+<kevin@codemcomposites.com>*
+*Web: **www.codem-composites.com
+<http://track.codem-composites.com/api/t/c/usr_a8xLmetmsZe2dZKhP/tsk_HswwSR=
+narhQk84y9d/aHR0cDovL3d3dy5jb2RlbWNvbXBvc2l0ZXMuY29tLw=3D=3D>*
+
+As a GDPR compliant company, we would like to explain why you have received
+this email. We believe that Kemtron has a legitimate interest in the
+products and services that Codem Composites offers. Our research has
+identified your email address dominich@kemtron.co.uk as the appropriate
+contact within your organisation. If you have received this email in error
+or do not wish to receive further communications from Codem Composites,
+just hit unsubscribe
+<http://track.codem-composites.com/api/unsubscribe/cam_Tpngwt2LiEY62Nqmw/ZG=
+9taW5pY2hAa2VtdHJvbi5jby51aw=3D=3D>
+.
+
+
+[image: picture] [image: logo]
+
+--000000000000b9c99505ae7cab81
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<html><div style=3D"min-width:360px"></div><div dir=3D"ltr">
+    <div><p style=3D"margin:0px;box-sizing:border-box"><span style=3D"font-=
+family:Arial,Helvetica,sans-serif;box-sizing:border-box">Hi Dominic,=C2=A0<=
+/span></p><p style=3D"margin:0px;box-sizing:border-box"><span style=3D"font=
+-family:Arial,Helvetica,sans-serif"><span style=3D"box-sizing:border-box"><=
+br style=3D"box-sizing:border-box"></span></span></p><p style=3D"margin:0px=
+;box-sizing:border-box"><span style=3D"font-family:Arial,Helvetica,sans-ser=
+if"><span style=3D"box-sizing:border-box">I trust this Friday</span></span>=
+<span style=3D"font-family:Arial,Helvetica,sans-serif"><span style=3D"box-s=
+izing:border-box">=C2=A0afternoon=20
+is treating you well. I came across your LinkedIn profile whilst looking fo=
+r the right person at Kemtron for a quick chat, so wanted to drop you a lin=
+e by way of introduction.</span></span></p><p style=3D"margin:0px;box-sizin=
+g:border-box"><span style=3D"font-family:Arial,Helvetica,sans-serif"><span =
+style=3D"box-sizing:border-box"><br style=3D"box-sizing:border-box"></span>=
+</span></p><p style=3D"margin:0px;box-sizing:border-box"><span style=3D"fon=
+t-family:Arial,Helvetica,sans-serif"><span style=3D"box-sizing:border-box">=
+ I head up the team here at  Codem Composites and we provide end-to-end sol=
+utions for all things carbon fibre. Recently we=E2=80=99ve worked on projec=
+ts with Mercedes F1, manufactured Raytheon&#39;s military antennas and prod=
+uced props for the latest Star Wars movie, just to name a few.</span></span=
+></p><p style=3D"margin:0px;box-sizing:border-box"><span style=3D"font-fami=
+ly:Arial,Helvetica,sans-serif"><br></span></p><p style=3D"margin:0px;box-si=
+zing:border-box"><span style=3D"font-family:Arial,Helvetica,sans-serif"><sp=
+an style=3D"box-sizing:border-box">The reason for my email is that I think =
+there&#39;s great synergy between Codem and Kemtron, so I&#39;m hoping that=
+ you can spare me a few minutes to chat.=C2=A0</span></span></p><p style=3D=
+"margin:0px;box-sizing:border-box"><span style=3D"font-family:Arial,Helveti=
+ca,sans-serif"><br></span></p><p style=3D"margin:0px;box-sizing:border-box"=
+><span style=3D"font-family:Arial,Helvetica,sans-serif"><span style=3D"box-=
+sizing:border-box"></span>I&#39;m available for a quick call on Monday or T=
+uesday afternoon. If that doesn=E2=80=99t work, tell me what does, and I=E2=
+=80=99ll make it happen.
+<span style=3D"box-sizing:border-box"></span></span></p><p style=3D"margin:=
+0px;box-sizing:border-box"><span style=3D"font-family:Arial,Helvetica,sans-=
+serif"><span style=3D"box-sizing:border-box"><br style=3D"box-sizing:border=
+-box"></span></span></p><p style=3D"margin:0px;box-sizing:border-box"><span=
+ style=3D"font-family:Arial,Helvetica,sans-serif">  Hope you have a great w=
+eekend. </span></p><p style=3D"margin:0px;box-sizing:border-box"><span styl=
+e=3D"font-family:Arial,Helvetica,sans-serif"><span style=3D"box-sizing:bord=
+er-box"><br style=3D"box-sizing:border-box"></span></span></p><p style=3D"m=
+argin:0px;box-sizing:border-box"><span style=3D"font-family:Arial,Helvetica=
+,sans-serif;box-sizing:border-box"><table border=3D"0" cellpadding=3D"0" ce=
+llspacing=3D"0" style=3D"width:525pt;border-collapse:collapse;border:none;e=
+mpty-cells:show;max-width:100%;box-sizing:border-box" width=3D"700"><tbody =
+style=3D"box-sizing:border-box"><tr style=3D"box-sizing:border-box"><td sty=
+le=3D"padding:0cm;height:15pt;min-width:5px;box-sizing:border-box"><table b=
+order=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"width:525pt;border=
+-collapse:collapse;border:none;empty-cells:show;max-width:100%;box-sizing:b=
+order-box" width=3D"700"><tbody style=3D"box-sizing:border-box"><tr style=
+=3D"box-sizing:border-box"><td style=3D"padding:0cm;min-width:5px;box-sizin=
+g:border-box"><p style=3D"margin:0cm;font-size:15px;font-family:Calibri,san=
+s-serif;box-sizing:border-box"><strong style=3D"font-weight:700;box-sizing:=
+border-box"><span style=3D"font-size:18px;color:black;font-family:Arial,Hel=
+vetica,sans-serif;box-sizing:border-box">Kevin Doherty</span></strong></p><=
+/td></tr><tr style=3D"box-sizing:border-box"><td style=3D"padding:0cm;heigh=
+t:15pt;min-width:5px;box-sizing:border-box"><span style=3D"font-family:Aria=
+l,Helvetica,sans-serif;box-sizing:border-box"><br style=3D"box-sizing:borde=
+r-box"></span></td></tr><tr style=3D"box-sizing:border-box"><td style=3D"pa=
+dding:0cm;min-width:5px;box-sizing:border-box"><p style=3D"margin:0cm;font-=
+size:15px;font-family:Calibri,sans-serif;box-sizing:border-box"><span style=
+=3D"font-family:Arial,Helvetica,sans-serif;box-sizing:border-box"><span sty=
+le=3D"color:rgb(31,73,125);box-sizing:border-box"><img width=3D"200" src=3D=
+"http://track.codem-composites.com/api/froala/files/tea_NfYyMpjZ5LayPy6cN-6=
+001bc8f655e1d227c7ea5f14c4fc96a" alt=3D"Description: CODEM Composites Ltd" =
+style=3D"vertical-align: middle; border-style: none; cursor: pointer; paddi=
+ng: 0px 1px; max-width: 100%; box-sizing: border-box;"></span><span style=
+=3D"color:rgb(153,51,102);box-sizing:border-box">=C2=A0 =C2=A0 =C2=A0 =C2=
+=A0 =C2=A0=C2=A0</span><span style=3D"color:rgb(31,73,125);box-sizing:borde=
+r-box"><img width=3D"101" src=3D"http://track.codem-composites.com/api/froa=
+la/files/tea_NfYyMpjZ5LayPy6cN-ba66bf715631fc5ad46e49d0879aa5bc" alt=3D"cid=
+:image009.jpg@01D362BA.5DA65FA0" style=3D"vertical-align: middle; border-st=
+yle: none; cursor: pointer; padding: 0px 1px; max-width: 100%; box-sizing: =
+border-box;">=C2=A0 =C2=A0 =C2=A0 =C2=A0 </span><span style=3D"color:rgb(15=
+3,51,102);box-sizing:border-box">=C2=A0</span><span style=3D"color:rgb(31,7=
+3,125);box-sizing:border-box"><img width=3D"120" src=3D"http://track.codem-=
+composites.com/api/froala/files/tea_NfYyMpjZ5LayPy6cN-95ab1f987261409b5d768=
+873a676560b" alt=3D"cid:image008.jpg@01D362BA.5DA65FA0" style=3D"vertical-a=
+lign: middle; border-style: none; cursor: pointer; padding: 0px 1px; max-wi=
+dth: 100%; box-sizing: border-box;"></span></span></p></td></tr><tr style=
+=3D"box-sizing:border-box"><td style=3D"padding:0cm;height:15pt;min-width:5=
+px;box-sizing:border-box"><span style=3D"font-family:Arial,Helvetica,sans-s=
+erif;box-sizing:border-box"><br style=3D"box-sizing:border-box"></span></td=
+></tr><tr style=3D"box-sizing:border-box"><td style=3D"padding:0cm;min-widt=
+h:5px;box-sizing:border-box"><p style=3D"margin:0cm;font-size:15px;font-fam=
+ily:Calibri,sans-serif;box-sizing:border-box"><span style=3D"font-family:Ar=
+ial,Helvetica,sans-serif;box-sizing:border-box"><span style=3D"font-size:10=
+px;color:rgb(31,73,125);box-sizing:border-box">CODEM Composites Ltd Unit E =
+Harrier Park, Southgate Way, Orton Southgate, Peterborough PE2 6YQ</span></=
+span></p></td></tr><tr style=3D"box-sizing:border-box"><td style=3D"padding=
+:0cm;height:22.5pt;min-width:5px;box-sizing:border-box"><span style=3D"font=
+-family:Arial,Helvetica,sans-serif;box-sizing:border-box"><br style=3D"box-=
+sizing:border-box"></span></td></tr><tr style=3D"box-sizing:border-box"><td=
+ style=3D"padding:0cm;min-width:5px;box-sizing:border-box"><p style=3D"marg=
+in:0cm;font-size:15px;font-family:Calibri,sans-serif;box-sizing:border-box"=
+><span style=3D"font-family:Arial,Helvetica,sans-serif;box-sizing:border-bo=
+x"><strong style=3D"font-weight:700;box-sizing:border-box"><span style=3D"f=
+ont-size:10px;color:rgb(31,73,125);box-sizing:border-box">Tel: +44 (0) 1487=
+ 832123<br style=3D"box-sizing:border-box"> Mob: +44 (0) 7785 996218<br sty=
+le=3D"box-sizing:border-box">Email:=C2=A0</span></strong><strong style=3D"f=
+ont-weight:700;box-sizing:border-box"><span style=3D"font-size:10px;color:r=
+gb(31,73,125);box-sizing:border-box"><a href=3D"mailto:kevin@codemcomposite=
+s.com" style=3D"color:rgb(0,184,255);text-decoration:none;background-color:=
+transparent;box-sizing:border-box"><span style=3D"color:blue;box-sizing:bor=
+der-box">kevin@codem-composites.com</span></a></span></strong><strong style=
+=3D"font-weight:700;box-sizing:border-box"><span style=3D"font-size:10px;co=
+lor:rgb(31,73,125);box-sizing:border-box"><br style=3D"box-sizing:border-bo=
+x">Web:=C2=A0</span></strong><strong style=3D"font-weight:700;box-sizing:bo=
+rder-box"><span style=3D"font-size:10px;color:rgb(31,73,125);box-sizing:bor=
+der-box"><a href=3D"http://track.codem-composites.com/api/t/c/usr_a8xLmetms=
+Ze2dZKhP/tsk_HswwSRnarhQk84y9d/aHR0cDovL3d3dy5jb2RlbWNvbXBvc2l0ZXMuY29tLw=
+=3D=3D" style=3D"color:rgb(0,184,255);text-decoration:none;background-color=
+:transparent;box-sizing:border-box"><span style=3D"color:blue;box-sizing:bo=
+rder-box">www.codem-composites.com</span></a></span></strong></span></p></t=
+d></tr></tbody></table></td></tr><tr style=3D"box-sizing:border-box"><td st=
+yle=3D"padding:0cm;min-width:5px;box-sizing:border-box"><span style=3D"font=
+-family:Arial,Helvetica,sans-serif;box-sizing:border-box"><br style=3D"box-=
+sizing:border-box"></span></td></tr></tbody></table><p style=3D"margin-top:=
+0px;margin-bottom:1rem;box-sizing:border-box"><span style=3D"font-size:10px=
+;font-family:Arial,Helvetica,sans-serif;box-sizing:border-box">As a GDPR co=
+mpliant company, we would like to explain why you have received this email.=
+ We believe that Kemtron has a legitimate interest in the products and serv=
+ices that Codem Composites offers. Our research has identified your email a=
+ddress <a href=3D"mailto:dominich@kemtron.co.uk">dominich@kemtron.co.uk</a>=
+ as the appropriate contact within your organisation. If you have received =
+this email in error or do not wish to receive further communications from C=
+odem Composites, just hit <a href=3D"http://track.codem-composites.com/api/=
+unsubscribe/cam_Tpngwt2LiEY62Nqmw/ZG9taW5pY2hAa2VtdHJvbi5jby51aw=3D=3D" sty=
+le=3D"color:rgb(0,184,255);text-decoration:none;background-color:transparen=
+t;box-sizing:border-box">unsubscribe</a>.</span></p></span></p></div>
+    <br><div class=3D"gmail_extra"><br>
+      <div class=3D"gmail_signature" data-smartmail=3D"gmail_signature"><di=
+v dir=3D"ltr"><div><div dir=3D"ltr"></div></div></div></div>
+     =20
+    </div>
+    </div>
+<img alt=3D"picture" src=3D"http://track.codem-composites.com/api/reply/dat=
+a-ll-tsk_HswwSRnarhQk84y9d" style=3D"opacity:0;display:none;width:0;height:=
+0;">
+<img alt=3D"logo" src=3D"http://track.codem-composites.com/api/track/open/u=
+sr_a8xLmetmsZe2dZKhP/tsk_HswwSRnarhQk84y9d" height=3D"1" width=3D"1"></html=
+>
+
+--000000000000b9c99505ae7cab81--

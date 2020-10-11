@@ -1,12 +1,39 @@
-To: kevin@codem-composites.com
-Date: Thu, 17 Sep 2020 02:01:30 -0700 (PDT)
-From: Mail Delivery Subsystem <mailer-daemon@googlemail.com>
-Subject: Delivery Status Notification (Failure)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=codem-composites.com; s=google;
+        h=from:in-reply-to:references:mime-version:date:message-id:subject:to;
+        bh=1/azJtezeDGqG2iKwTRY8zU1FVX9csQ5q0uqtE83zVk=;
+        b=H8xVprTyBrb6wn0l2wE9v6KNu2SqWN6HHxcJvp1NhEDfj+6LoJLArtAfvN6jXZugma
+         UbnyJdRIXM4FvxohOkpTcBCl8+x3EKM/3HbJyb5YVDzhNMKkSkkaig57Qu0aOZAKiUmi
+         6eg17zzTxyjmtr+bqKv4NAhyFF/lrzFF9ia1kVp/CBNAScBH3CI2+tDgF1hRWE6yYVL/
+         i+2YTNxx+/Q2Ic/eXb5OYnncWI5VyTAiQyiiurzjDZAk42oT4qD8ETgjdIx7x1pBmAxp
+         oANK9auVx/vat6jDIcNxJ4stveLfbalg/cHmMZuc6z+kBpO52jecChspNL/UKFQUoGVl
+         geKA==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20161025;
+        h=x-gm-message-state:from:in-reply-to:references:mime-version:date
+         :message-id:subject:to;
+        bh=1/azJtezeDGqG2iKwTRY8zU1FVX9csQ5q0uqtE83zVk=;
+        b=r3kzQb73dF6KWhL8s9MFIyMYvgoKO5kubFEBDHQZcxsEHA0DhNS5zEfVIz+LVq/Bql
+         kWST2m9QST036a5G1+aNeQf41iyFsSVW2c/lhBXEXyc7fO68SMVTgS4UZ6gqt+I18Dbv
+         nf7syS9lyld2AI8F3DTbK8cNm1ZSiZvxZc/I2H/6MT06RR8PiSvDzpN96w5qqdzNJigW
+         L1l+Qgl2bKsd2MiMcYkFa29JAohaDc2fdZJleCMw9q5F3BHCzu9Kr0hNsXWi1HTe46nP
+         Oo+/pSjqUPBQMqCnSfIXPFoyoutwldT7Bc+Yw7SsybS+fQJdauhU7GKn28WanLnbgelA
+         rCIQ==
+X-Gm-Message-State: AOAM530WpzW7yqoABIzpE8EL/TgbvmPChYDcj56oLUhyIoHVro3a8H8P
+	SRKSirT8xaKjg9v/UPqevQuF4nM80rnC7Mu5lOc1j9cMWOY=
+X-Google-Smtp-Source: ABdhPJwQOoAWju9VGs2Iw6UmtDUm3QqSXYpUh/FJTrBElvK7nHzHCMQXKGDJyYX/Zc1H/afkhrVoVjKxLE9sesSwQ40=
+X-Received: by 2002:a02:a1d3:: with SMTP id o19mr25928698jah.90.1600333289610;
+ Thu, 17 Sep 2020 02:01:29 -0700 (PDT)
+Received: from 696963989851 named unknown by gmailapi.google.com with
+ HTTPREST; Thu, 17 Sep 2020 02:01:28 -0700
+From: Kevin Doherty <kevin@codem-composites.com>
+In-Reply-To: <CAK4cLxgsUBxP4e3r5SKrw6sK3c+DtfscM12yY13ycG8BuneazQ@mail.gmail.com>
+References: <CAK4cLxgsUBxP4e3r5SKrw6sK3c+DtfscM12yY13ycG8BuneazQ@mail.gmail.com>
+MIME-Version: 1.0
+Date: Thu, 17 Sep 2020 02:01:28 -0700
+Message-ID: <CAK4cLxihEAGjpmkrajXek7yTM58b1FRXa7VNpv=wXExEXfa7bg@mail.gmail.com>
+Subject: Quick Question, Vikki
+To: vikki.everson@baesystems.com
+Content-Type: multipart/alternative; boundary="0000000000003ffefb05af7ea189"
 
-Recipient: rfc822; vikki.everson@baesystems.com
-Action: failed
-Status: 5.0.0
-Remote-MTA: dns; dmzms99901.na.baesystems.com. (149.32.200.65, the server for
- the domain baesystems.com.)
-Diagnostic-Code: smtp; 550 #5.7.1 Your access to submit messages to this e-mail system has been rejected.
-Last-Attempt-Date: Thu, 17 Sep 2020 02:01:30 -0700 (PDT)
+----- Message truncated -----

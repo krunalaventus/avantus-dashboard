@@ -1,10 +1,293 @@
-Reporting-MTA: dns;eu-colo-exch-03.chemring.net
-Received-From-MTA: dns;eu-colo-imsva.chemring.net
-Arrival-Date: Tue, 8 Sep 2020 08:24:22 +0000
+Received: from eu-colo-exch-04.chemring.net (192.168.199.47) by
+ eu-colo-exch-03.chemring.net (192.168.199.46) with Microsoft SMTP Server
+ (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256) id
+ 15.1.2044.4; Tue, 8 Sep 2020 09:24:22 +0100
+Received: from eu-colo-imsva.chemring.net (195.50.80.135) by
+ email.chemring.co.uk (192.168.199.47) with Microsoft SMTP Server
+ (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256) id 15.1.2044.4
+ via Frontend Transport; Tue, 8 Sep 2020 09:24:22 +0100
+Received: from eu-colo-imsva.chemring.net (unknown [127.0.0.1])
+	by IMSVA (Postfix) with ESMTP id 75E9B1233E5
+	for <alexanderd@chemring.co.uk>; Tue,  8 Sep 2020 09:24:22 +0100 (BST)
+Received: from eu-colo-imsva.chemring.net (unknown [127.0.0.1])
+	by IMSVA (Postfix) with ESMTP id 2A4C31233C5
+	for <alexanderd@chemring.co.uk>; Tue,  8 Sep 2020 09:24:22 +0100 (BST)
+Received: from mail-io1-f42.google.com (unknown [209.85.166.42])
+	by eu-colo-imsva.chemring.net (Postfix) with ESMTPS
+	for <alexanderd@chemring.co.uk>; Tue,  8 Sep 2020 09:24:22 +0100 (BST)
+Received: by mail-io1-f42.google.com with SMTP id d190so16214256iof.3
+        for <alexanderd@chemring.co.uk>; Tue, 08 Sep 2020 01:24:21 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=codem-composites.com; s=google;
+        h=from:mime-version:date:message-id:subject:to;
+        bh=6R29v3bde1RpCL09AFrO8yieZorsP+CrFQVBW+/cU8U=;
+        b=o5YWO4Sl7AJFQyZftiFuqLNrGZfb2xI3wTMBUQ+abEpoqVK7sgJK4aqjSHbGBwrFQE
+         BxGkowqLcaFzpUzZ9Sei31/SuJU1T+L+yd/wTqXZFEIqkcsDUW7i0IAnyorXJZKNDbuv
+         grEhYNLQKTK4e0xYwqA6sp04HYCiP7isRA8G8IQGkTu+GNMHRCjfmIBl+igAyNDtcsHZ
+         uaQ6G0FHrQstxvoR4fhh4l3vDMrLxO9UhDkPg28uNzXfNgBLLri2Zl3jp50D6B7jHJ9n
+         5dWyohg05/trGqOhax5dRsDxfkL3nsdSVizuNWVzXVM6rNA+a1ELtkHY9ruRn0Xjp6Ic
+         F7GQ==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20161025;
+        h=x-gm-message-state:from:mime-version:date:message-id:subject:to;
+        bh=6R29v3bde1RpCL09AFrO8yieZorsP+CrFQVBW+/cU8U=;
+        b=UKUW8g7N2GJ+17c2qKC1f3z2MHjAN+0jgcRzWJH5857BYbryYny7Z0HrGeR8tUEyJY
+         ljisQlSiijO9G6JTVS2m+jkfghV4ZNTayk+FC7X+KA70YwdNfbjqnG1Lx7BIVWnU4Kps
+         kcUJKsnfG3uCgnJENAA2Gfc1SDlcfbOCSeeRn4RHfBAwC2jjmJfKsNs4Z68sf7Q6STRl
+         vorYQsNZhYV5/6e5TdmAsXeRzjUAfBzY2XNlfF8qdYUcjsH2o9Qo+YcVxlOSUojFbCok
+         kp2Si1FmDgMGktmJqfWro1K4x6tIXoMiktytP5HNNiub3leLnbGhwdQ6DfE4m4WNwMTM
+         KZPQ==
+X-Gm-Message-State: AOAM532lU8yOUC3R0z4YsfYqPIcj677kGh4F0FxUZJNbn00DiNCnkdQL
+	L4NTtNaeajlYjmGHGPeVKSwIQhtnPTnJ0WPCU6xP4B8OTvY=
+X-Google-Smtp-Source: ABdhPJxbk2qJ3LZTud1P0MwequxmSb77/anzR/oiku0HOlm6B7vp12stFzVXBC5vDL+YQB2KfNqFrXG4WevHj216onI=
+X-Received: by 2002:a5d:8846:: with SMTP id t6mr20864701ios.123.1599553460612;
+ Tue, 08 Sep 2020 01:24:20 -0700 (PDT)
+Received: from 696963989851 named unknown by gmailapi.google.com with
+ HTTPREST; Tue, 8 Sep 2020 01:24:19 -0700
+From: Kevin Doherty <kevin@codem-composites.com>
+MIME-Version: 1.0
+Date: Tue, 8 Sep 2020 01:24:19 -0700
+Message-ID: <CAK4cLxh8JL-zNg_tMHsXTXS6QLKpK3Dh5_7+sTKU3XUsE50Bqg@mail.gmail.com>
+Subject: Quick Question, Alexander
+To: <alexanderd@chemring.co.uk>
+Content-Type: multipart/alternative; boundary="000000000000d1ce4c05aec90fdc"
+X-TM-AS-GCONF: 00
+X-TM-AS-Product-Ver: IMSVA-9.1.0.1960-8.6.0.1013-25652.005
+X-TM-AS-Result: No--7.204-4.5-31-10
+X-imss-scan-details: No--7.204-4.5-31-10
+X-TM-AS-User-Approved-Sender: No
+X-TM-AS-User-Blocked-Sender: No
+X-TM-AS-Result-Xfilter: Match text exemption rules:No
+X-TMASE-Version: IMSVA-9.1.0.1960-8.6.1013-25652.005
+X-TMASE-Result: 10--7.204300-10.000000
+X-TMASE-MatchedRID: vZFhdP8fGRfMNK1Gk62t4/mtly8AIsdKtD9yfRNKSvI5kRCwxwY4sVeH
+	t48m1CvPUb4EdIZGxuCzU0R+5DbDbD9T/nDS5tm47of94k/XGl2ldbRqASNseybZZYAQu9H5HcQ
+	QBuf4ZFueRfpmucC1wZiJfAwLbS0b/EhQKkoIGIj+i2SOcq9GEmpN9UwXkZAt2K/I7f6w1lxo9d
+	dFVIEGi5IU5VRwhxxf2e73tJcoE9hyx5cFGt2g/f6BPic60PnKmfHUPwJ5HXPg6HB8qkvR8K0Ax
+	9flq7A4UXlp1FHYSPX5LkL/TyFZzev+0tmwmZOb5qUDv1yBmHxarSIJariEAeTRsBGspaO6Xrum
+	kbea2MlDyJQKgOPwxO+gYFf5+YXpGXBxUMq6GJuePzoMIHrnlvRdEMU0hEv5eIOkiRjB5UDvVbH
+	a5Rs8t+P6p+9mEWlCGn67ac6W315nZeMTrZWBRUWdn2tgPT7kQarMifyIpnRNL+GuN+4VJK3f3n
+	DqanEVURtSyr9IJuVrpD6YHU4QOk+lWr9IBPJRLksE296vryNaDCH8lWFcdK886K0IQWGHbSWHz
+	m9KuTsl3afZehJEWcmqrXFLFjsWUJbyKDhCvYkWtSCqtMvi9ntx0z3y+U3KosAmmD5+bCauYnHE
+	VdQN2PngX/aL8PCNMDH8ciA/3Z29LAP3BmK8uuZMSfwm+DZEKWU4SwRc61LaLQaWqxuYKUwQqZ+
+	SfLHwq/2gshinB7mISI683skDCnEgOq9TK8wBqyJfAC7CvuWBgyB7WYbHL24UMzmKd1UmO5SpM9
+	N8NOtOdKnCeVjjIZsoi2XrUn/JlR1cT9YafQVKWdTfwsJjyzqe9n/pbQGH9dYexbmIp3j1wB8dp
+	ZTb3N4TkmOrF5eOO990HEqIKXa/EJxJrLXIKKPKwEwnJB7haShiG/b8HjANNgYLqyJh0MVSGmh7
+	20vkC0QMIsozd0emfNTF7Mwnjn7cGd19dSFd
+X-TMASE-SNAP-Result: 1.821001.0001-0-1-12:0,22:0,33:0,34:0-0
+Return-Path: kevin@codem-composites.com
 
-Original-Recipient: rfc822;alexanderd@chemring.co.uk
-Final-Recipient: rfc822;alexanderd@chemring.co.uk
-Action: failed
-Status: 5.1.10
-Diagnostic-Code: smtp;550 5.1.10 RESOLVER.ADR.RecipientNotFound; Recipient not found by SMTP address lookup
+--000000000000d1ce4c05aec90fdc
+Content-Type: text/plain; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
 
+Hi Alexander,
+
+
+I trust this Tuesday morning is treating you well. I came across your
+LinkedIn profile whilst looking for the right person at Chemring
+Countermeasures for a quick chat, so wanted to drop you a line by way of
+introduction.
+
+
+I head up the team here at Codem Composites and we provide end-to-end
+solutions for all things carbon fibre. Recently we=E2=80=99ve worked on pro=
+jects
+with Mercedes F1, manufactured Raytheon's military antennas and produced
+props for the latest Star Wars movie, just to name a few.
+
+
+The reason for my email is that I think there's great synergy between Codem
+and Chemring Countermeasures, so I'm hoping that you can spare me a few
+minutes to chat.
+
+
+I'm available for a quick call on Thursday or Friday afternoon. If that
+doesn=E2=80=99t work, tell me what does, and I=E2=80=99ll make it happen.
+
+
+Best regards,
+
+
+*Kevin Doherty*
+
+[image: Description: CODEM Composites Ltd]          [image:
+cid:image009.jpg@01D362BA.5DA65FA0]         [image:
+cid:image008.jpg@01D362BA.5DA65FA0]
+
+CODEM Composites Ltd Unit E Harrier Park, Southgate Way, Orton Southgate,
+Peterborough PE2 6YQ
+
+
+
+*Tel: +44 (0) 1487 832123 Mob: +44 (0) 7785 996218Email:
+**kevin@codem-composites.com
+<kevin@codemcomposites.com>*
+*Web: **www.codem-composites.com
+<http://track.codem-composites.com/api/t/c/usr_a8xLmetmsZe2dZKhP/tsk_5m9Deh=
+iK4ewofKGxy/aHR0cDovL3d3dy5jb2RlbWNvbXBvc2l0ZXMuY29tLw=3D=3D>*
+
+As a GDPR compliant company, we would like to explain why you have received
+this email. We believe that Chemring Countermeasures has a legitimate
+interest in the products and services that Codem Composites offers. Our
+research has identified your email address alexanderd@chemring.co.uk as the
+appropriate contact within your organisation. If you have received this
+email in error or do not wish to receive further communications from Codem
+Composites, just hit unsubscribe
+<http://track.codem-composites.com/api/unsubscribe/cam_Tpngwt2LiEY62Nqmw/YW=
+xleGFuZGVyZEBjaGVtcmluZy5jby51aw=3D=3D>
+.
+
+
+[image: picture] [image: logo]
+
+--000000000000d1ce4c05aec90fdc
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<html><div style=3D"min-width:360px"></div><div dir=3D"ltr">
+    <div><p style=3D"margin:0px;box-sizing:border-box"><span style=3D"font-=
+family:Arial,Helvetica,sans-serif;box-sizing:border-box">Hi Alexander,=C2=
+=A0</span></p><p style=3D"margin:0px;box-sizing:border-box"><span style=3D"=
+font-family:Arial,Helvetica,sans-serif"><span style=3D"box-sizing:border-bo=
+x"><br style=3D"box-sizing:border-box"></span></span></p><p style=3D"margin=
+:0px;box-sizing:border-box"><span style=3D"font-family:Arial,Helvetica,sans=
+-serif"><span style=3D"box-sizing:border-box">I trust this Tuesday</span></=
+span><span style=3D"font-family:Arial,Helvetica,sans-serif"><span style=3D"=
+box-sizing:border-box">=C2=A0morning=20
+is treating you well. I came across your LinkedIn profile whilst looking fo=
+r the right person at Chemring Countermeasures for a quick chat, so wanted =
+to drop you a line by way of introduction.</span></span></p><p style=3D"mar=
+gin:0px;box-sizing:border-box"><span style=3D"font-family:Arial,Helvetica,s=
+ans-serif"><span style=3D"box-sizing:border-box"><br style=3D"box-sizing:bo=
+rder-box"></span></span></p><p style=3D"margin:0px;box-sizing:border-box"><=
+span style=3D"font-family:Arial,Helvetica,sans-serif"><span style=3D"box-si=
+zing:border-box"> I head up the team here at  Codem Composites and we provi=
+de end-to-end solutions for all things carbon fibre. Recently we=E2=80=99ve=
+ worked on projects with Mercedes F1, manufactured Raytheon&#39;s military =
+antennas and produced props for the latest Star Wars movie, just to name a =
+few.</span></span></p><p style=3D"margin:0px;box-sizing:border-box"><span s=
+tyle=3D"font-family:Arial,Helvetica,sans-serif"><br></span></p><p style=3D"=
+margin:0px;box-sizing:border-box"><span style=3D"font-family:Arial,Helvetic=
+a,sans-serif"><span style=3D"box-sizing:border-box">The reason for my email=
+ is that I think there&#39;s great synergy between Codem and Chemring Count=
+ermeasures, so I&#39;m hoping that you can spare me a few minutes to chat.=
+=C2=A0</span></span></p><p style=3D"margin:0px;box-sizing:border-box"><span=
+ style=3D"font-family:Arial,Helvetica,sans-serif"><br></span></p><p style=
+=3D"margin:0px;box-sizing:border-box"><span style=3D"font-family:Arial,Helv=
+etica,sans-serif"><span style=3D"box-sizing:border-box"></span>I&#39;m avai=
+lable for a quick call on Thursday or Friday afternoon. If that doesn=E2=80=
+=99t work, tell me what does, and I=E2=80=99ll make it happen.
+<br></span></p><p style=3D"margin:0px;box-sizing:border-box"><span style=3D=
+"font-family:Arial,Helvetica,sans-serif"><span style=3D"box-sizing:border-b=
+ox"></span></span></p><p style=3D"margin:0px;box-sizing:border-box"><span s=
+tyle=3D"font-family:Arial,Helvetica,sans-serif"><span style=3D"box-sizing:b=
+order-box"><br style=3D"box-sizing:border-box"></span></span></p><p style=
+=3D"margin:0px;box-sizing:border-box"><span style=3D"font-family:Arial,Helv=
+etica,sans-serif">  Best regards, </span></p><p style=3D"margin:0px;box-siz=
+ing:border-box"><span style=3D"font-family:Arial,Helvetica,sans-serif"><spa=
+n style=3D"box-sizing:border-box"><br style=3D"box-sizing:border-box"></spa=
+n></span></p><p style=3D"margin:0px;box-sizing:border-box"><span style=3D"f=
+ont-family:Arial,Helvetica,sans-serif;box-sizing:border-box"><table border=
+=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"width:525pt;border-coll=
+apse:collapse;border:none;empty-cells:show;max-width:100%;box-sizing:border=
+-box" width=3D"700"><tbody style=3D"box-sizing:border-box"><tr style=3D"box=
+-sizing:border-box"><td style=3D"padding:0cm;height:15pt;min-width:5px;box-=
+sizing:border-box"><table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" =
+style=3D"width:525pt;border-collapse:collapse;border:none;empty-cells:show;=
+max-width:100%;box-sizing:border-box" width=3D"700"><tbody style=3D"box-siz=
+ing:border-box"><tr style=3D"box-sizing:border-box"><td style=3D"padding:0c=
+m;min-width:5px;box-sizing:border-box"><p style=3D"margin:0cm;font-size:15p=
+x;font-family:Calibri,sans-serif;box-sizing:border-box"><strong style=3D"fo=
+nt-weight:700;box-sizing:border-box"><span style=3D"font-size:18px;color:bl=
+ack;font-family:Arial,Helvetica,sans-serif;box-sizing:border-box">Kevin Doh=
+erty</span></strong></p></td></tr><tr style=3D"box-sizing:border-box"><td s=
+tyle=3D"padding:0cm;height:15pt;min-width:5px;box-sizing:border-box"><span =
+style=3D"font-family:Arial,Helvetica,sans-serif;box-sizing:border-box"><br =
+style=3D"box-sizing:border-box"></span></td></tr><tr style=3D"box-sizing:bo=
+rder-box"><td style=3D"padding:0cm;min-width:5px;box-sizing:border-box"><p =
+style=3D"margin:0cm;font-size:15px;font-family:Calibri,sans-serif;box-sizin=
+g:border-box"><span style=3D"font-family:Arial,Helvetica,sans-serif;box-siz=
+ing:border-box"><span style=3D"color:rgb(31,73,125);box-sizing:border-box">=
+<img width=3D"200" src=3D"http://track.codem-composites.com/api/froala/file=
+s/tea_NfYyMpjZ5LayPy6cN-6001bc8f655e1d227c7ea5f14c4fc96a" alt=3D"Descriptio=
+n: CODEM Composites Ltd" style=3D"vertical-align: middle; border-style: non=
+e; cursor: pointer; padding: 0px 1px; max-width: 100%; box-sizing: border-b=
+ox;"></span><span style=3D"color:rgb(153,51,102);box-sizing:border-box">=C2=
+=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0=C2=A0</span><span style=3D"color:rgb(31,73,=
+125);box-sizing:border-box"><img width=3D"101" src=3D"http://track.codem-co=
+mposites.com/api/froala/files/tea_NfYyMpjZ5LayPy6cN-ba66bf715631fc5ad46e49d=
+0879aa5bc" alt=3D"cid:image009.jpg@01D362BA.5DA65FA0" style=3D"vertical-ali=
+gn: middle; border-style: none; cursor: pointer; padding: 0px 1px; max-widt=
+h: 100%; box-sizing: border-box;">=C2=A0 =C2=A0 =C2=A0 =C2=A0 </span><span =
+style=3D"color:rgb(153,51,102);box-sizing:border-box">=C2=A0</span><span st=
+yle=3D"color:rgb(31,73,125);box-sizing:border-box"><img width=3D"120" src=
+=3D"http://track.codem-composites.com/api/froala/files/tea_NfYyMpjZ5LayPy6c=
+N-95ab1f987261409b5d768873a676560b" alt=3D"cid:image008.jpg@01D362BA.5DA65F=
+A0" style=3D"vertical-align: middle; border-style: none; cursor: pointer; p=
+adding: 0px 1px; max-width: 100%; box-sizing: border-box;"></span></span></=
+p></td></tr><tr style=3D"box-sizing:border-box"><td style=3D"padding:0cm;he=
+ight:15pt;min-width:5px;box-sizing:border-box"><span style=3D"font-family:A=
+rial,Helvetica,sans-serif;box-sizing:border-box"><br style=3D"box-sizing:bo=
+rder-box"></span></td></tr><tr style=3D"box-sizing:border-box"><td style=3D=
+"padding:0cm;min-width:5px;box-sizing:border-box"><p style=3D"margin:0cm;fo=
+nt-size:15px;font-family:Calibri,sans-serif;box-sizing:border-box"><span st=
+yle=3D"font-family:Arial,Helvetica,sans-serif;box-sizing:border-box"><span =
+style=3D"font-size:10px;color:rgb(31,73,125);box-sizing:border-box">CODEM C=
+omposites Ltd Unit E Harrier Park, Southgate Way, Orton Southgate, Peterbor=
+ough PE2 6YQ</span></span></p></td></tr><tr style=3D"box-sizing:border-box"=
+><td style=3D"padding:0cm;height:22.5pt;min-width:5px;box-sizing:border-box=
+"><span style=3D"font-family:Arial,Helvetica,sans-serif;box-sizing:border-b=
+ox"><br style=3D"box-sizing:border-box"></span></td></tr><tr style=3D"box-s=
+izing:border-box"><td style=3D"padding:0cm;min-width:5px;box-sizing:border-=
+box"><p style=3D"margin:0cm;font-size:15px;font-family:Calibri,sans-serif;b=
+ox-sizing:border-box"><span style=3D"font-family:Arial,Helvetica,sans-serif=
+;box-sizing:border-box"><strong style=3D"font-weight:700;box-sizing:border-=
+box"><span style=3D"font-size:10px;color:rgb(31,73,125);box-sizing:border-b=
+ox">Tel: +44 (0) 1487 832123<br style=3D"box-sizing:border-box"> Mob: +44 (=
+0) 7785 996218<br style=3D"box-sizing:border-box">Email:=C2=A0</span></stro=
+ng><strong style=3D"font-weight:700;box-sizing:border-box"><span style=3D"f=
+ont-size:10px;color:rgb(31,73,125);box-sizing:border-box"><a href=3D"mailto=
+:kevin@codemcomposites.com" style=3D"color:rgb(0,184,255);text-decoration:n=
+one;background-color:transparent;box-sizing:border-box"><span style=3D"colo=
+r:blue;box-sizing:border-box">kevin@codem-composites.com</span></a></span><=
+/strong><strong style=3D"font-weight:700;box-sizing:border-box"><span style=
+=3D"font-size:10px;color:rgb(31,73,125);box-sizing:border-box"><br style=3D=
+"box-sizing:border-box">Web:=C2=A0</span></strong><strong style=3D"font-wei=
+ght:700;box-sizing:border-box"><span style=3D"font-size:10px;color:rgb(31,7=
+3,125);box-sizing:border-box"><a href=3D"http://track.codem-composites.com/=
+api/t/c/usr_a8xLmetmsZe2dZKhP/tsk_5m9DehiK4ewofKGxy/aHR0cDovL3d3dy5jb2RlbWN=
+vbXBvc2l0ZXMuY29tLw=3D=3D" style=3D"color:rgb(0,184,255);text-decoration:no=
+ne;background-color:transparent;box-sizing:border-box"><span style=3D"color=
+:blue;box-sizing:border-box">www.codem-composites.com</span></a></span></st=
+rong></span></p></td></tr></tbody></table></td></tr><tr style=3D"box-sizing=
+:border-box"><td style=3D"padding:0cm;min-width:5px;box-sizing:border-box">=
+<span style=3D"font-family:Arial,Helvetica,sans-serif;box-sizing:border-box=
+"><br style=3D"box-sizing:border-box"></span></td></tr></tbody></table><p s=
+tyle=3D"margin-top:0px;margin-bottom:1rem;box-sizing:border-box"><span styl=
+e=3D"font-size:10px;font-family:Arial,Helvetica,sans-serif;box-sizing:borde=
+r-box">As a GDPR compliant company, we would like to explain why you have r=
+eceived this email. We believe that Chemring Countermeasures has a legitima=
+te interest in the products and services that Codem Composites offers. Our =
+research has identified your email address <a href=3D"mailto:alexanderd@che=
+mring.co.uk">alexanderd@chemring.co.uk</a> as the appropriate contact withi=
+n your organisation. If you have received this email in error or do not wis=
+h to receive further communications from Codem Composites, just hit <a href=
+=3D"http://track.codem-composites.com/api/unsubscribe/cam_Tpngwt2LiEY62Nqmw=
+/YWxleGFuZGVyZEBjaGVtcmluZy5jby51aw=3D=3D" style=3D"color:rgb(0,184,255);te=
+xt-decoration:none;background-color:transparent;box-sizing:border-box">unsu=
+bscribe</a>.</span></p></span></p></div>
+    <br><div class=3D"gmail_extra"><br>
+      <div class=3D"gmail_signature" data-smartmail=3D"gmail_signature"><di=
+v dir=3D"ltr"><div><div dir=3D"ltr"></div></div></div></div>
+     =20
+    </div>
+    </div>
+<img alt=3D"picture" src=3D"http://track.codem-composites.com/api/reply/dat=
+a-ll-tsk_5m9DehiK4ewofKGxy" style=3D"opacity:0;display:none;width:0;height:=
+0;">
+<img alt=3D"logo" src=3D"http://track.codem-composites.com/api/track/open/u=
+sr_a8xLmetmsZe2dZKhP/tsk_5m9DehiK4ewofKGxy" height=3D"1" width=3D"1"></html=
+>
+
+--000000000000d1ce4c05aec90fdc--

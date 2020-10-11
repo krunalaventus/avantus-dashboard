@@ -1,11 +1,36 @@
-Reporting-MTA: dns; googlemail.com
-Arrival-Date: Fri, 11 Sep 2020 01:08:18 -0700 (PDT)
-X-Original-Message-ID: <CAK4cLxj_1KwQthw3==wBMfEoUJZts-qZ4z4-ggz3uhCOJawjXw@mail.gmail.com>
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=codem-composites.com; s=google;
+        h=from:mime-version:date:message-id:subject:to;
+        bh=l+SgxDiJHmMRRZ3p+8C/NORujpz1EZ2kqYEVScy34kU=;
+        b=qZmgsJ9r7f2DrlaGhmA2MC0hLFFOGcdqElwNeQS0ki7kaeCVpdqZol6H1rKgAbKkwU
+         Ut1hv9LFDNfX8oAxsh5a6cBp6K8L7QBbtY8Q3/gbRk2lpUsHtpLkGN7lcPBqPLRcTIuW
+         UBZcwD3/xlLsd+G4ECFyIbZY8oa8kJDig+uYIjTsYDXnfpvDeTp6UCyAGgBmPMTZ6DIh
+         DgYtAd97PWLs7PZ5OnG27+uSwxorahT4lWLNH7BZ7I1WkH7Ipd5NEn0rLWqujMWCNrQ6
+         qthCDLTQLkhhcNlo+bRz6966somwcpCYkCncMV0N++SBjlRWWyd2ScW/LtyqvVZVeG4O
+         IOFw==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20161025;
+        h=x-gm-message-state:from:mime-version:date:message-id:subject:to;
+        bh=l+SgxDiJHmMRRZ3p+8C/NORujpz1EZ2kqYEVScy34kU=;
+        b=AVSeOzHh8KArt9W2Hhfp4OS6dFFD3x+GujcdlJJ9P7gYDk581wcmBtLzu//pvU0gSP
+         OWoty5Ng8ARQ2fnEMFBNcfQ38KjDfcanhvKndfouBKgObce/93QaGcdTmpmCYNwXIGbx
+         RWeUP85udQ5UnxIJUNlw5EgWLObfscumU2bHiSarXOpmndkI0sREtQh4IR3RwcmK8C+c
+         /UAfZdnQz5PvNC+XWXro1+/+vjEsmmt5gzLZdaUt/roO3S0jorHWi053C68moWdokhtN
+         6Xzv2iKpgzKoraL8YiPsMmua5WdQZlkWyRzjVXcooFByZaEMhk6BGC5lTILHfhQrwM3O
+         uXzQ==
+X-Gm-Message-State: AOAM533r6d2FM2lUwm/q9Sm+kKJa87Z7ZZYrjTZjGMuKd2GR5fn0kGhO
+	lvSkiGDMVUV52DrhWjauxgAcejwZ25AvnsljaHfWKgMpijY=
+X-Google-Smtp-Source: ABdhPJx0axf4tSzK3y/Ge0YQpSlKRnf49MMbLPMenSQJnMBB9FClrCUtpQLkBLutJPIPWrVtOkfUrcydX6RfiiXGLVo=
+X-Received: by 2002:a92:c083:: with SMTP id h3mr871894ile.208.1599811698960;
+ Fri, 11 Sep 2020 01:08:18 -0700 (PDT)
+Received: from 696963989851 named unknown by gmailapi.google.com with
+ HTTPREST; Fri, 11 Sep 2020 01:08:18 -0700
+From: Kevin Doherty <kevin@codem-composites.com>
+MIME-Version: 1.0
+Date: Fri, 11 Sep 2020 01:08:18 -0700
+Message-ID: <CAK4cLxj_1KwQthw3==wBMfEoUJZts-qZ4z4-ggz3uhCOJawjXw@mail.gmail.com>
+Subject: Quick Question, Paul
+To: pjones@wcwelding.com
+Content-Type: multipart/alternative; boundary="0000000000000636c805af053085"
 
-Final-Recipient: rfc822; pjones@wcwelding.com
-Action: failed
-Status: 5.0.0
-Remote-MTA: dns; webmail2.sitebuildit.com. (66.43.52.5, the server for the
- domain wcwelding.com.)
-Diagnostic-Code: smtp; 554 Sorry, your email was refused. You may have sent it to an address that does NOT exist. OR perhaps YOUR address is not on recipient's WHITELIST of accepted addresses.  Click on http://whitelist.sitesell.com to add your address.  You only EVER need to do this ONCE.  This simple act eliminates spammers since they never read messages like this, but it allows REAL people like you to pass through. (#5.7.1)
-Last-Attempt-Date: Fri, 11 Sep 2020 01:08:20 -0700 (PDT)
+----- Message truncated -----

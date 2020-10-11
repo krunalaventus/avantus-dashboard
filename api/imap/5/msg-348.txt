@@ -3,10 +3,36 @@ Date: Thu, 10 Sep 2020 01:01:27 -0700 (PDT)
 From: Mail Delivery Subsystem <mailer-daemon@googlemail.com>
 Subject: Delivery Status Notification (Failure)
 
-Recipient: rfc822; peter.banister@babcockinternational.com
-Action: failed
-Status: 5.1.1
-Remote-MTA: dns; mxa-001c8e01.gslb.pphosted.com. (148.163.158.182, the server
- for the domain babcockinternational.com.)
-Diagnostic-Code: smtp; 550 5.1.1 User Unknown
-Last-Attempt-Date: Thu, 10 Sep 2020 01:01:27 -0700 (PDT)
+3Rg2ojTAe6GTVFXAq/E=;
+        b=Fw2mDbDHL+N/1Fo3j2IWQ2d/1Y3uHDVsfKlVh7ne/IAuvlVDlWg4TJR1BnBukpML3g
+         uiZQiowNiQ9JtcR8rA9uGb+vcs24ZQtmzclRHzjlfCJht0l60C575QBJHUODrymLKtQ2
+         3hGs7cKGOUk/rA3V7YiJ9tqBZ8lwmAzeibrVU7EYtYdYAfMeq7Bdrw9pM5CXhx64XOPq
+         fQ5a15tjZdIF3xhk270+BfxsNzXuFSegD2u5Tlpk2oSTxH0hUkZyOjbsBgwxUI6jnciU
+         Gj6oQvuuuEQqr+VTS1LnS2GnpVn3fEcEXhArZ1x3vWvd4WaQS+010rnlqBZuH/VsAXiv
+         f4AQ==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20161025;
+        h=x-gm-message-state:from:mime-version:date:message-id:subject:to;
+        bh=Ppuc8CGb4kxnV0uZ9K0QMqam3Rg2ojTAe6GTVFXAq/E=;
+        b=BWpwMsbqnCErFui4LyqPYfcsRSTMuQ4LpCMB+qDZTAwt1cQEz3TmIJY8OTb1gi6Q2X
+         t28IQ6nqxMKZkK80eCJh93BhNrp+OFAAIDUsmmvzh5ZT6X6+wd25e2obeA2W4L1eLfvi
+         ntBw9gtlawlgjsd/aOeoB3wYU+NSmg9+sqB1o/KgEqCmeYl1tIEoUvyAmlx1HiCbNrXM
+         MREzKLA6XqDRC11u6XXijhHgSsqPxeyOpEjxThYMhlmdY1JXXvI4holZx9dT44GIo9aE
+         iJRNOUoiVwCFIckhpPvUeaBDhHYxJApbnIJUZn4hZbqqLMSEFuRSrjG6aBzkwhd/m+4k
+         11Dg==
+X-Gm-Message-State: AOAM533KP03vJpGjooa2kfjJ0Hd2a4DRUlDd6scbA9f9adsWcIpRTGx0
+	JkJbsBwcKoDYItrzACPYRi+jK7QksDKU3JpnviUg6T2mf2w=
+X-Google-Smtp-Source: ABdhPJxxxpVCqhOdzEfH5pRTukZJY2JjTeSlT04rfaQAqkyn3j9HBfj57ZtCMyYvFg8pxv1g3U+PfZnj9JJdnKqhuQ4=
+X-Received: by 2002:a02:605c:: with SMTP id d28mr7459665jaf.12.1599724886435;
+ Thu, 10 Sep 2020 01:01:26 -0700 (PDT)
+Received: from 696963989851 named unknown by gmailapi.google.com with
+ HTTPREST; Thu, 10 Sep 2020 01:01:25 -0700
+From: Kevin Doherty <kevin@codem-composites.com>
+MIME-Version: 1.0
+Date: Thu, 10 Sep 2020 01:01:25 -0700
+Message-ID: <CAK4cLxhLSroA=a0H6fY10oDmM=nMHeKznak+dO-Uo-9zM5CDMQ@mail.gmail.com>
+Subject: Quick Question, Peter
+To: peter.banister@babcockinternational.com
+Content-Type: multipart/alternative; boundary="00000000000098497805aef0f9e9"
+
+----- Message truncated -----

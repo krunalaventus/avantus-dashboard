@@ -1,11 +1,38 @@
-Reporting-MTA: dns; googlemail.com
-Arrival-Date: Tue, 08 Sep 2020 02:05:04 -0700 (PDT)
-X-Original-Message-ID: <CAK4cLxg1Pt0WGZ3=H7=k+Xe+9q6Js6gBKAt2en5P_0suLpjahw@mail.gmail.com>
+To: kevin@codem-composites.com
+Date: Tue, 08 Sep 2020 02:05:06 -0700 (PDT)
+From: Mail Delivery Subsystem <mailer-daemon@googlemail.com>
+Subject: Delivery Status Notification (Failure)
 
-Final-Recipient: rfc822; richard@babcockinternational.com
-Action: failed
-Status: 5.1.1
-Remote-MTA: dns; mxb-001c8e01.gslb.pphosted.com. (148.163.156.185, the server
- for the domain babcockinternational.com.)
-Diagnostic-Code: smtp; 550 5.1.1 User Unknown
-Last-Attempt-Date: Tue, 08 Sep 2020 02:05:06 -0700 (PDT)
+NDmPzKyPAdP1uVl5pP0=;
+        b=mviT02kmTnMulo4HRd5RakaCJPLOzqPXTNq2MZIWqJ+pRWYpi07XWhsRmO/hPbBP41
+         GKszppGbWeL64GIBpfjDSbnUHVNejBj2I+56HgvyZMT/n3oBBrsNAmAvkkLvgNQ80BUY
+         HrgIwXFQNZ2Zki+hu/2GvLTXumv9JYIKTZVAxiGvnnusx5fxlkK6Gtc95hxFnmqAovVH
+         CJajuB6Z5xdUdG1jB7xEhQBwP8KV/g8Eb7yaOLihL4JQIj+aOPV5odC3fgLYonQv3/L7
+         qIJiHvtzFu6JC7UMg8th0at0o/EFc/roxkTkAor2kSaOQ1RQjRr6QlBmFAZ9yEyCBW96
+         DyiA==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20161025;
+        h=x-gm-message-state:from:mime-version:date:message-id:subject:to;
+        bh=ndnwrPntmjAPRsMH82z3oRD3NDmPzKyPAdP1uVl5pP0=;
+        b=JnG9sP/crvIY2ynd8r2pCsKG0cy4O/SDs3FSH8eE+aJboLbjWHvjLfHcvCWNRAEJez
+         qTMouE/wTyYlF1pdW/YHWYXw/5P+6S8ZWuF7h+c6eR4ewfJ5nXzhcKJRKXy+lRnEiBEU
+         V9+Sc1rlfH4rvtdOykussvdwi4um44hjkIXwr3yW6fSYU0ZpryvPAWBP36p4BKbv/31C
+         GIBBWyWsn4pTAXY3XCqVbm5M7r3Fafsh6A56eT6YXn1E4fP1DxQZ4Dzigu8YfWzfgbKl
+         ZpIn9okO5ftz/28PimUdKnaXY2875NtHKlnz0s40scT+b7ALCAcx5oltdtSHXhO7BQ15
+         +3Uw==
+X-Gm-Message-State: AOAM533Vp4Wa3E2oLiFJYPt6+VoUlIBxgAWY3JTjDgL5w0Skr7cA59+2
+	ZDmNadcLVtTi4YLQTVqlwfPPjAuFYi01wozgrtc/AuVHkYU=
+X-Google-Smtp-Source: ABdhPJyeV6I7xh6XqI9+tMLRCuSXaerIEI7Np2X5cNpk2viNwCEI+lKFORZ2hVDuiCudo+qddTs9aX8RbwocJmaMdXk=
+X-Received: by 2002:a05:6e02:ed1:: with SMTP id i17mr22034715ilk.8.1599555904273;
+ Tue, 08 Sep 2020 02:05:04 -0700 (PDT)
+Received: from 696963989851 named unknown by gmailapi.google.com with
+ HTTPREST; Tue, 8 Sep 2020 09:05:03 +0000
+From: Kevin Doherty <kevin@codem-composites.com>
+MIME-Version: 1.0
+Date: Tue, 8 Sep 2020 09:05:03 +0000
+Message-ID: <CAK4cLxg1Pt0WGZ3=H7=k+Xe+9q6Js6gBKAt2en5P_0suLpjahw@mail.gmail.com>
+Subject: Quick Question, Richard
+To: richard@babcockinternational.com
+Content-Type: multipart/alternative; boundary="0000000000007912bf05aec9a189"
+
+----- Message truncated -----

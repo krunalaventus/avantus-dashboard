@@ -1,11 +1,41 @@
-Reporting-MTA: dns; googlemail.com
-Arrival-Date: Thu, 17 Sep 2020 01:00:36 -0700 (PDT)
-X-Original-Message-ID: <CAK4cLxgQmx0GGVq2Xrd=NukVwgiQaYfrHj0iayF4HR1To5fW2g@mail.gmail.com>
+To: kevin@codem-composites.com
+Date: Thu, 17 Sep 2020 01:00:38 -0700 (PDT)
+From: Mail Delivery Subsystem <mailer-daemon@googlemail.com>
+Subject: Delivery Status Notification (Failure)
 
-Final-Recipient: rfc822; stuart.falconer@baesystems.com
-Action: failed
-Status: 5.0.0
-Remote-MTA: dns; dmzms99901.na.baesystems.com. (149.32.200.65, the server for
- the domain baesystems.com.)
-Diagnostic-Code: smtp; 550 #5.7.1 Your access to submit messages to this e-mail system has been rejected.
-Last-Attempt-Date: Thu, 17 Sep 2020 01:00:38 -0700 (PDT)
+leWp+reZjxq7njVtuUy3Ex9vkNnOJsPeC/UoyigAHU=;
+        b=tQVP40zF3aZcKQ/rHdb55mOR48jtyMTajMJ3+gOMec/U+BQKyxr9PSYs9P1rhuz6m2
+         DzGeAUnBPeOo/nFvSTee/PqlSOjPU5E4n2V00AX5GjWo/4TV7cOoaW/4oWSk/9MbTDkR
+         MlDj7FZvj+Qvd+U7Eg2S7hixUVMIZWejvjTw46KtcGJG2ojNgtXx2L5Abm2YM1MTRjxn
+         ycLb1hx/FA9J7XleGgG08mxqdNSJ6mWv137jIeYrHrpdPGc7lKzZwUxGmS19Djtw+qPJ
+         ADzNz9xf+VXR6s6Qkq5cQwMiBzdCE4XHrojCA2ZtjS3YZwrLnoopbQwZiJRMAe5hD4rn
+         MzYA==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20161025;
+        h=x-gm-message-state:from:in-reply-to:references:mime-version:date
+         :message-id:subject:to;
+        bh=BleWp+reZjxq7njVtuUy3Ex9vkNnOJsPeC/UoyigAHU=;
+        b=q+p0VoElqgN63FDvDYuBUwmXkoomBvkT57FFbV4jB2ebKf/NkYGpwEyOMX07Ap6Kbs
+         23cIjGXNn9LFODcfsjgrNJxNIgOvRZRa6Zp+I8OfXXsLiyZjxloq3+vWuh/l2SPnsgLp
+         bHMBjuOR7M18Cuf/lWU6R8uRcGdd5zRPdL6ufZQUH0AhntrGCek1efHl0GVbT2XnFztt
+         +HMGcG1op5YTFCL5xTXue5ae2Q2viiL5CMffYlTApF00kkRG56Z83xnAq3d+zz4sGf0j
+         V5/X/4UY6tgfr5YTJdpk2hvXLOAMoGMEIFmw/GLqVrrq3oeH8KaGr0gEwsjpAunJ0zSC
+         xGeg==
+X-Gm-Message-State: AOAM532zeG4e0Ea2NKkJ7aCGLIy0hWty2bofmP5NJ6mKAmSjksbr8TQN
+	jnnTa7T71m8HIDUVMBhO88Ne0EN2iM29/JcQmLGuo3gT098=
+X-Google-Smtp-Source: ABdhPJx/Wb6b54tqWm4W4GcE4UElFhab7/wfBq56Kg8JRSVkLBHR8ngAjR8OtB6o9RnQRLy1p0SSY/q89Zh43tm/U+Q=
+X-Received: by 2002:a02:a1d3:: with SMTP id o19mr25796568jah.90.1600329636360;
+ Thu, 17 Sep 2020 01:00:36 -0700 (PDT)
+Received: from 696963989851 named unknown by gmailapi.google.com with
+ HTTPREST; Thu, 17 Sep 2020 01:00:35 -0700
+From: Kevin Doherty <kevin@codem-composites.com>
+In-Reply-To: <CAK4cLxiTWEXDdow5YpD4h=XPfP94EFNVKCSiicVjbrVCtWVk7Q@mail.gmail.com>
+References: <CAK4cLxiTWEXDdow5YpD4h=XPfP94EFNVKCSiicVjbrVCtWVk7Q@mail.gmail.com>
+MIME-Version: 1.0
+Date: Thu, 17 Sep 2020 01:00:35 -0700
+Message-ID: <CAK4cLxgQmx0GGVq2Xrd=NukVwgiQaYfrHj0iayF4HR1To5fW2g@mail.gmail.com>
+Subject: Quick Question, Stuart
+To: stuart.falconer@baesystems.com
+Content-Type: multipart/alternative; boundary="0000000000007fc96d05af7dc743"
+
+----- Message truncated -----

@@ -1,10 +1,288 @@
-Reporting-MTA: dns;FERMI41.isf.rd.priv
-Received-From-MTA: dns;RPRELAY41
-Arrival-Date: Mon, 7 Sep 2020 09:34:30 +0000
+From: <postmaster@mbda-systems.com>
+To: <kevin@codem-composites.com>
+Date: Mon, 7 Sep 2020 11:34:30 +0200
+Subject: Non remis : Quick Question, Robert
 
-Original-Recipient: rfc822;robert.ceng@mbda-systems.com
-Final-Recipient: rfc822;robert.ceng@mbda-systems.com
-Action: failed
-Status: 5.1.10
-Diagnostic-Code: smtp;550 5.1.10 RESOLVER.ADR.RecipientNotFound; Recipient not found by SMTP address lookup
+as permitted sender) 
+  smtp.mailfrom=codem-composites.com; dkim=pass (good signature) 
+  header.i=@codem-composites.com header.s=google; dmarc=pass (p=none 
+  adkim=r aspf=r) header.from=codem-composites.com
+X-Brightmail-Tracker: H4sIAAAAAAAAA+NgFupgleJIrShJLcpLzFFi42K5GLpsvW7Jv9B
+  4g7NPNC0+bjvO6MDoceRoO2sAYxRrZl5SfkUCa8acnpiCR8kV3y6fY25gvBXTxcjFISQwnVFi
+  2ZmfrCAOi8BTFommW6uYQBwJgR8sEu/6NjB2MXICOXUSTyasZYOwiyQar3xhhrBLJRZNXMDSx
+  cgBNCpfYv3vEJAwm4CBRMfZ32AlvAKCEidnPmEBsVkEVCQ6DmxmhYgHSHzYPZMdxBYWkJdY2b
+  WcDWSMiICCxPGvTiBhZgEfiYNPPzBOYOSbhWTSLCQpCFtTonX7b3YIW1ti2cLXzBC2hsSCO/s
+  YkcUXMLKtYrRIKspMzyjJTczM0TU0MNA1NDTSNbQ01zU0NtdLrNJN0kst1S1PLS7RNdRLLC/W
+  K67MTc5J0ctLLdnECAzqlIKjnTsYf736oHeIUZKDSUmU98C70HghvqT8lMqMxOKM+KLSnNTiQ
+  4wyHBxKErySf4FygkWp6akVaZk5wAiDSUtw8CiJ8Br/AUrzFhck5hZnpkOkTjGGcyzZOG8RM0
+  fHr0VA8t3PxUDy9qolQPIjmPwOJts2gshVB6avYhZiycvPS5US5/32G2icAMi4jNI8uGWwBHK
+  JUVZKmJeRgYFBiKcgtSg3swRV/hWjOAejkjDva5CjeDLzSuBuegV0LhPQuVJaYOeWJCKkpBqY
+  Uo60rfqtExBzqf2da7bfUwtWueUvom4s+9bztv+fxOZPfzdl7vCXenm0lW/l1m1XNgfoaDv6v
+  nT9pP6S/bameuH7Ak3ufVvaZhV3m78y9Lot/sA7MqGU7cDTTi2FX8zK59N3nDt4Wefxgv3vly
+  6bHfvsZeExrbxvfIFrprgWn1srr7aMJzySd15J4+ZTsqULNv7gKlUWb+XRyqq/kaHuHyafc6P
+  729LAZXdLLm2wOJkusuTKxo2dP9bWOeY12KYHnvr0U0HAxuN0fmfPpa7DkVqNOqKrHh6S/3K3
+  e9bc7+8iyi9fPHVcc0bmHOvNX16Unt1ju0L5T8MF2eTi4DOiGtaP1kXXsPz5LmohGC66QYmlO
+  CPRUIu5qDgRACtOAvObAwAA
+X-Env-Sender: kevin@codem-composites.com
+X-Msg-Ref: server-24.tower-285.messagelabs.com!1599471219!460301!1
+X-Originating-IP: [209.85.166.175]
+X-SYMC-ESS-Newsletter-Ignored: YES
+X-SpamReason: Yes, hits=0.0 required=7.0 tests=newsletters: ,
+  newsletters: Newsletter detected: 9.13 > 5,newsletters: Newsletter 
+  detected: 9.13 > 5,HTML_MESSAGE,UNPARSEABLE_RELAY,domain_age: 
+  codem-composites.com:a=29,s=env; {END},Newsletter detected heuristically 
+  [ML_RADAR_NL_1,ML_RADAR_NL_2,ML_RADAR_NL_2A,ML_RADAR_NL_2CP,
+  ML_RADAR_NL_2F]: 9.13 > 5
+X-StarScan-Received:
+X-StarScan-Version: 9.50.3; banners=-,-,-
+X-VirusChecked: Checked
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=codem-composites.com; s=google;
+        h=from:mime-version:date:message-id:subject:to;
+        bh=d8q1xxZmdfj40Q4cnPk5R9mZLB72k4IiH8ltYHyi4mI=;
+        b=Ee8dgFEMcD6WC1tAXBrTSvFBdsDJrRdcpD4LXTgPLJQmpAjY107/zFoAwlcIQbIGRt
+         RRNvi/6Vl4g+M6TYa1uIyi9IUFTovlhm353lV4bCeMlZCtrBMAzsw77bcdR/XrTN0OpL
+         DlP8/h3f6z7yk1nRcqna20IBKxDlzX0ckBTMp9mpDwmkMwb3MCWXbyx4qvexK7e+c+yo
+         Vm/6d1HVZ44n+2PvlwZ6QcJIvVbcrhjxzDCZnpMTvpGya9dPMkctOHwRLB1asiVzuuRN
+         hBIaz4hDzon3q1qXiGaOLY2SS3HjUSLoRo+TrnmMcuosJ/nfHgwci86Tdqd/ybmgsOBQ
+         gwtg==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20161025;
+        h=x-gm-message-state:from:mime-version:date:message-id:subject:to;
+        bh=d8q1xxZmdfj40Q4cnPk5R9mZLB72k4IiH8ltYHyi4mI=;
+        b=QYHuM9xzJeaTUbEnDkn//RaLXgX64HrguwkvNMHFAqzFptMA7OjE1nyCwh2UJegjYk
+         xFW//UlGunoKS/dKfSxdYXn7tDopWJQBKM8+iVg8ZrLc9L6YYNirrFVp6JvRP3/A0fbz
+         1GfhaJ2wYoTYKjmQj+vv3wYDIaNzAKYwSo+oylxK3l7MeQlJPluxhumZ2wTIk8XamLva
+         Gu6G0/twNe6j79NeZatZTJI1+TPxoR3GtN8m1cXys7G+nYduQ5Hf5ETAqUeSAM8E4zfa
+         rfBVFY6Xg9s+eGexfB/ai344se1HEqR1UgtBUcCmtNJVL3Vbpj1pIcGgiZ9l4HNYEnc1
+         Va+Q==
+X-Gm-Message-State: AOAM5319GO4hZnTKikDHcsznU45DDHVhGSSk/aAIKAjLC7eNZOTI9GVl
+	PtnUNYBzUWpP4NYtFW4fRk1U1FqDV2am1c2vHqwEShyGI7Q=
+X-Google-Smtp-Source: ABdhPJyrxeiw6UZFaOQLLCQQhCJxWxdJo/fl198oSB9Wp+KG44pHiMSloF0m7+6kydmUUO/dn8HRl2eUNMiex0O9ZqQ=
+X-Received: by 2002:a92:c083:: with SMTP id h3mr18500732ile.208.1599471218388;
+ Mon, 07 Sep 2020 02:33:38 -0700 (PDT)
+From: Kevin Doherty <kevin@codem-composites.com>
+MIME-Version: 1.0
+Date: Mon, 7 Sep 2020 02:33:38 -0700
+Message-ID: <CAK4cLxhc1sy_D-dZc0qM7b-zxs9FXk1XsGrAi6qKYpML5syZLw@mail.gmail.com>
+Subject: Quick Question, Robert
+To: <robert.ceng@mbda-systems.com>
+Content-Type: multipart/alternative; boundary="000000000000cd083105aeb5e9f9"
+X-PMX-Version: 6.4.3.2751440, Antispam-Engine: 2.7.2.2107409, Antispam-Data: 2020.9.7.92419, AntiVirus-Engine: 5.68.0, AntiVirus-Data: 2019.12.10.5680001
+Return-Path: kevin@codem-composites.com
+X-CrossPremisesHeadersFilteredBySendConnector: RPRELAY41.isf.rd.priv
+X-OrganizationHeadersPreserved: RPRELAY41.isf.rd.priv
 
+
+--000000000000cd083105aeb5e9f9
+Content-Type: text/plain; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+Hi Robert,
+
+
+I trust this Monday morning is treating you well. I came across your
+LinkedIn profile whilst looking for the right person at MBDA for a quick
+chat, so wanted to drop you a line by way of introduction.
+
+
+I head up the team here at Codem Composites and we provide end-to-end
+solutions for all things carbon fibre. Recently we=E2=80=99ve worked on pro=
+jects
+with Mercedes F1, manufactured Raytheon's military antennas and produced
+props for the latest Star Wars movie, just to name a few.
+
+
+The reason for my email is that I think there's great synergy between Codem
+and MBDA, so I'm hoping that you can spare me a few minutes to chat.
+
+
+I'm available for a quick call on Thursday or Friday afternoon. If that
+doesn=E2=80=99t work, tell me what does, and I=E2=80=99ll make it happen.
+
+
+Best regards,
+
+
+*Kevin Doherty*
+
+[image: Description: CODEM Composites Ltd]          [image:
+cid:image009.jpg@01D362BA.5DA65FA0]         [image:
+cid:image008.jpg@01D362BA.5DA65FA0]
+
+CODEM Composites Ltd Unit E Harrier Park, Southgate Way, Orton Southgate,
+Peterborough PE2 6YQ
+
+
+
+*Tel: +44 (0) 1487 832123 Mob: +44 (0) 7785 996218Email:
+**kevin@codem-composites.com
+<kevin@codemcomposites.com>*
+*Web: **www.codem-composites.com
+<http://track.codem-composites.com/api/t/c/usr_a8xLmetmsZe2dZKhP/tsk_PPQC3Q=
+ApZ8rjmsRuK/aHR0cDovL3d3dy5jb2RlbWNvbXBvc2l0ZXMuY29tLw=3D=3D>*
+
+As a GDPR compliant company, we would like to explain why you have received
+this email. We believe that MBDA has a legitimate interest in the products
+and services that Codem Composites offers. Our research has identified your
+email address robert.ceng@mbda-systems.com as the appropriate contact
+within your organisation. If you have received this email in error or do
+not wish to receive further communications from Codem Composites, just hit
+unsubscribe
+<http://track.codem-composites.com/api/unsubscribe/cam_Tpngwt2LiEY62Nqmw/cm=
+9iZXJ0LmNlbmdAbWJkYS1zeXN0ZW1zLmNvbQ=3D=3D>
+.
+
+
+[image: picture] [image: logo]
+
+--000000000000cd083105aeb5e9f9
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<html><div style=3D"min-width:360px"></div><div dir=3D"ltr">
+    <div><p style=3D"margin:0px;box-sizing:border-box"><span style=3D"font-=
+family:Arial,Helvetica,sans-serif;box-sizing:border-box">Hi Robert,=C2=A0</=
+span></p><p style=3D"margin:0px;box-sizing:border-box"><span style=3D"font-=
+family:Arial,Helvetica,sans-serif"><span style=3D"box-sizing:border-box"><b=
+r style=3D"box-sizing:border-box"></span></span></p><p style=3D"margin:0px;=
+box-sizing:border-box"><span style=3D"font-family:Arial,Helvetica,sans-seri=
+f"><span style=3D"box-sizing:border-box">I trust this Monday</span></span><=
+span style=3D"font-family:Arial,Helvetica,sans-serif"><span style=3D"box-si=
+zing:border-box">=C2=A0morning=20
+is treating you well. I came across your LinkedIn profile whilst looking fo=
+r the right person at MBDA for a quick chat, so wanted to drop you a line b=
+y way of introduction.</span></span></p><p style=3D"margin:0px;box-sizing:b=
+order-box"><span style=3D"font-family:Arial,Helvetica,sans-serif"><span sty=
+le=3D"box-sizing:border-box"><br style=3D"box-sizing:border-box"></span></s=
+pan></p><p style=3D"margin:0px;box-sizing:border-box"><span style=3D"font-f=
+amily:Arial,Helvetica,sans-serif"><span style=3D"box-sizing:border-box"> I =
+head up the team here at  Codem Composites and we provide end-to-end soluti=
+ons for all things carbon fibre. Recently we=E2=80=99ve worked on projects =
+with Mercedes F1, manufactured Raytheon&#39;s military antennas and produce=
+d props for the latest Star Wars movie, just to name a few.</span></span></=
+p><p style=3D"margin:0px;box-sizing:border-box"><span style=3D"font-family:=
+Arial,Helvetica,sans-serif"><br></span></p><p style=3D"margin:0px;box-sizin=
+g:border-box"><span style=3D"font-family:Arial,Helvetica,sans-serif"><span =
+style=3D"box-sizing:border-box">The reason for my email is that I think the=
+re&#39;s great synergy between Codem and MBDA, so I&#39;m hoping that you c=
+an spare me a few minutes to chat.=C2=A0</span></span></p><p style=3D"margi=
+n:0px;box-sizing:border-box"><span style=3D"font-family:Arial,Helvetica,san=
+s-serif"><br></span></p><p style=3D"margin:0px;box-sizing:border-box"><span=
+ style=3D"font-family:Arial,Helvetica,sans-serif"><span style=3D"box-sizing=
+:border-box"></span>I&#39;m available for a quick call on Thursday or Frida=
+y afternoon. If that doesn=E2=80=99t work, tell me what does, and I=E2=80=
+=99ll make it happen.
+<br></span></p><p style=3D"margin:0px;box-sizing:border-box"><span style=3D=
+"font-family:Arial,Helvetica,sans-serif"><span style=3D"box-sizing:border-b=
+ox"></span></span></p><p style=3D"margin:0px;box-sizing:border-box"><span s=
+tyle=3D"font-family:Arial,Helvetica,sans-serif"><span style=3D"box-sizing:b=
+order-box"><br style=3D"box-sizing:border-box"></span></span></p><p style=
+=3D"margin:0px;box-sizing:border-box"><span style=3D"font-family:Arial,Helv=
+etica,sans-serif">  Best regards, </span></p><p style=3D"margin:0px;box-siz=
+ing:border-box"><span style=3D"font-family:Arial,Helvetica,sans-serif"><spa=
+n style=3D"box-sizing:border-box"><br style=3D"box-sizing:border-box"></spa=
+n></span></p><p style=3D"margin:0px;box-sizing:border-box"><span style=3D"f=
+ont-family:Arial,Helvetica,sans-serif;box-sizing:border-box"><table border=
+=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"width:525pt;border-coll=
+apse:collapse;border:none;empty-cells:show;max-width:100%;box-sizing:border=
+-box" width=3D"700"><tbody style=3D"box-sizing:border-box"><tr style=3D"box=
+-sizing:border-box"><td style=3D"padding:0cm;height:15pt;min-width:5px;box-=
+sizing:border-box"><table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" =
+style=3D"width:525pt;border-collapse:collapse;border:none;empty-cells:show;=
+max-width:100%;box-sizing:border-box" width=3D"700"><tbody style=3D"box-siz=
+ing:border-box"><tr style=3D"box-sizing:border-box"><td style=3D"padding:0c=
+m;min-width:5px;box-sizing:border-box"><p style=3D"margin:0cm;font-size:15p=
+x;font-family:Calibri,sans-serif;box-sizing:border-box"><strong style=3D"fo=
+nt-weight:700;box-sizing:border-box"><span style=3D"font-size:18px;color:bl=
+ack;font-family:Arial,Helvetica,sans-serif;box-sizing:border-box">Kevin Doh=
+erty</span></strong></p></td></tr><tr style=3D"box-sizing:border-box"><td s=
+tyle=3D"padding:0cm;height:15pt;min-width:5px;box-sizing:border-box"><span =
+style=3D"font-family:Arial,Helvetica,sans-serif;box-sizing:border-box"><br =
+style=3D"box-sizing:border-box"></span></td></tr><tr style=3D"box-sizing:bo=
+rder-box"><td style=3D"padding:0cm;min-width:5px;box-sizing:border-box"><p =
+style=3D"margin:0cm;font-size:15px;font-family:Calibri,sans-serif;box-sizin=
+g:border-box"><span style=3D"font-family:Arial,Helvetica,sans-serif;box-siz=
+ing:border-box"><span style=3D"color:rgb(31,73,125);box-sizing:border-box">=
+<img width=3D"200" src=3D"http://track.codem-composites.com/api/froala/file=
+s/tea_NfYyMpjZ5LayPy6cN-6001bc8f655e1d227c7ea5f14c4fc96a" alt=3D"Descriptio=
+n: CODEM Composites Ltd" style=3D"vertical-align: middle; border-style: non=
+e; cursor: pointer; padding: 0px 1px; max-width: 100%; box-sizing: border-b=
+ox;"></span><span style=3D"color:rgb(153,51,102);box-sizing:border-box">=C2=
+=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0=C2=A0</span><span style=3D"color:rgb(31,73,=
+125);box-sizing:border-box"><img width=3D"101" src=3D"http://track.codem-co=
+mposites.com/api/froala/files/tea_NfYyMpjZ5LayPy6cN-ba66bf715631fc5ad46e49d=
+0879aa5bc" alt=3D"cid:image009.jpg@01D362BA.5DA65FA0" style=3D"vertical-ali=
+gn: middle; border-style: none; cursor: pointer; padding: 0px 1px; max-widt=
+h: 100%; box-sizing: border-box;">=C2=A0 =C2=A0 =C2=A0 =C2=A0 </span><span =
+style=3D"color:rgb(153,51,102);box-sizing:border-box">=C2=A0</span><span st=
+yle=3D"color:rgb(31,73,125);box-sizing:border-box"><img width=3D"120" src=
+=3D"http://track.codem-composites.com/api/froala/files/tea_NfYyMpjZ5LayPy6c=
+N-95ab1f987261409b5d768873a676560b" alt=3D"cid:image008.jpg@01D362BA.5DA65F=
+A0" style=3D"vertical-align: middle; border-style: none; cursor: pointer; p=
+adding: 0px 1px; max-width: 100%; box-sizing: border-box;"></span></span></=
+p></td></tr><tr style=3D"box-sizing:border-box"><td style=3D"padding:0cm;he=
+ight:15pt;min-width:5px;box-sizing:border-box"><span style=3D"font-family:A=
+rial,Helvetica,sans-serif;box-sizing:border-box"><br style=3D"box-sizing:bo=
+rder-box"></span></td></tr><tr style=3D"box-sizing:border-box"><td style=3D=
+"padding:0cm;min-width:5px;box-sizing:border-box"><p style=3D"margin:0cm;fo=
+nt-size:15px;font-family:Calibri,sans-serif;box-sizing:border-box"><span st=
+yle=3D"font-family:Arial,Helvetica,sans-serif;box-sizing:border-box"><span =
+style=3D"font-size:10px;color:rgb(31,73,125);box-sizing:border-box">CODEM C=
+omposites Ltd Unit E Harrier Park, Southgate Way, Orton Southgate, Peterbor=
+ough PE2 6YQ</span></span></p></td></tr><tr style=3D"box-sizing:border-box"=
+><td style=3D"padding:0cm;height:22.5pt;min-width:5px;box-sizing:border-box=
+"><span style=3D"font-family:Arial,Helvetica,sans-serif;box-sizing:border-b=
+ox"><br style=3D"box-sizing:border-box"></span></td></tr><tr style=3D"box-s=
+izing:border-box"><td style=3D"padding:0cm;min-width:5px;box-sizing:border-=
+box"><p style=3D"margin:0cm;font-size:15px;font-family:Calibri,sans-serif;b=
+ox-sizing:border-box"><span style=3D"font-family:Arial,Helvetica,sans-serif=
+;box-sizing:border-box"><strong style=3D"font-weight:700;box-sizing:border-=
+box"><span style=3D"font-size:10px;color:rgb(31,73,125);box-sizing:border-b=
+ox">Tel: +44 (0) 1487 832123<br style=3D"box-sizing:border-box"> Mob: +44 (=
+0) 7785 996218<br style=3D"box-sizing:border-box">Email:=C2=A0</span></stro=
+ng><strong style=3D"font-weight:700;box-sizing:border-box"><span style=3D"f=
+ont-size:10px;color:rgb(31,73,125);box-sizing:border-box"><a href=3D"mailto=
+:kevin@codemcomposites.com" style=3D"color:rgb(0,184,255);text-decoration:n=
+one;background-color:transparent;box-sizing:border-box"><span style=3D"colo=
+r:blue;box-sizing:border-box">kevin@codem-composites.com</span></a></span><=
+/strong><strong style=3D"font-weight:700;box-sizing:border-box"><span style=
+=3D"font-size:10px;color:rgb(31,73,125);box-sizing:border-box"><br style=3D=
+"box-sizing:border-box">Web:=C2=A0</span></strong><strong style=3D"font-wei=
+ght:700;box-sizing:border-box"><span style=3D"font-size:10px;color:rgb(31,7=
+3,125);box-sizing:border-box"><a href=3D"http://track.codem-composites.com/=
+api/t/c/usr_a8xLmetmsZe2dZKhP/tsk_PPQC3QApZ8rjmsRuK/aHR0cDovL3d3dy5jb2RlbWN=
+vbXBvc2l0ZXMuY29tLw=3D=3D" style=3D"color:rgb(0,184,255);text-decoration:no=
+ne;background-color:transparent;box-sizing:border-box"><span style=3D"color=
+:blue;box-sizing:border-box">www.codem-composites.com</span></a></span></st=
+rong></span></p></td></tr></tbody></table></td></tr><tr style=3D"box-sizing=
+:border-box"><td style=3D"padding:0cm;min-width:5px;box-sizing:border-box">=
+<span style=3D"font-family:Arial,Helvetica,sans-serif;box-sizing:border-box=
+"><br style=3D"box-sizing:border-box"></span></td></tr></tbody></table><p s=
+tyle=3D"margin-top:0px;margin-bottom:1rem;box-sizing:border-box"><span styl=
+e=3D"font-size:10px;font-family:Arial,Helvetica,sans-serif;box-sizing:borde=
+r-box">As a GDPR compliant company, we would like to explain why you have r=
+eceived this email. We believe that MBDA has a legitimate interest in the p=
+roducts and services that Codem Composites offers. Our research has identif=
+ied your email address <a href=3D"mailto:robert.ceng@mbda-systems.com">robe=
+rt.ceng@mbda-systems.com</a> as the appropriate contact within your organis=
+ation. If you have received this email in error or do not wish to receive f=
+urther communications from Codem Composites, just hit <a href=3D"http://tra=
+ck.codem-composites.com/api/unsubscribe/cam_Tpngwt2LiEY62Nqmw/cm9iZXJ0LmNlb=
+mdAbWJkYS1zeXN0ZW1zLmNvbQ=3D=3D" style=3D"color:rgb(0,184,255);text-decorat=
+ion:none;background-color:transparent;box-sizing:border-box">unsubscribe</a=
+>.</span></p></span></p></div>
+    <br><div class=3D"gmail_extra"><br>
+      <div class=3D"gmail_signature" data-smartmail=3D"gmail_signature"><di=
+v dir=3D"ltr"><div><div dir=3D"ltr"></div></div></div></div>
+     =20
+    </div>
+    </div>
+<img alt=3D"picture" src=3D"http://track.codem-composites.com/api/reply/dat=
+a-ll-tsk_PPQC3QApZ8rjmsRuK" style=3D"opacity:0;display:none;width:0;height:=
+0;">
+<img alt=3D"logo" src=3D"http://track.codem-composites.com/api/track/open/u=
+sr_a8xLmetmsZe2dZKhP/tsk_PPQC3QApZ8rjmsRuK" height=3D"1" width=3D"1"></html=
+>
+
+--000000000000cd083105aeb5e9f9--
