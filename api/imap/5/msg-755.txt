@@ -1,52 +1,10 @@
-Received: from cluster-a.mailcontrol.com (cluster-a.mailcontrol.com) by ch-msw-2k8.CompaniesHouse.local
- (Clearswift SMTPRS 5.5.0) with ESMTP id <Te1c26a277b0a0a0a234428@ch-msw-2k8.CompaniesHouse.local> for <d.thornton@companieshouse.gov.uk>;
- Tue, 22 Sep 2020 13:29:38 +0100
-Received: from mail-io1-f46.google.com (mail-io1-f46.google.com [209.85.166.46])
-	by rly03a.srv.mailcontrol.com (MailControl) with ESMTPS id 08MCTVDC028335
-	(version=TLSv1.2 cipher=ECDHE-RSA-AES256-GCM-SHA384 bits=256 verify=OK)
-	for <d.thornton@companieshouse.gov.uk>; Tue, 22 Sep 2020 13:29:32 +0100
-Received: by mail-io1-f46.google.com with SMTP id z13so19302752iom.8
-        for <d.thornton@companieshouse.gov.uk>; Tue, 22 Sep 2020 05:29:32 -0700 (PDT)
-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
-        d=codem-composites.com; s=google;
-        h=from:in-reply-to:references:mime-version:date:message-id:subject:to;
-        bh=LRNs2hso9bzW6PAG5QarI/turl71jAg8LnoCk4uRpCI=;
-        b=ZeOnR0v23L/ohvaW1VzoJ6gtZPhh8n2UOBUNeD9cPC0KTyukUr9huqV/E00dT1ETlI
-         /UEY3q+lq36ioenn+1JQCIpt5NDdUfO7DiWphtJkXwIZgWGZgXq3Z9yQ7ZSWGlTBFeQK
-         Td1cty+QqQj0bKzvSwamlk7gV7WXhwMcUm78CZtlsQEYZGEHScAl3YL9MnnnHYHt06cj
-         YSw/QSfFzNie+yhPYm5yBFzc7Jps4mjo6jVel2uNLSg6QgtLaoldql2A8NOAFnPopjEM
-         HLpsVZBtBV/ornPhvVB9sypA0R8yFZnupENc/adilQYhx+cBZVy0IV55Tz89i4012Ir3
-         NMFA==
-X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
-        d=1e100.net; s=20161025;
-        h=x-gm-message-state:from:in-reply-to:references:mime-version:date
-         :message-id:subject:to;
-        bh=LRNs2hso9bzW6PAG5QarI/turl71jAg8LnoCk4uRpCI=;
-        b=oUtTeHBo8zIdAcCAtZs4dntgCHnRXxozpNjQalehtdGCc9OkKmtfGVgXh0O3yQh6BG
-         CIG2mbrXW2e7ywTLRdpkdLowqeKDiKT7KNDiodBZf9fUtDEndqgg+bsxtvBNkYdiaezS
-         M/DBg0ItCUHqdjy11F57iEHQrfqxh2HhgIah631JiT6PbMVTei3gcrVOAOcgqbf45ak6
-         HQKpq0c6ChvURkpAFKHlS8GJY7h0nETUoGm4pQCWH23WquTpb4lv0EWYpXm0Vfan6HMU
-         hFgeEsrotZ/GvbwORie3PqoKpFcR5w7m4z1bdTXNbrq5xIJ1CfeYstVrXY+LAEcuvJbb
-         UVlA==
-X-Gm-Message-State: AOAM533ROV88uZ+DqSN6oOhigUTdxRM58vg5JxF3sCg+PTBebuMT2XYo
-	HMeMkfw05MjcjGtjX5lfofPKWlIvQjLQ1jt3i77Py0bDb7I=
-X-Google-Smtp-Source: ABdhPJw0KRjYCFQlOkbRpAnG/Pjo1jf3IY14FUVYS1sFLIDK5LjjRkEiL1Xk5apzhxBp0hfBNe7SUJCnU9PXB4NGTVk=
-X-Received: by 2002:a05:6602:2d51:: with SMTP id d17mr3158799iow.11.1600777770742;
- Tue, 22 Sep 2020 05:29:30 -0700 (PDT)
-Received: from 696963989851 named unknown by gmailapi.google.com with
- HTTPREST; Tue, 22 Sep 2020 08:29:30 -0400
-From: Kevin Doherty <kevin@codem-composites.com>
-In-Reply-To: <CAK4cLxhBrqx3d_iBVcCvGQEQmK3pPrSbmTZnPZb6L5s+RZvw4Q@mail.gmail.com>
-References: <CAK4cLxhBrqx3d_iBVcCvGQEQmK3pPrSbmTZnPZb6L5s+RZvw4Q@mail.gmail.com>
-MIME-Version: 1.0
-Date: Tue, 22 Sep 2020 08:29:30 -0400
-Message-ID: <CAK4cLxhxB0KeCAYh3NBjE0AHZApo+c+gJA4h_2DKvQ37sw6Nqg@mail.gmail.com>
-Subject: Quick Question, Darren
-To: d.thornton@companieshouse.gov.uk
-Content-Type: multipart/alternative; boundary="00000000000063d49f05afe61e45"
-X-MailControlDKIMCheck: cGFzcyBjb2RlbS1jb21wb3NpdGVzLmNvbSBbcGFzc10=
-X-Modified-HTML: 14
-X-Mailcontrol-Inbound: XcgNe7tZugoft5z6JvmS77wVp7BJhzQjM3rJvF2ZwnDjXysL39Ml9KEpFB9dRjtNXR5w!K!sZHs=
-X-Spam-Score: -0.7
-X-MailControl-ReportSpam: https://www.mailcontrol.com/sr/P3XIHeCougPGX2PQPOmvUgItITKVa7z0jaosTYASAULaiUXgLQXK5qP2NDlhVE9PiaT16FNyOnsYNBM7q0TQEQ==
-X-Scanned-By: MailControl 44278.2100 (www.mailcontrol.com) on 10.65.0.113
+To: kevin@codem-composites.com
+Subject: Delivery failure (d.thornton@companieshouse.gov.uk)
+From: postmaster@companieshouse.gov.uk
+Date: Tue, 22 Sep 2020 16:06:33 +0100
+
+020 13:29:38 +0100
+
+Final-Recipient: rfc822; d.thornton@companieshouse.gov.uk
+Action: failed
+Status: 4.4.7 (Persistent transient failure - routing/network: delivery time expired)

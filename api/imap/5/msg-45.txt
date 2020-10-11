@@ -1,63 +1,15 @@
-X-Gm-Message-State: AOAM531peOmDK2P4hQRSgTWxtjvs5qk0oNwQ7NlduYpSxVYYtcZDVh4B
-	D/cYBbROIAONTn7TwPzZG0oLdGlcPGP98nWilUfCAi/LHmMIlrg3tMWEl5AnoMRvgjLLBl1DUzr
-	N3HW7uAuxrE2K4QvHfEm7Yxqc5TQMo6Rutjs=
-X-Received: by 2002:a6b:9305:: with SMTP id v5mr2030265iod.201.1599120568575;
-        Thu, 03 Sep 2020 01:09:28 -0700 (PDT)
-X-Received: by 2002:a6b:9305:: with SMTP id v5mr2030247iod.201.1599120568166;
-        Thu, 03 Sep 2020 01:09:28 -0700 (PDT)
-ARC-Seal: i=1; a=rsa-sha256; t=1599120568; cv=none;
-        d=google.com; s=arc-20160816;
-        b=evkhrRuFUoGXKE4Ri/rf3bHx/UV3O3485rtri8aJIkT+7N6QyldrFeuKxw+g75Qal7
-         RpXYZmlsc3AELNpiDNlC1eTXF9Spo9JABB3pfqMRSUwVspwuMUIfisw+YpmEGu7ZqpGa
-         9cPDOEuAJLe4WqL0oxUg2UkPyr0Ty1DHnQ9/0UrEad0yg+4ypfkwVpxkdw9wKgBTtsBB
-         1AtMLD44WfS6TayifN+YplHaYg7xJOh/k9fe7/S0icCxSUHa2sxZNdXoAaonj5PHVK3v
-         /5OPj4ZY1CoN7FsX2UW73kDUny3RmCg3vrFXD96OLtGLe5cXEigbEvkzKMIL4QNrEavB
-         ZFtg==
-ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
-        h=to:subject:message-id:date:mime-version:from:dkim-signature;
-        bh=nwXWI1Qr0JdU9iVvkj0wEE4vc1roG+RNbIW44Y7xpis=;
-        b=BKt7uG14p3P9DhKprcEB8h/76Cx5/mZswRsVHhcbayqbw/rFBS3ZiAC95RNUX1T9Tn
-         DiKmb7exNy1ACkxqjQBWlYdN0r1/KHBwmlIvDcMv7iGbqdsr/vslO0Aki41DHsGQJ9Kt
-         4Ui5gccPIENE8sIIxnM4kOJdq/rdEdoBLbwdBha7MWz/m8UG5tx+MrK9a7LgS84OZVHb
-         QGb8GDiYfzz/pX4W0X8dPpm9lsKald9HgiUkHFMqi3CNklmkSxwVu2WYsA+brZhRdDfr
-         4jSr/bWtqK0KWgjo2LStLLakiZEEzy/AXgo8OM4oCE2XEZIRLGfFi5e5rJhG/yBQmFmI
-         //jQ==
-ARC-Authentication-Results: i=1; mx.google.com;
-       dkim=pass header.i=@codem-composites.com header.s=google header.b=URYoZxif;
-       spf=pass (google.com: domain of kevin@codem-composites.com designates 209.85.220.41 as permitted sender) smtp.mailfrom=kevin@codem-composites.com;
-       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=codem-composites.com
-Return-Path: <kevin@codem-composites.com>
-Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
-        by mx.google.com with SMTPS id f73sor1222611ilg.57.2020.09.03.01.09.28
-        for <pdarnell@mindyourdecisions.com>
-        (Google Transport Security);
-        Thu, 03 Sep 2020 01:09:28 -0700 (PDT)
-Received-SPF: pass (google.com: domain of kevin@codem-composites.com designates 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
-Authentication-Results: mx.google.com;
-       dkim=pass header.i=@codem-composites.com header.s=google header.b=URYoZxif;
-       spf=pass (google.com: domain of kevin@codem-composites.com designates 209.85.220.41 as permitted sender) smtp.mailfrom=kevin@codem-composites.com;
-       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=codem-composites.com
-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
-        d=codem-composites.com; s=google;
-        h=from:mime-version:date:message-id:subject:to;
-        bh=nwXWI1Qr0JdU9iVvkj0wEE4vc1roG+RNbIW44Y7xpis=;
-        b=URYoZxifLoK3T6WBtDVQe4kIQiXDfQZr7mM29vOfvv/okyH9fv+ycNhDRHI2S8o0Wv
-         10I4aiDmblvUygzYf9kfp5lcH+Ix7fS1KmBJKHKQ0VrlLE/U+k18bKLfCDNwa5QgqC/5
-         qfJNL+M90XAfqUPGVwWw/eRHPLsuFP6LhmW1ZhQMyVFNl6MZNpbkJZQjVVP3ZBs8j+BQ
-         lf+mpQOQnAFO/CGmOZ2PKcWBJ9acU+mlBVnrngt1Zmo+HIKwmRYQMRVYtW7q1trQoQoa
-         d+43QPYFv2Yd+pnMzt7wO6/+43SruExPJ06iM25gZ5pUgnGgoRXvb5pK1uPbBIhNA5Rz
-         6qnw==
-X-Google-Smtp-Source: ABdhPJxDFyhD9Q4NgqsME73uAR53siYxrqYwGUguRXk3feXYJ0gsOdv0tIe74KHNT0Iz88H6a8dGI5EAsrMlbDez5uc=
-X-Received: by 2002:a05:6e02:ed1:: with SMTP id i17mr2187463ilk.8.1599120566302;
- Thu, 03 Sep 2020 01:09:26 -0700 (PDT)
-Received: from 696963989851 named unknown by gmailapi.google.com with
- HTTPREST; Thu, 3 Sep 2020 01:09:25 -0700
-From: Kevin Doherty <kevin@codem-composites.com>
-MIME-Version: 1.0
-Date: Thu, 3 Sep 2020 01:09:25 -0700
-Message-ID: <CAK4cLxiExgbxT3Tvn05uhDZuCBk0m2neRCEs-1ZW3hgszS3PuQ@mail.gmail.com>
-Subject: Quick Question, Paul
-To: pdarnell@mindyourdecisions.com
-Content-Type: multipart/alternative; boundary="0000000000004ed5d005ae64459f"
+Reporting-MTA: dns; googlemail.com
+Received-From-MTA: dns; kevin@codem-composites.com
+Arrival-Date: Thu, 03 Sep 2020 01:09:28 -0700 (PDT)
+X-Original-Message-ID: <CAK4cLxiExgbxT3Tvn05uhDZuCBk0m2neRCEs-1ZW3hgszS3PuQ@mail.gmail.com>
 
------ Message truncated -----
+Final-Recipient: rfc822; pdarnell@mindyourdecisions.com
+Action: failed
+Status: 5.1.1
+Remote-MTA: dns; gmr-smtp-in.l.google.com. (172.217.212.14, the server for the
+ domain domains.google.com.)
+Diagnostic-Code: smtp; 550-5.1.1 The email account that you tried to reach does not exist. Please try
+ 550-5.1.1 double-checking the recipient's email address for typos or
+ 550-5.1.1 unnecessary spaces. Learn more at
+ 550 5.1.1  https://support.google.com/mail/?p=NoSuchUser n1si119682iom.0 - gsmtp
+Last-Attempt-Date: Thu, 03 Sep 2020 01:09:28 -0700 (PDT)

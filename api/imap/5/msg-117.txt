@@ -1,38 +1,11 @@
-To: kevin@codem-composites.com
-Date: Fri, 04 Sep 2020 04:41:57 -0700 (PDT)
-From: Mail Delivery Subsystem <mailer-daemon@googlemail.com>
-Subject: Delivery Status Notification (Failure)
+Reporting-MTA: dns; googlemail.com
+Arrival-Date: Fri, 04 Sep 2020 04:41:53 -0700 (PDT)
+X-Original-Message-ID: <CAK4cLxi35U+semXW+YxTWviaTkkxMs6j95P2NbshBcBnLpM7qw@mail.gmail.com>
 
-Ls/NO/8Tg/2Dmkj8zac=;
-        b=WJkT334eTi39igyMDhQW+05OqL/OrKvMua8+vwYOpr1tVGhEh5iyoeF2FCxfJ0QhqF
-         C4nIS5nGlHl9kR8U4LE/vBiBzMk+/IFYvLWLCgzoZBzgvTELe+Gw4jXJoTfKvwo12pVE
-         vFUKt1IMBnVF6K0lyZaBOO1F1PaSJewdOhHuvVeAZ1ojUZxAvJA3x9ve7oSKBcEJarUf
-         WsIQ90YtwmHO6wPPIIbexAu4Nk9y64I29xMoWOnH6Nh1I1tzabs6KSJQvAMECX2YDBpE
-         4ZkArcp/UzLf/uNuPcwjncOrLvLswFjcZ4zHiug/rzWrhDKrLuk53s27Rg4FVMZ01gjO
-         SFZQ==
-X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
-        d=1e100.net; s=20161025;
-        h=x-gm-message-state:from:mime-version:date:message-id:subject:to;
-        bh=v5MRkrMHpu2iOftGFloA/CytLs/NO/8Tg/2Dmkj8zac=;
-        b=U05a8gIGYBNmgrN5M5x7agCrCC7zMturZcjigmH5bmDpVh5kItmvYCC7vDc+6rPwDz
-         HucaX9ed6nmhi0vWB6MXPZuB3ev2lJGngB17mwxbJkDBWrb+R3EC7ZAjrqzV52CHjJYD
-         S5wpzJz2aVNUDGz2wDf5yQCWDTlEE8ouZbpVd/86vFKz/EqMZCxHQQBK7+fkEwJRx4ge
-         q+iZ1DgB8+6rQ+/rVLCjRokYgcfEl8eFx083XFKvkJNQfogt57znCNU4dR8Kt/AkOS6F
-         836DPvvGgkmtOycSAONGIYWe23Ui8PeEookK22YpK7NMKxB+x7Bx8TbmGB8ZPwBiolg5
-         wLlw==
-X-Gm-Message-State: AOAM533h33Rb6QVDYXYqFFdz94ZSGKJ8DAGbDU9GKJoN6aqVzLOBKskR
-	lRCFdpdV0lBj9T6CayDR1Z89BwjBwp+6q6WwfHw7AmX4FRrnjg==
-X-Google-Smtp-Source: ABdhPJypZANVUsWkRGL3miIOpY+5l81ZcqPfat7KX6T4zugIXpmrIgccIre6t4xsc/sGYWxDJO3PobuOcRD9Vsi6Zdg=
-X-Received: by 2002:a5e:9916:: with SMTP id t22mr7058229ioj.163.1599219713937;
- Fri, 04 Sep 2020 04:41:53 -0700 (PDT)
-Received: from 696963989851 named unknown by gmailapi.google.com with
- HTTPREST; Fri, 4 Sep 2020 11:41:53 +0000
-From: Kevin Doherty <kevin@codem-composites.com>
-MIME-Version: 1.0
-Date: Fri, 4 Sep 2020 11:41:53 +0000
-Message-ID: <CAK4cLxi35U+semXW+YxTWviaTkkxMs6j95P2NbshBcBnLpM7qw@mail.gmail.com>
-Subject: Quick Question, Cillian
-To: cillianhickey@electro-mechanical.com
-Content-Type: multipart/alternative; boundary="000000000000f7ac4c05ae7b5a58"
-
------ Message truncated -----
+Final-Recipient: rfc822; cillianhickey@electro-mechanical.com
+Action: failed
+Status: 5.0.0
+Remote-MTA: dns; d165231a.ess.barracudanetworks.com. (209.222.82.144, the
+ server for the domain electro-mechanical.com.)
+Diagnostic-Code: smtp; 550 permanent failure for one or more recipients (cillianhickey@electro-mechanical.com:550 5.1.1 User unknown)
+Last-Attempt-Date: Fri, 04 Sep 2020 04:41:57 -0700 (PDT)

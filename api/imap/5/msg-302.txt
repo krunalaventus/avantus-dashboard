@@ -3,71 +3,8 @@ To: <kevin@codem-composites.com>
 Subject: Mail Delivery Failure
 Date: Tue, 08 Sep 2020 12:23:47 +0000
 
-central-1.aws.symcld.net id 04/1C-12375-2D7775F5; Tue, 08 Sep 2020 12:23:46 +0000
-Authentication-Results: mx.messagelabs.com; spf=pass 
-  (server-33.tower-228.messagelabs.com: domain of codem-composites.com 
-  designates 209.85.166.172 as permitted sender) 
-  smtp.mailfrom=codem-composites.com; dkim=pass (good signature) 
-  header.i=@codem-composites.com header.s=google; dmarc=pass (p=none 
-  adkim=r aspf=r) header.from=codem-composites.com
-X-Brightmail-Tracker: H4sIAAAAAAAAA+NgFupileJIrShJLcpLzFFi42K5GLpsje6l8vB
-  4gz17OCyuf13P7MDoMeH3fLYAxijWzLyk/IoE1oypXxawFxxJqZi87TF7A+Oa2C5GLg4hgcmM
-  EtPPNbGCOCwCT1kkzj5czwziSAj8YJH43HCLqYuRE8ipk1jS08oKYRdJzHh5BSpeLLHg414wW
-  0ggX2LvuXPsIDabgIFEx9nfzCA2r4CgxMmZT1hAbBYBFYkFzzqg4gESneengNULCyhIHP5yFG
-  yOiICMRPPX1WxdjBwczAI+EitmRE1g5JuFZNIshAxImFlAU6J1+292CFtbYtnC18wQtobEgjv
-  7GJHFFzCyrWK0TCrKTM8oyU3MzNE1NDDQNTQ01jXQNTI10kus0k3USy3VTU7NKylKBMrqJZYX
-  6xVX5ibnpOjlpZZsYgQGdkohw58djKvffNA7xCjJwaQkynu8NDxeiC8pP6UyI7E4I76oNCe1+
-  BCjDAeHkgTvV5CcYFFqempFWmYOMMpg0hIcPEoivIfLgNK8xQWJucWZ6RCpU4zhHEs2zlvEzN
-  HxaxGQfPdzMZC8vWoJkPwIJr+DybaNIHLVgemrmIVY8vLzUqXEeS1BxgmAjMsozYNbBksilxh
-  lpYR5GRkYGIR4ClKLcjNLUOVfMYpzMCoJ87aBTOHJzCuBu+kV0LlMQOdKaYWCnFuSiJCSamBy
-  y2APr9t0a9fRN1ntYeI1XWxv3Ta9n1qu+ckrIqN4/4rEY+krDbjas/3NL/DbvUu5fvfruV6vW
-  7YStY9qotV8s/xjJv4zvjr3/a5VV9ZWL/r/3XrC0xUvZP83OB62Wy906MOXo9yZAXPFMpxvhn
-  IsZl9+4VOzdbJHw+3prlVLpBa6dk2YGDMz9Uv4znX/G85YbFli97a7f7lgCG9MmFzGoTb2TEW
-  B1IOVN5dyzMzuX6CqbZ4drPLxb8zxsDAe6x8iNx9dmi+tUhJ1iW1hnA8Tv8b7080O3u5XNhU+
-  f/r4DndmoMzTNcr5YWudC+KkPJ85W6kfmCn/ySz1lbnMLG2W2Ed1RYITFHuiH4sbZimxFGckG
-  moxFxUnAgABVa8inQMAAA==
-X-Env-Sender: kevin@codem-composites.com
-X-Msg-Ref: server-33.tower-228.messagelabs.com!1599567824!406960!1
-X-Originating-IP: [209.85.166.172]
-X-SYMC-ESS-Newsletter-Ignored: YES
-X-StarScan-Received:
-X-StarScan-Version: 9.60.3; banners=-,-,-
-Received: (qmail 13275 invoked from network); 8 Sep 2020 12:23:45 -0000
-Received: from mail-il1-f172.google.com (HELO mail-il1-f172.google.com) (209.85.166.172)
-  by server-33.tower-228.messagelabs.com with ECDHE-RSA-AES256-GCM-SHA384 encrypted SMTP; 8 Sep 2020 12:23:45 -0000
-Received: by mail-il1-f172.google.com with SMTP id b17so15172952ilh.4
-        for <gibson@bankofscotland.de>; Tue, 08 Sep 2020 05:23:45 -0700 (PDT)
-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
-        d=codem-composites.com; s=google;
-        h=from:mime-version:date:message-id:subject:to;
-        bh=LoQEE1UYl5CSHOKNkoTTV6YPkFtUYxxV2S+4osOHdRs=;
-        b=ThXwTHEnxyWFpy+fXOf8nceiCGWg0zOKVGW7/eK0IRohwypsdPAEcB0Fl3XNvMGh+8
-         RgzHn8JUvEtUnpUtq/dYwSBVeCZAqWTzdWC4AM877EUI8eT1Odeu3OowFsug/3H5Fjdc
-         eOzhAxdW5eL/XBb4dpbEN7VOArWI3b54yokD7KBohF9o6/dVESGrslJVVBXmdaq5n+66
-         NIYD5ns7nnKD6s+kkJkVNlj3BkQ2FKwnx3VezaeNGbd/wX+p1fIXbfWxRM+zVxcBwCwN
-         47XoamAd/3l0J3yOtMN0E9MRNPtJXB3+Rgx72uGv2YrnSJnaCMvruRso5WmLnkYSNNPd
-         VccA==
-X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
-        d=1e100.net; s=20161025;
-        h=x-gm-message-state:from:mime-version:date:message-id:subject:to;
-        bh=LoQEE1UYl5CSHOKNkoTTV6YPkFtUYxxV2S+4osOHdRs=;
-        b=hnnXzk+Qydt6/W3kXFdXSXVd4WKN8j1g3/2BJ1JNGlvqr2kbYPLAm8F95Qu+HFN7G+
-         3V4E14gDZ70OLYYrtCpGrIGm3TkKlA7NfbpH0KM593yoiN8E9fx1OU+mH0J2Hn6/LXJz
-         cbRMzr1UyFqijA5YjhFk3lMY+0zEcOrp0rXUFELux0S7iNKyWOkMlL+gya85IfUc9rwU
-         uapvnnMZkn0Is8JJMkJuvUSwGQZwNTBuLkh88hFbWVBwBcFulVuuGShZIM1/E3qs4Hco
-         HHi6bGsmuz6AiebATe5HjWQziVhUmNHr+JO1iHpPC61cMKulXD5O5uOFOdTTUWtMjzRU
-         By2Q==
-X-Gm-Message-State: AOAM532u6Z6IPkv94WxbkTY65lRbr4lxGnxjHZcAT2aNsloMH3pv7+Uw
-	U3qVUl/iHBIjZyHTeFFKrtCI0w+XcXRtMDGMMcU7lQ4d+c0=
-X-Google-Smtp-Source: ABdhPJywEpEFEl8jZMtS18LNq+lKylWXckm2W5qSCGXf68jtIKxSfpXvKpiWx4gq08tNBTYURBQkxEWSoy0TmqMWQ+g=
-X-Received: by 2002:a92:108:: with SMTP id 8mr22726622ilb.207.1599567823794;
- Tue, 08 Sep 2020 05:23:43 -0700 (PDT)
-Received: from 696963989851 named unknown by gmailapi.google.com with
- HTTPREST; Tue, 8 Sep 2020 12:23:43 +0000
-From: Kevin Doherty <kevin@codem-composites.com>
-MIME-Version: 1.0
-Date: Tue, 8 Sep 2020 12:23:43 +0000
-Message-ID: <CAK4cLxgD=e+YNBTim2asG2sxBvA4U+YxiYzzcNLRZtt8y6soeA@mail.gmail.com>
-Subject: Quick Question, Matthew
-To: gibson@bankofscotland.de
-Content-Type: multipart/alternative; boundary="000000000000ee7f3c05aecc67fe"
+
+Status: 5.0.0
+Last-Attempt-Date: Tue, 08 Sep 2020 12:23:47 +0000
+Action: failed
+Diagnostic-Code: smtp; 550 #5.1.0 Address rejected.

@@ -3,64 +3,15 @@ Date: Mon, 28 Sep 2020 01:10:46 -0700 (PDT)
 From: Mail Delivery Subsystem <mailer-daemon@googlemail.com>
 Subject: Delivery Status Notification (Failure)
 
+oZRUphc=MkHi5QXbJekOsZU5gQ@mail.gmail.com>
 
-X-Received: by 2002:a92:bb0c:: with SMTP id w12mr175447ili.199.1601280645608;
-        Mon, 28 Sep 2020 01:10:45 -0700 (PDT)
-X-Received: by 2002:a92:bb0c:: with SMTP id w12mr175427ili.199.1601280645156;
-        Mon, 28 Sep 2020 01:10:45 -0700 (PDT)
-ARC-Seal: i=1; a=rsa-sha256; t=1601280645; cv=none;
-        d=google.com; s=arc-20160816;
-        b=vgKtSo5iEnxP/C1y7/GofpBVVKheBE/Z79Al7QfJ+2guEW/+yLorBRfJINjKo50Jy9
-         FvD2PEMxZ/skes/QppXtGeIDvGaLczyhMpTGwdvYopuunNHmReM1B3PcsTAIAk8bG0bv
-         xKwZi5h2g3rFxwWb4FLOfEDGEJp8cVkeK7t5+/59u05zgkdeKDu8IQ8Ams9enQYmC8f7
-         G29Pq9WhCcROpPLg66OwFWW09S8g/b5iGFsR4w/MK7CjnDzckUcPnsmRgjxFO2vJ7HXL
-         YPoZ2qG97N+6uMPgzdyMN8SraMnvqQ4fdlx6/fg/zUr3IE/VrWAACRVM8RTONDmgvIAp
-         e4CQ==
-ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
-        h=to:subject:message-id:date:mime-version:from:dkim-signature;
-        bh=4jZDxVe1lzlfnQol2wKPVlK+UEmmZiJFMVEpTjlm8Tg=;
-        b=z7fK2DbavQ0VlcS2ZKTvKhWWwrAG9MgXyuXpKTLKSz/y1cTk0iKzO6K+JfGdiKdrYe
-         +dngBTYCA8DZBOdigl546z/nF8MKgZjJKA1qfCwsMMMhphi4OeRf+dGXdsV76nCqXItL
-         xWqTjcuUWjhUHb8aVr/Kq+sEATupeL65DToNsfNCMSADIVIZwXEPS4WdsYdZ96aZ/YZ1
-         p2auKXaiFGuWnzzjjzncx+4CH/45OOGgNnF8y28giWYIZHLKAOGlcMID+uvb+cGozzVF
-         6TSu5frq8JngcLEyCyOcRSOlcTOrErHNLfmPmiAcd/SM/enbPdC3oTmliBImiA4RoOZU
-         s+Ew==
-ARC-Authentication-Results: i=1; mx.google.com;
-       dkim=pass header.i=@codem-composites.com header.s=google header.b=C8oEnHze;
-       spf=pass (google.com: domain of kevin@codem-composites.com designates 209.85.220.41 as permitted sender) smtp.mailfrom=kevin@codem-composites.com;
-       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=codem-composites.com
-Return-Path: <kevin@codem-composites.com>
-Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
-        by mx.google.com with SMTPS id u14sor65832iot.8.2020.09.28.01.10.45
-        for <brandon@innov8displays.co.uk>
-        (Google Transport Security);
-        Mon, 28 Sep 2020 01:10:45 -0700 (PDT)
-Received-SPF: pass (google.com: domain of kevin@codem-composites.com designates 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
-Authentication-Results: mx.google.com;
-       dkim=pass header.i=@codem-composites.com header.s=google header.b=C8oEnHze;
-       spf=pass (google.com: domain of kevin@codem-composites.com designates 209.85.220.41 as permitted sender) smtp.mailfrom=kevin@codem-composites.com;
-       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=codem-composites.com
-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
-        d=codem-composites.com; s=google;
-        h=from:mime-version:date:message-id:subject:to;
-        bh=4jZDxVe1lzlfnQol2wKPVlK+UEmmZiJFMVEpTjlm8Tg=;
-        b=C8oEnHze+ahIGCRtt1wPVrzswg5AMfzxpDkq2i8dkHm46nkg0x47QaHgMEgro7aTeZ
-         PHHL7hSdXrqshtQpZMBSM9jx1/zMIumKbrpcEvR4vHMg405Ba59IOQOJH/wPUXtLR3Vq
-         2QuWjiszRiWefeE79xSQBz90dy+m65xZvQMjFIuJ+HulHMrhkyfoLPfRMZW3ZKgB/Irt
-         lrwa/pzU1zyJZcJEaDLMQVii+8nJRp/w0GHv1LUQa0YKJwJ0CjY4N+eQMZJqiecSdptX
-         Gb0O0SwedOMF1nvNsMLxtFkWV8LzXm1kEry3BNq/aMUQ/SJB+0f2GzTBmYqLEHRvlV+F
-         xOBQ==
-X-Google-Smtp-Source: ABdhPJwb1ny1zhbMUwh3GLleNErQ9MqzIQSblFEdkXallFI30jqSpOnBb8qYta9S0XhzGezEMP4epp7unTtUu/utudU=
-X-Received: by 2002:a02:c8c6:: with SMTP id q6mr249696jao.76.1601280644721;
- Mon, 28 Sep 2020 01:10:44 -0700 (PDT)
-Received: from 696963989851 named unknown by gmailapi.google.com with
- HTTPREST; Mon, 28 Sep 2020 01:10:44 -0700
-From: Kevin Doherty <kevin@codem-composites.com>
-MIME-Version: 1.0
-Date: Mon, 28 Sep 2020 01:10:44 -0700
-Message-ID: <CAK4cLxhL2cOZLZpi+XYTDt4ZoZRUphc=MkHi5QXbJekOsZU5gQ@mail.gmail.com>
-Subject: Quick Question,
-To: brandon@innov8displays.co.uk
-Content-Type: multipart/alternative; boundary="00000000000003c66705b05b3426"
-
------ Message truncated -----
+Final-Recipient: rfc822; brandon@innov8displays.co.uk
+Action: failed
+Status: 5.1.1
+Remote-MTA: dns; gmr-smtp-in.l.google.com. (74.125.202.14, the server for the
+ domain domains.google.com.)
+Diagnostic-Code: smtp; 550-5.1.1 The email account that you tried to reach does not exist. Please try
+ 550-5.1.1 double-checking the recipient's email address for typos or
+ 550-5.1.1 unnecessary spaces. Learn more at
+ 550 5.1.1  https://support.google.com/mail/?p=NoSuchUser l38si17544qta.5 - gsmtp
+Last-Attempt-Date: Mon, 28 Sep 2020 01:10:46 -0700 (PDT)

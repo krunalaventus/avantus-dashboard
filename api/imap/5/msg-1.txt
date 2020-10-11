@@ -1,73 +1,8 @@
-Return-Path: <kevin@codem-comAILER-DAEMON@messagelabs.com>
-To: <kevin@codem-composites.com>
-Subject: Mail Delivery Failure
-Date: Tue, 01 Sep 2020 13:23:56 +0000
+Reporting-MTA: dns; server-1.bemta.az-a.eu-west-1.aws.symcld.net
+Arrival-Date: Tue, 01 Sep 2020 13:23:56 +0000
 
--west-1.aws.symcld.net id 80/53-11775-C6B4E4F5; Tue, 01 Sep 2020 13:23:56 +0000
-Authentication-Results: mx.messagelabs.com; spf=pass 
-  (server-28.tower-268.messagelabs.com: domain of codem-composites.com 
-  designates 209.85.166.182 as permitted sender) 
-  smtp.mailfrom=codem-composites.com; dkim=pass (good signature) 
-  header.i=@codem-composites.com header.s=google; dmarc=pass (p=none 
-  adkim=r aspf=r) header.from=codem-composites.com
-X-Brightmail-Tracker: H4sIAAAAAAAAA+NgFupgleJIrShJLcpLzFFi42K5GLpsm262t1+
-  8wY2pIhZn/+c5MHpM7pzOEsAYxZqZl5RfkcCaMXnWHdaCjpSK34uuMDcw/ojpYuTiEBKYwihx
-  /8gpdhCHReApi8SK641sII6EwA8WiZZpU6GcJkaJq+8uM3cxcgI5RRLrt7YzQdilEg+evAWLC
-  wnkS0y+3ABmswkYSHSc/Q1m8woISpyc+YQFxGYRUJG4Mm0FK0Q8QGLruyVgNcICchLzXs8HWs
-  bBIQJk37gSAWIyC/hIPLiWN4GRbxaSQbMQMiBhZgFNidbtv9khbG2JZQtfM0PYGhIL7uxjRBZ
-  fwMi2itEiqSgzPaMkNzEzR9fQwEDX0NBI19DSVNfI0FQvsUo3US+1VLc8tbhE11AvsbxYr7gy
-  NzknRS8vtWQTIzCoUwoOX9/BeOv1B71DjJIcTEqivJnmfvFCfEn5KZUZicUZ8UWlOanFhxhlO
-  DiUJHjXeQHlBItS01Mr0jJzgBEGk5bg4FES4Q0HSfMWFyTmFmemQ6ROMYZzLNk4bxEzR8evRU
-  Dy3c/FQPL2qiVA8iOY/A4m2zaCyFUHpq9iFmLJy89LlRLnZQMZJwAyLqM0D24ZLIFcYpSVEuZ
-  lZGBgEOIpSC3KzSxBlX/FKM7BqCTMuxVkCk9mXgncTa+AzmUCOveMgy/IuSWJCCmpBib7qddc
-  ZkrkV73lLYjnW5GWJRvm/CiIU6qqe/vjQ70rMtQO/vkh6dNcEnty99vZDw/X33zBFr/XVGaJn
-  6ivdnHfyowAxguP9gr9XMGm8JT1hfNrG/H1bb+PSa4TV8u3OMSjX3zjctlF1rblzE6zrvs5sJ
-  mXNhzWX3Zw1Z7Pwj2zP05muJp0ofMFv9QMT9EqibZzV8V/Ozy65sUlus239s2pN4bXtdT7lXj
-  jrJjsbzCtKHhz6M8Pkc1pl7g4Odv7F103/cC5Z3pHXCP79WOrE4/5BXg+eBduWnEp67m14oyg
-  Y0lC0zsfhmTMYfhlX+lvsDibLSD4w5xHp26n+V3OPpvDJH1+6ed1Mn5zd1y5z6PEUpyRaKjFX
-  FScCADgWJxDmwMAAA==
-X-Env-Sender: kevin@codem-composites.com
-X-Msg-Ref: server-28.tower-268.messagelabs.com!1598966633!276978!1
-X-Originating-IP: [209.85.166.182]
-X-SYMC-ESS-Newsletter-Ignored: YES
-X-StarScan-Received:
-X-StarScan-Version: 9.60.3; banners=-,-,jdwilkie.co.uk
-Received: (qmail 15550 invoked from network); 1 Sep 2020 13:23:54 -0000
-Received: from mail-il1-f182.google.com (HELO mail-il1-f182.google.com) (209.85.166.182)
-  by server-28.tower-268.messagelabs.com with ECDHE-RSA-AES256-GCM-SHA384 encrypted SMTP; 1 Sep 2020 13:23:54 -0000
-Received: by mail-il1-f182.google.com with SMTP id m1so1125211ilj.10
-        for <glynn.jones@jdwilkie.co.uk>; Tue, 01 Sep 2020 06:23:54 -0700 (PDT)
-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
-        d=codem-composites.com; s=google;
-        h=from:mime-version:date:message-id:subject:to;
-        bh=4AsEK5/cWa5UD5NumMoDjl7SRupmOXDVcwtiPf++Vw8=;
-        b=G1Pyb5vPlm3CHNH9Nvaa9oFJLT8cf+NJdEBekfZMsn7EYjXyVenZtujQUaTevq9Mug
-         JaLuG6upgop5kJexY9p/namt02+zwycaX32lKi4o9E0dKC2TfecblYT/1j74kygmfEdm
-         h/UT8IqAqlWU3XlUR00YVL7BvhyBtUI/tpdIu7IyjOT+HucqMbISPAtS5RaVnBOFwuq1
-         Y4DYxyiebtzby/Qy3FG0IsWu/XiiXyIiGPnDDC8CwFzFn4G+9qpPzfOzmWvz7MaPV5SG
-         EY5C+ExwXJeTCuXE1RJ7Hz9sOtqplntdsqkjXbjQQgHqYoY+dcLAjhGPe/jUrZEzcOP6
-         F9yQ==
-X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
-        d=1e100.net; s=20161025;
-        h=x-gm-message-state:from:mime-version:date:message-id:subject:to;
-        bh=4AsEK5/cWa5UD5NumMoDjl7SRupmOXDVcwtiPf++Vw8=;
-        b=DVURbFWbccHTFTeP3ttjaiRRtzbMkTDrR91OIrtF2j/oaSRdytUh8jLTRUb9oDwJGO
-         Aavl4511/LbsGokkUHjCoL746F4ywwRZdDO1wHUzEBn3rFIXmvPVDzovKmfZl4J3T/4Y
-         k8I9XWFtboLjU2q6nhp8ytZplP/IME3gcBEIw6BSssiO9pWh/oGZtGEBVtjrRvFEzRHE
-         mGWG2SIcOdLGJTEasRQTTQd/OW8VaWSl/n87mEMgp8c6tX3bQpzKlO93mM6r8ZtvTlxs
-         LU/VVMZ9UwyniATmc7/xHOY3ql+3sL+I0WLgAZbsyZ7BQUuZYMrlJj1eka4klcNAvtKd
-         YkEg==
-X-Gm-Message-State: AOAM530R9WebPO1zxxFNs0MZeE0HK2AvctyLuodoP0+XKD8d74nnQaqK
-	Mz7pWygVAkvlsJwlYiVVLmf4qKkdxUNjIthQjh4edBHOPAFeow==
-X-Google-Smtp-Source: ABdhPJwnMaYRJsPmkC5Ineo1TJAHa4mJTXaUa8Rx8uUQjZiNT3Q5m9bNNTVQDTTs6LLteW2IjIKp0OyUjz6/yV/kkuc=
-X-Received: by 2002:a92:9996:: with SMTP id t22mr1226681ilk.216.1598966632759;
- Tue, 01 Sep 2020 06:23:52 -0700 (PDT)
-Received: from 696963989851 named unknown by gmailapi.google.com with
- HTTPREST; Tue, 1 Sep 2020 08:23:52 -0500
-From: Kevin Doherty <kevin@codem-composites.com>
-MIME-Version: 1.0
-Date: Tue, 1 Sep 2020 08:23:52 -0500
-Message-ID: <CAK4cLxjV0bsr5h0DWb7g2uAERCtbjiLBjrVujtV0_zka607ccw@mail.gmail.com>
-Subject: Quick Question, Glynn
-To: glynn.jones@jdwilkie.co.uk
-Content-Type: multipart/alternative; boundary="00000000000027520605ae406ecf"
+Final-Recipient: rfc822; glynn.jones@jdwilkie.co.uk
+Action: failed
+Last-Attempt-Date: Tue, 01 Sep 2020 13:23:56 +0000
+Diagnostic-Code: smtp; 550 5.4.1 Recipient address rejected: Access denied. AS(201806281) [DB5EUR03FT051.eop-EUR03.prod.protection.outlook.com]
+Status: 5.4.1

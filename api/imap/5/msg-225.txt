@@ -1,85 +1,9 @@
-Subject: Undeliverable mail: Quick Question, Alasdair
-From: <MAILER-DAEMON@server205.appriver.com>
-To: <kevin@codem-composites.com>
-Date: Mon, 07 Sep 2020 08:25:40 -0400
+Reporting-MTA: dns; server205.appriver.com
 
-; Mon, 07 Sep 2020 08:25:40 -0400
-X-Note: This Email was scanned by AppRiver SecureTide
-X-Note-AR-ScanTimeLocal: 09/07/2020 8:25:40 AM
-X-Note: SecureTide Build: 8/26/2020 12:34:02 PM UTC (2.15.0.0)
-X-Note: Filtered by 10.60.2.242
-X-Note-AR-Scan: None - PIPE
-X-Note: CGHH cor:0907122540007-128844803-394815
-Received: by inbound.appriver.com (CommuniGate Pro PIPE 6.2.15)
-  with PIPE id 128844803; Mon, 07 Sep 2020 08:25:40 -0400
-Received: from [209.85.166.54] (HELO mail-io1-f54.google.com)
-  by inbound.appriver.com (CommuniGate Pro SMTP 6.2.15)
-  with ESMTPS id 128844798 for a.mcewen@4lcommunications.com; Mon, 07 Sep 2020 08:25:38 -0400
-Received: by mail-io1-f54.google.com with SMTP id d190so13797424iof.3
-        for <a.mcewen@4lcommunications.com>; Mon, 07 Sep 2020 05:25:52 -0700 (PDT)
-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
-        d=codem-composites.com; s=google;
-        h=from:mime-version:date:message-id:subject:to;
-        bh=ydYpSXcylr9LWSUESEXWtU9X4qDM3Cwj4KXWsd0LrvQ=;
-        b=Aack4JNBEy/bC0derNlbhQMnUIl8+ZGdLIbtihmgk+rtxVZiC6jk6tJjxHJQJFq9du
-         a7J99c3OgOapTeBwXETQIkMOc6C/fSsQtT6KkwHABfwE78d16ZODKGFqtcDoCgsBxL5c
-         MF7lAtRmgAxY9fRgCh8HCulNFHs7egUN34Atp7SLpHmIb8rxDJR3jYn4nRnKRARDi3EU
-         zjlUXDah/1jMmBpUBMD+clKTEcJ5VwtiMTpMc22q2H/sl1Q/7lu8NNBBujdsy0xc6eCt
-         7LuLCa5H8bLWyWuj24ElhhEljaLzAJ7T8cNy49tuoOF112NfnxViFk6Rg86x88Jv9wBd
-         jvgw==
-X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
-        d=1e100.net; s=20161025;
-        h=x-gm-message-state:from:mime-version:date:message-id:subject:to;
-        bh=ydYpSXcylr9LWSUESEXWtU9X4qDM3Cwj4KXWsd0LrvQ=;
-        b=QT5MQFznnsIn/PXEUmVc0K3KtXM9CLH5ivkjzQ6K+EdxDJhnrLNXrPL3F7TGAfuoNW
-         nGglNfz/YyzmTOTwUo4sOsJF1ZUEU1t+P3dGMVeU2TItirm2OnE9rVS25TH/qBdNyr+u
-         TS6G30qveIsppcMAsWxSl4B+/htQARZrmtR2FU18GQ6iOwHDTGHlVQs/Rr95LDZKkXZB
-         PHkcCvQYhprzjvEMZLSv8jC5nXqxTXnGrJuf7g/+DnjOU9qDPF1TITUrzkF8BMTVqRfd
-         xBynvLik20GYR8fM7OOBAJjqjPRG3y6XR7E/x5E/65m05m0kRyRtpYw4mNxXGtd6bhSv
-         gk9A==
-X-Gm-Message-State: AOAM532fU1iov29Xl4OX6GviKSC9E7Z8b8Mch+w1WxJCs75/VPtWK+Qx
-	wnhTROSh/SfOfDSOkZ5FT2dzpdokjhzLkeiuci4H4tJdMR8=
-X-Google-Smtp-Source: ABdhPJyVyQ5Z5iA45ZPT+LMSs9fqk6g+3C4CN0p+msoaEvHRcA8s3yEMmppRnsegmxXr5CY84U3DGU1kK2RK6vUVTsI=
-X-Received: by 2002:a5e:9916:: with SMTP id t22mr16805357ioj.163.1599481551624;
- Mon, 07 Sep 2020 05:25:51 -0700 (PDT)
-Received: from 696963989851 named unknown by gmailapi.google.com with
- HTTPREST; Mon, 7 Sep 2020 05:25:50 -0700
-From: Kevin Doherty <kevin@codem-composites.com>
-MIME-Version: 1.0
-Date: Mon, 7 Sep 2020 05:25:50 -0700
-Message-ID: <CAK4cLxjqAJYU0DSkPe0sjSC_DdBtP77Y05dvDWW7YUyXU0AyQA@mail.gmail.com>
-Subject: Quick Question, Alasdair
-To: a.mcewen@4lcommunications.com
-Content-Type: multipart/alternative; boundary="000000000000b5b2b405aeb85195"
-X-Note: This Email was scanned by AppRiver SecureTide
-X-Note-AR-ScanTimeLocal: 09/07/2020 8:25:38 AM
-X-Note: SecureTide Build: 8/26/2020 12:34:02 PM UTC (2.15.0.0)
-X-Note: Filtered by 10.60.2.242
-X-Policy: 4lcommunications.com
-X-Primary: 4lcommunications.com@4lcommunications.com
-X-Note-Sender: <kevin@codem-composites.com>
-X-Virus-Scan: V-
-X-Note: SPF: IP: 209.85.166.54  DOM: codem-composites.com ADDR: kevin@codem-composites.com
-X-Note: SPF: Pass
-X-Note: DKIM: Pass: codem-composites.com
-X-Note: DMARC: codem-composites.com p=none sp=none
-X-Note: DMARC: Pass
-X-Note-SnifferID: 100
-X-GBUdb-Analysis: 0, 209.85.166.54, Ugly c=0.387593 p=-0.302326 Source Normal
-X-Signature-Violations:
-	100-1371101-13938-13949-m
-	100-1369684-13937-13949-m
-	100-1371101-0-16447-f
-X-Note-419: 15.6227 ms. Fail:1 Chk:1372 of 1372 total
-X-Note: VSCH-CT/SI: 1-1372/SG:1 9/7/2020 8:25:05 AM
-X-Warn: OPTOUT
-X-Warn: BULKMAILER
-X-Note: Spam Tests Failed: OPTOUT, BULKMAILER
-X-Country-Path: United States of America->
-X-Note-Sending-IP: 209.85.166.54
-X-Note-Reverse-DNS: mail-io1-f54.google.com
-X-Note-Return-Path: kevin@codem-composites.com
-X-Note: User Rule Hits: 
-X-Note: Global Rule Hits: G741 G742 G743 G744 G760 G766 G871 G873 G900 G901 G907 G1199 G1375 
-X-Note: Encrypt Rule Hits: 
-X-Note: Mail Class: VALID
+Original-Recipient: rfc822;<a.mcewen@4lcommunications.com>
+Final-Recipient: rfc822;<a.mcewen@4lcommunications.com>
+Action: failed
+Status: 5.0.0
+Remote-MTA: dns; 4lcommunications-com.mail.protection.outlook.com:25
+Diagnostic-Code: smtp;host 4lcommunications-com.mail.protection.outlook.com:25 says:
+ 550 5.4.1 Recipient address rejected: Access denied. AS(201806281) [QB1CAN01FT007.eop-CAN01.prod.protection.outlook.com]

@@ -144,7 +144,10 @@ exports.getEmailDetail = async function(params, res) {
                     console.log("==================================")
                     console.log(element.id)
                 }
-                const gdata= (data ?? '');
+                //const gdata= (data ?? '');
+                var gdata = new Buffer(data.replace(/=([A-Fa-f0-9]{2})/g, function(m, byte) {
+                  return String.fromCharCode(parseInt(byte, 16));
+                }), 'binary').toString('utf8');
                 // .replace(/3D"/g, '"').replace(/=09/g,'').replace(/=20/g,'').replace(/=C2=A0=/g,'').replace(/=C2=A0/g,'').replace(/=C2=A9/g,'').replace(/=E2=82=B9/g,'').replace(/<=\r\n/g, '<').replace(/=\r\n/g,'');
                 response.push({data: element, body: gdata})
                 loopno = loopno + 1;

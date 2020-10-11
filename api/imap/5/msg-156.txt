@@ -3,36 +3,10 @@ Date: Mon, 07 Sep 2020 01:01:06 -0700 (PDT)
 From: Mail Delivery Subsystem <mailer-daemon@googlemail.com>
 Subject: Delivery Status Notification (Failure)
 
-tYDtUdWJplCJnoSJYiI=;
-        b=ioysZgz/B0gt45VzrSX5UzIel+8v5QqO1E9inbJRUc6WMU6G+P774MFXzILOrg0anf
-         AbOuZipRlbzQrKqMla4dIPFKgzOqQqFUryBa4tzqxYgIX0umeZ0dn0NwFEW1h8hiSA9J
-         Qo2t4vrav8Wrx4AAGHq3kyCVfTD0RCblHiDSBaSejYv6yX7M4wdljxelQKbBCO3nhKh9
-         DxIOz5ku0U4gqEP/1l7+ZlkSeElFu9i6OmWkIHYY1YY/0O3p33tNur0v4vY77TLE7hvD
-         gI2Ubvp7NyXK6xXKzntu6KjSKRPyh+ZhkBi+GDplV9UN8vskvSFZYP/tVhkB21/gsQO3
-         G46A==
-X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
-        d=1e100.net; s=20161025;
-        h=x-gm-message-state:from:mime-version:date:message-id:subject:to;
-        bh=utuvUW974ZU4J/GLeXvtyhxetYDtUdWJplCJnoSJYiI=;
-        b=Wl7twjGCUjsAFy3MEUFBwgpPL+JuvKnPLdAgp5bVJZPhTwBVecCZ9rREDNoVhRvGlc
-         BKo8BJlPtQxLeUXtcidfP8rV1DY6d1PHEth5+nS2bFtl35WsumON56HYmlINjJTeIvOy
-         oB3wwruhjkJh7XjAzuFpR20ROm7Vn4K3WL6y7r0Y2wvZOSJfYiDra2EOJH9wSVGELlN6
-         8gIIrfJneIjI1UQE6X7g2Nk9iQMsVlCuMobz/oNPYikZl2dWnteVeYdHYMNp+Wx6LDfA
-         xmcw2kgLtkhAYg6G3eZPUCbmhvdM74CKLIL1T1hqebUk/DAtLoLH2c8jgawvNwRVBmYN
-         xWzQ==
-X-Gm-Message-State: AOAM5308mU4uDz0EIP5NMTfT7RZP5G7mqMW68DRvFQEGoJk96cWRfFSG
-	G/GMfIvAwi0sreOUkprLipEboj15Y2NoN+rI0sw+70PZcWM=
-X-Google-Smtp-Source: ABdhPJxLMcReCM2zMGxF+wmNmSbxzqTUelAbs4Ms6dDGDljJSvQrcPqgMW0zVfO5X1EYxOZcmHvQ211V9xUMyJsLDmw=
-X-Received: by 2002:a92:9996:: with SMTP id t22mr17439445ilk.216.1599465665037;
- Mon, 07 Sep 2020 01:01:05 -0700 (PDT)
-Received: from 696963989851 named unknown by gmailapi.google.com with
- HTTPREST; Mon, 7 Sep 2020 01:01:04 -0700
-From: Kevin Doherty <kevin@codem-composites.com>
-MIME-Version: 1.0
-Date: Mon, 7 Sep 2020 01:01:04 -0700
-Message-ID: <CAK4cLxj-7r73vZqfm5X_PKg4gDg7z0oO95OvHDsP+Kp_EJfe8w@mail.gmail.com>
-Subject: Quick Question, Dean
-To: dean.scalesmcgi@babcockinternational.com
-Content-Type: multipart/alternative; boundary="000000000000cb9c8e05aeb49e8c"
-
------ Message truncated -----
+Recipient: rfc822; dean.scalesmcgi@babcockinternational.com
+Action: failed
+Status: 5.1.1
+Remote-MTA: dns; mxb-001c8e01.gslb.pphosted.com. (148.163.158.182, the server
+ for the domain babcockinternational.com.)
+Diagnostic-Code: smtp; 550 5.1.1 User Unknown
+Last-Attempt-Date: Mon, 07 Sep 2020 01:01:06 -0700 (PDT)

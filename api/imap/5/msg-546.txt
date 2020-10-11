@@ -3,39 +3,10 @@ Date: Wed, 16 Sep 2020 01:37:25 -0700 (PDT)
 From: Mail Delivery Subsystem <mailer-daemon@googlemail.com>
 Subject: Delivery Status Notification (Failure)
 
-6Veqkev27xocUAS9y4p9ryub4cviiRaWMayutdZxEQ=;
-        b=W54vLoOWaVvrHHOxtrYOGaZ0ZAf9DLofrSkL1Ay4Dfmq+K/0p7InIiVgKBgoXgAIWX
-         V3bk18DeC6zXEuJQyWxQbLzh6JWnLuaAnQtUPKvIXm/f5heSuSNyY2u6qVDjGhsr1suK
-         Ci7cNvAGJlwYHIdJoVcU31h5MpvhK6JghvCxKrNiR+ZJOERliC4aeHR2KdkWQjBp2jIP
-         GbRQd3HHspJRgcuFBNWJRcxsURK7FXpp+RNSfiMo2RJW7LVk6IdOccef8Y1x4YTDilc0
-         gJfRGtVBkCUUJY4g7R06sbxGp2F6F8FjNdT5CYe7WNae0nEcZCxyMBBJd2VY0VPGIc7k
-         AA8w==
-X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
-        d=1e100.net; s=20161025;
-        h=x-gm-message-state:from:in-reply-to:references:mime-version:date
-         :message-id:subject:to;
-        bh=X6Veqkev27xocUAS9y4p9ryub4cviiRaWMayutdZxEQ=;
-        b=bjWeWCdbjit6F6xWtZFS6TFR0ws2BCAi4ZqdaWKV56RI2Atx7rKcvTHAnjoKrU9Klr
-         0c/ObInodKlrU0y0zPL0Lzd7N5kJjmNaext334UyCzEhlPe+ojhv+vH4zAT+dVYZw4fa
-         WousH+k8Qd3tK/TfH0WpFjPG4yq7L6pMHcq8H0pwRDAtga6gtN38a/01UBbWwngmyhig
-         WHL5KxmiA2z2ak7AZX8lETO4wSPzJZasHxn7eoSLMyW0wUFYesatsWx9krrSKwWA+i6D
-         5VpjBq8Nkh8vf8YOIGuwX3csUxn74uHMkgOsOKEmwTcksJgob3h5YZl25hCYXSQOQUZx
-         /RRw==
-X-Gm-Message-State: AOAM5326UoZZR3AVGwqV2BPLt8BlOQr2nbtCjSMaLqsGvgduv7ooapyB
-	CldYUqquJIegE+z3e+JHVpkOoVSYw+p69yUSRDBZEoQLnfQ=
-X-Google-Smtp-Source: ABdhPJzHdSn8+AS06ddDaVLLbB/zg0+2mAb/SEW+OMHqXgIY/T/CAY2o/2BdfRfOJoxtRMg3MtKaUFfmifKQ/lJ3pVE=
-X-Received: by 2002:a02:c6ce:: with SMTP id r14mr11205418jan.42.1600245444601;
- Wed, 16 Sep 2020 01:37:24 -0700 (PDT)
-Received: from 696963989851 named unknown by gmailapi.google.com with
- HTTPREST; Wed, 16 Sep 2020 01:37:23 -0700
-From: Kevin Doherty <kevin@codem-composites.com>
-In-Reply-To: <CAK4cLxg+kqGat-bNSJbrL-1gpc2ByXbgeJbm0A56YDyj9NHxrQ@mail.gmail.com>
-References: <CAK4cLxg+kqGat-bNSJbrL-1gpc2ByXbgeJbm0A56YDyj9NHxrQ@mail.gmail.com>
-MIME-Version: 1.0
-Date: Wed, 16 Sep 2020 01:37:23 -0700
-Message-ID: <CAK4cLxhOrA2bqdBXEbhn+p4RPjLohAYrtVXE=6cHaXX5K_9OzA@mail.gmail.com>
-Subject: Quick Question, Mike
-To: mike.phelps@baesystems.com
-Content-Type: multipart/alternative; boundary="000000000000477f6105af6a2d00"
-
------ Message truncated -----
+Recipient: rfc822; mike.phelps@baesystems.com
+Action: failed
+Status: 5.0.0
+Remote-MTA: dns; dmzms99901.na.baesystems.com. (149.32.200.65, the server for
+ the domain baesystems.com.)
+Diagnostic-Code: smtp; 550 #5.7.1 Your access to submit messages to this e-mail system has been rejected.
+Last-Attempt-Date: Wed, 16 Sep 2020 01:37:25 -0700 (PDT)

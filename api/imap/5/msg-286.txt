@@ -1,36 +1,11 @@
-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
-        d=codem-composites.com; s=google;
-        h=from:mime-version:date:message-id:subject:to;
-        bh=kRoG3uGOiFpU6ALyunIJ2pocmd61bYjAU0Hg2DMFM+c=;
-        b=eltM0HNn5mzgppkf38qEqJgHjROpzDPV6hUjow19CXMkNk1nExHwcBo7wGwrcf9XOY
-         51eX3GTYl58Cco1E48Wg90h0G9bfaK4ZVJfaUoxBD7vyeuQmwZat+aeLOm0qBqdxg5u2
-         pe7L5LkIPxWe+9Tq90gOnyMvYymp7rZw20ABUdmsbShli93NjhWr+u3BK0aTuWCBAA2j
-         Q6mhezRhEl48HKIUtNbZmMDVn2M4l2OOz4fWhMOsQdVx+5LCBcgcLRFgu8JGcEf03US0
-         rooLd7AHKa50q0U8IQPFUwLI0SYf3vWd+ws0Htd0yGuUGyBphdaz4oyGBxkT3e4+EaCN
-         9q7g==
-X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
-        d=1e100.net; s=20161025;
-        h=x-gm-message-state:from:mime-version:date:message-id:subject:to;
-        bh=kRoG3uGOiFpU6ALyunIJ2pocmd61bYjAU0Hg2DMFM+c=;
-        b=BxUpBLVUlrOAXj3o1k5l26zVz/RNl3NiBm34ekJslAzj0rexXrv8wXtW6Bkf/KqmMz
-         hEms0eBq4wIaH2XsxmEB25ub/xoLzlKOdIhusRg/okGlo4d84/t7Hnw1yfDfmivfuhsC
-         GWrp2ex/eYllhktWfMIy8hY0nrCtJyMQBMNy6RC2256ANouL+Cco1gcx2VZYxNdmapBo
-         JbkzPFHhBDnxkM7KJ6oZjIHqen+Jcp9zxPjLX0omSDf2QVuoWxwNFMvX6akE4a7fsr+X
-         bsITAr9bXBy4Cp82qipOx+nnf8O3RgFBIUFwg7VVytYHUSSGFGEWZ0yTeF6s2vbC8lAV
-         Hc/A==
-X-Gm-Message-State: AOAM531tdKK10yjkSJ2fp1+cXdfwNanmXu1JqyyVpvum8nD6SNnl91jc
-	1Dm6O8snlRt3mSgbNHyoZYXTL0J43YpEtqnEQOVIYedLkIU=
-X-Google-Smtp-Source: ABdhPJwtHwDWbC1iTiJE1N4Xpx3npZ4djrtCRvsZgaaeN0G+VmH3HU7fSUiFxFCnPTK66xasliElgG1bU21k9fbONtM=
-X-Received: by 2002:a02:a1d3:: with SMTP id o19mr23757159jah.90.1599560811935;
- Tue, 08 Sep 2020 03:26:51 -0700 (PDT)
-Received: from 696963989851 named unknown by gmailapi.google.com with
- HTTPREST; Tue, 8 Sep 2020 10:26:51 +0000
-From: Kevin Doherty <kevin@codem-composites.com>
-MIME-Version: 1.0
-Date: Tue, 8 Sep 2020 10:26:51 +0000
-Message-ID: <CAK4cLxjaDZKFTo+MYXrdRa2rqOBn0E-_JtWcr0zdMCmP0CBg=Q@mail.gmail.com>
-Subject: Quick Question, Michael
-To: michael.ledger@babcockinternational.com
-Content-Type: multipart/alternative; boundary="000000000000fe10f505aecac5e0"
+Reporting-MTA: dns; googlemail.com
+Arrival-Date: Tue, 08 Sep 2020 03:26:51 -0700 (PDT)
+X-Original-Message-ID: <CAK4cLxjaDZKFTo+MYXrdRa2rqOBn0E-_JtWcr0zdMCmP0CBg=Q@mail.gmail.com>
 
------ Message truncated -----
+Final-Recipient: rfc822; michael.ledger@babcockinternational.com
+Action: failed
+Status: 5.1.1
+Remote-MTA: dns; mxb-001c8e01.gslb.pphosted.com. (148.163.158.182, the server
+ for the domain babcockinternational.com.)
+Diagnostic-Code: smtp; 550 5.1.1 User Unknown
+Last-Attempt-Date: Tue, 08 Sep 2020 03:26:52 -0700 (PDT)

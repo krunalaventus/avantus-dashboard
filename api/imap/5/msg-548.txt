@@ -1,39 +1,12 @@
-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
-        d=codem-composites.com; s=google;
-        h=from:in-reply-to:references:mime-version:date:message-id:subject:to;
-        bh=YyM4zsL0OYsgFuxT+rqE4YRr0LmI3eVNLQZKviA7/dA=;
-        b=mhoT5KYCOc78Oy3nFVD+9w6s3Kl4GfhdFUHNItr6IzkZfST9j/3tagdlL6wj5W9UFp
-         tlMFmgtdKHC7f5YbL8kobUiHT9hfHQ3WAZJ11sfKHA+IflqMK9BDhO+F67G2NE++9mvk
-         pNLZxUznX1LVFvIYTSDwHo1jMoLS9SNVcE80zsN2gpM645oTc/Ofp/KV1WSFtfoCFk9r
-         DgtuzgnIxQ4XKRiSPUTPcr1OBaZPx/sRFsfGU5UDPPBVtSUCErmpWyOu8Cnm/R1XpJKT
-         lOongW/g9NW5z4ZOCqt3fuJMJmg3eT+v32ac7BJk0qNb4kJuj9bhFVm+v2GB2zaXD2YG
-         VeGA==
-X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
-        d=1e100.net; s=20161025;
-        h=x-gm-message-state:from:in-reply-to:references:mime-version:date
-         :message-id:subject:to;
-        bh=YyM4zsL0OYsgFuxT+rqE4YRr0LmI3eVNLQZKviA7/dA=;
-        b=hwv+xwx4kIc5rFryKwULH2vxQ3yZ7T9G/1z4hE/P9F1A14LNV6Nzm8LYn8f05n6sKT
-         bQsgi23KdCkWV+o9BeGhcQYPUUVobwjVqWUVXXh9VoKXKfW3i7COkcv++zUS44cEHZza
-         morefDis+nreG0SDEqz1vBeW687ZHN6Jk13WfziUOxi9eCY6YCivI/EQC6iqXB/hLvtb
-         sSOpC49NGr2AUKkFEWKLT73p2GoP6QMesWZu73zhlpRZ23X/VVWJLJ6qoMjALyW9JUZ3
-         4hj2JQoTh3okeu9PRExX4vplMT4BAi5l6hRaoYHFUPa5dakwbPC8eXpRRmlmp52q1JRa
-         TvDg==
-X-Gm-Message-State: AOAM530YDQkhH7jFlHhxSBUcJB+CnUEasQIkR/44w8HNmBc90vkVj/mx
-	lM+wCv0A6iscLcKT2tIcjUEwgkO8SZbOC+xdS7rsUeNKaQQ=
-X-Google-Smtp-Source: ABdhPJyn6wudCFOewEXe6A9HZy5EirUi+wrcoSfRvVeCgTj7uNH4hj6c2z22B/lPEaScEJWdyj5UqoifT1gKB4icj6g=
-X-Received: by 2002:a02:ccae:: with SMTP id t14mr13658109jap.63.1600245811756;
- Wed, 16 Sep 2020 01:43:31 -0700 (PDT)
-Received: from 696963989851 named unknown by gmailapi.google.com with
- HTTPREST; Wed, 16 Sep 2020 01:43:31 -0700
-From: Kevin Doherty <kevin@codem-composites.com>
-In-Reply-To: <CAK4cLxi7r8oUfM8CBBucu-pvYrSaXw-fOTG_eAAFD=sO6G++0w@mail.gmail.com>
-References: <CAK4cLxi7r8oUfM8CBBucu-pvYrSaXw-fOTG_eAAFD=sO6G++0w@mail.gmail.com>
-MIME-Version: 1.0
-Date: Wed, 16 Sep 2020 01:43:31 -0700
-Message-ID: <CAK4cLxhE2+KNr1rWeqL1ji_3To2iCX4A=xgXYybeXN1LuNR_9A@mail.gmail.com>
-Subject: Quick Question, Neil
-To: neil.clarke@baesystems.com
-Content-Type: multipart/alternative; boundary="00000000000029cff705af6a4347"
+To: kevin@codem-composites.com
+Date: Wed, 16 Sep 2020 01:43:32 -0700 (PDT)
+From: Mail Delivery Subsystem <mailer-daemon@googlemail.com>
+Subject: Delivery Status Notification (Failure)
 
------ Message truncated -----
+Recipient: rfc822; neil.clarke@baesystems.com
+Action: failed
+Status: 5.0.0
+Remote-MTA: dns; dmzms99901.na.baesystems.com. (149.32.200.65, the server for
+ the domain baesystems.com.)
+Diagnostic-Code: smtp; 550 #5.7.1 Your access to submit messages to this e-mail system has been rejected.
+Last-Attempt-Date: Wed, 16 Sep 2020 01:43:32 -0700 (PDT)

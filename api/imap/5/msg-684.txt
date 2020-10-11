@@ -1,38 +1,11 @@
-To: kevin@codem-composites.com
-Date: Mon, 21 Sep 2020 02:48:22 -0700 (PDT)
-From: Mail Delivery Subsystem <mailer-daemon@googlemail.com>
-Subject: Delivery Status Notification (Failure)
+Reporting-MTA: dns; googlemail.com
+Arrival-Date: Mon, 21 Sep 2020 02:48:20 -0700 (PDT)
+X-Original-Message-ID: <CAK4cLxjbfJrdWYmcZpKK+5ijFyLaWOYnkBPH1GsrXch=CJdwzw@mail.gmail.com>
 
-XFttTCju/9UrT2JgCmE=;
-        b=HvGdUNFAvcqPKHpIiXNFPynBwYWTRBR75eLC06Nyj/5sxxfOvqS2PtMdTM3KchXDk5
-         JAWcBV8nVygpSsWuEGLqehUjZgbrVH1GOxKBnmDEDZy+a+8TWuFYElY8PYDabWMSjFTp
-         cdrzSOyf1RbzUWZSy7/durnsVF4tF5kT/W7hp9jNznNRuAwa/WhOWXuk9T0WxSr5jJZX
-         bfwQQUuWbc3T2/R4nl+1xXYw2E2+HoLuCNwweThJslqg5vXZIcarleewbGBpzV3zwmWL
-         YXdi17cPCl9SrZ6+IyAxjWG5PryfGljeq3OHgArDHtxfw5BENJc9uNV5/zFYZW3SPSKk
-         ax5g==
-X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
-        d=1e100.net; s=20161025;
-        h=x-gm-message-state:from:mime-version:date:message-id:subject:to;
-        bh=38u+YeQIJQKKrBlNm8yBTiryXFttTCju/9UrT2JgCmE=;
-        b=PlM/6LGK3Syq7kGsxvUvJB9IjKC4xHrdnMk5qGo7m6z8dnViKdQxhQWo+YsebI/SZe
-         borf2l1Cztja05x4urqSRePcFW1ALyToFco1sYh0UBANzaMqnsc+Cp5/B5hPrxvv61YH
-         BSRIZeJ41p8e8giVsljzf+g6w8J4K8x0MmqwSOyiEqJQIiCpCAYqHnC4en3Px+Wi3ees
-         ysiXtd6TowHi2o0Dy+iUupxmYqNXRDTEuO68koqzm1fuqMcjqyA/cySvFwYYdLjSw9VD
-         TIuOblcWJRr2XiH8q3Y+e6NLcUi4Ybc2Mz1pkppCCE4zKUa7l1sbPCaIn5HTuYxAgXD6
-         yEiA==
-X-Gm-Message-State: AOAM532/PjH2G9aPWpeM+d9k3zmv135l/tyIa+l92BMjv18meyH4aq96
-	NbiakWFSMGglQ8wTynJ50sIhApD6WNnQiIi/dwlk440ioLk=
-X-Google-Smtp-Source: ABdhPJw0OnB0yx1ib9aXjBSwyM8XJlT0nGp5euGyqBvqbuaJmqCSAtJJuynTCUe0oWxVnqZbYnYpRZ3HwuvjqttVbIU=
-X-Received: by 2002:a92:1b8b:: with SMTP id f11mr22140680ill.216.1600681700873;
- Mon, 21 Sep 2020 02:48:20 -0700 (PDT)
-Received: from 696963989851 named unknown by gmailapi.google.com with
- HTTPREST; Mon, 21 Sep 2020 02:48:20 -0700
-From: Kevin Doherty <kevin@codem-composites.com>
-MIME-Version: 1.0
-Date: Mon, 21 Sep 2020 02:48:20 -0700
-Message-ID: <CAK4cLxjbfJrdWYmcZpKK+5ijFyLaWOYnkBPH1GsrXch=CJdwzw@mail.gmail.com>
-Subject: Quick Question, Anthony
-To: anthony.gabriel@energizer.com
-Content-Type: multipart/alternative; boundary="0000000000002de95805afcfc062"
-
------ Message truncated -----
+Final-Recipient: rfc822; anthony.gabriel@energizer.com
+Action: failed
+Status: 5.0.0
+Remote-MTA: dns; us-smtp-inbound-1.mimecast.com. (205.139.110.242, the server
+ for the domain energizer.com.)
+Diagnostic-Code: smtp; 554 Email rejected due to security policies - https://community.mimecast.com/docs/DOC-1369#554 [_9Mza7egOui0fVSAmmYjrQ.us478]
+Last-Attempt-Date: Mon, 21 Sep 2020 02:48:22 -0700 (PDT)

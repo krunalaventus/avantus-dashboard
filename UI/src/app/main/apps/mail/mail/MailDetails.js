@@ -57,7 +57,12 @@ function MailDetails(props) {
 								{email.data.email_subject}
 							</Typography>
 						</FuseAnimate>
-						<div className="flex flex-wrap mt-8 -mx-2">{email.data.x_gm_label}</div>
+						<MailChip
+							className="mx-2 mt-4"
+							title={email.data.x_gm_label}
+							color="#D3D3D3"
+							key={email.data.x_gm_label}
+						/>
 					</div>
 				</div>
 
