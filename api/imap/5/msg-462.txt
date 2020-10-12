@@ -1,0 +1,9 @@
+Reporting-MTA: dns;DBAPR03MB6599.eurprd03.prod.outlook.com
+Received-From-MTA: dns;mail-io1-f68.google.com
+Arrival-Date: Mon, 14 Sep 2020 07:49:56 +0000
+
+Final-Recipient: rfc822;coleliam@bombardier.com
+Action: failed
+Status: 5.1.10
+Diagnostic-Code: smtp;550 5.1.10 RESOLVER.ADR.RecipientNotFound; Recipient coleliam@bombardier.com not found by SMTP address lookup
+

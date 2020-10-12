@@ -1,0 +1,6 @@
+Reporting-MTA: dns; ironport.sdaletech.com
+
+Final-Recipient: rfc822;cdakers@first-engr.com
+Action: failed
+Status: 5.0.0 (permanent failure)
+Diagnostic-Code: smtp; 5.1.1 - Bad destination email address 'reject' (delivery attempts: 0)

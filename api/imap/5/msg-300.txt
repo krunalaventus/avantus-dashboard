@@ -1,0 +1,12 @@
+From: <postmaster@popeinc.com>
+To: <kevin@codem-composites.com>
+Date: Tue, 8 Sep 2020 12:11:57 +0000
+Subject: Undeliverable: {EXT} Quick Question, Neil
+
+0 12:11:57 +0000
+
+Final-Recipient: rfc822;popen@popeinc.com
+Action: failed
+Status: 5.1.10
+Diagnostic-Code: smtp;550 5.1.10 RESOLVER.ADR.RecipientNotFound; Recipient popen@popeinc.com not found by SMTP address lookup
+

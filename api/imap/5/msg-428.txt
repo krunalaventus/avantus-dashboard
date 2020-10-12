@@ -1,0 +1,11 @@
+From: <postmaster@bombardierinc.com>
+To: <kevin@codem-composites.com>
+Date: Fri, 11 Sep 2020 13:12:19 +0000
+Subject: Undeliverable: Quick Question, John
+
+
+Final-Recipient: rfc822;hjohn@bombardier.com
+Action: failed
+Status: 5.1.10
+Diagnostic-Code: smtp;550 5.1.10 RESOLVER.ADR.RecipientNotFound; Recipient hjohn@bombardier.com not found by SMTP address lookup
+

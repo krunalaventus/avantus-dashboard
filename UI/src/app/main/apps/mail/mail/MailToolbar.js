@@ -20,15 +20,14 @@ function MailToolbar(props) {
 	const matchParams = { ...routeParams };
 	delete matchParams.mailId;
 	const deselectUrl = toPath(matchParams);
-
-	if (!mail) {
-		return null;
-	}
+	// if (!mail) {
+	// 	return null;
+	// }
 
 	return (
 		<div className="flex flex-1 items-center justify-between overflow-hidden sm:px-16">
 			<IconButton onClick={() => props.history.push(deselectUrl)}>
-				<Icon>{theme.direction === 'ltr' ? 'arrow_back' : 'arrow_forward'}</Icon>
+				<Icon>arrow_back</Icon>
 			</IconButton>
 		</div>
 	);

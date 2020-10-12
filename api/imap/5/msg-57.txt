@@ -1,0 +1,11 @@
+Reporting-MTA: dns; DFDOR134.tsi.ddc.mydorma.com
+X-Postfix-Queue-ID: 704332004D
+X-Postfix-Sender: rfc822; kevin@codem-composites.com
+Arrival-Date: Thu,  3 Sep 2020 11:39:11 +0200 (CEST)
+
+Final-Recipient: rfc822; hang@advanced-diagnostics.com
+Original-Recipient: rfc822;hang@advanced-diagnostics.com
+Action: failed
+Status: 5.0.0
+Remote-MTA: dns; azwe00001.ddc.mydorma.com
+Diagnostic-Code: smtp; 550 hang@advanced-diagnostics.com... No such user

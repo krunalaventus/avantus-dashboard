@@ -1,0 +1,12 @@
+Date: Fri, 4 Sep 2020 16:13:50 +0200
+From: Mail Delivery Subsystem
+ <MAILER-DAEMON@SAF-FRWRG1-NA62.public.bastion.oob.saf>
+To: <kevin@codem-composites.com>
+Subject: Returned mail: see transcript for details
+
+oup.com
+Action: failed
+Status: 5.1.1
+Remote-MTA: DNS; roxel3.snecma.fr
+Diagnostic-Code: SMTP; 550 5.1.1 Utilisateur Inconnu
+Last-Attempt-Date: Fri, 4 Sep 2020 16:13:50 +0200

@@ -1,0 +1,10 @@
+Reporting-MTA: dns;CWLP123MB2403.GBRP123.PROD.OUTLOOK.COM
+Received-From-MTA: dns;GBR01-CWL-obe.outbound.protection.outlook.com
+Arrival-Date: Thu, 17 Sep 2020 10:27:26 +0000
+
+Final-Recipient: rfc822;matthew@d2hengineering.com
+Action: failed
+Status: 5.4.14
+Diagnostic-Code: smtp;554 5.4.14 Hop count exceeded - possible mail loop ATTR34 [LO2GBR01FT006.eop-gbr01.prod.protection.outlook.com]
+Remote-MTA: dns;LO2GBR01FT006.mail.protection.outlook.com
+

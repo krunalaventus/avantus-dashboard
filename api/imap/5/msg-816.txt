@@ -1,0 +1,15 @@
+Reporting-MTA: dns; googlemail.com
+Received-From-MTA: dns; kevin@codem-composites.com
+Arrival-Date: Mon, 28 Sep 2020 01:10:45 -0700 (PDT)
+X-Original-Message-ID: <CAK4cLxhL2cOZLZpi+XYTDt4ZoZRUphc=MkHi5QXbJekOsZU5gQ@mail.gmail.com>
+
+Final-Recipient: rfc822; brandon@innov8displays.co.uk
+Action: failed
+Status: 5.1.1
+Remote-MTA: dns; gmr-smtp-in.l.google.com. (74.125.202.14, the server for the
+ domain domains.google.com.)
+Diagnostic-Code: smtp; 550-5.1.1 The email account that you tried to reach does not exist. Please try
+ 550-5.1.1 double-checking the recipient's email address for typos or
+ 550-5.1.1 unnecessary spaces. Learn more at
+ 550 5.1.1  https://support.google.com/mail/?p=NoSuchUser l38si17544qta.5 - gsmtp
+Last-Attempt-Date: Mon, 28 Sep 2020 01:10:46 -0700 (PDT)

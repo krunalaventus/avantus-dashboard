@@ -1,0 +1,9 @@
+Reporting-MTA: dns;HCMAIL2.hotcourses.com
+Received-From-MTA: dns;au-smtp-1.mimecast.com
+Arrival-Date: Wed, 2 Sep 2020 08:09:35 +0000
+
+Final-Recipient: rfc822;sedky.mohamed@thecompleteuniversityguide.co.uk
+Action: failed
+Status: 5.1.1
+Diagnostic-Code: smtp;550 5.1.1 RESOLVER.ADR.RecipNotFound; not found
+

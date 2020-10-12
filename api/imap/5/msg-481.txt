@@ -1,0 +1,10 @@
+From: <postmaster2010@arval.fr>
+To: <kevin@codem-composites.com>
+Date: Mon, 14 Sep 2020 11:17:40 +0200
+Subject: Undeliverable: Quick Question, Gino
+
+-Recipient: rfc822;gino.coni@arval.com
+Action: failed
+Status: 5.1.10
+Diagnostic-Code: smtp;550 5.1.10 RESOLVER.ADR.RecipientNotFound; Recipient not found by SMTP address lookup
+

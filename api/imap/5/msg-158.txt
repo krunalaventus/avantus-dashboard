@@ -1,0 +1,10 @@
+From: <postmaster@leonardo.com>
+To: <kevin@codem-composites.com>
+Date: Mon, 7 Sep 2020 04:07:18 -0400
+Subject: Undeliverable: Quick Question, Jon
+
+rfc822;jon.steele@leonardo.com
+Action: failed
+Status: 5.1.1
+Diagnostic-Code: smtp;550 5.1.1 RESOLVER.ADR.RecipNotFound; not found
+

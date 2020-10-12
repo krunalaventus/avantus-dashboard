@@ -1,0 +1,9 @@
+Reporting-MTA: dns;DB7PR07MB5146.eurprd07.prod.outlook.com
+Received-From-MTA: dns;mail-il1-f175.google.com
+Arrival-Date: Wed, 2 Sep 2020 09:54:28 +0000
+
+Final-Recipient: rfc822;colin.bolton@paintservices.com
+Action: failed
+Status: 5.1.10
+Diagnostic-Code: smtp;550 5.1.10 RESOLVER.ADR.RecipientNotFound; Recipient colin.bolton@paintservices.com not found by SMTP address lookup
+

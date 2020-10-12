@@ -7,7 +7,7 @@ import  Emails from '../models/emails';
 import ImapEmails from '../models/imapemails';
 const path = require('path'); 
 const empty = require('empty-folder');
-cron.schedule('* * * * *', async function() {
+cron.schedule('0 */12 * * *', async function() {
   console.log("=========================start=========================")
     try{
       empty('./imap', false, (o)=>{
@@ -41,7 +41,7 @@ cron.schedule('* * * * *', async function() {
             if (err) throw err;
             imap.search([ ['x-gm-labels', 'Test'] ], function(err, results) {
               if (err) throw err;
-              var f = imap.fetch(`1:*`, { bodies: ['HEADER.FIELDS (FROM TO SUBJECT DATE)','BODY']});
+              var f = imap.fetch(`1:*`, { bodies: ['HEADER.FIELDS (FROM TO SUBJECT DATE)','2']});
               f.on('message', function(msg, seqno) {
                 let imapEmails =  {
                   email_date:'',
@@ -71,13 +71,13 @@ cron.schedule('* * * * *', async function() {
                   stream.on('data', function(chunk) {
                     count += chunk.length;
                     buffer += chunk.toString('utf8');
-                    if (info.which === 'BODY')
+                    if (info.which === '2')
                     {
                       // console.log(prefix + 'Body [%s] (%d/%d)', inspect(info.which), count, info.size);
                     }
                   });
                   stream.once('end', function() {
-                    if (info.which !== 'BODY')
+                    if (info.which !== '2')
                     {
                       const rawData=inspect(Imap.parseHeader(buffer))
                                     .replace(/\n/g,'')

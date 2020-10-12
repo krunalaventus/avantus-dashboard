@@ -1,0 +1,10 @@
+From: <postmaster@Cummins365.onmicrosoft.com>
+To: <kevin@codem-composites.com>
+Date: Thu, 17 Sep 2020 08:43:08 +0000
+Subject: Undeliverable: Quick Question, John
+
+ient: rfc822;john.green@cummins.com
+Action: failed
+Status: 5.1.10
+Diagnostic-Code: smtp;550 5.1.10 RESOLVER.ADR.RecipientNotFound; Recipient john.green@cummins.com not found by SMTP address lookup
+

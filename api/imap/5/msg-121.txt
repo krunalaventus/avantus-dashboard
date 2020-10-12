@@ -1,0 +1,11 @@
+From: <postmaster@paradigm.com>
+To: <kevin@codem-composites.com>
+Date: Fri, 4 Sep 2020 08:58:51 -0400
+Subject: Undeliverable: Quick Question, Jon
+
+ecipient: rfc822;jgodfrey@paradigm.com
+Final-Recipient: rfc822;jgodfrey@paradigm.com
+Action: failed
+Status: 5.1.10
+Diagnostic-Code: smtp;550 5.1.10 RESOLVER.ADR.RecipientNotFound; Recipient not found by SMTP address lookup
+

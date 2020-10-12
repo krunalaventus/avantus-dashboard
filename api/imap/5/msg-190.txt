@@ -1,0 +1,11 @@
+From: <postmaster@arriva.co.uk>
+To: <kevin@codem-composites.com>
+Date: Mon, 7 Sep 2020 10:05:00 +0000
+Subject: Undeliverable: Quick Question, Kevin
+
+
+Final-Recipient: rfc822;firtefciltk@arriva.co.uk
+Action: failed
+Status: 5.1.10
+Diagnostic-Code: smtp;550 5.1.10 RESOLVER.ADR.RecipientNotFound; Recipient firtefciltk@arriva.co.uk not found by SMTP address lookup
+

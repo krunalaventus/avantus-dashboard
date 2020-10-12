@@ -1,0 +1,10 @@
+From: <postmaster@southcomm.com>
+To: <kevin@codem-composites.com>
+Date: Fri, 18 Sep 2020 10:28:56 +0000
+Subject: Undeliverable: Quick Question, Cristian
+
+nal-Recipient: rfc822;cristian.conti@aviationpros.com
+Action: failed
+Status: 5.1.10
+Diagnostic-Code: smtp;550 5.1.10 RESOLVER.ADR.RecipientNotFound; Recipient cristian.conti@aviationpros.com not found by SMTP address lookup
+

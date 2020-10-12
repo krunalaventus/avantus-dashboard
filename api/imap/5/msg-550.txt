@@ -1,0 +1,95 @@
+<html xmlns:o=3D"urn:schemas-microsoft-com:office:office" xmlns:w=3D"urn:sc=
+hemas-microsoft-com:office:word" xmlns:m=3D"http://schemas.microsoft.com/of=
+fice/2004/12/omml" xmlns=3D"http://www.w3.org/TR/REC-html40">
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dus-ascii"=
+>
+<meta name=3D"Generator" content=3D"Microsoft Word 15 (filtered medium)">
+<style><!--
+/* Font Definitions */
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+@font-face
+	{font-family:"Segoe UI";
+	panose-1:2 11 5 2 4 2 4 2 2 3;}
+/* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0cm;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;
+	mso-fareast-language:EN-US;}
+span.EmailStyle17
+	{mso-style-type:personal-compose;
+	font-family:"Calibri",sans-serif;}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	font-family:"Calibri",sans-serif;
+	mso-fareast-language:EN-US;}
+@page WordSection1
+	{size:612.0pt 792.0pt;
+	margin:72.0pt 72.0pt 72.0pt 72.0pt;}
+div.WordSection1
+	{page:WordSection1;}
+--></style>
+</head>
+<body lang=3D"EN-GB" link=3D"#0563C1" vlink=3D"#954F72">
+<div class=3D"WordSection1">
+<p class=3D"MsoNormal" style=3D"text-autospace:none">I shall be out of the =
+office until Monday 28th September 2020.<o:p></o:p></p>
+<p class=3D"MsoNormal" style=3D"text-autospace:none"><o:p>&nbsp;</o:p></p>
+<p class=3D"MsoNormal" style=3D"text-autospace:none">I will not have access=
+ to my emails during this time.<o:p></o:p></p>
+<p class=3D"MsoNormal" style=3D"text-autospace:none"><o:p>&nbsp;</o:p></p>
+<p class=3D"MsoNormal" style=3D"text-autospace:none">Best regards, <o:p></o=
+:p></p>
+<p class=3D"MsoNormal" style=3D"text-autospace:none"><o:p>&nbsp;</o:p></p>
+<p class=3D"MsoNormal" style=3D"text-autospace:none">Matt Timmins <o:p></o:=
+p></p>
+<p class=3D"MsoNormal" style=3D"text-autospace:none"><span style=3D"font-si=
+ze:8.5pt;font-family:&quot;Segoe UI&quot;,sans-serif"><o:p>&nbsp;</o:p></sp=
+an></p>
+</div>
+<br>
+<font size=3D"1" face=3D"Arial">CONFIDENTIALITY NOTICE: This message and an=
+y attachments thereto are confidential, except where the e-mail specificall=
+y states that its contents can be disclosed, and is intended solely for the=
+ use of its intended recipient(s). It
+ may also be subject to legal privilege or otherwise protected from disclos=
+ure. In the event that this message is misdirected, Applus+ and its affilia=
+tes and subsidiaries (altogether &quot;Applus Group&quot;) do not waive any=
+ confidentiality or privilege. If you are
+ not the intended recipient of this communication, please refrain from disc=
+losing its contents to any third party, but notify the sender immediately a=
+nd make sure to delete and permanently destroy the e-mail (including any at=
+tachments thereto) from your filing
+ systems. <br>
+<br>
+Please note that Applus+ can actively monitor and retain certain e-mail mes=
+sages sent to and from its systems, to the extent permitted under applicabl=
+e law. Although Applus+ operates up-to-date anti-virus programs, it does no=
+t accept responsibility for any
+ damage whatsoever caused by viruses being passed. <br>
+<br>
+PRIVACY NOTICE: In the context of establishing a communication with you, th=
+e entity within Applus+ you are contacting with will need to collect and su=
+bsequently process certain information (e.g. your name, e-mail address, tel=
+ephone, and any other personal details
+ that you include in your message) that is considered to be &quot;personal =
+data&quot; under the applicable data protection framework. Such personal da=
+ta will be included in a database in respect of which Applus+ is the data c=
+ontroller, and further processed for the purpose
+ of managing the communication between you and Applus+ and/or address any q=
+uery, concern or request that you may have on the basis of the legitimate i=
+nterest of Applus+. Should you wish to obtain further information concernin=
+g, among other, how we process the
+ personal data and on what legal basis, how we share the personal data and =
+with whom, your rights over the personal data contact us at dataprivacy@app=
+lus.com.
+<br>
+</font>
+</body>
+</html>

@@ -1,0 +1,9 @@
+Reporting-MTA: dns;US194MX101.tycoelectronics.net
+Received-From-MTA: dns;USW04MX801.tycoelectronics.com
+Arrival-Date: Mon, 7 Sep 2020 10:19:41 +0000
+
+Final-Recipient: rfc822;colivercengmiet@te.com
+Action: failed
+Status: 5.1.1
+Diagnostic-Code: smtp;550 5.1.1 RESOLVER.ADR.RecipNotFound; not found
+

@@ -1,0 +1,9 @@
+Reporting-MTA: dns;AM5PR0902MB1956.eurprd09.prod.outlook.com
+Received-From-MTA: dns;mail-io1-f48.google.com
+Arrival-Date: Thu, 3 Sep 2020 10:56:36 +0000
+
+Final-Recipient: rfc822;j_fussell@aerogility.com
+Action: failed
+Status: 5.1.10
+Diagnostic-Code: smtp;550 5.1.10 RESOLVER.ADR.RecipientNotFound; Recipient j_fussell@aerogility.com not found by SMTP address lookup
+

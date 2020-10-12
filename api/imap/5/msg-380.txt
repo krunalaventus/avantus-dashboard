@@ -1,0 +1,9 @@
+Date: Fri, 11 Sep 2020 09:20:20 +0100
+From: Mail Delivery Subsystem <MAILER-DAEMON@mx08-001c1001.pphosted.com>
+To: <kevin@codem-composites.com>
+Subject: Returned mail: see transcript for details
+
+Status: 5.4.1
+Remote-MTA: DNS; bca-co-uk.mail.protection.outlook.com
+Diagnostic-Code: SMTP; 550 5.4.1 Recipient address rejected: Access denied. AS(201806281) [HE1EUR02FT018.eop-EUR02.prod.protection.outlook.com]
+Last-Attempt-Date: Fri, 11 Sep 2020 09:20:20 +0100
