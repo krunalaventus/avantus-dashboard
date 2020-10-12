@@ -7,7 +7,7 @@ import  Emails from '../models/emails';
 import ImapEmails from '../models/imapemails';
 const path = require('path'); 
 const empty = require('empty-folder');
-cron.schedule('0 *\12 * * *', async function() {
+cron.schedule('0 */8 * * *', async function() {
   console.log("=========================start=========================")
     try{
       empty('./imap', false, (o)=>{
