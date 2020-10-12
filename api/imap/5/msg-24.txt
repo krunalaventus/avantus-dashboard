@@ -1,9 +1,0 @@
-Reporting-MTA: dns;VI1PR10MB2557.EURPRD10.PROD.OUTLOOK.COM
-Received-From-MTA: dns;mail-il1-f179.google.com
-Arrival-Date: Wed, 2 Sep 2020 09:25:31 +0000
-
-Final-Recipient: rfc822;c.melissa@ojc-consulting.com
-Action: failed
-Status: 5.1.10
-Diagnostic-Code: smtp;550 5.1.10 RESOLVER.ADR.RecipientNotFound; Recipient c.melissa@ojc-consulting.com not found by SMTP address lookup
-

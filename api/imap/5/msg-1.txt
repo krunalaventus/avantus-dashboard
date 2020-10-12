@@ -1,8 +1,0 @@
-Reporting-MTA: dns; server-1.bemta.az-a.eu-west-1.aws.symcld.net
-Arrival-Date: Tue, 01 Sep 2020 13:23:56 +0000
-
-Final-Recipient: rfc822; glynn.jones@jdwilkie.co.uk
-Action: failed
-Last-Attempt-Date: Tue, 01 Sep 2020 13:23:56 +0000
-Diagnostic-Code: smtp; 550 5.4.1 Recipient address rejected: Access denied. AS(201806281) [DB5EUR03FT051.eop-EUR03.prod.protection.outlook.com]
-Status: 5.4.1

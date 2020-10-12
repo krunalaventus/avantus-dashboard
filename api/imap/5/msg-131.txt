@@ -1,9 +1,0 @@
-Reporting-MTA: dns;osi-systems.com
-Received-From-MTA: dns;HAWEXEDG01.NA.OSIENT.COM
-Arrival-Date: Fri, 4 Sep 2020 13:39:11 +0000
-
-Final-Recipient: rfc822;landrews@rapiscansystems.com
-Action: failed
-Status: 5.1.1
-Diagnostic-Code: smtp;550 5.1.1 RESOLVER.ADR.RecipNotFound; not found
-

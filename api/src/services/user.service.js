@@ -496,6 +496,7 @@ exports.loginUsingToken = async function(req, res) {
     var decodedData = req.decoded.data;
     try {
         let finddata = await User.findOne({ where: {id: decodedData.id}});
+        finddata.dataValues.user_role = decodedData.user_role;
         if (finddata) {
             let token = await jwt.sign({
                 data: finddata.dataValues

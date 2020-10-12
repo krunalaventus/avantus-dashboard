@@ -1,9 +1,0 @@
-Reporting-MTA: dns;DB6PR0501MB2552.eurprd05.prod.outlook.com
-Received-From-MTA: dns;mail-il1-f196.google.com
-Arrival-Date: Fri, 18 Sep 2020 10:10:32 +0000
-
-Final-Recipient: rfc822;iain.walker@dymag.com
-Action: failed
-Status: 5.1.10
-Diagnostic-Code: smtp;550 5.1.10 RESOLVER.ADR.RecipientNotFound; Recipient iain.walker@dymag.com not found by SMTP address lookup
-

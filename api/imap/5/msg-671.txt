@@ -1,9 +1,0 @@
-Reporting-MTA: dns;VI1P194MB0159.EURP194.PROD.OUTLOOK.COM
-Received-From-MTA: dns;mail-io1-f43.google.com
-Arrival-Date: Mon, 21 Sep 2020 08:55:58 +0000
-
-Final-Recipient: rfc822;j-begley@elemental.biz
-Action: failed
-Status: 5.1.10
-Diagnostic-Code: smtp;550 5.1.10 RESOLVER.ADR.RecipientNotFound; Recipient j-begley@elemental.biz not found by SMTP address lookup
-

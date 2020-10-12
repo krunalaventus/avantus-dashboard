@@ -1,9 +1,0 @@
-Reporting-MTA: dns;CY4P114MB1062.NAMP114.PROD.OUTLOOK.COM
-Received-From-MTA: dns;mx0a-001dcc01.pphosted.com
-Arrival-Date: Thu, 3 Sep 2020 07:37:18 +0000
-
-Final-Recipient: rfc822;jc@accenture.com
-Action: failed
-Status: 5.7.193
-Diagnostic-Code: smtp;550 5.7.193 UnifiedGroupAgent; Delivery failed because the sender isn't a group member or external senders aren't permitted to send to this group.
-

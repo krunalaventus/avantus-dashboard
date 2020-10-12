@@ -1,9 +1,0 @@
-Reporting-MTA: dns;BY5PR13MB3810.namprd13.prod.outlook.com
-Received-From-MTA: dns;NAM11-DM6-obe.outbound.protection.outlook.com
-Arrival-Date: Tue, 8 Sep 2020 12:11:57 +0000
-
-Final-Recipient: rfc822;popen@popeinc.com
-Action: failed
-Status: 5.1.10
-Diagnostic-Code: smtp;550 5.1.10 RESOLVER.ADR.RecipientNotFound; Recipient popen@popeinc.com not found by SMTP address lookup
-

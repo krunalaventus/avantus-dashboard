@@ -1,9 +1,0 @@
-Reporting-MTA: dns;DM5PR19MB0153.namprd19.prod.outlook.com
-Received-From-MTA: dns;mail-io1-f45.google.com
-Arrival-Date: Fri, 4 Sep 2020 13:10:22 +0000
-
-Final-Recipient: rfc822;albert@angstromengineering.com
-Action: failed
-Status: 5.1.10
-Diagnostic-Code: smtp;550 5.1.10 RESOLVER.ADR.RecipientNotFound; Recipient albert@angstromengineering.com not found by SMTP address lookup
-
