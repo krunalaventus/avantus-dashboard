@@ -1,9 +1,9 @@
-From: <messaging.techsupport@baesystems.com>
-To: <kevin@codem-composites.com>
-Date: Wed, 9 Sep 2020 13:39:20 +0300
-Subject: Undeliverable: Quick Question, John
+--===============1530268060973320569==
+Content-Type: text/plain; charset="utf-8"
+MIME-Version: 1.0
+Content-Transfer-Encoding: quoted-printable
 
-***************************************************
+********************************************************************
 This email and any attachments are confidential to the intended
 recipient and may also be privileged. If you are not the intended
 recipient please delete it from your system and notify the sender.

@@ -1,6 +1,7 @@
-Reporting-MTA: dns;DB7PR08MB3644.eurprd08.prod.outlook.com
-Received-From-MTA: dns;mail-io1-f44.google.com
-Arrival-Date: Mon, 21 Sep 2020 07:38:52 +0000
+From: <postmaster@ecodrive.co.uk>
+To: <kevin@codem-composites.com>
+Date: Mon, 21 Sep 2020 07:38:52 +0000
+Subject: Undeliverable: Quick Question, Danny
 
 Final-Recipient: rfc822;d.smith@ecodrive.co.uk
 Action: failed

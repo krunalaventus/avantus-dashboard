@@ -1,9 +1,6 @@
-From: <postmaster@ets2.com>
-To: <kevin@codem-composites.com>
-Date: Mon, 21 Sep 2020 09:16:06 +0000
-Subject: Undeliverable: Quick Question, David
-
-+0000
+Reporting-MTA: dns;BN6PR1001MB2388.namprd10.prod.outlook.com
+Received-From-MTA: dns;mail-pf1-f173.google.com
+Arrival-Date: Mon, 21 Sep 2020 09:16:05 +0000
 
 Final-Recipient: rfc822;drosbottom@electrotechsystems.com
 Action: failed

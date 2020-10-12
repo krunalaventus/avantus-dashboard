@@ -1,6 +1,8 @@
-Reporting-MTA: dns;AM7PR05MB6726.eurprd05.prod.outlook.com
-Received-From-MTA: dns;mail-io1-f44.google.com
-Arrival-Date: Mon, 21 Sep 2020 12:40:08 +0000
+From: <postmaster@filtonsys.com>
+To: <kevin@codem-composites.com>
+Date: Mon, 21 Sep 2020 12:40:08 +0000
+Subject: Undeliverable: Quick Question, John
+
 
 Final-Recipient: rfc822;john@filtonsys.com
 Action: failed

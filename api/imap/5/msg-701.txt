@@ -1,9 +1,10 @@
-Subject: Re: Quick Question, Ian
-To: Kevin Doherty <kevin@codem-composites.com>
-From: Ian Cowley <ian.cowley@engandbeyond.com>
-Date: Mon, 21 Sep 2020 12:37:05 +0100
-
-are of Codem but struggling to
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  </head>
+  <body>
+    <p>Hi Kevin</p>
+    <p>Thanks for the e-mail. I was aware of Codem but struggling to
       think of from where. I'm sure our paths have crossed.</p>
     <p>I'm not sure if you had gathered but Engineering and Beyond is my
       Limited Company registration for my consultancy/contracting

@@ -1,9 +1,8 @@
-From: <postmaster@mbda-systems.com>
-To: <kevin@codem-composites.com>
-Date: Mon, 7 Sep 2020 13:28:30 +0200
-Subject: Non remis : Quick Question, Susan
+Reporting-MTA: dns;FERMI41.isf.rd.priv
+Received-From-MTA: dns;RPRELAY41
+Arrival-Date: Mon, 7 Sep 2020 11:28:30 +0000
 
-maddox@mbda-systems.com
+Original-Recipient: rfc822;susan.maddox@mbda-systems.com
 Final-Recipient: rfc822;susan.maddox@mbda-systems.com
 Action: failed
 Status: 5.1.10

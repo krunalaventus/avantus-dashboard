@@ -1,9 +1,9 @@
-Date: Wed, 23 Sep 2020 10:25:59 GMT
-From: Mail Delivery Subsystem <MAILER-DAEMON@mx08-005a6401.pphosted.com>
-To: <kevin@codem-composites.com>
-Subject: Returned mail: see transcript for details
+Reporting-MTA: dns; mx08-005a6401.pphosted.com
+Received-From-MTA: DNS; m0219075.ppops.net
+Arrival-Date: Wed, 23 Sep 2020 10:25:58 GMT
 
-n: failed
+Final-Recipient: RFC822; shamilton@gosouthcoast.co.uk
+Action: failed
 Status: 5.4.14
 Remote-MTA: DNS; gosouthcoast-co-uk.mail.protection.outlook.com
 Diagnostic-Code: SMTP; 554 5.4.14 Hop count exceeded - possible mail loop ATTR34 [DB5EUR01FT036.eop-EUR01.prod.protection.outlook.com]

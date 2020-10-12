@@ -1,6 +1,9 @@
-Reporting-MTA: dns;SN6PR0102MB3357.prod.exchangelabs.com
-Received-From-MTA: dns;mail-io1-f50.google.com
-Arrival-Date: Mon, 21 Sep 2020 09:03:25 +0000
+From: <postmaster@Elma.com>
+To: <kevin@codem-composites.com>
+Date: Mon, 21 Sep 2020 09:03:26 +0000
+Subject: Undeliverable: Quick Question, Andy
+
+0
 
 Final-Recipient: rfc822;andy-b@elma.com
 Action: failed

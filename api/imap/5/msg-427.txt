@@ -1,9 +1,6 @@
-From: Kevin Doherty <kevin@codem-composites.com>
-To: gh@bombardier.com
-Subject: Quick Question, Graham
-Date: Fri, 11 Sep 2020 06:06:08 -0700
-
-argin: 0px; box-sizing: border-box;"><span =
+<html><div style=3D"min-width: 360px"></div><div dir=3D"ltr">
+    <div><p fr-original-style=3D"margin: 0px; box-sizing: border-box;" =
+style=3D"margin: 0px; box-sizing: border-box;"><span =
 fr-original-style=3D"font-family: Arial, Helvetica, sans-serif; box-sizing:=
  border-box;" style=3D"font-family: Arial, Helvetica, sans-serif; =
 box-sizing: border-box;">Hi Graham,&nbsp;</span></p><p =

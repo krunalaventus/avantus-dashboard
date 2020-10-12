@@ -1,9 +1,8 @@
-From: <postmaster@Cummins365.onmicrosoft.com>
-To: <kevin@codem-composites.com>
-Date: Wed, 16 Sep 2020 10:39:39 +0000
-Subject: Undeliverable: Quick Question, Alok
+Reporting-MTA: dns;BYAPR05MB6263.namprd05.prod.outlook.com
+Received-From-MTA: dns;mail-io1-f51.google.com
+Arrival-Date: Wed, 16 Sep 2020 10:39:39 +0000
 
-ient: rfc822;ak@cummins.com
+Final-Recipient: rfc822;ak@cummins.com
 Action: failed
 Status: 5.1.10
 Diagnostic-Code: smtp;550 5.1.10 RESOLVER.ADR.RecipientNotFound; Recipient ak@cummins.com not found by SMTP address lookup

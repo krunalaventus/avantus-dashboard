@@ -1,6 +1,9 @@
-PGRpdiBkaXI9Imx0ciI+PGRpdiBkaXI9Imx0ciI+SGksPGRpdj48YnI+PC9kaXY+PGRpdj50aGFu
-a3MgZm9yIHRoZSBhcHByb2FjaCwgeW91IHdvdWxkIGJlIGJldHRlciBjb250YWN0ZWQgYnkgR0tO
-YWVyb3NwYWNlLjxiciBjbGVhcj0iYWxsIj48ZGl2PjxkaXYgZGlyPSJsdHIiIGNsYXNzPSJnbWFp
+From: "Ball, David" <david.ball@airbus.com>
+Date: Thu, 3 Sep 2020 14:58:10 +0100
+Subject: Re: Quick Question, David
+To: Kevin Doherty <kevin@codem-composites.com>
+
+jxiciBjbGVhcj0iYWxsIj48ZGl2PjxkaXYgZGlyPSJsdHIiIGNsYXNzPSJnbWFp
 bF9zaWduYXR1cmUiIGRhdGEtc21hcnRtYWlsPSJnbWFpbF9zaWduYXR1cmUiPjxkaXYgZGlyPSJs
 dHIiPjxkaXY+PGIgc3R5bGU9ImZvbnQtc2l6ZToxMHB0O2NvbG9yOnJnYigyNTUsMTUzLDApO2Zv
 bnQtZmFtaWx5OlRhaG9tYSxzYW5zLXNlcmlmIj5BaXJidXMgQW1iZXI8L2I+PGI+PGJyPjwvYj48

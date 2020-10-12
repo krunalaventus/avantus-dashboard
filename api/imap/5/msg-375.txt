@@ -1,9 +1,8 @@
-To: kevin@codem-composites.com
-Date: Fri, 11 Sep 2020 01:08:20 -0700 (PDT)
-From: Mail Delivery Subsystem <mailer-daemon@googlemail.com>
-Subject: Delivery Status Notification (Failure)
+Reporting-MTA: dns; googlemail.com
+Arrival-Date: Fri, 11 Sep 2020 01:08:18 -0700 (PDT)
+X-Original-Message-ID: <CAK4cLxj_1KwQthw3==wBMfEoUJZts-qZ4z4-ggz3uhCOJawjXw@mail.gmail.com>
 
-Recipient: rfc822; pjones@wcwelding.com
+Final-Recipient: rfc822; pjones@wcwelding.com
 Action: failed
 Status: 5.0.0
 Remote-MTA: dns; webmail2.sitebuildit.com. (66.43.52.5, the server for the

@@ -1,9 +1,6 @@
-From: <postmaster@glenair.fr>
-To: <kevin@codem-composites.com>
-Date: Tue, 8 Sep 2020 10:09:18 +0000
-Subject: Undeliverable: Quick Question, Mark
-
-00
+Reporting-MTA: dns;AM6PR04MB6262.eurprd04.prod.outlook.com
+Received-From-MTA: dns;mail-il1-f177.google.com
+Arrival-Date: Tue, 8 Sep 2020 10:09:17 +0000
 
 Final-Recipient: rfc822;m.dasilva@glenair.fr
 Action: failed

@@ -1,9 +1,8 @@
-From: <postmaster@ts.eads.net>
-To: <kevin@codem-composites.com>
-Date: Tue, 8 Sep 2020 11:51:41 +0200
-Subject: Non remis : Quick Question, Chris
+Reporting-MTA: dns;TSEXCH02.ts.eads.lcl
+Received-From-MTA: dns;fortimail-cog.imsnetworks.com
+Arrival-Date: Tue, 8 Sep 2020 09:51:41 +0000
 
-ecipient: rfc822;gorringe.chris@spherea.com
+Final-Recipient: rfc822;gorringe.chris@spherea.com
 Action: failed
 Status: 5.1.1
 Diagnostic-Code: smtp;550 5.1.1 RESOLVER.ADR.RecipNotFound; not found

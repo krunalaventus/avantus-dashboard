@@ -1,9 +1,8 @@
-Reporting-MTA: dns;TELLER41.isf.rd.p
-To: <kevin@codem-composites.com>
-Date: Mon, 7 Sep 2020 13:00:53 +0200
-Subject: Non remis : Quick Question, Benjamin
+Reporting-MTA: dns;TELLER41.isf.rd.priv
+Received-From-MTA: dns;RCRELAY41
+Arrival-Date: Mon, 7 Sep 2020 11:00:53 +0000
 
-.searchmietamimeche@mbda-systems.com
+Original-Recipient: rfc822;benjamin.searchmietamimeche@mbda-systems.com
 Final-Recipient: rfc822;benjamin.searchmietamimeche@mbda-systems.com
 Action: failed
 Status: 5.1.10

@@ -1,6 +1,9 @@
-PGh0bWw+DQo8aGVhZD4NCjxtZXRhIGh0dHAtZXF1aXY9IkNvbnRlbnQtVHlwZSIgY29udGVudD0i
-dGV4dC9odG1sOyBjaGFyc2V0PXV0Zi04Ij4NCjwvaGVhZD4NCjxib2R5IHN0eWxlPSJ3b3JkLXdy
-YXA6IGJyZWFrLXdvcmQ7IC13ZWJraXQtbmJzcC1tb2RlOiBzcGFjZTsgbGluZS1icmVhazogYWZ0
+From: David Miller <david.miller@langcliffeinternational.com>
+To: Kevin Doherty <kevin@codem-composites.com>
+Subject: Re: Quick Question, David
+Date: Tue, 8 Sep 2020 21:49:46 +0000
+
+tbmJzcC1tb2RlOiBzcGFjZTsgbGluZS1icmVhazogYWZ0
 ZXItd2hpdGUtc3BhY2U7IiBjbGFzcz0iIj4NCktldmluDQo8ZGl2IGNsYXNzPSIiPjxiciBjbGFz
 cz0iIj4NCjwvZGl2Pg0KPGRpdiBjbGFzcz0iIj5XZSBhcmUgYW4gTSZhbXA7QSBkZWFsIG9yaWdp
 bmF0aW9uIGJ1c2luZXNzLCBzbyB5b3VyIGFwcHJvYWNoIGlzIG9mIHplcm8gaW50ZXJlc3QuIFBs

@@ -1,9 +1,9 @@
-Date: Tue, 1 Sep 2020 21:38:44 +0200
-From: Steve Turner <steve@tsct.uk>
-To: Kevin Doherty <kevin@codem-composites.com>
-Subject: Re: Quick Question, Steve
+--5f4ea34a_643c9869_639
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+Content-Disposition: inline
 
-http://www.w3.org/1999/xhtml=22>
+<html xmlns=3D=22http://www.w3.org/1999/xhtml=22>
 <head>
 <title></title>
 </head>

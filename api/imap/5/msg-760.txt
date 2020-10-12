@@ -1,6 +1,9 @@
-Reporting-MTA: dns;SG2PR0201MB2096.apcprd02.prod.outlook.com
-Received-From-MTA: dns;mail-io1-f41.google.com
-Arrival-Date: Wed, 23 Sep 2020 08:32:56 +0000
+From: <postmaster@lynkco.com>
+To: <kevin@codem-composites.com>
+Date: Wed, 23 Sep 2020 08:32:57 +0000
+Subject: Undeliverable: Quick Question, Josh
+
+000
 
 Final-Recipient: rfc822;lomas-j@geely.com
 Action: failed

@@ -1,6 +1,9 @@
-Reporting-MTA: dns;MEYP282MB1512.AUSP282.PROD.OUTLOOK.COM
-Received-From-MTA: dns;mail-io1-f54.google.com
-Arrival-Date: Tue, 22 Sep 2020 07:46:22 +0000
+From: <postmaster@fltd.co.nz>
+To: <kevin@codem-composites.com>
+Date: Tue, 22 Sep 2020 07:46:23 +0000
+Subject: Undeliverable: Quick Question, Glen
+
+
 
 Final-Recipient: rfc822;glen@fltd.co.nz
 Action: failed

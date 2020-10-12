@@ -1,8 +1,9 @@
-Reporting-MTA: dns;CWXP123MB1909.GBRP123.PROD.OUTLOOK.COM
-Received-From-MTA: dns;mx08-001bd701.pphosted.com
-Arrival-Date: Mon, 7 Sep 2020 11:36:39 +0000
+From: <postmaster@Atkins.onmicrosoft.com>
+To: <kevin@codem-composites.com>
+Date: Mon, 7 Sep 2020 11:36:39 +0000
+Subject: Undeliverable: Quick Question, Phil
 
-Final-Recipient: rfc822;ph@atkinsglobal.com
+-Recipient: rfc822;ph@atkinsglobal.com
 Action: failed
 Status: 5.7.193
 Diagnostic-Code: smtp;550 5.7.193 UnifiedGroupAgent; Delivery failed because the sender isn't a group member or external senders aren't permitted to send to this group.

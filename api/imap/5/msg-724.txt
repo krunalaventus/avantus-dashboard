@@ -1,9 +1,8 @@
-To: kevin@codem-composites.com
-Date: Tue, 22 Sep 2020 01:33:10 -0700 (PDT)
-From: Mail Delivery Subsystem <mailer-daemon@googlemail.com>
-Subject: Delivery Status Notification (Failure)
+Reporting-MTA: dns; googlemail.com
+Arrival-Date: Tue, 22 Sep 2020 01:33:08 -0700 (PDT)
+X-Original-Message-ID: <CAK4cLxin2d=UdM4w+dJwxav6WapTL_BpWvMc=md_8iQUikCJjA@mail.gmail.com>
 
-Recipient: rfc822; david@fleetparts.co.uk
+Final-Recipient: rfc822; david@fleetparts.co.uk
 Action: failed
 Status: 5.0.0
 Remote-MTA: dns; mailguard-4.talkcloud.co.uk. (95.129.69.131, the server for

@@ -1,6 +1,7 @@
-Reporting-MTA: dns;VI1PR10MB2096.EURPRD10.PROD.OUTLOOK.COM
-Received-From-MTA: dns;mail-io1-f51.google.com
-Arrival-Date: Fri, 11 Sep 2020 08:43:47 +0000
+From: <postmaster@beam-it.eu>
+To: <kevin@codem-composites.com>
+Date: Fri, 11 Sep 2020 08:43:48 +0000
+Subject: Undeliverable: Quick Question, Cristiano
 
 Final-Recipient: rfc822;cristianog@beam-it.eu
 Action: failed

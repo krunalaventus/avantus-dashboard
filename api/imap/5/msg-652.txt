@@ -1,6 +1,9 @@
-PGh0bWw+DQo8aGVhZD4NCjxtZXRhIGh0dHAtZXF1aXY9IkNvbnRlbnQtVHlwZSIgY29udGVudD0i
-dGV4dC9odG1sOyBjaGFyc2V0PXV0Zi04Ij4NCjwvaGVhZD4NCjxib2R5IGRpcj0iYXV0byI+DQpI
-aSBLZXZpbg0KPGRpdj5UaGFuayB5b3UgZm9yIHlvdXIgaW50ZXJlc3QgYnV0IHdlIGhhdmUgYSBj
+From: "Greenfield, Steve" <SteveGreenfield@Eaton.com>
+To: Kevin Doherty <kevin@codem-composites.com>
+Subject: Re: [EXTERNAL]  Quick Question, Steve
+Date: Fri, 18 Sep 2020 13:04:25 +0000
+
+IHlvdXIgaW50ZXJlc3QgYnV0IHdlIGhhdmUgYSBj
 b21wb3NpdGVzIGZhY2lsaXR5IGFuZCBwcm9kdWNlIGEgd2lkZSB2YXJpZXR5IG9mIHByb2R1Y3Rz
 IHRoaXMgd2F5PC9kaXY+DQo8ZGl2PkFzIEnigJltIHN1cmUgeW91IGtub3csIGFuZCBpcyB3aHkg
 eW91IGFyZSByZWFjaGluZyBvdXQgdG8gbWUsIHRoYXQgbW9yZSBhbmQgbW9yZSB3b3JrIHdlIGFy

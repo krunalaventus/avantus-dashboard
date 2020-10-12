@@ -1,6 +1,8 @@
-Reporting-MTA: dns;VI1PR10MB1919.EURPRD10.PROD.OUTLOOK.COM
-Received-From-MTA: dns;mail-io1-f42.google.com
-Arrival-Date: Mon, 7 Sep 2020 10:05:00 +0000
+From: <postmaster@arriva.co.uk>
+To: <kevin@codem-composites.com>
+Date: Mon, 7 Sep 2020 10:05:00 +0000
+Subject: Undeliverable: Quick Question, Kevin
+
 
 Final-Recipient: rfc822;firtefciltk@arriva.co.uk
 Action: failed

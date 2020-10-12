@@ -1,8 +1,9 @@
-Reporting-MTA: dns;S099SRV56.intra.ahc-surface.com
-Received-From-MTA: dns;a099MailSig01
-Arrival-Date: Thu, 24 Sep 2020 08:06:02 +0000
+From: <postmaster@aalberts-mt.com>
+To: <kevin@codem-composites.com>
+Date: Thu, 24 Sep 2020 10:06:02 +0200
+Subject: Undeliverable: Quick Question, Swapnil
 
-Original-Recipient: rfc822;as@hauckht.co.uk
+fc822;as@hauckht.co.uk
 Final-Recipient: rfc822;as@hauckht.co.uk
 Action: failed
 Status: 5.1.1

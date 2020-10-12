@@ -1,9 +1,6 @@
-From: Ken Scott <ken.scott@alexander-dennis.com>
-To: Kevin Doherty <kevin@codem-composites.com>
-Subject: Re: Quick Question, Ken
-Date: Fri, 11 Sep 2020 08:11:18 +0000
-
-G8gYmUgbmV4dCB3ZWVrLiBNb25kYXkgYXQgMnBtPGJyPg0KPGJyPg0KPGRp
+PGh0bWw+DQo8aGVhZD4NCjxtZXRhIGh0dHAtZXF1aXY9IkNvbnRlbnQtVHlwZSIgY29udGVudD0i
+dGV4dC9odG1sOyBjaGFyc2V0PXV0Zi04Ij4NCjwvaGVhZD4NCjxib2R5IGRpcj0iYXV0byI+DQpJ
+dOKAmWxsIGhhdmUgdG8gYmUgbmV4dCB3ZWVrLiBNb25kYXkgYXQgMnBtPGJyPg0KPGJyPg0KPGRp
 diBkaXI9Imx0ciI+DQo8ZGl2PlJlZ2FyZHM8L2Rpdj4NCjxkaXY+PGJyPg0KPC9kaXY+DQo8ZGl2
 PktlbjwvZGl2Pg0KPGRpdj48YnI+DQo8L2Rpdj4NClNlbnQgZnJvbSBteSBpUGhvbmU8L2Rpdj4N
 CjxkaXYgZGlyPSJsdHIiPjxicj4NCjxibG9ja3F1b3RlIHR5cGU9ImNpdGUiPk9uIDExIFNlcCAy

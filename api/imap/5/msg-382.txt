@@ -1,7 +1,6 @@
-From: <postmaster@beadlight.com>
-To: <kevin@codem-composites.com>
-Date: Fri, 11 Sep 2020 08:37:56 +0000
-Subject: Undeliverable: Quick Question, Thomas
+Reporting-MTA: dns;VI1PR08MB4542.eurprd08.prod.outlook.com
+Received-From-MTA: dns;mail-io1-f48.google.com
+Arrival-Date: Fri, 11 Sep 2020 08:37:55 +0000
 
 Final-Recipient: rfc822;cmgr.thomas@beadlight.com
 Action: failed

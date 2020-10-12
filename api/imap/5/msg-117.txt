@@ -1,9 +1,8 @@
-To: kevin@codem-composites.com
-Date: Fri, 04 Sep 2020 04:41:57 -0700 (PDT)
-From: Mail Delivery Subsystem <mailer-daemon@googlemail.com>
-Subject: Delivery Status Notification (Failure)
+Reporting-MTA: dns; googlemail.com
+Arrival-Date: Fri, 04 Sep 2020 04:41:53 -0700 (PDT)
+X-Original-Message-ID: <CAK4cLxi35U+semXW+YxTWviaTkkxMs6j95P2NbshBcBnLpM7qw@mail.gmail.com>
 
-Recipient: rfc822; cillianhickey@electro-mechanical.com
+Final-Recipient: rfc822; cillianhickey@electro-mechanical.com
 Action: failed
 Status: 5.0.0
 Remote-MTA: dns; d165231a.ess.barracudanetworks.com. (209.222.82.144, the

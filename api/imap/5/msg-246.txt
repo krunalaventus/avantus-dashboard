@@ -1,8 +1,6 @@
-From: <postmaster@rockford.co.uk>
-To: <kevin@codem-composites.com>
-Date: Tue, 8 Sep 2020 07:49:29 +0000
-Subject: Undeliverable: Quick Question, Lee
-
+Reporting-MTA: dns;LNXP265MB1003.GBRP265.PROD.OUTLOOK.COM
+Received-From-MTA: dns;mail-il1-f171.google.com
+Arrival-Date: Tue, 8 Sep 2020 07:49:29 +0000
 
 Final-Recipient: rfc822;lee.ceng@rockford.co.uk
 Action: failed

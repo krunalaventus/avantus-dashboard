@@ -1,8 +1,9 @@
-Reporting-MTA: dns;VDLMAIL04.bbcl.local
-Received-From-MTA: dns;FM-slave.d2h.com
-Arrival-Date: Thu, 17 Sep 2020 10:21:15 +0000
+From: <postmaster@bbcl.local>
+To: <kevin@codem-composites.com>
+Date: Thu, 17 Sep 2020 15:51:15 +0530
+Subject: Undeliverable: Quick Question, Ben
 
-Final-Recipient: rfc822;ben.garlick@d2h.com
+822;ben.garlick@d2h.com
 Action: failed
 Status: 5.1.1
 Diagnostic-Code: smtp;550 5.1.1 RESOLVER.ADR.RecipNotFound; not found

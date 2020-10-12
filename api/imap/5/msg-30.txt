@@ -1,10 +1,9 @@
-<html>
-  <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-  </head>
-  <body text="#000000" bgcolor="#FFFFFF">
-    <p>Hi Kevin,</p>
-    <p>Thanks for your email. Codem Composites sound like a really
+Subject: Re: Quick Question, Mark
+To: Kevin Doherty <kevin@codem-composites.com>
+From: Mark McCrum <mark@brightascension.com>
+Date: Wed, 2 Sep 2020 11:08:49 +0100
+
+  <p>Thanks for your email. Codem Composites sound like a really
       interesting company, and you certainly know how to pique a geek's
       interest with mention of Star Wars props and the like. I have to
       say, though, that I'm having a hard time seeing the synergy you

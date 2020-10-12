@@ -1,9 +1,7 @@
-Date: Thu, 3 Sep 2020 16:21:02 +0100 (BST)
-From: mmcinnes@ukcoatingsconsulting.co.uk
-To: Kevin Doherty <kevin@codem-composites.com>
-Subject: Re: Quick Question, Michael
-
-=20
+<!doctype html>
+<html xmlns:background-color=3D"background-color" xmlns:color=3D"color" xml=
+ns:text-decoration=3D"text-decoration" xmlns:box-sizing=3D"box-sizing">
+ <head>=20
   <meta charset=3D"UTF-8">=20
  </head>
  <body>
