@@ -1,6 +1,9 @@
-Reporting-MTA: dns;BL0PR02MB4481.namprd02.prod.outlook.com
-Received-From-MTA: dns;mail-il1-f174.google.com
-Arrival-Date: Mon, 7 Sep 2020 10:22:07 +0000
+From: <postmaster@arsa.org>
+To: <kevin@codem-composites.com>
+Date: Mon, 7 Sep 2020 10:22:08 +0000
+Subject: Undeliverable: Quick Question, Rob
+
++0000
 
 Final-Recipient: rfc822;rob@arsa.org
 Action: failed

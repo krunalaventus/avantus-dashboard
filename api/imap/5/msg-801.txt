@@ -1,8 +1,9 @@
-Reporting-MTA: dns;HE1PR0701MB2874.eurprd07.prod.outlook.com
-Received-From-MTA: dns;mail-il1-f177.google.com
-Arrival-Date: Thu, 24 Sep 2020 08:45:14 +0000
+From: <postmaster@hepburnbiocare.com>
+To: <kevin@codem-composites.com>
+Date: Thu, 24 Sep 2020 08:45:14 +0000
+Subject: Undeliverable: Quick Question, Christopher
 
-Final-Recipient: rfc822;christopher-hipsey@hepburnbiocare.com
+ecipient: rfc822;christopher-hipsey@hepburnbiocare.com
 Action: failed
 Status: 5.1.10
 Diagnostic-Code: smtp;550 5.1.10 RESOLVER.ADR.RecipientNotFound; Recipient christopher-hipsey@hepburnbiocare.com not found by SMTP address lookup

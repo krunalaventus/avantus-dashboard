@@ -1,9 +1,9 @@
-Reporting-MTA: dns; mx0a-0022ec01.pphosted.com
-Received-From-MTA: DNS; m0098452.ppops.net
-Arrival-Date: Mon, 7 Sep 2020 08:54:51 -0400
+Date: Mon, 7 Sep 2020 08:54:52 -0400
+From: Mail Delivery Subsystem <MAILER-DAEMON@mx0a-0022ec01.pphosted.com>
+To: <kevin@codem-composites.com>
+Subject: Returned mail: see transcript for details
 
-Final-Recipient: RFC822; pwilliams@eadsdistribution.com
-Action: failed
+ion: failed
 Status: 5.4.1
 Remote-MTA: DNS; eadsdistribution-com.mail.protection.outlook.com
 Diagnostic-Code: SMTP; 550 5.4.1 Recipient address rejected: Access denied. AS(201806281) [SN1NAM02FT003.eop-nam02.prod.protection.outlook.com]

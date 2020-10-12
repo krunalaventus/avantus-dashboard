@@ -1,9 +1,8 @@
-From: <postmaster@NETORG493411.onmicrosoft.com>
-To: <kevin@codem-composites.com>
-Date: Fri, 18 Sep 2020 09:15:00 +0000
-Subject: Undeliverable: Quick Question, John
+Reporting-MTA: dns;HE1PR0101MB2553.eurprd01.prod.exchangelabs.com
+Received-From-MTA: dns;mail-io1-f48.google.com
+Arrival-Date: Fri, 18 Sep 2020 09:14:59 +0000
 
-Recipient: rfc822;john@dragonflytech.co.uk
+Final-Recipient: rfc822;john@dragonflytech.co.uk
 Action: failed
 Status: 5.1.10
 Diagnostic-Code: smtp;550 5.1.10 RESOLVER.ADR.RecipientNotFound; Recipient john@dragonflytech.co.uk not found by SMTP address lookup

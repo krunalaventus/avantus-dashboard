@@ -1,9 +1,8 @@
-From: <postmaster@paradigm.com>
-To: <kevin@codem-composites.com>
-Date: Fri, 4 Sep 2020 08:58:51 -0400
-Subject: Undeliverable: Quick Question, Jon
+Reporting-MTA: dns;exchange.SpeakerTech.local
+Received-From-MTA: dns;barracuda.paradigm.com
+Arrival-Date: Fri, 4 Sep 2020 12:58:51 +0000
 
-ecipient: rfc822;jgodfrey@paradigm.com
+Original-Recipient: rfc822;jgodfrey@paradigm.com
 Final-Recipient: rfc822;jgodfrey@paradigm.com
 Action: failed
 Status: 5.1.10

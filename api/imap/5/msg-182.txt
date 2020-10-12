@@ -1,8 +1,6 @@
-From: <postmaster@arcadis.com>
-To: <kevin@codem-composites.com>
-Date: Mon, 7 Sep 2020 09:06:13 +0000
-Subject: Undeliverable: Quick Question, Rasheed
-
+Reporting-MTA: dns;SN6PR08MB4336.namprd08.prod.outlook.com
+Received-From-MTA: dns;mail-io1-f45.google.com
+Arrival-Date: Mon, 7 Sep 2020 09:06:13 +0000
 
 Final-Recipient: rfc822;rhameed@arcadis.com
 Action: failed

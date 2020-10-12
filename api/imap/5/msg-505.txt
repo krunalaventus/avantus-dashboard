@@ -1,9 +1,8 @@
-From: <postmaster@hexadexgroup.onmicrosoft.com>
-To: <kevin@codem-composites.com>
-Date: Tue, 15 Sep 2020 08:55:38 +0000
-Subject: Undeliverable: Quick Question, John
+Reporting-MTA: dns;CWLP265MB1778.GBRP265.PROD.OUTLOOK.COM
+Received-From-MTA: dns;mail-io1-f47.google.com
+Arrival-Date: Tue, 15 Sep 2020 08:55:38 +0000
 
-t: rfc822;john@ceramex.com
+Final-Recipient: rfc822;john@ceramex.com
 Action: failed
 Status: 5.1.10
 Diagnostic-Code: smtp;550 5.1.10 RESOLVER.ADR.RecipientNotFound; Recipient john@ceramex.com not found by SMTP address lookup

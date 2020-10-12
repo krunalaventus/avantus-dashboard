@@ -1,9 +1,6 @@
-From: "Yates, Kevin" <kevin.yates@airbus.com>
-Date: Thu, 10 Sep 2020 13:22:26 +0100
-Subject: Re: Quick Question, Kevin
-To: Kevin Doherty <kevin@codem-composites.com>
-
-cmsgaW4gUHJvY3VyZW1lbnQgT3BlcmF0aW9ucyBzcGVjaWZpY2FsbHkgZm9y
+PGRpdiBkaXI9Imx0ciI+PGRpdiBkaXI9Imx0ciI+S2V2aW48ZGl2Pjxicj48L2Rpdj48ZGl2PlRo
+YW5rcyBmb3IgeW91ciBlbWFpbCBidXQgSSBhbSBub3QgdGhlIGNvcnJlY3QgcG9pbnQgb2YgY29u
+dGFjdC7CoCBJIHdvcmsgaW4gUHJvY3VyZW1lbnQgT3BlcmF0aW9ucyBzcGVjaWZpY2FsbHkgZm9y
 IEZ1ZWwgRXF1aXBtZW50IGFuZCBhbnkgY29udGFjdCBmb3IgbmV3IGJ1c2luZXNzIHZpYSBSZXF1
 ZXN0cyBmb3IgSW5mb3JtYXRpb24gKFJGSSkgb3IgUHJvcG9zYWxzIChSRlApIHdpbGwgYmUgbWFk
 ZSB2aWEgdGhlIEFpcmJ1cyBQcm9jdXJlbWVudCBDb21tb2RpdHkgdGVhbXMuwqAgSG93ZXZlciwg

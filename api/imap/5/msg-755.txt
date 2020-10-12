@@ -1,9 +1,6 @@
-To: kevin@codem-composites.com
-Subject: Delivery failure (d.thornton@companieshouse.gov.uk)
-From: postmaster@companieshouse.gov.uk
-Date: Tue, 22 Sep 2020 16:06:33 +0100
-
-020 13:29:38 +0100
+Reporting-MTA: dns; ch-msw-2k8.CompaniesHouse.local
+Received-From-MTA: dns; cluster-a.mailcontrol.com (cluster-a.mailcontrol.com [85.115.52.190])
+Arrival-Date: Tue, 22 Sep 2020 13:29:38 +0100
 
 Final-Recipient: rfc822; d.thornton@companieshouse.gov.uk
 Action: failed

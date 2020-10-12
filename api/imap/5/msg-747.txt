@@ -1,8 +1,6 @@
-From: <postmaster@gmradiator.com>
-To: <kevin@codem-composites.com>
-Date: Tue, 22 Sep 2020 12:37:25 +0000
-Subject: Undeliverable: Quick Question, Jeff
-
+Reporting-MTA: dns;DB8PR03MB6250.eurprd03.prod.outlook.com
+Received-From-MTA: dns;mail-il1-f170.google.com
+Arrival-Date: Tue, 22 Sep 2020 12:37:24 +0000
 
 Final-Recipient: rfc822;jthorpe@gm-radiator.com
 Action: failed

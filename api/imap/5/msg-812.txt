@@ -1,9 +1,6 @@
-From: Paul van Veggel <paul@greenpower.co.uk>
-To: Kevin Doherty <kevin@codem-composites.com>
-Subject: RE: Quick Question, Paul
-Date: Fri, 25 Sep 2020 09:06:11 +0000
-
-pBQi9IwhIEUX0KiIIovhX7CiC2FCsYLlW7FelKIpYsBewIUUQLIgKgoIUBZES
+iVBORw0KGgoAAAANSUhEUgAAAPoAAAAxCAYAAADzw7RKAAAAAXNSR0IArs4c6QAAAAlwSFlzAAAO
+xAAADsQBlSsOGwAAABl0RVh0U29mdHdhcmUATWljcm9zb2Z0IE9mZmljZX/tNXEAACyjSURBVHhe
+7X0HeFTF+v6XTQ/pBQi9IwhIEUX0KiIIovhX7CiC2FCsYLlW7FelKIpYsBewIUUQLIgKgoIUBZES
 hEBCAum97G7yf9/Znd3Zkw0kevH5PZede2PI2XPmzHzzlfcrMxtSiyaBFqBAgAL/0xQI+Z+eXWBy
 AQoEKKAo8F8XdAKEoKCgAHkDFAhQ4P8QBf6SoDudTvnjjz9k62+/ybat2yR9717JzcuVotxCsVfb
 JTwiQuLj46RZy+bSsVNH6d6zh/Ts2VPad+jwf2jqgaEEKHDsUKBRgv7D99/Lws8+kx9++EHStuyQ

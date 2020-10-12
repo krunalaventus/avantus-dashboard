@@ -1,9 +1,8 @@
-From: <postmaster@bombardierinc.com>
-To: <kevin@codem-composites.com>
-Date: Fri, 11 Sep 2020 13:18:25 +0000
-Subject: Undeliverable: Quick Question, Kieran
+Reporting-MTA: dns;DB8PR03MB6090.eurprd03.prod.outlook.com
+Received-From-MTA: dns;mail-il1-f182.google.com
+Arrival-Date: Fri, 11 Sep 2020 13:18:25 +0000
 
-al-Recipient: rfc822;kieran_d@bombardier.com
+Final-Recipient: rfc822;kieran_d@bombardier.com
 Action: failed
 Status: 5.1.10
 Diagnostic-Code: smtp;550 5.1.10 RESOLVER.ADR.RecipientNotFound; Recipient kieran_d@bombardier.com not found by SMTP address lookup

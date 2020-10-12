@@ -1,9 +1,6 @@
-From: Kevin Doherty <kevin@codem-composites.com>
-To: brandon@innov8displays.co.uk
-Subject: Quick Question,
-Date: Mon, 28 Sep 2020 01:10:44 -0700
-
-n: 0px; box-sizing: border-box;">Hi ,&nbsp;</p><p =
+<html><div style=3D"min-width: 360px"></div><div dir=3D"ltr">
+    <div><p fr-original-style=3D"margin: 0px; box-sizing: border-box;" =
+style=3D"margin: 0px; box-sizing: border-box;">Hi ,&nbsp;</p><p =
 fr-original-style=3D"margin: 0px; box-sizing: border-box;" style=3D"margin:=
  0px; box-sizing: border-box;"><br style=3D"box-sizing: border-box;" =
 fr-original-style=3D"box-sizing: border-box;"></p><p =

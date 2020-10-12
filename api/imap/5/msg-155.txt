@@ -1,9 +1,6 @@
-From: Kevin Doherty <kevin@codem-composites.com>
-To: miles.yerburycengmraes@mbda-systems.com
-Subject: Quick Question, Miles
-Date: Mon, 7 Sep 2020 00:55:17 -0700
-
-ng: border-box;"><span =
+<html><div style=3D"min-width: 360px"></div><div dir=3D"ltr">
+    <div><p fr-original-style=3D"margin: 0px; box-sizing: border-box;" =
+style=3D"margin: 0px; box-sizing: border-box;"><span =
 fr-original-style=3D"font-family: Arial, Helvetica, sans-serif; box-sizing:=
  border-box;" style=3D"font-family: Arial, Helvetica, sans-serif; =
 box-sizing: border-box;">Hi Miles,&nbsp;</span></p><p =

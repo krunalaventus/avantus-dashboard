@@ -1,9 +1,6 @@
-From: Kevin Doherty <kevin@codem-composites.com>
-To: david@fleetparts.co.uk
-Subject: Quick Question, David
-Date: Tue, 22 Sep 2020 04:33:07 -0400
-
-n: 0px; box-sizing: border-box;"><span =
+<html><div style=3D"min-width: 360px"></div><div dir=3D"ltr">
+    <div><p fr-original-style=3D"margin: 0px; box-sizing: border-box;" =
+style=3D"margin: 0px; box-sizing: border-box;"><span =
 fr-original-style=3D"font-family: Arial, Helvetica, sans-serif; box-sizing:=
  border-box;" style=3D"font-family: Arial, Helvetica, sans-serif; =
 box-sizing: border-box;">Hi David,&nbsp;</span></p><p =

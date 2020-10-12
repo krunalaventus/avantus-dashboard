@@ -1,9 +1,6 @@
-From: Dave Ruddock <Dave.Ruddock@solutions-ew.com>
-To: Kevin Doherty <kevin@codem-composites.com>
-Subject: RE: Quick Question, Dave
-Date: Tue, 15 Sep 2020 11:05:12 +0000
-
-hemas.microsoft.com/office/2004/12/omml" xmlns=3D"http:=
+<html xmlns:v=3D"urn:schemas-microsoft-com:vml" xmlns:o=3D"urn:schemas-micr=
+osoft-com:office:office" xmlns:w=3D"urn:schemas-microsoft-com:office:word" =
+xmlns:m=3D"http://schemas.microsoft.com/office/2004/12/omml" xmlns=3D"http:=
 //www.w3.org/TR/REC-html40">
 <head>
 <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8">

@@ -1,9 +1,6 @@
-From: Paul Welland <paul@alphateq.co.uk>
-To: Kevin Doherty <kevin@codem-composites.com>
-Subject: Re: Quick Question, Paul
-Date: Fri, 4 Sep 2020 11:23:19 +0000
-
-iwNCjxkaXY+VGhhbmtzIGZvciBnZXR0aW5nIGluIHRvdWNoIGJ1dCBJ4oCZbSBvbiBo
+PGh0bWw+DQo8aGVhZD4NCjxtZXRhIGh0dHAtZXF1aXY9IkNvbnRlbnQtVHlwZSIgY29udGVudD0i
+dGV4dC9odG1sOyBjaGFyc2V0PXV0Zi04Ij4NCjwvaGVhZD4NCjxib2R5IGRpcj0iYXV0byI+DQpI
+aSBLZXZpbiwNCjxkaXY+VGhhbmtzIGZvciBnZXR0aW5nIGluIHRvdWNoIGJ1dCBJ4oCZbSBvbiBo
 b2xpZGF5IGluIEl0YWx5IGF0IHRoZSBtb21lbnQuPC9kaXY+DQo8ZGl2PklmIHlvdSBjYW4gZ2V0
 IGluIHRvdWNoIHdpdGggamFtaWVAYWxwaGF0ZXEuIGNvLnVrIEnigJltIHN1cmUgaGUgd2lsbCBi
 ZSBhYmxlPC9kaXY+DQo8ZGl2PnRvIGFuc3dlciBhbnkgcXVlc3Rpb25zIHlvdSBtYXkgaGF2ZS48

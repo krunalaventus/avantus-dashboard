@@ -1,8 +1,9 @@
-Reporting-MTA: dns;VI1PR03MB4208.eurprd03.prod.outlook.com
-Received-From-MTA: dns;mail.amey.co.uk
-Arrival-Date: Fri, 4 Sep 2020 10:45:21 +0000
+From: <postmaster@amey.co.uk>
+To: <kevin@codem-composites.com>
+Date: Fri, 4 Sep 2020 10:45:32 +0000
+Subject: Undeliverable: Quick Question, Kapil
 
-Final-Recipient: rfc822;kapil@amey.co.uk
+l-Recipient: rfc822;kapil@amey.co.uk
 Action: failed
 Status: 5.4.6
 Diagnostic-Code: smtp;554 5.4.6 Hop count exceeded - possible mail loop

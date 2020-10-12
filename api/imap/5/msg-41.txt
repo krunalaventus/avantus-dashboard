@@ -1,9 +1,8 @@
-From: <postmaster@21stcenturyav.com>
-To: <kevin@codem-composites.com>
-Date: Thu, 3 Sep 2020 07:47:12 +0000
-Subject: Undeliverable: Quick Question, Geoff
+Reporting-MTA: dns;VI1PR05MB5088.eurprd05.prod.outlook.com
+Received-From-MTA: dns;mail-il1-f173.google.com
+Arrival-Date: Thu, 3 Sep 2020 07:47:12 +0000
 
-nal-Recipient: rfc822;geoff@21stcenturyav.com
+Final-Recipient: rfc822;geoff@21stcenturyav.com
 Action: failed
 Status: 5.1.10
 Diagnostic-Code: smtp;550 5.1.10 RESOLVER.ADR.RecipientNotFound; Recipient geoff@21stcenturyav.com not found by SMTP address lookup

@@ -1,8 +1,7 @@
-Date: Thu,  3 Sep 2020 01:15:06 -0700 (PDT)
-From: MAILER-DAEMON@spamtitan.com (Mail Delivery System)
-Subject: Undelivered Mail Returned to Sender
-To: kevin@codem-composites.com
-
+Reporting-MTA: dns; cloudd.spamtitan.com
+X-Postfix-Queue-ID: 96FCD3D479F
+X-Postfix-Sender: rfc822; kevin@codem-composites.com
+Arrival-Date: Thu,  3 Sep 2020 01:15:04 -0700 (PDT)
 
 Final-Recipient: rfc822; rd@aace.co.uk
 Original-Recipient: rfc822;rd@aace.co.uk

@@ -1,6 +1,9 @@
-iVBORw0KGgoAAAANSUhEUgAAAnEAAAB9CAYAAADN0DVqAAAAAXNSR0IArs4c6QAAAAlwSFlzAAAO
-xAAADsQBlSsOGwAAABl0RVh0U29mdHdhcmUATWljcm9zb2Z0IE9mZmljZX/tNXEAAP+QSURBVHhe
-7L0HgFzFlbZdM9OT80ga5YAQQSLnnIMJBoxzzjitN/nb3d/ft8n2Jq+93vU67jpiG+eADdhgco6S
+From: "Bezard, Vincent" <VBezard@coopertire.com>
+To: Kevin Doherty <kevin@codem-composites.com>
+Subject: RE: Quick Question, Vincent
+Date: Wed, 16 Sep 2020 09:00:16 +0000
+
+YAQQSLnnIMJBoxzzjitN/nb3d/ft8n2Jq+93vU67jpiG+eADdhgco6S
 AAmQBAjlrMk5/+9z6p6eO60ZjQBjUl9o9XT3vRXOrVv11ntSZmhoaCTkj7wEXqISKCgoeF4tGxnZ
 +/B+vuU/3+ufV+fyF+clkJdAXgJ5CbxqJfCZz3ymIPOq7X2+43kJ5CWQl0BeAnkJ5CWQl8DLWAKZ
 yZiKl3Hf8k1/BUggz3S9Am5ivgt5CeQlkJdAXgIviATyTNwLItZ8oX8oCeQ3GX8oSebLyUsgL4G8

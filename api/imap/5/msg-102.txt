@@ -1,9 +1,8 @@
-From: <postmaster@gemalto.onmicrosoft.com>
-To: <kevin@codem-composites.com>
-Date: Fri, 4 Sep 2020 10:07:47 +0000
-Subject: Undeliverable: Quick Question, David
+Reporting-MTA: dns;HE1PR0102MB2714.eurprd01.prod.exchangelabs.com
+Received-From-MTA: dns;xfre.thalesgroup.com
+Arrival-Date: Fri, 4 Sep 2020 10:07:24 +0000
 
-nal-Recipient: rfc822;david.walker@thalesgroup.com
+Original-Recipient: rfc822;david.walker@thalesgroup.com
 Final-Recipient: rfc822;david.walker@thalesgroup.com
 Action: failed
 Status: 5.1.10

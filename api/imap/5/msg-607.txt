@@ -1,6 +1,9 @@
-<html xmlns:o=3D"urn:schemas-microsoft-com:office:office" xmlns:w=3D"urn:sc=
-hemas-microsoft-com:office:word" xmlns:m=3D"http://schemas.microsoft.com/of=
-fice/2004/12/omml" xmlns=3D"http://www.w3.org/TR/REC-html40">
+From: Vincent Denoyelle <vincent.denoyelle@cummins.com>
+To: Kevin Doherty <kevin@codem-composites.com>
+Subject: Automatic reply: Quick Question, Vincent
+Date: Thu, 17 Sep 2020 10:08:56 +0000
+
+.org/TR/REC-html40">
 <head>
 <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dus-ascii"=
 >

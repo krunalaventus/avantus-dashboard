@@ -1,9 +1,6 @@
-From: Neil Partridge <neilp@brownell.co.uk>
-Date: Mon, 14 Sep 2020 19:18:58 +0100
-Subject: RE: Quick Question, Robert
-To: Kevin Doherty <kevin@codem-composites.com>
-
-<!--
+<html><head><meta http-equiv=3D"Content-Type" content=3D"text/html; charset=
+=3Dutf-8"><meta name=3D"Generator" content=3D"Microsoft Word 15 (filtered m=
+edium)"><style><!--
 /* Font Definitions */
 @font-face
 	{font-family:"Cambria Math";

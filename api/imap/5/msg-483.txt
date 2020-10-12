@@ -1,9 +1,8 @@
-From: <postmaster@bsl-transportation.com>
-To: <kevin@codem-composites.com>
-Date: Mon, 14 Sep 2020 09:27:24 +0000
-Subject: Undeliverable: Quick Question, Wayne
+Reporting-MTA: dns;AM6PR0602MB3605.eurprd06.prod.outlook.com
+Received-From-MTA: dns;mail-il1-f176.google.com
+Arrival-Date: Mon, 14 Sep 2020 09:27:24 +0000
 
--Recipient: rfc822;bwayne@bsl-transportation.com
+Final-Recipient: rfc822;bwayne@bsl-transportation.com
 Action: failed
 Status: 5.1.10
 Diagnostic-Code: smtp;550 5.1.10 RESOLVER.ADR.RecipientNotFound; Recipient bwayne@bsl-transportation.com not found by SMTP address lookup

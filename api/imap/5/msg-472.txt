@@ -1,9 +1,6 @@
-From: <postmaster@bristol.gs>
-To: <kevin@codem-composites.com>
-Date: Mon, 14 Sep 2020 08:26:31 +0000
-Subject: Undeliverable: Quick Question, Patrick
-
-
+Reporting-MTA: dns;VI1PR04MB5950.eurprd04.prod.outlook.com
+Received-From-MTA: dns;mail-il1-f182.google.com
+Arrival-Date: Mon, 14 Sep 2020 08:26:30 +0000
 
 Final-Recipient: rfc822;patrick@bristol.gs
 Action: failed

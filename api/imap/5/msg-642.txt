@@ -1,9 +1,8 @@
-From: <postmaster@bmwgroup.com>
-To: <kevin@codem-composites.com>
-Date: Fri, 18 Sep 2020 13:28:39 +0200
-Subject: Undeliverable: Quick Question, Rob
+Reporting-MTA: dns;SMUCM24K.europe.bmw.corp
+Received-From-MTA: dns;esabb6.muc
+Arrival-Date: Fri, 18 Sep 2020 11:28:39 +0000
 
-22;rob@bmw.co.uk
+Original-Recipient: rfc822;rob@bmw.co.uk
 Final-Recipient: rfc822;ROB@bmwbrussels.net.bmw.be
 Action: failed
 Status: 5.2.2

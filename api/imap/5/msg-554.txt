@@ -1,9 +1,6 @@
-From: <postmaster@coxpowertrain.com>
-To: <kevin@codem-composites.com>
-Date: Wed, 16 Sep 2020 09:07:57 +0000
-Subject: Undeliverable: Quick Question, David
-
-
+Reporting-MTA: dns;VI1PR01MB6303.eurprd01.prod.exchangelabs.com
+Received-From-MTA: dns;mail-il1-f170.google.com
+Arrival-Date: Wed, 16 Sep 2020 09:07:56 +0000
 
 Final-Recipient: rfc822;david@coxmarine.com
 Action: failed

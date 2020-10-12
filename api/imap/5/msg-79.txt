@@ -1,9 +1,6 @@
-From: Russ Cook <Russ.Cook@aimmro.com>
-To: Kevin Doherty <kevin@codem-composites.com>
-Subject: Re: [External] Quick Question, Russell
-Date: Fri, 4 Sep 2020 04:46:34 +0000
-
-j48YnI+DQo8L2Rpdj4NCjxkaXY+SeKAmW0gb24gdmFjYXRpb24gdW50
+PGh0bWw+DQo8aGVhZD4NCjxtZXRhIGh0dHAtZXF1aXY9IkNvbnRlbnQtVHlwZSIgY29udGVudD0i
+dGV4dC9odG1sOyBjaGFyc2V0PXV0Zi04Ij4NCjwvaGVhZD4NCjxib2R5IGRpcj0iYXV0byI+DQpI
+ZWxsbyBLZXZpbg0KPGRpdj48YnI+DQo8L2Rpdj4NCjxkaXY+SeKAmW0gb24gdmFjYXRpb24gdW50
 aWwgMTQgU2VwdGVtYmVyLiBQbGVhc2UgZmVlbCBmcmVlIHRvIGNhbGwgYW55IHRpbWUgYWZ0ZXIg
 dGhlbiBvbiAwNzg4NzY1NjUyMS4mbmJzcDs8L2Rpdj4NCjxkaXY+PGJyPg0KPC9kaXY+DQo8ZGl2
 PlJlZ2FyZHMmbmJzcDs8L2Rpdj4NCjxkaXY+UnVzcyBDb29rPC9kaXY+DQo8ZGl2Pjxicj4NCjwv

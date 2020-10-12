@@ -1,9 +1,8 @@
-To: kevin@codem-composites.com
-Date: Tue, 15 Sep 2020 04:12:15 -0700 (PDT)
-From: Mail Delivery Subsystem <mailer-daemon@googlemail.com>
-Subject: Delivery Status Notification (Failure)
+Reporting-MTA: dns; googlemail.com
+Arrival-Date: Tue, 15 Sep 2020 04:12:14 -0700 (PDT)
+X-Original-Message-ID: <CAK4cLxjBArwjeYVA1Dhs6-_e_gyhzpvxsT-yKrO4KihqhX8_aw@mail.gmail.com>
 
-Recipient: rfc822; jonathan.townsley@baesystems.com
+Final-Recipient: rfc822; jonathan.townsley@baesystems.com
 Action: failed
 Status: 5.0.0
 Remote-MTA: dns; dmzms99901.na.baesystems.com. (149.32.200.65, the server for

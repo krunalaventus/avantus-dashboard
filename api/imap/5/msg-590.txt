@@ -1,9 +1,6 @@
-From: <postmasters@cummins.com>
-To: <kevin@codem-composites.com>
-Date: Thu, 17 Sep 2020 03:48:29 -0500
-Subject: Undeliverable: Quick Question, John
-
-7:50 +0000
+Reporting-MTA: dns;ACDCSWPAPP749.cummins.svcnet
+Received-From-MTA: dns;NAM11-DM6-obe.outbound.protection.outlook.com
+Arrival-Date: Thu, 17 Sep 2020 08:47:50 +0000
 
 Final-Recipient: rfc822;john.clark@cummins.com
 Action: failed

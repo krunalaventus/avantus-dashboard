@@ -1,5 +1,5 @@
-Reporting-MTA: dns;CY4P114MB1062.NAMP114.PROD.OUTLOOK.COM
-Received-From-MTA: dns;mx0a-001dcc01.pphosted.com
+From: <postmaster@accenture.com>
+To: <kevin@codem-compositeeceived-From-MTA: dns;mx0a-001dcc01.pphosted.com
 Arrival-Date: Thu, 3 Sep 2020 07:37:18 +0000
 
 Final-Recipient: rfc822;jc@accenture.com

@@ -1,9 +1,8 @@
-Subject: Undeliverable mail: Quick Question, Eddie
-From: <MAILER-DAEMON@server205.appriver.com>
-To: <kevin@codem-composites.com>
-Date: Thu, 10 Sep 2020 04:19:08 -0400
+Reporting-MTA: dns; server205.appriver.com
 
-iled
+Original-Recipient: rfc822;<e.harrod@4lcommunications.com>
+Final-Recipient: rfc822;<e.harrod@4lcommunications.com>
+Action: failed
 Status: 5.0.0
 Remote-MTA: dns; 4lcommunications-com.mail.protection.outlook.com:25
 Diagnostic-Code: smtp;host 4lcommunications-com.mail.protection.outlook.com:25 says:
