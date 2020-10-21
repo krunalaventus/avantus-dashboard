@@ -144,9 +144,9 @@ exports.getEmailDetail = async function(params, res) {
                     console.log("==================================")
                     console.log(element.id)
                 }
-                var quotedPrintable = require('quoted-printable');
-                var utf8 = require('utf8');
-                var gdata = quotedPrintable.decode(data ?? '').toString('utf8');
+                // var quotedPrintable = require('quoted-printable');
+                // var utf8 = require('utf8');
+                // var gdata = quotedPrintable.decode(data ?? '').toString('utf8');
                 // const simpleParser = require('mailparser').simpleParser;
                 // let gdata = await simpleParser(data??'');
                 // const gdata= decodeURI(data ?? '');
@@ -155,7 +155,7 @@ exports.getEmailDetail = async function(params, res) {
                 //   return String.fromCharCode(parseInt(byte, 16));
                 // }), 'binary').toString('utf8');
                 // 
-                response.push({data: element, body: gdata})
+                response.push({data: element, body: ""})
                 loopno = loopno + 1;
                 if(loopno === find.length)
                 {
