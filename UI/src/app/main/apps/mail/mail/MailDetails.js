@@ -45,7 +45,7 @@ function MailDetails(props) {
 		})();
 	}, []);
 	function getUrl(uid, emailId) {
-		const url = `http://13.58.82.135:5000?uid=${uid}&emailId=${emailId}`;
+		const url = `http://13.58.82.135/coreapi/?uid=${uid}&emailId=${emailId}`;
 		return url;
 	}
 	console.log(state.loading);
