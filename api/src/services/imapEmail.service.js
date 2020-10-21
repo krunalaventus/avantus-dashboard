@@ -233,7 +233,7 @@ exports.loadEmails =async function(req, res){
                 var buffer = '', count = 0;
                 // console.log(prefix + 'Body');
                 
-                stream.pipe(fs.createWriteStream(`imap/${email.id}/msg-${seqno}.txt`));
+                // stream.pipe(fs.createWriteStream(`imap/${email.id}/msg-${seqno}.txt`));
                 stream.on('data', function(chunk) {
                   count += chunk.length;
                   buffer += chunk.toString('utf8');
