@@ -1,0 +1,111 @@
+From: Mail Delivery System <MAILER-DAEMON@messagelabs.com>
+To: <kevin@codem-composites.com>
+Subject: Mail Delivery Failure
+Date: Thu, 15 Oct 2020 08:07:07 +0000
+
+Email Security.cloud.
+
+I was unable to deliver your message to the following addresses:
+
+shaun.j@lexautolease.co.uk
+
+Reason: 550 #5.1.0 Address rejected.
+
+The message subject was: Quick Question, Shaun
+The message date was: Thu, 15 Oct 2020 01:06:59 -0700
+The message identifier was: F1/94-15085-A23088F5
+The message reference was: server-31.tower-226.messagelabs.com!1602749220!3=
+8064!1
+
+Please do not reply to this email as it is sent from an unattended mailbox.
+Contact your email administrator if you need more information, or
+instructions for resolving this issue.
+
+--dsn_001602749227_000112193499
+Content-Type: message/delivery-status
+
+Arrival-Date: Thu, 15 Oct 2020 08:07:06 +0000
+Reporting-MTA: dns; server-3.bemta.az-a.eu-central-1.aws.symcld.net
+
+Status: 5.0.0
+Last-Attempt-Date: Thu, 15 Oct 2020 08:07:07 +0000
+Diagnostic-Code: smtp; 550 #5.1.0 Address rejected.
+Final-Recipient: rfc822; shaun.j@lexautolease.co.uk
+Action: failed
+
+--dsn_001602749227_000112193499
+Content-Type: text/rfc822-headers
+
+Return-Path: <kevin@codem-composites.com>
+Received: from [100.113.3.130] (using TLSv1.2 with cipher DHE-RSA-AES256-GCM-SHA384 (256 bits))
+	by server-3.bemta.az-a.eu-central-1.aws.symcld.net id F1/94-15085-A23088F5; Thu, 15 Oct 2020 08:07:06 +0000
+Authentication-Results: mx.messagelabs.com; spf=pass 
+  (server-31.tower-226.messagelabs.com: domain of codem-composites.com 
+  designates 209.85.166.180 as permitted sender) 
+  smtp.mailfrom=codem-composites.com; dkim=pass (good signature) 
+  header.i=@codem-composites.com header.s=google; dmarc=pass (p=none 
+  adkim=r aspf=r) header.from=codem-composites.com
+X-Brightmail-Tracker: H4sIAAAAAAAAA+NgFuphleJIrShJLcpLzFFi42K5GLpsi64ac0e
+  8wdlFfBYNx88xOjB63Dn+kTWAMYo1My8pvyKBNePYkylsBQuSK55t5G5gnBHTxcjFISQwhVFi
+  w7ajLCAOi8BTFonGTXPZQRwJgR8sEndO9jFCOE2MEvO/vWTrYuQEcooknp3fwwJhV0i8fbycH
+  cQWEiiQuLN3CiuIzSZgINFx9jcziM0rIChxcuYTsHoWAVWJ98/vsUHEAyReLDgOVi8sICex8u
+  JbsHoRIHvm8b1gcWYBH4mpbzcyTmDkm4Vk1CwkKQhbU6J1+292CFtbYtnC18wQtobEgjv7GJH
+  FFzCyrWK0TCrKTM8oyU3MzNE1NDDQNTQ01jXQNTI10kus0k3USy3VTU7NKylKBMrqJZYX6xVX
+  5ibnpOjlpZZsYgQGd0ohw58djKvffNA7xCjJwaQkyvvpV3u8EF9SfkplRmJxRnxRaU5q8SFGG
+  Q4OJQneGMaOeCHBotT01Iq0zBxgpMGkJTh4lER4zZiA0rzFBYm5xZnpEKlTjOEcSzbOW8TM0f
+  FrEZB893MxkLy9agmQ/Agmv4PJto0gctWB6auYhVjy8vNSpcR5DUDGCYCMyyjNg1sGSySXGGW
+  lhHkZGRgYhHgKUotyM0tQ5V8xinMwKgnzsoJM4cnMK4G76RXQuUxA59ovaQE5tyQRISXVwLQ+
+  yo3JfUv8YdUT+iW3PRJWyRt2FF5nYdvEuNDixyc3/w6BiAM6K5b8uXSSf8Y02dqI0KRFTyX7g
+  12N59mVJ5y17mt9tjzxTOeB7uNyudKv9M+G2xot57ia8qLxXcm7qpct/L0cl9s59jtJ7m7f8p
+  mhb0PKrpoVU5Ust+77d6Hzotz9b5tiNY8oys2v80n8dlae8fCdrfWujE/XSp6RsZsSGfZk5q3
+  ktcslHzseiD/AVW+ldVTX913AZpFyFcErnIf5Itrk5XTKuNUnWq7Mm3kj+8mPFZfqagUl/lUy
+  sjPs7LDSPtGgHPaXN3hGRZtcRMMe3otSOwo7eZc1zDUv/Kn5fzWLp2uOSmJu2JX3SizFGYmGW
+  sxFxYkANWCmUZ8DAAA=
+X-Env-Sender: kevin@codem-composites.com
+X-Msg-Ref: server-31.tower-226.messagelabs.com!1602749220!38064!1
+X-Originating-IP: [209.85.166.180]
+X-SYMC-ESS-Newsletter-Ignored: YES
+X-StarScan-Received:
+X-StarScan-Version: 9.60.3; banners=-,-,-
+Received: (qmail 31755 invoked from network); 15 Oct 2020 08:07:01 -0000
+Received: from mail-il1-f180.google.com (HELO mail-il1-f180.google.com) (209.85.166.180)
+  by server-31.tower-226.messagelabs.com with ECDHE-RSA-AES256-GCM-SHA384 encrypted SMTP; 15 Oct 2020 08:07:01 -0000
+Received: by mail-il1-f180.google.com with SMTP id y16so3075520ila.7
+        for <shaun.j@lexautolease.co.uk>; Thu, 15 Oct 2020 01:07:01 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=codem-composites.com; s=google;
+        h=from:mime-version:date:message-id:subject:to;
+        bh=TIIMTX6pBDyCl8wClUrvFibdxFnroe1hxNpfkAbtLYA=;
+        b=AZoPC6a/gdaGa4HuAZEDewQNep8d7zC4So9pi/FX5X/BtS/rBdyGZTDHAMPoGyHZCS
+         13Yjcq1JGeek31tetKFB8LFDzQaSO7F7SJzQKZlFQ1O98RJ0QvkCbLmBW0rOqsNYmlbH
+         9J9NwcGfYUJw8qIqgnGbLRzHCrn0uk5J6bae/Dk0UBROM7FIizrahmOHmHHKxliTCKSi
+         FgR/++iLbdJ3ihfs+PO2IOnQZroaoc0+qIiTeQz6unBKfHDIbVlzD8SeGF4AuWXKpY71
+         CgSRs0Mh2mQ3AqBk5184tLD/fmmK7ImfLjltc5XkZSjGXvsE67IZT1dv0cO1iVXXLM6h
+         hIWQ==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20161025;
+        h=x-gm-message-state:from:mime-version:date:message-id:subject:to;
+        bh=TIIMTX6pBDyCl8wClUrvFibdxFnroe1hxNpfkAbtLYA=;
+        b=T8OPYOdr++R0JhdIB21uDqD7l2xi2biJ7RhLmvoj+MsbWoyt+NNpfrwEuf0lducXT/
+         vWfNyLOwEDER0jYCduATsmz/3ZR++oXZvi6OFifiTOr3oAyMl9PpaBuvZsP0FaN36mgD
+         KElZu3YqGD3q+Bc2bhsf6bfz+zIRkrMTQqoDfDsQed2SpGZqbuMEU8BPIoOY+XVzQPo3
+         eSkzFMfw7uS9GMKO9AS34kTl8KxdNYsaq2zD6HvHZlhkSUerY96JLnCI5xH4Nk2HSUL6
+         1Izy5/L7z3BRI44Wh6FXhXjPTIQkrL8egYOu1Anw+D2qEQux6Od3dgKVSqYDfEEqhf6l
+         H1HQ==
+X-Gm-Message-State: AOAM530SwQ+ZO6gP38GP7yro7H0V8OczmksES25+LVhs0bv8rbGZx3+p
+	h8t6MlKUX1VJbChvC3vpCZCA3HtiOy8Pq7NtSvnIj+EK7rBlng==
+X-Google-Smtp-Source: ABdhPJztfvEVThLnEdmBSMgcGALAl6asQRxkoU+SoJdg8WXJfMIICkY00+2FTgQYfwM3WbA9h1bfgGsm9NZD1Us7Rxs=
+X-Received: by 2002:a05:6e02:de8:: with SMTP id m8mr2299316ilj.292.1602749219874;
+ Thu, 15 Oct 2020 01:06:59 -0700 (PDT)
+Received: from 696963989851 named unknown by gmailapi.google.com with
+ HTTPREST; Thu, 15 Oct 2020 01:06:59 -0700
+From: Kevin Doherty <kevin@codem-composites.com>
+MIME-Version: 1.0
+Date: Thu, 15 Oct 2020 01:06:59 -0700
+Message-ID: <CAK4cLxiHoRU-y-Uh5yWZnoereiYGUpYPMs6-wzZND_y5TnAwSA@mail.gmail.com>
+Subject: Quick Question, Shaun
+To: shaun.j@lexautolease.co.uk
+Content-Type: multipart/alternative; boundary="000000000000ea398e05b1b12176"
+
+--dsn_001602749227_000112193499--
+

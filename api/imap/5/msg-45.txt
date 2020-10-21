@@ -1,3 +1,104 @@
+To: kevin@codem-composites.com
+Date: Thu, 03 Sep 2020 01:09:28 -0700 (PDT)
+From: Mail Delivery Subsystem <mailer-daemon@googlemail.com>
+Subject: Delivery Status Notification (Failure)
+
+000000000753fc805ae644503"
+
+--000000000000753fc805ae644503
+Content-Type: text/plain; charset="UTF-8"
+
+
+** Address not found **
+
+Your message wasn't delivered to pdarnell@mindyourdecisions.com because the address couldn't be found, or is unable to receive mail.
+
+Learn more here: https://support.google.com/mail/?p=NoSuchUser
+
+The response from the remote server was:
+550 5.1.1 The email account that you tried to reach does not exist. Please try double-checking the recipient's email address for typos or unnecessary spaces. Learn more at https://support.google.com/mail/?p=NoSuchUser n1si119682iom.0 - gsmtp
+
+--000000000000753fc805ae644503
+Content-Type: text/html; charset="UTF-8"
+
+
+<html>
+<head>
+<style>
+* {
+font-family:Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+</style>
+</head>
+<body>
+<table cellpadding="0" cellspacing="0" class="email-wrapper" style="padding-top:32px;background-color:#ffffff;"><tbody>
+<tr><td>
+<table cellpadding=0 cellspacing=0><tbody>
+<tr><td style="max-width:560px;padding:24px 24px 32px;background-color:#fafafa;border:1px solid #e0e0e0;border-radius:2px">
+<img style="padding:0 24px 16px 0;float:left" width=72 height=72 alt="Error Icon" src="cid:icon.png">
+<table style="min-width:272px;padding-top:8px"><tbody>
+<tr><td><h2 style="font-size:20px;color:#212121;font-weight:bold;margin:0">
+Address not found
+</h2></td></tr>
+<tr><td style="padding-top:20px;color:#757575;font-size:16px;font-weight:normal;text-align:left">
+Your message wasn't delivered to <a style='color:#212121;text-decoration:none'><b>pdarnell@mindyourdecisions.com</b></a> because the address couldn't be found, or is unable to receive mail.
+</td></tr>
+<tr><td style="padding-top:24px;color:#4285F4;font-size:14px;font-weight:bold;text-align:left">
+<a style="text-decoration:none" href="https://support.google.com/mail/?p=NoSuchUser">LEARN MORE</a>
+</td></tr>
+</tbody></table>
+</td></tr>
+</tbody></table>
+</td></tr>
+<tr style="border:none;background-color:#fff;font-size:12.8px;width:90%">
+<td align="left" style="padding:48px 10px">
+The response from the remote server was:<br/>
+<p style="font-family:monospace">
+550 5.1.1 The email account that you tried to reach does not exist. Please try double-checking the recipient&#39;s email address for typos or unnecessary spaces. Learn more at https://support.google.com/mail/?p=NoSuchUser n1si119682iom.0 - gsmtp
+</p>
+</td>
+</tr>
+</tbody></table>
+</body>
+</html>
+
+--000000000000753fc805ae644503--
+--000000000000753fc505ae644502
+Content-Type: image/png; name="icon.png"
+Content-Disposition: attachment; filename="icon.png"
+Content-Transfer-Encoding: base64
+Content-ID: <icon.png>
+
+iVBORw0KGgoAAAANSUhEUgAAAJAAAACQCAYAAADnRuK4AAAACXBIWXMAABYlAAAWJQFJUiTwAAAA
+GXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAABTdJREFUeNrsnD9sFEcUh5+PRMqZ
+yA0SPhAUQAQFUkyTgiBASARo6QApqVIkfdxGFJFSgGhJAUIiBaQB0ZIOKVCkwUgURjIg2fxL4kS+
+YDvkbC/388bi8N16Z4/d7J/5PsniuD3fyePP772ZeTsDQRAYQL/UGAJAIEAgQCBAIAAEAgQCBAIE
+AkAgyJT3Mv+Eq7vYK8mTE+MDRCAghQECAeRQA5V2ZOpmg5vDx3NPzRbmGRMEcmTrEbNNB8zWfRD+
+f/Efs2e3zCZvMjaksBg27TfbcuSNPEKP9ZyuAQKtHX2O9ncNgWC57umMPKvRNb0GEKgnLoUyxTQC
+rcns0/6uIRAs8/hGf9cQCJZpTpjdO2f25/03z+mxntM1eLtsZAgiUtX4JcaBCAQIBAgECARQ8CJa
+G5jab4J4pm4WZmO3OALVh802fIwcLkyPkcKAGggAgQCBAIEAgQCBABAIEAjKA/1AnahhbO5FdOOY
+VsrrDbPBYcYKgf5D2wLaV3p+22xh1u17tO3S+DTcvxvagUDeivPgx/a/95J/73w7Sj26Hn4pKo2M
+ehuV/KyBJM6d0f7k6RKx/R63vvL2tmf/ItDdM2ZTP6f7nkp9Y2fDx1v9akmpIU+KSCLVUghUQfSL
+zVKeTklbLxGoctw/nzC5rw8L5KRNbkpnKq6pgSqEClzNnFzY+XnYWrt6VpVk1vbwWvg+RKCKMOUw
+Q1LEOXA+/MX3mpJvGDHb265xtnzmFoUK1HaKQGlMtePYM+q2KKjXuaS1NJYIEKgI8jhEgqHt4cqy
+Ky53j3hyHz2bqSLp2o2LbJ7MxKovkGqXteoWpaOk96O9/yF/dF7NwlS36AuIQIBA5celQK4PIxBE
+4LLzrtoLgaALdSy6CJRkWQCBPGLsTHznomZ9nszUECgJ2ml3WWHe+QVFNPSQx6UdZNtxr9pbEShN
+eTTz8mQXHoHSlke7+Z+c9m6VGoHSkEfs/trLW3wQKApN1V3lGfnGu2Z6BFoLtYCs3GWBPAiUCLVh
+/HoaeRCoT9R873KLM/IgUBfapnCpe5AHgXry4pf412ihEHkQqCdxd5VqrcezhUIESsJMTJ+Pdthp
+Z0WgyNlXXPHc2Mc4IVAELl2Gnh8mhUDvCkfbIVAkcbf/aOoO3fMKhqAD3frTa4quwpn0hUDOkQhI
+YYBAgECAQAAU0QlYObl+5Ug8NcprZkZxjUCxRPVA6zmtEXHCBykskrhjgHXN09PoEcgFl4M4H11j
+nBAoApcj6ZoPGScEAgTKApcDoTw5sgWB+sGlz1n90IBAPdE6j1o21PfcC11jLagL1oFWRyGlKU3p
+OxcSJQ7NZAjkhHp/uG2HFAYIBAgECASAQIBAgECAQAAIBOkxEARBtp9wdVfAMOfIifEBIhCQwgCB
+ABAI0oV2jhxZ+nfBatuPZfgBCy0Eqqo8c01b+uu51XZvzOgDWoHNTGR+pCwpLEd5svuAZXlO2uEr
+PyEQ8hRWHgRCHmqg0sjTnLalv6crJQ8C/U8stqNO0I4+VZOHFIY8COS1PGL2ybd5yUMKK7s8zYmL
+dujyd3n+nESgcsvzZd4/KwIhDwIhT35QA6UyE1qyxZnfvJMHgdKS549JC1qvvJOHFIY8CFR5eV5O
+XimqPAhUdHnmfx+zgxdOFXkoqIGKKs/cswnb/8Oeog8HEai48nxUhiFBIORBIOShBioskkbySCLk
+IQIhDwIhj28p7FApR6b1qlEbHGpkO/rr6215vi/zH1r2x7tApSGFAQIBAgECAQIBIBAgECAQIBBA
+LK8FGADCTxYrr+EVJgAAAABJRU5ErkJggg==
+--000000000000753fc505ae644502--
+--000000000000753f3805ae6445fc
+Content-Type: message/delivery-status
+
 Reporting-MTA: dns; googlemail.com
 Received-From-MTA: dns; kevin@codem-composites.com
 Arrival-Date: Thu, 03 Sep 2020 01:09:28 -0700 (PDT)
@@ -13,3 +114,71 @@ Diagnostic-Code: smtp; 550-5.1.1 The email account that you tried to reach does 
  550-5.1.1 unnecessary spaces. Learn more at
  550 5.1.1  https://support.google.com/mail/?p=NoSuchUser n1si119682iom.0 - gsmtp
 Last-Attempt-Date: Thu, 03 Sep 2020 01:09:28 -0700 (PDT)
+
+--000000000000753f3805ae6445fc
+Content-Type: message/rfc822
+
+X-Gm-Message-State: AOAM531peOmDK2P4hQRSgTWxtjvs5qk0oNwQ7NlduYpSxVYYtcZDVh4B
+	D/cYBbROIAONTn7TwPzZG0oLdGlcPGP98nWilUfCAi/LHmMIlrg3tMWEl5AnoMRvgjLLBl1DUzr
+	N3HW7uAuxrE2K4QvHfEm7Yxqc5TQMo6Rutjs=
+X-Received: by 2002:a6b:9305:: with SMTP id v5mr2030265iod.201.1599120568575;
+        Thu, 03 Sep 2020 01:09:28 -0700 (PDT)
+X-Received: by 2002:a6b:9305:: with SMTP id v5mr2030247iod.201.1599120568166;
+        Thu, 03 Sep 2020 01:09:28 -0700 (PDT)
+ARC-Seal: i=1; a=rsa-sha256; t=1599120568; cv=none;
+        d=google.com; s=arc-20160816;
+        b=evkhrRuFUoGXKE4Ri/rf3bHx/UV3O3485rtri8aJIkT+7N6QyldrFeuKxw+g75Qal7
+         RpXYZmlsc3AELNpiDNlC1eTXF9Spo9JABB3pfqMRSUwVspwuMUIfisw+YpmEGu7ZqpGa
+         9cPDOEuAJLe4WqL0oxUg2UkPyr0Ty1DHnQ9/0UrEad0yg+4ypfkwVpxkdw9wKgBTtsBB
+         1AtMLD44WfS6TayifN+YplHaYg7xJOh/k9fe7/S0icCxSUHa2sxZNdXoAaonj5PHVK3v
+         /5OPj4ZY1CoN7FsX2UW73kDUny3RmCg3vrFXD96OLtGLe5cXEigbEvkzKMIL4QNrEavB
+         ZFtg==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=to:subject:message-id:date:mime-version:from:dkim-signature;
+        bh=nwXWI1Qr0JdU9iVvkj0wEE4vc1roG+RNbIW44Y7xpis=;
+        b=BKt7uG14p3P9DhKprcEB8h/76Cx5/mZswRsVHhcbayqbw/rFBS3ZiAC95RNUX1T9Tn
+         DiKmb7exNy1ACkxqjQBWlYdN0r1/KHBwmlIvDcMv7iGbqdsr/vslO0Aki41DHsGQJ9Kt
+         4Ui5gccPIENE8sIIxnM4kOJdq/rdEdoBLbwdBha7MWz/m8UG5tx+MrK9a7LgS84OZVHb
+         QGb8GDiYfzz/pX4W0X8dPpm9lsKald9HgiUkHFMqi3CNklmkSxwVu2WYsA+brZhRdDfr
+         4jSr/bWtqK0KWgjo2LStLLakiZEEzy/AXgo8OM4oCE2XEZIRLGfFi5e5rJhG/yBQmFmI
+         //jQ==
+ARC-Authentication-Results: i=1; mx.google.com;
+       dkim=pass header.i=@codem-composites.com header.s=google header.b=URYoZxif;
+       spf=pass (google.com: domain of kevin@codem-composites.com designates 209.85.220.41 as permitted sender) smtp.mailfrom=kevin@codem-composites.com;
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=codem-composites.com
+Return-Path: <kevin@codem-composites.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id f73sor1222611ilg.57.2020.09.03.01.09.28
+        for <pdarnell@mindyourdecisions.com>
+        (Google Transport Security);
+        Thu, 03 Sep 2020 01:09:28 -0700 (PDT)
+Received-SPF: pass (google.com: domain of kevin@codem-composites.com designates 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@codem-composites.com header.s=google header.b=URYoZxif;
+       spf=pass (google.com: domain of kevin@codem-composites.com designates 209.85.220.41 as permitted sender) smtp.mailfrom=kevin@codem-composites.com;
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=codem-composites.com
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=codem-composites.com; s=google;
+        h=from:mime-version:date:message-id:subject:to;
+        bh=nwXWI1Qr0JdU9iVvkj0wEE4vc1roG+RNbIW44Y7xpis=;
+        b=URYoZxifLoK3T6WBtDVQe4kIQiXDfQZr7mM29vOfvv/okyH9fv+ycNhDRHI2S8o0Wv
+         10I4aiDmblvUygzYf9kfp5lcH+Ix7fS1KmBJKHKQ0VrlLE/U+k18bKLfCDNwa5QgqC/5
+         qfJNL+M90XAfqUPGVwWw/eRHPLsuFP6LhmW1ZhQMyVFNl6MZNpbkJZQjVVP3ZBs8j+BQ
+         lf+mpQOQnAFO/CGmOZ2PKcWBJ9acU+mlBVnrngt1Zmo+HIKwmRYQMRVYtW7q1trQoQoa
+         d+43QPYFv2Yd+pnMzt7wO6/+43SruExPJ06iM25gZ5pUgnGgoRXvb5pK1uPbBIhNA5Rz
+         6qnw==
+X-Google-Smtp-Source: ABdhPJxDFyhD9Q4NgqsME73uAR53siYxrqYwGUguRXk3feXYJ0gsOdv0tIe74KHNT0Iz88H6a8dGI5EAsrMlbDez5uc=
+X-Received: by 2002:a05:6e02:ed1:: with SMTP id i17mr2187463ilk.8.1599120566302;
+ Thu, 03 Sep 2020 01:09:26 -0700 (PDT)
+Received: from 696963989851 named unknown by gmailapi.google.com with
+ HTTPREST; Thu, 3 Sep 2020 01:09:25 -0700
+From: Kevin Doherty <kevin@codem-composites.com>
+MIME-Version: 1.0
+Date: Thu, 3 Sep 2020 01:09:25 -0700
+Message-ID: <CAK4cLxiExgbxT3Tvn05uhDZuCBk0m2neRCEs-1ZW3hgszS3PuQ@mail.gmail.com>
+Subject: Quick Question, Paul
+To: pdarnell@mindyourdecisions.com
+Content-Type: multipart/alternative; boundary="0000000000004ed5d005ae64459f"
+
+----- Message truncated -----
+--000000000000753f3805ae6445fc--

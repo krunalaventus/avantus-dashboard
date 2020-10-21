@@ -1,0 +1,153 @@
+To: kevin@codem-composites.com
+Date: Mon, 19 Oct 2020 04:10:39 -0700 (PDT)
+From: Mail Delivery Subsystem <mailer-daemon@googlemail.com>
+Subject: Delivery Status Notification (Failure)
+
+00000000017eb5305b2042a3a"
+
+--00000000000017eb5305b2042a3a
+Content-Type: text/plain; charset="UTF-8"
+
+
+** Address not found **
+
+Your message wasn't delivered to rm@bmw.co.uk because the address couldn't be found, or is unable to receive mail.
+
+
+
+The response from the remote server was:
+550 Too many invalid recipients
+
+--00000000000017eb5305b2042a3a
+Content-Type: text/html; charset="UTF-8"
+
+
+<html>
+<head>
+<style>
+* {
+font-family:Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+</style>
+</head>
+<body>
+<table cellpadding="0" cellspacing="0" class="email-wrapper" style="padding-top:32px;background-color:#ffffff;"><tbody>
+<tr><td>
+<table cellpadding=0 cellspacing=0><tbody>
+<tr><td style="max-width:560px;padding:24px 24px 32px;background-color:#fafafa;border:1px solid #e0e0e0;border-radius:2px">
+<img style="padding:0 24px 16px 0;float:left" width=72 height=72 alt="Error Icon" src="cid:icon.png">
+<table style="min-width:272px;padding-top:8px"><tbody>
+<tr><td><h2 style="font-size:20px;color:#212121;font-weight:bold;margin:0">
+Address not found
+</h2></td></tr>
+<tr><td style="padding-top:20px;color:#757575;font-size:16px;font-weight:normal;text-align:left">
+Your message wasn't delivered to <a style='color:#212121;text-decoration:none'><b>rm@bmw.co.uk</b></a> because the address couldn't be found, or is unable to receive mail.
+</td></tr>
+</tbody></table>
+</td></tr>
+</tbody></table>
+</td></tr>
+<tr style="border:none;background-color:#fff;font-size:12.8px;width:90%">
+<td align="left" style="padding:48px 10px">
+The response from the remote server was:<br/>
+<p style="font-family:monospace">
+550 Too many invalid recipients
+</p>
+</td>
+</tr>
+</tbody></table>
+</body>
+</html>
+
+--00000000000017eb5305b2042a3a--
+--00000000000017eb4c05b2042a39
+Content-Type: image/png; name="icon.png"
+Content-Disposition: attachment; filename="icon.png"
+Content-Transfer-Encoding: base64
+Content-ID: <icon.png>
+
+iVBORw0KGgoAAAANSUhEUgAAAJAAAACQCAYAAADnRuK4AAAACXBIWXMAABYlAAAWJQFJUiTwAAAA
+GXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAABTdJREFUeNrsnD9sFEcUh5+PRMqZ
+yA0SPhAUQAQFUkyTgiBASARo6QApqVIkfdxGFJFSgGhJAUIiBaQB0ZIOKVCkwUgURjIg2fxL4kS+
+YDvkbC/388bi8N16Z4/d7J/5PsniuD3fyePP772ZeTsDQRAYQL/UGAJAIEAgQCBAIAAEAgQCBAIE
+AkAgyJT3Mv+Eq7vYK8mTE+MDRCAghQECAeRQA5V2ZOpmg5vDx3NPzRbmGRMEcmTrEbNNB8zWfRD+
+f/Efs2e3zCZvMjaksBg27TfbcuSNPEKP9ZyuAQKtHX2O9ncNgWC57umMPKvRNb0GEKgnLoUyxTQC
+rcns0/6uIRAs8/hGf9cQCJZpTpjdO2f25/03z+mxntM1eLtsZAgiUtX4JcaBCAQIBAgECARQ8CJa
+G5jab4J4pm4WZmO3OALVh802fIwcLkyPkcKAGggAgQCBAIEAgQCBABAIEAjKA/1AnahhbO5FdOOY
+VsrrDbPBYcYKgf5D2wLaV3p+22xh1u17tO3S+DTcvxvagUDeivPgx/a/95J/73w7Sj26Hn4pKo2M
+ehuV/KyBJM6d0f7k6RKx/R63vvL2tmf/ItDdM2ZTP6f7nkp9Y2fDx1v9akmpIU+KSCLVUghUQfSL
+zVKeTklbLxGoctw/nzC5rw8L5KRNbkpnKq6pgSqEClzNnFzY+XnYWrt6VpVk1vbwWvg+RKCKMOUw
+Q1LEOXA+/MX3mpJvGDHb265xtnzmFoUK1HaKQGlMtePYM+q2KKjXuaS1NJYIEKgI8jhEgqHt4cqy
+Ky53j3hyHz2bqSLp2o2LbJ7MxKovkGqXteoWpaOk96O9/yF/dF7NwlS36AuIQIBA5celQK4PIxBE
+4LLzrtoLgaALdSy6CJRkWQCBPGLsTHznomZ9nszUECgJ2ml3WWHe+QVFNPSQx6UdZNtxr9pbEShN
+eTTz8mQXHoHSlke7+Z+c9m6VGoHSkEfs/trLW3wQKApN1V3lGfnGu2Z6BFoLtYCs3GWBPAiUCLVh
+/HoaeRCoT9R873KLM/IgUBfapnCpe5AHgXry4pf412ihEHkQqCdxd5VqrcezhUIESsJMTJ+Pdthp
+Z0WgyNlXXPHc2Mc4IVAELl2Gnh8mhUDvCkfbIVAkcbf/aOoO3fMKhqAD3frTa4quwpn0hUDOkQhI
+YYBAgECAQAAU0QlYObl+5Ug8NcprZkZxjUCxRPVA6zmtEXHCBykskrhjgHXN09PoEcgFl4M4H11j
+nBAoApcj6ZoPGScEAgTKApcDoTw5sgWB+sGlz1n90IBAPdE6j1o21PfcC11jLagL1oFWRyGlKU3p
+OxcSJQ7NZAjkhHp/uG2HFAYIBAgECASAQIBAgECAQAAIBOkxEARBtp9wdVfAMOfIifEBIhCQwgCB
+ABAI0oV2jhxZ+nfBatuPZfgBCy0Eqqo8c01b+uu51XZvzOgDWoHNTGR+pCwpLEd5svuAZXlO2uEr
+PyEQ8hRWHgRCHmqg0sjTnLalv6crJQ8C/U8stqNO0I4+VZOHFIY8COS1PGL2ybd5yUMKK7s8zYmL
+dujyd3n+nESgcsvzZd4/KwIhDwIhT35QA6UyE1qyxZnfvJMHgdKS549JC1qvvJOHFIY8CFR5eV5O
+XimqPAhUdHnmfx+zgxdOFXkoqIGKKs/cswnb/8Oeog8HEai48nxUhiFBIORBIOShBioskkbySCLk
+IQIhDwIhj28p7FApR6b1qlEbHGpkO/rr6215vi/zH1r2x7tApSGFAQIBAgECAQIBIBAgECAQIBBA
+LK8FGADCTxYrr+EVJgAAAABJRU5ErkJggg==
+--00000000000017eb4c05b2042a39--
+--00000000000017e48d05b2042a2c
+Content-Type: message/delivery-status
+
+Reporting-MTA: dns; googlemail.com
+Arrival-Date: Mon, 19 Oct 2020 04:10:37 -0700 (PDT)
+X-Original-Message-ID: <CAK4cLxi-7N8_2Xfdywz9GrNiZjoEnJ82K6PhAPKcz+NrsWQ0mw@mail.gmail.com>
+
+Final-Recipient: rfc822; rm@bmw.co.uk
+Action: failed
+Status: 5.0.0
+Remote-MTA: dns; mx1.hc324-48.eu.iphmx.com. (2620:101:2012:300::3fb, the
+ server for the domain bmw.co.uk.)
+Diagnostic-Code: smtp; 550 Too many invalid recipients
+Last-Attempt-Date: Mon, 19 Oct 2020 04:10:39 -0700 (PDT)
+
+--00000000000017e48d05b2042a2c
+Content-Type: message/rfc822
+
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=codem-composites.com; s=google;
+        h=from:in-reply-to:references:mime-version:date:message-id:subject:to;
+        bh=Er0KPLuYLKL4V7hE+40jfgfcZLzpFL80f9x4dwlvaIQ=;
+        b=BAg4JNaABA9tSAEFDDpwrPQMMuWFeFwhvZuocECD8HBHdjar8we16DTEvfZtNVvZXa
+         3iwfq62utPhCLcAgIvtSHvVet2Ndaf5f5nQNRMqZZaLkt8znAautaa7TETGBsz5E6cGb
+         BnId+8Iay9gYmq1WP2PDfRcvsrRh28HBNygfkEsUee2FuM63hZropZv8ZtsXR/Vneh5j
+         vpeEi1+Kvp7TE6Y3YnWkjGEwKls4IzLKa0iyVSCDPFdQrfe03e3YBMPuw8cywVPTENgQ
+         Ett5MH7DHwCy0ZzN+VuPZlHCexgk9XxwHALWUxHNZwAl5KZTty8qejdyyp6lz+8cjZhA
+         AceQ==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20161025;
+        h=x-gm-message-state:from:in-reply-to:references:mime-version:date
+         :message-id:subject:to;
+        bh=Er0KPLuYLKL4V7hE+40jfgfcZLzpFL80f9x4dwlvaIQ=;
+        b=GWiZVJRmPwEW0cQR5UlMFun95+zQSNnV25QpAZIh+YryIsqCp+yWwHVquCxfnTgf3s
+         2P8xzLdOzUuIbcikkfDmUAXVYvGvUfL9ywYInclL6bZAuuKgKAvEn7ee0p6U3sYJt+DC
+         QXRTGKrBRMUYQ0u3I39mN4qq7d4L2OcidKx1CpX+8TH5KwT0RHO6Kl455910I6xOFMLv
+         6IQBTUPcRkeoQ8Tr1KWuG8L5sidW+H9yrGzL+15B19HbXPAVOLL+gyY35zN+b4cifSJW
+         9HvSkHF+cxx8wv6rPodkwXK9eA3jQjg+4kFSRrrtmd0oqVDbcSb67jCul7fw65WEMyyu
+         qkhQ==
+X-Gm-Message-State: AOAM532s+xMnCZhEwbNH3gWM01lguQt1wde6x50XlIzPk5YvIp/yzZ54
+	i0bwIEtpogwrKM9D5cLzlDZ46MkTpzQljWQUBQ0SqoEMzvIQbA==
+X-Google-Smtp-Source: ABdhPJxon9xcv1j2PtFIO982i9ciFGNa1BVjRMTPVwWzWaIlVHQ5HsJf1hDYggztkLqrAljNWPIFE/p63orD7CSI/EM=
+X-Received: by 2002:a6b:d214:: with SMTP id q20mr10457111iob.23.1603105837904;
+ Mon, 19 Oct 2020 04:10:37 -0700 (PDT)
+Received: from 696963989851 named unknown by gmailapi.google.com with
+ HTTPREST; Mon, 19 Oct 2020 04:10:37 -0700
+From: Kevin Doherty <kevin@codem-composites.com>
+In-Reply-To: <CAK4cLxiMC8UAApf4GxHjqggpZ9KrE0JRqWkmjRgOor5wEJOEkA@mail.gmail.com>
+References: <CAK4cLxiMC8UAApf4GxHjqggpZ9KrE0JRqWkmjRgOor5wEJOEkA@mail.gmail.com>
+MIME-Version: 1.0
+Date: Mon, 19 Oct 2020 04:10:37 -0700
+Message-ID: <CAK4cLxi-7N8_2Xfdywz9GrNiZjoEnJ82K6PhAPKcz+NrsWQ0mw@mail.gmail.com>
+Subject: Quick Question, Rich
+To: rm@bmw.co.uk
+Content-Type: multipart/alternative; boundary="00000000000001819905b2042a3e"
+
+----- Message truncated -----
+--00000000000017e48d05b2042a2c--

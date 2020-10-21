@@ -1,3 +1,453 @@
+From: <postmaster@te.com>
+To: <kevin@codem-composites.com>
+Date: Mon, 7 Sep 2020 06:19:42 -0400
+Subject: Undeliverable: Quick Question, Collin
+
+a8"
+
+--26e72f17-7a87-41f4-8075-891f013fc0a8
+Content-Type: text/plain; charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+Delivery has failed to these recipients or groups:
+
+colivercengmiet@te.com<mailto:colivercengmiet@te.com>
+The email address you entered couldn't be found. Please check the recipient=
+'s email address and try to resend the message. If the problem continues, p=
+lease contact your helpdesk.
+
+
+
+
+
+
+
+
+Diagnostic information for administrators:
+
+Generating server: US194MX101.tycoelectronics.net
+
+colivercengmiet@te.com
+Remote Server returned '550 5.1.1 RESOLVER.ADR.RecipNotFound; not found'
+
+Original message headers:
+
+Received: from usw04mx112.tycoelectronics.net (135.107.72.136) by
+ US194MX101.tycoelectronics.net (135.107.8.130) with Microsoft SMTP Server
+ (TLS) id 15.0.1473.3; Mon, 7 Sep 2020 06:19:41 -0400
+Received: from USW04MX801.tycoelectronics.com (192.46.174.180) by
+ usw04mx112.tycoelectronics.net (135.107.72.136) with Microsoft SMTP Server
+ (TLS) id 15.0.1473.3 via Frontend Transport; Mon, 7 Sep 2020 06:19:41 -040=
+0
+Received: from NAM04-BN3-obe.outbound.protection.outlook.com (104.47.46.57)=
+ by
+ outlook.te.com (192.46.174.180) with Microsoft SMTP Server (TLS) id
+ 15.0.1473.3; Mon, 7 Sep 2020 06:19:32 -0400
+Received: from SN2PR01CA0003.prod.exchangelabs.com (2603:10b6:804:2::13) by
+ BYAPR01MB5365.prod.exchangelabs.com (2603:10b6:a03:11a::26) with Microsoft
+ SMTP Server (version=3DTLS1_2, cipher=3DTLS_ECDHE_RSA_WITH_AES_256_GCM_SHA=
+384) id
+ 15.20.3326.25; Mon, 7 Sep 2020 10:19:39 +0000
+Received: from SN1NAM04FT055.eop-NAM04.prod.protection.outlook.com
+ (2603:10b6:804:2:cafe::5f) by SN2PR01CA0003.outlook.office365.com
+ (2603:10b6:804:2::13) with Microsoft SMTP Server (version=3DTLS1_2,
+ cipher=3DTLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.3348.15 via Front=
+end
+ Transport; Mon, 7 Sep 2020 10:19:39 +0000
+Authentication-Results: spf=3Dpass (sender IP is 209.85.166.43)
+ smtp.mailfrom=3Dcodem-composites.com; te.com; dkim=3Dpass (signature was
+ verified) header.d=3Dcodem-composites.com;te.com; dmarc=3Dpass action=3Dno=
+ne
+ header.from=3Dcodem-composites.com;compauth=3Dpass reason=3D100
+Received-SPF: Pass (protection.outlook.com: domain of codem-composites.com
+ designates 209.85.166.43 as permitted sender)
+ receiver=3Dprotection.outlook.com; client-ip=3D209.85.166.43;
+ helo=3Dmail-io1-f43.google.com;
+Received: from mail-io1-f43.google.com (209.85.166.43) by
+ SN1NAM04FT055.mail.protection.outlook.com (10.152.89.20) with Microsoft SM=
+TP
+ Server (version=3DTLS1_2, cipher=3DTLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) =
+id
+ 15.20.3348.16 via Frontend Transport; Mon, 7 Sep 2020 10:19:39 +0000
+Received: by mail-io1-f43.google.com with SMTP id z13so9394687iom.8
+        for <colivercengmiet@te.com>; Mon, 07 Sep 2020 03:19:39 -0700 (PDT)
+DKIM-Signature: v=3D1; a=3Drsa-sha256; c=3Drelaxed/relaxed;
+        d=3Dcodem-composites.com; s=3Dgoogle;
+        h=3Dfrom:mime-version:date:message-id:subject:to;
+        bh=3DNzWyLWYJ8kM9YcYl4xrsVi7rh2shVhLZDOqLzgCJs98=3D;
+        b=3DjnNuAzU8aY8wEvWdMYiTNN/FjX3qEPOBtf0hkNVayxEYeZ4W7oLG/fwPn29kKp4=
+MNL
+         SaF1h4FQX/t+m6pJpYYrLOSYsazMxQP/KJS2F8hjkiTeZryz1Fop5v4hiwWT74ZGAO=
+g4
+         tL6hokVclGV5O0LH5w18n2rCx7bB1ihCseswHV5yEng8aMY/eK7y9M98PqCSDfFgH+=
+Lg
+         tf/v/nUeRF0whT2TPRR5GkptBdK/pq7BAaqqMYx/SnHuUcrYhrBegQXMeaco2W4s3u=
+5a
+         LGdZ76AAzmAEOsohoWdMzFvKEuKecWk899WKLvSZeQqxoZMXoRXRMbYQfozAhNfRws=
+AQ
+         KwSg=3D=3D
+X-Google-DKIM-Signature: v=3D1; a=3Drsa-sha256; c=3Drelaxed/relaxed;
+        d=3D1e100.net; s=3D20161025;
+        h=3Dx-gm-message-state:from:mime-version:date:message-id:subject:to=
+;
+        bh=3DNzWyLWYJ8kM9YcYl4xrsVi7rh2shVhLZDOqLzgCJs98=3D;
+        b=3DT+h0A00Bg/IfnZGcZy8yjB8B7vQG+S56I6HQg73V4BqzpRofjfwfop92ICq7gFg=
+wvz
+         vsOvgsqAaqYlUfJLUITMSgwSfSlh+haUffbSVwswVYn5jKXmHTSZfTmz1FSwZRc2Gj=
+vy
+         avMPA7xCRhqTDANnz34KA/JSKj0VwogxWUD97A0hS1Q/+mzHQEKoHew07/W/+ajUtP=
+VV
+         sVl+VMsXxOdsWTdjpWSMwhDS9CVs5Q1wIlBBsHCzuxZscVxPHL9ve6N96oVeiJ7Z4j=
++q
+         8eQItxud2NwX8sTX/aMD7ng5akG9Ag5OSTCH6XepDZICpdgKlkBsktQYanK+uhWr2y=
+kk
+         f1Ug=3D=3D
+X-Gm-Message-State: AOAM531TJPhmZM2tCBTLmD5PqGaqYWp0GgG0FjyhRdu6xItXgUy09qk=
+X
+        hZpW+ZAfrHStj6JbbjYS+BMWEPbILE328YR0acUXdkMYD18=3D
+X-Google-Smtp-Source: ABdhPJzrS98hAvQDXk26Dnl8xMo86Hx6v2gt8FJ7/G4QmqMFnI+3t=
+ToWcv9qjuaOQbfsN/YbpYFbAGQ4YZHmyWQngFI=3D
+X-Received: by 2002:a6b:7f41:: with SMTP id m1mr16676447ioq.62.159947397879=
+6;
+ Mon, 07 Sep 2020 03:19:38 -0700 (PDT)
+Received: from 696963989851 named unknown by gmailapi.google.com with
+ HTTPREST; Mon, 7 Sep 2020 03:19:38 -0700
+From: Kevin Doherty <kevin@codem-composites.com>
+MIME-Version: 1.0
+Date: Mon, 7 Sep 2020 03:19:38 -0700
+Message-ID: <CAK4cLxj_dP4WQk_guf6eJ6E5Vs7Croc+br9MOXwvEgji6_MTtw@mail.gmail=
+.com>
+Subject: Quick Question, Collin
+To: <colivercengmiet@te.com>
+Content-Type: multipart/alternative; boundary=3D"00000000000055790805aeb68e=
+18"
+Return-Path: kevin@codem-composites.com
+X-EOPAttributedMessage: 0
+X-EOPTenantAttributedMessage: 9c0e74bf-63ad-4d83-802c-30dfa888859a:0
+X-Matching-Connectors: 132439475795860818;();(588ffefd-61cc-4a1e-29ac-08d5f=
+2008534)
+X-MS-Office365-Filtering-HT: Tenant
+X-MS-PublicTrafficType: Email
+X-MS-Office365-Filtering-Correlation-Id: b153f2df-048a-4601-812b-08d8531787=
+83
+X-MS-TrafficTypeDiagnostic: BYAPR01MB5365:
+X-MS-Oob-TLC-OOBClassifiers: OLM:8882;
+X-Microsoft-Antispam: BCL:0;
+X-Microsoft-Antispam-Message-Info: =3D?utf-8?B?aWozTnV3bzFFSWpWNXQ5b25URGpo=
+Z2xPSDJDaU9VdEdDSXNMZWJOaDhQVy9X?=3D
+ =3D?utf-8?B?TmdYZmxySDdTeTJoMkx0TVhpY3BNalE3eUdGSG80YjNBQXZFRVVCUXo0b20x?=
+=3D
+ =3D?utf-8?B?SlBZVjRSbENRUWwvdzVCZ0xLVVBaSDVFbVdzL0s3cmErTFE2OW5LNlVIcFRG?=
+=3D
+ =3D?utf-8?B?NDRRT1VXRnpqcUJLaERhSzV1K2hSSm5Oak51NEZOa0FnV1pvWUZPbytIWXM4?=
+=3D
+ =3D?utf-8?B?QWxHS1Y5VTRCYXM5MmhBUldBWGMrWHZHOCsxUGM0WXBXOVJ5NE5qM0tza0RE?=
+=3D
+ =3D?utf-8?B?MDVwS0VDRCs0TGdMdnl4cVdLYTFCTEtLeVMyOXJSa2pTVnpERjljRG1sb3l5?=
+=3D
+ =3D?utf-8?B?cnJJU25qN1lzL3ZKa3laZ21vNjcvd1NPWFY4aEc4TzllcCtLOXMrQzZqMmxE?=
+=3D
+ =3D?utf-8?B?UG5wMzhUNThrRlRVNUJWOGlUVkloQ0oza1FVQTZqU0FJQkdvMTVBMXNPNTRW?=
+=3D
+ =3D?utf-8?B?dFNFVm1jLytpbXI1WlZPTDBDSWxQcGJudmx3S0dTRSt3bmxkYkZMbEg1bVVM?=
+=3D
+ =3D?utf-8?B?cGJoaEtJRERvMUdlZGdhdDM4bnBRWmdMSWlKNTAvaFh0clM1SGw1Q1lCRC9W?=
+=3D
+ =3D?utf-8?B?Nnk3cWxiRmg2SG9SMitXbm5QWUh5M3hMbFF0d2p2VitHSUpPRVVIeklPb3dr?=
+=3D
+ =3D?utf-8?B?QlkyNFZzN2FyOTk3Z0lNeGM1V2VvT3dieUNaSEhoZWpYTURUYzEvTFpvTUR1?=
+=3D
+ =3D?utf-8?B?TzdEUi9LN1Nadk91dkZoY2ZDaEdJTitQL0JVb00va0wyd3BMcDhmTGpBWUpJ?=
+=3D
+ =3D?utf-8?B?YmY3MU4xTmhQdlJKQnF0cFBOczFhakVUYjFETnlLY1RSVlV3M3BEbE9tdU1X?=
+=3D
+ =3D?utf-8?B?RUFEZm1zUnN6U2R3U3Zod0JNUGlhYitoL0o0cG84Z1VDZTcra1JHMjZadldI?=
+=3D
+ =3D?utf-8?B?ckdEQVdKbnk3NkJQckM4Ti9SREJHSjNzcUdhTTF2cHhDOU5uMk5xbjkxanh3?=
+=3D
+ =3D?utf-8?B?dVFRbjYzV0xpanNDWUIwZ0FVckdiK2t5VHQwQ2dWT0RhVGx4RkkyMU1ZZFFy?=
+=3D
+ =3D?utf-8?B?L05NSTdNamEvYzJVSC9sYTJrNUZPMDhRV1BFazA5UWJRTFRFS1dBUnNhTkNn?=
+=3D
+ =3D?utf-8?B?R0ZIVzEwK2ZRZi9xQ25aaHE0Z3JNOHhuclhyRENRMTljRlZJck5weGI3YTAx?=
+=3D
+ =3D?utf-8?B?OVpuQUQzY2o4VDYxaUdFem5oTnEwRWx0RWFJanBwNGkzdnk5S1Q5MnVmUVgy?=
+=3D
+ =3D?utf-8?B?SnFWQ0Jwb3NpUTdIRGV0Q2JuenVmeWwzMW9wRlBUY0JFOTB5empjZkRDbi9n?=
+=3D
+ =3D?utf-8?B?SzlqalRyUlRLckhYUGlzTHhwU0dHT2FPQldWWTVQaXlOeXVuZkhiNER4NUFn?=
+=3D
+ =3D?utf-8?B?UURObFpDK1IwVGFYNkJ5d3BDR3RDRDR4OXlXZXpSNTJVRDFudGtMbzlSQ2do?=
+=3D
+ =3D?utf-8?B?ZytBUytHRnZXMnBzcDlMaEhoK2c4L092RkRITHVkQmowWSt5UzdpdjhmMmdY?=
+=3D
+ =3D?utf-8?B?R1NxZWVHdzBBZVZqemhoMTFFbVpnL2R3S05xcFZXbTI0Wm9iajl3OFV6d0J3?=
+=3D
+ =3D?utf-8?B?Qk0zcElvR1BmMzZTNXJhSGFBUmRuZDV6ampuUmtMRndWVTJZUi9qc0lpKzFl?=
+=3D
+ =3D?utf-8?B?cUc5dkJIVVRsSUVEL2ljZ3B1VVNGNmxnWEhtaDhXU0w3akx5QzY1ZVhOd0ZD?=
+=3D
+ =3D?utf-8?B?QzJnRXhMZGlLVUM5Q2hQVm5vQURmZmpCeHp6L09HT0h6WlhoWUhJc3RUSVhq?=
+=3D
+ =3D?utf-8?B?ZDNHWEJSeE5yYlIrYjl0WTBLM3hUWDlydXZpS3NoeExGZTJ0Z1FRYzg3S3Zo?=
+=3D
+ =3D?utf-8?B?Ni96OEVZQ1FwdWp3eHBHa1RRWXRVanJiZHNpUVlWbWhMc2tEVXFWODdNS1BC?=
+=3D
+ =3D?utf-8?B?NGdjMXl0alB3emplWHZiUG1HQlVZcmNHVHFVcDRGb3VFc1NXY1V1by9BUmNw?=
+=3D
+ =3D?utf-8?B?ei83dXZoTCtiNUdBZVQxZEFwRnkweFZWZHUzcHhncGxFanlvUzlkWUwvOG9X?=
+=3D
+ =3D?utf-8?Q?IxyoUJ4xvUq+gkZS1JxxZtfeefyUZekf?=3D
+X-Forefront-Antispam-Report: CIP:209.85.166.43;CTRY:US;LANG:en;SCL:1;SRV:;I=
+PV:NLI;SFV:NSPM;H:mail-io1-f43.google.com;PTR:mail-io1-f43.google.com;CAT:N=
+ONE;SFS:(4636009)(19627405001)(26005)(15974865002)(2160300002)(9686003)(109=
+6003)(5660300002)(336012)(34756004)(356005)(45080400002)(86362001)(7066003)=
+(76236003)(8676002)(83380400001)(166002)(33964004)(7596003)(6916009)(554460=
+02)(7636003)(43950500001)(44020500001);DIR:INB;
+X-MS-Exchange-CrossTenant-OriginalArrivalTime: 07 Sep 2020 10:19:39.5800
+ (UTC)
+X-MS-Exchange-CrossTenant-Network-Message-Id: b153f2df-048a-4601-812b-08d85=
+3178783
+X-MS-Exchange-CrossTenant-Id: 9c0e74bf-63ad-4d83-802c-30dfa888859a
+X-MS-Exchange-CrossTenant-AuthSource: SN1NAM04FT055.eop-NAM04.prod.protecti=
+on.outlook.com
+X-MS-Exchange-CrossTenant-AuthAs: Anonymous
+X-MS-Exchange-CrossTenant-FromEntityHeader: Internet
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: BYAPR01MB5365
+X-OrganizationHeadersPreserved: BYAPR01MB5365.prod.exchangelabs.com
+X-CrossPremisesHeadersPromoted: USW04MX801.tycoelectronics.com
+X-CrossPremisesHeadersFiltered: USW04MX801.tycoelectronics.com
+X-OriginatorOrg: TE360.onmicrosoft.com
+
+
+--26e72f17-7a87-41f4-8075-891f013fc0a8
+Content-Type: text/html; charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<html>
+<Head></head><body>
+<p><b><font color=3D"#000066" size=3D"3" face=3D"Arial">Delivery has failed=
+ to these recipients or groups:</font></b></p>
+<font color=3D"#000000" size=3D"2" face=3D"Tahoma"><p><a href=3D"mailto:col=
+ivercengmiet@te.com">colivercengmiet@te.com</a><br>
+</font>
+<font color=3D"#000000" size=3D"3" face=3D"Arial">The email address you ent=
+ered couldn't be found. Please check the recipient's email address and try =
+to resend the message. If the problem continues, please contact your helpde=
+sk.<br>
+</font>
+<font color=3D"#000000" size=3D"2" face=3D"Tahoma"><br>
+</p>
+</font>
+<br><br><br><br><br><br>
+<font color=3D"#808080" size=3D"2" face=3D"Tahoma"><p><b>Diagnostic informa=
+tion for administrators:</b></p>
+<p>Generating server: US194MX101.tycoelectronics.net<br>
+</p>
+<p>colivercengmiet@te.com<br>
+Remote Server  returned '550 5.1.1 RESOLVER.ADR.RecipNotFound; not found'<b=
+r>
+</p>
+<p>Original message headers:</p>
+<pre>Received: from usw04mx112.tycoelectronics.net (135.107.72.136) by
+ US194MX101.tycoelectronics.net (135.107.8.130) with Microsoft SMTP Server
+ (TLS) id 15.0.1473.3; Mon, 7 Sep 2020 06:19:41 -0400
+Received: from USW04MX801.tycoelectronics.com (192.46.174.180) by
+ usw04mx112.tycoelectronics.net (135.107.72.136) with Microsoft SMTP Server
+ (TLS) id 15.0.1473.3 via Frontend Transport; Mon, 7 Sep 2020 06:19:41 -040=
+0
+Received: from NAM04-BN3-obe.outbound.protection.outlook.com (104.47.46.57)=
+ by
+ outlook.te.com (192.46.174.180) with Microsoft SMTP Server (TLS) id
+ 15.0.1473.3; Mon, 7 Sep 2020 06:19:32 -0400
+Received: from SN2PR01CA0003.prod.exchangelabs.com (2603:10b6:804:2::13) by
+ BYAPR01MB5365.prod.exchangelabs.com (2603:10b6:a03:11a::26) with Microsoft
+ SMTP Server (version=3DTLS1_2, cipher=3DTLS_ECDHE_RSA_WITH_AES_256_GCM_SHA=
+384) id
+ 15.20.3326.25; Mon, 7 Sep 2020 10:19:39 +0000
+Received: from SN1NAM04FT055.eop-NAM04.prod.protection.outlook.com
+ (2603:10b6:804:2:cafe::5f) by SN2PR01CA0003.outlook.office365.com
+ (2603:10b6:804:2::13) with Microsoft SMTP Server (version=3DTLS1_2,
+ cipher=3DTLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.3348.15 via Front=
+end
+ Transport; Mon, 7 Sep 2020 10:19:39 +0000
+Authentication-Results: spf=3Dpass (sender IP is 209.85.166.43)
+ smtp.mailfrom=3Dcodem-composites.com; te.com; dkim=3Dpass (signature was
+ verified) header.d=3Dcodem-composites.com;te.com; dmarc=3Dpass action=3Dno=
+ne
+ header.from=3Dcodem-composites.com;compauth=3Dpass reason=3D100
+Received-SPF: Pass (protection.outlook.com: domain of codem-composites.com
+ designates 209.85.166.43 as permitted sender)
+ receiver=3Dprotection.outlook.com; client-ip=3D209.85.166.43;
+ helo=3Dmail-io1-f43.google.com;
+Received: from mail-io1-f43.google.com (209.85.166.43) by
+ SN1NAM04FT055.mail.protection.outlook.com (10.152.89.20) with Microsoft SM=
+TP
+ Server (version=3DTLS1_2, cipher=3DTLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) =
+id
+ 15.20.3348.16 via Frontend Transport; Mon, 7 Sep 2020 10:19:39 +0000
+Received: by mail-io1-f43.google.com with SMTP id z13so9394687iom.8
+        for &lt;colivercengmiet@te.com&gt;; Mon, 07 Sep 2020 03:19:39 -0700=
+ (PDT)
+DKIM-Signature: v=3D1; a=3Drsa-sha256; c=3Drelaxed/relaxed;
+        d=3Dcodem-composites.com; s=3Dgoogle;
+        h=3Dfrom:mime-version:date:message-id:subject:to;
+        bh=3DNzWyLWYJ8kM9YcYl4xrsVi7rh2shVhLZDOqLzgCJs98=3D;
+        b=3DjnNuAzU8aY8wEvWdMYiTNN/FjX3qEPOBtf0hkNVayxEYeZ4W7oLG/fwPn29kKp4=
+MNL
+         SaF1h4FQX/t+m6pJpYYrLOSYsazMxQP/KJS2F8hjkiTeZryz1Fop5v4hiwWT74ZGAO=
+g4
+         tL6hokVclGV5O0LH5w18n2rCx7bB1ihCseswHV5yEng8aMY/eK7y9M98PqCSDfFgH+=
+Lg
+         tf/v/nUeRF0whT2TPRR5GkptBdK/pq7BAaqqMYx/SnHuUcrYhrBegQXMeaco2W4s3u=
+5a
+         LGdZ76AAzmAEOsohoWdMzFvKEuKecWk899WKLvSZeQqxoZMXoRXRMbYQfozAhNfRws=
+AQ
+         KwSg=3D=3D
+X-Google-DKIM-Signature: v=3D1; a=3Drsa-sha256; c=3Drelaxed/relaxed;
+        d=3D1e100.net; s=3D20161025;
+        h=3Dx-gm-message-state:from:mime-version:date:message-id:subject:to=
+;
+        bh=3DNzWyLWYJ8kM9YcYl4xrsVi7rh2shVhLZDOqLzgCJs98=3D;
+        b=3DT+h0A00Bg/IfnZGcZy8yjB8B7vQG+S56I6HQg73V4BqzpRofjfwfop92ICq7gFg=
+wvz
+         vsOvgsqAaqYlUfJLUITMSgwSfSlh+haUffbSVwswVYn5jKXmHTSZfTmz1FSwZRc2Gj=
+vy
+         avMPA7xCRhqTDANnz34KA/JSKj0VwogxWUD97A0hS1Q/+mzHQEKoHew07/W/+ajUtP=
+VV
+         sVl+VMsXxOdsWTdjpWSMwhDS9CVs5Q1wIlBBsHCzuxZscVxPHL9ve6N96oVeiJ7Z4j=
++q
+         8eQItxud2NwX8sTX/aMD7ng5akG9Ag5OSTCH6XepDZICpdgKlkBsktQYanK+uhWr2y=
+kk
+         f1Ug=3D=3D
+X-Gm-Message-State: AOAM531TJPhmZM2tCBTLmD5PqGaqYWp0GgG0FjyhRdu6xItXgUy09qk=
+X
+	hZpW+ZAfrHStj6JbbjYS+BMWEPbILE328YR0acUXdkMYD18=3D
+X-Google-Smtp-Source: ABdhPJzrS98hAvQDXk26Dnl8xMo86Hx6v2gt8FJ7/G4QmqMFnI+3t=
+ToWcv9qjuaOQbfsN/YbpYFbAGQ4YZHmyWQngFI=3D
+X-Received: by 2002:a6b:7f41:: with SMTP id m1mr16676447ioq.62.159947397879=
+6;
+ Mon, 07 Sep 2020 03:19:38 -0700 (PDT)
+Received: from 696963989851 named unknown by gmailapi.google.com with
+ HTTPREST; Mon, 7 Sep 2020 03:19:38 -0700
+From: Kevin Doherty &lt;kevin@codem-composites.com&gt;
+MIME-Version: 1.0
+Date: Mon, 7 Sep 2020 03:19:38 -0700
+Message-ID: &lt;CAK4cLxj_dP4WQk_guf6eJ6E5Vs7Croc+br9MOXwvEgji6_MTtw@mail.gm=
+ail.com&gt;
+Subject: Quick Question, Collin
+To: &lt;colivercengmiet@te.com&gt;
+Content-Type: multipart/alternative; boundary=3D&quot;00000000000055790805a=
+eb68e18&quot;
+Return-Path: kevin@codem-composites.com
+X-EOPAttributedMessage: 0
+X-EOPTenantAttributedMessage: 9c0e74bf-63ad-4d83-802c-30dfa888859a:0
+X-Matching-Connectors: 132439475795860818;();(588ffefd-61cc-4a1e-29ac-08d5f=
+2008534)
+X-MS-Office365-Filtering-HT: Tenant
+X-MS-PublicTrafficType: Email
+X-MS-Office365-Filtering-Correlation-Id: b153f2df-048a-4601-812b-08d8531787=
+83
+X-MS-TrafficTypeDiagnostic: BYAPR01MB5365:
+X-MS-Oob-TLC-OOBClassifiers: OLM:8882;
+X-Microsoft-Antispam: BCL:0;
+X-Microsoft-Antispam-Message-Info: =3D?utf-8?B?aWozTnV3bzFFSWpWNXQ5b25URGpo=
+Z2xPSDJDaU9VdEdDSXNMZWJOaDhQVy9X?=3D
+ =3D?utf-8?B?TmdYZmxySDdTeTJoMkx0TVhpY3BNalE3eUdGSG80YjNBQXZFRVVCUXo0b20x?=
+=3D
+ =3D?utf-8?B?SlBZVjRSbENRUWwvdzVCZ0xLVVBaSDVFbVdzL0s3cmErTFE2OW5LNlVIcFRG?=
+=3D
+ =3D?utf-8?B?NDRRT1VXRnpqcUJLaERhSzV1K2hSSm5Oak51NEZOa0FnV1pvWUZPbytIWXM4?=
+=3D
+ =3D?utf-8?B?QWxHS1Y5VTRCYXM5MmhBUldBWGMrWHZHOCsxUGM0WXBXOVJ5NE5qM0tza0RE?=
+=3D
+ =3D?utf-8?B?MDVwS0VDRCs0TGdMdnl4cVdLYTFCTEtLeVMyOXJSa2pTVnpERjljRG1sb3l5?=
+=3D
+ =3D?utf-8?B?cnJJU25qN1lzL3ZKa3laZ21vNjcvd1NPWFY4aEc4TzllcCtLOXMrQzZqMmxE?=
+=3D
+ =3D?utf-8?B?UG5wMzhUNThrRlRVNUJWOGlUVkloQ0oza1FVQTZqU0FJQkdvMTVBMXNPNTRW?=
+=3D
+ =3D?utf-8?B?dFNFVm1jLytpbXI1WlZPTDBDSWxQcGJudmx3S0dTRSt3bmxkYkZMbEg1bVVM?=
+=3D
+ =3D?utf-8?B?cGJoaEtJRERvMUdlZGdhdDM4bnBRWmdMSWlKNTAvaFh0clM1SGw1Q1lCRC9W?=
+=3D
+ =3D?utf-8?B?Nnk3cWxiRmg2SG9SMitXbm5QWUh5M3hMbFF0d2p2VitHSUpPRVVIeklPb3dr?=
+=3D
+ =3D?utf-8?B?QlkyNFZzN2FyOTk3Z0lNeGM1V2VvT3dieUNaSEhoZWpYTURUYzEvTFpvTUR1?=
+=3D
+ =3D?utf-8?B?TzdEUi9LN1Nadk91dkZoY2ZDaEdJTitQL0JVb00va0wyd3BMcDhmTGpBWUpJ?=
+=3D
+ =3D?utf-8?B?YmY3MU4xTmhQdlJKQnF0cFBOczFhakVUYjFETnlLY1RSVlV3M3BEbE9tdU1X?=
+=3D
+ =3D?utf-8?B?RUFEZm1zUnN6U2R3U3Zod0JNUGlhYitoL0o0cG84Z1VDZTcra1JHMjZadldI?=
+=3D
+ =3D?utf-8?B?ckdEQVdKbnk3NkJQckM4Ti9SREJHSjNzcUdhTTF2cHhDOU5uMk5xbjkxanh3?=
+=3D
+ =3D?utf-8?B?dVFRbjYzV0xpanNDWUIwZ0FVckdiK2t5VHQwQ2dWT0RhVGx4RkkyMU1ZZFFy?=
+=3D
+ =3D?utf-8?B?L05NSTdNamEvYzJVSC9sYTJrNUZPMDhRV1BFazA5UWJRTFRFS1dBUnNhTkNn?=
+=3D
+ =3D?utf-8?B?R0ZIVzEwK2ZRZi9xQ25aaHE0Z3JNOHhuclhyRENRMTljRlZJck5weGI3YTAx?=
+=3D
+ =3D?utf-8?B?OVpuQUQzY2o4VDYxaUdFem5oTnEwRWx0RWFJanBwNGkzdnk5S1Q5MnVmUVgy?=
+=3D
+ =3D?utf-8?B?SnFWQ0Jwb3NpUTdIRGV0Q2JuenVmeWwzMW9wRlBUY0JFOTB5empjZkRDbi9n?=
+=3D
+ =3D?utf-8?B?SzlqalRyUlRLckhYUGlzTHhwU0dHT2FPQldWWTVQaXlOeXVuZkhiNER4NUFn?=
+=3D
+ =3D?utf-8?B?UURObFpDK1IwVGFYNkJ5d3BDR3RDRDR4OXlXZXpSNTJVRDFudGtMbzlSQ2do?=
+=3D
+ =3D?utf-8?B?ZytBUytHRnZXMnBzcDlMaEhoK2c4L092RkRITHVkQmowWSt5UzdpdjhmMmdY?=
+=3D
+ =3D?utf-8?B?R1NxZWVHdzBBZVZqemhoMTFFbVpnL2R3S05xcFZXbTI0Wm9iajl3OFV6d0J3?=
+=3D
+ =3D?utf-8?B?Qk0zcElvR1BmMzZTNXJhSGFBUmRuZDV6ampuUmtMRndWVTJZUi9qc0lpKzFl?=
+=3D
+ =3D?utf-8?B?cUc5dkJIVVRsSUVEL2ljZ3B1VVNGNmxnWEhtaDhXU0w3akx5QzY1ZVhOd0ZD?=
+=3D
+ =3D?utf-8?B?QzJnRXhMZGlLVUM5Q2hQVm5vQURmZmpCeHp6L09HT0h6WlhoWUhJc3RUSVhq?=
+=3D
+ =3D?utf-8?B?ZDNHWEJSeE5yYlIrYjl0WTBLM3hUWDlydXZpS3NoeExGZTJ0Z1FRYzg3S3Zo?=
+=3D
+ =3D?utf-8?B?Ni96OEVZQ1FwdWp3eHBHa1RRWXRVanJiZHNpUVlWbWhMc2tEVXFWODdNS1BC?=
+=3D
+ =3D?utf-8?B?NGdjMXl0alB3emplWHZiUG1HQlVZcmNHVHFVcDRGb3VFc1NXY1V1by9BUmNw?=
+=3D
+ =3D?utf-8?B?ei83dXZoTCtiNUdBZVQxZEFwRnkweFZWZHUzcHhncGxFanlvUzlkWUwvOG9X?=
+=3D
+ =3D?utf-8?Q?IxyoUJ4xvUq+gkZS1JxxZtfeefyUZekf?=3D
+X-Forefront-Antispam-Report: CIP:209.85.166.43;CTRY:US;LANG:en;SCL:1;SRV:;I=
+PV:NLI;SFV:NSPM;H:mail-io1-f43.google.com;PTR:mail-io1-f43.google.com;CAT:N=
+ONE;SFS:(4636009)(19627405001)(26005)(15974865002)(2160300002)(9686003)(109=
+6003)(5660300002)(336012)(34756004)(356005)(45080400002)(86362001)(7066003)=
+(76236003)(8676002)(83380400001)(166002)(33964004)(7596003)(6916009)(554460=
+02)(7636003)(43950500001)(44020500001);DIR:INB;
+X-MS-Exchange-CrossTenant-OriginalArrivalTime: 07 Sep 2020 10:19:39.5800
+ (UTC)
+X-MS-Exchange-CrossTenant-Network-Message-Id: b153f2df-048a-4601-812b-08d85=
+3178783
+X-MS-Exchange-CrossTenant-Id: 9c0e74bf-63ad-4d83-802c-30dfa888859a
+X-MS-Exchange-CrossTenant-AuthSource: SN1NAM04FT055.eop-NAM04.prod.protecti=
+on.outlook.com
+X-MS-Exchange-CrossTenant-AuthAs: Anonymous
+X-MS-Exchange-CrossTenant-FromEntityHeader: Internet
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: BYAPR01MB5365
+X-OrganizationHeadersPreserved: BYAPR01MB5365.prod.exchangelabs.com
+X-CrossPremisesHeadersPromoted: USW04MX801.tycoelectronics.com
+X-CrossPremisesHeadersFiltered: USW04MX801.tycoelectronics.com
+X-OriginatorOrg: TE360.onmicrosoft.com
+</pre>
+</font>
+</body>
+</html>=
+
+--26e72f17-7a87-41f4-8075-891f013fc0a8--
+
+--d37a6da6-af6a-4ee8-9a83-fcaec4da1f35
+Content-Type: message/delivery-status; name="ATT00001"
+Content-Description: ATT00001
+Content-Disposition: attachment; filename="ATT00001"
+
 Reporting-MTA: dns;US194MX101.tycoelectronics.net
 Received-From-MTA: dns;USW04MX801.tycoelectronics.com
 Arrival-Date: Mon, 7 Sep 2020 10:19:41 +0000
@@ -7,3 +457,432 @@ Action: failed
 Status: 5.1.1
 Diagnostic-Code: smtp;550 5.1.1 RESOLVER.ADR.RecipNotFound; not found
 
+
+--d37a6da6-af6a-4ee8-9a83-fcaec4da1f35
+Content-Type: message/rfc822; name="Quick Question, Collin"
+Content-Description: Quick Question, Collin
+Content-Disposition: attachment; filename="Quick Question, Collin"
+
+Received: from usw04mx112.tycoelectronics.net (135.107.72.136) by
+ US194MX101.tycoelectronics.net (135.107.8.130) with Microsoft SMTP Server
+ (TLS) id 15.0.1473.3; Mon, 7 Sep 2020 06:19:41 -0400
+Received: from USW04MX801.tycoelectronics.com (192.46.174.180) by
+ usw04mx112.tycoelectronics.net (135.107.72.136) with Microsoft SMTP Server
+ (TLS) id 15.0.1473.3 via Frontend Transport; Mon, 7 Sep 2020 06:19:41 -0400
+Received: from NAM04-BN3-obe.outbound.protection.outlook.com (104.47.46.57) by
+ outlook.te.com (192.46.174.180) with Microsoft SMTP Server (TLS) id
+ 15.0.1473.3; Mon, 7 Sep 2020 06:19:32 -0400
+Received: from SN2PR01CA0003.prod.exchangelabs.com (2603:10b6:804:2::13) by
+ BYAPR01MB5365.prod.exchangelabs.com (2603:10b6:a03:11a::26) with Microsoft
+ SMTP Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id
+ 15.20.3326.25; Mon, 7 Sep 2020 10:19:39 +0000
+Received: from SN1NAM04FT055.eop-NAM04.prod.protection.outlook.com
+ (2603:10b6:804:2:cafe::5f) by SN2PR01CA0003.outlook.office365.com
+ (2603:10b6:804:2::13) with Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.3348.15 via Frontend
+ Transport; Mon, 7 Sep 2020 10:19:39 +0000
+Authentication-Results: spf=pass (sender IP is 209.85.166.43)
+ smtp.mailfrom=codem-composites.com; te.com; dkim=pass (signature was
+ verified) header.d=codem-composites.com;te.com; dmarc=pass action=none
+ header.from=codem-composites.com;compauth=pass reason=100
+Received-SPF: Pass (protection.outlook.com: domain of codem-composites.com
+ designates 209.85.166.43 as permitted sender)
+ receiver=protection.outlook.com; client-ip=209.85.166.43;
+ helo=mail-io1-f43.google.com;
+Received: from mail-io1-f43.google.com (209.85.166.43) by
+ SN1NAM04FT055.mail.protection.outlook.com (10.152.89.20) with Microsoft SMTP
+ Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id
+ 15.20.3348.16 via Frontend Transport; Mon, 7 Sep 2020 10:19:39 +0000
+Received: by mail-io1-f43.google.com with SMTP id z13so9394687iom.8
+        for <colivercengmiet@te.com>; Mon, 07 Sep 2020 03:19:39 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=codem-composites.com; s=google;
+        h=from:mime-version:date:message-id:subject:to;
+        bh=NzWyLWYJ8kM9YcYl4xrsVi7rh2shVhLZDOqLzgCJs98=;
+        b=jnNuAzU8aY8wEvWdMYiTNN/FjX3qEPOBtf0hkNVayxEYeZ4W7oLG/fwPn29kKp4MNL
+         SaF1h4FQX/t+m6pJpYYrLOSYsazMxQP/KJS2F8hjkiTeZryz1Fop5v4hiwWT74ZGAOg4
+         tL6hokVclGV5O0LH5w18n2rCx7bB1ihCseswHV5yEng8aMY/eK7y9M98PqCSDfFgH+Lg
+         tf/v/nUeRF0whT2TPRR5GkptBdK/pq7BAaqqMYx/SnHuUcrYhrBegQXMeaco2W4s3u5a
+         LGdZ76AAzmAEOsohoWdMzFvKEuKecWk899WKLvSZeQqxoZMXoRXRMbYQfozAhNfRwsAQ
+         KwSg==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20161025;
+        h=x-gm-message-state:from:mime-version:date:message-id:subject:to;
+        bh=NzWyLWYJ8kM9YcYl4xrsVi7rh2shVhLZDOqLzgCJs98=;
+        b=T+h0A00Bg/IfnZGcZy8yjB8B7vQG+S56I6HQg73V4BqzpRofjfwfop92ICq7gFgwvz
+         vsOvgsqAaqYlUfJLUITMSgwSfSlh+haUffbSVwswVYn5jKXmHTSZfTmz1FSwZRc2Gjvy
+         avMPA7xCRhqTDANnz34KA/JSKj0VwogxWUD97A0hS1Q/+mzHQEKoHew07/W/+ajUtPVV
+         sVl+VMsXxOdsWTdjpWSMwhDS9CVs5Q1wIlBBsHCzuxZscVxPHL9ve6N96oVeiJ7Z4j+q
+         8eQItxud2NwX8sTX/aMD7ng5akG9Ag5OSTCH6XepDZICpdgKlkBsktQYanK+uhWr2ykk
+         f1Ug==
+X-Gm-Message-State: AOAM531TJPhmZM2tCBTLmD5PqGaqYWp0GgG0FjyhRdu6xItXgUy09qkX
+	hZpW+ZAfrHStj6JbbjYS+BMWEPbILE328YR0acUXdkMYD18=
+X-Google-Smtp-Source: ABdhPJzrS98hAvQDXk26Dnl8xMo86Hx6v2gt8FJ7/G4QmqMFnI+3tToWcv9qjuaOQbfsN/YbpYFbAGQ4YZHmyWQngFI=
+X-Received: by 2002:a6b:7f41:: with SMTP id m1mr16676447ioq.62.1599473978796;
+ Mon, 07 Sep 2020 03:19:38 -0700 (PDT)
+Received: from 696963989851 named unknown by gmailapi.google.com with
+ HTTPREST; Mon, 7 Sep 2020 03:19:38 -0700
+From: Kevin Doherty <kevin@codem-composites.com>
+MIME-Version: 1.0
+Date: Mon, 7 Sep 2020 03:19:38 -0700
+Message-ID: <CAK4cLxj_dP4WQk_guf6eJ6E5Vs7Croc+br9MOXwvEgji6_MTtw@mail.gmail.com>
+Subject: Quick Question, Collin
+To: <colivercengmiet@te.com>
+Content-Type: multipart/alternative; boundary="00000000000055790805aeb68e18"
+Return-Path: kevin@codem-composites.com
+X-EOPAttributedMessage: 0
+X-EOPTenantAttributedMessage: 9c0e74bf-63ad-4d83-802c-30dfa888859a:0
+X-Matching-Connectors: 132439475795860818;();(588ffefd-61cc-4a1e-29ac-08d5f2008534)
+X-MS-Office365-Filtering-HT: Tenant
+X-MS-PublicTrafficType: Email
+X-MS-Office365-Filtering-Correlation-Id: b153f2df-048a-4601-812b-08d853178783
+X-MS-TrafficTypeDiagnostic: BYAPR01MB5365:
+X-MS-Oob-TLC-OOBClassifiers: OLM:8882;
+X-Microsoft-Antispam: BCL:0;
+X-Microsoft-Antispam-Message-Info: =?utf-8?B?aWozTnV3bzFFSWpWNXQ5b25URGpoZ2xPSDJDaU9VdEdDSXNMZWJOaDhQVy9X?=
+ =?utf-8?B?TmdYZmxySDdTeTJoMkx0TVhpY3BNalE3eUdGSG80YjNBQXZFRVVCUXo0b20x?=
+ =?utf-8?B?SlBZVjRSbENRUWwvdzVCZ0xLVVBaSDVFbVdzL0s3cmErTFE2OW5LNlVIcFRG?=
+ =?utf-8?B?NDRRT1VXRnpqcUJLaERhSzV1K2hSSm5Oak51NEZOa0FnV1pvWUZPbytIWXM4?=
+ =?utf-8?B?QWxHS1Y5VTRCYXM5MmhBUldBWGMrWHZHOCsxUGM0WXBXOVJ5NE5qM0tza0RE?=
+ =?utf-8?B?MDVwS0VDRCs0TGdMdnl4cVdLYTFCTEtLeVMyOXJSa2pTVnpERjljRG1sb3l5?=
+ =?utf-8?B?cnJJU25qN1lzL3ZKa3laZ21vNjcvd1NPWFY4aEc4TzllcCtLOXMrQzZqMmxE?=
+ =?utf-8?B?UG5wMzhUNThrRlRVNUJWOGlUVkloQ0oza1FVQTZqU0FJQkdvMTVBMXNPNTRW?=
+ =?utf-8?B?dFNFVm1jLytpbXI1WlZPTDBDSWxQcGJudmx3S0dTRSt3bmxkYkZMbEg1bVVM?=
+ =?utf-8?B?cGJoaEtJRERvMUdlZGdhdDM4bnBRWmdMSWlKNTAvaFh0clM1SGw1Q1lCRC9W?=
+ =?utf-8?B?Nnk3cWxiRmg2SG9SMitXbm5QWUh5M3hMbFF0d2p2VitHSUpPRVVIeklPb3dr?=
+ =?utf-8?B?QlkyNFZzN2FyOTk3Z0lNeGM1V2VvT3dieUNaSEhoZWpYTURUYzEvTFpvTUR1?=
+ =?utf-8?B?TzdEUi9LN1Nadk91dkZoY2ZDaEdJTitQL0JVb00va0wyd3BMcDhmTGpBWUpJ?=
+ =?utf-8?B?YmY3MU4xTmhQdlJKQnF0cFBOczFhakVUYjFETnlLY1RSVlV3M3BEbE9tdU1X?=
+ =?utf-8?B?RUFEZm1zUnN6U2R3U3Zod0JNUGlhYitoL0o0cG84Z1VDZTcra1JHMjZadldI?=
+ =?utf-8?B?ckdEQVdKbnk3NkJQckM4Ti9SREJHSjNzcUdhTTF2cHhDOU5uMk5xbjkxanh3?=
+ =?utf-8?B?dVFRbjYzV0xpanNDWUIwZ0FVckdiK2t5VHQwQ2dWT0RhVGx4RkkyMU1ZZFFy?=
+ =?utf-8?B?L05NSTdNamEvYzJVSC9sYTJrNUZPMDhRV1BFazA5UWJRTFRFS1dBUnNhTkNn?=
+ =?utf-8?B?R0ZIVzEwK2ZRZi9xQ25aaHE0Z3JNOHhuclhyRENRMTljRlZJck5weGI3YTAx?=
+ =?utf-8?B?OVpuQUQzY2o4VDYxaUdFem5oTnEwRWx0RWFJanBwNGkzdnk5S1Q5MnVmUVgy?=
+ =?utf-8?B?SnFWQ0Jwb3NpUTdIRGV0Q2JuenVmeWwzMW9wRlBUY0JFOTB5empjZkRDbi9n?=
+ =?utf-8?B?SzlqalRyUlRLckhYUGlzTHhwU0dHT2FPQldWWTVQaXlOeXVuZkhiNER4NUFn?=
+ =?utf-8?B?UURObFpDK1IwVGFYNkJ5d3BDR3RDRDR4OXlXZXpSNTJVRDFudGtMbzlSQ2do?=
+ =?utf-8?B?ZytBUytHRnZXMnBzcDlMaEhoK2c4L092RkRITHVkQmowWSt5UzdpdjhmMmdY?=
+ =?utf-8?B?R1NxZWVHdzBBZVZqemhoMTFFbVpnL2R3S05xcFZXbTI0Wm9iajl3OFV6d0J3?=
+ =?utf-8?B?Qk0zcElvR1BmMzZTNXJhSGFBUmRuZDV6ampuUmtMRndWVTJZUi9qc0lpKzFl?=
+ =?utf-8?B?cUc5dkJIVVRsSUVEL2ljZ3B1VVNGNmxnWEhtaDhXU0w3akx5QzY1ZVhOd0ZD?=
+ =?utf-8?B?QzJnRXhMZGlLVUM5Q2hQVm5vQURmZmpCeHp6L09HT0h6WlhoWUhJc3RUSVhq?=
+ =?utf-8?B?ZDNHWEJSeE5yYlIrYjl0WTBLM3hUWDlydXZpS3NoeExGZTJ0Z1FRYzg3S3Zo?=
+ =?utf-8?B?Ni96OEVZQ1FwdWp3eHBHa1RRWXRVanJiZHNpUVlWbWhMc2tEVXFWODdNS1BC?=
+ =?utf-8?B?NGdjMXl0alB3emplWHZiUG1HQlVZcmNHVHFVcDRGb3VFc1NXY1V1by9BUmNw?=
+ =?utf-8?B?ei83dXZoTCtiNUdBZVQxZEFwRnkweFZWZHUzcHhncGxFanlvUzlkWUwvOG9X?=
+ =?utf-8?Q?IxyoUJ4xvUq+gkZS1JxxZtfeefyUZekf?=
+X-Forefront-Antispam-Report: CIP:209.85.166.43;CTRY:US;LANG:en;SCL:1;SRV:;IPV:NLI;SFV:NSPM;H:mail-io1-f43.google.com;PTR:mail-io1-f43.google.com;CAT:NONE;SFS:(4636009)(19627405001)(26005)(15974865002)(2160300002)(9686003)(1096003)(5660300002)(336012)(34756004)(356005)(45080400002)(86362001)(7066003)(76236003)(8676002)(83380400001)(166002)(33964004)(7596003)(6916009)(55446002)(7636003)(43950500001)(44020500001);DIR:INB;
+X-MS-Exchange-CrossTenant-OriginalArrivalTime: 07 Sep 2020 10:19:39.5800
+ (UTC)
+X-MS-Exchange-CrossTenant-Network-Message-Id: b153f2df-048a-4601-812b-08d853178783
+X-MS-Exchange-CrossTenant-Id: 9c0e74bf-63ad-4d83-802c-30dfa888859a
+X-MS-Exchange-CrossTenant-AuthSource: SN1NAM04FT055.eop-NAM04.prod.protection.outlook.com
+X-MS-Exchange-CrossTenant-AuthAs: Anonymous
+X-MS-Exchange-CrossTenant-FromEntityHeader: Internet
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: BYAPR01MB5365
+X-OrganizationHeadersPreserved: BYAPR01MB5365.prod.exchangelabs.com
+X-CrossPremisesHeadersPromoted: USW04MX801.tycoelectronics.com
+X-CrossPremisesHeadersFiltered: USW04MX801.tycoelectronics.com
+X-OriginatorOrg: TE360.onmicrosoft.com
+
+--00000000000055790805aeb68e18
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+The following message was sent from an external e-mail address. Be cautious=
+ when clicking on links, opening attachments or providing sensitive informa=
+tion.
+
+________________________________
+
+Hi Collin,
+
+
+I trust this Monday afternoon is treating you well. I came across your Link=
+edIn profile whilst looking for the right person at Te Connectivity for a q=
+uick chat, so wanted to drop you a line by way of introduction.
+
+
+I head up the team here at Codem Composites and we provide end-to-end solut=
+ions for all things carbon fibre. Recently we=E2=80=99ve worked on projects=
+ with Mercedes F1, manufactured Raytheon's military antennas and produced p=
+rops for the latest Star Wars movie, just to name a few.
+
+
+The reason for my email is that I think there's great synergy between Codem=
+ and Te Connectivity, so I'm hoping that you can spare me a few minutes to =
+chat.
+
+
+I'm available for a quick call on Thursday or Friday afternoon. If that doe=
+sn=E2=80=99t work, tell me what does, and I=E2=80=99ll make it happen.
+
+
+Best regards,
+
+
+Kevin Doherty
+
+
+[Description: CODEM Composites Ltd]          [cid:image009.jpg@01D362BA.5DA=
+65FA0]          [cid:image008.jpg@01D362BA.5DA65FA0]
+
+
+CODEM Composites Ltd Unit E Harrier Park, Southgate Way, Orton Southgate, P=
+eterborough PE2 6YQ
+
+
+Tel: +44 (0) 1487 832123
+Mob: +44 (0) 7785 996218
+Email: kevin@codem-composites.com<mailto:kevin@codemcomposites.com>
+Web: www.codem-composites.com<http://track.codem-composites.com/api/t/c/usr=
+_a8xLmetmsZe2dZKhP/tsk_Mz36njbJMTg7Q3HdX/aHR0cDovL3d3dy5jb2RlbWNvbXBvc2l0ZX=
+MuY29tLw=3D=3D>
+
+
+As a GDPR compliant company, we would like to explain why you have received=
+ this email. We believe that Te Connectivity has a legitimate interest in t=
+he products and services that Codem Composites offers. Our research has ide=
+ntified your email address colivercengmiet@te.com<mailto:colivercengmiet@te=
+.com> as the appropriate contact within your organisation. If you have rece=
+ived this email in error or do not wish to receive further communications f=
+rom Codem Composites, just hit unsubscribe<http://track.codem-composites.co=
+m/api/unsubscribe/cam_Tpngwt2LiEY62Nqmw/Y29saXZlcmNlbmdtaWV0QHRlLmNvbQ=3D=
+=3D>.
+
+
+[picture]
+
+--00000000000055790805aeb68e18
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<html>
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8">
+</head>
+<body>
+<div style=3D"background-color:#F9E9AB; border:1px solid #7E7E7A; padding:.=
+4em; ">
+<p style=3D"font-size:12pt; line-height:10pt; font-family: Segoe UI,Frutige=
+r,Frutiger Linotype,Dejavu Sans,Helvetica Neue,Arial,sans-serif;">
+The following message was sent from an external e-mail address. Be cautious=
+ when clicking on links, opening attachments or providing sensitive informa=
+tion.
+</p>
+</div>
+<hr>
+<div>
+<div style=3D"min-width:360px"></div>
+<div dir=3D"ltr">
+<div>
+<p style=3D"margin:0px;box-sizing:border-box"><span style=3D"font-family:Ar=
+ial,Helvetica,sans-serif;box-sizing:border-box">Hi Collin,&nbsp;</span></p>
+<p style=3D"margin:0px;box-sizing:border-box"><span style=3D"font-family:Ar=
+ial,Helvetica,sans-serif"><span style=3D"box-sizing:border-box"><br style=
+=3D"box-sizing:border-box">
+</span></span></p>
+<p style=3D"margin:0px;box-sizing:border-box"><span style=3D"font-family:Ar=
+ial,Helvetica,sans-serif"><span style=3D"box-sizing:border-box">I trust thi=
+s Monday</span></span><span style=3D"font-family:Arial,Helvetica,sans-serif=
+"><span style=3D"box-sizing:border-box">&nbsp;afternoon
+ is treating you well. I came across your LinkedIn profile whilst looking f=
+or the right person at Te Connectivity for a quick chat, so wanted to drop =
+you a line by way of introduction.</span></span></p>
+<p style=3D"margin:0px;box-sizing:border-box"><span style=3D"font-family:Ar=
+ial,Helvetica,sans-serif"><span style=3D"box-sizing:border-box"><br style=
+=3D"box-sizing:border-box">
+</span></span></p>
+<p style=3D"margin:0px;box-sizing:border-box"><span style=3D"font-family:Ar=
+ial,Helvetica,sans-serif"><span style=3D"box-sizing:border-box">I head up t=
+he team here at Codem Composites and we provide end-to-end solutions for al=
+l things carbon fibre. Recently we=E2=80=99ve
+ worked on projects with Mercedes F1, manufactured Raytheon's military ante=
+nnas and produced props for the latest Star Wars movie, just to name a few.=
+</span></span></p>
+<p style=3D"margin:0px;box-sizing:border-box"><span style=3D"font-family:Ar=
+ial,Helvetica,sans-serif"><br>
+</span></p>
+<p style=3D"margin:0px;box-sizing:border-box"><span style=3D"font-family:Ar=
+ial,Helvetica,sans-serif"><span style=3D"box-sizing:border-box">The reason =
+for my email is that I think there's great synergy between Codem and Te Con=
+nectivity, so I'm hoping that you can
+ spare me a few minutes to chat.&nbsp;</span></span></p>
+<p style=3D"margin:0px;box-sizing:border-box"><span style=3D"font-family:Ar=
+ial,Helvetica,sans-serif"><br>
+</span></p>
+<p style=3D"margin:0px;box-sizing:border-box"><span style=3D"font-family:Ar=
+ial,Helvetica,sans-serif"><span style=3D"box-sizing:border-box"></span>I'm =
+available for a quick call on Thursday or Friday afternoon. If that doesn=
+=E2=80=99t work, tell me what does, and I=E2=80=99ll make
+ it happen. <br>
+</span></p>
+<p style=3D"margin:0px;box-sizing:border-box"><span style=3D"font-family:Ar=
+ial,Helvetica,sans-serif"><span style=3D"box-sizing:border-box"></span></sp=
+an></p>
+<p style=3D"margin:0px;box-sizing:border-box"><span style=3D"font-family:Ar=
+ial,Helvetica,sans-serif"><span style=3D"box-sizing:border-box"><br style=
+=3D"box-sizing:border-box">
+</span></span></p>
+<p style=3D"margin:0px;box-sizing:border-box"><span style=3D"font-family:Ar=
+ial,Helvetica,sans-serif">Best regards,
+</span></p>
+<p style=3D"margin:0px;box-sizing:border-box"><span style=3D"font-family:Ar=
+ial,Helvetica,sans-serif"><span style=3D"box-sizing:border-box"><br style=
+=3D"box-sizing:border-box">
+</span></span></p>
+<p style=3D"margin:0px;box-sizing:border-box"><span style=3D"font-family:Ar=
+ial,Helvetica,sans-serif;box-sizing:border-box">
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"width:525p=
+t;border-collapse:collapse;border:none;empty-cells:show;max-width:100%;box-=
+sizing:border-box" width=3D"700">
+<tbody style=3D"box-sizing:border-box">
+<tr style=3D"box-sizing:border-box">
+<td style=3D"padding:0cm;height:15pt;min-width:5px;box-sizing:border-box">
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"width:525p=
+t;border-collapse:collapse;border:none;empty-cells:show;max-width:100%;box-=
+sizing:border-box" width=3D"700">
+<tbody style=3D"box-sizing:border-box">
+<tr style=3D"box-sizing:border-box">
+<td style=3D"padding:0cm;min-width:5px;box-sizing:border-box">
+<p style=3D"margin:0cm;font-size:15px;font-family:Calibri,sans-serif;box-si=
+zing:border-box">
+<strong style=3D"font-weight:700;box-sizing:border-box"><span style=3D"font=
+-size:18px;color:black;font-family:Arial,Helvetica,sans-serif;box-sizing:bo=
+rder-box">Kevin Doherty</span></strong></p>
+</td>
+</tr>
+<tr style=3D"box-sizing:border-box">
+<td style=3D"padding:0cm;height:15pt;min-width:5px;box-sizing:border-box"><=
+span style=3D"font-family:Arial,Helvetica,sans-serif;box-sizing:border-box"=
+><br style=3D"box-sizing:border-box">
+</span></td>
+</tr>
+<tr style=3D"box-sizing:border-box">
+<td style=3D"padding:0cm;min-width:5px;box-sizing:border-box">
+<p style=3D"margin:0cm;font-size:15px;font-family:Calibri,sans-serif;box-si=
+zing:border-box">
+<span style=3D"font-family:Arial,Helvetica,sans-serif;box-sizing:border-box=
+"><span style=3D"color:rgb(31,73,125);box-sizing:border-box"><img width=3D"=
+200" src=3D"http://track.codem-composites.com/api/froala/files/tea_NfYyMpjZ=
+5LayPy6cN-6001bc8f655e1d227c7ea5f14c4fc96a" alt=3D"Description: CODEM Compo=
+sites Ltd" style=3D"vertical-align: middle; border-style: none; cursor: poi=
+nter; padding: 0px 1px; max-width: 100%; box-sizing: border-box;"></span><s=
+pan style=3D"color:rgb(153,51,102);box-sizing:border-box">&nbsp;
+ &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</span><span style=3D"color:rgb(31,73,125=
+);box-sizing:border-box"><img width=3D"101" src=3D"http://track.codem-compo=
+sites.com/api/froala/files/tea_NfYyMpjZ5LayPy6cN-ba66bf715631fc5ad46e49d087=
+9aa5bc" alt=3D"cid:image009.jpg@01D362BA.5DA65FA0" style=3D"vertical-align:=
+ middle; border-style: none; cursor: pointer; padding: 0px 1px; max-width: =
+100%; box-sizing: border-box;">&nbsp;
+ &nbsp; &nbsp; &nbsp; </span><span style=3D"color:rgb(153,51,102);box-sizin=
+g:border-box">&nbsp;</span><span style=3D"color:rgb(31,73,125);box-sizing:b=
+order-box"><img width=3D"120" src=3D"http://track.codem-composites.com/api/=
+froala/files/tea_NfYyMpjZ5LayPy6cN-95ab1f987261409b5d768873a676560b" alt=3D=
+"cid:image008.jpg@01D362BA.5DA65FA0" style=3D"vertical-align: middle; borde=
+r-style: none; cursor: pointer; padding: 0px 1px; max-width: 100%; box-sizi=
+ng: border-box;"></span></span></p>
+</td>
+</tr>
+<tr style=3D"box-sizing:border-box">
+<td style=3D"padding:0cm;height:15pt;min-width:5px;box-sizing:border-box"><=
+span style=3D"font-family:Arial,Helvetica,sans-serif;box-sizing:border-box"=
+><br style=3D"box-sizing:border-box">
+</span></td>
+</tr>
+<tr style=3D"box-sizing:border-box">
+<td style=3D"padding:0cm;min-width:5px;box-sizing:border-box">
+<p style=3D"margin:0cm;font-size:15px;font-family:Calibri,sans-serif;box-si=
+zing:border-box">
+<span style=3D"font-family:Arial,Helvetica,sans-serif;box-sizing:border-box=
+"><span style=3D"font-size:10px;color:rgb(31,73,125);box-sizing:border-box"=
+>CODEM Composites Ltd Unit E Harrier Park, Southgate Way, Orton Southgate, =
+Peterborough PE2 6YQ</span></span></p>
+</td>
+</tr>
+<tr style=3D"box-sizing:border-box">
+<td style=3D"padding:0cm;height:22.5pt;min-width:5px;box-sizing:border-box"=
+><span style=3D"font-family:Arial,Helvetica,sans-serif;box-sizing:border-bo=
+x"><br style=3D"box-sizing:border-box">
+</span></td>
+</tr>
+<tr style=3D"box-sizing:border-box">
+<td style=3D"padding:0cm;min-width:5px;box-sizing:border-box">
+<p style=3D"margin:0cm;font-size:15px;font-family:Calibri,sans-serif;box-si=
+zing:border-box">
+<span style=3D"font-family:Arial,Helvetica,sans-serif;box-sizing:border-box=
+"><strong style=3D"font-weight:700;box-sizing:border-box"><span style=3D"fo=
+nt-size:10px;color:rgb(31,73,125);box-sizing:border-box">Tel: +44 (0) 1487 =
+832123<br style=3D"box-sizing:border-box">
+Mob: +44 (0) 7785 996218<br style=3D"box-sizing:border-box">
+Email:&nbsp;</span></strong><strong style=3D"font-weight:700;box-sizing:bor=
+der-box"><span style=3D"font-size:10px;color:rgb(31,73,125);box-sizing:bord=
+er-box"><a href=3D"mailto:kevin@codemcomposites.com" style=3D"color:rgb(0,1=
+84,255);text-decoration:none;background-color:transparent;box-sizing:border=
+-box"><span style=3D"color:blue;box-sizing:border-box">kevin@codem-composit=
+es.com</span></a></span></strong><strong style=3D"font-weight:700;box-sizin=
+g:border-box"><span style=3D"font-size:10px;color:rgb(31,73,125);box-sizing=
+:border-box"><br style=3D"box-sizing:border-box">
+Web:&nbsp;</span></strong><strong style=3D"font-weight:700;box-sizing:borde=
+r-box"><span style=3D"font-size:10px;color:rgb(31,73,125);box-sizing:border=
+-box"><a href=3D"http://track.codem-composites.com/api/t/c/usr_a8xLmetmsZe2=
+dZKhP/tsk_Mz36njbJMTg7Q3HdX/aHR0cDovL3d3dy5jb2RlbWNvbXBvc2l0ZXMuY29tLw=3D=
+=3D" style=3D"color:rgb(0,184,255);text-decoration:none;background-color:tr=
+ansparent;box-sizing:border-box"><span style=3D"color:blue;box-sizing:borde=
+r-box">www.codem-composites.com</span></a></span></strong></span></p>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr style=3D"box-sizing:border-box">
+<td style=3D"padding:0cm;min-width:5px;box-sizing:border-box"><span style=
+=3D"font-family:Arial,Helvetica,sans-serif;box-sizing:border-box"><br style=
+=3D"box-sizing:border-box">
+</span></td>
+</tr>
+</tbody>
+</table>
+</p>
+<p style=3D"margin-top:0px;margin-bottom:1rem;box-sizing:border-box"><span =
+style=3D"font-size:10px;font-family:Arial,Helvetica,sans-serif;box-sizing:b=
+order-box">As a GDPR compliant company, we would like to explain why you ha=
+ve received this email. We believe that
+ Te Connectivity has a legitimate interest in the products and services tha=
+t Codem Composites offers. Our research has identified your email address
+<a href=3D"mailto:colivercengmiet@te.com">colivercengmiet@te.com</a> as the=
+ appropriate contact within your organisation. If you have received this em=
+ail in error or do not wish to receive further communications from Codem Co=
+mposites, just hit
+<a href=3D"http://track.codem-composites.com/api/unsubscribe/cam_Tpngwt2LiE=
+Y62Nqmw/Y29saXZlcmNlbmdtaWV0QHRlLmNvbQ=3D=3D" style=3D"color:rgb(0,184,255)=
+;text-decoration:none;background-color:transparent;box-sizing:border-box">
+unsubscribe</a>.</span></p>
+</span>
+<p></p>
+</div>
+<br>
+<div class=3D"gmail_extra"><br>
+<div class=3D"gmail_signature" data-smartmail=3D"gmail_signature">
+<div dir=3D"ltr">
+<div>
+<div dir=3D"ltr"></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<img alt=3D"picture" src=3D"http://track.codem-composites.com/api/reply/dat=
+a-ll-tsk_Mz36njbJMTg7Q3HdX" style=3D"opacity:0;display:none;width:0;height:=
+0;">
+<img alt=3D"logo" src=3D"http://track.codem-composites.com/api/track/open/u=
+sr_a8xLmetmsZe2dZKhP/tsk_Mz36njbJMTg7Q3HdX" height=3D"1" width=3D"1">
+</div>
+</body>
+</html>
+
+--00000000000055790805aeb68e18--
+
+--d37a6da6-af6a-4ee8-9a83-fcaec4da1f35--

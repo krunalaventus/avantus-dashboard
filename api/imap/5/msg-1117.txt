@@ -1,0 +1,152 @@
+--000000000000f3904c05b2040a9b
+Content-Type: multipart/related; boundary="000000000000f397b305b2040aa1"
+
+--000000000000f397b305b2040aa1
+Content-Type: multipart/alternative; boundary="000000000000f397ba05b2040aa2"
+
+--000000000000f397ba05b2040aa2
+Content-Type: text/plain; charset="UTF-8"
+
+
+** Address not found **
+
+Your message wasn't delivered to phil.monsell@bmw.co.uk because the address couldn't be found, or is unable to receive mail.
+
+
+
+The response from the remote server was:
+550 Too many invalid recipients
+
+--000000000000f397ba05b2040aa2
+Content-Type: text/html; charset="UTF-8"
+
+
+<html>
+<head>
+<style>
+* {
+font-family:Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+</style>
+</head>
+<body>
+<table cellpadding="0" cellspacing="0" class="email-wrapper" style="padding-top:32px;background-color:#ffffff;"><tbody>
+<tr><td>
+<table cellpadding=0 cellspacing=0><tbody>
+<tr><td style="max-width:560px;padding:24px 24px 32px;background-color:#fafafa;border:1px solid #e0e0e0;border-radius:2px">
+<img style="padding:0 24px 16px 0;float:left" width=72 height=72 alt="Error Icon" src="cid:icon.png">
+<table style="min-width:272px;padding-top:8px"><tbody>
+<tr><td><h2 style="font-size:20px;color:#212121;font-weight:bold;margin:0">
+Address not found
+</h2></td></tr>
+<tr><td style="padding-top:20px;color:#757575;font-size:16px;font-weight:normal;text-align:left">
+Your message wasn't delivered to <a style='color:#212121;text-decoration:none'><b>phil.monsell@bmw.co.uk</b></a> because the address couldn't be found, or is unable to receive mail.
+</td></tr>
+</tbody></table>
+</td></tr>
+</tbody></table>
+</td></tr>
+<tr style="border:none;background-color:#fff;font-size:12.8px;width:90%">
+<td align="left" style="padding:48px 10px">
+The response from the remote server was:<br/>
+<p style="font-family:monospace">
+550 Too many invalid recipients
+</p>
+</td>
+</tr>
+</tbody></table>
+</body>
+</html>
+
+--000000000000f397ba05b2040aa2--
+--000000000000f397b305b2040aa1
+Content-Type: image/png; name="icon.png"
+Content-Disposition: attachment; filename="icon.png"
+Content-Transfer-Encoding: base64
+Content-ID: <icon.png>
+
+iVBORw0KGgoAAAANSUhEUgAAAJAAAACQCAYAAADnRuK4AAAACXBIWXMAABYlAAAWJQFJUiTwAAAA
+GXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAABTdJREFUeNrsnD9sFEcUh5+PRMqZ
+yA0SPhAUQAQFUkyTgiBASARo6QApqVIkfdxGFJFSgGhJAUIiBaQB0ZIOKVCkwUgURjIg2fxL4kS+
+YDvkbC/388bi8N16Z4/d7J/5PsniuD3fyePP772ZeTsDQRAYQL/UGAJAIEAgQCBAIAAEAgQCBAIE
+AkAgyJT3Mv+Eq7vYK8mTE+MDRCAghQECAeRQA5V2ZOpmg5vDx3NPzRbmGRMEcmTrEbNNB8zWfRD+
+f/Efs2e3zCZvMjaksBg27TfbcuSNPEKP9ZyuAQKtHX2O9ncNgWC57umMPKvRNb0GEKgnLoUyxTQC
+rcns0/6uIRAs8/hGf9cQCJZpTpjdO2f25/03z+mxntM1eLtsZAgiUtX4JcaBCAQIBAgECARQ8CJa
+G5jab4J4pm4WZmO3OALVh802fIwcLkyPkcKAGggAgQCBAIEAgQCBABAIEAjKA/1AnahhbO5FdOOY
+VsrrDbPBYcYKgf5D2wLaV3p+22xh1u17tO3S+DTcvxvagUDeivPgx/a/95J/73w7Sj26Hn4pKo2M
+ehuV/KyBJM6d0f7k6RKx/R63vvL2tmf/ItDdM2ZTP6f7nkp9Y2fDx1v9akmpIU+KSCLVUghUQfSL
+zVKeTklbLxGoctw/nzC5rw8L5KRNbkpnKq6pgSqEClzNnFzY+XnYWrt6VpVk1vbwWvg+RKCKMOUw
+Q1LEOXA+/MX3mpJvGDHb265xtnzmFoUK1HaKQGlMtePYM+q2KKjXuaS1NJYIEKgI8jhEgqHt4cqy
+Ky53j3hyHz2bqSLp2o2LbJ7MxKovkGqXteoWpaOk96O9/yF/dF7NwlS36AuIQIBA5celQK4PIxBE
+4LLzrtoLgaALdSy6CJRkWQCBPGLsTHznomZ9nszUECgJ2ml3WWHe+QVFNPSQx6UdZNtxr9pbEShN
+eTTz8mQXHoHSlke7+Z+c9m6VGoHSkEfs/trLW3wQKApN1V3lGfnGu2Z6BFoLtYCs3GWBPAiUCLVh
+/HoaeRCoT9R873KLM/IgUBfapnCpe5AHgXry4pf412ihEHkQqCdxd5VqrcezhUIESsJMTJ+Pdthp
+Z0WgyNlXXPHc2Mc4IVAELl2Gnh8mhUDvCkfbIVAkcbf/aOoO3fMKhqAD3frTa4quwpn0hUDOkQhI
+YYBAgECAQAAU0QlYObl+5Ug8NcprZkZxjUCxRPVA6zmtEXHCBykskrhjgHXN09PoEcgFl4M4H11j
+nBAoApcj6ZoPGScEAgTKApcDoTw5sgWB+sGlz1n90IBAPdE6j1o21PfcC11jLagL1oFWRyGlKU3p
+OxcSJQ7NZAjkhHp/uG2HFAYIBAgECASAQIBAgECAQAAIBOkxEARBtp9wdVfAMOfIifEBIhCQwgCB
+ABAI0oV2jhxZ+nfBatuPZfgBCy0Eqqo8c01b+uu51XZvzOgDWoHNTGR+pCwpLEd5svuAZXlO2uEr
+PyEQ8hRWHgRCHmqg0sjTnLalv6crJQ8C/U8stqNO0I4+VZOHFIY8COS1PGL2ybd5yUMKK7s8zYmL
+dujyd3n+nESgcsvzZd4/KwIhDwIhT35QA6UyE1qyxZnfvJMHgdKS549JC1qvvJOHFIY8CFR5eV5O
+XimqPAhUdHnmfx+zgxdOFXkoqIGKKs/cswnb/8Oeog8HEai48nxUhiFBIORBIOShBioskkbySCLk
+IQIhDwIhj28p7FApR6b1qlEbHGpkO/rr6215vi/zH1r2x7tApSGFAQIBAgECAQIBIBAgECAQIBBA
+LK8FGADCTxYrr+EVJgAAAABJRU5ErkJggg==
+--000000000000f397b305b2040aa1--
+--000000000000f3904c05b2040a9b
+Content-Type: message/delivery-status
+
+Reporting-MTA: dns; googlemail.com
+Arrival-Date: Mon, 19 Oct 2020 04:01:56 -0700 (PDT)
+X-Original-Message-ID: <CAK4cLxib4UNj3viTWcZm8EJDZLQ=n=90JNXzfuNysZLC7A0g7Q@mail.gmail.com>
+
+Final-Recipient: rfc822; phil.monsell@bmw.co.uk
+Action: failed
+Status: 5.0.0
+Remote-MTA: dns; mx1.hc324-48.eu.iphmx.com. (2620:101:2012:300::3fe, the
+ server for the domain bmw.co.uk.)
+Diagnostic-Code: smtp; 550 Too many invalid recipients
+Last-Attempt-Date: Mon, 19 Oct 2020 04:01:56 -0700 (PDT)
+
+--000000000000f3904c05b2040a9b
+Content-Type: message/rfc822
+
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=codem-composites.com; s=google;
+        h=from:in-reply-to:references:mime-version:date:message-id:subject:to;
+        bh=T14nQmuKwacDpFJRj39xj8UkQ9mC+t3ElH8cggmJXsQ=;
+        b=i0YsYYWkywgGCbSe9wqMcUGQ2a7er0XEM7TQmtuC70B2irf+uvGVNSOoPkpR/9t/sW
+         fY2jdUv3TwHBQqUXI2Y9FgYFjaX/OCJqyfqVuEnPjsuJRmdKPeiBU9pkyL8ETTTHGXm3
+         +UJwro5v1S1iaauowCQESUlc6AsrhOITYW6kdqCuK2gpIhYein4S3OBTMUtAqsfcy/Yw
+         wv6qjLIemOjw3yhZdvOnqodQnmTrM4iRY8eX0J9jeuPK9dMq/dwyei7odbecHQMj6vXs
+         bIKhF7PJX7QaymMCbC6TM647OnjMgXVwqR5lg+CgqtrS/Ha1yyxrQgQiBytlT/DWSdbw
+         aw+w==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20161025;
+        h=x-gm-message-state:from:in-reply-to:references:mime-version:date
+         :message-id:subject:to;
+        bh=T14nQmuKwacDpFJRj39xj8UkQ9mC+t3ElH8cggmJXsQ=;
+        b=tAOXhZ2o4XytL/Rk/l5RY3o9Mi5Fhu9pdWPTSCDLfo14PEu7HUEZEm/XzlwP2excpB
+         GDNhwieKnNKEbf5iuij+09E3KcJh3JvgMYYiGpEzv8OFvjDW7yaMKv/IC8o0Hxn+wkPT
+         fQQd/KYEM8oHf/acH+faM4hLCWlfVUVlmpk76hbEczeXrPeo3g/MLGKu45cnlcEnrU1n
+         hlLaYqbBwU1I9P9wUk+a1ZobWHcQN1N+4S/XHkIG5j6XV9QD+IXyQUr3TI2cxNYpwFFa
+         vob7/afnPP5++5CZIUZtvuS7l+qe2mH4Gf3zp5D2K39LXMrr9VTAmfjptolwYj6Ppbyr
+         KAxQ==
+X-Gm-Message-State: AOAM531EKM4tW/DtQOQMIdQaUEpryBp+C/JeNBEcozj8dzIqdgi/kU/f
+	p7y080Oa5vEIqmDA5cPRJpjLOZM2Tt9AfR2DI4yrQWMkYe5ClQ==
+X-Google-Smtp-Source: ABdhPJwN1O0lnLDYgHPf3+SgkS6k2ps4s3RdmOnHlsMyct+rgQf/4zCVnoKR1LtIPBzy1WqK5Go66+xuo5rNmAi9f3E=
+X-Received: by 2002:a6b:d214:: with SMTP id q20mr10424703iob.23.1603105316006;
+ Mon, 19 Oct 2020 04:01:56 -0700 (PDT)
+Received: from 696963989851 named unknown by gmailapi.google.com with
+ HTTPREST; Mon, 19 Oct 2020 04:01:55 -0700
+From: Kevin Doherty <kevin@codem-composites.com>
+In-Reply-To: <CAK4cLxgU5KNag4g2ESSV97nOhWXuD3m81semgpetgbZnY+q3SA@mail.gmail.com>
+References: <CAK4cLxgU5KNag4g2ESSV97nOhWXuD3m81semgpetgbZnY+q3SA@mail.gmail.com>
+MIME-Version: 1.0
+Date: Mon, 19 Oct 2020 04:01:55 -0700
+Message-ID: <CAK4cLxib4UNj3viTWcZm8EJDZLQ=n=90JNXzfuNysZLC7A0g7Q@mail.gmail.com>
+Subject: Quick Question, Phil
+To: phil.monsell@bmw.co.uk
+Content-Type: multipart/alternative; boundary="000000000000e6011c05b2040adf"
+
+----- Message truncated -----
+--000000000000f3904c05b2040a9b--

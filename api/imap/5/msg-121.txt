@@ -1,3 +1,322 @@
+From: <postmaster@paradigm.com>
+To: <kevin@codem-composites.com>
+Date: Fri, 4 Sep 2020 08:58:51 -0400
+Subject: Undeliverable: Quick Question, Jon
+
+
+
+--e2fdd6de-64f2-42cb-8b49-9a2bfee90cb6
+Content-Type: text/plain; charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+Delivery has failed to these recipients or groups:
+
+jgodfrey@paradigm.com<mailto:jgodfrey@paradigm.com>
+The email address you entered couldn't be found. Please check the recipient=
+'s email address and try to resend the message. If the problem continues, p=
+lease contact your email admin.
+
+
+
+
+
+
+
+
+Diagnostic information for administrators:
+
+Generating server: exchange.SpeakerTech.local
+
+jgodfrey@paradigm.com
+Remote Server returned '550 5.1.10 RESOLVER.ADR.RecipientNotFound; Recipien=
+t not found by SMTP address lookup'
+
+Original message headers:
+
+Received: from exchange.SpeakerTech.local (192.168.1.99) by
+ exchange.SpeakerTech.local (192.168.1.99) with Microsoft SMTP Server
+ (version=3DTLS1_2, cipher=3DTLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384_P384) id
+ 15.1.1779.2; Fri, 4 Sep 2020 08:58:51 -0400
+Received: from barracuda.paradigm.com (192.168.254.21) by
+ exchange.SpeakerTech.local (192.168.1.99) with Microsoft SMTP Server id
+ 15.1.1779.2 via Frontend Transport; Fri, 4 Sep 2020 08:58:51 -0400
+X-ASG-Debug-ID: 1599224329-0e86531156751d770001-Ys0vna
+Received: from outbound-ip92a.ess.barracuda.com (outbound-ip92a.ess.barracu=
+da.com [209.222.82.245]) by barracuda.paradigm.com with ESMTP id 8V6UuDa0pA=
+ebLLkY for <jgodfrey@paradigm.com>; Fri, 04 Sep 2020 08:58:49 -0400 (EDT)
+X-Barracuda-Envelope-From: kevin@codem-composites.com
+X-Barracuda-RBL-Trusted-Forwarder: 209.222.82.245
+Received: from mail-il1-f194.google.com (mail-il1-f194.google.com [209.85.1=
+66.194]) by mx170.us-east-2a.ess.aws.cudaops.com (version=3DTLSv1.2 cipher=
+=3DECDHE-RSA-AES256-GCM-SHA384 bits=3D256 verify=3DNO); Fri, 04 Sep 2020 12=
+:58:46 +0000
+Received: by mail-il1-f194.google.com with SMTP id t16so6191469ilf.13
+        for <jgodfrey@paradigm.com>; Fri, 04 Sep 2020 05:58:46 -0700 (PDT)
+X-Barracuda-RBL-IP: 209.85.166.194
+X-Barracuda-Effective-Source-IP: mail-il1-f194.google.com[209.85.166.194]
+X-Barracuda-Apparent-Source-IP: 209.85.166.194
+X-Barracuda-BBL-IP: 209.85.166.194
+DKIM-Signature: v=3D1; a=3Drsa-sha256; c=3Drelaxed/relaxed;
+        d=3Dcodem-composites.com; s=3Dgoogle;
+        h=3Dfrom:mime-version:date:message-id:subject:to;
+        bh=3DFMDKm0HQVAkS90pytkxYZ5vhNmFKNdJ0zJLXTmG1ECQ=3D;
+        b=3DWQ63iCbikP1E6rSS+UfZ93G2w27MzCL0QGtIHNNwVoTopqa1KQaNkJqRSIj6bWB=
+De3
+         hqdi/UHUk/D3DR0PzjHHABC0I9xbkS5febL+unTsY8ikl9Vw0uWexQwzKxd1gh3rEY=
+uJ
+         LqImjcvnHYXr6yERZ0gUy689WfgTVsQhRkm2YhGUPGENS/W1Qxka3HeOmc4Eu6WUV/=
+Uv
+         49ovFbnhnxOqW9V/gOjyJ133RMQ4sOOsSP4D5kn0HDQExeohICtktnRNKwIcT2hic3=
+TO
+         TKkdLHJxqcotZpJaWTSNt51GCOFp26kzRfhcH2gwLneevo8OnHbdkWBpa2aoKdUcoV=
+kd
+         y7jA=3D=3D
+X-Google-DKIM-Signature: v=3D1; a=3Drsa-sha256; c=3Drelaxed/relaxed;
+        d=3D1e100.net; s=3D20161025;
+        h=3Dx-gm-message-state:from:mime-version:date:message-id:subject:to=
+;
+        bh=3DFMDKm0HQVAkS90pytkxYZ5vhNmFKNdJ0zJLXTmG1ECQ=3D;
+        b=3DGimWlfdoUxUxzcJ/LuYTjQxPts6BquFUXIgfy+XRVaI1PIQvlz3bTsKmwZzIeoF=
+qzi
+         DfRc4ncGLhz7z0rtsYCm+V7eLZHF2MUfRHhn+BYgC6u9wSULNJ1+aIkGmVLlkO13dr=
+fc
+         IA4vqUlPx5j7d5swfI9WdWiU4WVzugdoekDpBln1o9zGIYJxHvSzDpO17OSb91/jE0=
+RY
+         n7IcY7WYH/ac1QTzrTxHES0qOMT1Ana5AQSO7L3qcG2yc5eNdf8W8NMS7a6RvFj4wn=
+df
+         uTX9JlOuC5O688d7E0FR2KKqDIAmf9ZgxyEj5E6MSrqgOPLZoAGpjsYi/FJQdOGqH+=
+dO
+         H3xQ=3D=3D
+X-Gm-Message-State: AOAM530AJNLTKKgglVctf38rGbO6VyhiocQd+cNJ2LFGNXczo6Vfqze=
+w
+        SclgNIualPvkQA7dsHlu6wCfb5eq32V93utvxFDrGFOrpugavQ=3D=3D
+X-Google-Smtp-Source: ABdhPJwAtkl4sXYERcSbbD4g7bb4d3hH+e3mQkzyAsQEFeNMModeG=
+ywaGqtK1eyOyoAvz9mMWRJJu8bqwiHpGKOjD8s=3D
+X-Received: by 2002:a92:9996:: with SMTP id t22mr7620268ilk.216.15992243258=
+85;
+ Fri, 04 Sep 2020 05:58:45 -0700 (PDT)
+Received: from 696963989851 named unknown by gmailapi.google.com with
+ HTTPREST; Fri, 4 Sep 2020 12:58:45 +0000
+From: Kevin Doherty <kevin@codem-composites.com>
+MIME-Version: 1.0
+Date: Fri, 4 Sep 2020 12:58:45 +0000
+Message-ID: <CAK4cLxibggNnv_vs+kAjoR9Xz9_Y7qGv0=3D-NDFbu8CEoNZO34w@mail.gma=
+il.com>
+Subject: Quick Question, Jon
+To: <jgodfrey@paradigm.com>
+X-ASG-Orig-Subj: Quick Question, Jon
+Content-Type: multipart/alternative; boundary=3D"000000000000dc5d9505ae7c6d=
+2e"
+X-BESS-ID: 1599224326-893338-2706-17154-1
+X-BESS-VER: 2019.1_20200831.2045
+X-BESS-Apparent-Source-IP: 209.85.166.194
+X-BESS-Spam-Status: SCORE=3D0.50 using account:ESS57854 scores of QUARANTIN=
+E_LEVEL=3D0.0 KILL_LEVEL=3D6.0 tests=3DHTML_MESSAGE, BSF_SC7_SA_HREF_MAILTO=
+_MISMATCH, UNPARSEABLE_RELAY
+Received-SPF: pass (mx170.us-east-2a.ess.aws.cudaops.com: domain of kevin@c=
+odem-composites.com designates 209.85.166.194 as permitted sender)
+X-BESS-Spam-Report: Code version 3.2, rules version 3.2.2.226660 [from clou=
+dscan23-
+        203.us-east-2b.ess.aws.cudaops.com]
+        Rule breakdown below
+         pts rule name              description
+        ---- ---------------------- --------------------------------
+        0.00 HTML_MESSAGE           BODY: HTML included in message
+        0.50 BSF_SC7_SA_HREF_MAILTO_MISMATCH BODY: Custom Phishing Mismatch
+        0.00 UNPARSEABLE_RELAY      HEADER: Informational: message has unpa=
+rseable relay lines
+X-BESS-Spam-Score: 0.50
+X-BESS-BRTS-Status: 1
+X-Barracuda-Connect: outbound-ip92a.ess.barracuda.com[209.222.82.245]
+X-Barracuda-Start-Time: 1599224329
+X-Barracuda-URL: https://192.168.254.21:443/cgi-mod/mark.cgi
+X-Barracuda-BRTS-Status: 1
+X-Barracuda-BRTS-Evidence: codem-composites.com
+X-Virus-Scanned: by bsmtpd at paradigm.com
+X-Barracuda-Scan-Msg-Size: 13770
+X-Barracuda-Spam-Score: 0.50
+X-Barracuda-Spam-Status: No, SCORE=3D0.50 using global scores of TAG_LEVEL=
+=3D3.5 QUARANTINE_LEVEL=3D5.0 KILL_LEVEL=3D1000.0 tests=3DBSF_SC7_SA_HREF_M=
+AILTO_MISMATCH, DKIM_SIGNED, HTML_MESSAGE, UNPARSEABLE_RELAY
+X-Barracuda-Spam-Report: Code version 3.2, rules version 3.2.3.84393
+        Rule breakdown below
+         pts rule name              description
+        ---- ---------------------- ---------------------------------------=
+-----------
+        0.50 BSF_SC7_SA_HREF_MAILTO_MISMATCH BODY: Custom Phishing Mismatch
+        0.00 DKIM_SIGNED            Domain Keys Identified Mail: message ha=
+s a signature
+        0.00 UNPARSEABLE_RELAY      Informational: message has unparseable =
+relay lines
+        0.00 HTML_MESSAGE           BODY: HTML included in message
+Return-Path: kevin@codem-composites.com
+X-EndpointSecurity-0xde81-EV: v:6.6.20.293, d:inc, a:y, w:t, t:12, sv:15992=
+17786,
+ ts:1599224331
+
+
+--e2fdd6de-64f2-42cb-8b49-9a2bfee90cb6
+Content-Type: text/html; charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<html>
+<Head></head><body>
+<p><b><font color=3D"#000066" size=3D"3" face=3D"Arial">Delivery has failed=
+ to these recipients or groups:</font></b></p>
+<font color=3D"#000000" size=3D"2" face=3D"Tahoma"><p><a href=3D"mailto:jgo=
+dfrey@paradigm.com">jgodfrey@paradigm.com</a><br>
+</font>
+<font color=3D"#000000" size=3D"3" face=3D"Arial">The email address you ent=
+ered couldn't be found. Please check the recipient's email address and try =
+to resend the message. If the problem continues, please contact your email =
+admin.<br>
+</font>
+<font color=3D"#000000" size=3D"2" face=3D"Tahoma"><br>
+</p>
+</font>
+<br><br><br><br><br><br>
+<font color=3D"#808080" size=3D"2" face=3D"Tahoma"><p><b>Diagnostic informa=
+tion for administrators:</b></p>
+<p>Generating server: exchange.SpeakerTech.local<br>
+</p>
+<p>jgodfrey@paradigm.com<br>
+Remote Server  returned '550 5.1.10 RESOLVER.ADR.RecipientNotFound; Recipie=
+nt not found by SMTP address lookup'<br>
+</p>
+<p>Original message headers:</p>
+<pre>Received: from exchange.SpeakerTech.local (192.168.1.99) by
+ exchange.SpeakerTech.local (192.168.1.99) with Microsoft SMTP Server
+ (version=3DTLS1_2, cipher=3DTLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384_P384) id
+ 15.1.1779.2; Fri, 4 Sep 2020 08:58:51 -0400
+Received: from barracuda.paradigm.com (192.168.254.21) by
+ exchange.SpeakerTech.local (192.168.1.99) with Microsoft SMTP Server id
+ 15.1.1779.2 via Frontend Transport; Fri, 4 Sep 2020 08:58:51 -0400
+X-ASG-Debug-ID: 1599224329-0e86531156751d770001-Ys0vna
+Received: from outbound-ip92a.ess.barracuda.com (outbound-ip92a.ess.barracu=
+da.com [209.222.82.245]) by barracuda.paradigm.com with ESMTP id 8V6UuDa0pA=
+ebLLkY for &lt;jgodfrey@paradigm.com&gt;; Fri, 04 Sep 2020 08:58:49 -0400 (=
+EDT)
+X-Barracuda-Envelope-From: kevin@codem-composites.com
+X-Barracuda-RBL-Trusted-Forwarder: 209.222.82.245
+Received: from mail-il1-f194.google.com (mail-il1-f194.google.com [209.85.1=
+66.194]) by mx170.us-east-2a.ess.aws.cudaops.com (version=3DTLSv1.2 cipher=
+=3DECDHE-RSA-AES256-GCM-SHA384 bits=3D256 verify=3DNO); Fri, 04 Sep 2020 12=
+:58:46 +0000
+Received: by mail-il1-f194.google.com with SMTP id t16so6191469ilf.13
+        for &lt;jgodfrey@paradigm.com&gt;; Fri, 04 Sep 2020 05:58:46 -0700 =
+(PDT)
+X-Barracuda-RBL-IP: 209.85.166.194
+X-Barracuda-Effective-Source-IP: mail-il1-f194.google.com[209.85.166.194]
+X-Barracuda-Apparent-Source-IP: 209.85.166.194
+X-Barracuda-BBL-IP: 209.85.166.194
+DKIM-Signature: v=3D1; a=3Drsa-sha256; c=3Drelaxed/relaxed;
+        d=3Dcodem-composites.com; s=3Dgoogle;
+        h=3Dfrom:mime-version:date:message-id:subject:to;
+        bh=3DFMDKm0HQVAkS90pytkxYZ5vhNmFKNdJ0zJLXTmG1ECQ=3D;
+        b=3DWQ63iCbikP1E6rSS+UfZ93G2w27MzCL0QGtIHNNwVoTopqa1KQaNkJqRSIj6bWB=
+De3
+         hqdi/UHUk/D3DR0PzjHHABC0I9xbkS5febL+unTsY8ikl9Vw0uWexQwzKxd1gh3rEY=
+uJ
+         LqImjcvnHYXr6yERZ0gUy689WfgTVsQhRkm2YhGUPGENS/W1Qxka3HeOmc4Eu6WUV/=
+Uv
+         49ovFbnhnxOqW9V/gOjyJ133RMQ4sOOsSP4D5kn0HDQExeohICtktnRNKwIcT2hic3=
+TO
+         TKkdLHJxqcotZpJaWTSNt51GCOFp26kzRfhcH2gwLneevo8OnHbdkWBpa2aoKdUcoV=
+kd
+         y7jA=3D=3D
+X-Google-DKIM-Signature: v=3D1; a=3Drsa-sha256; c=3Drelaxed/relaxed;
+        d=3D1e100.net; s=3D20161025;
+        h=3Dx-gm-message-state:from:mime-version:date:message-id:subject:to=
+;
+        bh=3DFMDKm0HQVAkS90pytkxYZ5vhNmFKNdJ0zJLXTmG1ECQ=3D;
+        b=3DGimWlfdoUxUxzcJ/LuYTjQxPts6BquFUXIgfy+XRVaI1PIQvlz3bTsKmwZzIeoF=
+qzi
+         DfRc4ncGLhz7z0rtsYCm+V7eLZHF2MUfRHhn+BYgC6u9wSULNJ1+aIkGmVLlkO13dr=
+fc
+         IA4vqUlPx5j7d5swfI9WdWiU4WVzugdoekDpBln1o9zGIYJxHvSzDpO17OSb91/jE0=
+RY
+         n7IcY7WYH/ac1QTzrTxHES0qOMT1Ana5AQSO7L3qcG2yc5eNdf8W8NMS7a6RvFj4wn=
+df
+         uTX9JlOuC5O688d7E0FR2KKqDIAmf9ZgxyEj5E6MSrqgOPLZoAGpjsYi/FJQdOGqH+=
+dO
+         H3xQ=3D=3D
+X-Gm-Message-State: AOAM530AJNLTKKgglVctf38rGbO6VyhiocQd+cNJ2LFGNXczo6Vfqze=
+w
+	SclgNIualPvkQA7dsHlu6wCfb5eq32V93utvxFDrGFOrpugavQ=3D=3D
+X-Google-Smtp-Source: ABdhPJwAtkl4sXYERcSbbD4g7bb4d3hH+e3mQkzyAsQEFeNMModeG=
+ywaGqtK1eyOyoAvz9mMWRJJu8bqwiHpGKOjD8s=3D
+X-Received: by 2002:a92:9996:: with SMTP id t22mr7620268ilk.216.15992243258=
+85;
+ Fri, 04 Sep 2020 05:58:45 -0700 (PDT)
+Received: from 696963989851 named unknown by gmailapi.google.com with
+ HTTPREST; Fri, 4 Sep 2020 12:58:45 +0000
+From: Kevin Doherty &lt;kevin@codem-composites.com&gt;
+MIME-Version: 1.0
+Date: Fri, 4 Sep 2020 12:58:45 +0000
+Message-ID: &lt;CAK4cLxibggNnv_vs+kAjoR9Xz9_Y7qGv0=3D-NDFbu8CEoNZO34w@mail.=
+gmail.com&gt;
+Subject: Quick Question, Jon
+To: &lt;jgodfrey@paradigm.com&gt;
+X-ASG-Orig-Subj: Quick Question, Jon
+Content-Type: multipart/alternative; boundary=3D&quot;000000000000dc5d9505a=
+e7c6d2e&quot;
+X-BESS-ID: 1599224326-893338-2706-17154-1
+X-BESS-VER: 2019.1_20200831.2045
+X-BESS-Apparent-Source-IP: 209.85.166.194
+X-BESS-Spam-Status: SCORE=3D0.50 using account:ESS57854 scores of QUARANTIN=
+E_LEVEL=3D0.0 KILL_LEVEL=3D6.0 tests=3DHTML_MESSAGE, BSF_SC7_SA_HREF_MAILTO=
+_MISMATCH, UNPARSEABLE_RELAY
+Received-SPF: pass (mx170.us-east-2a.ess.aws.cudaops.com: domain of kevin@c=
+odem-composites.com designates 209.85.166.194 as permitted sender)
+X-BESS-Spam-Report: Code version 3.2, rules version 3.2.2.226660 [from clou=
+dscan23-
+	203.us-east-2b.ess.aws.cudaops.com]
+	Rule breakdown below
+	 pts rule name              description
+	---- ---------------------- --------------------------------
+	0.00 HTML_MESSAGE           BODY: HTML included in message=20
+	0.50 BSF_SC7_SA_HREF_MAILTO_MISMATCH BODY: Custom Phishing Mismatch=20
+	0.00 UNPARSEABLE_RELAY      HEADER: Informational: message has unparseable=
+ relay lines=20
+X-BESS-Spam-Score: 0.50
+X-BESS-BRTS-Status: 1
+X-Barracuda-Connect: outbound-ip92a.ess.barracuda.com[209.222.82.245]
+X-Barracuda-Start-Time: 1599224329
+X-Barracuda-URL: https://192.168.254.21:443/cgi-mod/mark.cgi
+X-Barracuda-BRTS-Status: 1
+X-Barracuda-BRTS-Evidence: codem-composites.com
+X-Virus-Scanned: by bsmtpd at paradigm.com
+X-Barracuda-Scan-Msg-Size: 13770
+X-Barracuda-Spam-Score: 0.50
+X-Barracuda-Spam-Status: No, SCORE=3D0.50 using global scores of TAG_LEVEL=
+=3D3.5 QUARANTINE_LEVEL=3D5.0 KILL_LEVEL=3D1000.0 tests=3DBSF_SC7_SA_HREF_M=
+AILTO_MISMATCH, DKIM_SIGNED, HTML_MESSAGE, UNPARSEABLE_RELAY
+X-Barracuda-Spam-Report: Code version 3.2, rules version 3.2.3.84393
+	Rule breakdown below
+	 pts rule name              description
+	---- ---------------------- ----------------------------------------------=
+----
+	0.50 BSF_SC7_SA_HREF_MAILTO_MISMATCH BODY: Custom Phishing Mismatch
+	0.00 DKIM_SIGNED            Domain Keys Identified Mail: message has a sig=
+nature
+	0.00 UNPARSEABLE_RELAY      Informational: message has unparseable relay l=
+ines
+	0.00 HTML_MESSAGE           BODY: HTML included in message
+Return-Path: kevin@codem-composites.com
+X-EndpointSecurity-0xde81-EV: v:6.6.20.293, d:inc, a:y, w:t, t:12, sv:15992=
+17786,
+ ts:1599224331
+</pre>
+</font>
+</body>
+</html>=
+
+--e2fdd6de-64f2-42cb-8b49-9a2bfee90cb6--
+
+--63893277-e5bb-4b76-a211-69d70622910f
+Content-Type: message/delivery-status
+Content-Transfer-Encoding: 7bit
+
 Reporting-MTA: dns;exchange.SpeakerTech.local
 Received-From-MTA: dns;barracuda.paradigm.com
 Arrival-Date: Fri, 4 Sep 2020 12:58:51 +0000
@@ -8,3 +327,335 @@ Action: failed
 Status: 5.1.10
 Diagnostic-Code: smtp;550 5.1.10 RESOLVER.ADR.RecipientNotFound; Recipient not found by SMTP address lookup
 
+
+--63893277-e5bb-4b76-a211-69d70622910f
+Content-Type: message/rfc822
+
+Received: from exchange.SpeakerTech.local (192.168.1.99) by
+ exchange.SpeakerTech.local (192.168.1.99) with Microsoft SMTP Server
+ (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384_P384) id
+ 15.1.1779.2; Fri, 4 Sep 2020 08:58:51 -0400
+Received: from barracuda.paradigm.com (192.168.254.21) by
+ exchange.SpeakerTech.local (192.168.1.99) with Microsoft SMTP Server id
+ 15.1.1779.2 via Frontend Transport; Fri, 4 Sep 2020 08:58:51 -0400
+X-ASG-Debug-ID: 1599224329-0e86531156751d770001-Ys0vna
+Received: from outbound-ip92a.ess.barracuda.com (outbound-ip92a.ess.barracuda.com [209.222.82.245]) by barracuda.paradigm.com with ESMTP id 8V6UuDa0pAebLLkY for <jgodfrey@paradigm.com>; Fri, 04 Sep 2020 08:58:49 -0400 (EDT)
+X-Barracuda-Envelope-From: kevin@codem-composites.com
+X-Barracuda-RBL-Trusted-Forwarder: 209.222.82.245
+Received: from mail-il1-f194.google.com (mail-il1-f194.google.com [209.85.166.194]) by mx170.us-east-2a.ess.aws.cudaops.com (version=TLSv1.2 cipher=ECDHE-RSA-AES256-GCM-SHA384 bits=256 verify=NO); Fri, 04 Sep 2020 12:58:46 +0000
+Received: by mail-il1-f194.google.com with SMTP id t16so6191469ilf.13
+        for <jgodfrey@paradigm.com>; Fri, 04 Sep 2020 05:58:46 -0700 (PDT)
+X-Barracuda-RBL-IP: 209.85.166.194
+X-Barracuda-Effective-Source-IP: mail-il1-f194.google.com[209.85.166.194]
+X-Barracuda-Apparent-Source-IP: 209.85.166.194
+X-Barracuda-BBL-IP: 209.85.166.194
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=codem-composites.com; s=google;
+        h=from:mime-version:date:message-id:subject:to;
+        bh=FMDKm0HQVAkS90pytkxYZ5vhNmFKNdJ0zJLXTmG1ECQ=;
+        b=WQ63iCbikP1E6rSS+UfZ93G2w27MzCL0QGtIHNNwVoTopqa1KQaNkJqRSIj6bWBDe3
+         hqdi/UHUk/D3DR0PzjHHABC0I9xbkS5febL+unTsY8ikl9Vw0uWexQwzKxd1gh3rEYuJ
+         LqImjcvnHYXr6yERZ0gUy689WfgTVsQhRkm2YhGUPGENS/W1Qxka3HeOmc4Eu6WUV/Uv
+         49ovFbnhnxOqW9V/gOjyJ133RMQ4sOOsSP4D5kn0HDQExeohICtktnRNKwIcT2hic3TO
+         TKkdLHJxqcotZpJaWTSNt51GCOFp26kzRfhcH2gwLneevo8OnHbdkWBpa2aoKdUcoVkd
+         y7jA==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20161025;
+        h=x-gm-message-state:from:mime-version:date:message-id:subject:to;
+        bh=FMDKm0HQVAkS90pytkxYZ5vhNmFKNdJ0zJLXTmG1ECQ=;
+        b=GimWlfdoUxUxzcJ/LuYTjQxPts6BquFUXIgfy+XRVaI1PIQvlz3bTsKmwZzIeoFqzi
+         DfRc4ncGLhz7z0rtsYCm+V7eLZHF2MUfRHhn+BYgC6u9wSULNJ1+aIkGmVLlkO13drfc
+         IA4vqUlPx5j7d5swfI9WdWiU4WVzugdoekDpBln1o9zGIYJxHvSzDpO17OSb91/jE0RY
+         n7IcY7WYH/ac1QTzrTxHES0qOMT1Ana5AQSO7L3qcG2yc5eNdf8W8NMS7a6RvFj4wndf
+         uTX9JlOuC5O688d7E0FR2KKqDIAmf9ZgxyEj5E6MSrqgOPLZoAGpjsYi/FJQdOGqH+dO
+         H3xQ==
+X-Gm-Message-State: AOAM530AJNLTKKgglVctf38rGbO6VyhiocQd+cNJ2LFGNXczo6Vfqzew
+	SclgNIualPvkQA7dsHlu6wCfb5eq32V93utvxFDrGFOrpugavQ==
+X-Google-Smtp-Source: ABdhPJwAtkl4sXYERcSbbD4g7bb4d3hH+e3mQkzyAsQEFeNMModeGywaGqtK1eyOyoAvz9mMWRJJu8bqwiHpGKOjD8s=
+X-Received: by 2002:a92:9996:: with SMTP id t22mr7620268ilk.216.1599224325885;
+ Fri, 04 Sep 2020 05:58:45 -0700 (PDT)
+Received: from 696963989851 named unknown by gmailapi.google.com with
+ HTTPREST; Fri, 4 Sep 2020 12:58:45 +0000
+From: Kevin Doherty <kevin@codem-composites.com>
+MIME-Version: 1.0
+Date: Fri, 4 Sep 2020 12:58:45 +0000
+Message-ID: <CAK4cLxibggNnv_vs+kAjoR9Xz9_Y7qGv0=-NDFbu8CEoNZO34w@mail.gmail.com>
+Subject: Quick Question, Jon
+To: <jgodfrey@paradigm.com>
+X-ASG-Orig-Subj: Quick Question, Jon
+Content-Type: multipart/alternative; boundary="000000000000dc5d9505ae7c6d2e"
+X-BESS-ID: 1599224326-893338-2706-17154-1
+X-BESS-VER: 2019.1_20200831.2045
+X-BESS-Apparent-Source-IP: 209.85.166.194
+X-BESS-Spam-Status: SCORE=0.50 using account:ESS57854 scores of QUARANTINE_LEVEL=0.0 KILL_LEVEL=6.0 tests=HTML_MESSAGE, BSF_SC7_SA_HREF_MAILTO_MISMATCH, UNPARSEABLE_RELAY
+Received-SPF: pass (mx170.us-east-2a.ess.aws.cudaops.com: domain of kevin@codem-composites.com designates 209.85.166.194 as permitted sender)
+X-BESS-Spam-Report: Code version 3.2, rules version 3.2.2.226660 [from cloudscan23-
+	203.us-east-2b.ess.aws.cudaops.com]
+	Rule breakdown below
+	 pts rule name              description
+	---- ---------------------- --------------------------------
+	0.00 HTML_MESSAGE           BODY: HTML included in message 
+	0.50 BSF_SC7_SA_HREF_MAILTO_MISMATCH BODY: Custom Phishing Mismatch 
+	0.00 UNPARSEABLE_RELAY      HEADER: Informational: message has unparseable relay lines 
+X-BESS-Spam-Score: 0.50
+X-BESS-BRTS-Status: 1
+X-Barracuda-Connect: outbound-ip92a.ess.barracuda.com[209.222.82.245]
+X-Barracuda-Start-Time: 1599224329
+X-Barracuda-URL: https://192.168.254.21:443/cgi-mod/mark.cgi
+X-Barracuda-BRTS-Status: 1
+X-Barracuda-BRTS-Evidence: codem-composites.com
+X-Virus-Scanned: by bsmtpd at paradigm.com
+X-Barracuda-Scan-Msg-Size: 13770
+X-Barracuda-Spam-Score: 0.50
+X-Barracuda-Spam-Status: No, SCORE=0.50 using global scores of TAG_LEVEL=3.5 QUARANTINE_LEVEL=5.0 KILL_LEVEL=1000.0 tests=BSF_SC7_SA_HREF_MAILTO_MISMATCH, DKIM_SIGNED, HTML_MESSAGE, UNPARSEABLE_RELAY
+X-Barracuda-Spam-Report: Code version 3.2, rules version 3.2.3.84393
+	Rule breakdown below
+	 pts rule name              description
+	---- ---------------------- --------------------------------------------------
+	0.50 BSF_SC7_SA_HREF_MAILTO_MISMATCH BODY: Custom Phishing Mismatch
+	0.00 DKIM_SIGNED            Domain Keys Identified Mail: message has a signature
+	0.00 UNPARSEABLE_RELAY      Informational: message has unparseable relay lines
+	0.00 HTML_MESSAGE           BODY: HTML included in message
+Return-Path: kevin@codem-composites.com
+X-EndpointSecurity-0xde81-EV: v:6.6.20.293, d:inc, a:y, w:t, t:12, sv:1599217786,
+ ts:1599224331
+
+--000000000000dc5d9505ae7c6d2e
+Content-Type: text/plain; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+Hi Jon,
+
+
+I trust this Friday afternoon is treating you well. I came across your
+LinkedIn profile whilst looking for the right person at Paradigm
+Communication Systems for a quick chat, so wanted to drop you a line by way
+of introduction.
+
+
+I'm the Managing Director here at Codem Composites and we provide
+end-to-end solutions for all things carbon fibre. Recently we=E2=80=99ve wo=
+rked on
+projects with Mercedes F1, manufactured Raytheon's military antennas and
+produced props for the latest Star Wars movie, just to name a few.
+
+
+The reason for my email is that I think there's great synergy between Codem
+and Paradigm Communication Systems, so I'm hoping that you can spare me a
+few minutes to chat.
+
+
+I'm available for a quick call on Monday or Tuesday afternoon. If that
+doesn=E2=80=99t work, tell me what does, and I=E2=80=99ll make it happen.
+
+
+Hope you have a great weekend.
+
+
+*Kevin Doherty*
+
+[image: Description: CODEM Composites Ltd]          [image:
+cid:image009.jpg@01D362BA.5DA65FA0]         [image:
+cid:image008.jpg@01D362BA.5DA65FA0]
+
+CODEM Composites Ltd Unit E Harrier Park, Southgate Way, Orton Southgate,
+Peterborough PE2 6YQ
+
+
+
+*Tel: +44 (0) 1487 832123 Mob: +44 (0) 7785 996218Email:
+**kevin@codem-composites.com
+<kevin@codemcomposites.com>*
+*Web: **https://linkprotect.cudasvc.com/url?a=3Dhttps%3a%2f%2fwww.codem-com=
+posites.com&c=3DE,1,brzXzRBs2KxamMWZJhU3HK0zLr9fVN1VL3YlMw8FLbouDLoa9IvRaPz=
+fzuB8ULfKflfpvLC9bWwbNvQhbLGMwtSzb6qZbxzNpxl8CuXLSwDXE49YTw,,&typo=3D1
+<https://linkprotect.cudasvc.com/url?a=3Dhttp%3a%2f%2ftrack.codem-composite=
+s.com%2fapi%2ft%2fc%2fusr_a8xLmetmsZe2dZKhP%2ftsk_J7DFRaBQM4xiEQFoq%2faHR0c=
+DovL3d3dy5jb2RlbWNvbXBvc2l0ZXMuY29tLw%3d%3d&c=3DE,1,B8prnZxKC1bBLMNqNm8WPNf=
+8shwYk5iDtgjzm66oc06mnM7VXOyYuFuxTFbGsil_8Yhy8ZPdw3aVzn1UW6zMrNnaZDLZPFouE-=
+M4GfnvVRZJBMieXB3Jq00,&typo=3D1>*
+
+As a GDPR compliant company, we would like to explain why you have received
+this email. We believe that Paradigm Communication Systems has a legitimate
+interest in the products and services that Codem Composites offers. Our
+research has identified your email address jgodfrey@paradigm.com as the
+appropriate contact within your organisation. If you have received this
+email in error or do not wish to receive further communications from Codem
+Composites, just hit unsubscribe
+<https://linkprotect.cudasvc.com/url?a=3Dhttp%3a%2f%2ftrack.codem-composite=
+s.com%2fapi%2funsubscribe%2fcam_Tpngwt2LiEY62Nqmw%2famdvZGZyZXlAcGFyYWRpZ20=
+uY29t&c=3DE,1,_AulUAupodWE0_sTfivGEfIwz_6_mxMuVGs9PKP0aDCRO4KrGXQjnR5NY0o6_=
+rKoqFVW3MlxHt7On2xbD03-h29MD1DKDg5vQk8Mqc3_F1g,&typo=3D1>
+.
+
+
+[image: picture] [image: logo]
+
+--000000000000dc5d9505ae7c6d2e
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<html><div style=3D"min-width:360px"></div><div dir=3D"ltr">
+    <div><p style=3D"margin:0px;box-sizing:border-box"><span style=3D"font-=
+family:Arial,Helvetica,sans-serif;box-sizing:border-box">Hi Jon,=C2=A0</spa=
+n></p><p style=3D"margin:0px;box-sizing:border-box"><span style=3D"font-fam=
+ily:Arial,Helvetica,sans-serif"><span style=3D"box-sizing:border-box"><br s=
+tyle=3D"box-sizing:border-box"></span></span></p><p style=3D"margin:0px;box=
+-sizing:border-box"><span style=3D"font-family:Arial,Helvetica,sans-serif">=
+<span style=3D"box-sizing:border-box">I trust this Friday</span></span><spa=
+n style=3D"font-family:Arial,Helvetica,sans-serif"><span style=3D"box-sizin=
+g:border-box">=C2=A0afternoon=20
+is treating you well. I came across your LinkedIn profile whilst looking fo=
+r the right person at Paradigm Communication Systems for a quick chat, so w=
+anted to drop you a line by way of introduction.</span></span></p><p style=
+=3D"margin:0px;box-sizing:border-box"><span style=3D"font-family:Arial,Helv=
+etica,sans-serif"><span style=3D"box-sizing:border-box"><br style=3D"box-si=
+zing:border-box"></span></span></p><p style=3D"margin:0px;box-sizing:border=
+-box"><span style=3D"font-family:Arial,Helvetica,sans-serif"><span style=3D=
+"box-sizing:border-box"> I&#39;m the Managing Director here at  Codem Compo=
+sites and we provide end-to-end solutions for all things carbon fibre. Rece=
+ntly we=E2=80=99ve worked on projects with Mercedes F1, manufactured Raythe=
+on&#39;s military antennas and produced props for the latest Star Wars movi=
+e, just to name a few.</span></span></p><p style=3D"margin:0px;box-sizing:b=
+order-box"><span style=3D"font-family:Arial,Helvetica,sans-serif"><br></spa=
+n></p><p style=3D"margin:0px;box-sizing:border-box"><span style=3D"font-fam=
+ily:Arial,Helvetica,sans-serif"><span style=3D"box-sizing:border-box">The r=
+eason for my email is that I think there&#39;s great synergy between Codem =
+and Paradigm Communication Systems, so I&#39;m hoping that you can spare me=
+ a few minutes to chat.=C2=A0</span></span></p><p style=3D"margin:0px;box-s=
+izing:border-box"><span style=3D"font-family:Arial,Helvetica,sans-serif"><b=
+r></span></p><p style=3D"margin:0px;box-sizing:border-box"><span style=3D"f=
+ont-family:Arial,Helvetica,sans-serif"><span style=3D"box-sizing:border-box=
+"></span>I&#39;m available for a quick call on Monday or Tuesday afternoon.=
+ If that doesn=E2=80=99t work, tell me what does, and I=E2=80=99ll make it =
+happen.
+<span style=3D"box-sizing:border-box"></span></span></p><p style=3D"margin:=
+0px;box-sizing:border-box"><span style=3D"font-family:Arial,Helvetica,sans-=
+serif"><span style=3D"box-sizing:border-box"><br style=3D"box-sizing:border=
+-box"></span></span></p><p style=3D"margin:0px;box-sizing:border-box"><span=
+ style=3D"font-family:Arial,Helvetica,sans-serif">  Hope you have a great w=
+eekend. </span></p><p style=3D"margin:0px;box-sizing:border-box"><span styl=
+e=3D"font-family:Arial,Helvetica,sans-serif"><span style=3D"box-sizing:bord=
+er-box"><br style=3D"box-sizing:border-box"></span></span></p><p style=3D"m=
+argin:0px;box-sizing:border-box"><span style=3D"font-family:Arial,Helvetica=
+,sans-serif;box-sizing:border-box"><table border=3D"0" cellpadding=3D"0" ce=
+llspacing=3D"0" style=3D"width:525pt;border-collapse:collapse;border:none;e=
+mpty-cells:show;max-width:100%;box-sizing:border-box" width=3D"700"><tbody =
+style=3D"box-sizing:border-box"><tr style=3D"box-sizing:border-box"><td sty=
+le=3D"padding:0cm;height:15pt;min-width:5px;box-sizing:border-box"><table b=
+order=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"width:525pt;border=
+-collapse:collapse;border:none;empty-cells:show;max-width:100%;box-sizing:b=
+order-box" width=3D"700"><tbody style=3D"box-sizing:border-box"><tr style=
+=3D"box-sizing:border-box"><td style=3D"padding:0cm;min-width:5px;box-sizin=
+g:border-box"><p style=3D"margin:0cm;font-size:15px;font-family:Calibri,san=
+s-serif;box-sizing:border-box"><strong style=3D"font-weight:700;box-sizing:=
+border-box"><span style=3D"font-size:18px;color:black;font-family:Arial,Hel=
+vetica,sans-serif;box-sizing:border-box">Kevin Doherty</span></strong></p><=
+/td></tr><tr style=3D"box-sizing:border-box"><td style=3D"padding:0cm;heigh=
+t:15pt;min-width:5px;box-sizing:border-box"><span style=3D"font-family:Aria=
+l,Helvetica,sans-serif;box-sizing:border-box"><br style=3D"box-sizing:borde=
+r-box"></span></td></tr><tr style=3D"box-sizing:border-box"><td style=3D"pa=
+dding:0cm;min-width:5px;box-sizing:border-box"><p style=3D"margin:0cm;font-=
+size:15px;font-family:Calibri,sans-serif;box-sizing:border-box"><span style=
+=3D"font-family:Arial,Helvetica,sans-serif;box-sizing:border-box"><span sty=
+le=3D"color:rgb(31,73,125);box-sizing:border-box"><img width=3D"200" src=3D=
+"https://linkprotect.cudasvc.com/url?a=3Dhttp%3a%2f%2ftrack.codem-composite=
+s.com%2fapi%2ffroala%2ffiles%2ftea_NfYyMpjZ5LayPy6cN-6001bc8f655e1d227c7ea5=
+f14c4fc96a&c=3DE,1,GIFsM5PHNdIijQ6OxtZlEIHA7mAxXksy_CTO_JBcSRbHv15sZ5FiN5jV=
+8PvoOsK4Yqw_-M9PlrKrvviLLCbLLwO9FONa_TJRFpwQ2215i6sXh06XV2xi&typo=3D1" alt=
+=3D"Description: CODEM Composites Ltd" style=3D"vertical-align: middle; bor=
+der-style: none; cursor: pointer; padding: 0px 1px; max-width: 100%; box-si=
+zing: border-box;"></span><span style=3D"color:rgb(153,51,102);box-sizing:b=
+order-box">=C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0=C2=A0</span><span style=3D"co=
+lor:rgb(31,73,125);box-sizing:border-box"><img width=3D"101" src=3D"https:/=
+/linkprotect.cudasvc.com/url?a=3Dhttp%3a%2f%2ftrack.codem-composites.com%2f=
+api%2ffroala%2ffiles%2ftea_NfYyMpjZ5LayPy6cN-ba66bf715631fc5ad46e49d0879aa5=
+bc&c=3DE,1,Tas58SJ1_0zD3HAJlpnbaMQDEI9Lh8VjVaswwnKh9PNTnJ9SnCVFY4l7LwHU_zgS=
+HnyiLrRbF1C9k0XybgpZdVs-3otOj_vt8No8O6gWn_aifYTho2o7&typo=3D1" alt=3D"cid:i=
+mage009.jpg@01D362BA.5DA65FA0" style=3D"vertical-align: middle; border-styl=
+e: none; cursor: pointer; padding: 0px 1px; max-width: 100%; box-sizing: bo=
+rder-box;">=C2=A0 =C2=A0 =C2=A0 =C2=A0 </span><span style=3D"color:rgb(153,=
+51,102);box-sizing:border-box">=C2=A0</span><span style=3D"color:rgb(31,73,=
+125);box-sizing:border-box"><img width=3D"120" src=3D"https://linkprotect.c=
+udasvc.com/url?a=3Dhttp%3a%2f%2ftrack.codem-composites.com%2fapi%2ffroala%2=
+ffiles%2ftea_NfYyMpjZ5LayPy6cN-95ab1f987261409b5d768873a676560b&c=3DE,1,lss=
+eB1M7TvbK1YGoxHnwLRP7PHVIYFPUEK2XS76Uoxb3XVqu8IxKdzfyq6JCp4jw9Y5C0Js_P73vI0=
+FzDXhrUv6uovGO7bAptnDFlNP7deGA2SI,&typo=3D1" alt=3D"cid:image008.jpg@01D362=
+BA.5DA65FA0" style=3D"vertical-align: middle; border-style: none; cursor: p=
+ointer; padding: 0px 1px; max-width: 100%; box-sizing: border-box;"></span>=
+</span></p></td></tr><tr style=3D"box-sizing:border-box"><td style=3D"paddi=
+ng:0cm;height:15pt;min-width:5px;box-sizing:border-box"><span style=3D"font=
+-family:Arial,Helvetica,sans-serif;box-sizing:border-box"><br style=3D"box-=
+sizing:border-box"></span></td></tr><tr style=3D"box-sizing:border-box"><td=
+ style=3D"padding:0cm;min-width:5px;box-sizing:border-box"><p style=3D"marg=
+in:0cm;font-size:15px;font-family:Calibri,sans-serif;box-sizing:border-box"=
+><span style=3D"font-family:Arial,Helvetica,sans-serif;box-sizing:border-bo=
+x"><span style=3D"font-size:10px;color:rgb(31,73,125);box-sizing:border-box=
+">CODEM Composites Ltd Unit E Harrier Park, Southgate Way, Orton Southgate,=
+ Peterborough PE2 6YQ</span></span></p></td></tr><tr style=3D"box-sizing:bo=
+rder-box"><td style=3D"padding:0cm;height:22.5pt;min-width:5px;box-sizing:b=
+order-box"><span style=3D"font-family:Arial,Helvetica,sans-serif;box-sizing=
+:border-box"><br style=3D"box-sizing:border-box"></span></td></tr><tr style=
+=3D"box-sizing:border-box"><td style=3D"padding:0cm;min-width:5px;box-sizin=
+g:border-box"><p style=3D"margin:0cm;font-size:15px;font-family:Calibri,san=
+s-serif;box-sizing:border-box"><span style=3D"font-family:Arial,Helvetica,s=
+ans-serif;box-sizing:border-box"><strong style=3D"font-weight:700;box-sizin=
+g:border-box"><span style=3D"font-size:10px;color:rgb(31,73,125);box-sizing=
+:border-box">Tel: +44 (0) 1487 832123<br style=3D"box-sizing:border-box"> M=
+ob: +44 (0) 7785 996218<br style=3D"box-sizing:border-box">Email:=C2=A0</sp=
+an></strong><strong style=3D"font-weight:700;box-sizing:border-box"><span s=
+tyle=3D"font-size:10px;color:rgb(31,73,125);box-sizing:border-box"><a href=
+=3D"mailto:kevin@codemcomposites.com" style=3D"color:rgb(0,184,255);text-de=
+coration:none;background-color:transparent;box-sizing:border-box"><span sty=
+le=3D"color:blue;box-sizing:border-box">kevin@codem-composites.com</span></=
+a></span></strong><strong style=3D"font-weight:700;box-sizing:border-box"><=
+span style=3D"font-size:10px;color:rgb(31,73,125);box-sizing:border-box"><b=
+r style=3D"box-sizing:border-box">Web:=C2=A0</span></strong><strong style=
+=3D"font-weight:700;box-sizing:border-box"><span style=3D"font-size:10px;co=
+lor:rgb(31,73,125);box-sizing:border-box"><a href=3D"https://linkprotect.cu=
+dasvc.com/url?a=3Dhttp%3a%2f%2ftrack.codem-composites.com%2fapi%2ft%2fc%2fu=
+sr_a8xLmetmsZe2dZKhP%2ftsk_J7DFRaBQM4xiEQFoq%2faHR0cDovL3d3dy5jb2RlbWNvbXBv=
+c2l0ZXMuY29tLw%3d%3d&c=3DE,1,VqsOeleH7MJsexMHmQHC8xYb57l_7_QVquaO_4nnWmlEXr=
+k-bymjVoKd8so0WBuCiNzjRqBRQ7LSeULbvrE1nPtbOX9LYbpT4OeFPTfAtyla957M04TjzQVHc=
+RU,&typo=3D1" style=3D"color:rgb(0,184,255);text-decoration:none;background=
+-color:transparent;box-sizing:border-box"><span style=3D"color:blue;box-siz=
+ing:border-box">www.codem-composites.com</span></a></span></strong></span><=
+/p></td></tr></tbody></table></td></tr><tr style=3D"box-sizing:border-box">=
+<td style=3D"padding:0cm;min-width:5px;box-sizing:border-box"><span style=
+=3D"font-family:Arial,Helvetica,sans-serif;box-sizing:border-box"><br style=
+=3D"box-sizing:border-box"></span></td></tr></tbody></table><p style=3D"mar=
+gin-top:0px;margin-bottom:1rem;box-sizing:border-box"><span style=3D"font-s=
+ize:10px;font-family:Arial,Helvetica,sans-serif;box-sizing:border-box">As a=
+ GDPR compliant company, we would like to explain why you have received thi=
+s email. We believe that Paradigm Communication Systems has a legitimate in=
+terest in the products and services that Codem Composites offers. Our resea=
+rch has identified your email address <a href=3D"mailto:jgodfrey@paradigm.c=
+om">jgodfrey@paradigm.com</a> as the appropriate contact within your organi=
+sation. If you have received this email in error or do not wish to receive =
+further communications from Codem Composites, just hit <a href=3D"https://l=
+inkprotect.cudasvc.com/url?a=3Dhttp%3a%2f%2ftrack.codem-composites.com%2fap=
+i%2funsubscribe%2fcam_Tpngwt2LiEY62Nqmw%2famdvZGZyZXlAcGFyYWRpZ20uY29t&c=3D=
+E,1,xdk3FXZnGOLHDjky3mdt2Wtoo5pkCnuvU-qHCG9TjjhhWy8LuxLcEeL9Sd5oT9doaYalUTx=
+oQBMT3yVBg-8zZgCb6nEbZG82nXhj9kxdxv63DQwBtBU,&typo=3D1" style=3D"color:rgb(=
+0,184,255);text-decoration:none;background-color:transparent;box-sizing:bor=
+der-box">unsubscribe</a>.</span></p></span></p></div>
+    <br><div class=3D"gmail_extra"><br>
+      <div class=3D"gmail_signature" data-smartmail=3D"gmail_signature"><di=
+v dir=3D"ltr"><div><div dir=3D"ltr"></div></div></div></div>
+     =20
+    </div>
+    </div>
+<img alt=3D"picture" src=3D"https://linkprotect.cudasvc.com/url?a=3Dhttp%3a=
+%2f%2ftrack.codem-composites.com%2fapi%2freply%2fdata-ll-tsk_J7DFRaBQM4xiEQ=
+Foq&c=3DE,1,Lt2wXwN3Ur8jModW866Zn1nqGzHhUyz7ktY1XCMSgBFqsGKPMgQi4Tn1XGLHP6X=
+4Eg1OVm9noQ2c-8e_EaKLElaFqONmilDVx07EenBHQg,,&typo=3D1" style=3D"opacity:0;=
+display:none;width:0;height:0;">
+<img alt=3D"logo" src=3D"https://linkprotect.cudasvc.com/url?a=3Dhttp%3a%2f=
+%2ftrack.codem-composites.com%2fapi%2ftrack%2fopen%2fusr_a8xLmetmsZe2dZKhP%=
+2ftsk_J7DFRaBQM4xiEQFoq&c=3DE,1,9XAjwDcZeZhQmum6dGcgf9UL8u9NZQB_suijyGeLbjx=
+EqGRyMhf7qRps_Oh8XaQ3RekZIF4bAczqR9qTyfC3p-IzowykU9zqimYYc46_QvcLI9iRAZqpdc=
+F115g,&typo=3D1" height=3D"1" width=3D"1"></html>
+
+--000000000000dc5d9505ae7c6d2e--
+
+--63893277-e5bb-4b76-a211-69d70622910f--

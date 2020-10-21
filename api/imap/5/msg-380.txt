@@ -1,3 +1,24 @@
+Date: Fri, 11 Sep 2020 09:20:20 +0100
+From: Mail Delivery Subsystem <MAILER-DAEMON@mx08-001c1001.pphosted.com>
+To: <kevin@codem-composites.com>
+Subject: Returned mail: see transcript for details
+
+]
+
+   ----- The following addresses had permanent fatal errors -----
+<caslind@bca.co.uk>
+    (reason: 550 5.4.1 Recipient address rejected: Access denied. AS(201806281) [HE1EUR02FT018.eop-EUR02.prod.protection.outlook.com])
+
+   ----- Transcript of session follows -----
+... while talking to bca-co-uk.mail.protection.outlook.com.:
+>>> DATA
+<<< 550 5.4.1 Recipient address rejected: Access denied. AS(201806281) [HE1EUR02FT018.eop-EUR02.prod.protection.outlook.com]
+550 5.1.1 <caslind@bca.co.uk>... User unknown
+<<< 503 5.5.2 Need rcpt command [HE1EUR02FT018.eop-EUR02.prod.protection.outlook.com]
+
+--08B8KKqQ020141.1599812420/mx08-001c1001.pphosted.com
+Content-Type: message/delivery-status
+
 Reporting-MTA: dns; mx08-001c1001.pphosted.com
 Received-From-MTA: DNS; m0134219.ppops.net
 Arrival-Date: Fri, 11 Sep 2020 09:20:20 +0100
@@ -8,3 +29,290 @@ Status: 5.4.1
 Remote-MTA: DNS; bca-co-uk.mail.protection.outlook.com
 Diagnostic-Code: SMTP; 550 5.4.1 Recipient address rejected: Access denied. AS(201806281) [HE1EUR02FT018.eop-EUR02.prod.protection.outlook.com]
 Last-Attempt-Date: Fri, 11 Sep 2020 09:20:20 +0100
+
+--08B8KKqQ020141.1599812420/mx08-001c1001.pphosted.com
+Content-Type: message/rfc822
+
+Return-Path: <kevin@codem-composites.com>
+Received: from pps.filterd (m0134219.ppops.net [127.0.0.1])
+	by mx08-001c1001.pphosted.com (8.16.0.43/8.16.0.43) with SMTP id 08B8HgtF015203
+	for <caslind@bca.co.uk>; Fri, 11 Sep 2020 09:20:20 +0100
+Authentication-Results: ppops.net;
+	spf=pass smtp.mailfrom=kevin@codem-composites.com;
+	dkim=pass header.s=google header.d=codem-composites.com;
+	dmarc=pass header.from=codem-composites.com
+Received: from mail-io1-f67.google.com (mail-io1-f67.google.com [209.85.166.67])
+	by mx08-001c1001.pphosted.com with ESMTP id 33eumwqw14-1
+	(version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128 verify=NOT)
+	for <caslind@bca.co.uk>; Fri, 11 Sep 2020 09:20:19 +0100
+Received: by mail-io1-f67.google.com with SMTP id d190so10158511iof.3
+        for <caslind@bca.co.uk>; Fri, 11 Sep 2020 01:20:19 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=codem-composites.com; s=google;
+        h=from:mime-version:date:message-id:subject:to;
+        bh=HZtZGZaFMX02nW+325aYqxznU1U/MrPCT6NwTmmlpYA=;
+        b=aZwwaA+QOVW2UYuMXkPqKFkwc/4wzIP66PhWqChMYJ+LPrhu60Cg4Q6Mg+F5I/InV+
+         WJWytwlnCeutjeQO771EKai+jU01Cqofy/PKf3Y2XjgcZ5qUCcLNAVRziZnI9LDrf5nQ
+         78VwVbmwvBZwd5mIXkYb9ogyIWwMpMCa7vW+ReLHNsQmnrbEey3KvRUL1idXc8UGTmbN
+         A0LvxAudHDqgmLeZ1EdoVcrgQV+iHZpMdTNJjh09FlJpbicSWMuIX/c3tc09KN8m3UNa
+         vMT8yeM8uz+FyGWPV9pQp+7MHmFEVAc6e67Jlh3E53VKwULf2wUeI/Q/T2R1VLy2KBi4
+         vPSw==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20161025;
+        h=x-gm-message-state:from:mime-version:date:message-id:subject:to;
+        bh=HZtZGZaFMX02nW+325aYqxznU1U/MrPCT6NwTmmlpYA=;
+        b=Bc1V0qsWyYiqNlxn/YYTC2sWSb85uhDfltFm3nAUr4TRIKNxuYwQOe+8yKgzUNuvIz
+         zr7UOeT0IeoAp4U3aCgQhEJzWRhBR+N5o/Ac6NxY3Uz/fME0F4rv3xx9VyHY+zAjfqJz
+         7EVZpZcVMDDK7eShJ2uKIbtv2i0F5T1CCOj4KWl+g4gfB2UAdGkyzoGQxZo7zqSuP/6M
+         0bhdZQwhZq4WBL5jW5WFjd5TTlwJZuWSzEUZiSFF7XdeneFWa8SifHEdttoA5PkllIlN
+         boZ4KQQzxYSODT0k4vgV9eRweRFWd5Aclinmv8ZgIi03X+c/7jLRlJXlAJOHt38ydPbu
+         fgtA==
+X-Gm-Message-State: AOAM533nYlgYrNKAvToStzP/d1I1BgRiGJwKYffQruWT0OTjdIh00m64
+	kBnxZVmintj9qDdxs5m6Sgnh/+EAYMQpLgHgrLMPXUgDyKY=
+X-Google-Smtp-Source: ABdhPJyYUqoiH2d1Q55GdzRmeT5UKfat3BNhXdjzOo38IH0+Ns9N7m1svW315ViRO7hA7oZHgywBDOx6XdT8uJkY4pI=
+X-Received: by 2002:a02:a1d3:: with SMTP id o19mr897155jah.90.1599812416801;
+ Fri, 11 Sep 2020 01:20:16 -0700 (PDT)
+Received: from 696963989851 named unknown by gmailapi.google.com with
+ HTTPREST; Fri, 11 Sep 2020 01:20:16 -0700
+From: Kevin Doherty <kevin@codem-composites.com>
+Date: Fri, 11 Sep 2020 01:20:16 -0700
+Message-ID: <CAK4cLxg9XoKGQbB5B3yGu9WjNDbEyvvceS88SFGTfmi3XDV-Xw@mail.gmail.com>
+Subject: Quick Question, Dean
+To: caslind@bca.co.uk
+Content-Type: multipart/alternative; boundary="000000000000cfa1ec05af055add"
+X-CLX-Response: 1TFkXGxgeEQpMehcaEQpZRBdga2xJY1t7bkcaXhEKWFgXbR5iXlxgR1NIRUQ RCnhOF2BNf2VeUx1lQGZtEQp5TBdhcBNtEl54Ex58ThEKQ0gXBx8dEhEKQ1kXBx0ZEQpDSRcaBB oaGhEKWU0XZ2ZyEQpZSRcacRoQGncGGxoecRsaEBp3BhgaBhoRClleF2xseREKSUYXSElLdUJFW
+ V5PThEKQ04XSXIHUFljf1xFTn95Hh97c2RMbkFYWWlGQHtLeF5iUn8RClhcFx8EGgQYGxkFGxoE EhoEHh8EGBoaEBseGh8aEQpeWRd9QWRMTxEKTVwXGRISEQpMWhdsaU1vaxEKTEYXb2tra2trEQp CTxd6UHhka1pSclpGRhEKQ1oXGBoTBBIfBBscHAQcHREKQl4XGxEKQlwXGxEKXk4XGxEKQksXYE
+ 1/ZV5THWVAZm0RCkJJF2BNf2VeUx1lQGZtEQpCRRdsXG5FGWMefX4THBEKQk4XYE1/ZV5THWVAZ m0RCkJMF20eYl5cYEdTSEVEEQpCbBdkckBmQFocTGl5YxEKQkAXbVBCTXJFbW9gHW4RCkJYF2Mf BR0cTEUZbh5/EQpaWBcYEQp5QxdhTEBfW0MdRVpFcxEKWUsXGR8RCnBnF254bk5eZVgeZU1YEBk
+ aEQpwaBdoWGJmR3JieGcdHBAZGhEKcGgXYH4FYEEBfxNIX00QGRoRCnBoF2FsZVkdAWFOQFMfEB kaEQpwaBdhZnt4AX1dXENicxAZGhEKcGgXYBxdS3weUBtIbkYQGRoRCnBnF2VjfVhoG3BSZxx5E BkaEQpwZxdkH0sfUl4bQ2kaExAZGhEKcH0Xb2hjWlBTXmUdaWcQGRoRCnBnF3p5RWUeG0ATfmZb
+ EBkaEQpwfRdmZ2MYQk54Z0lSfxAZGhEKcH0XaGdFYkkcR0hlTX8QGRoRCnB9F2xiRX1pcB5ocnN YEBkaEQpwfRdsf199fngZSEZdUBAZGhEKcH0XY0MeTht4UmxzHR0QGRoRCnB9F3pQQlweRUZ+ZE VAEBkaEQpwfxdpaHNCGn5bX15NThAZGhEKcF8XbRxtY29OQEJOfkUQGRoRCnBfF2NQR0NSXEVjQ
+ F5SEBkaEQpwXxdif3phYBNiGFNPbRAZGhEKcF8XYEBOGWRJQm1Mcm8QGRoRCnBfF2hATkBeWxpM TXNbEBkaEQpwbBdiZ3B6HkVweHxFQBATGhEKbX4XGhEKWE0XSxEg
+X-CLX-Shades: MLX
+MIME-Version: 1.0
+X-Proofpoint-Virus-Version: vendor=fsecure engine=2.50.10434:6.0.235,18.0.687
+ definitions=2020-09-11_02:2020-09-10,2020-09-11 signatures=0
+X-Proofpoint-Spam-Details: rule=inboundspam_notspam policy=inboundspam score=0 bulkscore=0
+ lowpriorityscore=0 malwarescore=0 clxscore=124 priorityscore=0
+ mlxlogscore=999 suspectscore=34 phishscore=0 mlxscore=0 spamscore=0
+ adultscore=0 impostorscore=0 classifier=spam adjust=0 reason=mlx
+ scancount=1 engine=8.12.0-2006250000 definitions=main-2009110065
+
+--000000000000cfa1ec05af055add
+Content-Type: text/plain; charset="UTF-8"
+Content-Transfer-Encoding: Quoted-printable
+
+Hi Dean,
+
+
+I trust this Friday morning is treating you well. I came across your
+LinkedIn profile whilst looking for the right person at BCA Marketplace for
+a quick chat, so wanted to drop you a line by way of introduction.
+
+
+I'm the Managing Director here at Codem Composites and we provide
+end-to-end solutions for all things carbon fibre. Recently we=E2=80=99ve wo=
+rked on
+projects with Mercedes F1, manufactured Raytheon's military antennas and
+produced props for the latest Star Wars movie, just to name a few.
+
+
+The reason for my email is that I think there's great synergy between Codem
+and BCA Marketplace, so I'm hoping that you can spare me a few minutes to
+chat.
+
+
+I'm available for a quick call on Monday or Tuesday afternoon. If that
+doesn=E2=80=99t work, tell me what does, and I=E2=80=99ll make it happen.
+
+
+Hope you have a great weekend.
+
+
+*Kevin Doherty*
+
+[image: Description: CODEM Composites Ltd]          [image:
+cid:image009.jpg@01D362BA.5DA65FA0]         [image:
+cid:image008.jpg@01D362BA.5DA65FA0]
+
+CODEM Composites Ltd Unit E Harrier Park, Southgate Way, Orton Southgate,
+Peterborough PE2 6YQ
+
+
+
+*Tel: +44 (0) 1487 832123 Mob: +44 (0) 7785 996218Email:
+**kevin@codem-composites.com
+<kevin@codemcomposites.com>*
+*Web: **https://urldefense.com/v3/__http://www.codem-composites.com__;!!EJq=
+I8w!GNXg4aQ6RV32XdNBB-25eczDmAJ2Q_7hDd_48-43VgnYtc6y7N0P45tBYw77bCJb$=20
+<https://urldefense.com/v3/__http://track.codem-composites.com/api/t/c/usr_=
+a8xLmetmsZe2dZKhP/tsk_KFu4fJjb5op9GDfGQ/aHR0cDovL3d3dy5jb2RlbWNvbXBvc2l0ZXM=
+uY29tLw=3D=3D__;!!EJqI8w!GNXg4aQ6RV32XdNBB-25eczDmAJ2Q_7hDd_48-43VgnYtc6y7N=
+0P45tBYxGJ81of$ >*
+
+As a GDPR compliant company, we would like to explain why you have received
+this email. We believe that BCA Marketplace has a legitimate interest in
+the products and services that Codem Composites offers. Our research has
+identified your email address caslind@bca.co.uk as the appropriate contact
+within your organisation. If you have received this email in error or do
+not wish to receive further communications from Codem Composites, just hit
+unsubscribe
+<https://urldefense.com/v3/__http://track.codem-composites.com/api/unsubscr=
+ibe/cam_dpCiXy7uz9SNiJCbN/Y2FzbGluZEBiY2EuY28udWs=3D__;!!EJqI8w!GNXg4aQ6RV3=
+2XdNBB-25eczDmAJ2Q_7hDd_48-43VgnYtc6y7N0P45tBY4rlHkfZ$ >
+.
+
+
+[image: picture] [image: logo]
+
+--000000000000cfa1ec05af055add
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: Quoted-printable
+
+<html><div style=3D"min-width:360px"></div><div dir=3D"ltr">
+    <div><p style=3D"margin:0px;box-sizing:border-box"><span style=3D"font-=
+family:Arial,Helvetica,sans-serif;box-sizing:border-box">Hi Dean,=C2=A0</sp=
+an></p><p style=3D"margin:0px;box-sizing:border-box"><span style=3D"font-fa=
+mily:Arial,Helvetica,sans-serif"><span style=3D"box-sizing:border-box"><br =
+style=3D"box-sizing:border-box"></span></span></p><p style=3D"margin:0px;bo=
+x-sizing:border-box"><span style=3D"font-family:Arial,Helvetica,sans-serif"=
+><span style=3D"box-sizing:border-box">I trust this Friday</span></span><sp=
+an style=3D"font-family:Arial,Helvetica,sans-serif"><span style=3D"box-sizi=
+ng:border-box">=C2=A0morning=20
+is treating you well. I came across your LinkedIn profile whilst looking fo=
+r the right person at BCA Marketplace for a quick chat, so wanted to drop y=
+ou a line by way of introduction.</span></span></p><p style=3D"margin:0px;b=
+ox-sizing:border-box"><span style=3D"font-family:Arial,Helvetica,sans-serif=
+"><span style=3D"box-sizing:border-box"><br style=3D"box-sizing:border-box"=
+></span></span></p><p style=3D"margin:0px;box-sizing:border-box"><span styl=
+e=3D"font-family:Arial,Helvetica,sans-serif"><span style=3D"box-sizing:bord=
+er-box"> I&#39;m the Managing Director here at  Codem Composites and we pro=
+vide end-to-end solutions for all things carbon fibre. Recently we=E2=80=99=
+ve worked on projects with Mercedes F1, manufactured Raytheon&#39;s militar=
+y antennas and produced props for the latest Star Wars movie, just to name =
+a few.</span></span></p><p style=3D"margin:0px;box-sizing:border-box"><span=
+ style=3D"font-family:Arial,Helvetica,sans-serif"><br></span></p><p style=
+=3D"margin:0px;box-sizing:border-box"><span style=3D"font-family:Arial,Helv=
+etica,sans-serif"><span style=3D"box-sizing:border-box">The reason for my e=
+mail is that I think there&#39;s great synergy between Codem and BCA Market=
+place, so I&#39;m hoping that you can spare me a few minutes to chat.=C2=A0=
+</span></span></p><p style=3D"margin:0px;box-sizing:border-box"><span style=
+=3D"font-family:Arial,Helvetica,sans-serif"><br></span></p><p style=3D"marg=
+in:0px;box-sizing:border-box"><span style=3D"font-family:Arial,Helvetica,sa=
+ns-serif"><span style=3D"box-sizing:border-box"></span>I&#39;m available fo=
+r a quick call on Monday or Tuesday afternoon. If that doesn=E2=80=99t work=
+, tell me what does, and I=E2=80=99ll make it happen.
+<span style=3D"box-sizing:border-box"></span></span></p><p style=3D"margin:=
+0px;box-sizing:border-box"><span style=3D"font-family:Arial,Helvetica,sans-=
+serif"><span style=3D"box-sizing:border-box"><br style=3D"box-sizing:border=
+-box"></span></span></p><p style=3D"margin:0px;box-sizing:border-box"><span=
+ style=3D"font-family:Arial,Helvetica,sans-serif">  Hope you have a great w=
+eekend. </span></p><p style=3D"margin:0px;box-sizing:border-box"><span styl=
+e=3D"font-family:Arial,Helvetica,sans-serif"><span style=3D"box-sizing:bord=
+er-box"><br style=3D"box-sizing:border-box"></span></span></p><p style=3D"m=
+argin:0px;box-sizing:border-box"><span style=3D"font-family:Arial,Helvetica=
+,sans-serif;box-sizing:border-box"><table border=3D"0" cellpadding=3D"0" ce=
+llspacing=3D"0" style=3D"width:525pt;border-collapse:collapse;border:none;e=
+mpty-cells:show;max-width:100%;box-sizing:border-box" width=3D"700"><tbody =
+style=3D"box-sizing:border-box"><tr style=3D"box-sizing:border-box"><td sty=
+le=3D"padding:0cm;height:15pt;min-width:5px;box-sizing:border-box"><table b=
+order=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"width:525pt;border=
+-collapse:collapse;border:none;empty-cells:show;max-width:100%;box-sizing:b=
+order-box" width=3D"700"><tbody style=3D"box-sizing:border-box"><tr style=
+=3D"box-sizing:border-box"><td style=3D"padding:0cm;min-width:5px;box-sizin=
+g:border-box"><p style=3D"margin:0cm;font-size:15px;font-family:Calibri,san=
+s-serif;box-sizing:border-box"><strong style=3D"font-weight:700;box-sizing:=
+border-box"><span style=3D"font-size:18px;color:black;font-family:Arial,Hel=
+vetica,sans-serif;box-sizing:border-box">Kevin Doherty</span></strong></p><=
+/td></tr><tr style=3D"box-sizing:border-box"><td style=3D"padding:0cm;heigh=
+t:15pt;min-width:5px;box-sizing:border-box"><span style=3D"font-family:Aria=
+l,Helvetica,sans-serif;box-sizing:border-box"><br style=3D"box-sizing:borde=
+r-box"></span></td></tr><tr style=3D"box-sizing:border-box"><td style=3D"pa=
+dding:0cm;min-width:5px;box-sizing:border-box"><p style=3D"margin:0cm;font-=
+size:15px;font-family:Calibri,sans-serif;box-sizing:border-box"><span style=
+=3D"font-family:Arial,Helvetica,sans-serif;box-sizing:border-box"><span sty=
+le=3D"color:rgb(31,73,125);box-sizing:border-box"><img width=3D"200" src=3D=
+"http://track.codem-composites.com/api/froala/files/tea_NfYyMpjZ5LayPy6cN-6=
+001bc8f655e1d227c7ea5f14c4fc96a" alt=3D"Description: CODEM Composites Ltd" =
+style=3D"vertical-align: middle; border-style: none; cursor: pointer; paddi=
+ng: 0px 1px; max-width: 100%; box-sizing: border-box;"></span><span style=
+=3D"color:rgb(153,51,102);box-sizing:border-box">=C2=A0 =C2=A0 =C2=A0 =C2=
+=A0 =C2=A0=C2=A0</span><span style=3D"color:rgb(31,73,125);box-sizing:borde=
+r-box"><img width=3D"101" src=3D"http://track.codem-composites.com/api/froa=
+la/files/tea_NfYyMpjZ5LayPy6cN-ba66bf715631fc5ad46e49d0879aa5bc" alt=3D"cid=
+:image009.jpg@01D362BA.5DA65FA0" style=3D"vertical-align: middle; border-st=
+yle: none; cursor: pointer; padding: 0px 1px; max-width: 100%; box-sizing: =
+border-box;">=C2=A0 =C2=A0 =C2=A0 =C2=A0 </span><span style=3D"color:rgb(15=
+3,51,102);box-sizing:border-box">=C2=A0</span><span style=3D"color:rgb(31,7=
+3,125);box-sizing:border-box"><img width=3D"120" src=3D"http://track.codem-=
+composites.com/api/froala/files/tea_NfYyMpjZ5LayPy6cN-95ab1f987261409b5d768=
+873a676560b" alt=3D"cid:image008.jpg@01D362BA.5DA65FA0" style=3D"vertical-a=
+lign: middle; border-style: none; cursor: pointer; padding: 0px 1px; max-wi=
+dth: 100%; box-sizing: border-box;"></span></span></p></td></tr><tr style=
+=3D"box-sizing:border-box"><td style=3D"padding:0cm;height:15pt;min-width:5=
+px;box-sizing:border-box"><span style=3D"font-family:Arial,Helvetica,sans-s=
+erif;box-sizing:border-box"><br style=3D"box-sizing:border-box"></span></td=
+></tr><tr style=3D"box-sizing:border-box"><td style=3D"padding:0cm;min-widt=
+h:5px;box-sizing:border-box"><p style=3D"margin:0cm;font-size:15px;font-fam=
+ily:Calibri,sans-serif;box-sizing:border-box"><span style=3D"font-family:Ar=
+ial,Helvetica,sans-serif;box-sizing:border-box"><span style=3D"font-size:10=
+px;color:rgb(31,73,125);box-sizing:border-box">CODEM Composites Ltd Unit E =
+Harrier Park, Southgate Way, Orton Southgate, Peterborough PE2 6YQ</span></=
+span></p></td></tr><tr style=3D"box-sizing:border-box"><td style=3D"padding=
+:0cm;height:22.5pt;min-width:5px;box-sizing:border-box"><span style=3D"font=
+-family:Arial,Helvetica,sans-serif;box-sizing:border-box"><br style=3D"box-=
+sizing:border-box"></span></td></tr><tr style=3D"box-sizing:border-box"><td=
+ style=3D"padding:0cm;min-width:5px;box-sizing:border-box"><p style=3D"marg=
+in:0cm;font-size:15px;font-family:Calibri,sans-serif;box-sizing:border-box"=
+><span style=3D"font-family:Arial,Helvetica,sans-serif;box-sizing:border-bo=
+x"><strong style=3D"font-weight:700;box-sizing:border-box"><span style=3D"f=
+ont-size:10px;color:rgb(31,73,125);box-sizing:border-box">Tel: +44 (0) 1487=
+ 832123<br style=3D"box-sizing:border-box"> Mob: +44 (0) 7785 996218<br sty=
+le=3D"box-sizing:border-box">Email:=C2=A0</span></strong><strong style=3D"f=
+ont-weight:700;box-sizing:border-box"><span style=3D"font-size:10px;color:r=
+gb(31,73,125);box-sizing:border-box"><a href=3D"mailto:kevin@codemcomposite=
+s.com" style=3D"color:rgb(0,184,255);text-decoration:none;background-color:=
+transparent;box-sizing:border-box"><span style=3D"color:blue;box-sizing:bor=
+der-box">kevin@codem-composites.com</span></a></span></strong><strong style=
+=3D"font-weight:700;box-sizing:border-box"><span style=3D"font-size:10px;co=
+lor:rgb(31,73,125);box-sizing:border-box"><br style=3D"box-sizing:border-bo=
+x">Web:=C2=A0</span></strong><strong style=3D"font-weight:700;box-sizing:bo=
+rder-box"><span style=3D"font-size:10px;color:rgb(31,73,125);box-sizing:bor=
+der-box"><a href=3D"https://urldefense.com/v3/__http://track.codem-composit=
+es.com/api/t/c/usr_a8xLmetmsZe2dZKhP/tsk_KFu4fJjb5op9GDfGQ/aHR0cDovL3d3dy5j=
+b2RlbWNvbXBvc2l0ZXMuY29tLw=3D=3D__;!!EJqI8w!GNXg4aQ6RV32XdNBB-25eczDmAJ2Q_7=
+hDd_48-43VgnYtc6y7N0P45tBYxGJ81of$" style=3D"color:rgb(0,184,255);text-deco=
+ration:none;background-color:transparent;box-sizing:border-box"><span style=
+=3D"color:blue;box-sizing:border-box">www.codem-composites.com</span></a></=
+span></strong></span></p></td></tr></tbody></table></td></tr><tr style=3D"b=
+ox-sizing:border-box"><td style=3D"padding:0cm;min-width:5px;box-sizing:bor=
+der-box"><span style=3D"font-family:Arial,Helvetica,sans-serif;box-sizing:b=
+order-box"><br style=3D"box-sizing:border-box"></span></td></tr></tbody></t=
+able><p style=3D"margin-top:0px;margin-bottom:1rem;box-sizing:border-box"><=
+span style=3D"font-size:10px;font-family:Arial,Helvetica,sans-serif;box-siz=
+ing:border-box">As a GDPR compliant company, we would like to explain why y=
+ou have received this email. We believe that BCA Marketplace has a legitima=
+te interest in the products and services that Codem Composites offers. Our =
+research has identified your email address <a href=3D"mailto:caslind@bca.co=
+.uk">caslind@bca.co.uk</a> as the appropriate contact within your organisat=
+ion. If you have received this email in error or do not wish to receive fur=
+ther communications from Codem Composites, just hit <a href=3D"https://urld=
+efense.com/v3/__http://track.codem-composites.com/api/unsubscribe/cam_dpCiX=
+y7uz9SNiJCbN/Y2FzbGluZEBiY2EuY28udWs=3D__;!!EJqI8w!GNXg4aQ6RV32XdNBB-25eczD=
+mAJ2Q_7hDd_48-43VgnYtc6y7N0P45tBY4rlHkfZ$" style=3D"color:rgb(0,184,255);te=
+xt-decoration:none;background-color:transparent;box-sizing:border-box">unsu=
+bscribe</a>.</span></p></span></p></div>
+    <br><div class=3D"gmail_extra"><br>
+      <div class=3D"gmail_signature" data-smartmail=3D"gmail_signature"><di=
+v dir=3D"ltr"><div><div dir=3D"ltr"></div></div></div></div>
+=20=20=20=20=20=20
+    </div>
+    </div>
+<img alt=3D"picture" src=3D"http://track.codem-composites.com/api/reply/dat=
+a-ll-tsk_KFu4fJjb5op9GDfGQ" style=3D"opacity:0;display:none;width:0;height:=
+0;">
+<img alt=3D"logo" src=3D"http://track.codem-composites.com/api/track/open/u=
+sr_a8xLmetmsZe2dZKhP/tsk_KFu4fJjb5op9GDfGQ" height=3D"1" width=3D"1"></html>
+
+--000000000000cfa1ec05af055add--
+
+--08B8KKqQ020141.1599812420/mx08-001c1001.pphosted.com--
+

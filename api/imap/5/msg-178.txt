@@ -1,3 +1,101 @@
+To: kevin@codem-composites.com
+Date: Mon, 07 Sep 2020 01:59:05 -0700 (PDT)
+From: Mail Delivery Subsystem <mailer-daemon@googlemail.com>
+Subject: Delivery Status Notification (Failure)
+
+0000000003fed6005aeb56eb9"
+
+--0000000000003fed6005aeb56eb9
+Content-Type: text/plain; charset="UTF-8"
+
+
+** Address not found **
+
+Your message wasn't delivered to alasdair.stirlingcbefreng@babcockinternational.com because the address couldn't be found, or is unable to receive mail.
+
+
+
+The response from the remote server was:
+550 5.1.1 User Unknown
+
+--0000000000003fed6005aeb56eb9
+Content-Type: text/html; charset="UTF-8"
+
+
+<html>
+<head>
+<style>
+* {
+font-family:Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+</style>
+</head>
+<body>
+<table cellpadding="0" cellspacing="0" class="email-wrapper" style="padding-top:32px;background-color:#ffffff;"><tbody>
+<tr><td>
+<table cellpadding=0 cellspacing=0><tbody>
+<tr><td style="max-width:560px;padding:24px 24px 32px;background-color:#fafafa;border:1px solid #e0e0e0;border-radius:2px">
+<img style="padding:0 24px 16px 0;float:left" width=72 height=72 alt="Error Icon" src="cid:icon.png">
+<table style="min-width:272px;padding-top:8px"><tbody>
+<tr><td><h2 style="font-size:20px;color:#212121;font-weight:bold;margin:0">
+Address not found
+</h2></td></tr>
+<tr><td style="padding-top:20px;color:#757575;font-size:16px;font-weight:normal;text-align:left">
+Your message wasn't delivered to <a style='color:#212121;text-decoration:none'><b>alasdair.stirlingcbefreng@babcockinternational.com</b></a> because the address couldn't be found, or is unable to receive mail.
+</td></tr>
+</tbody></table>
+</td></tr>
+</tbody></table>
+</td></tr>
+<tr style="border:none;background-color:#fff;font-size:12.8px;width:90%">
+<td align="left" style="padding:48px 10px">
+The response from the remote server was:<br/>
+<p style="font-family:monospace">
+550 5.1.1 User Unknown
+</p>
+</td>
+</tr>
+</tbody></table>
+</body>
+</html>
+
+--0000000000003fed6005aeb56eb9--
+--0000000000003fed5a05aeb56eb8
+Content-Type: image/png; name="icon.png"
+Content-Disposition: attachment; filename="icon.png"
+Content-Transfer-Encoding: base64
+Content-ID: <icon.png>
+
+iVBORw0KGgoAAAANSUhEUgAAAJAAAACQCAYAAADnRuK4AAAACXBIWXMAABYlAAAWJQFJUiTwAAAA
+GXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAABTdJREFUeNrsnD9sFEcUh5+PRMqZ
+yA0SPhAUQAQFUkyTgiBASARo6QApqVIkfdxGFJFSgGhJAUIiBaQB0ZIOKVCkwUgURjIg2fxL4kS+
+YDvkbC/388bi8N16Z4/d7J/5PsniuD3fyePP772ZeTsDQRAYQL/UGAJAIEAgQCBAIAAEAgQCBAIE
+AkAgyJT3Mv+Eq7vYK8mTE+MDRCAghQECAeRQA5V2ZOpmg5vDx3NPzRbmGRMEcmTrEbNNB8zWfRD+
+f/Efs2e3zCZvMjaksBg27TfbcuSNPEKP9ZyuAQKtHX2O9ncNgWC57umMPKvRNb0GEKgnLoUyxTQC
+rcns0/6uIRAs8/hGf9cQCJZpTpjdO2f25/03z+mxntM1eLtsZAgiUtX4JcaBCAQIBAgECARQ8CJa
+G5jab4J4pm4WZmO3OALVh802fIwcLkyPkcKAGggAgQCBAIEAgQCBABAIEAjKA/1AnahhbO5FdOOY
+VsrrDbPBYcYKgf5D2wLaV3p+22xh1u17tO3S+DTcvxvagUDeivPgx/a/95J/73w7Sj26Hn4pKo2M
+ehuV/KyBJM6d0f7k6RKx/R63vvL2tmf/ItDdM2ZTP6f7nkp9Y2fDx1v9akmpIU+KSCLVUghUQfSL
+zVKeTklbLxGoctw/nzC5rw8L5KRNbkpnKq6pgSqEClzNnFzY+XnYWrt6VpVk1vbwWvg+RKCKMOUw
+Q1LEOXA+/MX3mpJvGDHb265xtnzmFoUK1HaKQGlMtePYM+q2KKjXuaS1NJYIEKgI8jhEgqHt4cqy
+Ky53j3hyHz2bqSLp2o2LbJ7MxKovkGqXteoWpaOk96O9/yF/dF7NwlS36AuIQIBA5celQK4PIxBE
+4LLzrtoLgaALdSy6CJRkWQCBPGLsTHznomZ9nszUECgJ2ml3WWHe+QVFNPSQx6UdZNtxr9pbEShN
+eTTz8mQXHoHSlke7+Z+c9m6VGoHSkEfs/trLW3wQKApN1V3lGfnGu2Z6BFoLtYCs3GWBPAiUCLVh
+/HoaeRCoT9R873KLM/IgUBfapnCpe5AHgXry4pf412ihEHkQqCdxd5VqrcezhUIESsJMTJ+Pdthp
+Z0WgyNlXXPHc2Mc4IVAELl2Gnh8mhUDvCkfbIVAkcbf/aOoO3fMKhqAD3frTa4quwpn0hUDOkQhI
+YYBAgECAQAAU0QlYObl+5Ug8NcprZkZxjUCxRPVA6zmtEXHCBykskrhjgHXN09PoEcgFl4M4H11j
+nBAoApcj6ZoPGScEAgTKApcDoTw5sgWB+sGlz1n90IBAPdE6j1o21PfcC11jLagL1oFWRyGlKU3p
+OxcSJQ7NZAjkhHp/uG2HFAYIBAgECASAQIBAgECAQAAIBOkxEARBtp9wdVfAMOfIifEBIhCQwgCB
+ABAI0oV2jhxZ+nfBatuPZfgBCy0Eqqo8c01b+uu51XZvzOgDWoHNTGR+pCwpLEd5svuAZXlO2uEr
+PyEQ8hRWHgRCHmqg0sjTnLalv6crJQ8C/U8stqNO0I4+VZOHFIY8COS1PGL2ybd5yUMKK7s8zYmL
+dujyd3n+nESgcsvzZd4/KwIhDwIhT35QA6UyE1qyxZnfvJMHgdKS549JC1qvvJOHFIY8CFR5eV5O
+XimqPAhUdHnmfx+zgxdOFXkoqIGKKs/cswnb/8Oeog8HEai48nxUhiFBIORBIOShBioskkbySCLk
+IQIhDwIhj28p7FApR6b1qlEbHGpkO/rr6215vi/zH1r2x7tApSGFAQIBAgECAQIBIBAgECAQIBBA
+LK8FGADCTxYrr+EVJgAAAABJRU5ErkJggg==
+--0000000000003fed5a05aeb56eb8--
+--0000000000003fe3a505aeb56ead
+Content-Type: message/delivery-status
+
 Reporting-MTA: dns; googlemail.com
 Arrival-Date: Mon, 07 Sep 2020 01:59:04 -0700 (PDT)
 X-Original-Message-ID: <CAK4cLxhnZrO5Jq-try0pe6NrNf73hpho4v2CS8pBPJ46BtTvmw@mail.gmail.com>
@@ -9,3 +107,44 @@ Remote-MTA: dns; mxb-001c8e01.gslb.pphosted.com. (148.163.156.185, the server
  for the domain babcockinternational.com.)
 Diagnostic-Code: smtp; 550 5.1.1 User Unknown
 Last-Attempt-Date: Mon, 07 Sep 2020 01:59:05 -0700 (PDT)
+
+--0000000000003fe3a505aeb56ead
+Content-Type: message/rfc822
+
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=codem-composites.com; s=google;
+        h=from:mime-version:date:message-id:subject:to;
+        bh=kuUVnkGFjChON+fHVjSlJldur8gG3zZO4dDKPMO8nLA=;
+        b=DuBItrrCSIEqF/tlcw9YvY8cYbLhPshRM1T42AjFhLtLWPVtYRkGGGYConaAtWyEeO
+         ruWgGYaRuii+eINS8mBFfJan5gcfXaLvZU9x7GwsYIUGtxF0MY0TdpFUMekBhC+RDU5B
+         3K3LpNEZwQBHc2bUYq9TSs4yvMptQBrHmUzRHlNleUi6Ey+hABer6JkRSouKfwApnr17
+         DIa5flwDRneEqINNPeCpodzRdodWAenlp6BP8S3Mgh7c1XjJxVUncaNgWknkf9iesgmg
+         D6eaMFlherC2braOPffLXGQJ1hRGb2/9fMDdjMOlIA5md2dYDJwZmeo2VG/sRMbutkHW
+         f/xg==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20161025;
+        h=x-gm-message-state:from:mime-version:date:message-id:subject:to;
+        bh=kuUVnkGFjChON+fHVjSlJldur8gG3zZO4dDKPMO8nLA=;
+        b=DIdf98EuLOx+2k7SgZFY+jwofxhcpGRa+kbNaXseEkjjrYyPSjcXOxQga/K5q/7RnM
+         1QX+p5infR128mfAeoWk6yy8DnKM6nz+rV4gcDnrXaEcFD93wVgoBNITTsu4vR2FFuWo
+         jzAwoX2mQXEGj7G6l1xC76GWlS1lf2JsoonPA/k4Hf5guVq6g5oTImszxmmyn3hnXdHR
+         0it3W8DpbEWopth+5sqwbpeEvn5ZcPY5hiUDET+fL1XKcO1QvzGesJ7i5U5c0H4Ov7yi
+         VKsfWlBq9qkiQCpbyivczkUuIF4fAch2OY1g/kYM2tTwye/4dGEq2P6zENEkdg8bAK0G
+         YcGg==
+X-Gm-Message-State: AOAM533CUY1zt0VYWSM+GZQUUl01d6+7L622HTYZM87b23lRsfPk6Qo0
+	UmSE/EiQwcOcB+ssDL9ycFdWmcE7gFK+5zwjvwyP44VCxd0=
+X-Google-Smtp-Source: ABdhPJxGwE+aAWnnavCA3TWYleIPsv/7gitG8bGRQpWJF6v5dhVDXvp9wPCgGLUy6d3583ifKR+qJB+tOvBb/Ju4PMg=
+X-Received: by 2002:a5e:8d04:: with SMTP id m4mr16120189ioj.107.1599469144252;
+ Mon, 07 Sep 2020 01:59:04 -0700 (PDT)
+Received: from 696963989851 named unknown by gmailapi.google.com with
+ HTTPREST; Mon, 7 Sep 2020 01:59:03 -0700
+From: Kevin Doherty <kevin@codem-composites.com>
+MIME-Version: 1.0
+Date: Mon, 7 Sep 2020 01:59:03 -0700
+Message-ID: <CAK4cLxhnZrO5Jq-try0pe6NrNf73hpho4v2CS8pBPJ46BtTvmw@mail.gmail.com>
+Subject: Quick Question, Alasdair
+To: alasdair.stirlingcbefreng@babcockinternational.com
+Content-Type: multipart/alternative; boundary="0000000000002c2fe905aeb56e22"
+
+----- Message truncated -----
+--0000000000003fe3a505aeb56ead--

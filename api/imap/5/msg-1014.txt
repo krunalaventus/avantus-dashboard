@@ -1,0 +1,616 @@
+From: <postmaster@meggitt.com>
+To: <kevin@codem-composites.com>
+Date: Fri, 16 Oct 2020 04:25:00 -0400
+Subject: Undeliverable: Quick Question, Keith
+
+
+--92d43ad2-79e2-4980-ba6f-3e6583bc9f9b
+Content-Type: text/plain; charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+Delivery has failed to these recipients or groups:
+
+keith.young@meggitt.com<mailto:keith.young@meggitt.com>
+The email address you entered couldn't be found. Please check the recipient=
+'s email address and try to resend the message. If the problem continues, p=
+lease contact your helpdesk.
+
+
+
+
+
+
+
+
+Diagnostic information for administrators:
+
+Generating server: mgandmbxp01.exchange.meggitt.net
+
+keith.young@meggitt.com
+Remote Server returned '550 5.1.1 RESOLVER.ADR.RecipNotFound; not found'
+
+Original message headers:
+
+Received: from MGANDMBXP03.exchange.meggitt.net (10.208.86.199) by
+ mgandmbxp01.exchange.meggitt.net (10.208.86.197) with Microsoft SMTP Serve=
+r
+ (TLS) id 15.0.1497.2; Fri, 16 Oct 2020 04:24:58 -0400
+Received: from mx0a-00285801.pphosted.com (10.208.86.195) by
+ MGANDMBXP03.exchange.meggitt.net (10.208.86.199) with Microsoft SMTP Serve=
+r
+ (TLS) id 15.0.1497.2 via Frontend Transport; Fri, 16 Oct 2020 04:24:58 -04=
+00
+Received: from pps.filterd (m0116306.ppops.net [127.0.0.1])
+        by mx0b-00285801.pphosted.com (8.16.0.42/8.16.0.42) with SMTP id 09=
+G8JvPa018189
+        for <keith.young@meggitt.com>; Fri, 16 Oct 2020 08:24:58 GMT
+Authentication-Results: ppops.net;
+        spf=3Dpass smtp.mailfrom=3Dkevin@codem-composites.com;
+        dkim=3Dpass header.d=3Dcodem-composites.com header.s=3Dgoogle;
+        dmarc=3Dpass header.from=3Dcodem-composites.com
+Received: from mail-il1-f193.google.com (mail-il1-f193.google.com [209.85.1=
+66.193])
+        by mx0b-00285801.pphosted.com with ESMTP id 34353wnjpd-1
+        (version=3DTLSv1.2 cipher=3DECDHE-RSA-AES128-GCM-SHA256 bits=3D128 =
+verify=3DOK)
+        for <keith.young@meggitt.com>; Fri, 16 Oct 2020 08:24:57 +0000
+Received: by mail-il1-f193.google.com with SMTP id p9so1743472ilr.1
+        for <keith.young@meggitt.com>; Fri, 16 Oct 2020 01:24:57 -0700 (PDT=
+)
+DKIM-Signature: v=3D1; a=3Drsa-sha256; c=3Drelaxed/relaxed;
+        d=3Dcodem-composites.com; s=3Dgoogle;
+        h=3Dfrom:mime-version:date:message-id:subject:to;
+        bh=3Dl3Z1pxg8SdaUWEMGm9fz+qhtLlqkj2roXv8VQX7JOwI=3D;
+        b=3DGpQTSojlIeJS45pqaYJRjO5F6gU+rnA1rkjA4O+ArMVUc00FuhBpAia5rt6yHLI=
+GTL
+         UaDtsOLRM+QYUqY5kWJFlgRnsSIKX0CGPpeOz1974lPH0J3u2xl9HS/8FefR2FhU/V=
+K7
+         2JIAL96Li+0jzGaRMaBDfcXoDn2+6DT90ys/rd6TDupEqdzr5P4YwXh1f1jwq4Zd11=
+c8
+         6ABBgKbeKUS7/JpUveYEc5UKDoMpfHfMf02jgGvSZzC1HqhF1cv3maBWlKNlwU1dhL=
+ZD
+         cb1Y3Mpj0/uoIkoBhcVKCI3rnp8BQxP6ceMYdMZZOwYpSE9vAKSmBeTvUGze5NlJaX=
+bN
+         UCqQ=3D=3D
+X-Google-DKIM-Signature: v=3D1; a=3Drsa-sha256; c=3Drelaxed/relaxed;
+        d=3D1e100.net; s=3D20161025;
+        h=3Dx-gm-message-state:from:mime-version:date:message-id:subject:to=
+;
+        bh=3Dl3Z1pxg8SdaUWEMGm9fz+qhtLlqkj2roXv8VQX7JOwI=3D;
+        b=3Do23JruLm/MfTFZ0SdQS0ko9kzDfH+LuI7XLAft1qYCmhT/THmNfPeAakp3jiaqM=
+k7U
+         y1ax5NJymCjpM79XkYkKnN/UCaFsG0zYazkZ0JbVN7vlouSisUYZTcmqcMqO7Cvs8i=
+nI
+         maq9qyOgeBPkvTf4teliKJLDGK/DP+huZQIJNJlLIza56Vb7uv3/3fEAEkNmQEJTHZ=
+Z7
+         8HBq/U/RBKnPNhgnDJ35lciVVViaq17IzblOt1OGlrmliqg0JCIG3qqVSwSUvVV0zp=
+1I
+         M2Y61sqlcFYUrH+bizSjf2kdW8ornbUb2DwSdCA2xN7L9TnSMxsBoD2qSUGxjBZGGU=
+zv
+         DYKw=3D=3D
+X-Gm-Message-State: AOAM530sBpPYsiLJ8AvYLSt8l0xwlDbLkAxR12N04V7APKzAa9RKgtT=
+d
+        yDxit91xn9uy8GewUyx2+9ksTvlOt2X7wRcH2StpH+GS0N/eHQ=3D=3D
+X-Google-Smtp-Source: ABdhPJx7ZzR3NQiUPlMWYIYLAE0fZmgEEqdaEuHeKr1ygc08L1fCm=
+EsSAOXSg9CTuAsUFb6nIl6U+OMps/9B3r5aeAI=3D
+X-Received: by 2002:a92:ca92:: with SMTP id t18mr1886079ilo.287.16028366965=
+26;
+ Fri, 16 Oct 2020 01:24:56 -0700 (PDT)
+Received: from 696963989851 named unknown by gmailapi.google.com with
+ HTTPREST; Fri, 16 Oct 2020 01:24:55 -0700
+From: Kevin Doherty <kevin@codem-composites.com>
+Date: Fri, 16 Oct 2020 01:24:55 -0700
+Message-ID: <CAK4cLxiogxEXXCsvYb-_uQazFb7iTJfOy=3D3+EdyodB3n-yG6DA@mail.gma=
+il.com>
+Subject: Quick Question, Keith
+To: <keith.young@meggitt.com>
+Content-Type: multipart/alternative; boundary=3D"000000000000ee03b205b1c57f=
+56"
+X-CLX-Shades: MLX
+X-CLX-Response: 1TFkXBxwfEQpZRBdga2xJY1t7bkcaXhEKWFgXbR5iXlxgR1NIRUQRCnhOF2=
+B Nf2VeUx1lQGZtEQp5TBdubWRiUl1De1xMbREKQ0gXBxwbHREKQ1kXBxgTEQpDSRcaBBoaGhEK=
+WU 0XZ2ZyEQpZSRcacRoQGncGBx8bcR0QGB93BgcbHgYaEQpZXhdsbHkRCklGF0dPTU1DXl51Qk=
+VZX
+ k9OEQpDThdcWmd7UhMTR2BCUhN8elJhWmNcchsbXEZGQGVGbltEeBEKWFwXHwQaBBgbHAUbGgQ=
+b GxoEHxoEGx4fEBseGh8aEQpeWRd9XFwbGhEKTVwXGxobEQpMWhdpbH5CQWkRCk1OF2gRCkxGF=
+29 ra2traxEKQk8XbW1STWtsW29IbG0RCkNaFxgaEwQSHwQbHBwEGxMZEQpCXhcbEQpCXBcbEQp=
+eTh
+ cbEQpCSxdgTX9lXlMdZUBmbREKQkkXYE1/ZV5THWVAZm0RCkJFF2xcbkUZYx59fhMcEQpCThdg=
+T X9lXlMdZUBmbREKQkwXbR5iXlxgR1NIRUQRCkJsF2RyQGZAWhxMaXljEQpCQBdoZX18UngfBQ=
+VG cBEKQlgXZUJlX0IZElofHBsRClpYFxgRCnlDF28bQ1JYXWREYhN4EQpZSxcdGhEKcGcXbnhu=
+Tl5
+ lWB5lTVgQBxkaEQpwaBdoWGJmR3JieGcdHBAaEQpwaBdgfgVgQQF/E0hfTRAHGRoRCnBoF2JmW=
+n 8BYl5GHBNwEBoRCnBoF2FsZVkdAWFOQFMfEAcZGhEKcGgXZmJeX0hSb2NhXhMQGhEKcGcXZWN=
+9W GgbcFJnHHkQBxkaEQpwZxdkH0sfUl4bQ2kaExAHGRoRCnB9F2RLUk1FGhppe1BHEBoRCnB9F=
+2wS
+ bnkaSR0ebnIeEBoRCnB9F2hnRWJJHEdIZU1/EAcZGhEKcH0XbGJFfWlwHmhyc1gQBxkaEQpwfR=
+d sf199fngZSEZdUBAHGRoRCnB9F2waGllgWFlzcGFlEBoRCnB9F2Bybn5HW2RGQ3xvEBoRCnB/=
+F2 loc0IafltfXk1OEAcZGhEKcF8XbRxtY29OQEJOfkUQBxkaEQpwXxdjUEdDUlxFY0BeUhAHGR=
+oRC
+ nBfF2J/emFgE2IYU09tEAcZGhEKcF8XYEBOGWRJQm1Mcm8QBxkaEQpwXxdoQE5AXlsaTE1zWxA=
+H GRoRCnBsF2JncHoeRXB4fEVAEBIbEQptfhcaEQpYTRdLESA=3D
+MIME-Version: 1.0
+x-external-tag: Yes
+X-Proofpoint-Virus-Version: vendor=3Dfsecure engine=3D2.50.10434:6.0.235,18=
+.0.687
+ definitions=3D2020-10-16_05:2020-10-16,2020-10-16 signatures=3D0
+X-Proofpoint-Spam-Details: rule=3Dinbound_notspam policy=3Dinbound score=3D=
+0 clxscore=3D-65 spamscore=3D0
+ malwarescore=3D0 phishscore=3D0 mlxlogscore=3D999 adultscore=3D0 bulkscore=
+=3D0
+ mlxscore=3D0 impostorscore=3D0 priorityscore=3D1501 lowpriorityscore=3D0
+ suspectscore=3D34 classifier=3Dspam adjust=3D0 reason=3Dmlx scancount=3D1
+ engine=3D8.12.0-2009150000 definitions=3Dmain-2010160060
+Return-Path: kevin@codem-composites.com
+
+
+--92d43ad2-79e2-4980-ba6f-3e6583bc9f9b
+Content-Type: text/html; charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<html>
+<Head></head><body>
+<p><b><font color=3D"#000066" size=3D"3" face=3D"Arial">Delivery has failed=
+ to these recipients or groups:</font></b></p>
+<font color=3D"#000000" size=3D"2" face=3D"Tahoma"><p><a href=3D"mailto:kei=
+th.young@meggitt.com">keith.young@meggitt.com</a><br>
+</font>
+<font color=3D"#000000" size=3D"3" face=3D"Arial">The email address you ent=
+ered couldn't be found. Please check the recipient's email address and try =
+to resend the message. If the problem continues, please contact your helpde=
+sk.<br>
+</font>
+<font color=3D"#000000" size=3D"2" face=3D"Tahoma"><br>
+</p>
+</font>
+<br><br><br><br><br><br>
+<font color=3D"#808080" size=3D"2" face=3D"Tahoma"><p><b>Diagnostic informa=
+tion for administrators:</b></p>
+<p>Generating server: mgandmbxp01.exchange.meggitt.net<br>
+</p>
+<p>keith.young@meggitt.com<br>
+Remote Server  returned '550 5.1.1 RESOLVER.ADR.RecipNotFound; not found'<b=
+r>
+</p>
+<p>Original message headers:</p>
+<pre>Received: from MGANDMBXP03.exchange.meggitt.net (10.208.86.199) by
+ mgandmbxp01.exchange.meggitt.net (10.208.86.197) with Microsoft SMTP Serve=
+r
+ (TLS) id 15.0.1497.2; Fri, 16 Oct 2020 04:24:58 -0400
+Received: from mx0a-00285801.pphosted.com (10.208.86.195) by
+ MGANDMBXP03.exchange.meggitt.net (10.208.86.199) with Microsoft SMTP Serve=
+r
+ (TLS) id 15.0.1497.2 via Frontend Transport; Fri, 16 Oct 2020 04:24:58 -04=
+00
+Received: from pps.filterd (m0116306.ppops.net [127.0.0.1])
+	by mx0b-00285801.pphosted.com (8.16.0.42/8.16.0.42) with SMTP id 09G8JvPa0=
+18189
+	for &lt;keith.young@meggitt.com&gt;; Fri, 16 Oct 2020 08:24:58 GMT
+Authentication-Results: ppops.net;
+	spf=3Dpass smtp.mailfrom=3Dkevin@codem-composites.com;
+	dkim=3Dpass header.d=3Dcodem-composites.com header.s=3Dgoogle;
+	dmarc=3Dpass header.from=3Dcodem-composites.com
+Received: from mail-il1-f193.google.com (mail-il1-f193.google.com [209.85.1=
+66.193])
+	by mx0b-00285801.pphosted.com with ESMTP id 34353wnjpd-1
+	(version=3DTLSv1.2 cipher=3DECDHE-RSA-AES128-GCM-SHA256 bits=3D128 verify=
+=3DOK)
+	for &lt;keith.young@meggitt.com&gt;; Fri, 16 Oct 2020 08:24:57 +0000
+Received: by mail-il1-f193.google.com with SMTP id p9so1743472ilr.1
+        for &lt;keith.young@meggitt.com&gt;; Fri, 16 Oct 2020 01:24:57 -070=
+0 (PDT)
+DKIM-Signature: v=3D1; a=3Drsa-sha256; c=3Drelaxed/relaxed;
+        d=3Dcodem-composites.com; s=3Dgoogle;
+        h=3Dfrom:mime-version:date:message-id:subject:to;
+        bh=3Dl3Z1pxg8SdaUWEMGm9fz+qhtLlqkj2roXv8VQX7JOwI=3D;
+        b=3DGpQTSojlIeJS45pqaYJRjO5F6gU+rnA1rkjA4O+ArMVUc00FuhBpAia5rt6yHLI=
+GTL
+         UaDtsOLRM+QYUqY5kWJFlgRnsSIKX0CGPpeOz1974lPH0J3u2xl9HS/8FefR2FhU/V=
+K7
+         2JIAL96Li+0jzGaRMaBDfcXoDn2+6DT90ys/rd6TDupEqdzr5P4YwXh1f1jwq4Zd11=
+c8
+         6ABBgKbeKUS7/JpUveYEc5UKDoMpfHfMf02jgGvSZzC1HqhF1cv3maBWlKNlwU1dhL=
+ZD
+         cb1Y3Mpj0/uoIkoBhcVKCI3rnp8BQxP6ceMYdMZZOwYpSE9vAKSmBeTvUGze5NlJaX=
+bN
+         UCqQ=3D=3D
+X-Google-DKIM-Signature: v=3D1; a=3Drsa-sha256; c=3Drelaxed/relaxed;
+        d=3D1e100.net; s=3D20161025;
+        h=3Dx-gm-message-state:from:mime-version:date:message-id:subject:to=
+;
+        bh=3Dl3Z1pxg8SdaUWEMGm9fz+qhtLlqkj2roXv8VQX7JOwI=3D;
+        b=3Do23JruLm/MfTFZ0SdQS0ko9kzDfH+LuI7XLAft1qYCmhT/THmNfPeAakp3jiaqM=
+k7U
+         y1ax5NJymCjpM79XkYkKnN/UCaFsG0zYazkZ0JbVN7vlouSisUYZTcmqcMqO7Cvs8i=
+nI
+         maq9qyOgeBPkvTf4teliKJLDGK/DP+huZQIJNJlLIza56Vb7uv3/3fEAEkNmQEJTHZ=
+Z7
+         8HBq/U/RBKnPNhgnDJ35lciVVViaq17IzblOt1OGlrmliqg0JCIG3qqVSwSUvVV0zp=
+1I
+         M2Y61sqlcFYUrH+bizSjf2kdW8ornbUb2DwSdCA2xN7L9TnSMxsBoD2qSUGxjBZGGU=
+zv
+         DYKw=3D=3D
+X-Gm-Message-State: AOAM530sBpPYsiLJ8AvYLSt8l0xwlDbLkAxR12N04V7APKzAa9RKgtT=
+d
+	yDxit91xn9uy8GewUyx2+9ksTvlOt2X7wRcH2StpH+GS0N/eHQ=3D=3D
+X-Google-Smtp-Source: ABdhPJx7ZzR3NQiUPlMWYIYLAE0fZmgEEqdaEuHeKr1ygc08L1fCm=
+EsSAOXSg9CTuAsUFb6nIl6U+OMps/9B3r5aeAI=3D
+X-Received: by 2002:a92:ca92:: with SMTP id t18mr1886079ilo.287.16028366965=
+26;
+ Fri, 16 Oct 2020 01:24:56 -0700 (PDT)
+Received: from 696963989851 named unknown by gmailapi.google.com with
+ HTTPREST; Fri, 16 Oct 2020 01:24:55 -0700
+From: Kevin Doherty &lt;kevin@codem-composites.com&gt;
+Date: Fri, 16 Oct 2020 01:24:55 -0700
+Message-ID: &lt;CAK4cLxiogxEXXCsvYb-_uQazFb7iTJfOy=3D3+EdyodB3n-yG6DA@mail.=
+gmail.com&gt;
+Subject: Quick Question, Keith
+To: &lt;keith.young@meggitt.com&gt;
+Content-Type: multipart/alternative; boundary=3D&quot;000000000000ee03b205b=
+1c57f56&quot;
+X-CLX-Shades: MLX
+X-CLX-Response: 1TFkXBxwfEQpZRBdga2xJY1t7bkcaXhEKWFgXbR5iXlxgR1NIRUQRCnhOF2=
+B Nf2VeUx1lQGZtEQp5TBdubWRiUl1De1xMbREKQ0gXBxwbHREKQ1kXBxgTEQpDSRcaBBoaGhEK=
+WU 0XZ2ZyEQpZSRcacRoQGncGBx8bcR0QGB93BgcbHgYaEQpZXhdsbHkRCklGF0dPTU1DXl51Qk=
+VZX
+ k9OEQpDThdcWmd7UhMTR2BCUhN8elJhWmNcchsbXEZGQGVGbltEeBEKWFwXHwQaBBgbHAUbGgQ=
+b GxoEHxoEGx4fEBseGh8aEQpeWRd9XFwbGhEKTVwXGxobEQpMWhdpbH5CQWkRCk1OF2gRCkxGF=
+29 ra2traxEKQk8XbW1STWtsW29IbG0RCkNaFxgaEwQSHwQbHBwEGxMZEQpCXhcbEQpCXBcbEQp=
+eTh
+ cbEQpCSxdgTX9lXlMdZUBmbREKQkkXYE1/ZV5THWVAZm0RCkJFF2xcbkUZYx59fhMcEQpCThdg=
+T X9lXlMdZUBmbREKQkwXbR5iXlxgR1NIRUQRCkJsF2RyQGZAWhxMaXljEQpCQBdoZX18UngfBQ=
+VG cBEKQlgXZUJlX0IZElofHBsRClpYFxgRCnlDF28bQ1JYXWREYhN4EQpZSxcdGhEKcGcXbnhu=
+Tl5
+ lWB5lTVgQBxkaEQpwaBdoWGJmR3JieGcdHBAaEQpwaBdgfgVgQQF/E0hfTRAHGRoRCnBoF2JmW=
+n 8BYl5GHBNwEBoRCnBoF2FsZVkdAWFOQFMfEAcZGhEKcGgXZmJeX0hSb2NhXhMQGhEKcGcXZWN=
+9W GgbcFJnHHkQBxkaEQpwZxdkH0sfUl4bQ2kaExAHGRoRCnB9F2RLUk1FGhppe1BHEBoRCnB9F=
+2wS
+ bnkaSR0ebnIeEBoRCnB9F2hnRWJJHEdIZU1/EAcZGhEKcH0XbGJFfWlwHmhyc1gQBxkaEQpwfR=
+d sf199fngZSEZdUBAHGRoRCnB9F2waGllgWFlzcGFlEBoRCnB9F2Bybn5HW2RGQ3xvEBoRCnB/=
+F2 loc0IafltfXk1OEAcZGhEKcF8XbRxtY29OQEJOfkUQBxkaEQpwXxdjUEdDUlxFY0BeUhAHGR=
+oRC
+ nBfF2J/emFgE2IYU09tEAcZGhEKcF8XYEBOGWRJQm1Mcm8QBxkaEQpwXxdoQE5AXlsaTE1zWxA=
+H GRoRCnBsF2JncHoeRXB4fEVAEBIbEQptfhcaEQpYTRdLESA=3D
+MIME-Version: 1.0
+x-external-tag: Yes
+X-Proofpoint-Virus-Version: vendor=3Dfsecure engine=3D2.50.10434:6.0.235,18=
+.0.687
+ definitions=3D2020-10-16_05:2020-10-16,2020-10-16 signatures=3D0
+X-Proofpoint-Spam-Details: rule=3Dinbound_notspam policy=3Dinbound score=3D=
+0 clxscore=3D-65 spamscore=3D0
+ malwarescore=3D0 phishscore=3D0 mlxlogscore=3D999 adultscore=3D0 bulkscore=
+=3D0
+ mlxscore=3D0 impostorscore=3D0 priorityscore=3D1501 lowpriorityscore=3D0
+ suspectscore=3D34 classifier=3Dspam adjust=3D0 reason=3Dmlx scancount=3D1
+ engine=3D8.12.0-2009150000 definitions=3Dmain-2010160060
+Return-Path: kevin@codem-composites.com
+</pre>
+</font>
+</body>
+</html>=
+
+--92d43ad2-79e2-4980-ba6f-3e6583bc9f9b--
+
+--78afcec8-8526-4e03-9806-8efc82c050b8
+Content-Type: message/delivery-status
+
+Reporting-MTA: dns;mgandmbxp01.exchange.meggitt.net
+Received-From-MTA: dns;mx0a-00285801.pphosted.com
+Arrival-Date: Fri, 16 Oct 2020 08:24:58 +0000
+
+Final-Recipient: rfc822;keith.young@meggitt.com
+Action: failed
+Status: 5.1.1
+Diagnostic-Code: smtp;550 5.1.1 RESOLVER.ADR.RecipNotFound; not found
+
+
+--78afcec8-8526-4e03-9806-8efc82c050b8
+Content-Type: message/rfc822
+
+Received: from MGANDMBXP03.exchange.meggitt.net (10.208.86.199) by
+ mgandmbxp01.exchange.meggitt.net (10.208.86.197) with Microsoft SMTP Server
+ (TLS) id 15.0.1497.2; Fri, 16 Oct 2020 04:24:58 -0400
+Received: from mx0a-00285801.pphosted.com (10.208.86.195) by
+ MGANDMBXP03.exchange.meggitt.net (10.208.86.199) with Microsoft SMTP Server
+ (TLS) id 15.0.1497.2 via Frontend Transport; Fri, 16 Oct 2020 04:24:58 -0400
+Received: from pps.filterd (m0116306.ppops.net [127.0.0.1])
+	by mx0b-00285801.pphosted.com (8.16.0.42/8.16.0.42) with SMTP id 09G8JvPa018189
+	for <keith.young@meggitt.com>; Fri, 16 Oct 2020 08:24:58 GMT
+Authentication-Results: ppops.net;
+	spf=pass smtp.mailfrom=kevin@codem-composites.com;
+	dkim=pass header.d=codem-composites.com header.s=google;
+	dmarc=pass header.from=codem-composites.com
+Received: from mail-il1-f193.google.com (mail-il1-f193.google.com [209.85.166.193])
+	by mx0b-00285801.pphosted.com with ESMTP id 34353wnjpd-1
+	(version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128 verify=OK)
+	for <keith.young@meggitt.com>; Fri, 16 Oct 2020 08:24:57 +0000
+Received: by mail-il1-f193.google.com with SMTP id p9so1743472ilr.1
+        for <keith.young@meggitt.com>; Fri, 16 Oct 2020 01:24:57 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=codem-composites.com; s=google;
+        h=from:mime-version:date:message-id:subject:to;
+        bh=l3Z1pxg8SdaUWEMGm9fz+qhtLlqkj2roXv8VQX7JOwI=;
+        b=GpQTSojlIeJS45pqaYJRjO5F6gU+rnA1rkjA4O+ArMVUc00FuhBpAia5rt6yHLIGTL
+         UaDtsOLRM+QYUqY5kWJFlgRnsSIKX0CGPpeOz1974lPH0J3u2xl9HS/8FefR2FhU/VK7
+         2JIAL96Li+0jzGaRMaBDfcXoDn2+6DT90ys/rd6TDupEqdzr5P4YwXh1f1jwq4Zd11c8
+         6ABBgKbeKUS7/JpUveYEc5UKDoMpfHfMf02jgGvSZzC1HqhF1cv3maBWlKNlwU1dhLZD
+         cb1Y3Mpj0/uoIkoBhcVKCI3rnp8BQxP6ceMYdMZZOwYpSE9vAKSmBeTvUGze5NlJaXbN
+         UCqQ==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20161025;
+        h=x-gm-message-state:from:mime-version:date:message-id:subject:to;
+        bh=l3Z1pxg8SdaUWEMGm9fz+qhtLlqkj2roXv8VQX7JOwI=;
+        b=o23JruLm/MfTFZ0SdQS0ko9kzDfH+LuI7XLAft1qYCmhT/THmNfPeAakp3jiaqMk7U
+         y1ax5NJymCjpM79XkYkKnN/UCaFsG0zYazkZ0JbVN7vlouSisUYZTcmqcMqO7Cvs8inI
+         maq9qyOgeBPkvTf4teliKJLDGK/DP+huZQIJNJlLIza56Vb7uv3/3fEAEkNmQEJTHZZ7
+         8HBq/U/RBKnPNhgnDJ35lciVVViaq17IzblOt1OGlrmliqg0JCIG3qqVSwSUvVV0zp1I
+         M2Y61sqlcFYUrH+bizSjf2kdW8ornbUb2DwSdCA2xN7L9TnSMxsBoD2qSUGxjBZGGUzv
+         DYKw==
+X-Gm-Message-State: AOAM530sBpPYsiLJ8AvYLSt8l0xwlDbLkAxR12N04V7APKzAa9RKgtTd
+	yDxit91xn9uy8GewUyx2+9ksTvlOt2X7wRcH2StpH+GS0N/eHQ==
+X-Google-Smtp-Source: ABdhPJx7ZzR3NQiUPlMWYIYLAE0fZmgEEqdaEuHeKr1ygc08L1fCmEsSAOXSg9CTuAsUFb6nIl6U+OMps/9B3r5aeAI=
+X-Received: by 2002:a92:ca92:: with SMTP id t18mr1886079ilo.287.1602836696526;
+ Fri, 16 Oct 2020 01:24:56 -0700 (PDT)
+Received: from 696963989851 named unknown by gmailapi.google.com with
+ HTTPREST; Fri, 16 Oct 2020 01:24:55 -0700
+From: Kevin Doherty <kevin@codem-composites.com>
+Date: Fri, 16 Oct 2020 01:24:55 -0700
+Message-ID: <CAK4cLxiogxEXXCsvYb-_uQazFb7iTJfOy=3+EdyodB3n-yG6DA@mail.gmail.com>
+Subject: Quick Question, Keith
+To: <keith.young@meggitt.com>
+Content-Type: multipart/alternative; boundary="000000000000ee03b205b1c57f56"
+X-CLX-Shades: MLX
+X-CLX-Response: 1TFkXBxwfEQpZRBdga2xJY1t7bkcaXhEKWFgXbR5iXlxgR1NIRUQRCnhOF2B Nf2VeUx1lQGZtEQp5TBdubWRiUl1De1xMbREKQ0gXBxwbHREKQ1kXBxgTEQpDSRcaBBoaGhEKWU 0XZ2ZyEQpZSRcacRoQGncGBx8bcR0QGB93BgcbHgYaEQpZXhdsbHkRCklGF0dPTU1DXl51QkVZX
+ k9OEQpDThdcWmd7UhMTR2BCUhN8elJhWmNcchsbXEZGQGVGbltEeBEKWFwXHwQaBBgbHAUbGgQb GxoEHxoEGx4fEBseGh8aEQpeWRd9XFwbGhEKTVwXGxobEQpMWhdpbH5CQWkRCk1OF2gRCkxGF29 ra2traxEKQk8XbW1STWtsW29IbG0RCkNaFxgaEwQSHwQbHBwEGxMZEQpCXhcbEQpCXBcbEQpeTh
+ cbEQpCSxdgTX9lXlMdZUBmbREKQkkXYE1/ZV5THWVAZm0RCkJFF2xcbkUZYx59fhMcEQpCThdgT X9lXlMdZUBmbREKQkwXbR5iXlxgR1NIRUQRCkJsF2RyQGZAWhxMaXljEQpCQBdoZX18UngfBQVG cBEKQlgXZUJlX0IZElofHBsRClpYFxgRCnlDF28bQ1JYXWREYhN4EQpZSxcdGhEKcGcXbnhuTl5
+ lWB5lTVgQBxkaEQpwaBdoWGJmR3JieGcdHBAaEQpwaBdgfgVgQQF/E0hfTRAHGRoRCnBoF2JmWn 8BYl5GHBNwEBoRCnBoF2FsZVkdAWFOQFMfEAcZGhEKcGgXZmJeX0hSb2NhXhMQGhEKcGcXZWN9W GgbcFJnHHkQBxkaEQpwZxdkH0sfUl4bQ2kaExAHGRoRCnB9F2RLUk1FGhppe1BHEBoRCnB9F2wS
+ bnkaSR0ebnIeEBoRCnB9F2hnRWJJHEdIZU1/EAcZGhEKcH0XbGJFfWlwHmhyc1gQBxkaEQpwfRd sf199fngZSEZdUBAHGRoRCnB9F2waGllgWFlzcGFlEBoRCnB9F2Bybn5HW2RGQ3xvEBoRCnB/F2 loc0IafltfXk1OEAcZGhEKcF8XbRxtY29OQEJOfkUQBxkaEQpwXxdjUEdDUlxFY0BeUhAHGRoRC
+ nBfF2J/emFgE2IYU09tEAcZGhEKcF8XYEBOGWRJQm1Mcm8QBxkaEQpwXxdoQE5AXlsaTE1zWxAH GRoRCnBsF2JncHoeRXB4fEVAEBIbEQptfhcaEQpYTRdLESA=
+MIME-Version: 1.0
+x-external-tag: Yes
+X-Proofpoint-Virus-Version: vendor=fsecure engine=2.50.10434:6.0.235,18.0.687
+ definitions=2020-10-16_05:2020-10-16,2020-10-16 signatures=0
+X-Proofpoint-Spam-Details: rule=inbound_notspam policy=inbound score=0 clxscore=-65 spamscore=0
+ malwarescore=0 phishscore=0 mlxlogscore=999 adultscore=0 bulkscore=0
+ mlxscore=0 impostorscore=0 priorityscore=1501 lowpriorityscore=0
+ suspectscore=34 classifier=spam adjust=0 reason=mlx scancount=1
+ engine=8.12.0-2009150000 definitions=main-2010160060
+Return-Path: kevin@codem-composites.com
+
+--000000000000ee03b205b1c57f56
+Content-Transfer-Encoding: Quoted-printable
+Content-Type: text/plain; charset="utf-8"
+
+*** This e-mail originated from the public Internet and its authenticity ca=
+nnot be confirmed. Please exercise caution when you open attachments or cli=
+ck on links contained within the message =E2=80=93 Meggitt MIS ***
+
+______________________________________________________________________
+Hi Keith,
+
+
+I trust this Friday morning is treating you well. I came across your
+LinkedIn profile whilst looking for the right person at Meggitt for a quick
+chat, so wanted to drop you a line by way of introduction.
+
+
+I head up the team here at Codem Composites and we provide end-to-end
+solutions for all things carbon fibre. Recently we=E2=80=99ve worked on pro=
+jects
+with Mercedes F1, manufactured Raytheon's military antennas and produced
+props for the latest Star Wars movie, just to name a few.
+
+
+The reason for my email is that I think there's great synergy between Codem
+and Meggitt, so I'm hoping that you can spare me a few minutes to chat.
+
+
+I'm available for a quick call on Monday or Tuesday afternoon. If that
+doesn=E2=80=99t work, tell me what does, and I=E2=80=99ll make it happen.
+
+
+Hope you have a great weekend.
+
+
+*Kevin Doherty*
+
+[image: Description: CODEM Composites Ltd]          [image:
+cid:image009.jpg@01D362BA.5DA65FA0]         [image:
+cid:image008.jpg@01D362BA.5DA65FA0]
+
+CODEM Composites Ltd Unit E Harrier Park, Southgate Way, Orton Southgate,
+Peterborough PE2 6YQ
+
+
+
+*Tel: +44 (0) 1487 832123 Mob: +44 (0) 7785 996218Email:
+**kevin@codem-composites.com
+<kevin@codemcomposites.com>*
+*Web: **https://urldefense.proofpoint.com/v2/url?u=3Dhttp-3A__www.codem-2Dc=
+omposites.com&d=3DDwIFaQ&c=3DqLqNacw0Yb7yQVtNq3JZjw&r=3DXbiuMeVI89uE3DZxUE7=
+ir1Gi8N_l1oS5Jq53xN8QCRM&m=3DB7-_hUAdoet0BN-9jD-HsXD4BIiP7WpkwKI8sapNhmE&s=
+=3DPq-43ZIMhjgPplZZOLyoSvQ8mXPvzEhiLwYon385Kt4&e=3D=20
+<https://urldefense.proofpoint.com/v2/url?u=3Dhttp-3A__track.codem-2Dcompos=
+ites.com_api_t_c_usr-5Fa8xLmetmsZe2dZKhP_tsk-5FvC4Dxwo7ANH4XTm8s_aHR0cDovL3=
+d3dy5jb2RlbWNvbXBvc2l0ZXMuY29tLw-3D-3D&d=3DDwIFaQ&c=3DqLqNacw0Yb7yQVtNq3JZj=
+w&r=3DXbiuMeVI89uE3DZxUE7ir1Gi8N_l1oS5Jq53xN8QCRM&m=3DB7-_hUAdoet0BN-9jD-Hs=
+XD4BIiP7WpkwKI8sapNhmE&s=3DSRrvGXpod21o34k7wJXwyZp-kSCQCOpAeN5GmKvRrnE&e=3D=
+ >*
+
+As a GDPR compliant company, we would like to explain why you have received
+this email. We believe that Meggitt has a legitimate interest in the
+products and services that Codem Composites offers. Our research has
+identified your email address keith.young@meggitt.com as the appropriate
+contact within your organisation. If you have received this email in error
+or do not wish to receive further communications from Codem Composites,
+just hit unsubscribe
+<https://urldefense.proofpoint.com/v2/url?u=3Dhttp-3A__track.codem-2Dcompos=
+ites.com_api_unsubscribe_cam-5FdpCiXy7uz9SNiJCbN_a2VpdGgueW91bmdAbWVnZ2l0dC=
+5jb20-3D&d=3DDwIFaQ&c=3DqLqNacw0Yb7yQVtNq3JZjw&r=3DXbiuMeVI89uE3DZxUE7ir1Gi=
+8N_l1oS5Jq53xN8QCRM&m=3DB7-_hUAdoet0BN-9jD-HsXD4BIiP7WpkwKI8sapNhmE&s=3DvlF=
+lFlJCdMFjSWlE-aPlH628dRQTzHvW6gGzXtept6A&e=3D >
+.
+
+
+[image: picture] [image: logo]
+
+--000000000000ee03b205b1c57f56
+Content-Transfer-Encoding: Quoted-printable
+Content-Type: text/html; charset="utf-8"
+
+<html>
+*** This e-mail originated from the public Internet and its authenticity ca=
+nnot be confirmed. Please exercise caution when you open attachments or cli=
+ck on links contained within the message &ndash; Meggitt MIS ***<BR>
+<HR><div style=3D"min-width:360px"></div><div dir=3D"ltr">
+    <div><p style=3D"margin:0px;box-sizing:border-box"><span style=3D"font-=
+family:Arial,Helvetica,sans-serif;box-sizing:border-box">Hi Keith,=C2=A0</s=
+pan></p><p style=3D"margin:0px;box-sizing:border-box"><span style=3D"font-f=
+amily:Arial,Helvetica,sans-serif"><span style=3D"box-sizing:border-box"><br=
+ style=3D"box-sizing:border-box"></span></span></p><p style=3D"margin:0px;b=
+ox-sizing:border-box"><span style=3D"font-family:Arial,Helvetica,sans-serif=
+"><span style=3D"box-sizing:border-box">I trust this Friday</span></span><s=
+pan style=3D"font-family:Arial,Helvetica,sans-serif"><span style=3D"box-siz=
+ing:border-box">=C2=A0morning=20
+is treating you well. I came across your LinkedIn profile whilst looking fo=
+r the right person at Meggitt for a quick chat, so wanted to drop you a lin=
+e by way of introduction.</span></span></p><p style=3D"margin:0px;box-sizin=
+g:border-box"><span style=3D"font-family:Arial,Helvetica,sans-serif"><span =
+style=3D"box-sizing:border-box"><br style=3D"box-sizing:border-box"></span>=
+</span></p><p style=3D"margin:0px;box-sizing:border-box"><span style=3D"fon=
+t-family:Arial,Helvetica,sans-serif"><span style=3D"box-sizing:border-box">=
+ I head up the team here at  Codem Composites and we provide end-to-end sol=
+utions for all things carbon fibre. Recently we=E2=80=99ve worked on projec=
+ts with Mercedes F1, manufactured Raytheon&#39;s military antennas and prod=
+uced props for the latest Star Wars movie, just to name a few.</span></span=
+></p><p style=3D"margin:0px;box-sizing:border-box"><span style=3D"font-fami=
+ly:Arial,Helvetica,sans-serif"><br></span></p><p style=3D"margin:0px;box-si=
+zing:border-box"><span style=3D"font-family:Arial,Helvetica,sans-serif"><sp=
+an style=3D"box-sizing:border-box">The reason for my email is that I think =
+there&#39;s great synergy between Codem and Meggitt, so I&#39;m hoping that=
+ you can spare me a few minutes to chat.=C2=A0</span></span></p><p style=3D=
+"margin:0px;box-sizing:border-box"><span style=3D"font-family:Arial,Helveti=
+ca,sans-serif"><br></span></p><p style=3D"margin:0px;box-sizing:border-box"=
+><span style=3D"font-family:Arial,Helvetica,sans-serif"><span style=3D"box-=
+sizing:border-box"></span>I&#39;m available for a quick call on Monday or T=
+uesday afternoon. If that doesn=E2=80=99t work, tell me what does, and I=E2=
+=80=99ll make it happen.
+<span style=3D"box-sizing:border-box"></span></span></p><p style=3D"margin:=
+0px;box-sizing:border-box"><span style=3D"font-family:Arial,Helvetica,sans-=
+serif"><span style=3D"box-sizing:border-box"><br style=3D"box-sizing:border=
+-box"></span></span></p><p style=3D"margin:0px;box-sizing:border-box"><span=
+ style=3D"font-family:Arial,Helvetica,sans-serif">  Hope you have a great w=
+eekend. </span></p><p style=3D"margin:0px;box-sizing:border-box"><span styl=
+e=3D"font-family:Arial,Helvetica,sans-serif"><span style=3D"box-sizing:bord=
+er-box"><br style=3D"box-sizing:border-box"></span></span></p><p style=3D"m=
+argin:0px;box-sizing:border-box"><span style=3D"font-family:Arial,Helvetica=
+,sans-serif;box-sizing:border-box"><table border=3D"0" cellpadding=3D"0" ce=
+llspacing=3D"0" style=3D"width:525pt;border-collapse:collapse;border:none;e=
+mpty-cells:show;max-width:100%;box-sizing:border-box" width=3D"700"><tbody =
+style=3D"box-sizing:border-box"><tr style=3D"box-sizing:border-box"><td sty=
+le=3D"padding:0cm;height:15pt;min-width:5px;box-sizing:border-box"><table b=
+order=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"width:525pt;border=
+-collapse:collapse;border:none;empty-cells:show;max-width:100%;box-sizing:b=
+order-box" width=3D"700"><tbody style=3D"box-sizing:border-box"><tr style=
+=3D"box-sizing:border-box"><td style=3D"padding:0cm;min-width:5px;box-sizin=
+g:border-box"><p style=3D"margin:0cm;font-size:15px;font-family:Calibri,san=
+s-serif;box-sizing:border-box"><strong style=3D"font-weight:700;box-sizing:=
+border-box"><span style=3D"font-size:18px;color:black;font-family:Arial,Hel=
+vetica,sans-serif;box-sizing:border-box">Kevin Doherty</span></strong></p><=
+/td></tr><tr style=3D"box-sizing:border-box"><td style=3D"padding:0cm;heigh=
+t:15pt;min-width:5px;box-sizing:border-box"><span style=3D"font-family:Aria=
+l,Helvetica,sans-serif;box-sizing:border-box"><br style=3D"box-sizing:borde=
+r-box"></span></td></tr><tr style=3D"box-sizing:border-box"><td style=3D"pa=
+dding:0cm;min-width:5px;box-sizing:border-box"><p style=3D"margin:0cm;font-=
+size:15px;font-family:Calibri,sans-serif;box-sizing:border-box"><span style=
+=3D"font-family:Arial,Helvetica,sans-serif;box-sizing:border-box"><span sty=
+le=3D"color:rgb(31,73,125);box-sizing:border-box"><img width=3D"200" src=3D=
+"http://track.codem-composites.com/api/froala/files/tea_NfYyMpjZ5LayPy6cN-6=
+001bc8f655e1d227c7ea5f14c4fc96a" alt=3D"Description: CODEM Composites Ltd" =
+style=3D"vertical-align: middle; border-style: none; cursor: pointer; paddi=
+ng: 0px 1px; max-width: 100%; box-sizing: border-box;"></span><span style=
+=3D"color:rgb(153,51,102);box-sizing:border-box">=C2=A0 =C2=A0 =C2=A0 =C2=
+=A0 =C2=A0=C2=A0</span><span style=3D"color:rgb(31,73,125);box-sizing:borde=
+r-box"><img width=3D"101" src=3D"http://track.codem-composites.com/api/froa=
+la/files/tea_NfYyMpjZ5LayPy6cN-ba66bf715631fc5ad46e49d0879aa5bc" alt=3D"cid=
+:image009.jpg@01D362BA.5DA65FA0" style=3D"vertical-align: middle; border-st=
+yle: none; cursor: pointer; padding: 0px 1px; max-width: 100%; box-sizing: =
+border-box;">=C2=A0 =C2=A0 =C2=A0 =C2=A0 </span><span style=3D"color:rgb(15=
+3,51,102);box-sizing:border-box">=C2=A0</span><span style=3D"color:rgb(31,7=
+3,125);box-sizing:border-box"><img width=3D"120" src=3D"http://track.codem-=
+composites.com/api/froala/files/tea_NfYyMpjZ5LayPy6cN-95ab1f987261409b5d768=
+873a676560b" alt=3D"cid:image008.jpg@01D362BA.5DA65FA0" style=3D"vertical-a=
+lign: middle; border-style: none; cursor: pointer; padding: 0px 1px; max-wi=
+dth: 100%; box-sizing: border-box;"></span></span></p></td></tr><tr style=
+=3D"box-sizing:border-box"><td style=3D"padding:0cm;height:15pt;min-width:5=
+px;box-sizing:border-box"><span style=3D"font-family:Arial,Helvetica,sans-s=
+erif;box-sizing:border-box"><br style=3D"box-sizing:border-box"></span></td=
+></tr><tr style=3D"box-sizing:border-box"><td style=3D"padding:0cm;min-widt=
+h:5px;box-sizing:border-box"><p style=3D"margin:0cm;font-size:15px;font-fam=
+ily:Calibri,sans-serif;box-sizing:border-box"><span style=3D"font-family:Ar=
+ial,Helvetica,sans-serif;box-sizing:border-box"><span style=3D"font-size:10=
+px;color:rgb(31,73,125);box-sizing:border-box">CODEM Composites Ltd Unit E =
+Harrier Park, Southgate Way, Orton Southgate, Peterborough PE2 6YQ</span></=
+span></p></td></tr><tr style=3D"box-sizing:border-box"><td style=3D"padding=
+:0cm;height:22.5pt;min-width:5px;box-sizing:border-box"><span style=3D"font=
+-family:Arial,Helvetica,sans-serif;box-sizing:border-box"><br style=3D"box-=
+sizing:border-box"></span></td></tr><tr style=3D"box-sizing:border-box"><td=
+ style=3D"padding:0cm;min-width:5px;box-sizing:border-box"><p style=3D"marg=
+in:0cm;font-size:15px;font-family:Calibri,sans-serif;box-sizing:border-box"=
+><span style=3D"font-family:Arial,Helvetica,sans-serif;box-sizing:border-bo=
+x"><strong style=3D"font-weight:700;box-sizing:border-box"><span style=3D"f=
+ont-size:10px;color:rgb(31,73,125);box-sizing:border-box">Tel: +44 (0) 1487=
+ 832123<br style=3D"box-sizing:border-box"> Mob: +44 (0) 7785 996218<br sty=
+le=3D"box-sizing:border-box">Email:=C2=A0</span></strong><strong style=3D"f=
+ont-weight:700;box-sizing:border-box"><span style=3D"font-size:10px;color:r=
+gb(31,73,125);box-sizing:border-box"><a href=3D"mailto:kevin@codemcomposite=
+s.com" style=3D"color:rgb(0,184,255);text-decoration:none;background-color:=
+transparent;box-sizing:border-box"><span style=3D"color:blue;box-sizing:bor=
+der-box">kevin@codem-composites.com</span></a></span></strong><strong style=
+=3D"font-weight:700;box-sizing:border-box"><span style=3D"font-size:10px;co=
+lor:rgb(31,73,125);box-sizing:border-box"><br style=3D"box-sizing:border-bo=
+x">Web:=C2=A0</span></strong><strong style=3D"font-weight:700;box-sizing:bo=
+rder-box"><span style=3D"font-size:10px;color:rgb(31,73,125);box-sizing:bor=
+der-box"><a href=3D"https://urldefense.proofpoint.com/v2/url?u=3Dhttp-3A__t=
+rack.codem-2Dcomposites.com_api_t_c_usr-5Fa8xLmetmsZe2dZKhP_tsk-5FvC4Dxwo7A=
+NH4XTm8s_aHR0cDovL3d3dy5jb2RlbWNvbXBvc2l0ZXMuY29tLw-3D-3D&amp;d=3DDwMFaQ&am=
+p;c=3DqLqNacw0Yb7yQVtNq3JZjw&amp;r=3DXbiuMeVI89uE3DZxUE7ir1Gi8N_l1oS5Jq53xN=
+8QCRM&amp;m=3DB7-_hUAdoet0BN-9jD-HsXD4BIiP7WpkwKI8sapNhmE&amp;s=3DSRrvGXpod=
+21o34k7wJXwyZp-kSCQCOpAeN5GmKvRrnE&amp;e=3D" style=3D"color:rgb(0,184,255);=
+text-decoration:none;background-color:transparent;box-sizing:border-box"><s=
+pan style=3D"color:blue;box-sizing:border-box">www.codem-composites.com</sp=
+an></a></span></strong></span></p></td></tr></tbody></table></td></tr><tr s=
+tyle=3D"box-sizing:border-box"><td style=3D"padding:0cm;min-width:5px;box-s=
+izing:border-box"><span style=3D"font-family:Arial,Helvetica,sans-serif;box=
+-sizing:border-box"><br style=3D"box-sizing:border-box"></span></td></tr></=
+tbody></table><p style=3D"margin-top:0px;margin-bottom:1rem;box-sizing:bord=
+er-box"><span style=3D"font-size:10px;font-family:Arial,Helvetica,sans-seri=
+f;box-sizing:border-box">As a GDPR compliant company, we would like to expl=
+ain why you have received this email. We believe that Meggitt has a legitim=
+ate interest in the products and services that Codem Composites offers. Our=
+ research has identified your email address <a href=3D"mailto:keith.young@m=
+eggitt.com">keith.young@meggitt.com</a> as the appropriate contact within y=
+our organisation. If you have received this email in error or do not wish t=
+o receive further communications from Codem Composites, just hit <a href=3D=
+"https://urldefense.proofpoint.com/v2/url?u=3Dhttp-3A__track.codem-2Dcompos=
+ites.com_api_unsubscribe_cam-5FdpCiXy7uz9SNiJCbN_a2VpdGgueW91bmdAbWVnZ2l0dC=
+5jb20-3D&amp;d=3DDwMFaQ&amp;c=3DqLqNacw0Yb7yQVtNq3JZjw&amp;r=3DXbiuMeVI89uE=
+3DZxUE7ir1Gi8N_l1oS5Jq53xN8QCRM&amp;m=3DB7-_hUAdoet0BN-9jD-HsXD4BIiP7WpkwKI=
+8sapNhmE&amp;s=3DvlFlFlJCdMFjSWlE-aPlH628dRQTzHvW6gGzXtept6A&amp;e=3D" styl=
+e=3D"color:rgb(0,184,255);text-decoration:none;background-color:transparent=
+;box-sizing:border-box">unsubscribe</a>.</span></p></span></p></div>
+    <br><div class=3D"gmail_extra"><br>
+      <div class=3D"gmail_signature" data-smartmail=3D"gmail_signature"><di=
+v dir=3D"ltr"><div><div dir=3D"ltr"></div></div></div></div>
+=20=20=20=20=20=20
+    </div>
+    </div>
+<img alt=3D"picture" src=3D"http://track.codem-composites.com/api/reply/dat=
+a-ll-tsk_vC4Dxwo7ANH4XTm8s" style=3D"opacity:0;display:none;width:0;height:=
+0;">
+<img alt=3D"logo" src=3D"http://track.codem-composites.com/api/track/open/u=
+sr_a8xLmetmsZe2dZKhP/tsk_vC4Dxwo7ANH4XTm8s" height=3D"1" width=3D"1"></html>
+
+--000000000000ee03b205b1c57f56--
+
+--78afcec8-8526-4e03-9806-8efc82c050b8--

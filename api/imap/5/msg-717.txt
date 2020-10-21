@@ -1,6 +1,79 @@
-Date: 22 Sep 2020 16:01:58 +0800
-To: kevin@codem-composites.com
-From: "Mail Delivery System" <MAILER-DAEMON@ironport.sdaletech.com>
-Subject: Delivery Status Notification (Failure)
+--20b3a.5h+9XdSzi.VcXQLIREZe.1bYfoYn
+content-type: text/plain;
+    charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
 
-ation email address 'reject' (delivery attempts: 0)
+The following message to <cdakers@first-engr.com> was undeliverable.
+The reason for the problem:
+5.1.1 - Bad destination email address 'reject'
+
+--20b3a.5h+9XdSzi.VcXQLIREZe.1bYfoYn
+content-type: message/delivery-status
+
+Reporting-MTA: dns; ironport.sdaletech.com
+
+Final-Recipient: rfc822;cdakers@first-engr.com
+Action: failed
+Status: 5.0.0 (permanent failure)
+Diagnostic-Code: smtp; 5.1.1 - Bad destination email address 'reject' (delivery attempts: 0)
+
+--20b3a.5h+9XdSzi.VcXQLIREZe.1bYfoYn
+content-type: message/rfc822
+
+Authentication-Results: ironport.sdaletech.com; spf=Pass smtp.mailfrom=kevin@codem-composites.com; spf=None smtp.helo=postmaster@mail-il1-f171.google.com
+Received-SPF: Pass (ironport.sdaletech.com: domain of
+  kevin@codem-composites.com designates 209.85.166.171 as
+  permitted sender) identity=mailfrom;
+  client-ip=209.85.166.171; receiver=ironport.sdaletech.com;
+  envelope-from="kevin@codem-composites.com";
+  x-sender="kevin@codem-composites.com";
+  x-conformance=spf_only; x-record-type="v=spf1"
+Received-SPF: None (ironport.sdaletech.com: no sender
+  authenticity information available from domain of
+  postmaster@mail-il1-f171.google.com) identity=helo;
+  client-ip=209.85.166.171; receiver=ironport.sdaletech.com;
+  envelope-from="kevin@codem-composites.com";
+  x-sender="postmaster@mail-il1-f171.google.com";
+  x-conformance=spf_only
+Received: from mail-il1-f171.google.com ([209.85.166.171])
+  by ironport.sdaletech.com with ESMTP/TLS/AES256-GCM-SHA384; 22 Sep 2020 16:01:57 +0800
+Received: by mail-il1-f171.google.com with SMTP id x18so13966046ila.7
+        for <cdakers@first-engr.com>; Tue, 22 Sep 2020 01:01:56 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=codem-composites.com; s=google;
+        h=from:mime-version:date:message-id:subject:to;
+        bh=ub2mPUN5dxrNV6xPWSXdCm8Aj8qqKvovz50QS1xMS5w=;
+        b=BkrpkMrW4d6CJh9mKUQtDJgMDh3IY7Io+c9PiSRtrVY4E0z2JA/uScEjIXoanu1KH3
+         /fvoXrn3uRUeanLRSXcNGQJJbsi+sZRG6UT0yYuwwvOzqGoKdEMy8/W5JOpC7sNOGYtW
+         ber0mxmhvp7x321LFIc2mWgieOVyPG3y7+fklvbG8SFmuiHnjRl0s30gcHt3EuDqP7Ja
+         qyifNTKM/Z6X0+qHOkeANJqMCO5iuDxuNnoxkCkt4zDr+o0pSXUOFOxFK6dHXBSkmAxn
+         snJnN8W1fJ98ibUGJ0V8pgzv6dmgiHGeaHW/eCbxavNBD1z8HS9t39Qb11w8sOh7a3qk
+         ywbg==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20161025;
+        h=x-gm-message-state:from:mime-version:date:message-id:subject:to;
+        bh=ub2mPUN5dxrNV6xPWSXdCm8Aj8qqKvovz50QS1xMS5w=;
+        b=oTkf8xN+BvbO3/4Gs2SvKcM/RKo+FrVUlMCxqMPrEQ1az0PGQsdOHYptqQF79g+Idg
+         D75pR21l2qCjZDQMwbAQO4fktAqR+DIdnx5VFuOXVpBoWy0Aiqtt+KPwkmVpoO352w0W
+         ZtS6Jx/VSkowB01yYTUcrAE+nd+NuQHw+fq1zVCD6gAsOzpyzXBnUzLDd8v7P0SrkMvC
+         HyVij3QKfX3VJRyJnvrkbZULtRDE1xhFaKysitI2HNLs8910lkel19l/KFhFK3o69NZV
+         GyZe3Fakz5GittAxu3em3pABRjT+SRd2nGicM0XPG0/a7svXbmmRUAXJcJ5Kd7phII8A
+         O2sw==
+X-Gm-Message-State: AOAM5329Oj9omdAJTHXi5D7YX7rMhTOveRS/huN5bIb6NQfn8GOUUhGG
+	XUecUsDyR5woo/o42VgGWdkKSEmOMg2obdoruyQ9Zymv9c4=
+X-Google-Smtp-Source: ABdhPJzZvnN41RGhEpwcw4jLqnwHGfHl8wcq28B7iL2S25EJlv3cXeX163C+EuNkAFDPk/pVvRIiWXV4f0O7779loBk=
+X-Received: by 2002:a05:6e02:13ae:: with SMTP id h14mr3390563ilo.208.1600761709491;
+ Tue, 22 Sep 2020 01:01:49 -0700 (PDT)
+Received: from 696963989851 named unknown by gmailapi.google.com with
+ HTTPREST; Tue, 22 Sep 2020 04:01:49 -0400
+From: Kevin Doherty <kevin@codem-composites.com>
+MIME-Version: 1.0
+Date: Tue, 22 Sep 2020 04:01:49 -0400
+Message-ID: <CAK4cLxg4v9pJosX9aTvGtqT7A5eP73LjAi_XdNBNpOy8xWGhbw@mail.gmail.com>
+Subject: Quick Question, Colin
+To: cdakers@first-engr.com
+Content-Type: multipart/alternative; boundary="00000000000010852605afe2617c"
+
+--20b3a.5h+9XdSzi.VcXQLIREZe.1bYfoYn--
+
+

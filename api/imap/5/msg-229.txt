@@ -1,10 +1,110 @@
-Subject: Undeliverable mail: Quick Question, David
-From: <MAILER-DAEMON@server205.appriver.com>
-To: <kevin@codem-composites.com>
-Date: Mon, 07 Sep 2020 08:48:54 -0400
 
-on: failed
+--_===1292988092====server205.appriver.com===_
+Content-Type: text/plain; charset="utf-8"
+
+Failed to deliver to 'd.prditchar@4lcommunications.com'
+SMTP module(domain 4lcommunications-com.mail.protection.outlook.com:25) reports:
+ host 4lcommunications-com.mail.protection.outlook.com:25 says:
+ 550 5.4.1 Recipient address rejected: Access denied. AS(201806281) [QB1CAN01FT008.eop-CAN01.prod.protection.outlook.com]
+
+
+--_===1292988092====server205.appriver.com===_
+Content-Type: message/delivery-status
+
+Reporting-MTA: dns; server205.appriver.com
+
+Original-Recipient: rfc822;<d.prditchar@4lcommunications.com>
+Final-Recipient: rfc822;<d.prditchar@4lcommunications.com>
+Action: failed
 Status: 5.0.0
 Remote-MTA: dns; 4lcommunications-com.mail.protection.outlook.com:25
 Diagnostic-Code: smtp;host 4lcommunications-com.mail.protection.outlook.com:25 says:
  550 5.4.1 Recipient address rejected: Access denied. AS(201806281) [QB1CAN01FT008.eop-CAN01.prod.protection.outlook.com]
+
+--_===1292988092====server205.appriver.com===_
+Content-Type: text/rfc822-headers
+
+Received: from [10.60.0.117] (HELO inbound.appriver.com)
+  by server205.appriver.com (CommuniGate Pro SMTP 6.1.7)
+  with ESMTP id 1292988088 for d.prditchar@4lcommunications.com; Mon, 07 Sep 2020 08:48:53 -0400
+X-Note: This Email was scanned by AppRiver SecureTide
+X-Note-AR-ScanTimeLocal: 09/07/2020 8:48:53 AM
+X-Note: SecureTide Build: 8/26/2020 12:34:02 PM UTC (2.15.0.0)
+X-Note: Filtered by 10.60.2.243
+X-Note-AR-Scan: None - PIPE
+X-Note: CGHH cor:0907124853841-127969672-648182
+Received: by inbound.appriver.com (CommuniGate Pro PIPE 6.2.15)
+  with PIPE id 127969672; Mon, 07 Sep 2020 08:48:53 -0400
+Received: from [209.85.166.178] (HELO mail-il1-f178.google.com)
+  by inbound.appriver.com (CommuniGate Pro SMTP 6.2.15)
+  with ESMTPS id 127969669 for d.prditchar@4lcommunications.com; Mon, 07 Sep 2020 08:48:52 -0400
+Received: by mail-il1-f178.google.com with SMTP id q6so12363865ild.12
+        for <d.prditchar@4lcommunications.com>; Mon, 07 Sep 2020 05:49:06 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=codem-composites.com; s=google;
+        h=from:mime-version:date:message-id:subject:to;
+        bh=5gholazRHeS8/rHEhPtIyT3RmCpo30tcoCGDQAkG3PI=;
+        b=EA5CCPq34k+GbjOYU189m5zkOLVtiHVrEQie91roc6mkg/6r9btT9PDvci/YXSKZes
+         sJ8E62pUNBwD+zJmpX+Ra50aznPbzTeaepF22n0RSt1Rbs6DXymTllBMtTTx1bxmKsQ6
+         mm8rhUqeQEXe1i8OtecbkH851XKEdv0TOLHpPtaBBliVqAVg7MPxNvM1U8tVJ6iw9Xgc
+         Fp4k0baUhKcKl4npi1gv4otaacuxSheqp4f6pZLCQPKvGTUkltsJFMALu6x6lHgLdIni
+         PNr1KruUyD96RMFA1GHGhzqI84ede/cRosIxSyrQioC8HQcml49Mdgnk147y3Cm55FWr
+         kq4g==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20161025;
+        h=x-gm-message-state:from:mime-version:date:message-id:subject:to;
+        bh=5gholazRHeS8/rHEhPtIyT3RmCpo30tcoCGDQAkG3PI=;
+        b=Uyq/oCCCaSPFVgBOOKiP6ploe6p5kDhUuTELIIyxmqKMpmLBIf8JAP0IDiUO09gg3S
+         Baq7fVOT7S7DK2pfRsgDEnd/iUdu3qnN/DFcsE+X9BmDaYnw7ljd8aFvdCmJr9wKK/cb
+         RzWxB7wcah8EGTYLF7ugo06+H/4xbPA5JkHwLJlnglRZUNv7ieax1cx0U9xoQ96MG1bY
+         CNbeJG+PJuUzKBAQoZbklpDlMWI1XR+6RyiNFh6m0RuqX2gv53GLyrW6dVPRIRAjZXqX
+         iWkF5r8l37TuQaEeni4Z15r/ozCAnQ4/2qrbTxL4DRJ3B9FnGqvyPASG1LpyLvfNewZ/
+         JPLg==
+X-Gm-Message-State: AOAM5313Y8jmJ5iZCS+LFYNwzXTG/ntRpZz3cC29kcRDRbJyN/YuEWXe
+	uZDXWwWOO4y3LCqmmCHoVA6wlvROVbALEZvlIgP7ZCILN9A=
+X-Google-Smtp-Source: ABdhPJxXaq4mO2QHDSbWJGMvoUe04F31jT/O7eenBAEr6gQZMcFU6IgOXxVq7ZUI361FqVh/Y6guXxfB4mk/BqcaVoA=
+X-Received: by 2002:a92:b74c:: with SMTP id c12mr19345723ilm.237.1599482945518;
+ Mon, 07 Sep 2020 05:49:05 -0700 (PDT)
+Received: from 696963989851 named unknown by gmailapi.google.com with
+ HTTPREST; Mon, 7 Sep 2020 05:49:05 -0700
+From: Kevin Doherty <kevin@codem-composites.com>
+MIME-Version: 1.0
+Date: Mon, 7 Sep 2020 05:49:05 -0700
+Message-ID: <CAK4cLxjUBgdikWg9StZvHBz1b68E4k24Zj8tDaMkmTQjmLdSug@mail.gmail.com>
+Subject: Quick Question, David
+To: d.prditchar@4lcommunications.com
+Content-Type: multipart/alternative; boundary="000000000000cad5c305aeb8a421"
+X-Note: This Email was scanned by AppRiver SecureTide
+X-Note-AR-ScanTimeLocal: 09/07/2020 8:48:52 AM
+X-Note: SecureTide Build: 8/26/2020 12:34:02 PM UTC (2.15.0.0)
+X-Note: Filtered by 10.60.2.243
+X-Policy: 4lcommunications.com
+X-Primary: 4lcommunications.com@4lcommunications.com
+X-Note-Sender: <kevin@codem-composites.com>
+X-Virus-Scan: V-
+X-Note: SPF: IP: 209.85.166.178  DOM: codem-composites.com ADDR: kevin@codem-composites.com
+X-Note: SPF: Pass
+X-Note: DKIM: Pass: codem-composites.com
+X-Note: DMARC: codem-composites.com p=none sp=none
+X-Note: DMARC: Pass
+X-Note-SnifferID: 100
+X-GBUdb-Analysis: 0, 209.85.166.178, Ugly c=0.385168 p=-0.285714 Source Normal
+X-Signature-Violations:
+	100-1371101-4501-4512-m
+	100-1369684-4500-4512-m
+	100-1371101-0-18007-f
+X-Note-419: 14.9829 ms. Fail:1 Chk:1372 of 1372 total
+X-Note: VSCH-CT/SI: 1-1372/SG:1 9/7/2020 8:48:19 AM
+X-Warn: OPTOUT
+X-Warn: BULKMAILER
+X-Note: Spam Tests Failed: OPTOUT, BULKMAILER
+X-Country-Path: United States of America->
+X-Note-Sending-IP: 209.85.166.178
+X-Note-Reverse-DNS: mail-il1-f178.google.com
+X-Note-Return-Path: kevin@codem-composites.com
+X-Note: User Rule Hits: 
+X-Note: Global Rule Hits: G741 G742 G743 G744 G760 G766 G871 G873 G900 G901 G907 G1199 G1375 
+X-Note: Encrypt Rule Hits: 
+X-Note: Mail Class: VALID
+
+--_===1292988092====server205.appriver.com===_--

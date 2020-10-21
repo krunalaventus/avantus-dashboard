@@ -1,4 +1,61 @@
+This is a multipart message in MIME format.
+
+------=_NextPart_000_058B_01D6876D.27979980
+Content-Type: multipart/alternative;
+	boundary="----=_NextPart_001_058C_01D6876D.27979980"
+
+
+------=_NextPart_001_058C_01D6876D.27979980
+Content-Type: text/plain;
+	charset="utf-8"
+Content-Transfer-Encoding: 7bit
+
+Your message
+
+    To:  Kevin Doherty
+    Subject:  RE: Quick Question, Ian
+    Sent:  09/09/2020 14:06
+
+was read on 10/09/2020 12:22.
+
+------=_NextPart_001_058C_01D6876D.27979980
+Content-Type: text/html;
+	charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN">
+<HTML>
+<HEAD>
+<META HTTP-EQUIV=3D"Content-Type" CONTENT=3D"text/html; =
+charset=3Dutf-8">
+<META NAME=3D"Generator" CONTENT=3D"MS Exchange Server version =
+16.0.13029.20342">
+<TITLE>Read: Quick Question, Ian</TITLE>
+</HEAD>
+<BODY>
+<!-- Converted from text/plain format -->
+
+<P><FONT SIZE=3D2>Your message<BR>
+<BR>
+&nbsp;&nbsp;&nbsp; To:&nbsp; Kevin Doherty<BR>
+&nbsp;&nbsp;&nbsp; Subject:&nbsp; RE: Quick Question, Ian<BR>
+&nbsp;&nbsp;&nbsp; Sent:&nbsp; 09/09/2020 14:06<BR>
+<BR>
+was read on 10/09/2020 12:22.</FONT>
+</P>
+
+</BODY>
+</HTML>
+------=_NextPart_001_058C_01D6876D.27979980--
+
+------=_NextPart_000_058B_01D6876D.27979980
+Content-Type: message/disposition-notification
+Content-Transfer-Encoding: 7bit
+
 Reporting-UA: codem-composites.com; Microsoft Outlook 16.0
 Final-Recipient: rfc822;kevin@codem-composites.com
 Original-Message-ID: <VI1PR02MB4285E9A756304A2A97692A6DB9260@VI1PR02MB4285.eurprd02.prod.outlook.com>
 Disposition: manual-action/MDN-sent-manually; displayed
+
+------=_NextPart_000_058B_01D6876D.27979980--
+

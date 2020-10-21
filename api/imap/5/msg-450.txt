@@ -1,6 +1,152 @@
+Date: 13 Sep 2020 08:05:55 +0000
+To: kevin@codem-composites.com
+From: "Mail Delivery System" <smtp.gateway@baesystems.com>
+Subject: Delivery Status Notification (Failure)
+
+t@bluelnk.net> was undeliverable.
+The reason for the problem:
+5.4.7 - Delivery expired (message too old) 'timeout'
+
+--53HjO.5horZB5In.4fjab4HVjU2.Fhhp5M/
+content-type: message/delivery-status
+
 Reporting-MTA: dns; txanms90001.us.baesystems.com
 
 Final-Recipient: rfc822;michael.stewart@bluelnk.net
 Action: failed
 Status: 5.0.0 (permanent failure)
 Diagnostic-Code: smtp; 5.4.7 - Delivery expired (message too old) 'timeout' (delivery attempts: 0)
+
+--53HjO.5horZB5In.4fjab4HVjU2.Fhhp5M/
+content-type: message/rfc822
+
+Received: from dmzms99901.na.baesystems.com ([149.32.200.65])
+  by txanms90001.na.baesystems.com with ESMTP; 10 Sep 2020 07:53:51 +0000
+X-SENDER-IP: 149.32.200.65
+X-SENDER-REPUTATION: 3.5
+X-IronPort-AV: E=Sophos;i="5.76,412,1592870400"; 
+   d="scan'208,217";a="84745048"
+X-IPAS-Result: =?us-ascii?q?A0G88AC+2llfh0HIIJVfHAEBATwBAQQEAQECAQEHAQGBZoE?=
+ =?us-ascii?q?hGwIBAQE4KBgBXlUkBwgsCoJggU6BHIItiFmHUQKCbY5bhiIOgWAJCwEBAQEBA?=
+ =?us-ascii?q?QEBAQgTBQEOCAQBAQ92g0aCGwIkOBMCEAIBBAMCAQYDAQICEAEBAQoLCQgphWM?=
+ =?us-ascii?q?MhFaBM1sRHQEBBwUsGA03AiQPAwEFATEEARoCBAGDBAGCAXsPAysClySPEoEEP?=
+ =?us-ascii?q?YoydoEygwEBAQV7OAEUQIQCgTkJEoEPFQIBAQEBAYIlhCKGXhuCAIERNoFchBg?=
+ =?us-ascii?q?BA4EoARIBLYMLF4JJj2E3CA2KAoFrmlqCb4EPh1qDP4sjgmghgRGDH4xbj02dI?=
+ =?us-ascii?q?YcQiSmEaQ8jgR4qVzRwMxoIGxVsBoIyCUcZDY4rDgmBAgEIBwiCNIp2JDARJgI?=
+ =?us-ascii?q?GAQkBAQMJjjQBgRABAQ?=
+Received-SPF: Pass (dmzms99901.na.baesystems.com: domain of
+  kevin@codem-composites.com designates 209.85.166.51 as
+  permitted sender) identity=mailfrom; client-ip=209.85.166.51;
+  receiver=dmzms99901.na.baesystems.com;
+  envelope-from="kevin@codem-composites.com";
+  x-sender="kevin@codem-composites.com";
+  x-conformance=spf_only; x-record-type="v=spf1"
+Received-SPF: None (dmzms99901.na.baesystems.com: no sender
+  authenticity information available from domain of
+  postmaster@mail-io1-f51.google.com) identity=helo;
+  client-ip=209.85.166.51;
+  receiver=dmzms99901.na.baesystems.com;
+  envelope-from="kevin@codem-composites.com";
+  x-sender="postmaster@mail-io1-f51.google.com";
+  x-conformance=spf_only
+Authentication-Results: dmzms99901.na.baesystems.com; spf=Pass smtp.mailfrom=kevin@codem-composites.com; spf=None smtp.helo=postmaster@mail-io1-f51.google.com; dkim=pass (signature verified) header.i=@codem-composites.com
+X-SENDER-IP: 209.85.166.51
+X-SENDER-REPUTATION: 3.4
+BAESender: External
+IronPort-PHdr: =?us-ascii?q?9a23=3ADZ1usBRl5C61j90XLm5CuFE3dtpsv+yvbD5Q0YIu?=
+ =?us-ascii?q?jvd0So/mwa67ZxeDt8tkgFKBZ4jH8fUM07OQ7/m+HzVdv93Q6jgrS99lb1c9k8?=
+ =?us-ascii?q?IYnggtUoauKHbQC7rUVRE8B9lIT1R//nu2YgB/Ecf6YEDO8DXptWZBUhrwOhBo?=
+ =?us-ascii?q?KevrB4Xck9q41/yo+53Ufg5EmCexbal9IRmrrAjdrNQajItjJ6o+zhbFvGZDdv?=
+ =?us-ascii?q?hLy29vOV+dhQv36N2q/J5k/SRQuvYh+NBFXK7nYak2TqFWASo/PWwt68LlqRfM?=
+ =?us-ascii?q?TQ2U5nsBSWoWiQZHAxLE7B7hQJj8tDbxu/dn1ymbOc32Sq00WSin4qx2RhLklD?=
+ =?us-ascii?q?sLOjgk+23RjcJ9kKFVrhSiqRJnwoDffYWZOOd8c6/Ye94RWGhPUdtLVyFZAo2z?=
+ =?us-ascii?q?YIUBAekcM+hGs4bwvEEBoQekCAS2GO/j1j1Fi3nr1qM6yeQhFgTG0RQlEd0Qrn?=
+ =?us-ascii?q?TUrdP1P7ocX+CyzKnH0y/Db+9W2Dzg74XIcQ4uoe+NXbJ2asfe1U4vGB7bgVWV?=
+ =?us-ascii?q?sIDqIzSV1uEVs2ic9OpgVP6vhHA8qw1rvjevwcIsh5DPi4kIxV/K6T93z5wpJd?=
+ =?us-ascii?q?2kVkF7e9ikHYNQuS2EKod7X8IvTmVstSsmyrMItpy2cDQFxpk72xLSb+CKfouH?=
+ =?us-ascii?q?7x7/W+ucISl0inxrdr+ihhu+71Ssx+PgWsWq1ltBsyRLkt7Jtn8X1hzT7NCKRe?=
+ =?us-ascii?q?d6/ki8xzmP0hnf5f1DIUAxjarbLIUhwr8slpUNqkTPBDP5mELzjKOOakok/fWn?=
+ =?us-ascii?q?5PriYrr6oZ+cMpd0igblMqQvhsywH/84PhISUGic/OSx0qDo807hQLhSkPE6jq?=
+ =?us-ascii?q?3UvIrZKMkbvKK1Hg5Y34c55xu/Ejur1skTk2MdI1JfYh2HipDkO1HQL/D8Cvey?=
+ =?us-ascii?q?m1Gsny1qx/DCJ7HhA5LNImXanLfvfbtx9lRQyAU0zdBY6JJUDq8OLOjvVU/2sd?=
+ =?us-ascii?q?zUFh45MwqqzOb7ENhxyJ8SVGaVDqKaMK7eq0KE6+MuLuWWZIIZpS7xK/0/6P7v?=
+ =?us-ascii?q?iX85l0Udfa6s3ZYPa3C3AOpmI0SfYXf3ntgBFnoFsRQ7TODzlFKCVjtTZ261X6?=
+ =?us-ascii?q?In5zE7FJypDZzZSo+xh7yB2T+3HodKaWBeFlCMDXDoep2BW/cNdC2SItVunSIA?=
+ =?us-ascii?q?VbS7UI8hyQ+htQHgxLp9MurZ4TYXtZb+1Ndr4+3TkxIy+SZyD8uDz2HeB1xyhX?=
+ =?us-ascii?q?4CEj8qwLgt5gth0F6I0u5zhPBVEJlY4PZRVRw7KZPHied9Dpf7QgOGY9GSVVy9?=
+ =?us-ascii?q?Sc+nCzx2Rds09NMWSEdNCoq/nEH4+SuIKLUz0La0AJ493YzY1VOsNcpS9S335I?=
+ =?us-ascii?q?t5tnYEQvl/EzCt3ZR7/Tj2Gr+TwlnKqqCxaK48wCvJoWef0XLc+wZESgd7UuPO?=
+ =?us-ascii?q?WnwSYw7dqtHh4VjDU7K1T78gN0xI0c/FN61Rd9fyhk9HTvqkM93bVG6psGaAFE?=
+ =?us-ascii?q?mV1OK3SovIUG87my/iDEoNvC4X913bJwQROHyQk0CGNRNMFWDfRR7nqtN6okOe?=
+ =?us-ascii?q?U35unh3ZUkt6yrCJ9w4J0PyAV+tBmfUYoi4qqHN/G1qw2pfdDN+YoBFgYKhHJ9?=
+ =?us-ascii?q?g65RBOzWOeqgpmI5a7JLpjjFNZeA1yiE/2/BRHG9pdg5kRinII5wBUbqin1FFI?=
+ =?us-ascii?q?WB2c17utKLH4FDLDzDL3UoH02mPu9oudoZ0L4sQdtmS57R36Kk139nRs09BY1z?=
+ =?us-ascii?q?2H+pjVBRAOeZj4X10m7AR3oqqcaS44tK3O0ng5EqSqszmK99UpCfE52170fNpB?=
+ =?us-ascii?q?MaWsHwj+HshfDM+rMOsxmkSkdVQPO+UEp/18BN+va/bTgff4dN1rmyir2D0Yud?=
+ =?us-ascii?q?0v4ge37yN5D9Xw8dMFzvWfhFbVUj79iBKgtZmyl90dIz4VGWW7xG7vA4sDPvQj?=
+ =?us-ascii?q?L7ZOMn+nJoiM/vs7gpfsX3BC81v5XQEN38OkfF+ZaFnl2hZRyUkM53egnHnhwg?=
+ =?us-ascii?q?=3D=3D?=
+X-IronPort-Anti-Spam-Filtered: true
+X-IronPort-Anti-Spam-Result: =?us-ascii?q?A0DIKwDu2llfhjOmVdFfHAEBATwBAQQEA?=
+ =?us-ascii?q?QECAQEHAQGBZoEhGwIBOkABXoEILIJqgU6BHIsGikCOW4YiDoFgCQsBAwEBAQE?=
+ =?us-ascii?q?JEwUBDggEAQEPhDyCGgIcBwE4EwIQAQEBBAEBAQIBAwMDAQETAQEBCAsLCCmFY?=
+ =?us-ascii?q?wyCMAgEAgMCJIMkER0BAQcFLBgNNwIkDwMBBQExBAEaAgQBgwQBggF7DwMrApc?=
+ =?us-ascii?q?mjxKBBD2KMQF2gTKDAQEBBYEzARRAhAKBOQkSgQ8VAgEBAYInhCKGXhuCAIERN?=
+ =?us-ascii?q?oFchBgBA4EoARIBLYMLF4JJj2E3CA2KAoFrmlqCb4EPh1qDP4sjgmghgRGDH4x?=
+ =?us-ascii?q?bj02dIYcQjhIPI4EeKlY0cDMaCBsVbAaCMglHGQ2OKw4JgQIBCAcIgjSKdiQwE?=
+ =?us-ascii?q?SYCBgEJAQEDCY0xJ4FtAQE?=
+X-IPAS-Result: =?us-ascii?q?A0DIKwDu2llfhjOmVdFfHAEBATwBAQQEAQECAQEHAQGBZoE?=
+ =?us-ascii?q?hGwIBOkABXoEILIJqgU6BHIsGikCOW4YiDoFgCQsBAwEBAQEJEwUBDggEAQEPh?=
+ =?us-ascii?q?DyCGgIcBwE4EwIQAQEBBAEBAQIBAwMDAQETAQEBCAsLCCmFYwyCMAgEAgMCJIM?=
+ =?us-ascii?q?kER0BAQcFLBgNNwIkDwMBBQExBAEaAgQBgwQBggF7DwMrApcmjxKBBD2KMQF2g?=
+ =?us-ascii?q?TKDAQEBBYEzARRAhAKBOQkSgQ8VAgEBAYInhCKGXhuCAIERNoFchBgBA4EoARI?=
+ =?us-ascii?q?BLYMLF4JJj2E3CA2KAoFrmlqCb4EPh1qDP4sjgmghgRGDH4xbj02dIYcQjhIPI?=
+ =?us-ascii?q?4EeKlY0cDMaCBsVbAaCMglHGQ2OKw4JgQIBCAcIgjSKdiQwESYCBgEJAQEDCY0?=
+ =?us-ascii?q?xJ4FtAQE?=
+X-IronPort-AV: E=Sophos;i="5.76,412,1592870400"; 
+   d="scan'208,217";a="1791351536"
+X-Amp-Result: SKIPPED(no attachment in message)
+X-Amp-File-Uploaded: False
+X-IRONPORT-BULK: SUSPECTED BULK
+Received: from mail-io1-f51.google.com ([209.85.166.51])
+  by dmzms99901.na.baesystems.com with ESMTP/TLS/AES256-GCM-SHA384; 10 Sep 2020 07:55:28 +0000
+Received: by mail-io1-f51.google.com with SMTP id b6so6060995iof.6
+        for <michael.stewart@baesystems.com>; Thu, 10 Sep 2020 00:55:28 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=codem-composites.com; s=google;
+        h=from:mime-version:date:message-id:subject:to;
+        bh=SyZwzX+tCJh8Wgvxjwf5uJXScKYYRZmE0TnIi2FjDjk=;
+        b=UlJoDqd1XGAsFHsvc/dlSc+lKdUwOxNYeTDwqNwKz6wBpNod1x+IiTVrniHINJRca3
+         AScrlmvzkaLMxwMYpb7FDTp9CdNLAyb6AoGNChFWp+LSaK/NQRffXS8cO+kPDCxaa0zg
+         ggKJs1DXECShPfrR85rZGvKZPzUIU1VX85/tWP+HCgj8Yalt0msLBwdpDrDJctxQSLZz
+         1yPzdKyfbOdWjnyxsD9Kl9CYGCBrRDMiIKYFWks0zcCzj8uaMVU4zQzALggwXzL1hgkT
+         EyvmvsTMbvmDq7hYBiWjbu0SWZzoPlP5WQvSPC2c2RwQt0lrvJN2IVc/J6C9dgn7r7n7
+         jN1w==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20161025;
+        h=x-gm-message-state:from:mime-version:date:message-id:subject:to;
+        bh=SyZwzX+tCJh8Wgvxjwf5uJXScKYYRZmE0TnIi2FjDjk=;
+        b=QeV1HiXYjrlcp3U3AECDad6tqzRo6GXI2/+QqSQ4h8+mzZGljgi4PTma5ripQJkG1M
+         JfwF3Jv2SYELvfS05kzuq+wpD6rFm0rfB+kWkfZxO2+gPAaTRg+FNlYcyOKG3C48hqnJ
+         lOkG2/+ayqHZxHtIrsQ/GMRiocXeFfDXCkaFB5E3y7r1Ub6tuSmtB4PwRujiW87bqf9V
+         5M3kM61/vnX4s35FA3UvkTLLpu6XgVD87XlB93xjWJCtUnQgi1zyd0ppbxqDCtoqZHqv
+         //8sa0ZEgJsjjM9YES7vqlv3eAiWllILeJVUom9hHPc0QH3HNa3InCuP5cfCw2K2QVr4
+         3+Pw==
+X-Gm-Message-State: AOAM5326agxqc+JGN5l4YOjfvYlNcQhDyPUt+V6DHecSDaAVERw7HOY9
+	RAb1mfNKpHAj6mimDwfxiiuB4g57ZzEyFG2IvxkK/hri86A=
+X-Google-Smtp-Source: ABdhPJxDVlYSHKkcTvGaFpW6UQ19ArPHQB2MEyjLMN9ml3sq6vkEl6S6P0j9dKKqGDQCq03HQRdKU1r5eTr6/lwbFJY=
+X-Received: by 2002:a5e:9916:: with SMTP id t22mr6529833ioj.163.1599724527186;
+ Thu, 10 Sep 2020 00:55:27 -0700 (PDT)
+Received: from 696963989851 named unknown by gmailapi.google.com with
+ HTTPREST; Thu, 10 Sep 2020 00:55:26 -0700
+From: Kevin Doherty <kevin@codem-composites.com>
+MIME-Version: 1.0
+Date: Thu, 10 Sep 2020 00:55:26 -0700
+Message-ID: <CAK4cLxgdJxehf=M_t1hNzxPyyFRiiq8tqRthY0bhzJcwhvS+6w@mail.gmail.com>
+Subject: Quick Question, Michael
+To: michael.stewart@baesystems.com
+Content-Type: multipart/alternative; boundary="0000000000002e8b1405aef0e417"
+
+--53HjO.5horZB5In.4fjab4HVjU2.Fhhp5M/--
+
+

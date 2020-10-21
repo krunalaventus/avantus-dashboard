@@ -1,0 +1,111 @@
+--dsn_001602667353_002021395663
+Content-Type: text/plain; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+This is the mail delivery agent at Symantec Email Security.cloud.
+
+I was unable to deliver your message to the following addresses:
+
+nwarwick@impetusautomotive.com
+
+Reason: 550 5.4.1 Recipient address rejected: Access denied. AS(201806281) =
+[AM5EUR02FT041.eop-EUR02.prod.protection.outlook.com]
+
+The message subject was: Quick Question, Nic
+The message date was: Wed, 14 Oct 2020 02:22:28 -0700
+The message identifier was: 06/2C-23801-853C68F5
+The message reference was: server-9.tower-227.messagelabs.com!1602667349!55=
+865!1
+
+Please do not reply to this email as it is sent from an unattended mailbox.
+Contact your email administrator if you need more information, or
+instructions for resolving this issue.
+
+--dsn_001602667353_002021395663
+Content-Type: message/delivery-status
+
+Arrival-Date: Wed, 14 Oct 2020 09:22:32 +0000
+Reporting-MTA: dns; server-2.bemta.az-a.eu-central-1.aws.symcld.net
+
+Status: 5.4.1
+Final-Recipient: rfc822; nwarwick@impetusautomotive.com
+Action: failed
+Diagnostic-Code: smtp; 550 5.4.1 Recipient address rejected: Access denied. AS(201806281) [AM5EUR02FT041.eop-EUR02.prod.protection.outlook.com]
+Last-Attempt-Date: Wed, 14 Oct 2020 09:22:33 +0000
+
+--dsn_001602667353_002021395663
+Content-Type: text/rfc822-headers
+
+Return-Path: <kevin@codem-composites.com>
+Received: from [100.113.3.130] (using TLSv1.2 with cipher DHE-RSA-AES256-GCM-SHA384 (256 bits))
+	by server-2.bemta.az-a.eu-central-1.aws.symcld.net id 06/2C-23801-853C68F5; Wed, 14 Oct 2020 09:22:32 +0000
+Authentication-Results: mx.messagelabs.com; spf=pass 
+  (server-9.tower-227.messagelabs.com: domain of codem-composites.com 
+  designates 209.85.166.49 as permitted sender) 
+  smtp.mailfrom=codem-composites.com; dkim=pass (good signature) 
+  header.i=@codem-composites.com header.s=google; dmarc=pass (p=none 
+  adkim=r aspf=r) header.from=codem-composites.com
+X-Brightmail-Tracker: H4sIAAAAAAAAA+NgFuplleJIrShJLcpLzFFi42K5GLrMUDf8cFu
+  8weFp6haTv59idmD0+P1iPnMAYxRrZl5SfkUCa8ayWctYC46lVBx5soK1gXFXbBcjF4eQwHRG
+  icevu5lBHBaBpywS39tmgDkSAj9YJPq3bWOFcJoYJZbcW8/WxcgJ5BRJrJ08mR3CLpV48v4TK
+  4gtJFAgcXPRGxYQm03AQKLj7G9mEJtXQFDi5MwnYHEWAVWJNXd2s0DEAyRezW0GmyksICOx8v
+  ERsJkiAkoS12/dA7OZBXwkzjZ2sU9g5JuFZNQsJCkIW1OidftvKFtbYtnC18wQtobEgjv7GJH
+  FFzCyrWK0TCrKTM8oyU3MzNE1NDDQNTQ01jXUNTIw10us0k3USy3VTU7NKylKBMrqJZYX6xVX
+  5ibnpOjlpZZsYgSGd0oh4/kdjFPffNA7xCjJwaQkynvgYFu8EF9SfkplRmJxRnxRaU5q8SFGG
+  Q4OJQne3yA5waLU9NSKtMwcYKzBpCU4eJREeJNA0rzFBYm5xZnpEKlTjOEcSzbOW8TM0fFrEZ
+  B893MxkLy9agmQ/Agmv4PJto0gctWB6auYhVjy8vNSpcR5PxwCGicAMi6jNA9uGSyVXGKUlRL
+  mZWRgYBDiKUgtys0sQZV/xSjOwagkzMsOMoUnM68E7qZXQOcyAZ1rv6QF5NySRISUVAOTzNQn
+  X3dmv20vzF6auKww0uiSzbS3OzwTXzgvZNrwT9eyp51/fmXg9niTlB3/tX2C2Pax3TwRd0Xu9
+  7EmjnMlLVJuQtPzFP4t3/71wz2N1jPNa4pZ0hoVP+lXiUpnFR3YbFPTu/Xou/sdu6Yk5N4wW7
+  JKUuCDgPCU29KWs1fEJ2yTs2Vbv//3ev6I3yu3v2rqZJA9/uSYSU0C++5lQu7Xp/BN55PbsqG
+  1lq1srbNSvP6atyyccpVal1jTtbr+3dCRiJn3/ujzOsEsnn3nnvpJvptg9Ghe7b8pm/a9Mr3u
+  b2Dx5Zx6+cLHLX1KMsr2jsHXOxbOSby/R+bTn3vdIrfXsUr/mf7h3tmi7Vekv1v4KrEUZyQaa
+  jEXFScCAFjw8UugAwAA
+X-Env-Sender: kevin@codem-composites.com
+X-Msg-Ref: server-9.tower-227.messagelabs.com!1602667349!55865!1
+X-Originating-IP: [209.85.166.49]
+X-SYMC-ESS-Newsletter-Ignored: YES
+X-StarScan-Received:
+X-StarScan-Version: 9.60.3; banners=-,-,-
+Received: (qmail 19184 invoked from network); 14 Oct 2020 09:22:31 -0000
+Received: from mail-io1-f49.google.com (HELO mail-io1-f49.google.com) (209.85.166.49)
+  by server-9.tower-227.messagelabs.com with ECDHE-RSA-AES256-GCM-SHA384 encrypted SMTP; 14 Oct 2020 09:22:31 -0000
+Received: by mail-io1-f49.google.com with SMTP id g7so4064385iov.13
+        for <nwarwick@impetusautomotive.com>; Wed, 14 Oct 2020 02:22:31 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=codem-composites.com; s=google;
+        h=from:mime-version:date:message-id:subject:to;
+        bh=VywC2BASNtUoeEXyaALzBhLcrsq8hT9h1sI6tnyw9VY=;
+        b=pPE9GW1buDoy5lE0D91Z2gpnP79eMaO93hG4KtvrF3YcD067dST6bCN8fX/IqFZgML
+         k4xQYJTUAt0edL7Q2P1m8kCE5cd1ZXzft3iRwUViT4ttPfHO7UC7B1UC+IBhed5Sp4WJ
+         89u05deotxyUCR3RA5vd+S9hcNjt/cGsOnd9MEYefQRM/Zc9V+E0cGH4xKY+ibL1pYcz
+         GmzeHu0+H2w6i4np+VpxhxPEDbogVkT02Oy9hfaqgt3UR2br8LLgdC8Ivz+oRdQdPJ23
+         8UYxhVWMSkPnFi0IcSd98pAIiTizQHIkCiJCBxvt/sswLI5uj1S2ydbjejfRd/6GLUsY
+         RV5Q==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20161025;
+        h=x-gm-message-state:from:mime-version:date:message-id:subject:to;
+        bh=VywC2BASNtUoeEXyaALzBhLcrsq8hT9h1sI6tnyw9VY=;
+        b=ZRb0Wa1V4zL0We/jw3JsRinOQMtx/mPmkd7zjpqOT7VL9j9VzE8ucMpwatrTc1m2dI
+         tm7dt240meKXzHlZoc7+dV0ajoyKnBQFe1fXqjvdktZvpWDoVYVeV3pkqBDYQCAnt7Ko
+         uWVlTdCEwq5LxE4Jn9CLqipsciYaSNhMNupvvQBzGPddRPZRbw2PnQWmBf/FCmSNzffp
+         bQXYnxQvb7E6P5v38ZchEPSx1HsmqV1tNkri+GWuKLyGjD7d67AWNA3EXb3buzrFVGOa
+         NwqEYi0L2l+zQwY9M0eq3RTXxuwlQhvquRFdcpc/YCIlGxCyIqouq4B6rP2SzSc1gl08
+         fNkw==
+X-Gm-Message-State: AOAM531XYOJ3YOKe8WQjvLZL7ZCNtl38W39WaOgagTr1AibdsI1gR83i
+	VpPsurSRqIP9xhh/iMuNuFBH7jAN8/XmvOXCNj89k1UOBK2M7g==
+X-Google-Smtp-Source: ABdhPJwDTCtK6KGgrDH8ixnHqlcQIm7KgCRNeTAyeMVOWdnca2pXAEmhzF2Y6qQO0n9NuZNTXsu9SlfcOOIhDQlsKwU=
+X-Received: by 2002:a6b:3bcf:: with SMTP id i198mr2162406ioa.25.1602667348702;
+ Wed, 14 Oct 2020 02:22:28 -0700 (PDT)
+Received: from 696963989851 named unknown by gmailapi.google.com with
+ HTTPREST; Wed, 14 Oct 2020 02:22:28 -0700
+From: Kevin Doherty <kevin@codem-composites.com>
+MIME-Version: 1.0
+Date: Wed, 14 Oct 2020 02:22:28 -0700
+Message-ID: <CAK4cLxi2-FT6JVHC17tCzsmHtaXe1Gi6hQGeoET=ZXNj++TAZg@mail.gmail.com>
+Subject: Quick Question, Nic
+To: nwarwick@impetusautomotive.com
+Content-Type: multipart/alternative; boundary="000000000000034fc505b19e1247"
+
+--dsn_001602667353_002021395663--
+

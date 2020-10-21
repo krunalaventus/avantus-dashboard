@@ -1,3 +1,1829 @@
+From: <postmasters@cummins.com>
+To: <kevin@codem-composites.com>
+Date: Thu, 17 Sep 2020 03:48:29 -0500
+Subject: Undeliverable: Quick Question, John
+
+
+--34f9dc23-d4e6-42cb-9554-1f555886b6fc
+Content-Type: text/plain; charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+Delivery has failed to these recipients or groups:
+
+john.clark@cummins.com<mailto:john.clark@cummins.com>
+A problem occurred during the delivery of this message. Please try to resen=
+d the message later.
+
+
+The following organization rejected your message: SN1NAM01FT011.mail.protec=
+tion.outlook.com.
+
+
+
+
+
+
+
+Diagnostic information for administrators:
+
+Generating server: ACDCSWPAPP749.cummins.svcnet
+
+john.clark@cummins.com
+SN1NAM01FT011.mail.protection.outlook.com
+Remote Server returned '554 5.4.14 Hop count exceeded - possible mail loop =
+ATTR1 [SN1NAM01FT011.eop-nam01.prod.protection.outlook.com]'
+
+Original message headers:
+
+Received: from NAM11-DM6-obe.outbound.protection.outlook.com (104.47.57.176=
+)
+ by acdcswpapp749.cummins.svcnet (10.208.14.105) with Microsoft SMTP Server
+ (TLS) id 15.0.1178.4; Thu, 17 Sep 2020 03:47:50 -0500
+Received: from BN6PR18CA0019.namprd18.prod.outlook.com (2603:10b6:404:121::=
+29)
+ by MN2PR05MB6431.namprd05.prod.outlook.com (2603:10b6:208:dc::25) with
+ Microsoft SMTP Server (version=3DTLS1_2,
+ cipher=3DTLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.3391.9; Thu, 17 S=
+ep
+ 2020 08:43:01 +0000
+Received: from BN3NAM01FT046.eop-nam01.prod.protection.outlook.com
+ (2603:10b6:404:121:cafe::1b) by BN6PR18CA0019.outlook.office365.com
+ (2603:10b6:404:121::29) with Microsoft SMTP Server (version=3DTLS1_2,
+ cipher=3DTLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.3391.13 via Front=
+end
+ Transport; Thu, 17 Sep 2020 08:43:01 +0000
+Authentication-Results: spf=3Dsoftfail (sender IP is 146.91.48.123)
+ smtp.mailfrom=3Dcodem-composites.com; cummins.com; dkim=3Dfail (body hash =
+did not
+ verify) header.d=3Dcodem-composites.com;cummins.com; dmarc=3Dfail action=
+=3Dnone
+ header.from=3Dcodem-composites.com;
+Received-SPF: SoftFail (ACDCSWPAPP749.cummins.svcnet: domain of transitioni=
+ng
+ kevin@codem-composites.com discourages use of 104.47.57.176 as permitted
+ sender)
+Received-SPF: SoftFail (protection.outlook.com: domain of transitioning
+ codem-composites.com discourages use of 146.91.48.123 as permitted sender)
+Received: from ACDCSWPAPP748.cummins.svcnet (146.91.48.123) by
+ BN3NAM01FT046.mail.protection.outlook.com (10.152.66.89) with Microsoft SM=
+TP
+ Server (version=3DTLS1_2, cipher=3DTLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384) =
+id
+ 15.20.3391.15 via Frontend Transport; Thu, 17 Sep 2020 08:43:00 +0000
+X-CrossPremisesHeadersFilteredBySendConnector: ACDCSWPAPP748.cummins.svcnet
+Received: from NAM10-MW2-obe.outbound.protection.outlook.com (104.47.55.106=
+)
+ by acdcswpapp748.cummins.svcnet (10.208.14.101) with Microsoft SMTP Server
+ (TLS) id 15.0.1178.4; Thu, 17 Sep 2020 03:42:56 -0500
+Received: from BN8PR16CA0035.namprd16.prod.outlook.com (2603:10b6:408:4c::4=
+8)
+ by BY5PR05MB6836.namprd05.prod.outlook.com (2603:10b6:a03:1fa::27) with
+ Microsoft SMTP Server (version=3DTLS1_2,
+ cipher=3DTLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.3391.5; Thu, 17 S=
+ep
+ 2020 08:41:26 +0000
+Received: from BN3NAM01FT016.eop-nam01.prod.protection.outlook.com
+ (2603:10b6:408:4c:cafe::da) by BN8PR16CA0035.outlook.office365.com
+ (2603:10b6:408:4c::48) with Microsoft SMTP Server (version=3DTLS1_2,
+ cipher=3DTLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.3391.13 via Front=
+end
+ Transport; Thu, 17 Sep 2020 08:41:26 +0000
+Authentication-Results-Original: spf=3Dsoftfail (sender IP is 146.91.48.123=
+)
+ smtp.mailfrom=3Dcodem-composites.com; cummins.com; dkim=3Dfail (body hash =
+did not
+ verify) header.d=3Dcodem-composites.com;cummins.com; dmarc=3Dfail action=
+=3Dnone
+ header.from=3Dcodem-composites.com;
+Received-SPF: SoftFail (ACDCSWPAPP748.cummins.svcnet: domain of transitioni=
+ng
+ kevin@codem-composites.com discourages use of 104.47.55.106 as permitted
+ sender)
+Received-SPF: SoftFail (protection.outlook.com: domain of transitioning
+ codem-composites.com discourages use of 146.91.48.123 as permitted sender)
+Received: from ACDCSWPAPP749.cummins.svcnet (146.91.48.123) by
+ BN3NAM01FT016.mail.protection.outlook.com (10.152.66.204) with Microsoft S=
+MTP
+ Server (version=3DTLS1_2, cipher=3DTLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384) =
+id
+ 15.20.3391.15 via Frontend Transport; Thu, 17 Sep 2020 08:41:25 +0000
+X-CrossPremisesHeadersFilteredBySendConnector: ACDCSWPAPP749.cummins.svcnet
+Received: from NAM11-BN8-obe.outbound.protection.outlook.com (104.47.58.171=
+)
+ by acdcswpapp749.cummins.svcnet (10.208.14.105) with Microsoft SMTP Server
+ (TLS) id 15.0.1178.4; Thu, 17 Sep 2020 03:41:20 -0500
+Received: from SN6PR04CA0077.namprd04.prod.outlook.com (2603:10b6:805:f2::1=
+8)
+ by BL0PR05MB5268.namprd05.prod.outlook.com (2603:10b6:208:37::13) with
+ Microsoft SMTP Server (version=3DTLS1_2,
+ cipher=3DTLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.3412.4; Thu, 17 S=
+ep
+ 2020 08:41:14 +0000
+Received: from SN1NAM01FT031.eop-nam01.prod.protection.outlook.com
+ (2603:10b6:805:f2:cafe::e8) by SN6PR04CA0077.outlook.office365.com
+ (2603:10b6:805:f2::18) with Microsoft SMTP Server (version=3DTLS1_2,
+ cipher=3DTLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.3391.11 via Front=
+end
+ Transport; Thu, 17 Sep 2020 08:41:14 +0000
+Authentication-Results-Original: spf=3Dsoftfail (sender IP is 192.158.40.21=
+9)
+ smtp.mailfrom=3Dcodem-composites.com; cummins.com; dkim=3Dfail (body hash =
+did not
+ verify) header.d=3Dcodem-composites.com;cummins.com; dmarc=3Dfail action=
+=3Dnone
+ header.from=3Dcodem-composites.com;
+Received-SPF: SoftFail (ACDCSWPAPP749.cummins.svcnet: domain of transitioni=
+ng
+ kevin@codem-composites.com discourages use of 104.47.58.171 as permitted
+ sender)
+Received-SPF: SoftFail (protection.outlook.com: domain of transitioning
+ codem-composites.com discourages use of 192.158.40.219 as permitted sender=
+)
+Received: from FTDCSWPAPP430.cummins.svcnet (192.158.40.219) by
+ SN1NAM01FT031.mail.protection.outlook.com (10.152.65.215) with Microsoft S=
+MTP
+ Server (version=3DTLS1_2, cipher=3DTLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384) =
+id
+ 15.20.3391.15 via Frontend Transport; Thu, 17 Sep 2020 08:41:13 +0000
+X-CrossPremisesHeadersFilteredBySendConnector: FTDCSWPAPP430.cummins.svcnet
+Received: from NAM11-CO1-obe.outbound.protection.outlook.com (104.47.56.173=
+)
+ by ftdcswpapp430.cummins.svcnet (10.212.15.10) with Microsoft SMTP Server
+ (TLS) id 15.0.1178.4; Thu, 17 Sep 2020 03:41:10 -0500
+Received: from BN8PR03CA0022.namprd03.prod.outlook.com (2603:10b6:408:94::3=
+5)
+ by BN7PR05MB4051.namprd05.prod.outlook.com (2603:10b6:406:92::12) with
+ Microsoft SMTP Server (version=3DTLS1_2,
+ cipher=3DTLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.3412.7; Thu, 17 S=
+ep
+ 2020 08:38:34 +0000
+Received: from BN3NAM01FT054.eop-nam01.prod.protection.outlook.com
+ (2603:10b6:408:94:cafe::e) by BN8PR03CA0022.outlook.office365.com
+ (2603:10b6:408:94::35) with Microsoft SMTP Server (version=3DTLS1_2,
+ cipher=3DTLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.3391.14 via Front=
+end
+ Transport; Thu, 17 Sep 2020 08:38:33 +0000
+Authentication-Results-Original: spf=3Dsoftfail (sender IP is 146.91.48.123=
+)
+ smtp.mailfrom=3Dcodem-composites.com; cummins.com; dkim=3Dfail (body hash =
+did not
+ verify) header.d=3Dcodem-composites.com;cummins.com; dmarc=3Dfail action=
+=3Dnone
+ header.from=3Dcodem-composites.com;
+Received-SPF: SoftFail (FTDCSWPAPP430.cummins.svcnet: domain of transitioni=
+ng
+ kevin@codem-composites.com discourages use of 104.47.56.173 as permitted
+ sender)
+Received-SPF: SoftFail (protection.outlook.com: domain of transitioning
+ codem-composites.com discourages use of 146.91.48.123 as permitted sender)
+Received: from ACDCSWPAPP749.cummins.svcnet (146.91.48.123) by
+ BN3NAM01FT054.mail.protection.outlook.com (10.152.67.208) with Microsoft S=
+MTP
+ Server (version=3DTLS1_2, cipher=3DTLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384) =
+id
+ 15.20.3391.15 via Frontend Transport; Thu, 17 Sep 2020 08:38:33 +0000
+X-CrossPremisesHeadersFilteredBySendConnector: ACDCSWPAPP749.cummins.svcnet
+Received: from NAM04-DM6-obe.outbound.protection.outlook.com (104.47.73.47)=
+ by
+ acdcswpapp749.cummins.svcnet (10.208.14.105) with Microsoft SMTP Server (T=
+LS)
+ id 15.0.1178.4; Thu, 17 Sep 2020 03:38:29 -0500
+Received: from BN8PR03CA0008.namprd03.prod.outlook.com (2603:10b6:408:94::2=
+1)
+ by SJ0PR05MB7486.namprd05.prod.outlook.com (2603:10b6:a03:280::11) with
+ Microsoft SMTP Server (version=3DTLS1_2,
+ cipher=3DTLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.3370.7; Thu, 17 S=
+ep
+ 2020 08:38:07 +0000
+Received: from BN3NAM01FT054.eop-nam01.prod.protection.outlook.com
+ (2603:10b6:408:94:cafe::50) by BN8PR03CA0008.outlook.office365.com
+ (2603:10b6:408:94::21) with Microsoft SMTP Server (version=3DTLS1_2,
+ cipher=3DTLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.3391.14 via Front=
+end
+ Transport; Thu, 17 Sep 2020 08:38:07 +0000
+Authentication-Results-Original: spf=3Dsoftfail (sender IP is 146.91.48.123=
+)
+ smtp.mailfrom=3Dcodem-composites.com; cummins.com; dkim=3Dfail (body hash =
+did not
+ verify) header.d=3Dcodem-composites.com;cummins.com; dmarc=3Dfail action=
+=3Dnone
+ header.from=3Dcodem-composites.com;
+Received-SPF: SoftFail (ACDCSWPAPP749.cummins.svcnet: domain of transitioni=
+ng
+ kevin@codem-composites.com discourages use of 104.47.73.47 as permitted
+ sender)
+Received-SPF: SoftFail (protection.outlook.com: domain of transitioning
+ codem-composites.com discourages use of 146.91.48.123 as permitted sender)
+Received: from ACDCSWPAPP749.cummins.svcnet (146.91.48.123) by
+ BN3NAM01FT054.mail.protection.outlook.com (10.152.67.208) with Microsoft S=
+MTP
+ Server (version=3DTLS1_2, cipher=3DTLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384) =
+id
+ 15.20.3391.15 via Frontend Transport; Thu, 17 Sep 2020 08:38:07 +0000
+X-CrossPremisesHeadersFilteredBySendConnector: ACDCSWPAPP749.cummins.svcnet
+Received: from NAM11-DM6-obe.outbound.protection.outlook.com (104.47.57.177=
+)
+ by acdcswpapp749.cummins.svcnet (10.208.14.105) with Microsoft SMTP Server
+ (TLS) id 15.0.1178.4; Thu, 17 Sep 2020 03:37:57 -0500
+Received: from BN6PR19CA0118.namprd19.prod.outlook.com (2603:10b6:404:a0::3=
+2)
+ by SN6PR05MB4686.namprd05.prod.outlook.com (2603:10b6:805:93::16) with
+ Microsoft SMTP Server (version=3DTLS1_2,
+ cipher=3DTLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.3391.9; Thu, 17 S=
+ep
+ 2020 08:37:57 +0000
+Received: from BN3NAM01FT023.eop-nam01.prod.protection.outlook.com
+ (2603:10b6:404:a0:cafe::5) by BN6PR19CA0118.outlook.office365.com
+ (2603:10b6:404:a0::32) with Microsoft SMTP Server (version=3DTLS1_2,
+ cipher=3DTLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.3391.11 via Front=
+end
+ Transport; Thu, 17 Sep 2020 08:37:57 +0000
+Authentication-Results-Original: spf=3Dsoftfail (sender IP is 192.158.40.21=
+9)
+ smtp.mailfrom=3Dcodem-composites.com; cummins.com; dkim=3Dfail (body hash =
+did not
+ verify) header.d=3Dcodem-composites.com;cummins.com; dmarc=3Dfail action=
+=3Dnone
+ header.from=3Dcodem-composites.com;
+Received-SPF: SoftFail (ACDCSWPAPP749.cummins.svcnet: domain of transitioni=
+ng
+ kevin@codem-composites.com discourages use of 104.47.57.177 as permitted
+ sender)
+Received-SPF: SoftFail (protection.outlook.com: domain of transitioning
+ codem-composites.com discourages use of 192.158.40.219 as permitted sender=
+)
+Received: from FTDCSWPAPP430.cummins.svcnet (192.158.40.219) by
+ BN3NAM01FT023.mail.protection.outlook.com (10.152.67.155) with Microsoft S=
+MTP
+ Server (version=3DTLS1_2, cipher=3DTLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384) =
+id
+ 15.20.3391.15 via Frontend Transport; Thu, 17 Sep 2020 08:37:57 +0000
+X-CrossPremisesHeadersFilteredBySendConnector: FTDCSWPAPP430.cummins.svcnet
+Received: from NAM12-BN8-obe.outbound.protection.outlook.com (104.47.55.171=
+)
+ by ftdcswpapp430.cummins.svcnet (10.212.15.10) with Microsoft SMTP Server
+ (TLS) id 15.0.1178.4; Thu, 17 Sep 2020 03:37:55 -0500
+Received: from BN8PR15CA0056.namprd15.prod.outlook.com (2603:10b6:408:80::3=
+3)
+ by SN6PR05MB5805.namprd05.prod.outlook.com (2603:10b6:805:f4::14) with
+ Microsoft SMTP Server (version=3DTLS1_2,
+ cipher=3DTLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.3391.9; Thu, 17 S=
+ep
+ 2020 08:35:22 +0000
+Received: from BN3NAM01FT028.eop-nam01.prod.protection.outlook.com
+ (2603:10b6:408:80:cafe::df) by BN8PR15CA0056.outlook.office365.com
+ (2603:10b6:408:80::33) with Microsoft SMTP Server (version=3DTLS1_2,
+ cipher=3DTLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.3391.13 via Front=
+end
+ Transport; Thu, 17 Sep 2020 08:35:22 +0000
+Authentication-Results-Original: spf=3Dsoftfail (sender IP is 146.91.48.123=
+)
+ smtp.mailfrom=3Dcodem-composites.com; cummins.com; dkim=3Dfail (body hash =
+did not
+ verify) header.d=3Dcodem-composites.com;cummins.com; dmarc=3Dfail action=
+=3Dnone
+ header.from=3Dcodem-composites.com;
+Received-SPF: SoftFail (FTDCSWPAPP430.cummins.svcnet: domain of transitioni=
+ng
+ kevin@codem-composites.com discourages use of 104.47.55.171 as permitted
+ sender)
+Received-SPF: SoftFail (protection.outlook.com: domain of transitioning
+ codem-composites.com discourages use of 146.91.48.123 as permitted sender)
+Received: from ACDCSWPAPP748.cummins.svcnet (146.91.48.123) by
+ BN3NAM01FT028.mail.protection.outlook.com (10.152.67.96) with Microsoft SM=
+TP
+ Server (version=3DTLS1_2, cipher=3DTLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384) =
+id
+ 15.20.3391.15 via Frontend Transport; Thu, 17 Sep 2020 08:35:21 +0000
+X-CrossPremisesHeadersFilteredBySendConnector: ACDCSWPAPP748.cummins.svcnet
+Received: from NAM12-BN8-obe.outbound.protection.outlook.com (104.47.55.168=
+)
+ by acdcswpapp748.cummins.svcnet (10.208.14.101) with Microsoft SMTP Server
+ (TLS) id 15.0.1178.4; Thu, 17 Sep 2020 03:35:20 -0500
+Received: from SN4PR0401CA0048.namprd04.prod.outlook.com
+ (2603:10b6:803:2a::34) by BYAPR05MB5735.namprd05.prod.outlook.com
+ (2603:10b6:a03:d1::21) with Microsoft SMTP Server (version=3DTLS1_2,
+ cipher=3DTLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.3391.9; Thu, 17 S=
+ep
+ 2020 08:24:53 +0000
+Received: from SN1NAM01FT049.eop-nam01.prod.protection.outlook.com
+ (2603:10b6:803:2a:cafe::a1) by SN4PR0401CA0048.outlook.office365.com
+ (2603:10b6:803:2a::34) with Microsoft SMTP Server (version=3DTLS1_2,
+ cipher=3DTLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.3391.13 via Front=
+end
+ Transport; Thu, 17 Sep 2020 08:24:53 +0000
+Authentication-Results-Original: spf=3Dpass (sender IP is 209.85.166.174)
+ smtp.mailfrom=3Dcodem-composites.com; cummins.com; dkim=3Dpass (signature =
+was
+ verified) header.d=3Dcodem-composites.com;cummins.com; dmarc=3Dpass action=
+=3Dnone
+ header.from=3Dcodem-composites.com;compauth=3Dpass reason=3D100
+Received-SPF: SoftFail (ACDCSWPAPP748.cummins.svcnet: domain of transitioni=
+ng
+ kevin@codem-composites.com discourages use of 104.47.55.168 as permitted
+ sender)
+Received-SPF: Pass (protection.outlook.com: domain of codem-composites.com
+ designates 209.85.166.174 as permitted sender)
+ receiver=3Dprotection.outlook.com; client-ip=3D209.85.166.174;
+ helo=3Dmail-il1-f174.google.com;
+Received: from mail-il1-f174.google.com (209.85.166.174) by
+ SN1NAM01FT049.mail.protection.outlook.com (10.152.64.252) with Microsoft S=
+MTP
+ Server (version=3DTLS1_2, cipher=3DTLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) =
+id
+ 15.20.3370.16 via Frontend Transport; Thu, 17 Sep 2020 08:24:53 +0000
+Received: by mail-il1-f174.google.com with SMTP id s88so1444786ilb.6
+        for <john.clark@cummins.com>; Thu, 17 Sep 2020 01:24:53 -0700 (PDT)
+DKIM-Signature: v=3D1; a=3Drsa-sha256; c=3Drelaxed/relaxed;
+        d=3Dcodem-composites.com; s=3Dgoogle;
+        h=3Dfrom:mime-version:date:message-id:subject:to;
+        bh=3DsUOqXzi3MVNvB9FEYkUVAQSLDF0PH01ZPRVkVNtZTcA=3D;
+        b=3DSCLsy9FAjcHVaX7jSTk3r0z/fpJsm3WFoiwurtj6sQvzppeLhzrNxc5/a+jjl4H=
+5r4
+         ub0LzvPA/mAwZ2Wd5KgdmlhOaOGR1cnanKBjUMJ+OTYA8H5X5Xvce67HxGxcR3JVWb=
+Fw
+         uqqEJwFiAalWr/nGMxhOaAAFnfa9ZobtcXo70RtsUs2//yjfSGKfhOOFACDhPQdzk3=
+NL
+         QI9g844EU5f1I7GK6nxjyKcc8KSi2MXixg/w9MoALVLSAK/5jj+dtgHDeX5yqvp5hm=
+Tc
+         AMaLJRCKDuoXFSyzEm/z9tVRIYCkY7pKzU6111o/nSseziHlJmWQNWevLyZxuFn5on=
+9k
+         +ffg=3D=3D
+X-Google-DKIM-Signature: v=3D1; a=3Drsa-sha256; c=3Drelaxed/relaxed;
+        d=3D1e100.net; s=3D20161025;
+        h=3Dx-gm-message-state:from:mime-version:date:message-id:subject:to=
+;
+        bh=3DsUOqXzi3MVNvB9FEYkUVAQSLDF0PH01ZPRVkVNtZTcA=3D;
+        b=3DfbCTe8d7V/BtYitFg/eoxTZsineVBE6BQvQ163YzP24LObnEmWv9lGzPho03p6P=
+VNM
+         KpnH+rOCetXWBpFhCHDovq+A/qMLVUcWWaiAUrmCYPmxq8bTFh6TJEMIuksScvqdo4=
+lU
+         AIhl/4AFkmBR1iQcJy+Vlj2b53KLdYVq1nJ0R446UPa+HCcGXFYUM+Q37vi9RMv7o0=
+Y1
+         UDolAzlbIcE7nt2V6ACS4O1NZthzEW089Y5KhZsGJXx79TujpnJXMyn+gBf4nnhgTp=
+Fi
+         Yc48vSkE1khvM5Z/+4dLIFXJswue+TSma61bwcn9y1tSFX8tj2FVtzDDwf3LVBD2hG=
+zo
+         J4aQ=3D=3D
+X-Gm-Message-State: AOAM531uHydgbZza0UaRa6EP2Erl0lmhtuYsZfS7PGeEvsV5gtXsugA=
+h
+        xk2TS3s198Xe9iWne+WzVpRurSWeEApdu5Gwo8IHXb39rxs=3D
+X-Google-Smtp-Source: ABdhPJwiEdEalNMliKr6K5OlnAiY6taji9zgkSrZH1Jbj1a8racur=
+WFzOxP5cFVhLg3/NMDT451QBsczCINCn/tedrI=3D
+X-Received: by 2002:a92:1b8b:: with SMTP id f11mr7478216ill.216.16003310921=
+85;
+ Thu, 17 Sep 2020 01:24:52 -0700 (PDT)
+Received: from 696963989851 named unknown by gmailapi.google.com with
+ HTTPREST; Thu, 17 Sep 2020 01:24:51 -0700
+From: Kevin Doherty <kevin@codem-composites.com>
+MIME-Version: 1.0
+Date: Thu, 17 Sep 2020 01:24:51 -0700
+Message-ID: <CAK4cLxh=3DKd5+mA9ayKuaebVLV34NEn1w7BswGWgAEx_3psqS-g@mail.gma=
+il.com>
+Subject: Quick Question, John
+To: <john.clark@cummins.com>
+Content-Type: multipart/alternative; boundary=3D"00000000000045e0a705af7e1e=
+a5"
+Return-Path: kevin@codem-composites.com
+X-EOPAttributedMessage: 7
+X-MS-Office365-Filtering-HT: Tenant
+X-MS-PublicTrafficType: Email
+X-MS-Office365-Filtering-Correlation-Id: e4fd70be-bc22-4090-8eb5-08d85ae5af=
+81
+X-MS-TrafficTypeDiagnostic: BYAPR05MB5735:|SN6PR05MB5805:|SN6PR05MB4686:|SJ=
+0PR05MB7486:|BN7PR05MB4051:|BL0PR05MB5268:|BY5PR05MB6836:|MN2PR05MB6431:
+X-LD-Processed: b31a5d86-6dda-4457-85e5-c55bbc07923d,ExtAddr,ExtAddr,ExtAdd=
+r
+X-MS-Exchange-AtpMessageProperties: SA
+X-MS-Oob-TLC-OOBClassifiers: OLM:9508;OLM:9508;OLM:9508;OLM:9508;OLM:9508;O=
+LM:9508;OLM:9508;OLM:9508;
+X-Microsoft-Antispam-Untrusted: BCL:0;
+X-Microsoft-Antispam-Message-Info-Original: =3D?us-ascii?Q?XbAGVk8o4Qz2ZszM=
+8N9SNkR2ziLj/V1ViKuCTVcdJB1LIrc/s8VhEN3xMuCt?=3D
+ =3D?us-ascii?Q?VeXK8WRTd2pxepLc3MaZp9tFYLuIIRymZb6rW1kT3+yZ7onId/cwNKJHVy/=
+9?=3D
+ =3D?us-ascii?Q?rofI1EmwaqTC8P0Lwlu1PWyzJIVFvq5FwgKMj1gK3ohE7MJHnalYnUci7iG=
+l?=3D
+ =3D?us-ascii?Q?oEXEj1ulkUkb/F/a6umaQM77KhZBo5veHDqzA+J4w7GooLPLXgDcmv/M4E7=
+4?=3D
+ =3D?us-ascii?Q?xjjbG5tj55QyPxQcBz4tYTFFSPfoCfrIO2L3DnMZ6duZGha+oE+ll35fFGZ=
+k?=3D
+ =3D?us-ascii?Q?+LjBQ91eXwxKDk0b6twVvJsQEr4KlFzGkRTM5DCRWY6LHV4DKa1aUQrMdaH=
+Q?=3D
+ =3D?us-ascii?Q?UMy27+5FCyjzs9X3o98SKZzeKdISnwwsvAOpv87F/LSs4IucQbuasqOIGpp=
+J?=3D
+ =3D?us-ascii?Q?RrXvk7Uoku6k6KUtY/odKKm68dRhItpWV2GAPcJmCqQKmWh9SV+ZVCEiASi=
+z?=3D
+ =3D?us-ascii?Q?Re7TlnVbathcXg1OUg3wVADw6MfNFuXyBbDQd7JrH527eHnEb8IiGpTkk7V=
+z?=3D
+ =3D?us-ascii?Q?sLyK/Wofo3WUkBEABStxzmwuxVZ7Swv75vuKicar+Mg+DJmlYXjAu+XUgFI=
+V?=3D
+ =3D?us-ascii?Q?zNt+9ZFYywHTqFln4h3gOgaunll78rPzwpt5/NrAtKQgo447UbItlF00no5=
+n?=3D
+ =3D?us-ascii?Q?iDGTEm2XnfhszsSDIbnrRwp3pGhRCZHT7j0rcNwJcULDGs8vln3FabD5NLo=
+C?=3D
+ =3D?us-ascii?Q?0wmdL005ia+2sMpP0L+lANGd47u0YYqoz6PPUQpxwJGGiFhlrDeD+EI6/Yf=
+e?=3D
+ =3D?us-ascii?Q?OOcOrg4u50G5q0aHuJKoql8jqT5nRMOM2U9N6L18fXJi18XgMQDD3s5R4zy=
+p?=3D
+ =3D?us-ascii?Q?wTusesOWNmYV4ZnLM1RpxIERjV6ywjv6zUvy+dOqXrSCcPdVVKiQPV6dIK/=
+Y?=3D
+ =3D?us-ascii?Q?fGQsGoYeE+JuCQ7MamKNZGYs7rZ8crN1KtKZU0CzjBCviwpcSJdo9dYE6Uz=
+6?=3D
+ =3D?us-ascii?Q?9B4Pa4obdbcGyFbmrgmWBAQSlCajtzDVySctwFPkXWzRmcJ65qlojMrZ1hB=
+b?=3D
+ =3D?us-ascii?Q?6LzAXoeRfuYaNwgVkvG3uF64FkkEvdfOz6tBmlFnvgrHTIekujSYdpA9hQa=
+Y?=3D
+ =3D?us-ascii?Q?l/55IN+Ayvp+jUzv6BG6PA7lzBjGgr2bdoDzPTtTZ9R3ZrGR5aYI7C0oRM7=
+s?=3D
+ =3D?us-ascii?Q?DDdr9jwGqmtHsASdXRRK53F98AImPTsWmW1X77bpuXHb2UyeivNubBT8IL9=
+K?=3D
+ =3D?us-ascii?Q?nyQKoeEM0h5ZUfuQXrrwgp4Ih3y4oxcBHH1bcCI9JAiS3LRJ2yxhtFnJFV/=
+A?=3D
+ =3D?us-ascii?Q?mwpM69oPgxXTeRQ01L2/8WP0WJUTqSWCjyskea8SsauLKhQBXTiIK1JoHzv=
+e?=3D
+ =3D?us-ascii?Q?e5Zr1idyY9a3RCoOcmi9lnm7sbGDmyTBse7GTUmZgIyfCO1C7oy6dFJbXmK=
+e?=3D
+ =3D?us-ascii?Q?slkdQbc=3D3D?=3D
+X-Forefront-Antispam-Report-Untrusted: CIP:209.85.166.174;CTRY:US;LANG:en;S=
+CL:1;SRV:;IPV:NLI;SFV:NSPM;H:mail-il1-f174.google.com;PTR:mail-il1-f174.goo=
+gle.com;CAT:NONE;SFS:(4636009)(83380400001)(58800400005)(26005)(55446002)(7=
+636003)(7596003)(34756004)(356005)(5660300002)(22186003)(76236003)(166002)(=
+336012)(8676002)(15974865002)(9686003)(86362001)(1096003)(7066003)(19627405=
+001)(6916009)(45080400002)(33964004)(43950500001)(44020500001);DIR:INB;
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: BYAPR05MB5735
+X-OrganizationHeadersPreserved: BYAPR05MB5735.namprd05.prod.outlook.com
+X-CrossPremisesHeadersFiltered: ACDCSWPAPP748.cummins.svcnet
+X-OrganizationHeadersPreserved: ACDCSWPAPP748.cummins.svcnet
+X-MS-Exchange-Transport-CrossTenantHeadersStripped: BN3NAM01FT028.eop-nam01=
+.prod.protection.outlook.com
+X-MS-Office365-Filtering-Correlation-Id-Prvs: c435bc56-aad8-46fe-3128-08d85=
+ae3271b
+AntiSpoofAllow: True
+AllowCheck1: True
+X-Microsoft-Antispam-Untrusted: BCL:0;
+X-Microsoft-Antispam-Message-Info-Original: =3D?us-ascii?Q?KaT2iA67oDxYE18P=
+in9K0GR9uIQ/HYFGLcP0MwtduQKIprxx5XqlekQEASba?=3D
+ =3D?us-ascii?Q?kEVdb0r/hZDHY7991StJBAEPnSlzVpRdQGM2ir0HfZp7LRYWvln6uTIrY1L=
+j?=3D
+ =3D?us-ascii?Q?iiUPntXjtAjsh2xY5hiPYWJ4jNTSlUZgO4BbCKE1k5vUy0EOKlDQKRoYGOB=
+s?=3D
+ =3D?us-ascii?Q?1B/4IJZDAzWX660BkeN0U9fX2RGc8SmaVbSOQ0lHb1Flav2g/OHifUdI4WW=
+u?=3D
+ =3D?us-ascii?Q?+1sm1WQgO3yTItI7zW9YmPHO4PuEetIpiE7nmS+Hu6A/ykc2vo7X0X7OdDK=
++?=3D
+ =3D?us-ascii?Q?N0vojquTNPKNLeRZe30VWEvJBdLbnRgIDOeT38qi//+sfOMP0WIMboVHE48=
+i?=3D
+ =3D?us-ascii?Q?aPAjBwfXVPvayy++PjbTJERF5qSDM6hsp+0qPm4YF27uprc0zaaGKf1vHEg=
+0?=3D
+ =3D?us-ascii?Q?4n4yuLYfvmAm0iyZOSfQCl41vORmVh7QH4dRyDXOjvQiXumNnCEs9aNFJth=
+3?=3D
+ =3D?us-ascii?Q?2G37wGiekY0UfpBPUZN8S1jZsAr75kvG8L5+2+lB8D+rJcJEXgbzoUwgnWE=
+9?=3D
+ =3D?us-ascii?Q?XV/YPRmdobvLy5jgqwZb2J2uPmRD25L02foFGuDr5NBarfQLS7MPCbJFaN4=
+1?=3D
+ =3D?us-ascii?Q?Qt/pGqXgG4Y/XtUKGFATy0aFQ0+gcS1xD00ow6fNZ7MOBpgULGy2/1YH6/W=
+c?=3D
+ =3D?us-ascii?Q?wz1DF3SV1+wrk+uqOPvVmqLmCv1yVlu99L9f/RoLuYmPdJb59HMeb+BjsTm=
+x?=3D
+ =3D?us-ascii?Q?avWNnrKyrSh8TyAnRLaNCaYKWI8zgpixyQJuoPvSOYHq+LEA2bbG3tINmLL=
+6?=3D
+ =3D?us-ascii?Q?a+77NHkNTGbDcsaukiCg2uH7uV3Uld7V4tskcdU5D/cIVklgyJ/KpsoXa/v=
+c?=3D
+ =3D?us-ascii?Q?bgllYWm9q4If6CBsskSGnaXr/RgOkAvYp9FUZkzdUnD8JT0yCzIiuF4h0WK=
+g?=3D
+ =3D?us-ascii?Q?+cJrheE/8GDXPwfw21okN/jdKLnhqrZeHk0tzcVjiLBRnmDKMSai95CJGwC=
+3?=3D
+ =3D?us-ascii?Q?i0/rymD95+ZjHvqHF+C31K53y822sdLI67Ns0T/5J0zU1ZTkkDa6gnP4XxT=
+u?=3D
+ =3D?us-ascii?Q?SkgO/jsJ2Yl+Pgxn6VrY7lNU/y2p6G+RDFszTjT34dUJNtGdxunFM/qUImj=
+h?=3D
+ =3D?us-ascii?Q?cTFxIGZ6PF+1zyEeCnLnvmm3gkmc59MAPjc64UNhK/qOgDK8XBpzt8nMUEJ=
+5?=3D
+ =3D?us-ascii?Q?oL+sR/C6oS41zskSThaYvKZi7ewp4LpX4H4yejuJGctvMN0MwrqHMdiST00=
+k?=3D
+ =3D?us-ascii?Q?BsGkpEW801Tavn9BMnIbki4gLlh+vmdey5LijRODnhC83SHy7K0CR+OK6rO=
+4?=3D
+ =3D?us-ascii?Q?QCbFkqMcMJLZ1DYPcd32iQL4TyFrLSBufOLuWEpAS5YgdvOEf5LRnh7lbPR=
+Y?=3D
+ =3D?us-ascii?Q?Yd6Tqj/qlRoGhJOufnGsjHhg79BDvzmIcNZ6XX+naqbF3g=3D3D=3D3D?=
+=3D
+X-Forefront-Antispam-Report-Untrusted: CIP:146.91.48.123;CTRY:US;LANG:en;SC=
+L:-1;SRV:;IPV:CAL;SFV:SKN;H:ACDCSWPAPP748.cummins.svcnet;PTR:InfoDomainNone=
+xistent;CAT:NONE;SFS:;DIR:INB;
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: SN6PR05MB5805
+X-OrganizationHeadersPreserved: SN6PR05MB5805.namprd05.prod.outlook.com
+X-CrossPremisesHeadersFiltered: FTDCSWPAPP430.cummins.svcnet
+X-OrganizationHeadersPreserved: FTDCSWPAPP430.cummins.svcnet
+X-MS-Exchange-Transport-CrossTenantHeadersStripped: BN3NAM01FT023.eop-nam01=
+.prod.protection.outlook.com
+X-MS-Office365-Filtering-Correlation-Id-Prvs: aefecedb-11d0-48ed-67a7-08d85=
+ae49ddc
+X-Microsoft-Antispam-Untrusted: BCL:0;
+X-Microsoft-Antispam-Message-Info-Original: =3D?us-ascii?Q?yhjcvWM05WT3sjJC=
+ST7M+Ap4awAQZ8+gjDyYjoPYEwElqA9hL4Ni+0gD0hyU?=3D
+ =3D?us-ascii?Q?RRjPmPN4sPy86/hSXKyzwfyO8bFywxLCxK4JzM6ot6VkkEUmZvbaiWC1Vd0=
+w?=3D
+ =3D?us-ascii?Q?QqqaczipyIdkqw9V/OuyJ7JpkWR3BmdUWxWUKVzNhYhj+WhHriZ2hOT43M6=
+y?=3D
+ =3D?us-ascii?Q?eW2jCuRVonlrUw/tQBPcT3e/SxxeDJp3/KWE2e9781vh7KYhF2Lgj1d+tGY=
+m?=3D
+ =3D?us-ascii?Q?+GU4p5HyNPYcfgIfsnTvN6//5XG/ZEZ5qIiKIDuybxMtmUfLC3BF9IRe2lX=
+1?=3D
+ =3D?us-ascii?Q?5MC5XTZZOk6ZjnHRjLdPhqrspB8lk02y2kCuRq9qiV4u/4SypAMyIXBNFdr=
+/?=3D
+ =3D?us-ascii?Q?FxRW1jIZR2SiTbL9FR2I3/AZMN9E2G46nT4Mbd+ZoBZPrhBiVwaO25UyBdF=
+S?=3D
+ =3D?us-ascii?Q?7v+8yK+ENGErlBaBMHxmolz2pAs0JikATzIM3u7rx2RVXDrn0IAEI6jZFCu=
+L?=3D
+ =3D?us-ascii?Q?N8cfn7nDMvjPXkSrrslGnsd1WJI7eqn4tMmjFvEEeKumIwJ6sf9PC5atyRV=
+8?=3D
+ =3D?us-ascii?Q?vcMD8l38XH6yMl3J9sB0TLMTa6REKg5IAGp8EBwGVpU42xyV13sx9niAL8c=
+h?=3D
+ =3D?us-ascii?Q?jJ7Xb6/8LaWcOozZN+PqfNRWrp0LE/0GkIJTe3S2hEcLxc79HNq1Xe6OoU6=
+S?=3D
+ =3D?us-ascii?Q?EZyL8yhBQO0qHA3b1lK9/wKVTZIlUj//eKksIt0nHSagWDGn3u/Ye0jPoZb=
+Q?=3D
+ =3D?us-ascii?Q?pKpTVyQRSPs475hgnA/FiWSE/X3X6poA53VUVVN0dfldLLFYywbgdZGSHaD=
+b?=3D
+ =3D?us-ascii?Q?YONW7lNNBNmxqN2HGEo31LDqbYpr2R8ICxQga5k+FAfH8MEiQZaY78yZcUU=
+T?=3D
+ =3D?us-ascii?Q?VivYndxLH6BKkxxJZguD0ng7u8DQKdi7JFJf/7NPj+Z7HiiY8TCKxPgKJJB=
+2?=3D
+ =3D?us-ascii?Q?9C9l8VwC51Ryzl+JaBdY+1YWKpFRhRrL1iTtr8FVFeeW26E+Cs4XcfA2v6C=
+G?=3D
+ =3D?us-ascii?Q?f6JhJBep+kEsI769XTIr38nafBjcpAXPfHSC0P4Bv/ejt8Q6tMT8wij/TAv=
+1?=3D
+ =3D?us-ascii?Q?51O00oZaH3yDvdbwWRnipaEG/oIyaNgY+8qrAJ0U1AaGLjfTVEsPNgBCG6Q=
+S?=3D
+ =3D?us-ascii?Q?jmzbzsQe/xDE+F5kPNVxtQq/u3L12+FyBj5FVOE/k4jy6sM6GCrJh3Y6s/X=
+O?=3D
+ =3D?us-ascii?Q?qZOYqUG87jzWqlThKgre3lqnx+WvOKc1WyTwqRE9HcRU0j27cP8yY1LqUpB=
+d?=3D
+ =3D?us-ascii?Q?0xzfDFhsCQuz0MEozvYf3zznstz7Fg4AI7UUEp0aO+SNzFIEQpV5t7/kErP=
+n?=3D
+ =3D?us-ascii?Q?zVuCt6cJfCwrv5dYleW/sESlYxGaYSL6FuFpyXV6ArPipvlGx02Ffisp25j=
+S?=3D
+ =3D?us-ascii?Q?Og4SCYzn8cI1b0z7M55C8dTJqw3xzEQ9boWv6U27+dom2g81L0IJbuEULAU=
+E?=3D
+ =3D?us-ascii?Q?1rmAPlMdtbS2dj/UON2xFBjgVV1+?=3D
+X-Forefront-Antispam-Report-Untrusted: CIP:192.158.40.219;CTRY:US;LANG:en;S=
+CL:-1;SRV:;IPV:CAL;SFV:SKN;H:FTDCSWPAPP430.cummins.svcnet;PTR:InfoDomainNon=
+existent;CAT:NONE;SFS:;DIR:INB;
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: SN6PR05MB4686
+X-OrganizationHeadersPreserved: SN6PR05MB4686.namprd05.prod.outlook.com
+X-CrossPremisesHeadersFiltered: ACDCSWPAPP749.cummins.svcnet
+X-OrganizationHeadersPreserved: ACDCSWPAPP749.cummins.svcnet
+X-MS-Exchange-Transport-CrossTenantHeadersStripped: BN3NAM01FT054.eop-nam01=
+.prod.protection.outlook.com
+X-MS-Office365-Filtering-Correlation-Id-Prvs: 89301c56-c9e5-4f48-8320-08d85=
+ae4fa89
+X-Microsoft-Antispam-Untrusted: BCL:0;
+X-Microsoft-Antispam-Message-Info-Original: =3D?us-ascii?Q?+BK+3x3fKJvX5yQE=
+jj3oNCE7CPsTktebkz0TN3l48M9OV2JP+zUvLG47fgHA?=3D
+ =3D?us-ascii?Q?z5Uci1B2W5ktoGwXbfe3x6TJi6CQ4li02EJ57Zjv3raKf7evFie/HT7qWgM=
+X?=3D
+ =3D?us-ascii?Q?8fKr5qaKU0hmVzDK8B196WwuBFQjznJxxRSHdkCgvgklPmuYY0/pR3q7XYP=
+X?=3D
+ =3D?us-ascii?Q?2CJm9qa4Af7bpWYSAKQlqLI1zb2MBvDQY2V5McZlNlRyBEocEBUXRM68AkT=
+2?=3D
+ =3D?us-ascii?Q?MaJRbJYU4ZCAp0gcgOVhZsn8uv4mTa46ldXvYdPn6e49iw0uPBeemGQJmV4=
+N?=3D
+ =3D?us-ascii?Q?YyUjDFvt4HUr3G6PO4Haykts3JHvW7T0cyEmrUXt7utwjjOJ9bjDRyafTeA=
+t?=3D
+ =3D?us-ascii?Q?T9cOaVL2oYeqSd+Q1PZiuvcmQOe8ef8/cu7A9kSnNvqGYIQF180VEcUGaym=
+C?=3D
+ =3D?us-ascii?Q?oPxghdE6Qj3YrZKMySZ0xU9buz+G54z418wRtplG4j9lTj6EaKK10Ma9BsQ=
+3?=3D
+ =3D?us-ascii?Q?U+TwXUPHxmVvg1ZIfx+kAp1tsN4EiVRUCDl1M0jgNc1ms5+RYvkYliN2NRn=
+u?=3D
+ =3D?us-ascii?Q?CY9epF/zva6iNKzQqTmmnSpNsnQ4439FYLOk8t/hVh9e5CCb6Wtvvn7L/mT=
+S?=3D
+ =3D?us-ascii?Q?dgotpikrWqW7DrqOIVBWzZHzUyPNgMj7iNbLfPfMP3ep393A8FeBEIsn8hA=
+9?=3D
+ =3D?us-ascii?Q?YE6wQKsN/n7V90aklRrTXSQ16SLXCuJWZ+J7xDQ4BbLiI/9/4Gqa8Ug/Tr4=
+F?=3D
+ =3D?us-ascii?Q?mcbA2iIYwsjKo4WqDh8sVwUl52nQrSW6sFwCrpuTTLu2kz3y7C9QC5/h1Sh=
+w?=3D
+ =3D?us-ascii?Q?Lj6iSOVU5EqoLe2+Uy+mgQUjUJQF967VpmiILNBVlToqPPV7ODfXVOGL26s=
+k?=3D
+ =3D?us-ascii?Q?IAxWRbB8SEGY8Ux1Ou48DaBwMKY6AyZ5ES9aZKZklGDo1W6NXLRGe1lZ0p1=
+j?=3D
+ =3D?us-ascii?Q?7Ht8PqJ2faHGcmWpHvCx5J5BALiqt1ED70msc7GSqbJoy3m8i+FDZa3iwAm=
+x?=3D
+ =3D?us-ascii?Q?VXFkBSpyQ9DXtqfVqMKWuLUZZDKXvHofwzM/7nm6xV63LBzGu+AB5YTHYgZ=
+f?=3D
+ =3D?us-ascii?Q?qDwyDWHgicLyJ4Lja+PJM4FN54MYoztBsodluhyuRPGveSujxgzXRGgQP7n=
+z?=3D
+ =3D?us-ascii?Q?7ej5EUj3VZ0/WTZpaMbhWUxzTaC5flOvy4dpYrv2kJ/t1i+XUqkux2AHHXB=
++?=3D
+ =3D?us-ascii?Q?kKCrTYvmLMxgM40lsd07sNeS2pls8rNeNoLhjQ0rooUIyqn/FJyl2TLqmTi=
+g?=3D
+ =3D?us-ascii?Q?phnxbgdJ+6aecUGpNKPenhy89qha9X4oA46Wg+hd3CBzIvaObwlotaH31dx=
+u?=3D
+ =3D?us-ascii?Q?j/blmHdaVpM7svZThrKxXE2rrkjM9EOM478EvkULRO3gstmHwMOEZRsIoVv=
+l?=3D
+ =3D?us-ascii?Q?w0wyyflvmljk8+EvstuRpFbJehAu7GUehu4oTtx1HFLnjw=3D3D=3D3D?=
+=3D
+X-Forefront-Antispam-Report-Untrusted: CIP:146.91.48.123;CTRY:US;LANG:en;SC=
+L:-1;SRV:;IPV:CAL;SFV:SKN;H:ACDCSWPAPP749.cummins.svcnet;PTR:InfoDomainNone=
+xistent;CAT:NONE;SFS:;DIR:INB;
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: SJ0PR05MB7486
+X-OrganizationHeadersPreserved: SJ0PR05MB7486.namprd05.prod.outlook.com
+X-CrossPremisesHeadersFiltered: ACDCSWPAPP749.cummins.svcnet
+X-OrganizationHeadersPreserved: ACDCSWPAPP749.cummins.svcnet
+X-MS-Exchange-Transport-CrossTenantHeadersStripped: BN3NAM01FT054.eop-nam01=
+.prod.protection.outlook.com
+X-MS-Office365-Filtering-Correlation-Id-Prvs: 226251bc-000a-415f-83d9-08d85=
+ae50060
+X-Microsoft-Antispam-Untrusted: BCL:0;
+X-Microsoft-Antispam-Message-Info-Original: =3D?us-ascii?Q?WzY1mbAC3j1EVpcz=
+1K6wMhyywJFend/wg0l5M8VwwVjbceIiZZxNpmPbAdSv?=3D
+ =3D?us-ascii?Q?TAGqVIPD5ME2mx5GbPjDMoa1m3Jz7SMU4OpNGk/xjgubExg6Xvdj7YKDum5=
+j?=3D
+ =3D?us-ascii?Q?/PJKpeF/446832G3pG3384TFNAO/jRAAqjIdC2XnyfrBMWDNExO/UTCVw4z=
+N?=3D
+ =3D?us-ascii?Q?A1y6mF1Tf8L+9NN7LB3W3x8eo8XSIwCyMjsaNtSiwCk6JHr3HUfFYvYn+ng=
+b?=3D
+ =3D?us-ascii?Q?wjM9H+sgoWFaEwpB03Iduy33Aum3EKW0vUE7dcGRee3twlJURL3UHzuLUky=
+M?=3D
+ =3D?us-ascii?Q?fDTWbwKItNXvjTsRSLPAAm37Z3Akw2910T/9hTt2kS0zPho9MgAsjk9P5Oy=
+X?=3D
+ =3D?us-ascii?Q?95BLjOv+eKkdUB+ToAWymjbIJJTEZijTWt3CLY8W5C4eiGUjy0sAhy7z9w5=
+q?=3D
+ =3D?us-ascii?Q?aGBDLkRe4dy2R3nA6ZMGjr7gGRhIo2MbYdLl+zSTJtEdj3LGmWwT6TgYqjs=
+b?=3D
+ =3D?us-ascii?Q?TZQ2Vq8O/TEnaXGkBoputODgQ1uGfu04ZuoIFi3spIYN5Pz2tWVZyya5E2e=
+I?=3D
+ =3D?us-ascii?Q?GuTEwWSheeonU22iQefsTYOPQ544QEgTAtIzjaYeBAVeiQXt6Asl/Vfs9QL=
+y?=3D
+ =3D?us-ascii?Q?UXVeNylTJ/PgcZ+WAi/Vz+ktP+Q+m4XmlBTLpwKU5oCWofdPLRCQKW4MCTO=
+m?=3D
+ =3D?us-ascii?Q?XtLiP0d9iShXxn0UG1n8C2ozd4dVRZlOh4+OLu1ef9Qg3rEqWZWErayD6Vm=
+h?=3D
+ =3D?us-ascii?Q?ggR0B1h1UMr5QmTgNfiY4xKbkP3uP2YB3qoBY/gKfeP+/oVIQi3aK55wgDq=
+3?=3D
+ =3D?us-ascii?Q?5JAKgsW7Ngqswme/5C+EVRSSQP3m6bFFbYOtzmccxJcuh79UbQSSsmAKKOJ=
+R?=3D
+ =3D?us-ascii?Q?jXw0SgQMSqzUCjmzHMh1pG45rl/oC6b2enSO0RVaog0UWn2+jLe03rFvzfK=
+g?=3D
+ =3D?us-ascii?Q?h1cSTObJKxysz5drHdM+1/xpfQmkhFLNK9ycUZU97nPJFnmGCUdrb4Sq7K4=
+W?=3D
+ =3D?us-ascii?Q?DRq3gWLONuL/VYYPKigM0XzW5OjZGBFSXt90y811+oFG67nc/1wJeh7jbfB=
+s?=3D
+ =3D?us-ascii?Q?vo6mHMvS9ZUXBoPspmzOK6M2/lwntCzMJfVHBZxw2K4FewpFKfXgmEHCLc6=
+J?=3D
+ =3D?us-ascii?Q?Rl/N2QOQoXyvER2/bINADNhpUcRc/MBNPUaHuJDYrkwyOf43EPvqTALBNU9=
+R?=3D
+ =3D?us-ascii?Q?yE6icwc2IZ5+2D1J+uSBFr1reNRdcZ0ke1nZNf3mm6ox231G0A5p7BuR4+H=
+/?=3D
+ =3D?us-ascii?Q?lCDBKAt2AG5vLeYCT5jhrDDrBIY62qhINgvcgM8eImTgN9aVm5gmSuUaWRU=
+O?=3D
+ =3D?us-ascii?Q?yOuDi42b2JHJoKfvUT6cWvUtBxXmWrsbi8/cAO9zQrY7Gt8pdMZ/jIV4pyy=
+/?=3D
+ =3D?us-ascii?Q?48mU/KmHm1/tH+vprcX9c/5+IEWvynIVuv0FmFGR3jV4AI2EI4tM9IhKx02=
+4?=3D
+ =3D?us-ascii?Q?oOFCo2NfeNk+6THGK4e6Fp5s86W5?=3D
+X-Forefront-Antispam-Report-Untrusted: CIP:146.91.48.123;CTRY:US;LANG:en;SC=
+L:-1;SRV:;IPV:CAL;SFV:SKN;H:ACDCSWPAPP749.cummins.svcnet;PTR:InfoDomainNone=
+xistent;CAT:NONE;SFS:;DIR:INB;
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: BN7PR05MB4051
+X-OrganizationHeadersPreserved: BN7PR05MB4051.namprd05.prod.outlook.com
+X-CrossPremisesHeadersFiltered: FTDCSWPAPP430.cummins.svcnet
+X-OrganizationHeadersPreserved: FTDCSWPAPP430.cummins.svcnet
+X-MS-Exchange-Transport-CrossTenantHeadersStripped: SN1NAM01FT031.eop-nam01=
+.prod.protection.outlook.com
+X-MS-Office365-Filtering-Correlation-Id-Prvs: c47cda24-c3e0-45fd-5243-08d85=
+ae51043
+X-Microsoft-Antispam-Untrusted: BCL:0;
+X-Microsoft-Antispam-Message-Info-Original: =3D?us-ascii?Q?HjOi0EqcWtfKNWzc=
+SSqpQq04AoPhCTgZyjYXZlBvF2VBkk1xdFXlGzvjmZVp?=3D
+ =3D?us-ascii?Q?DO/hfBh6pFLuCrm+EMG0dkl/KfXKGv5phhjB6Bt3wa40gnN0CSQGf1sKgyx=
+S?=3D
+ =3D?us-ascii?Q?AvF29O0cAvLHDBXTgvTOCoI6Fw+BAvhCaoko6JbFIsjMf/Z6nsm6wcVIHhm=
+f?=3D
+ =3D?us-ascii?Q?bF/1jJrUpLchcTG2nQRWUP6/0pil7CEemxD84/7q1zc9gbSZ41B3rT1x/b2=
+p?=3D
+ =3D?us-ascii?Q?ek0hQfk7CYLuP8OKnowYUKzIXBjVRBEKt1+oEi0voTwhe1Wyy+UOUF1QW6t=
+s?=3D
+ =3D?us-ascii?Q?Epq6MZzUTdR11HVapWeesFB7la2Rhcakd+AG0DGUyNcyNpWVR055NV0CzQ6=
+7?=3D
+ =3D?us-ascii?Q?zs3wZY1w0dXx+xbn/qDn1WND61KuiP3wmt2COXMuurSJ0mn+sVPaEVTSDtD=
+j?=3D
+ =3D?us-ascii?Q?740/LD0apZmLAZi1pMn6x+lEzcHr7fFaO3PPv9r8RXycn2S5Ww3tnk5Gv/h=
+U?=3D
+ =3D?us-ascii?Q?pGwGruxuLc5pnDyJtgg5+mQFMJ+Q5MP1Sqi6OPgq1CggEsKUaXZo8BqXLTB=
+f?=3D
+ =3D?us-ascii?Q?um/tKsbOHdiMCXbZdPSRfinbOVjPU8TiB5XKFagKp4BgqJMJB/CBKEYXeMT=
+b?=3D
+ =3D?us-ascii?Q?xCgHFnHdKtYJbFnkOfrvAOfXm28HRJdI/dlJHASAMafPVd3bcRFd7x4iiYY=
+N?=3D
+ =3D?us-ascii?Q?FvPWat1puk6Lkkv0Rpw7L9g/8annn58dGdybRUgNBZcbvStcYstF7yJP9Oe=
+n?=3D
+ =3D?us-ascii?Q?qle0fZclehH/kfUENKT0eWQSSglu572W15kHJ1ys2Rb8/h2Ew8qfywi093P=
+/?=3D
+ =3D?us-ascii?Q?tc60s/Eql4kI+VPLHEgDBfsm3O7A7t2wam2B7H16aX+B7nJSja0WX3yuMpB=
+C?=3D
+ =3D?us-ascii?Q?tNEBQsiTZ9HNgE4x7d+yhTvSUHGDIq4VZGA3QVpLtOvPPmreltp0mkdsqhh=
+T?=3D
+ =3D?us-ascii?Q?yVJkGo3Yt7vCogl3WVuzAxHDQ1W6bFv0BZaXH57VbTnk+kmdri73iXIu1j2=
+D?=3D
+ =3D?us-ascii?Q?RxSqA9wTb7Edz1vfO9I/OjQAXQ5hXE6Dsh79cyTKsgycC81WKMHNTysD2T0=
+m?=3D
+ =3D?us-ascii?Q?Kj50mmGXl9SYBy1Xkn0DinKSXlPLt63FQhg6BY4yzYdK1ZDv2AIZtOGdYO1=
+Q?=3D
+ =3D?us-ascii?Q?IN1xoVDCO4Jg2Es2ZpM4Zz3tj6pRffnXz6xmbK7fKyVJX3JNHVQbr4+08NJ=
+r?=3D
+ =3D?us-ascii?Q?PSS3Ods8YMXCQjoowf/lZIytkGCKS1CURHMZgjVSmD1Qn7enO/w/Hg6p1o2=
+L?=3D
+ =3D?us-ascii?Q?p8mTkYK3EOs4ovdKeIJQNX45j4hVGe1PlmJ9GXTKsoPYnmB+6ZQ7TigYoJN=
+4?=3D
+ =3D?us-ascii?Q?hHNabiB7f3d435ippS+KkkPGk6C8e51pSA2IJmsDpthYWrXtbwxwBxAjsHW=
+y?=3D
+ =3D?us-ascii?Q?8QtoZUr7svTLJQQVL3G1JK7S1L593oRmP6UTNxZ08r/yuctSi0cnS8tlkSD=
+x?=3D
+ =3D?us-ascii?Q?emGB2WokJA6iWq2UqQwKDKXM8ApF?=3D
+X-Forefront-Antispam-Report-Untrusted: CIP:192.158.40.219;CTRY:US;LANG:en;S=
+CL:-1;SRV:;IPV:CAL;SFV:SKN;H:FTDCSWPAPP430.cummins.svcnet;PTR:InfoDomainNon=
+existent;CAT:NONE;SFS:;DIR:INB;
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: BL0PR05MB5268
+X-OrganizationHeadersPreserved: BL0PR05MB5268.namprd05.prod.outlook.com
+X-CrossPremisesHeadersFiltered: ACDCSWPAPP749.cummins.svcnet
+X-OrganizationHeadersPreserved: ACDCSWPAPP749.cummins.svcnet
+X-MS-Exchange-Transport-CrossTenantHeadersStripped: BN3NAM01FT016.eop-nam01=
+.prod.protection.outlook.com
+X-MS-Office365-Filtering-Correlation-Id-Prvs: 44082bb8-498a-4b6f-0a3b-08d85=
+ae56fa6
+X-Microsoft-Antispam-Untrusted: BCL:0;
+X-Microsoft-Antispam-Message-Info-Original: =3D?us-ascii?Q?1iRZ9vf3uAgA8cTm=
+J4xT/Vu5JMlrq2Pz9X1pvQzCqJEmvYsp3FubnCgChpmP?=3D
+ =3D?us-ascii?Q?foxAnGatQkBJ2fJhwEECtNOWyu0ZEu4V2Dfc/fUOMbJD8TRVB8NJeqj5txi=
+x?=3D
+ =3D?us-ascii?Q?PNhf7k0B0/oC9hNuru96Et/4ihcoXZb0s48tMlUNOeY+PWP3l01QwkQGjz9=
+t?=3D
+ =3D?us-ascii?Q?MD4Z/juzVuxmdSqrDgk/0yAvPrkRk4gOnWY693/pATYHJmymoZR5VRPpTdl=
+Z?=3D
+ =3D?us-ascii?Q?O1KAHG4SvvE1zXeZKuRmOmRtHcYI5ngowht4lmcesneadMQl9FzUPcr/s0+=
+x?=3D
+ =3D?us-ascii?Q?vkMVLzufPjEyPTZj8ir08925HaZLw0VBjBvFqG2C77Mex9NL87SJzaCxh/q=
+e?=3D
+ =3D?us-ascii?Q?/irtl7+GJzrvjjpJzHzeSY/HCDZwR2tY8w0ZuzLq5Qa1L7XGwh5vmiSe3OY=
+R?=3D
+ =3D?us-ascii?Q?tgEYQajhVnyxIfpe1e4QKQw0ps+W+hLKQk6I4for/lVLuEEqv1hkiJr9/PD=
+b?=3D
+ =3D?us-ascii?Q?wzJTonaOKJKylCx6uudRFq6xKhII+4E9S+I1vBLRUi25mwvnz5aQpJ9Tgv/=
+E?=3D
+ =3D?us-ascii?Q?rZ3Kofwuo9yaxr1Qy4z8XRW9QBSquKuOV34i4W/qA91q1zjU6wDYgJhIc5l=
+A?=3D
+ =3D?us-ascii?Q?a3UhYVNs2wiZK34LFMLRCt+3mxC/JcMPBim0sJBRRvcxyCXglNnMuHIv0uD=
+q?=3D
+ =3D?us-ascii?Q?QUrw/sccQFNPQfmeBL7IrgKInEk2trIRQXG32vMbBK4/OIdZyo93DpLzVg6=
+U?=3D
+ =3D?us-ascii?Q?00QXZTMJnVqqXbELYJsAIWbfi89dnTy9+i4cP7OBxvc5cp4uNC3rPXTC/03=
+m?=3D
+ =3D?us-ascii?Q?EsBLGzhY+ZKyuM6K7YheHEFDGzn+kVG4fK3qt47pjx1/ZIdTa+rmLqceC9X=
+x?=3D
+ =3D?us-ascii?Q?NDAwScPap1+j8qyohutG5WtQZJNbnVy2NMXQgoEm3RlqVl/kGyNdbE+cr9E=
+V?=3D
+ =3D?us-ascii?Q?2dCaOKuguqyGzCAQ5WuepSj0sr0XXLKCbB104aJuG3DsBAgacwOWjAVA5xm=
+a?=3D
+ =3D?us-ascii?Q?qD/UqB7GTkIy+zGa6IDtzwdhyCIV1YxmKTwUIbmTsSvKlssRrmCN40YrnMt=
+I?=3D
+ =3D?us-ascii?Q?y8rAp1EhsSekw95Y/YiNGKDOBjuI4XANDd7VvJFp8L+GHTf0z22tum53azf=
+O?=3D
+ =3D?us-ascii?Q?4AZOgekhS8apfTn1SrVS6PknnABjb30KmhsXw7i01cb6DGSrEciAkuaCUz2=
+w?=3D
+ =3D?us-ascii?Q?5D413nA7RbNrjmSKEQGU5fOPPICnFTTORjANVGXJhWtSGKgBg98KQExRbYb=
+C?=3D
+ =3D?us-ascii?Q?vcN/n17VUBBenfguVBPaSRzjz9zbeS5xa3J6TmkbI3rw7ynqEsfsOHgo4Xp=
+T?=3D
+ =3D?us-ascii?Q?/wnx++Lqz72BVxniEcErbmJ1tND1k7nCrlmYwpRBhcpGjxY8yrChRcopqwk=
+z?=3D
+ =3D?us-ascii?Q?wLwqxKZxIJSln+UcHvR+LWSQrmdSIlLDolwijmlVjSJBXKS+ka4ffwp78M5=
+5?=3D
+ =3D?us-ascii?Q?4yNo9g13qrR2D1oTsNWs2GCk7bfb?=3D
+X-Forefront-Antispam-Report-Untrusted: CIP:146.91.48.123;CTRY:US;LANG:en;SC=
+L:-1;SRV:;IPV:CAL;SFV:SKN;H:ACDCSWPAPP749.cummins.svcnet;PTR:InfoDomainNone=
+xistent;CAT:NONE;SFS:;DIR:INB;
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: BY5PR05MB6836
+X-OrganizationHeadersPreserved: BY5PR05MB6836.namprd05.prod.outlook.com
+X-CrossPremisesHeadersFiltered: ACDCSWPAPP748.cummins.svcnet
+X-OrganizationHeadersPreserved: ACDCSWPAPP748.cummins.svcnet
+X-MS-Exchange-Transport-CrossTenantHeadersStripped: BN3NAM01FT046.eop-nam01=
+.prod.protection.outlook.com
+X-MS-Office365-Filtering-Correlation-Id-Prvs: 231dff05-7f7a-4919-3f18-08d85=
+ae576c7
+X-Microsoft-Antispam: BCL:0;
+X-Microsoft-Antispam-Message-Info: =3D?utf-8?B?akc3Umt6bmRRZHJqS1hmaVhWUUt6=
+RjZ0ODYvRVZ0UG1idUVFSXFZZDA0VE5k?=3D
+ =3D?utf-8?B?YWxIeVd0d1ZZZFIzSUpDWk1DYkUzVitINFoxT1BQVENIaUdmT1NhQW9sWFJw?=
+=3D
+ =3D?utf-8?B?SUNtbWlVR3YxZDdOaEh6bmJQcUVjelorVWVWalRsSGhkbXV2bU9QQkw1WmlJ?=
+=3D
+ =3D?utf-8?B?ZG40d0J6U3NOUDVOTmwxdHRVbWljZFVBa0hsTTdXVkZGQzlvd2VCc2I3YjZS?=
+=3D
+ =3D?utf-8?B?dzM0Rm5nMW05SkZhakI5UEF5R3hHQm9NSU8yWWhMcEpHSHk1S1FBaUJyU1U2?=
+=3D
+ =3D?utf-8?B?OENZc2pkam5NNmkrOEc2Vmw5K3JVSU9qaXFOc25SMjcrNFVMMC9raGNCbjV2?=
+=3D
+ =3D?utf-8?B?U3hJU3FMQU55aFFPNTAwOGRzWURvTXNyQWVRM0xMMzJ3eVJJeHR6UjNONUpP?=
+=3D
+ =3D?utf-8?B?NWVKVHJBeEM1eXJRL1pGM2RtM3hsUG1KOUZScFZEMFZDMGFIOWJGT3EvV2x3?=
+=3D
+ =3D?utf-8?B?YmFjaWZEWjJraXNqOS9SbXBNa05TOHN0S2ZFMHdtMWQ3SjFvRW5ZcFphUExG?=
+=3D
+ =3D?utf-8?B?dEFKRlF1YWEzRXplUmNMQzdQZUdQekcxUXFrWW15b1ByRGFrbko5MW9sSlYz?=
+=3D
+ =3D?utf-8?B?VUtZLzJ1dUM0TzV0RmRNOSsrNXIyU3lOdzRrcmx2RlBpbDZuUFVMQWxqbng0?=
+=3D
+ =3D?utf-8?B?K2hKSTc3MkVISHhJOEdUVEN0MVF5eG9nemVXMWdLemM3a01zMzR2QmNGalJW?=
+=3D
+ =3D?utf-8?B?cVRQMTdWOVNvRjJYRXhGTlE5V2JkbWFoQmNOMjNmQkI4eERYb3ViU0dwTUxj?=
+=3D
+ =3D?utf-8?B?aCsxbHhQc3BaNHB0VXljU2FsUHV4NDJwbW5pbHBCcjQ2QU4yK2JWaXBrOTVm?=
+=3D
+ =3D?utf-8?B?K0hndWREajlxT0VudWFDUVU2WTNzRGdSeXkzTlNMeEF2REsxM3Y3aldMS0ZX?=
+=3D
+ =3D?utf-8?B?SThWYndPS2FpYzBWU1dINTg1dDhPNndiMmkvcW5xOE5jS05OV1dZa3NRUUV4?=
+=3D
+ =3D?utf-8?B?cDQrZVFyTTNkNXZBN2FIZTFMdjNTa2phY0JVZ29aWmpjbndkRlp6bjNuY2FS?=
+=3D
+ =3D?utf-8?B?ZWZFNS9tMWYxRXRNNnRkcjVkMWFtRVBSczhndERWaGxTSHh3N2dhRzl1SUZX?=
+=3D
+ =3D?utf-8?B?OElmMnNHOGZSNXhlazRGcllBcDlBV1hOaWZoQWRmQy9tL0RlZjhtQWRadTNx?=
+=3D
+ =3D?utf-8?B?bUpJbVFHY1lnaEw2ZmpXYUlOSWZoTkIySnJxa0ZBQmYvdHN1VFRKbVk4NmRR?=
+=3D
+ =3D?utf-8?B?MUVYSkhlUkFkY2hQTkxMbGp1WHY0eEtIRWgxK1NaOVZUay9GdEFjNkk1eTF1?=
+=3D
+ =3D?utf-8?B?OEJVSlZDMTJoV2dVRUpWVVJNclpRaXZBa3BvQ05BNE1NNE91NFY0RXRRNVA1?=
+=3D
+ =3D?utf-8?B?WE1Vb3BETFcraGJCMTE1MkF4SlhMSVBrQWY3YXhwTk5KNzZyT1NsYStBQUVZ?=
+=3D
+ =3D?utf-8?B?T3I2T3E2OEt1VWhkYjhDZVRaNVd4MzVrL2NEL3JVSERRbEkvT2Z4THB4b0RP?=
+=3D
+ =3D?utf-8?B?VE9qM0ZNanQ0TGpKZ2dzVkZuRE93aTBGa2dqM0xHZ0haNitqYjA2L2JvK1RF?=
+=3D
+ =3D?utf-8?B?MkI1UVF2QlZFQjhlR0tpc3BkeUQvdzhDYUlGeWp4QXNXZFlOYTlmSHJITEY1?=
+=3D
+ =3D?utf-8?B?MjROYVlVVElRV2lML1Q1dml6ZjBTMkFrYVZBT0xJZ2QrQ3BmdEhGT09SY3J5?=
+=3D
+ =3D?utf-8?B?TXBCRnBJaCtOeTljWHhOSnNIZGM2R2dTbmM3YlJRVnBNL1hOR1dRWUYrS21q?=
+=3D
+ =3D?utf-8?B?KzZOKzFxVHpIdzliajZhaS9BVEQ4R2pvanJnTXZDalJIYUhFYk9iK1JOTFgx?=
+=3D
+ =3D?utf-8?B?UW9tZjhseVdDVHVRWUp3NFdoT1BnaFN6a3RLUmc0blMrWFc2OUJWMjlFajFD?=
+=3D
+ =3D?utf-8?B?WmRCK2M4a1krUDRndnZDZz09?=3D
+X-Forefront-Antispam-Report: CIP:146.91.48.123;CTRY:US;LANG:en;SCL:-1;SRV:;=
+IPV:CAL;SFV:SKN;H:ACDCSWPAPP748.cummins.svcnet;PTR:InfoDomainNonexistent;CA=
+T:NONE;SFS:;DIR:INB;
+X-MS-Exchange-CrossTenant-OriginalArrivalTime: 17 Sep 2020 08:43:00.9720
+ (UTC)
+X-MS-Exchange-CrossTenant-Network-Message-Id: e4fd70be-bc22-4090-8eb5-08d85=
+ae5af81
+X-MS-Exchange-CrossTenant-Id: b31a5d86-6dda-4457-85e5-c55bbc07923d
+X-MS-Exchange-CrossTenant-OriginalAttributedTenantConnectingIp: TenantId=3D=
+b31a5d86-6dda-4457-85e5-c55bbc07923d;Ip=3D[146.91.48.123];Helo=3D[ACDCSWPAP=
+P748.cummins.svcnet]
+X-MS-Exchange-CrossTenant-AuthSource: BN3NAM01FT046.eop-nam01.prod.protecti=
+on.outlook.com
+X-MS-Exchange-CrossTenant-AuthAs: Anonymous
+X-MS-Exchange-CrossTenant-FromEntityHeader: HybridOnPrem
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: MN2PR05MB6431
+X-OrganizationHeadersPreserved: MN2PR05MB6431.namprd05.prod.outlook.com
+X-CrossPremisesHeadersFiltered: ACDCSWPAPP749.cummins.svcnet
+X-MS-Exchange-CrossPremises-OriginalArrivalTime: 17 Sep 2020 08:47:50.1808
+ (UTC)
+X-MS-Exchange-CrossPremises-OriginalClientIPAddress: 104.47.57.176
+X-MS-Exchange-CrossPremises-OriginalServerIPAddress: 10.208.14.105
+X-MS-Exchange-CrossPremises-AuthSource: ACDCSWPAPP749.cummins.svcnet
+X-MS-Exchange-CrossPremises-AuthAs: Anonymous
+X-MS-Exchange-CrossPremises-Cross-Premises-Headers-Processed: ACDCSWPAPP749=
+.cummins.svcnet
+X-MS-Exchange-CrossPremises-PRD: codem-composites.com
+X-MS-Exchange-CrossPremises-SenderIdResult: SoftFail
+X-MS-Exchange-CrossPremises-Network-Message-Id: db81394d-21b3-4059-c39d-08d=
+85ae65be5
+X-MS-Exchange-CrossPremises-OriginalSize: 52234
+X-MS-Exchange-CrossPremises-HygienePolicy: Standard
+X-OrganizationHeadersPreserved: ACDCSWPAPP749.cummins.svcnet
+
+
+--34f9dc23-d4e6-42cb-9554-1f555886b6fc
+Content-Type: text/html; charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<html>
+<Head></head><body>
+<p><b><font color=3D"#000066" size=3D"3" face=3D"Arial">Delivery has failed=
+ to these recipients or groups:</font></b></p>
+<font color=3D"#000000" size=3D"2" face=3D"Tahoma"><p><a href=3D"mailto:joh=
+n.clark@cummins.com">john.clark@cummins.com</a><br>
+</font>
+<font color=3D"#000000" size=3D"3" face=3D"Arial">A problem occurred during=
+ the delivery of this message. Please try to resend the message later.<br>
+</font>
+<font color=3D"#000000" size=3D"2" face=3D"Tahoma"><br>
+</p>
+<p>The following organization rejected your message: SN1NAM01FT011.mail.pro=
+tection.outlook.com.</p>
+</font>
+<br><br><br><br><br><br>
+<font color=3D"#808080" size=3D"2" face=3D"Tahoma"><p><b>Diagnostic informa=
+tion for administrators:</b></p>
+<p>Generating server: ACDCSWPAPP749.cummins.svcnet<br>
+</p>
+<p>john.clark@cummins.com<br>
+SN1NAM01FT011.mail.protection.outlook.com<br>
+Remote Server  returned '554 5.4.14 Hop count exceeded - possible mail loop=
+ ATTR1 [SN1NAM01FT011.eop-nam01.prod.protection.outlook.com]'<br>
+</p>
+<p>Original message headers:</p>
+<pre>Received: from NAM11-DM6-obe.outbound.protection.outlook.com (104.47.5=
+7.176)
+ by acdcswpapp749.cummins.svcnet (10.208.14.105) with Microsoft SMTP Server
+ (TLS) id 15.0.1178.4; Thu, 17 Sep 2020 03:47:50 -0500
+Received: from BN6PR18CA0019.namprd18.prod.outlook.com (2603:10b6:404:121::=
+29)
+ by MN2PR05MB6431.namprd05.prod.outlook.com (2603:10b6:208:dc::25) with
+ Microsoft SMTP Server (version=3DTLS1_2,
+ cipher=3DTLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.3391.9; Thu, 17 S=
+ep
+ 2020 08:43:01 +0000
+Received: from BN3NAM01FT046.eop-nam01.prod.protection.outlook.com
+ (2603:10b6:404:121:cafe::1b) by BN6PR18CA0019.outlook.office365.com
+ (2603:10b6:404:121::29) with Microsoft SMTP Server (version=3DTLS1_2,
+ cipher=3DTLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.3391.13 via Front=
+end
+ Transport; Thu, 17 Sep 2020 08:43:01 +0000
+Authentication-Results: spf=3Dsoftfail (sender IP is 146.91.48.123)
+ smtp.mailfrom=3Dcodem-composites.com; cummins.com; dkim=3Dfail (body hash =
+did not
+ verify) header.d=3Dcodem-composites.com;cummins.com; dmarc=3Dfail action=
+=3Dnone
+ header.from=3Dcodem-composites.com;
+Received-SPF: SoftFail (ACDCSWPAPP749.cummins.svcnet: domain of transitioni=
+ng
+ kevin@codem-composites.com discourages use of 104.47.57.176 as permitted
+ sender)
+Received-SPF: SoftFail (protection.outlook.com: domain of transitioning
+ codem-composites.com discourages use of 146.91.48.123 as permitted sender)
+Received: from ACDCSWPAPP748.cummins.svcnet (146.91.48.123) by
+ BN3NAM01FT046.mail.protection.outlook.com (10.152.66.89) with Microsoft SM=
+TP
+ Server (version=3DTLS1_2, cipher=3DTLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384) =
+id
+ 15.20.3391.15 via Frontend Transport; Thu, 17 Sep 2020 08:43:00 +0000
+X-CrossPremisesHeadersFilteredBySendConnector: ACDCSWPAPP748.cummins.svcnet
+Received: from NAM10-MW2-obe.outbound.protection.outlook.com (104.47.55.106=
+)
+ by acdcswpapp748.cummins.svcnet (10.208.14.101) with Microsoft SMTP Server
+ (TLS) id 15.0.1178.4; Thu, 17 Sep 2020 03:42:56 -0500
+Received: from BN8PR16CA0035.namprd16.prod.outlook.com (2603:10b6:408:4c::4=
+8)
+ by BY5PR05MB6836.namprd05.prod.outlook.com (2603:10b6:a03:1fa::27) with
+ Microsoft SMTP Server (version=3DTLS1_2,
+ cipher=3DTLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.3391.5; Thu, 17 S=
+ep
+ 2020 08:41:26 +0000
+Received: from BN3NAM01FT016.eop-nam01.prod.protection.outlook.com
+ (2603:10b6:408:4c:cafe::da) by BN8PR16CA0035.outlook.office365.com
+ (2603:10b6:408:4c::48) with Microsoft SMTP Server (version=3DTLS1_2,
+ cipher=3DTLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.3391.13 via Front=
+end
+ Transport; Thu, 17 Sep 2020 08:41:26 +0000
+Authentication-Results-Original: spf=3Dsoftfail (sender IP is 146.91.48.123=
+)
+ smtp.mailfrom=3Dcodem-composites.com; cummins.com; dkim=3Dfail (body hash =
+did not
+ verify) header.d=3Dcodem-composites.com;cummins.com; dmarc=3Dfail action=
+=3Dnone
+ header.from=3Dcodem-composites.com;
+Received-SPF: SoftFail (ACDCSWPAPP748.cummins.svcnet: domain of transitioni=
+ng
+ kevin@codem-composites.com discourages use of 104.47.55.106 as permitted
+ sender)
+Received-SPF: SoftFail (protection.outlook.com: domain of transitioning
+ codem-composites.com discourages use of 146.91.48.123 as permitted sender)
+Received: from ACDCSWPAPP749.cummins.svcnet (146.91.48.123) by
+ BN3NAM01FT016.mail.protection.outlook.com (10.152.66.204) with Microsoft S=
+MTP
+ Server (version=3DTLS1_2, cipher=3DTLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384) =
+id
+ 15.20.3391.15 via Frontend Transport; Thu, 17 Sep 2020 08:41:25 +0000
+X-CrossPremisesHeadersFilteredBySendConnector: ACDCSWPAPP749.cummins.svcnet
+Received: from NAM11-BN8-obe.outbound.protection.outlook.com (104.47.58.171=
+)
+ by acdcswpapp749.cummins.svcnet (10.208.14.105) with Microsoft SMTP Server
+ (TLS) id 15.0.1178.4; Thu, 17 Sep 2020 03:41:20 -0500
+Received: from SN6PR04CA0077.namprd04.prod.outlook.com (2603:10b6:805:f2::1=
+8)
+ by BL0PR05MB5268.namprd05.prod.outlook.com (2603:10b6:208:37::13) with
+ Microsoft SMTP Server (version=3DTLS1_2,
+ cipher=3DTLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.3412.4; Thu, 17 S=
+ep
+ 2020 08:41:14 +0000
+Received: from SN1NAM01FT031.eop-nam01.prod.protection.outlook.com
+ (2603:10b6:805:f2:cafe::e8) by SN6PR04CA0077.outlook.office365.com
+ (2603:10b6:805:f2::18) with Microsoft SMTP Server (version=3DTLS1_2,
+ cipher=3DTLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.3391.11 via Front=
+end
+ Transport; Thu, 17 Sep 2020 08:41:14 +0000
+Authentication-Results-Original: spf=3Dsoftfail (sender IP is 192.158.40.21=
+9)
+ smtp.mailfrom=3Dcodem-composites.com; cummins.com; dkim=3Dfail (body hash =
+did not
+ verify) header.d=3Dcodem-composites.com;cummins.com; dmarc=3Dfail action=
+=3Dnone
+ header.from=3Dcodem-composites.com;
+Received-SPF: SoftFail (ACDCSWPAPP749.cummins.svcnet: domain of transitioni=
+ng
+ kevin@codem-composites.com discourages use of 104.47.58.171 as permitted
+ sender)
+Received-SPF: SoftFail (protection.outlook.com: domain of transitioning
+ codem-composites.com discourages use of 192.158.40.219 as permitted sender=
+)
+Received: from FTDCSWPAPP430.cummins.svcnet (192.158.40.219) by
+ SN1NAM01FT031.mail.protection.outlook.com (10.152.65.215) with Microsoft S=
+MTP
+ Server (version=3DTLS1_2, cipher=3DTLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384) =
+id
+ 15.20.3391.15 via Frontend Transport; Thu, 17 Sep 2020 08:41:13 +0000
+X-CrossPremisesHeadersFilteredBySendConnector: FTDCSWPAPP430.cummins.svcnet
+Received: from NAM11-CO1-obe.outbound.protection.outlook.com (104.47.56.173=
+)
+ by ftdcswpapp430.cummins.svcnet (10.212.15.10) with Microsoft SMTP Server
+ (TLS) id 15.0.1178.4; Thu, 17 Sep 2020 03:41:10 -0500
+Received: from BN8PR03CA0022.namprd03.prod.outlook.com (2603:10b6:408:94::3=
+5)
+ by BN7PR05MB4051.namprd05.prod.outlook.com (2603:10b6:406:92::12) with
+ Microsoft SMTP Server (version=3DTLS1_2,
+ cipher=3DTLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.3412.7; Thu, 17 S=
+ep
+ 2020 08:38:34 +0000
+Received: from BN3NAM01FT054.eop-nam01.prod.protection.outlook.com
+ (2603:10b6:408:94:cafe::e) by BN8PR03CA0022.outlook.office365.com
+ (2603:10b6:408:94::35) with Microsoft SMTP Server (version=3DTLS1_2,
+ cipher=3DTLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.3391.14 via Front=
+end
+ Transport; Thu, 17 Sep 2020 08:38:33 +0000
+Authentication-Results-Original: spf=3Dsoftfail (sender IP is 146.91.48.123=
+)
+ smtp.mailfrom=3Dcodem-composites.com; cummins.com; dkim=3Dfail (body hash =
+did not
+ verify) header.d=3Dcodem-composites.com;cummins.com; dmarc=3Dfail action=
+=3Dnone
+ header.from=3Dcodem-composites.com;
+Received-SPF: SoftFail (FTDCSWPAPP430.cummins.svcnet: domain of transitioni=
+ng
+ kevin@codem-composites.com discourages use of 104.47.56.173 as permitted
+ sender)
+Received-SPF: SoftFail (protection.outlook.com: domain of transitioning
+ codem-composites.com discourages use of 146.91.48.123 as permitted sender)
+Received: from ACDCSWPAPP749.cummins.svcnet (146.91.48.123) by
+ BN3NAM01FT054.mail.protection.outlook.com (10.152.67.208) with Microsoft S=
+MTP
+ Server (version=3DTLS1_2, cipher=3DTLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384) =
+id
+ 15.20.3391.15 via Frontend Transport; Thu, 17 Sep 2020 08:38:33 +0000
+X-CrossPremisesHeadersFilteredBySendConnector: ACDCSWPAPP749.cummins.svcnet
+Received: from NAM04-DM6-obe.outbound.protection.outlook.com (104.47.73.47)=
+ by
+ acdcswpapp749.cummins.svcnet (10.208.14.105) with Microsoft SMTP Server (T=
+LS)
+ id 15.0.1178.4; Thu, 17 Sep 2020 03:38:29 -0500
+Received: from BN8PR03CA0008.namprd03.prod.outlook.com (2603:10b6:408:94::2=
+1)
+ by SJ0PR05MB7486.namprd05.prod.outlook.com (2603:10b6:a03:280::11) with
+ Microsoft SMTP Server (version=3DTLS1_2,
+ cipher=3DTLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.3370.7; Thu, 17 S=
+ep
+ 2020 08:38:07 +0000
+Received: from BN3NAM01FT054.eop-nam01.prod.protection.outlook.com
+ (2603:10b6:408:94:cafe::50) by BN8PR03CA0008.outlook.office365.com
+ (2603:10b6:408:94::21) with Microsoft SMTP Server (version=3DTLS1_2,
+ cipher=3DTLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.3391.14 via Front=
+end
+ Transport; Thu, 17 Sep 2020 08:38:07 +0000
+Authentication-Results-Original: spf=3Dsoftfail (sender IP is 146.91.48.123=
+)
+ smtp.mailfrom=3Dcodem-composites.com; cummins.com; dkim=3Dfail (body hash =
+did not
+ verify) header.d=3Dcodem-composites.com;cummins.com; dmarc=3Dfail action=
+=3Dnone
+ header.from=3Dcodem-composites.com;
+Received-SPF: SoftFail (ACDCSWPAPP749.cummins.svcnet: domain of transitioni=
+ng
+ kevin@codem-composites.com discourages use of 104.47.73.47 as permitted
+ sender)
+Received-SPF: SoftFail (protection.outlook.com: domain of transitioning
+ codem-composites.com discourages use of 146.91.48.123 as permitted sender)
+Received: from ACDCSWPAPP749.cummins.svcnet (146.91.48.123) by
+ BN3NAM01FT054.mail.protection.outlook.com (10.152.67.208) with Microsoft S=
+MTP
+ Server (version=3DTLS1_2, cipher=3DTLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384) =
+id
+ 15.20.3391.15 via Frontend Transport; Thu, 17 Sep 2020 08:38:07 +0000
+X-CrossPremisesHeadersFilteredBySendConnector: ACDCSWPAPP749.cummins.svcnet
+Received: from NAM11-DM6-obe.outbound.protection.outlook.com (104.47.57.177=
+)
+ by acdcswpapp749.cummins.svcnet (10.208.14.105) with Microsoft SMTP Server
+ (TLS) id 15.0.1178.4; Thu, 17 Sep 2020 03:37:57 -0500
+Received: from BN6PR19CA0118.namprd19.prod.outlook.com (2603:10b6:404:a0::3=
+2)
+ by SN6PR05MB4686.namprd05.prod.outlook.com (2603:10b6:805:93::16) with
+ Microsoft SMTP Server (version=3DTLS1_2,
+ cipher=3DTLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.3391.9; Thu, 17 S=
+ep
+ 2020 08:37:57 +0000
+Received: from BN3NAM01FT023.eop-nam01.prod.protection.outlook.com
+ (2603:10b6:404:a0:cafe::5) by BN6PR19CA0118.outlook.office365.com
+ (2603:10b6:404:a0::32) with Microsoft SMTP Server (version=3DTLS1_2,
+ cipher=3DTLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.3391.11 via Front=
+end
+ Transport; Thu, 17 Sep 2020 08:37:57 +0000
+Authentication-Results-Original: spf=3Dsoftfail (sender IP is 192.158.40.21=
+9)
+ smtp.mailfrom=3Dcodem-composites.com; cummins.com; dkim=3Dfail (body hash =
+did not
+ verify) header.d=3Dcodem-composites.com;cummins.com; dmarc=3Dfail action=
+=3Dnone
+ header.from=3Dcodem-composites.com;
+Received-SPF: SoftFail (ACDCSWPAPP749.cummins.svcnet: domain of transitioni=
+ng
+ kevin@codem-composites.com discourages use of 104.47.57.177 as permitted
+ sender)
+Received-SPF: SoftFail (protection.outlook.com: domain of transitioning
+ codem-composites.com discourages use of 192.158.40.219 as permitted sender=
+)
+Received: from FTDCSWPAPP430.cummins.svcnet (192.158.40.219) by
+ BN3NAM01FT023.mail.protection.outlook.com (10.152.67.155) with Microsoft S=
+MTP
+ Server (version=3DTLS1_2, cipher=3DTLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384) =
+id
+ 15.20.3391.15 via Frontend Transport; Thu, 17 Sep 2020 08:37:57 +0000
+X-CrossPremisesHeadersFilteredBySendConnector: FTDCSWPAPP430.cummins.svcnet
+Received: from NAM12-BN8-obe.outbound.protection.outlook.com (104.47.55.171=
+)
+ by ftdcswpapp430.cummins.svcnet (10.212.15.10) with Microsoft SMTP Server
+ (TLS) id 15.0.1178.4; Thu, 17 Sep 2020 03:37:55 -0500
+Received: from BN8PR15CA0056.namprd15.prod.outlook.com (2603:10b6:408:80::3=
+3)
+ by SN6PR05MB5805.namprd05.prod.outlook.com (2603:10b6:805:f4::14) with
+ Microsoft SMTP Server (version=3DTLS1_2,
+ cipher=3DTLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.3391.9; Thu, 17 S=
+ep
+ 2020 08:35:22 +0000
+Received: from BN3NAM01FT028.eop-nam01.prod.protection.outlook.com
+ (2603:10b6:408:80:cafe::df) by BN8PR15CA0056.outlook.office365.com
+ (2603:10b6:408:80::33) with Microsoft SMTP Server (version=3DTLS1_2,
+ cipher=3DTLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.3391.13 via Front=
+end
+ Transport; Thu, 17 Sep 2020 08:35:22 +0000
+Authentication-Results-Original: spf=3Dsoftfail (sender IP is 146.91.48.123=
+)
+ smtp.mailfrom=3Dcodem-composites.com; cummins.com; dkim=3Dfail (body hash =
+did not
+ verify) header.d=3Dcodem-composites.com;cummins.com; dmarc=3Dfail action=
+=3Dnone
+ header.from=3Dcodem-composites.com;
+Received-SPF: SoftFail (FTDCSWPAPP430.cummins.svcnet: domain of transitioni=
+ng
+ kevin@codem-composites.com discourages use of 104.47.55.171 as permitted
+ sender)
+Received-SPF: SoftFail (protection.outlook.com: domain of transitioning
+ codem-composites.com discourages use of 146.91.48.123 as permitted sender)
+Received: from ACDCSWPAPP748.cummins.svcnet (146.91.48.123) by
+ BN3NAM01FT028.mail.protection.outlook.com (10.152.67.96) with Microsoft SM=
+TP
+ Server (version=3DTLS1_2, cipher=3DTLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384) =
+id
+ 15.20.3391.15 via Frontend Transport; Thu, 17 Sep 2020 08:35:21 +0000
+X-CrossPremisesHeadersFilteredBySendConnector: ACDCSWPAPP748.cummins.svcnet
+Received: from NAM12-BN8-obe.outbound.protection.outlook.com (104.47.55.168=
+)
+ by acdcswpapp748.cummins.svcnet (10.208.14.101) with Microsoft SMTP Server
+ (TLS) id 15.0.1178.4; Thu, 17 Sep 2020 03:35:20 -0500
+Received: from SN4PR0401CA0048.namprd04.prod.outlook.com
+ (2603:10b6:803:2a::34) by BYAPR05MB5735.namprd05.prod.outlook.com
+ (2603:10b6:a03:d1::21) with Microsoft SMTP Server (version=3DTLS1_2,
+ cipher=3DTLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.3391.9; Thu, 17 S=
+ep
+ 2020 08:24:53 +0000
+Received: from SN1NAM01FT049.eop-nam01.prod.protection.outlook.com
+ (2603:10b6:803:2a:cafe::a1) by SN4PR0401CA0048.outlook.office365.com
+ (2603:10b6:803:2a::34) with Microsoft SMTP Server (version=3DTLS1_2,
+ cipher=3DTLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.3391.13 via Front=
+end
+ Transport; Thu, 17 Sep 2020 08:24:53 +0000
+Authentication-Results-Original: spf=3Dpass (sender IP is 209.85.166.174)
+ smtp.mailfrom=3Dcodem-composites.com; cummins.com; dkim=3Dpass (signature =
+was
+ verified) header.d=3Dcodem-composites.com;cummins.com; dmarc=3Dpass action=
+=3Dnone
+ header.from=3Dcodem-composites.com;compauth=3Dpass reason=3D100
+Received-SPF: SoftFail (ACDCSWPAPP748.cummins.svcnet: domain of transitioni=
+ng
+ kevin@codem-composites.com discourages use of 104.47.55.168 as permitted
+ sender)
+Received-SPF: Pass (protection.outlook.com: domain of codem-composites.com
+ designates 209.85.166.174 as permitted sender)
+ receiver=3Dprotection.outlook.com; client-ip=3D209.85.166.174;
+ helo=3Dmail-il1-f174.google.com;
+Received: from mail-il1-f174.google.com (209.85.166.174) by
+ SN1NAM01FT049.mail.protection.outlook.com (10.152.64.252) with Microsoft S=
+MTP
+ Server (version=3DTLS1_2, cipher=3DTLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) =
+id
+ 15.20.3370.16 via Frontend Transport; Thu, 17 Sep 2020 08:24:53 +0000
+Received: by mail-il1-f174.google.com with SMTP id s88so1444786ilb.6
+        for &lt;john.clark@cummins.com&gt;; Thu, 17 Sep 2020 01:24:53 -0700=
+ (PDT)
+DKIM-Signature: v=3D1; a=3Drsa-sha256; c=3Drelaxed/relaxed;
+        d=3Dcodem-composites.com; s=3Dgoogle;
+        h=3Dfrom:mime-version:date:message-id:subject:to;
+        bh=3DsUOqXzi3MVNvB9FEYkUVAQSLDF0PH01ZPRVkVNtZTcA=3D;
+        b=3DSCLsy9FAjcHVaX7jSTk3r0z/fpJsm3WFoiwurtj6sQvzppeLhzrNxc5/a+jjl4H=
+5r4
+         ub0LzvPA/mAwZ2Wd5KgdmlhOaOGR1cnanKBjUMJ+OTYA8H5X5Xvce67HxGxcR3JVWb=
+Fw
+         uqqEJwFiAalWr/nGMxhOaAAFnfa9ZobtcXo70RtsUs2//yjfSGKfhOOFACDhPQdzk3=
+NL
+         QI9g844EU5f1I7GK6nxjyKcc8KSi2MXixg/w9MoALVLSAK/5jj+dtgHDeX5yqvp5hm=
+Tc
+         AMaLJRCKDuoXFSyzEm/z9tVRIYCkY7pKzU6111o/nSseziHlJmWQNWevLyZxuFn5on=
+9k
+         +ffg=3D=3D
+X-Google-DKIM-Signature: v=3D1; a=3Drsa-sha256; c=3Drelaxed/relaxed;
+        d=3D1e100.net; s=3D20161025;
+        h=3Dx-gm-message-state:from:mime-version:date:message-id:subject:to=
+;
+        bh=3DsUOqXzi3MVNvB9FEYkUVAQSLDF0PH01ZPRVkVNtZTcA=3D;
+        b=3DfbCTe8d7V/BtYitFg/eoxTZsineVBE6BQvQ163YzP24LObnEmWv9lGzPho03p6P=
+VNM
+         KpnH+rOCetXWBpFhCHDovq+A/qMLVUcWWaiAUrmCYPmxq8bTFh6TJEMIuksScvqdo4=
+lU
+         AIhl/4AFkmBR1iQcJy+Vlj2b53KLdYVq1nJ0R446UPa+HCcGXFYUM+Q37vi9RMv7o0=
+Y1
+         UDolAzlbIcE7nt2V6ACS4O1NZthzEW089Y5KhZsGJXx79TujpnJXMyn+gBf4nnhgTp=
+Fi
+         Yc48vSkE1khvM5Z/+4dLIFXJswue+TSma61bwcn9y1tSFX8tj2FVtzDDwf3LVBD2hG=
+zo
+         J4aQ=3D=3D
+X-Gm-Message-State: AOAM531uHydgbZza0UaRa6EP2Erl0lmhtuYsZfS7PGeEvsV5gtXsugA=
+h
+	xk2TS3s198Xe9iWne+WzVpRurSWeEApdu5Gwo8IHXb39rxs=3D
+X-Google-Smtp-Source: ABdhPJwiEdEalNMliKr6K5OlnAiY6taji9zgkSrZH1Jbj1a8racur=
+WFzOxP5cFVhLg3/NMDT451QBsczCINCn/tedrI=3D
+X-Received: by 2002:a92:1b8b:: with SMTP id f11mr7478216ill.216.16003310921=
+85;
+ Thu, 17 Sep 2020 01:24:52 -0700 (PDT)
+Received: from 696963989851 named unknown by gmailapi.google.com with
+ HTTPREST; Thu, 17 Sep 2020 01:24:51 -0700
+From: Kevin Doherty &lt;kevin@codem-composites.com&gt;
+MIME-Version: 1.0
+Date: Thu, 17 Sep 2020 01:24:51 -0700
+Message-ID: &lt;CAK4cLxh=3DKd5+mA9ayKuaebVLV34NEn1w7BswGWgAEx_3psqS-g@mail.=
+gmail.com&gt;
+Subject: Quick Question, John
+To: &lt;john.clark@cummins.com&gt;
+Content-Type: multipart/alternative; boundary=3D&quot;00000000000045e0a705a=
+f7e1ea5&quot;
+Return-Path: kevin@codem-composites.com
+X-EOPAttributedMessage: 7
+X-MS-Office365-Filtering-HT: Tenant
+X-MS-PublicTrafficType: Email
+X-MS-Office365-Filtering-Correlation-Id: e4fd70be-bc22-4090-8eb5-08d85ae5af=
+81
+X-MS-TrafficTypeDiagnostic: BYAPR05MB5735:|SN6PR05MB5805:|SN6PR05MB4686:|SJ=
+0PR05MB7486:|BN7PR05MB4051:|BL0PR05MB5268:|BY5PR05MB6836:|MN2PR05MB6431:
+X-LD-Processed: b31a5d86-6dda-4457-85e5-c55bbc07923d,ExtAddr,ExtAddr,ExtAdd=
+r
+X-MS-Exchange-AtpMessageProperties: SA
+X-MS-Oob-TLC-OOBClassifiers: OLM:9508;OLM:9508;OLM:9508;OLM:9508;OLM:9508;O=
+LM:9508;OLM:9508;OLM:9508;
+X-Microsoft-Antispam-Untrusted: BCL:0;
+X-Microsoft-Antispam-Message-Info-Original: =3D?us-ascii?Q?XbAGVk8o4Qz2ZszM=
+8N9SNkR2ziLj/V1ViKuCTVcdJB1LIrc/s8VhEN3xMuCt?=3D
+ =3D?us-ascii?Q?VeXK8WRTd2pxepLc3MaZp9tFYLuIIRymZb6rW1kT3+yZ7onId/cwNKJHVy/=
+9?=3D
+ =3D?us-ascii?Q?rofI1EmwaqTC8P0Lwlu1PWyzJIVFvq5FwgKMj1gK3ohE7MJHnalYnUci7iG=
+l?=3D
+ =3D?us-ascii?Q?oEXEj1ulkUkb/F/a6umaQM77KhZBo5veHDqzA+J4w7GooLPLXgDcmv/M4E7=
+4?=3D
+ =3D?us-ascii?Q?xjjbG5tj55QyPxQcBz4tYTFFSPfoCfrIO2L3DnMZ6duZGha+oE+ll35fFGZ=
+k?=3D
+ =3D?us-ascii?Q?+LjBQ91eXwxKDk0b6twVvJsQEr4KlFzGkRTM5DCRWY6LHV4DKa1aUQrMdaH=
+Q?=3D
+ =3D?us-ascii?Q?UMy27+5FCyjzs9X3o98SKZzeKdISnwwsvAOpv87F/LSs4IucQbuasqOIGpp=
+J?=3D
+ =3D?us-ascii?Q?RrXvk7Uoku6k6KUtY/odKKm68dRhItpWV2GAPcJmCqQKmWh9SV+ZVCEiASi=
+z?=3D
+ =3D?us-ascii?Q?Re7TlnVbathcXg1OUg3wVADw6MfNFuXyBbDQd7JrH527eHnEb8IiGpTkk7V=
+z?=3D
+ =3D?us-ascii?Q?sLyK/Wofo3WUkBEABStxzmwuxVZ7Swv75vuKicar+Mg+DJmlYXjAu+XUgFI=
+V?=3D
+ =3D?us-ascii?Q?zNt+9ZFYywHTqFln4h3gOgaunll78rPzwpt5/NrAtKQgo447UbItlF00no5=
+n?=3D
+ =3D?us-ascii?Q?iDGTEm2XnfhszsSDIbnrRwp3pGhRCZHT7j0rcNwJcULDGs8vln3FabD5NLo=
+C?=3D
+ =3D?us-ascii?Q?0wmdL005ia+2sMpP0L+lANGd47u0YYqoz6PPUQpxwJGGiFhlrDeD+EI6/Yf=
+e?=3D
+ =3D?us-ascii?Q?OOcOrg4u50G5q0aHuJKoql8jqT5nRMOM2U9N6L18fXJi18XgMQDD3s5R4zy=
+p?=3D
+ =3D?us-ascii?Q?wTusesOWNmYV4ZnLM1RpxIERjV6ywjv6zUvy+dOqXrSCcPdVVKiQPV6dIK/=
+Y?=3D
+ =3D?us-ascii?Q?fGQsGoYeE+JuCQ7MamKNZGYs7rZ8crN1KtKZU0CzjBCviwpcSJdo9dYE6Uz=
+6?=3D
+ =3D?us-ascii?Q?9B4Pa4obdbcGyFbmrgmWBAQSlCajtzDVySctwFPkXWzRmcJ65qlojMrZ1hB=
+b?=3D
+ =3D?us-ascii?Q?6LzAXoeRfuYaNwgVkvG3uF64FkkEvdfOz6tBmlFnvgrHTIekujSYdpA9hQa=
+Y?=3D
+ =3D?us-ascii?Q?l/55IN+Ayvp+jUzv6BG6PA7lzBjGgr2bdoDzPTtTZ9R3ZrGR5aYI7C0oRM7=
+s?=3D
+ =3D?us-ascii?Q?DDdr9jwGqmtHsASdXRRK53F98AImPTsWmW1X77bpuXHb2UyeivNubBT8IL9=
+K?=3D
+ =3D?us-ascii?Q?nyQKoeEM0h5ZUfuQXrrwgp4Ih3y4oxcBHH1bcCI9JAiS3LRJ2yxhtFnJFV/=
+A?=3D
+ =3D?us-ascii?Q?mwpM69oPgxXTeRQ01L2/8WP0WJUTqSWCjyskea8SsauLKhQBXTiIK1JoHzv=
+e?=3D
+ =3D?us-ascii?Q?e5Zr1idyY9a3RCoOcmi9lnm7sbGDmyTBse7GTUmZgIyfCO1C7oy6dFJbXmK=
+e?=3D
+ =3D?us-ascii?Q?slkdQbc=3D3D?=3D
+X-Forefront-Antispam-Report-Untrusted: CIP:209.85.166.174;CTRY:US;LANG:en;S=
+CL:1;SRV:;IPV:NLI;SFV:NSPM;H:mail-il1-f174.google.com;PTR:mail-il1-f174.goo=
+gle.com;CAT:NONE;SFS:(4636009)(83380400001)(58800400005)(26005)(55446002)(7=
+636003)(7596003)(34756004)(356005)(5660300002)(22186003)(76236003)(166002)(=
+336012)(8676002)(15974865002)(9686003)(86362001)(1096003)(7066003)(19627405=
+001)(6916009)(45080400002)(33964004)(43950500001)(44020500001);DIR:INB;
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: BYAPR05MB5735
+X-OrganizationHeadersPreserved: BYAPR05MB5735.namprd05.prod.outlook.com
+X-CrossPremisesHeadersFiltered: ACDCSWPAPP748.cummins.svcnet
+X-OrganizationHeadersPreserved: ACDCSWPAPP748.cummins.svcnet
+X-MS-Exchange-Transport-CrossTenantHeadersStripped: BN3NAM01FT028.eop-nam01=
+.prod.protection.outlook.com
+X-MS-Office365-Filtering-Correlation-Id-Prvs: c435bc56-aad8-46fe-3128-08d85=
+ae3271b
+AntiSpoofAllow: True
+AllowCheck1: True
+X-Microsoft-Antispam-Untrusted: BCL:0;
+X-Microsoft-Antispam-Message-Info-Original: =3D?us-ascii?Q?KaT2iA67oDxYE18P=
+in9K0GR9uIQ/HYFGLcP0MwtduQKIprxx5XqlekQEASba?=3D
+ =3D?us-ascii?Q?kEVdb0r/hZDHY7991StJBAEPnSlzVpRdQGM2ir0HfZp7LRYWvln6uTIrY1L=
+j?=3D
+ =3D?us-ascii?Q?iiUPntXjtAjsh2xY5hiPYWJ4jNTSlUZgO4BbCKE1k5vUy0EOKlDQKRoYGOB=
+s?=3D
+ =3D?us-ascii?Q?1B/4IJZDAzWX660BkeN0U9fX2RGc8SmaVbSOQ0lHb1Flav2g/OHifUdI4WW=
+u?=3D
+ =3D?us-ascii?Q?+1sm1WQgO3yTItI7zW9YmPHO4PuEetIpiE7nmS+Hu6A/ykc2vo7X0X7OdDK=
++?=3D
+ =3D?us-ascii?Q?N0vojquTNPKNLeRZe30VWEvJBdLbnRgIDOeT38qi//+sfOMP0WIMboVHE48=
+i?=3D
+ =3D?us-ascii?Q?aPAjBwfXVPvayy++PjbTJERF5qSDM6hsp+0qPm4YF27uprc0zaaGKf1vHEg=
+0?=3D
+ =3D?us-ascii?Q?4n4yuLYfvmAm0iyZOSfQCl41vORmVh7QH4dRyDXOjvQiXumNnCEs9aNFJth=
+3?=3D
+ =3D?us-ascii?Q?2G37wGiekY0UfpBPUZN8S1jZsAr75kvG8L5+2+lB8D+rJcJEXgbzoUwgnWE=
+9?=3D
+ =3D?us-ascii?Q?XV/YPRmdobvLy5jgqwZb2J2uPmRD25L02foFGuDr5NBarfQLS7MPCbJFaN4=
+1?=3D
+ =3D?us-ascii?Q?Qt/pGqXgG4Y/XtUKGFATy0aFQ0+gcS1xD00ow6fNZ7MOBpgULGy2/1YH6/W=
+c?=3D
+ =3D?us-ascii?Q?wz1DF3SV1+wrk+uqOPvVmqLmCv1yVlu99L9f/RoLuYmPdJb59HMeb+BjsTm=
+x?=3D
+ =3D?us-ascii?Q?avWNnrKyrSh8TyAnRLaNCaYKWI8zgpixyQJuoPvSOYHq+LEA2bbG3tINmLL=
+6?=3D
+ =3D?us-ascii?Q?a+77NHkNTGbDcsaukiCg2uH7uV3Uld7V4tskcdU5D/cIVklgyJ/KpsoXa/v=
+c?=3D
+ =3D?us-ascii?Q?bgllYWm9q4If6CBsskSGnaXr/RgOkAvYp9FUZkzdUnD8JT0yCzIiuF4h0WK=
+g?=3D
+ =3D?us-ascii?Q?+cJrheE/8GDXPwfw21okN/jdKLnhqrZeHk0tzcVjiLBRnmDKMSai95CJGwC=
+3?=3D
+ =3D?us-ascii?Q?i0/rymD95+ZjHvqHF+C31K53y822sdLI67Ns0T/5J0zU1ZTkkDa6gnP4XxT=
+u?=3D
+ =3D?us-ascii?Q?SkgO/jsJ2Yl+Pgxn6VrY7lNU/y2p6G+RDFszTjT34dUJNtGdxunFM/qUImj=
+h?=3D
+ =3D?us-ascii?Q?cTFxIGZ6PF+1zyEeCnLnvmm3gkmc59MAPjc64UNhK/qOgDK8XBpzt8nMUEJ=
+5?=3D
+ =3D?us-ascii?Q?oL+sR/C6oS41zskSThaYvKZi7ewp4LpX4H4yejuJGctvMN0MwrqHMdiST00=
+k?=3D
+ =3D?us-ascii?Q?BsGkpEW801Tavn9BMnIbki4gLlh+vmdey5LijRODnhC83SHy7K0CR+OK6rO=
+4?=3D
+ =3D?us-ascii?Q?QCbFkqMcMJLZ1DYPcd32iQL4TyFrLSBufOLuWEpAS5YgdvOEf5LRnh7lbPR=
+Y?=3D
+ =3D?us-ascii?Q?Yd6Tqj/qlRoGhJOufnGsjHhg79BDvzmIcNZ6XX+naqbF3g=3D3D=3D3D?=
+=3D
+X-Forefront-Antispam-Report-Untrusted: CIP:146.91.48.123;CTRY:US;LANG:en;SC=
+L:-1;SRV:;IPV:CAL;SFV:SKN;H:ACDCSWPAPP748.cummins.svcnet;PTR:InfoDomainNone=
+xistent;CAT:NONE;SFS:;DIR:INB;
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: SN6PR05MB5805
+X-OrganizationHeadersPreserved: SN6PR05MB5805.namprd05.prod.outlook.com
+X-CrossPremisesHeadersFiltered: FTDCSWPAPP430.cummins.svcnet
+X-OrganizationHeadersPreserved: FTDCSWPAPP430.cummins.svcnet
+X-MS-Exchange-Transport-CrossTenantHeadersStripped: BN3NAM01FT023.eop-nam01=
+.prod.protection.outlook.com
+X-MS-Office365-Filtering-Correlation-Id-Prvs: aefecedb-11d0-48ed-67a7-08d85=
+ae49ddc
+X-Microsoft-Antispam-Untrusted: BCL:0;
+X-Microsoft-Antispam-Message-Info-Original: =3D?us-ascii?Q?yhjcvWM05WT3sjJC=
+ST7M+Ap4awAQZ8+gjDyYjoPYEwElqA9hL4Ni+0gD0hyU?=3D
+ =3D?us-ascii?Q?RRjPmPN4sPy86/hSXKyzwfyO8bFywxLCxK4JzM6ot6VkkEUmZvbaiWC1Vd0=
+w?=3D
+ =3D?us-ascii?Q?QqqaczipyIdkqw9V/OuyJ7JpkWR3BmdUWxWUKVzNhYhj+WhHriZ2hOT43M6=
+y?=3D
+ =3D?us-ascii?Q?eW2jCuRVonlrUw/tQBPcT3e/SxxeDJp3/KWE2e9781vh7KYhF2Lgj1d+tGY=
+m?=3D
+ =3D?us-ascii?Q?+GU4p5HyNPYcfgIfsnTvN6//5XG/ZEZ5qIiKIDuybxMtmUfLC3BF9IRe2lX=
+1?=3D
+ =3D?us-ascii?Q?5MC5XTZZOk6ZjnHRjLdPhqrspB8lk02y2kCuRq9qiV4u/4SypAMyIXBNFdr=
+/?=3D
+ =3D?us-ascii?Q?FxRW1jIZR2SiTbL9FR2I3/AZMN9E2G46nT4Mbd+ZoBZPrhBiVwaO25UyBdF=
+S?=3D
+ =3D?us-ascii?Q?7v+8yK+ENGErlBaBMHxmolz2pAs0JikATzIM3u7rx2RVXDrn0IAEI6jZFCu=
+L?=3D
+ =3D?us-ascii?Q?N8cfn7nDMvjPXkSrrslGnsd1WJI7eqn4tMmjFvEEeKumIwJ6sf9PC5atyRV=
+8?=3D
+ =3D?us-ascii?Q?vcMD8l38XH6yMl3J9sB0TLMTa6REKg5IAGp8EBwGVpU42xyV13sx9niAL8c=
+h?=3D
+ =3D?us-ascii?Q?jJ7Xb6/8LaWcOozZN+PqfNRWrp0LE/0GkIJTe3S2hEcLxc79HNq1Xe6OoU6=
+S?=3D
+ =3D?us-ascii?Q?EZyL8yhBQO0qHA3b1lK9/wKVTZIlUj//eKksIt0nHSagWDGn3u/Ye0jPoZb=
+Q?=3D
+ =3D?us-ascii?Q?pKpTVyQRSPs475hgnA/FiWSE/X3X6poA53VUVVN0dfldLLFYywbgdZGSHaD=
+b?=3D
+ =3D?us-ascii?Q?YONW7lNNBNmxqN2HGEo31LDqbYpr2R8ICxQga5k+FAfH8MEiQZaY78yZcUU=
+T?=3D
+ =3D?us-ascii?Q?VivYndxLH6BKkxxJZguD0ng7u8DQKdi7JFJf/7NPj+Z7HiiY8TCKxPgKJJB=
+2?=3D
+ =3D?us-ascii?Q?9C9l8VwC51Ryzl+JaBdY+1YWKpFRhRrL1iTtr8FVFeeW26E+Cs4XcfA2v6C=
+G?=3D
+ =3D?us-ascii?Q?f6JhJBep+kEsI769XTIr38nafBjcpAXPfHSC0P4Bv/ejt8Q6tMT8wij/TAv=
+1?=3D
+ =3D?us-ascii?Q?51O00oZaH3yDvdbwWRnipaEG/oIyaNgY+8qrAJ0U1AaGLjfTVEsPNgBCG6Q=
+S?=3D
+ =3D?us-ascii?Q?jmzbzsQe/xDE+F5kPNVxtQq/u3L12+FyBj5FVOE/k4jy6sM6GCrJh3Y6s/X=
+O?=3D
+ =3D?us-ascii?Q?qZOYqUG87jzWqlThKgre3lqnx+WvOKc1WyTwqRE9HcRU0j27cP8yY1LqUpB=
+d?=3D
+ =3D?us-ascii?Q?0xzfDFhsCQuz0MEozvYf3zznstz7Fg4AI7UUEp0aO+SNzFIEQpV5t7/kErP=
+n?=3D
+ =3D?us-ascii?Q?zVuCt6cJfCwrv5dYleW/sESlYxGaYSL6FuFpyXV6ArPipvlGx02Ffisp25j=
+S?=3D
+ =3D?us-ascii?Q?Og4SCYzn8cI1b0z7M55C8dTJqw3xzEQ9boWv6U27+dom2g81L0IJbuEULAU=
+E?=3D
+ =3D?us-ascii?Q?1rmAPlMdtbS2dj/UON2xFBjgVV1+?=3D
+X-Forefront-Antispam-Report-Untrusted: CIP:192.158.40.219;CTRY:US;LANG:en;S=
+CL:-1;SRV:;IPV:CAL;SFV:SKN;H:FTDCSWPAPP430.cummins.svcnet;PTR:InfoDomainNon=
+existent;CAT:NONE;SFS:;DIR:INB;
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: SN6PR05MB4686
+X-OrganizationHeadersPreserved: SN6PR05MB4686.namprd05.prod.outlook.com
+X-CrossPremisesHeadersFiltered: ACDCSWPAPP749.cummins.svcnet
+X-OrganizationHeadersPreserved: ACDCSWPAPP749.cummins.svcnet
+X-MS-Exchange-Transport-CrossTenantHeadersStripped: BN3NAM01FT054.eop-nam01=
+.prod.protection.outlook.com
+X-MS-Office365-Filtering-Correlation-Id-Prvs: 89301c56-c9e5-4f48-8320-08d85=
+ae4fa89
+X-Microsoft-Antispam-Untrusted: BCL:0;
+X-Microsoft-Antispam-Message-Info-Original: =3D?us-ascii?Q?+BK+3x3fKJvX5yQE=
+jj3oNCE7CPsTktebkz0TN3l48M9OV2JP+zUvLG47fgHA?=3D
+ =3D?us-ascii?Q?z5Uci1B2W5ktoGwXbfe3x6TJi6CQ4li02EJ57Zjv3raKf7evFie/HT7qWgM=
+X?=3D
+ =3D?us-ascii?Q?8fKr5qaKU0hmVzDK8B196WwuBFQjznJxxRSHdkCgvgklPmuYY0/pR3q7XYP=
+X?=3D
+ =3D?us-ascii?Q?2CJm9qa4Af7bpWYSAKQlqLI1zb2MBvDQY2V5McZlNlRyBEocEBUXRM68AkT=
+2?=3D
+ =3D?us-ascii?Q?MaJRbJYU4ZCAp0gcgOVhZsn8uv4mTa46ldXvYdPn6e49iw0uPBeemGQJmV4=
+N?=3D
+ =3D?us-ascii?Q?YyUjDFvt4HUr3G6PO4Haykts3JHvW7T0cyEmrUXt7utwjjOJ9bjDRyafTeA=
+t?=3D
+ =3D?us-ascii?Q?T9cOaVL2oYeqSd+Q1PZiuvcmQOe8ef8/cu7A9kSnNvqGYIQF180VEcUGaym=
+C?=3D
+ =3D?us-ascii?Q?oPxghdE6Qj3YrZKMySZ0xU9buz+G54z418wRtplG4j9lTj6EaKK10Ma9BsQ=
+3?=3D
+ =3D?us-ascii?Q?U+TwXUPHxmVvg1ZIfx+kAp1tsN4EiVRUCDl1M0jgNc1ms5+RYvkYliN2NRn=
+u?=3D
+ =3D?us-ascii?Q?CY9epF/zva6iNKzQqTmmnSpNsnQ4439FYLOk8t/hVh9e5CCb6Wtvvn7L/mT=
+S?=3D
+ =3D?us-ascii?Q?dgotpikrWqW7DrqOIVBWzZHzUyPNgMj7iNbLfPfMP3ep393A8FeBEIsn8hA=
+9?=3D
+ =3D?us-ascii?Q?YE6wQKsN/n7V90aklRrTXSQ16SLXCuJWZ+J7xDQ4BbLiI/9/4Gqa8Ug/Tr4=
+F?=3D
+ =3D?us-ascii?Q?mcbA2iIYwsjKo4WqDh8sVwUl52nQrSW6sFwCrpuTTLu2kz3y7C9QC5/h1Sh=
+w?=3D
+ =3D?us-ascii?Q?Lj6iSOVU5EqoLe2+Uy+mgQUjUJQF967VpmiILNBVlToqPPV7ODfXVOGL26s=
+k?=3D
+ =3D?us-ascii?Q?IAxWRbB8SEGY8Ux1Ou48DaBwMKY6AyZ5ES9aZKZklGDo1W6NXLRGe1lZ0p1=
+j?=3D
+ =3D?us-ascii?Q?7Ht8PqJ2faHGcmWpHvCx5J5BALiqt1ED70msc7GSqbJoy3m8i+FDZa3iwAm=
+x?=3D
+ =3D?us-ascii?Q?VXFkBSpyQ9DXtqfVqMKWuLUZZDKXvHofwzM/7nm6xV63LBzGu+AB5YTHYgZ=
+f?=3D
+ =3D?us-ascii?Q?qDwyDWHgicLyJ4Lja+PJM4FN54MYoztBsodluhyuRPGveSujxgzXRGgQP7n=
+z?=3D
+ =3D?us-ascii?Q?7ej5EUj3VZ0/WTZpaMbhWUxzTaC5flOvy4dpYrv2kJ/t1i+XUqkux2AHHXB=
++?=3D
+ =3D?us-ascii?Q?kKCrTYvmLMxgM40lsd07sNeS2pls8rNeNoLhjQ0rooUIyqn/FJyl2TLqmTi=
+g?=3D
+ =3D?us-ascii?Q?phnxbgdJ+6aecUGpNKPenhy89qha9X4oA46Wg+hd3CBzIvaObwlotaH31dx=
+u?=3D
+ =3D?us-ascii?Q?j/blmHdaVpM7svZThrKxXE2rrkjM9EOM478EvkULRO3gstmHwMOEZRsIoVv=
+l?=3D
+ =3D?us-ascii?Q?w0wyyflvmljk8+EvstuRpFbJehAu7GUehu4oTtx1HFLnjw=3D3D=3D3D?=
+=3D
+X-Forefront-Antispam-Report-Untrusted: CIP:146.91.48.123;CTRY:US;LANG:en;SC=
+L:-1;SRV:;IPV:CAL;SFV:SKN;H:ACDCSWPAPP749.cummins.svcnet;PTR:InfoDomainNone=
+xistent;CAT:NONE;SFS:;DIR:INB;
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: SJ0PR05MB7486
+X-OrganizationHeadersPreserved: SJ0PR05MB7486.namprd05.prod.outlook.com
+X-CrossPremisesHeadersFiltered: ACDCSWPAPP749.cummins.svcnet
+X-OrganizationHeadersPreserved: ACDCSWPAPP749.cummins.svcnet
+X-MS-Exchange-Transport-CrossTenantHeadersStripped: BN3NAM01FT054.eop-nam01=
+.prod.protection.outlook.com
+X-MS-Office365-Filtering-Correlation-Id-Prvs: 226251bc-000a-415f-83d9-08d85=
+ae50060
+X-Microsoft-Antispam-Untrusted: BCL:0;
+X-Microsoft-Antispam-Message-Info-Original: =3D?us-ascii?Q?WzY1mbAC3j1EVpcz=
+1K6wMhyywJFend/wg0l5M8VwwVjbceIiZZxNpmPbAdSv?=3D
+ =3D?us-ascii?Q?TAGqVIPD5ME2mx5GbPjDMoa1m3Jz7SMU4OpNGk/xjgubExg6Xvdj7YKDum5=
+j?=3D
+ =3D?us-ascii?Q?/PJKpeF/446832G3pG3384TFNAO/jRAAqjIdC2XnyfrBMWDNExO/UTCVw4z=
+N?=3D
+ =3D?us-ascii?Q?A1y6mF1Tf8L+9NN7LB3W3x8eo8XSIwCyMjsaNtSiwCk6JHr3HUfFYvYn+ng=
+b?=3D
+ =3D?us-ascii?Q?wjM9H+sgoWFaEwpB03Iduy33Aum3EKW0vUE7dcGRee3twlJURL3UHzuLUky=
+M?=3D
+ =3D?us-ascii?Q?fDTWbwKItNXvjTsRSLPAAm37Z3Akw2910T/9hTt2kS0zPho9MgAsjk9P5Oy=
+X?=3D
+ =3D?us-ascii?Q?95BLjOv+eKkdUB+ToAWymjbIJJTEZijTWt3CLY8W5C4eiGUjy0sAhy7z9w5=
+q?=3D
+ =3D?us-ascii?Q?aGBDLkRe4dy2R3nA6ZMGjr7gGRhIo2MbYdLl+zSTJtEdj3LGmWwT6TgYqjs=
+b?=3D
+ =3D?us-ascii?Q?TZQ2Vq8O/TEnaXGkBoputODgQ1uGfu04ZuoIFi3spIYN5Pz2tWVZyya5E2e=
+I?=3D
+ =3D?us-ascii?Q?GuTEwWSheeonU22iQefsTYOPQ544QEgTAtIzjaYeBAVeiQXt6Asl/Vfs9QL=
+y?=3D
+ =3D?us-ascii?Q?UXVeNylTJ/PgcZ+WAi/Vz+ktP+Q+m4XmlBTLpwKU5oCWofdPLRCQKW4MCTO=
+m?=3D
+ =3D?us-ascii?Q?XtLiP0d9iShXxn0UG1n8C2ozd4dVRZlOh4+OLu1ef9Qg3rEqWZWErayD6Vm=
+h?=3D
+ =3D?us-ascii?Q?ggR0B1h1UMr5QmTgNfiY4xKbkP3uP2YB3qoBY/gKfeP+/oVIQi3aK55wgDq=
+3?=3D
+ =3D?us-ascii?Q?5JAKgsW7Ngqswme/5C+EVRSSQP3m6bFFbYOtzmccxJcuh79UbQSSsmAKKOJ=
+R?=3D
+ =3D?us-ascii?Q?jXw0SgQMSqzUCjmzHMh1pG45rl/oC6b2enSO0RVaog0UWn2+jLe03rFvzfK=
+g?=3D
+ =3D?us-ascii?Q?h1cSTObJKxysz5drHdM+1/xpfQmkhFLNK9ycUZU97nPJFnmGCUdrb4Sq7K4=
+W?=3D
+ =3D?us-ascii?Q?DRq3gWLONuL/VYYPKigM0XzW5OjZGBFSXt90y811+oFG67nc/1wJeh7jbfB=
+s?=3D
+ =3D?us-ascii?Q?vo6mHMvS9ZUXBoPspmzOK6M2/lwntCzMJfVHBZxw2K4FewpFKfXgmEHCLc6=
+J?=3D
+ =3D?us-ascii?Q?Rl/N2QOQoXyvER2/bINADNhpUcRc/MBNPUaHuJDYrkwyOf43EPvqTALBNU9=
+R?=3D
+ =3D?us-ascii?Q?yE6icwc2IZ5+2D1J+uSBFr1reNRdcZ0ke1nZNf3mm6ox231G0A5p7BuR4+H=
+/?=3D
+ =3D?us-ascii?Q?lCDBKAt2AG5vLeYCT5jhrDDrBIY62qhINgvcgM8eImTgN9aVm5gmSuUaWRU=
+O?=3D
+ =3D?us-ascii?Q?yOuDi42b2JHJoKfvUT6cWvUtBxXmWrsbi8/cAO9zQrY7Gt8pdMZ/jIV4pyy=
+/?=3D
+ =3D?us-ascii?Q?48mU/KmHm1/tH+vprcX9c/5+IEWvynIVuv0FmFGR3jV4AI2EI4tM9IhKx02=
+4?=3D
+ =3D?us-ascii?Q?oOFCo2NfeNk+6THGK4e6Fp5s86W5?=3D
+X-Forefront-Antispam-Report-Untrusted: CIP:146.91.48.123;CTRY:US;LANG:en;SC=
+L:-1;SRV:;IPV:CAL;SFV:SKN;H:ACDCSWPAPP749.cummins.svcnet;PTR:InfoDomainNone=
+xistent;CAT:NONE;SFS:;DIR:INB;
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: BN7PR05MB4051
+X-OrganizationHeadersPreserved: BN7PR05MB4051.namprd05.prod.outlook.com
+X-CrossPremisesHeadersFiltered: FTDCSWPAPP430.cummins.svcnet
+X-OrganizationHeadersPreserved: FTDCSWPAPP430.cummins.svcnet
+X-MS-Exchange-Transport-CrossTenantHeadersStripped: SN1NAM01FT031.eop-nam01=
+.prod.protection.outlook.com
+X-MS-Office365-Filtering-Correlation-Id-Prvs: c47cda24-c3e0-45fd-5243-08d85=
+ae51043
+X-Microsoft-Antispam-Untrusted: BCL:0;
+X-Microsoft-Antispam-Message-Info-Original: =3D?us-ascii?Q?HjOi0EqcWtfKNWzc=
+SSqpQq04AoPhCTgZyjYXZlBvF2VBkk1xdFXlGzvjmZVp?=3D
+ =3D?us-ascii?Q?DO/hfBh6pFLuCrm+EMG0dkl/KfXKGv5phhjB6Bt3wa40gnN0CSQGf1sKgyx=
+S?=3D
+ =3D?us-ascii?Q?AvF29O0cAvLHDBXTgvTOCoI6Fw+BAvhCaoko6JbFIsjMf/Z6nsm6wcVIHhm=
+f?=3D
+ =3D?us-ascii?Q?bF/1jJrUpLchcTG2nQRWUP6/0pil7CEemxD84/7q1zc9gbSZ41B3rT1x/b2=
+p?=3D
+ =3D?us-ascii?Q?ek0hQfk7CYLuP8OKnowYUKzIXBjVRBEKt1+oEi0voTwhe1Wyy+UOUF1QW6t=
+s?=3D
+ =3D?us-ascii?Q?Epq6MZzUTdR11HVapWeesFB7la2Rhcakd+AG0DGUyNcyNpWVR055NV0CzQ6=
+7?=3D
+ =3D?us-ascii?Q?zs3wZY1w0dXx+xbn/qDn1WND61KuiP3wmt2COXMuurSJ0mn+sVPaEVTSDtD=
+j?=3D
+ =3D?us-ascii?Q?740/LD0apZmLAZi1pMn6x+lEzcHr7fFaO3PPv9r8RXycn2S5Ww3tnk5Gv/h=
+U?=3D
+ =3D?us-ascii?Q?pGwGruxuLc5pnDyJtgg5+mQFMJ+Q5MP1Sqi6OPgq1CggEsKUaXZo8BqXLTB=
+f?=3D
+ =3D?us-ascii?Q?um/tKsbOHdiMCXbZdPSRfinbOVjPU8TiB5XKFagKp4BgqJMJB/CBKEYXeMT=
+b?=3D
+ =3D?us-ascii?Q?xCgHFnHdKtYJbFnkOfrvAOfXm28HRJdI/dlJHASAMafPVd3bcRFd7x4iiYY=
+N?=3D
+ =3D?us-ascii?Q?FvPWat1puk6Lkkv0Rpw7L9g/8annn58dGdybRUgNBZcbvStcYstF7yJP9Oe=
+n?=3D
+ =3D?us-ascii?Q?qle0fZclehH/kfUENKT0eWQSSglu572W15kHJ1ys2Rb8/h2Ew8qfywi093P=
+/?=3D
+ =3D?us-ascii?Q?tc60s/Eql4kI+VPLHEgDBfsm3O7A7t2wam2B7H16aX+B7nJSja0WX3yuMpB=
+C?=3D
+ =3D?us-ascii?Q?tNEBQsiTZ9HNgE4x7d+yhTvSUHGDIq4VZGA3QVpLtOvPPmreltp0mkdsqhh=
+T?=3D
+ =3D?us-ascii?Q?yVJkGo3Yt7vCogl3WVuzAxHDQ1W6bFv0BZaXH57VbTnk+kmdri73iXIu1j2=
+D?=3D
+ =3D?us-ascii?Q?RxSqA9wTb7Edz1vfO9I/OjQAXQ5hXE6Dsh79cyTKsgycC81WKMHNTysD2T0=
+m?=3D
+ =3D?us-ascii?Q?Kj50mmGXl9SYBy1Xkn0DinKSXlPLt63FQhg6BY4yzYdK1ZDv2AIZtOGdYO1=
+Q?=3D
+ =3D?us-ascii?Q?IN1xoVDCO4Jg2Es2ZpM4Zz3tj6pRffnXz6xmbK7fKyVJX3JNHVQbr4+08NJ=
+r?=3D
+ =3D?us-ascii?Q?PSS3Ods8YMXCQjoowf/lZIytkGCKS1CURHMZgjVSmD1Qn7enO/w/Hg6p1o2=
+L?=3D
+ =3D?us-ascii?Q?p8mTkYK3EOs4ovdKeIJQNX45j4hVGe1PlmJ9GXTKsoPYnmB+6ZQ7TigYoJN=
+4?=3D
+ =3D?us-ascii?Q?hHNabiB7f3d435ippS+KkkPGk6C8e51pSA2IJmsDpthYWrXtbwxwBxAjsHW=
+y?=3D
+ =3D?us-ascii?Q?8QtoZUr7svTLJQQVL3G1JK7S1L593oRmP6UTNxZ08r/yuctSi0cnS8tlkSD=
+x?=3D
+ =3D?us-ascii?Q?emGB2WokJA6iWq2UqQwKDKXM8ApF?=3D
+X-Forefront-Antispam-Report-Untrusted: CIP:192.158.40.219;CTRY:US;LANG:en;S=
+CL:-1;SRV:;IPV:CAL;SFV:SKN;H:FTDCSWPAPP430.cummins.svcnet;PTR:InfoDomainNon=
+existent;CAT:NONE;SFS:;DIR:INB;
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: BL0PR05MB5268
+X-OrganizationHeadersPreserved: BL0PR05MB5268.namprd05.prod.outlook.com
+X-CrossPremisesHeadersFiltered: ACDCSWPAPP749.cummins.svcnet
+X-OrganizationHeadersPreserved: ACDCSWPAPP749.cummins.svcnet
+X-MS-Exchange-Transport-CrossTenantHeadersStripped: BN3NAM01FT016.eop-nam01=
+.prod.protection.outlook.com
+X-MS-Office365-Filtering-Correlation-Id-Prvs: 44082bb8-498a-4b6f-0a3b-08d85=
+ae56fa6
+X-Microsoft-Antispam-Untrusted: BCL:0;
+X-Microsoft-Antispam-Message-Info-Original: =3D?us-ascii?Q?1iRZ9vf3uAgA8cTm=
+J4xT/Vu5JMlrq2Pz9X1pvQzCqJEmvYsp3FubnCgChpmP?=3D
+ =3D?us-ascii?Q?foxAnGatQkBJ2fJhwEECtNOWyu0ZEu4V2Dfc/fUOMbJD8TRVB8NJeqj5txi=
+x?=3D
+ =3D?us-ascii?Q?PNhf7k0B0/oC9hNuru96Et/4ihcoXZb0s48tMlUNOeY+PWP3l01QwkQGjz9=
+t?=3D
+ =3D?us-ascii?Q?MD4Z/juzVuxmdSqrDgk/0yAvPrkRk4gOnWY693/pATYHJmymoZR5VRPpTdl=
+Z?=3D
+ =3D?us-ascii?Q?O1KAHG4SvvE1zXeZKuRmOmRtHcYI5ngowht4lmcesneadMQl9FzUPcr/s0+=
+x?=3D
+ =3D?us-ascii?Q?vkMVLzufPjEyPTZj8ir08925HaZLw0VBjBvFqG2C77Mex9NL87SJzaCxh/q=
+e?=3D
+ =3D?us-ascii?Q?/irtl7+GJzrvjjpJzHzeSY/HCDZwR2tY8w0ZuzLq5Qa1L7XGwh5vmiSe3OY=
+R?=3D
+ =3D?us-ascii?Q?tgEYQajhVnyxIfpe1e4QKQw0ps+W+hLKQk6I4for/lVLuEEqv1hkiJr9/PD=
+b?=3D
+ =3D?us-ascii?Q?wzJTonaOKJKylCx6uudRFq6xKhII+4E9S+I1vBLRUi25mwvnz5aQpJ9Tgv/=
+E?=3D
+ =3D?us-ascii?Q?rZ3Kofwuo9yaxr1Qy4z8XRW9QBSquKuOV34i4W/qA91q1zjU6wDYgJhIc5l=
+A?=3D
+ =3D?us-ascii?Q?a3UhYVNs2wiZK34LFMLRCt+3mxC/JcMPBim0sJBRRvcxyCXglNnMuHIv0uD=
+q?=3D
+ =3D?us-ascii?Q?QUrw/sccQFNPQfmeBL7IrgKInEk2trIRQXG32vMbBK4/OIdZyo93DpLzVg6=
+U?=3D
+ =3D?us-ascii?Q?00QXZTMJnVqqXbELYJsAIWbfi89dnTy9+i4cP7OBxvc5cp4uNC3rPXTC/03=
+m?=3D
+ =3D?us-ascii?Q?EsBLGzhY+ZKyuM6K7YheHEFDGzn+kVG4fK3qt47pjx1/ZIdTa+rmLqceC9X=
+x?=3D
+ =3D?us-ascii?Q?NDAwScPap1+j8qyohutG5WtQZJNbnVy2NMXQgoEm3RlqVl/kGyNdbE+cr9E=
+V?=3D
+ =3D?us-ascii?Q?2dCaOKuguqyGzCAQ5WuepSj0sr0XXLKCbB104aJuG3DsBAgacwOWjAVA5xm=
+a?=3D
+ =3D?us-ascii?Q?qD/UqB7GTkIy+zGa6IDtzwdhyCIV1YxmKTwUIbmTsSvKlssRrmCN40YrnMt=
+I?=3D
+ =3D?us-ascii?Q?y8rAp1EhsSekw95Y/YiNGKDOBjuI4XANDd7VvJFp8L+GHTf0z22tum53azf=
+O?=3D
+ =3D?us-ascii?Q?4AZOgekhS8apfTn1SrVS6PknnABjb30KmhsXw7i01cb6DGSrEciAkuaCUz2=
+w?=3D
+ =3D?us-ascii?Q?5D413nA7RbNrjmSKEQGU5fOPPICnFTTORjANVGXJhWtSGKgBg98KQExRbYb=
+C?=3D
+ =3D?us-ascii?Q?vcN/n17VUBBenfguVBPaSRzjz9zbeS5xa3J6TmkbI3rw7ynqEsfsOHgo4Xp=
+T?=3D
+ =3D?us-ascii?Q?/wnx++Lqz72BVxniEcErbmJ1tND1k7nCrlmYwpRBhcpGjxY8yrChRcopqwk=
+z?=3D
+ =3D?us-ascii?Q?wLwqxKZxIJSln+UcHvR+LWSQrmdSIlLDolwijmlVjSJBXKS+ka4ffwp78M5=
+5?=3D
+ =3D?us-ascii?Q?4yNo9g13qrR2D1oTsNWs2GCk7bfb?=3D
+X-Forefront-Antispam-Report-Untrusted: CIP:146.91.48.123;CTRY:US;LANG:en;SC=
+L:-1;SRV:;IPV:CAL;SFV:SKN;H:ACDCSWPAPP749.cummins.svcnet;PTR:InfoDomainNone=
+xistent;CAT:NONE;SFS:;DIR:INB;
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: BY5PR05MB6836
+X-OrganizationHeadersPreserved: BY5PR05MB6836.namprd05.prod.outlook.com
+X-CrossPremisesHeadersFiltered: ACDCSWPAPP748.cummins.svcnet
+X-OrganizationHeadersPreserved: ACDCSWPAPP748.cummins.svcnet
+X-MS-Exchange-Transport-CrossTenantHeadersStripped: BN3NAM01FT046.eop-nam01=
+.prod.protection.outlook.com
+X-MS-Office365-Filtering-Correlation-Id-Prvs: 231dff05-7f7a-4919-3f18-08d85=
+ae576c7
+X-Microsoft-Antispam: BCL:0;
+X-Microsoft-Antispam-Message-Info: =3D?utf-8?B?akc3Umt6bmRRZHJqS1hmaVhWUUt6=
+RjZ0ODYvRVZ0UG1idUVFSXFZZDA0VE5k?=3D
+ =3D?utf-8?B?YWxIeVd0d1ZZZFIzSUpDWk1DYkUzVitINFoxT1BQVENIaUdmT1NhQW9sWFJw?=
+=3D
+ =3D?utf-8?B?SUNtbWlVR3YxZDdOaEh6bmJQcUVjelorVWVWalRsSGhkbXV2bU9QQkw1WmlJ?=
+=3D
+ =3D?utf-8?B?ZG40d0J6U3NOUDVOTmwxdHRVbWljZFVBa0hsTTdXVkZGQzlvd2VCc2I3YjZS?=
+=3D
+ =3D?utf-8?B?dzM0Rm5nMW05SkZhakI5UEF5R3hHQm9NSU8yWWhMcEpHSHk1S1FBaUJyU1U2?=
+=3D
+ =3D?utf-8?B?OENZc2pkam5NNmkrOEc2Vmw5K3JVSU9qaXFOc25SMjcrNFVMMC9raGNCbjV2?=
+=3D
+ =3D?utf-8?B?U3hJU3FMQU55aFFPNTAwOGRzWURvTXNyQWVRM0xMMzJ3eVJJeHR6UjNONUpP?=
+=3D
+ =3D?utf-8?B?NWVKVHJBeEM1eXJRL1pGM2RtM3hsUG1KOUZScFZEMFZDMGFIOWJGT3EvV2x3?=
+=3D
+ =3D?utf-8?B?YmFjaWZEWjJraXNqOS9SbXBNa05TOHN0S2ZFMHdtMWQ3SjFvRW5ZcFphUExG?=
+=3D
+ =3D?utf-8?B?dEFKRlF1YWEzRXplUmNMQzdQZUdQekcxUXFrWW15b1ByRGFrbko5MW9sSlYz?=
+=3D
+ =3D?utf-8?B?VUtZLzJ1dUM0TzV0RmRNOSsrNXIyU3lOdzRrcmx2RlBpbDZuUFVMQWxqbng0?=
+=3D
+ =3D?utf-8?B?K2hKSTc3MkVISHhJOEdUVEN0MVF5eG9nemVXMWdLemM3a01zMzR2QmNGalJW?=
+=3D
+ =3D?utf-8?B?cVRQMTdWOVNvRjJYRXhGTlE5V2JkbWFoQmNOMjNmQkI4eERYb3ViU0dwTUxj?=
+=3D
+ =3D?utf-8?B?aCsxbHhQc3BaNHB0VXljU2FsUHV4NDJwbW5pbHBCcjQ2QU4yK2JWaXBrOTVm?=
+=3D
+ =3D?utf-8?B?K0hndWREajlxT0VudWFDUVU2WTNzRGdSeXkzTlNMeEF2REsxM3Y3aldMS0ZX?=
+=3D
+ =3D?utf-8?B?SThWYndPS2FpYzBWU1dINTg1dDhPNndiMmkvcW5xOE5jS05OV1dZa3NRUUV4?=
+=3D
+ =3D?utf-8?B?cDQrZVFyTTNkNXZBN2FIZTFMdjNTa2phY0JVZ29aWmpjbndkRlp6bjNuY2FS?=
+=3D
+ =3D?utf-8?B?ZWZFNS9tMWYxRXRNNnRkcjVkMWFtRVBSczhndERWaGxTSHh3N2dhRzl1SUZX?=
+=3D
+ =3D?utf-8?B?OElmMnNHOGZSNXhlazRGcllBcDlBV1hOaWZoQWRmQy9tL0RlZjhtQWRadTNx?=
+=3D
+ =3D?utf-8?B?bUpJbVFHY1lnaEw2ZmpXYUlOSWZoTkIySnJxa0ZBQmYvdHN1VFRKbVk4NmRR?=
+=3D
+ =3D?utf-8?B?MUVYSkhlUkFkY2hQTkxMbGp1WHY0eEtIRWgxK1NaOVZUay9GdEFjNkk1eTF1?=
+=3D
+ =3D?utf-8?B?OEJVSlZDMTJoV2dVRUpWVVJNclpRaXZBa3BvQ05BNE1NNE91NFY0RXRRNVA1?=
+=3D
+ =3D?utf-8?B?WE1Vb3BETFcraGJCMTE1MkF4SlhMSVBrQWY3YXhwTk5KNzZyT1NsYStBQUVZ?=
+=3D
+ =3D?utf-8?B?T3I2T3E2OEt1VWhkYjhDZVRaNVd4MzVrL2NEL3JVSERRbEkvT2Z4THB4b0RP?=
+=3D
+ =3D?utf-8?B?VE9qM0ZNanQ0TGpKZ2dzVkZuRE93aTBGa2dqM0xHZ0haNitqYjA2L2JvK1RF?=
+=3D
+ =3D?utf-8?B?MkI1UVF2QlZFQjhlR0tpc3BkeUQvdzhDYUlGeWp4QXNXZFlOYTlmSHJITEY1?=
+=3D
+ =3D?utf-8?B?MjROYVlVVElRV2lML1Q1dml6ZjBTMkFrYVZBT0xJZ2QrQ3BmdEhGT09SY3J5?=
+=3D
+ =3D?utf-8?B?TXBCRnBJaCtOeTljWHhOSnNIZGM2R2dTbmM3YlJRVnBNL1hOR1dRWUYrS21q?=
+=3D
+ =3D?utf-8?B?KzZOKzFxVHpIdzliajZhaS9BVEQ4R2pvanJnTXZDalJIYUhFYk9iK1JOTFgx?=
+=3D
+ =3D?utf-8?B?UW9tZjhseVdDVHVRWUp3NFdoT1BnaFN6a3RLUmc0blMrWFc2OUJWMjlFajFD?=
+=3D
+ =3D?utf-8?B?WmRCK2M4a1krUDRndnZDZz09?=3D
+X-Forefront-Antispam-Report: CIP:146.91.48.123;CTRY:US;LANG:en;SCL:-1;SRV:;=
+IPV:CAL;SFV:SKN;H:ACDCSWPAPP748.cummins.svcnet;PTR:InfoDomainNonexistent;CA=
+T:NONE;SFS:;DIR:INB;
+X-MS-Exchange-CrossTenant-OriginalArrivalTime: 17 Sep 2020 08:43:00.9720
+ (UTC)
+X-MS-Exchange-CrossTenant-Network-Message-Id: e4fd70be-bc22-4090-8eb5-08d85=
+ae5af81
+X-MS-Exchange-CrossTenant-Id: b31a5d86-6dda-4457-85e5-c55bbc07923d
+X-MS-Exchange-CrossTenant-OriginalAttributedTenantConnectingIp: TenantId=3D=
+b31a5d86-6dda-4457-85e5-c55bbc07923d;Ip=3D[146.91.48.123];Helo=3D[ACDCSWPAP=
+P748.cummins.svcnet]
+X-MS-Exchange-CrossTenant-AuthSource: BN3NAM01FT046.eop-nam01.prod.protecti=
+on.outlook.com
+X-MS-Exchange-CrossTenant-AuthAs: Anonymous
+X-MS-Exchange-CrossTenant-FromEntityHeader: HybridOnPrem
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: MN2PR05MB6431
+X-OrganizationHeadersPreserved: MN2PR05MB6431.namprd05.prod.outlook.com
+X-CrossPremisesHeadersFiltered: ACDCSWPAPP749.cummins.svcnet
+X-MS-Exchange-CrossPremises-OriginalArrivalTime: 17 Sep 2020 08:47:50.1808
+ (UTC)
+X-MS-Exchange-CrossPremises-OriginalClientIPAddress: 104.47.57.176
+X-MS-Exchange-CrossPremises-OriginalServerIPAddress: 10.208.14.105
+X-MS-Exchange-CrossPremises-AuthSource: ACDCSWPAPP749.cummins.svcnet
+X-MS-Exchange-CrossPremises-AuthAs: Anonymous
+X-MS-Exchange-CrossPremises-Cross-Premises-Headers-Processed: ACDCSWPAPP749=
+.cummins.svcnet
+X-MS-Exchange-CrossPremises-PRD: codem-composites.com
+X-MS-Exchange-CrossPremises-SenderIdResult: SoftFail
+X-MS-Exchange-CrossPremises-Network-Message-Id: db81394d-21b3-4059-c39d-08d=
+85ae65be5
+X-MS-Exchange-CrossPremises-OriginalSize: 52234
+X-MS-Exchange-CrossPremises-HygienePolicy: Standard
+X-OrganizationHeadersPreserved: ACDCSWPAPP749.cummins.svcnet
+</pre>
+</font>
+</body>
+</html>=
+
+--34f9dc23-d4e6-42cb-9554-1f555886b6fc--
+
+--d487ef9f-f68f-4855-8832-6e931a50e1c9
+Content-Type: message/delivery-status
+
 Reporting-MTA: dns;ACDCSWPAPP749.cummins.svcnet
 Received-From-MTA: dns;NAM11-DM6-obe.outbound.protection.outlook.com
 Arrival-Date: Thu, 17 Sep 2020 08:47:50 +0000
@@ -8,3 +1834,821 @@ Status: 5.4.14
 Diagnostic-Code: smtp;554 5.4.14 Hop count exceeded - possible mail loop ATTR1 [SN1NAM01FT011.eop-nam01.prod.protection.outlook.com]
 Remote-MTA: dns;SN1NAM01FT011.mail.protection.outlook.com
 
+
+--d487ef9f-f68f-4855-8832-6e931a50e1c9
+Content-Type: message/rfc822
+
+Received: from NAM11-DM6-obe.outbound.protection.outlook.com (104.47.57.176)
+ by acdcswpapp749.cummins.svcnet (10.208.14.105) with Microsoft SMTP Server
+ (TLS) id 15.0.1178.4; Thu, 17 Sep 2020 03:47:50 -0500
+Received: from BN6PR18CA0019.namprd18.prod.outlook.com (2603:10b6:404:121::29)
+ by MN2PR05MB6431.namprd05.prod.outlook.com (2603:10b6:208:dc::25) with
+ Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.3391.9; Thu, 17 Sep
+ 2020 08:43:01 +0000
+Received: from BN3NAM01FT046.eop-nam01.prod.protection.outlook.com
+ (2603:10b6:404:121:cafe::1b) by BN6PR18CA0019.outlook.office365.com
+ (2603:10b6:404:121::29) with Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.3391.13 via Frontend
+ Transport; Thu, 17 Sep 2020 08:43:01 +0000
+Authentication-Results: spf=softfail (sender IP is 146.91.48.123)
+ smtp.mailfrom=codem-composites.com; cummins.com; dkim=fail (body hash did not
+ verify) header.d=codem-composites.com;cummins.com; dmarc=fail action=none
+ header.from=codem-composites.com;
+Received-SPF: SoftFail (ACDCSWPAPP749.cummins.svcnet: domain of transitioning
+ kevin@codem-composites.com discourages use of 104.47.57.176 as permitted
+ sender)
+Received-SPF: SoftFail (protection.outlook.com: domain of transitioning
+ codem-composites.com discourages use of 146.91.48.123 as permitted sender)
+Received: from ACDCSWPAPP748.cummins.svcnet (146.91.48.123) by
+ BN3NAM01FT046.mail.protection.outlook.com (10.152.66.89) with Microsoft SMTP
+ Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384) id
+ 15.20.3391.15 via Frontend Transport; Thu, 17 Sep 2020 08:43:00 +0000
+X-CrossPremisesHeadersFilteredBySendConnector: ACDCSWPAPP748.cummins.svcnet
+Received: from NAM10-MW2-obe.outbound.protection.outlook.com (104.47.55.106)
+ by acdcswpapp748.cummins.svcnet (10.208.14.101) with Microsoft SMTP Server
+ (TLS) id 15.0.1178.4; Thu, 17 Sep 2020 03:42:56 -0500
+Received: from BN8PR16CA0035.namprd16.prod.outlook.com (2603:10b6:408:4c::48)
+ by BY5PR05MB6836.namprd05.prod.outlook.com (2603:10b6:a03:1fa::27) with
+ Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.3391.5; Thu, 17 Sep
+ 2020 08:41:26 +0000
+Received: from BN3NAM01FT016.eop-nam01.prod.protection.outlook.com
+ (2603:10b6:408:4c:cafe::da) by BN8PR16CA0035.outlook.office365.com
+ (2603:10b6:408:4c::48) with Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.3391.13 via Frontend
+ Transport; Thu, 17 Sep 2020 08:41:26 +0000
+Authentication-Results-Original: spf=softfail (sender IP is 146.91.48.123)
+ smtp.mailfrom=codem-composites.com; cummins.com; dkim=fail (body hash did not
+ verify) header.d=codem-composites.com;cummins.com; dmarc=fail action=none
+ header.from=codem-composites.com;
+Received-SPF: SoftFail (ACDCSWPAPP748.cummins.svcnet: domain of transitioning
+ kevin@codem-composites.com discourages use of 104.47.55.106 as permitted
+ sender)
+Received-SPF: SoftFail (protection.outlook.com: domain of transitioning
+ codem-composites.com discourages use of 146.91.48.123 as permitted sender)
+Received: from ACDCSWPAPP749.cummins.svcnet (146.91.48.123) by
+ BN3NAM01FT016.mail.protection.outlook.com (10.152.66.204) with Microsoft SMTP
+ Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384) id
+ 15.20.3391.15 via Frontend Transport; Thu, 17 Sep 2020 08:41:25 +0000
+X-CrossPremisesHeadersFilteredBySendConnector: ACDCSWPAPP749.cummins.svcnet
+Received: from NAM11-BN8-obe.outbound.protection.outlook.com (104.47.58.171)
+ by acdcswpapp749.cummins.svcnet (10.208.14.105) with Microsoft SMTP Server
+ (TLS) id 15.0.1178.4; Thu, 17 Sep 2020 03:41:20 -0500
+Received: from SN6PR04CA0077.namprd04.prod.outlook.com (2603:10b6:805:f2::18)
+ by BL0PR05MB5268.namprd05.prod.outlook.com (2603:10b6:208:37::13) with
+ Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.3412.4; Thu, 17 Sep
+ 2020 08:41:14 +0000
+Received: from SN1NAM01FT031.eop-nam01.prod.protection.outlook.com
+ (2603:10b6:805:f2:cafe::e8) by SN6PR04CA0077.outlook.office365.com
+ (2603:10b6:805:f2::18) with Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.3391.11 via Frontend
+ Transport; Thu, 17 Sep 2020 08:41:14 +0000
+Authentication-Results-Original: spf=softfail (sender IP is 192.158.40.219)
+ smtp.mailfrom=codem-composites.com; cummins.com; dkim=fail (body hash did not
+ verify) header.d=codem-composites.com;cummins.com; dmarc=fail action=none
+ header.from=codem-composites.com;
+Received-SPF: SoftFail (ACDCSWPAPP749.cummins.svcnet: domain of transitioning
+ kevin@codem-composites.com discourages use of 104.47.58.171 as permitted
+ sender)
+Received-SPF: SoftFail (protection.outlook.com: domain of transitioning
+ codem-composites.com discourages use of 192.158.40.219 as permitted sender)
+Received: from FTDCSWPAPP430.cummins.svcnet (192.158.40.219) by
+ SN1NAM01FT031.mail.protection.outlook.com (10.152.65.215) with Microsoft SMTP
+ Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384) id
+ 15.20.3391.15 via Frontend Transport; Thu, 17 Sep 2020 08:41:13 +0000
+X-CrossPremisesHeadersFilteredBySendConnector: FTDCSWPAPP430.cummins.svcnet
+Received: from NAM11-CO1-obe.outbound.protection.outlook.com (104.47.56.173)
+ by ftdcswpapp430.cummins.svcnet (10.212.15.10) with Microsoft SMTP Server
+ (TLS) id 15.0.1178.4; Thu, 17 Sep 2020 03:41:10 -0500
+Received: from BN8PR03CA0022.namprd03.prod.outlook.com (2603:10b6:408:94::35)
+ by BN7PR05MB4051.namprd05.prod.outlook.com (2603:10b6:406:92::12) with
+ Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.3412.7; Thu, 17 Sep
+ 2020 08:38:34 +0000
+Received: from BN3NAM01FT054.eop-nam01.prod.protection.outlook.com
+ (2603:10b6:408:94:cafe::e) by BN8PR03CA0022.outlook.office365.com
+ (2603:10b6:408:94::35) with Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.3391.14 via Frontend
+ Transport; Thu, 17 Sep 2020 08:38:33 +0000
+Authentication-Results-Original: spf=softfail (sender IP is 146.91.48.123)
+ smtp.mailfrom=codem-composites.com; cummins.com; dkim=fail (body hash did not
+ verify) header.d=codem-composites.com;cummins.com; dmarc=fail action=none
+ header.from=codem-composites.com;
+Received-SPF: SoftFail (FTDCSWPAPP430.cummins.svcnet: domain of transitioning
+ kevin@codem-composites.com discourages use of 104.47.56.173 as permitted
+ sender)
+Received-SPF: SoftFail (protection.outlook.com: domain of transitioning
+ codem-composites.com discourages use of 146.91.48.123 as permitted sender)
+Received: from ACDCSWPAPP749.cummins.svcnet (146.91.48.123) by
+ BN3NAM01FT054.mail.protection.outlook.com (10.152.67.208) with Microsoft SMTP
+ Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384) id
+ 15.20.3391.15 via Frontend Transport; Thu, 17 Sep 2020 08:38:33 +0000
+X-CrossPremisesHeadersFilteredBySendConnector: ACDCSWPAPP749.cummins.svcnet
+Received: from NAM04-DM6-obe.outbound.protection.outlook.com (104.47.73.47) by
+ acdcswpapp749.cummins.svcnet (10.208.14.105) with Microsoft SMTP Server (TLS)
+ id 15.0.1178.4; Thu, 17 Sep 2020 03:38:29 -0500
+Received: from BN8PR03CA0008.namprd03.prod.outlook.com (2603:10b6:408:94::21)
+ by SJ0PR05MB7486.namprd05.prod.outlook.com (2603:10b6:a03:280::11) with
+ Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.3370.7; Thu, 17 Sep
+ 2020 08:38:07 +0000
+Received: from BN3NAM01FT054.eop-nam01.prod.protection.outlook.com
+ (2603:10b6:408:94:cafe::50) by BN8PR03CA0008.outlook.office365.com
+ (2603:10b6:408:94::21) with Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.3391.14 via Frontend
+ Transport; Thu, 17 Sep 2020 08:38:07 +0000
+Authentication-Results-Original: spf=softfail (sender IP is 146.91.48.123)
+ smtp.mailfrom=codem-composites.com; cummins.com; dkim=fail (body hash did not
+ verify) header.d=codem-composites.com;cummins.com; dmarc=fail action=none
+ header.from=codem-composites.com;
+Received-SPF: SoftFail (ACDCSWPAPP749.cummins.svcnet: domain of transitioning
+ kevin@codem-composites.com discourages use of 104.47.73.47 as permitted
+ sender)
+Received-SPF: SoftFail (protection.outlook.com: domain of transitioning
+ codem-composites.com discourages use of 146.91.48.123 as permitted sender)
+Received: from ACDCSWPAPP749.cummins.svcnet (146.91.48.123) by
+ BN3NAM01FT054.mail.protection.outlook.com (10.152.67.208) with Microsoft SMTP
+ Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384) id
+ 15.20.3391.15 via Frontend Transport; Thu, 17 Sep 2020 08:38:07 +0000
+X-CrossPremisesHeadersFilteredBySendConnector: ACDCSWPAPP749.cummins.svcnet
+Received: from NAM11-DM6-obe.outbound.protection.outlook.com (104.47.57.177)
+ by acdcswpapp749.cummins.svcnet (10.208.14.105) with Microsoft SMTP Server
+ (TLS) id 15.0.1178.4; Thu, 17 Sep 2020 03:37:57 -0500
+Received: from BN6PR19CA0118.namprd19.prod.outlook.com (2603:10b6:404:a0::32)
+ by SN6PR05MB4686.namprd05.prod.outlook.com (2603:10b6:805:93::16) with
+ Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.3391.9; Thu, 17 Sep
+ 2020 08:37:57 +0000
+Received: from BN3NAM01FT023.eop-nam01.prod.protection.outlook.com
+ (2603:10b6:404:a0:cafe::5) by BN6PR19CA0118.outlook.office365.com
+ (2603:10b6:404:a0::32) with Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.3391.11 via Frontend
+ Transport; Thu, 17 Sep 2020 08:37:57 +0000
+Authentication-Results-Original: spf=softfail (sender IP is 192.158.40.219)
+ smtp.mailfrom=codem-composites.com; cummins.com; dkim=fail (body hash did not
+ verify) header.d=codem-composites.com;cummins.com; dmarc=fail action=none
+ header.from=codem-composites.com;
+Received-SPF: SoftFail (ACDCSWPAPP749.cummins.svcnet: domain of transitioning
+ kevin@codem-composites.com discourages use of 104.47.57.177 as permitted
+ sender)
+Received-SPF: SoftFail (protection.outlook.com: domain of transitioning
+ codem-composites.com discourages use of 192.158.40.219 as permitted sender)
+Received: from FTDCSWPAPP430.cummins.svcnet (192.158.40.219) by
+ BN3NAM01FT023.mail.protection.outlook.com (10.152.67.155) with Microsoft SMTP
+ Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384) id
+ 15.20.3391.15 via Frontend Transport; Thu, 17 Sep 2020 08:37:57 +0000
+X-CrossPremisesHeadersFilteredBySendConnector: FTDCSWPAPP430.cummins.svcnet
+Received: from NAM12-BN8-obe.outbound.protection.outlook.com (104.47.55.171)
+ by ftdcswpapp430.cummins.svcnet (10.212.15.10) with Microsoft SMTP Server
+ (TLS) id 15.0.1178.4; Thu, 17 Sep 2020 03:37:55 -0500
+Received: from BN8PR15CA0056.namprd15.prod.outlook.com (2603:10b6:408:80::33)
+ by SN6PR05MB5805.namprd05.prod.outlook.com (2603:10b6:805:f4::14) with
+ Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.3391.9; Thu, 17 Sep
+ 2020 08:35:22 +0000
+Received: from BN3NAM01FT028.eop-nam01.prod.protection.outlook.com
+ (2603:10b6:408:80:cafe::df) by BN8PR15CA0056.outlook.office365.com
+ (2603:10b6:408:80::33) with Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.3391.13 via Frontend
+ Transport; Thu, 17 Sep 2020 08:35:22 +0000
+Authentication-Results-Original: spf=softfail (sender IP is 146.91.48.123)
+ smtp.mailfrom=codem-composites.com; cummins.com; dkim=fail (body hash did not
+ verify) header.d=codem-composites.com;cummins.com; dmarc=fail action=none
+ header.from=codem-composites.com;
+Received-SPF: SoftFail (FTDCSWPAPP430.cummins.svcnet: domain of transitioning
+ kevin@codem-composites.com discourages use of 104.47.55.171 as permitted
+ sender)
+Received-SPF: SoftFail (protection.outlook.com: domain of transitioning
+ codem-composites.com discourages use of 146.91.48.123 as permitted sender)
+Received: from ACDCSWPAPP748.cummins.svcnet (146.91.48.123) by
+ BN3NAM01FT028.mail.protection.outlook.com (10.152.67.96) with Microsoft SMTP
+ Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384) id
+ 15.20.3391.15 via Frontend Transport; Thu, 17 Sep 2020 08:35:21 +0000
+X-CrossPremisesHeadersFilteredBySendConnector: ACDCSWPAPP748.cummins.svcnet
+Received: from NAM12-BN8-obe.outbound.protection.outlook.com (104.47.55.168)
+ by acdcswpapp748.cummins.svcnet (10.208.14.101) with Microsoft SMTP Server
+ (TLS) id 15.0.1178.4; Thu, 17 Sep 2020 03:35:20 -0500
+Received: from SN4PR0401CA0048.namprd04.prod.outlook.com
+ (2603:10b6:803:2a::34) by BYAPR05MB5735.namprd05.prod.outlook.com
+ (2603:10b6:a03:d1::21) with Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.3391.9; Thu, 17 Sep
+ 2020 08:24:53 +0000
+Received: from SN1NAM01FT049.eop-nam01.prod.protection.outlook.com
+ (2603:10b6:803:2a:cafe::a1) by SN4PR0401CA0048.outlook.office365.com
+ (2603:10b6:803:2a::34) with Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.3391.13 via Frontend
+ Transport; Thu, 17 Sep 2020 08:24:53 +0000
+Authentication-Results-Original: spf=pass (sender IP is 209.85.166.174)
+ smtp.mailfrom=codem-composites.com; cummins.com; dkim=pass (signature was
+ verified) header.d=codem-composites.com;cummins.com; dmarc=pass action=none
+ header.from=codem-composites.com;compauth=pass reason=100
+Received-SPF: SoftFail (ACDCSWPAPP748.cummins.svcnet: domain of transitioning
+ kevin@codem-composites.com discourages use of 104.47.55.168 as permitted
+ sender)
+Received-SPF: Pass (protection.outlook.com: domain of codem-composites.com
+ designates 209.85.166.174 as permitted sender)
+ receiver=protection.outlook.com; client-ip=209.85.166.174;
+ helo=mail-il1-f174.google.com;
+Received: from mail-il1-f174.google.com (209.85.166.174) by
+ SN1NAM01FT049.mail.protection.outlook.com (10.152.64.252) with Microsoft SMTP
+ Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id
+ 15.20.3370.16 via Frontend Transport; Thu, 17 Sep 2020 08:24:53 +0000
+Received: by mail-il1-f174.google.com with SMTP id s88so1444786ilb.6
+        for <john.clark@cummins.com>; Thu, 17 Sep 2020 01:24:53 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=codem-composites.com; s=google;
+        h=from:mime-version:date:message-id:subject:to;
+        bh=sUOqXzi3MVNvB9FEYkUVAQSLDF0PH01ZPRVkVNtZTcA=;
+        b=SCLsy9FAjcHVaX7jSTk3r0z/fpJsm3WFoiwurtj6sQvzppeLhzrNxc5/a+jjl4H5r4
+         ub0LzvPA/mAwZ2Wd5KgdmlhOaOGR1cnanKBjUMJ+OTYA8H5X5Xvce67HxGxcR3JVWbFw
+         uqqEJwFiAalWr/nGMxhOaAAFnfa9ZobtcXo70RtsUs2//yjfSGKfhOOFACDhPQdzk3NL
+         QI9g844EU5f1I7GK6nxjyKcc8KSi2MXixg/w9MoALVLSAK/5jj+dtgHDeX5yqvp5hmTc
+         AMaLJRCKDuoXFSyzEm/z9tVRIYCkY7pKzU6111o/nSseziHlJmWQNWevLyZxuFn5on9k
+         +ffg==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20161025;
+        h=x-gm-message-state:from:mime-version:date:message-id:subject:to;
+        bh=sUOqXzi3MVNvB9FEYkUVAQSLDF0PH01ZPRVkVNtZTcA=;
+        b=fbCTe8d7V/BtYitFg/eoxTZsineVBE6BQvQ163YzP24LObnEmWv9lGzPho03p6PVNM
+         KpnH+rOCetXWBpFhCHDovq+A/qMLVUcWWaiAUrmCYPmxq8bTFh6TJEMIuksScvqdo4lU
+         AIhl/4AFkmBR1iQcJy+Vlj2b53KLdYVq1nJ0R446UPa+HCcGXFYUM+Q37vi9RMv7o0Y1
+         UDolAzlbIcE7nt2V6ACS4O1NZthzEW089Y5KhZsGJXx79TujpnJXMyn+gBf4nnhgTpFi
+         Yc48vSkE1khvM5Z/+4dLIFXJswue+TSma61bwcn9y1tSFX8tj2FVtzDDwf3LVBD2hGzo
+         J4aQ==
+X-Gm-Message-State: AOAM531uHydgbZza0UaRa6EP2Erl0lmhtuYsZfS7PGeEvsV5gtXsugAh
+	xk2TS3s198Xe9iWne+WzVpRurSWeEApdu5Gwo8IHXb39rxs=
+X-Google-Smtp-Source: ABdhPJwiEdEalNMliKr6K5OlnAiY6taji9zgkSrZH1Jbj1a8racurWFzOxP5cFVhLg3/NMDT451QBsczCINCn/tedrI=
+X-Received: by 2002:a92:1b8b:: with SMTP id f11mr7478216ill.216.1600331092185;
+ Thu, 17 Sep 2020 01:24:52 -0700 (PDT)
+Received: from 696963989851 named unknown by gmailapi.google.com with
+ HTTPREST; Thu, 17 Sep 2020 01:24:51 -0700
+From: Kevin Doherty <kevin@codem-composites.com>
+MIME-Version: 1.0
+Date: Thu, 17 Sep 2020 01:24:51 -0700
+Message-ID: <CAK4cLxh=Kd5+mA9ayKuaebVLV34NEn1w7BswGWgAEx_3psqS-g@mail.gmail.com>
+Subject: Quick Question, John
+To: <john.clark@cummins.com>
+Content-Type: multipart/alternative; boundary="00000000000045e0a705af7e1ea5"
+Return-Path: kevin@codem-composites.com
+X-EOPAttributedMessage: 7
+X-MS-Office365-Filtering-HT: Tenant
+X-MS-PublicTrafficType: Email
+X-MS-Office365-Filtering-Correlation-Id: e4fd70be-bc22-4090-8eb5-08d85ae5af81
+X-MS-TrafficTypeDiagnostic: BYAPR05MB5735:|SN6PR05MB5805:|SN6PR05MB4686:|SJ0PR05MB7486:|BN7PR05MB4051:|BL0PR05MB5268:|BY5PR05MB6836:|MN2PR05MB6431:
+X-LD-Processed: b31a5d86-6dda-4457-85e5-c55bbc07923d,ExtAddr,ExtAddr,ExtAddr
+X-MS-Exchange-AtpMessageProperties: SA
+X-MS-Oob-TLC-OOBClassifiers: OLM:9508;OLM:9508;OLM:9508;OLM:9508;OLM:9508;OLM:9508;OLM:9508;OLM:9508;
+X-Microsoft-Antispam-Untrusted: BCL:0;
+X-Microsoft-Antispam-Message-Info-Original: =?us-ascii?Q?XbAGVk8o4Qz2ZszM8N9SNkR2ziLj/V1ViKuCTVcdJB1LIrc/s8VhEN3xMuCt?=
+ =?us-ascii?Q?VeXK8WRTd2pxepLc3MaZp9tFYLuIIRymZb6rW1kT3+yZ7onId/cwNKJHVy/9?=
+ =?us-ascii?Q?rofI1EmwaqTC8P0Lwlu1PWyzJIVFvq5FwgKMj1gK3ohE7MJHnalYnUci7iGl?=
+ =?us-ascii?Q?oEXEj1ulkUkb/F/a6umaQM77KhZBo5veHDqzA+J4w7GooLPLXgDcmv/M4E74?=
+ =?us-ascii?Q?xjjbG5tj55QyPxQcBz4tYTFFSPfoCfrIO2L3DnMZ6duZGha+oE+ll35fFGZk?=
+ =?us-ascii?Q?+LjBQ91eXwxKDk0b6twVvJsQEr4KlFzGkRTM5DCRWY6LHV4DKa1aUQrMdaHQ?=
+ =?us-ascii?Q?UMy27+5FCyjzs9X3o98SKZzeKdISnwwsvAOpv87F/LSs4IucQbuasqOIGppJ?=
+ =?us-ascii?Q?RrXvk7Uoku6k6KUtY/odKKm68dRhItpWV2GAPcJmCqQKmWh9SV+ZVCEiASiz?=
+ =?us-ascii?Q?Re7TlnVbathcXg1OUg3wVADw6MfNFuXyBbDQd7JrH527eHnEb8IiGpTkk7Vz?=
+ =?us-ascii?Q?sLyK/Wofo3WUkBEABStxzmwuxVZ7Swv75vuKicar+Mg+DJmlYXjAu+XUgFIV?=
+ =?us-ascii?Q?zNt+9ZFYywHTqFln4h3gOgaunll78rPzwpt5/NrAtKQgo447UbItlF00no5n?=
+ =?us-ascii?Q?iDGTEm2XnfhszsSDIbnrRwp3pGhRCZHT7j0rcNwJcULDGs8vln3FabD5NLoC?=
+ =?us-ascii?Q?0wmdL005ia+2sMpP0L+lANGd47u0YYqoz6PPUQpxwJGGiFhlrDeD+EI6/Yfe?=
+ =?us-ascii?Q?OOcOrg4u50G5q0aHuJKoql8jqT5nRMOM2U9N6L18fXJi18XgMQDD3s5R4zyp?=
+ =?us-ascii?Q?wTusesOWNmYV4ZnLM1RpxIERjV6ywjv6zUvy+dOqXrSCcPdVVKiQPV6dIK/Y?=
+ =?us-ascii?Q?fGQsGoYeE+JuCQ7MamKNZGYs7rZ8crN1KtKZU0CzjBCviwpcSJdo9dYE6Uz6?=
+ =?us-ascii?Q?9B4Pa4obdbcGyFbmrgmWBAQSlCajtzDVySctwFPkXWzRmcJ65qlojMrZ1hBb?=
+ =?us-ascii?Q?6LzAXoeRfuYaNwgVkvG3uF64FkkEvdfOz6tBmlFnvgrHTIekujSYdpA9hQaY?=
+ =?us-ascii?Q?l/55IN+Ayvp+jUzv6BG6PA7lzBjGgr2bdoDzPTtTZ9R3ZrGR5aYI7C0oRM7s?=
+ =?us-ascii?Q?DDdr9jwGqmtHsASdXRRK53F98AImPTsWmW1X77bpuXHb2UyeivNubBT8IL9K?=
+ =?us-ascii?Q?nyQKoeEM0h5ZUfuQXrrwgp4Ih3y4oxcBHH1bcCI9JAiS3LRJ2yxhtFnJFV/A?=
+ =?us-ascii?Q?mwpM69oPgxXTeRQ01L2/8WP0WJUTqSWCjyskea8SsauLKhQBXTiIK1JoHzve?=
+ =?us-ascii?Q?e5Zr1idyY9a3RCoOcmi9lnm7sbGDmyTBse7GTUmZgIyfCO1C7oy6dFJbXmKe?=
+ =?us-ascii?Q?slkdQbc=3D?=
+X-Forefront-Antispam-Report-Untrusted: CIP:209.85.166.174;CTRY:US;LANG:en;SCL:1;SRV:;IPV:NLI;SFV:NSPM;H:mail-il1-f174.google.com;PTR:mail-il1-f174.google.com;CAT:NONE;SFS:(4636009)(83380400001)(58800400005)(26005)(55446002)(7636003)(7596003)(34756004)(356005)(5660300002)(22186003)(76236003)(166002)(336012)(8676002)(15974865002)(9686003)(86362001)(1096003)(7066003)(19627405001)(6916009)(45080400002)(33964004)(43950500001)(44020500001);DIR:INB;
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: BYAPR05MB5735
+X-OrganizationHeadersPreserved: BYAPR05MB5735.namprd05.prod.outlook.com
+X-CrossPremisesHeadersFiltered: ACDCSWPAPP748.cummins.svcnet
+X-OrganizationHeadersPreserved: ACDCSWPAPP748.cummins.svcnet
+X-MS-Exchange-Transport-CrossTenantHeadersStripped: BN3NAM01FT028.eop-nam01.prod.protection.outlook.com
+X-MS-Office365-Filtering-Correlation-Id-Prvs: c435bc56-aad8-46fe-3128-08d85ae3271b
+AntiSpoofAllow: True
+AllowCheck1: True
+X-Microsoft-Antispam-Untrusted: BCL:0;
+X-Microsoft-Antispam-Message-Info-Original: =?us-ascii?Q?KaT2iA67oDxYE18Pin9K0GR9uIQ/HYFGLcP0MwtduQKIprxx5XqlekQEASba?=
+ =?us-ascii?Q?kEVdb0r/hZDHY7991StJBAEPnSlzVpRdQGM2ir0HfZp7LRYWvln6uTIrY1Lj?=
+ =?us-ascii?Q?iiUPntXjtAjsh2xY5hiPYWJ4jNTSlUZgO4BbCKE1k5vUy0EOKlDQKRoYGOBs?=
+ =?us-ascii?Q?1B/4IJZDAzWX660BkeN0U9fX2RGc8SmaVbSOQ0lHb1Flav2g/OHifUdI4WWu?=
+ =?us-ascii?Q?+1sm1WQgO3yTItI7zW9YmPHO4PuEetIpiE7nmS+Hu6A/ykc2vo7X0X7OdDK+?=
+ =?us-ascii?Q?N0vojquTNPKNLeRZe30VWEvJBdLbnRgIDOeT38qi//+sfOMP0WIMboVHE48i?=
+ =?us-ascii?Q?aPAjBwfXVPvayy++PjbTJERF5qSDM6hsp+0qPm4YF27uprc0zaaGKf1vHEg0?=
+ =?us-ascii?Q?4n4yuLYfvmAm0iyZOSfQCl41vORmVh7QH4dRyDXOjvQiXumNnCEs9aNFJth3?=
+ =?us-ascii?Q?2G37wGiekY0UfpBPUZN8S1jZsAr75kvG8L5+2+lB8D+rJcJEXgbzoUwgnWE9?=
+ =?us-ascii?Q?XV/YPRmdobvLy5jgqwZb2J2uPmRD25L02foFGuDr5NBarfQLS7MPCbJFaN41?=
+ =?us-ascii?Q?Qt/pGqXgG4Y/XtUKGFATy0aFQ0+gcS1xD00ow6fNZ7MOBpgULGy2/1YH6/Wc?=
+ =?us-ascii?Q?wz1DF3SV1+wrk+uqOPvVmqLmCv1yVlu99L9f/RoLuYmPdJb59HMeb+BjsTmx?=
+ =?us-ascii?Q?avWNnrKyrSh8TyAnRLaNCaYKWI8zgpixyQJuoPvSOYHq+LEA2bbG3tINmLL6?=
+ =?us-ascii?Q?a+77NHkNTGbDcsaukiCg2uH7uV3Uld7V4tskcdU5D/cIVklgyJ/KpsoXa/vc?=
+ =?us-ascii?Q?bgllYWm9q4If6CBsskSGnaXr/RgOkAvYp9FUZkzdUnD8JT0yCzIiuF4h0WKg?=
+ =?us-ascii?Q?+cJrheE/8GDXPwfw21okN/jdKLnhqrZeHk0tzcVjiLBRnmDKMSai95CJGwC3?=
+ =?us-ascii?Q?i0/rymD95+ZjHvqHF+C31K53y822sdLI67Ns0T/5J0zU1ZTkkDa6gnP4XxTu?=
+ =?us-ascii?Q?SkgO/jsJ2Yl+Pgxn6VrY7lNU/y2p6G+RDFszTjT34dUJNtGdxunFM/qUImjh?=
+ =?us-ascii?Q?cTFxIGZ6PF+1zyEeCnLnvmm3gkmc59MAPjc64UNhK/qOgDK8XBpzt8nMUEJ5?=
+ =?us-ascii?Q?oL+sR/C6oS41zskSThaYvKZi7ewp4LpX4H4yejuJGctvMN0MwrqHMdiST00k?=
+ =?us-ascii?Q?BsGkpEW801Tavn9BMnIbki4gLlh+vmdey5LijRODnhC83SHy7K0CR+OK6rO4?=
+ =?us-ascii?Q?QCbFkqMcMJLZ1DYPcd32iQL4TyFrLSBufOLuWEpAS5YgdvOEf5LRnh7lbPRY?=
+ =?us-ascii?Q?Yd6Tqj/qlRoGhJOufnGsjHhg79BDvzmIcNZ6XX+naqbF3g=3D=3D?=
+X-Forefront-Antispam-Report-Untrusted: CIP:146.91.48.123;CTRY:US;LANG:en;SCL:-1;SRV:;IPV:CAL;SFV:SKN;H:ACDCSWPAPP748.cummins.svcnet;PTR:InfoDomainNonexistent;CAT:NONE;SFS:;DIR:INB;
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: SN6PR05MB5805
+X-OrganizationHeadersPreserved: SN6PR05MB5805.namprd05.prod.outlook.com
+X-CrossPremisesHeadersFiltered: FTDCSWPAPP430.cummins.svcnet
+X-OrganizationHeadersPreserved: FTDCSWPAPP430.cummins.svcnet
+X-MS-Exchange-Transport-CrossTenantHeadersStripped: BN3NAM01FT023.eop-nam01.prod.protection.outlook.com
+X-MS-Office365-Filtering-Correlation-Id-Prvs: aefecedb-11d0-48ed-67a7-08d85ae49ddc
+X-Microsoft-Antispam-Untrusted: BCL:0;
+X-Microsoft-Antispam-Message-Info-Original: =?us-ascii?Q?yhjcvWM05WT3sjJCST7M+Ap4awAQZ8+gjDyYjoPYEwElqA9hL4Ni+0gD0hyU?=
+ =?us-ascii?Q?RRjPmPN4sPy86/hSXKyzwfyO8bFywxLCxK4JzM6ot6VkkEUmZvbaiWC1Vd0w?=
+ =?us-ascii?Q?QqqaczipyIdkqw9V/OuyJ7JpkWR3BmdUWxWUKVzNhYhj+WhHriZ2hOT43M6y?=
+ =?us-ascii?Q?eW2jCuRVonlrUw/tQBPcT3e/SxxeDJp3/KWE2e9781vh7KYhF2Lgj1d+tGYm?=
+ =?us-ascii?Q?+GU4p5HyNPYcfgIfsnTvN6//5XG/ZEZ5qIiKIDuybxMtmUfLC3BF9IRe2lX1?=
+ =?us-ascii?Q?5MC5XTZZOk6ZjnHRjLdPhqrspB8lk02y2kCuRq9qiV4u/4SypAMyIXBNFdr/?=
+ =?us-ascii?Q?FxRW1jIZR2SiTbL9FR2I3/AZMN9E2G46nT4Mbd+ZoBZPrhBiVwaO25UyBdFS?=
+ =?us-ascii?Q?7v+8yK+ENGErlBaBMHxmolz2pAs0JikATzIM3u7rx2RVXDrn0IAEI6jZFCuL?=
+ =?us-ascii?Q?N8cfn7nDMvjPXkSrrslGnsd1WJI7eqn4tMmjFvEEeKumIwJ6sf9PC5atyRV8?=
+ =?us-ascii?Q?vcMD8l38XH6yMl3J9sB0TLMTa6REKg5IAGp8EBwGVpU42xyV13sx9niAL8ch?=
+ =?us-ascii?Q?jJ7Xb6/8LaWcOozZN+PqfNRWrp0LE/0GkIJTe3S2hEcLxc79HNq1Xe6OoU6S?=
+ =?us-ascii?Q?EZyL8yhBQO0qHA3b1lK9/wKVTZIlUj//eKksIt0nHSagWDGn3u/Ye0jPoZbQ?=
+ =?us-ascii?Q?pKpTVyQRSPs475hgnA/FiWSE/X3X6poA53VUVVN0dfldLLFYywbgdZGSHaDb?=
+ =?us-ascii?Q?YONW7lNNBNmxqN2HGEo31LDqbYpr2R8ICxQga5k+FAfH8MEiQZaY78yZcUUT?=
+ =?us-ascii?Q?VivYndxLH6BKkxxJZguD0ng7u8DQKdi7JFJf/7NPj+Z7HiiY8TCKxPgKJJB2?=
+ =?us-ascii?Q?9C9l8VwC51Ryzl+JaBdY+1YWKpFRhRrL1iTtr8FVFeeW26E+Cs4XcfA2v6CG?=
+ =?us-ascii?Q?f6JhJBep+kEsI769XTIr38nafBjcpAXPfHSC0P4Bv/ejt8Q6tMT8wij/TAv1?=
+ =?us-ascii?Q?51O00oZaH3yDvdbwWRnipaEG/oIyaNgY+8qrAJ0U1AaGLjfTVEsPNgBCG6QS?=
+ =?us-ascii?Q?jmzbzsQe/xDE+F5kPNVxtQq/u3L12+FyBj5FVOE/k4jy6sM6GCrJh3Y6s/XO?=
+ =?us-ascii?Q?qZOYqUG87jzWqlThKgre3lqnx+WvOKc1WyTwqRE9HcRU0j27cP8yY1LqUpBd?=
+ =?us-ascii?Q?0xzfDFhsCQuz0MEozvYf3zznstz7Fg4AI7UUEp0aO+SNzFIEQpV5t7/kErPn?=
+ =?us-ascii?Q?zVuCt6cJfCwrv5dYleW/sESlYxGaYSL6FuFpyXV6ArPipvlGx02Ffisp25jS?=
+ =?us-ascii?Q?Og4SCYzn8cI1b0z7M55C8dTJqw3xzEQ9boWv6U27+dom2g81L0IJbuEULAUE?=
+ =?us-ascii?Q?1rmAPlMdtbS2dj/UON2xFBjgVV1+?=
+X-Forefront-Antispam-Report-Untrusted: CIP:192.158.40.219;CTRY:US;LANG:en;SCL:-1;SRV:;IPV:CAL;SFV:SKN;H:FTDCSWPAPP430.cummins.svcnet;PTR:InfoDomainNonexistent;CAT:NONE;SFS:;DIR:INB;
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: SN6PR05MB4686
+X-OrganizationHeadersPreserved: SN6PR05MB4686.namprd05.prod.outlook.com
+X-CrossPremisesHeadersFiltered: ACDCSWPAPP749.cummins.svcnet
+X-OrganizationHeadersPreserved: ACDCSWPAPP749.cummins.svcnet
+X-MS-Exchange-Transport-CrossTenantHeadersStripped: BN3NAM01FT054.eop-nam01.prod.protection.outlook.com
+X-MS-Office365-Filtering-Correlation-Id-Prvs: 89301c56-c9e5-4f48-8320-08d85ae4fa89
+X-Microsoft-Antispam-Untrusted: BCL:0;
+X-Microsoft-Antispam-Message-Info-Original: =?us-ascii?Q?+BK+3x3fKJvX5yQEjj3oNCE7CPsTktebkz0TN3l48M9OV2JP+zUvLG47fgHA?=
+ =?us-ascii?Q?z5Uci1B2W5ktoGwXbfe3x6TJi6CQ4li02EJ57Zjv3raKf7evFie/HT7qWgMX?=
+ =?us-ascii?Q?8fKr5qaKU0hmVzDK8B196WwuBFQjznJxxRSHdkCgvgklPmuYY0/pR3q7XYPX?=
+ =?us-ascii?Q?2CJm9qa4Af7bpWYSAKQlqLI1zb2MBvDQY2V5McZlNlRyBEocEBUXRM68AkT2?=
+ =?us-ascii?Q?MaJRbJYU4ZCAp0gcgOVhZsn8uv4mTa46ldXvYdPn6e49iw0uPBeemGQJmV4N?=
+ =?us-ascii?Q?YyUjDFvt4HUr3G6PO4Haykts3JHvW7T0cyEmrUXt7utwjjOJ9bjDRyafTeAt?=
+ =?us-ascii?Q?T9cOaVL2oYeqSd+Q1PZiuvcmQOe8ef8/cu7A9kSnNvqGYIQF180VEcUGaymC?=
+ =?us-ascii?Q?oPxghdE6Qj3YrZKMySZ0xU9buz+G54z418wRtplG4j9lTj6EaKK10Ma9BsQ3?=
+ =?us-ascii?Q?U+TwXUPHxmVvg1ZIfx+kAp1tsN4EiVRUCDl1M0jgNc1ms5+RYvkYliN2NRnu?=
+ =?us-ascii?Q?CY9epF/zva6iNKzQqTmmnSpNsnQ4439FYLOk8t/hVh9e5CCb6Wtvvn7L/mTS?=
+ =?us-ascii?Q?dgotpikrWqW7DrqOIVBWzZHzUyPNgMj7iNbLfPfMP3ep393A8FeBEIsn8hA9?=
+ =?us-ascii?Q?YE6wQKsN/n7V90aklRrTXSQ16SLXCuJWZ+J7xDQ4BbLiI/9/4Gqa8Ug/Tr4F?=
+ =?us-ascii?Q?mcbA2iIYwsjKo4WqDh8sVwUl52nQrSW6sFwCrpuTTLu2kz3y7C9QC5/h1Shw?=
+ =?us-ascii?Q?Lj6iSOVU5EqoLe2+Uy+mgQUjUJQF967VpmiILNBVlToqPPV7ODfXVOGL26sk?=
+ =?us-ascii?Q?IAxWRbB8SEGY8Ux1Ou48DaBwMKY6AyZ5ES9aZKZklGDo1W6NXLRGe1lZ0p1j?=
+ =?us-ascii?Q?7Ht8PqJ2faHGcmWpHvCx5J5BALiqt1ED70msc7GSqbJoy3m8i+FDZa3iwAmx?=
+ =?us-ascii?Q?VXFkBSpyQ9DXtqfVqMKWuLUZZDKXvHofwzM/7nm6xV63LBzGu+AB5YTHYgZf?=
+ =?us-ascii?Q?qDwyDWHgicLyJ4Lja+PJM4FN54MYoztBsodluhyuRPGveSujxgzXRGgQP7nz?=
+ =?us-ascii?Q?7ej5EUj3VZ0/WTZpaMbhWUxzTaC5flOvy4dpYrv2kJ/t1i+XUqkux2AHHXB+?=
+ =?us-ascii?Q?kKCrTYvmLMxgM40lsd07sNeS2pls8rNeNoLhjQ0rooUIyqn/FJyl2TLqmTig?=
+ =?us-ascii?Q?phnxbgdJ+6aecUGpNKPenhy89qha9X4oA46Wg+hd3CBzIvaObwlotaH31dxu?=
+ =?us-ascii?Q?j/blmHdaVpM7svZThrKxXE2rrkjM9EOM478EvkULRO3gstmHwMOEZRsIoVvl?=
+ =?us-ascii?Q?w0wyyflvmljk8+EvstuRpFbJehAu7GUehu4oTtx1HFLnjw=3D=3D?=
+X-Forefront-Antispam-Report-Untrusted: CIP:146.91.48.123;CTRY:US;LANG:en;SCL:-1;SRV:;IPV:CAL;SFV:SKN;H:ACDCSWPAPP749.cummins.svcnet;PTR:InfoDomainNonexistent;CAT:NONE;SFS:;DIR:INB;
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: SJ0PR05MB7486
+X-OrganizationHeadersPreserved: SJ0PR05MB7486.namprd05.prod.outlook.com
+X-CrossPremisesHeadersFiltered: ACDCSWPAPP749.cummins.svcnet
+X-OrganizationHeadersPreserved: ACDCSWPAPP749.cummins.svcnet
+X-MS-Exchange-Transport-CrossTenantHeadersStripped: BN3NAM01FT054.eop-nam01.prod.protection.outlook.com
+X-MS-Office365-Filtering-Correlation-Id-Prvs: 226251bc-000a-415f-83d9-08d85ae50060
+X-Microsoft-Antispam-Untrusted: BCL:0;
+X-Microsoft-Antispam-Message-Info-Original: =?us-ascii?Q?WzY1mbAC3j1EVpcz1K6wMhyywJFend/wg0l5M8VwwVjbceIiZZxNpmPbAdSv?=
+ =?us-ascii?Q?TAGqVIPD5ME2mx5GbPjDMoa1m3Jz7SMU4OpNGk/xjgubExg6Xvdj7YKDum5j?=
+ =?us-ascii?Q?/PJKpeF/446832G3pG3384TFNAO/jRAAqjIdC2XnyfrBMWDNExO/UTCVw4zN?=
+ =?us-ascii?Q?A1y6mF1Tf8L+9NN7LB3W3x8eo8XSIwCyMjsaNtSiwCk6JHr3HUfFYvYn+ngb?=
+ =?us-ascii?Q?wjM9H+sgoWFaEwpB03Iduy33Aum3EKW0vUE7dcGRee3twlJURL3UHzuLUkyM?=
+ =?us-ascii?Q?fDTWbwKItNXvjTsRSLPAAm37Z3Akw2910T/9hTt2kS0zPho9MgAsjk9P5OyX?=
+ =?us-ascii?Q?95BLjOv+eKkdUB+ToAWymjbIJJTEZijTWt3CLY8W5C4eiGUjy0sAhy7z9w5q?=
+ =?us-ascii?Q?aGBDLkRe4dy2R3nA6ZMGjr7gGRhIo2MbYdLl+zSTJtEdj3LGmWwT6TgYqjsb?=
+ =?us-ascii?Q?TZQ2Vq8O/TEnaXGkBoputODgQ1uGfu04ZuoIFi3spIYN5Pz2tWVZyya5E2eI?=
+ =?us-ascii?Q?GuTEwWSheeonU22iQefsTYOPQ544QEgTAtIzjaYeBAVeiQXt6Asl/Vfs9QLy?=
+ =?us-ascii?Q?UXVeNylTJ/PgcZ+WAi/Vz+ktP+Q+m4XmlBTLpwKU5oCWofdPLRCQKW4MCTOm?=
+ =?us-ascii?Q?XtLiP0d9iShXxn0UG1n8C2ozd4dVRZlOh4+OLu1ef9Qg3rEqWZWErayD6Vmh?=
+ =?us-ascii?Q?ggR0B1h1UMr5QmTgNfiY4xKbkP3uP2YB3qoBY/gKfeP+/oVIQi3aK55wgDq3?=
+ =?us-ascii?Q?5JAKgsW7Ngqswme/5C+EVRSSQP3m6bFFbYOtzmccxJcuh79UbQSSsmAKKOJR?=
+ =?us-ascii?Q?jXw0SgQMSqzUCjmzHMh1pG45rl/oC6b2enSO0RVaog0UWn2+jLe03rFvzfKg?=
+ =?us-ascii?Q?h1cSTObJKxysz5drHdM+1/xpfQmkhFLNK9ycUZU97nPJFnmGCUdrb4Sq7K4W?=
+ =?us-ascii?Q?DRq3gWLONuL/VYYPKigM0XzW5OjZGBFSXt90y811+oFG67nc/1wJeh7jbfBs?=
+ =?us-ascii?Q?vo6mHMvS9ZUXBoPspmzOK6M2/lwntCzMJfVHBZxw2K4FewpFKfXgmEHCLc6J?=
+ =?us-ascii?Q?Rl/N2QOQoXyvER2/bINADNhpUcRc/MBNPUaHuJDYrkwyOf43EPvqTALBNU9R?=
+ =?us-ascii?Q?yE6icwc2IZ5+2D1J+uSBFr1reNRdcZ0ke1nZNf3mm6ox231G0A5p7BuR4+H/?=
+ =?us-ascii?Q?lCDBKAt2AG5vLeYCT5jhrDDrBIY62qhINgvcgM8eImTgN9aVm5gmSuUaWRUO?=
+ =?us-ascii?Q?yOuDi42b2JHJoKfvUT6cWvUtBxXmWrsbi8/cAO9zQrY7Gt8pdMZ/jIV4pyy/?=
+ =?us-ascii?Q?48mU/KmHm1/tH+vprcX9c/5+IEWvynIVuv0FmFGR3jV4AI2EI4tM9IhKx024?=
+ =?us-ascii?Q?oOFCo2NfeNk+6THGK4e6Fp5s86W5?=
+X-Forefront-Antispam-Report-Untrusted: CIP:146.91.48.123;CTRY:US;LANG:en;SCL:-1;SRV:;IPV:CAL;SFV:SKN;H:ACDCSWPAPP749.cummins.svcnet;PTR:InfoDomainNonexistent;CAT:NONE;SFS:;DIR:INB;
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: BN7PR05MB4051
+X-OrganizationHeadersPreserved: BN7PR05MB4051.namprd05.prod.outlook.com
+X-CrossPremisesHeadersFiltered: FTDCSWPAPP430.cummins.svcnet
+X-OrganizationHeadersPreserved: FTDCSWPAPP430.cummins.svcnet
+X-MS-Exchange-Transport-CrossTenantHeadersStripped: SN1NAM01FT031.eop-nam01.prod.protection.outlook.com
+X-MS-Office365-Filtering-Correlation-Id-Prvs: c47cda24-c3e0-45fd-5243-08d85ae51043
+X-Microsoft-Antispam-Untrusted: BCL:0;
+X-Microsoft-Antispam-Message-Info-Original: =?us-ascii?Q?HjOi0EqcWtfKNWzcSSqpQq04AoPhCTgZyjYXZlBvF2VBkk1xdFXlGzvjmZVp?=
+ =?us-ascii?Q?DO/hfBh6pFLuCrm+EMG0dkl/KfXKGv5phhjB6Bt3wa40gnN0CSQGf1sKgyxS?=
+ =?us-ascii?Q?AvF29O0cAvLHDBXTgvTOCoI6Fw+BAvhCaoko6JbFIsjMf/Z6nsm6wcVIHhmf?=
+ =?us-ascii?Q?bF/1jJrUpLchcTG2nQRWUP6/0pil7CEemxD84/7q1zc9gbSZ41B3rT1x/b2p?=
+ =?us-ascii?Q?ek0hQfk7CYLuP8OKnowYUKzIXBjVRBEKt1+oEi0voTwhe1Wyy+UOUF1QW6ts?=
+ =?us-ascii?Q?Epq6MZzUTdR11HVapWeesFB7la2Rhcakd+AG0DGUyNcyNpWVR055NV0CzQ67?=
+ =?us-ascii?Q?zs3wZY1w0dXx+xbn/qDn1WND61KuiP3wmt2COXMuurSJ0mn+sVPaEVTSDtDj?=
+ =?us-ascii?Q?740/LD0apZmLAZi1pMn6x+lEzcHr7fFaO3PPv9r8RXycn2S5Ww3tnk5Gv/hU?=
+ =?us-ascii?Q?pGwGruxuLc5pnDyJtgg5+mQFMJ+Q5MP1Sqi6OPgq1CggEsKUaXZo8BqXLTBf?=
+ =?us-ascii?Q?um/tKsbOHdiMCXbZdPSRfinbOVjPU8TiB5XKFagKp4BgqJMJB/CBKEYXeMTb?=
+ =?us-ascii?Q?xCgHFnHdKtYJbFnkOfrvAOfXm28HRJdI/dlJHASAMafPVd3bcRFd7x4iiYYN?=
+ =?us-ascii?Q?FvPWat1puk6Lkkv0Rpw7L9g/8annn58dGdybRUgNBZcbvStcYstF7yJP9Oen?=
+ =?us-ascii?Q?qle0fZclehH/kfUENKT0eWQSSglu572W15kHJ1ys2Rb8/h2Ew8qfywi093P/?=
+ =?us-ascii?Q?tc60s/Eql4kI+VPLHEgDBfsm3O7A7t2wam2B7H16aX+B7nJSja0WX3yuMpBC?=
+ =?us-ascii?Q?tNEBQsiTZ9HNgE4x7d+yhTvSUHGDIq4VZGA3QVpLtOvPPmreltp0mkdsqhhT?=
+ =?us-ascii?Q?yVJkGo3Yt7vCogl3WVuzAxHDQ1W6bFv0BZaXH57VbTnk+kmdri73iXIu1j2D?=
+ =?us-ascii?Q?RxSqA9wTb7Edz1vfO9I/OjQAXQ5hXE6Dsh79cyTKsgycC81WKMHNTysD2T0m?=
+ =?us-ascii?Q?Kj50mmGXl9SYBy1Xkn0DinKSXlPLt63FQhg6BY4yzYdK1ZDv2AIZtOGdYO1Q?=
+ =?us-ascii?Q?IN1xoVDCO4Jg2Es2ZpM4Zz3tj6pRffnXz6xmbK7fKyVJX3JNHVQbr4+08NJr?=
+ =?us-ascii?Q?PSS3Ods8YMXCQjoowf/lZIytkGCKS1CURHMZgjVSmD1Qn7enO/w/Hg6p1o2L?=
+ =?us-ascii?Q?p8mTkYK3EOs4ovdKeIJQNX45j4hVGe1PlmJ9GXTKsoPYnmB+6ZQ7TigYoJN4?=
+ =?us-ascii?Q?hHNabiB7f3d435ippS+KkkPGk6C8e51pSA2IJmsDpthYWrXtbwxwBxAjsHWy?=
+ =?us-ascii?Q?8QtoZUr7svTLJQQVL3G1JK7S1L593oRmP6UTNxZ08r/yuctSi0cnS8tlkSDx?=
+ =?us-ascii?Q?emGB2WokJA6iWq2UqQwKDKXM8ApF?=
+X-Forefront-Antispam-Report-Untrusted: CIP:192.158.40.219;CTRY:US;LANG:en;SCL:-1;SRV:;IPV:CAL;SFV:SKN;H:FTDCSWPAPP430.cummins.svcnet;PTR:InfoDomainNonexistent;CAT:NONE;SFS:;DIR:INB;
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: BL0PR05MB5268
+X-OrganizationHeadersPreserved: BL0PR05MB5268.namprd05.prod.outlook.com
+X-CrossPremisesHeadersFiltered: ACDCSWPAPP749.cummins.svcnet
+X-OrganizationHeadersPreserved: ACDCSWPAPP749.cummins.svcnet
+X-MS-Exchange-Transport-CrossTenantHeadersStripped: BN3NAM01FT016.eop-nam01.prod.protection.outlook.com
+X-MS-Office365-Filtering-Correlation-Id-Prvs: 44082bb8-498a-4b6f-0a3b-08d85ae56fa6
+X-Microsoft-Antispam-Untrusted: BCL:0;
+X-Microsoft-Antispam-Message-Info-Original: =?us-ascii?Q?1iRZ9vf3uAgA8cTmJ4xT/Vu5JMlrq2Pz9X1pvQzCqJEmvYsp3FubnCgChpmP?=
+ =?us-ascii?Q?foxAnGatQkBJ2fJhwEECtNOWyu0ZEu4V2Dfc/fUOMbJD8TRVB8NJeqj5txix?=
+ =?us-ascii?Q?PNhf7k0B0/oC9hNuru96Et/4ihcoXZb0s48tMlUNOeY+PWP3l01QwkQGjz9t?=
+ =?us-ascii?Q?MD4Z/juzVuxmdSqrDgk/0yAvPrkRk4gOnWY693/pATYHJmymoZR5VRPpTdlZ?=
+ =?us-ascii?Q?O1KAHG4SvvE1zXeZKuRmOmRtHcYI5ngowht4lmcesneadMQl9FzUPcr/s0+x?=
+ =?us-ascii?Q?vkMVLzufPjEyPTZj8ir08925HaZLw0VBjBvFqG2C77Mex9NL87SJzaCxh/qe?=
+ =?us-ascii?Q?/irtl7+GJzrvjjpJzHzeSY/HCDZwR2tY8w0ZuzLq5Qa1L7XGwh5vmiSe3OYR?=
+ =?us-ascii?Q?tgEYQajhVnyxIfpe1e4QKQw0ps+W+hLKQk6I4for/lVLuEEqv1hkiJr9/PDb?=
+ =?us-ascii?Q?wzJTonaOKJKylCx6uudRFq6xKhII+4E9S+I1vBLRUi25mwvnz5aQpJ9Tgv/E?=
+ =?us-ascii?Q?rZ3Kofwuo9yaxr1Qy4z8XRW9QBSquKuOV34i4W/qA91q1zjU6wDYgJhIc5lA?=
+ =?us-ascii?Q?a3UhYVNs2wiZK34LFMLRCt+3mxC/JcMPBim0sJBRRvcxyCXglNnMuHIv0uDq?=
+ =?us-ascii?Q?QUrw/sccQFNPQfmeBL7IrgKInEk2trIRQXG32vMbBK4/OIdZyo93DpLzVg6U?=
+ =?us-ascii?Q?00QXZTMJnVqqXbELYJsAIWbfi89dnTy9+i4cP7OBxvc5cp4uNC3rPXTC/03m?=
+ =?us-ascii?Q?EsBLGzhY+ZKyuM6K7YheHEFDGzn+kVG4fK3qt47pjx1/ZIdTa+rmLqceC9Xx?=
+ =?us-ascii?Q?NDAwScPap1+j8qyohutG5WtQZJNbnVy2NMXQgoEm3RlqVl/kGyNdbE+cr9EV?=
+ =?us-ascii?Q?2dCaOKuguqyGzCAQ5WuepSj0sr0XXLKCbB104aJuG3DsBAgacwOWjAVA5xma?=
+ =?us-ascii?Q?qD/UqB7GTkIy+zGa6IDtzwdhyCIV1YxmKTwUIbmTsSvKlssRrmCN40YrnMtI?=
+ =?us-ascii?Q?y8rAp1EhsSekw95Y/YiNGKDOBjuI4XANDd7VvJFp8L+GHTf0z22tum53azfO?=
+ =?us-ascii?Q?4AZOgekhS8apfTn1SrVS6PknnABjb30KmhsXw7i01cb6DGSrEciAkuaCUz2w?=
+ =?us-ascii?Q?5D413nA7RbNrjmSKEQGU5fOPPICnFTTORjANVGXJhWtSGKgBg98KQExRbYbC?=
+ =?us-ascii?Q?vcN/n17VUBBenfguVBPaSRzjz9zbeS5xa3J6TmkbI3rw7ynqEsfsOHgo4XpT?=
+ =?us-ascii?Q?/wnx++Lqz72BVxniEcErbmJ1tND1k7nCrlmYwpRBhcpGjxY8yrChRcopqwkz?=
+ =?us-ascii?Q?wLwqxKZxIJSln+UcHvR+LWSQrmdSIlLDolwijmlVjSJBXKS+ka4ffwp78M55?=
+ =?us-ascii?Q?4yNo9g13qrR2D1oTsNWs2GCk7bfb?=
+X-Forefront-Antispam-Report-Untrusted: CIP:146.91.48.123;CTRY:US;LANG:en;SCL:-1;SRV:;IPV:CAL;SFV:SKN;H:ACDCSWPAPP749.cummins.svcnet;PTR:InfoDomainNonexistent;CAT:NONE;SFS:;DIR:INB;
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: BY5PR05MB6836
+X-OrganizationHeadersPreserved: BY5PR05MB6836.namprd05.prod.outlook.com
+X-CrossPremisesHeadersFiltered: ACDCSWPAPP748.cummins.svcnet
+X-OrganizationHeadersPreserved: ACDCSWPAPP748.cummins.svcnet
+X-MS-Exchange-Transport-CrossTenantHeadersStripped: BN3NAM01FT046.eop-nam01.prod.protection.outlook.com
+X-MS-Office365-Filtering-Correlation-Id-Prvs: 231dff05-7f7a-4919-3f18-08d85ae576c7
+X-Microsoft-Antispam: BCL:0;
+X-Microsoft-Antispam-Message-Info: =?utf-8?B?akc3Umt6bmRRZHJqS1hmaVhWUUt6RjZ0ODYvRVZ0UG1idUVFSXFZZDA0VE5k?=
+ =?utf-8?B?YWxIeVd0d1ZZZFIzSUpDWk1DYkUzVitINFoxT1BQVENIaUdmT1NhQW9sWFJw?=
+ =?utf-8?B?SUNtbWlVR3YxZDdOaEh6bmJQcUVjelorVWVWalRsSGhkbXV2bU9QQkw1WmlJ?=
+ =?utf-8?B?ZG40d0J6U3NOUDVOTmwxdHRVbWljZFVBa0hsTTdXVkZGQzlvd2VCc2I3YjZS?=
+ =?utf-8?B?dzM0Rm5nMW05SkZhakI5UEF5R3hHQm9NSU8yWWhMcEpHSHk1S1FBaUJyU1U2?=
+ =?utf-8?B?OENZc2pkam5NNmkrOEc2Vmw5K3JVSU9qaXFOc25SMjcrNFVMMC9raGNCbjV2?=
+ =?utf-8?B?U3hJU3FMQU55aFFPNTAwOGRzWURvTXNyQWVRM0xMMzJ3eVJJeHR6UjNONUpP?=
+ =?utf-8?B?NWVKVHJBeEM1eXJRL1pGM2RtM3hsUG1KOUZScFZEMFZDMGFIOWJGT3EvV2x3?=
+ =?utf-8?B?YmFjaWZEWjJraXNqOS9SbXBNa05TOHN0S2ZFMHdtMWQ3SjFvRW5ZcFphUExG?=
+ =?utf-8?B?dEFKRlF1YWEzRXplUmNMQzdQZUdQekcxUXFrWW15b1ByRGFrbko5MW9sSlYz?=
+ =?utf-8?B?VUtZLzJ1dUM0TzV0RmRNOSsrNXIyU3lOdzRrcmx2RlBpbDZuUFVMQWxqbng0?=
+ =?utf-8?B?K2hKSTc3MkVISHhJOEdUVEN0MVF5eG9nemVXMWdLemM3a01zMzR2QmNGalJW?=
+ =?utf-8?B?cVRQMTdWOVNvRjJYRXhGTlE5V2JkbWFoQmNOMjNmQkI4eERYb3ViU0dwTUxj?=
+ =?utf-8?B?aCsxbHhQc3BaNHB0VXljU2FsUHV4NDJwbW5pbHBCcjQ2QU4yK2JWaXBrOTVm?=
+ =?utf-8?B?K0hndWREajlxT0VudWFDUVU2WTNzRGdSeXkzTlNMeEF2REsxM3Y3aldMS0ZX?=
+ =?utf-8?B?SThWYndPS2FpYzBWU1dINTg1dDhPNndiMmkvcW5xOE5jS05OV1dZa3NRUUV4?=
+ =?utf-8?B?cDQrZVFyTTNkNXZBN2FIZTFMdjNTa2phY0JVZ29aWmpjbndkRlp6bjNuY2FS?=
+ =?utf-8?B?ZWZFNS9tMWYxRXRNNnRkcjVkMWFtRVBSczhndERWaGxTSHh3N2dhRzl1SUZX?=
+ =?utf-8?B?OElmMnNHOGZSNXhlazRGcllBcDlBV1hOaWZoQWRmQy9tL0RlZjhtQWRadTNx?=
+ =?utf-8?B?bUpJbVFHY1lnaEw2ZmpXYUlOSWZoTkIySnJxa0ZBQmYvdHN1VFRKbVk4NmRR?=
+ =?utf-8?B?MUVYSkhlUkFkY2hQTkxMbGp1WHY0eEtIRWgxK1NaOVZUay9GdEFjNkk1eTF1?=
+ =?utf-8?B?OEJVSlZDMTJoV2dVRUpWVVJNclpRaXZBa3BvQ05BNE1NNE91NFY0RXRRNVA1?=
+ =?utf-8?B?WE1Vb3BETFcraGJCMTE1MkF4SlhMSVBrQWY3YXhwTk5KNzZyT1NsYStBQUVZ?=
+ =?utf-8?B?T3I2T3E2OEt1VWhkYjhDZVRaNVd4MzVrL2NEL3JVSERRbEkvT2Z4THB4b0RP?=
+ =?utf-8?B?VE9qM0ZNanQ0TGpKZ2dzVkZuRE93aTBGa2dqM0xHZ0haNitqYjA2L2JvK1RF?=
+ =?utf-8?B?MkI1UVF2QlZFQjhlR0tpc3BkeUQvdzhDYUlGeWp4QXNXZFlOYTlmSHJITEY1?=
+ =?utf-8?B?MjROYVlVVElRV2lML1Q1dml6ZjBTMkFrYVZBT0xJZ2QrQ3BmdEhGT09SY3J5?=
+ =?utf-8?B?TXBCRnBJaCtOeTljWHhOSnNIZGM2R2dTbmM3YlJRVnBNL1hOR1dRWUYrS21q?=
+ =?utf-8?B?KzZOKzFxVHpIdzliajZhaS9BVEQ4R2pvanJnTXZDalJIYUhFYk9iK1JOTFgx?=
+ =?utf-8?B?UW9tZjhseVdDVHVRWUp3NFdoT1BnaFN6a3RLUmc0blMrWFc2OUJWMjlFajFD?=
+ =?utf-8?B?WmRCK2M4a1krUDRndnZDZz09?=
+X-Forefront-Antispam-Report: CIP:146.91.48.123;CTRY:US;LANG:en;SCL:-1;SRV:;IPV:CAL;SFV:SKN;H:ACDCSWPAPP748.cummins.svcnet;PTR:InfoDomainNonexistent;CAT:NONE;SFS:;DIR:INB;
+X-MS-Exchange-CrossTenant-OriginalArrivalTime: 17 Sep 2020 08:43:00.9720
+ (UTC)
+X-MS-Exchange-CrossTenant-Network-Message-Id: e4fd70be-bc22-4090-8eb5-08d85ae5af81
+X-MS-Exchange-CrossTenant-Id: b31a5d86-6dda-4457-85e5-c55bbc07923d
+X-MS-Exchange-CrossTenant-OriginalAttributedTenantConnectingIp: TenantId=b31a5d86-6dda-4457-85e5-c55bbc07923d;Ip=[146.91.48.123];Helo=[ACDCSWPAPP748.cummins.svcnet]
+X-MS-Exchange-CrossTenant-AuthSource: BN3NAM01FT046.eop-nam01.prod.protection.outlook.com
+X-MS-Exchange-CrossTenant-AuthAs: Anonymous
+X-MS-Exchange-CrossTenant-FromEntityHeader: HybridOnPrem
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: MN2PR05MB6431
+X-OrganizationHeadersPreserved: MN2PR05MB6431.namprd05.prod.outlook.com
+X-CrossPremisesHeadersFiltered: ACDCSWPAPP749.cummins.svcnet
+X-OrganizationHeadersPreserved: ACDCSWPAPP749.cummins.svcnet
+
+--00000000000045e0a705af7e1ea5
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+External Sender
+
+Hi John,
+
+
+I trust this Thursday morning is treating you well. I came across your Link=
+edIn profile whilst looking for the right person at Cummins for a quick cha=
+t, so wanted to drop you a line by way of introduction.
+
+
+I'm the Managing Director here at Codem Composites and we provide end-to-en=
+d solutions for all things carbon fibre. Recently we=E2=80=99ve worked on p=
+rojects with Mercedes F1, manufactured Raytheon's military antennas and pro=
+duced props for the latest Star Wars movie, just to name a few.
+
+
+The reason for my email is that I think there's great synergy between Codem=
+ and Cummins, so I'm hoping that you can spare me a few minutes to chat.
+
+
+I'm available for a quick call on Monday or Tuesday afternoon. If that does=
+n=E2=80=99t work, tell me what does, and I=E2=80=99ll make it happen.
+
+
+Best regards,
+
+
+Kevin Doherty
+
+
+[Description: CODEM Composites Ltd]          [cid:image009.jpg@01D362BA.5DA=
+65FA0]          [cid:image008.jpg@01D362BA.5DA65FA0]
+
+
+CODEM Composites Ltd Unit E Harrier Park, Southgate Way, Orton Southgate, P=
+eterborough PE2 6YQ
+
+
+Tel: +44 (0) 1487 832123
+Mob: +44 (0) 7785 996218
+Email: kevin@codem-composites.com<mailto:kevin@codemcomposites.com>
+Web: www.codem-composites.com<http://track.codem-composites.com/api/t/c/usr=
+_a8xLmetmsZe2dZKhP/tsk_7dwGShCZHkWQC98Jj/aHR0cDovL3d3dy5jb2RlbWNvbXBvc2l0ZX=
+MuY29tLw=3D=3D>
+
+
+As a GDPR compliant company, we would like to explain why you have received=
+ this email. We believe that Cummins has a legitimate interest in the produ=
+cts and services that Codem Composites offers. Our research has identified =
+your email address john.clark@cummins.com<mailto:john.clark@cummins.com> as=
+ the appropriate contact within your organisation. If you have received thi=
+s email in error or do not wish to receive further communications from Code=
+m Composites, just hit unsubscribe<http://track.codem-composites.com/api/un=
+subscribe/cam_dpCiXy7uz9SNiJCbN/am9obi5jbGFya0BjdW1taW5zLmNvbQ=3D=3D>.
+
+
+[picture]
+
+--00000000000045e0a705af7e1ea5
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<html>
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8">
+</head>
+<body>
+<p align=3D"right"><font size=3D"3" color=3D"#F39C12"><b>External Sender</b=
+></font></p>
+<div>
+<div style=3D"min-width:360px"></div>
+<div dir=3D"ltr">
+<div>
+<p style=3D"margin:0px;box-sizing:border-box"><span style=3D"font-family:Ar=
+ial,Helvetica,sans-serif;box-sizing:border-box">Hi John,&nbsp;</span></p>
+<p style=3D"margin:0px;box-sizing:border-box"><span style=3D"font-family:Ar=
+ial,Helvetica,sans-serif"><span style=3D"box-sizing:border-box"><br style=
+=3D"box-sizing:border-box">
+</span></span></p>
+<p style=3D"margin:0px;box-sizing:border-box"><span style=3D"font-family:Ar=
+ial,Helvetica,sans-serif"><span style=3D"box-sizing:border-box">I trust thi=
+s Thursday</span></span><span style=3D"font-family:Arial,Helvetica,sans-ser=
+if"><span style=3D"box-sizing:border-box">&nbsp;morning
+ is treating you well. I came across your LinkedIn profile whilst looking f=
+or the right person at Cummins for a quick chat, so wanted to drop you a li=
+ne by way of introduction.</span></span></p>
+<p style=3D"margin:0px;box-sizing:border-box"><span style=3D"font-family:Ar=
+ial,Helvetica,sans-serif"><span style=3D"box-sizing:border-box"><br style=
+=3D"box-sizing:border-box">
+</span></span></p>
+<p style=3D"margin:0px;box-sizing:border-box"><span style=3D"font-family:Ar=
+ial,Helvetica,sans-serif"><span style=3D"box-sizing:border-box">I'm the Man=
+aging Director here at Codem Composites and we provide end-to-end solutions=
+ for all things carbon fibre. Recently
+ we=E2=80=99ve worked on projects with Mercedes F1, manufactured Raytheon's=
+ military antennas and produced props for the latest Star Wars movie, just =
+to name a few.</span></span></p>
+<p style=3D"margin:0px;box-sizing:border-box"><span style=3D"font-family:Ar=
+ial,Helvetica,sans-serif"><br>
+</span></p>
+<p style=3D"margin:0px;box-sizing:border-box"><span style=3D"font-family:Ar=
+ial,Helvetica,sans-serif"><span style=3D"box-sizing:border-box">The reason =
+for my email is that I think there's great synergy between Codem and Cummin=
+s, so I'm hoping that you can spare me
+ a few minutes to chat.&nbsp;</span></span></p>
+<p style=3D"margin:0px;box-sizing:border-box"><span style=3D"font-family:Ar=
+ial,Helvetica,sans-serif"><br>
+</span></p>
+<p style=3D"margin:0px;box-sizing:border-box"><span style=3D"font-family:Ar=
+ial,Helvetica,sans-serif"><span style=3D"box-sizing:border-box"></span>I'm =
+available for a quick call on Monday or Tuesday afternoon. If that doesn=E2=
+=80=99t work, tell me what does, and I=E2=80=99ll make
+ it happen. <span style=3D"box-sizing:border-box"></span></span></p>
+<p style=3D"margin:0px;box-sizing:border-box"><span style=3D"font-family:Ar=
+ial,Helvetica,sans-serif"><span style=3D"box-sizing:border-box"><br style=
+=3D"box-sizing:border-box">
+</span></span></p>
+<p style=3D"margin:0px;box-sizing:border-box"><span style=3D"font-family:Ar=
+ial,Helvetica,sans-serif">Best regards,
+</span></p>
+<p style=3D"margin:0px;box-sizing:border-box"><span style=3D"font-family:Ar=
+ial,Helvetica,sans-serif"><span style=3D"box-sizing:border-box"><br style=
+=3D"box-sizing:border-box">
+</span></span></p>
+<p style=3D"margin:0px;box-sizing:border-box"><span style=3D"font-family:Ar=
+ial,Helvetica,sans-serif;box-sizing:border-box">
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"width:525p=
+t;border-collapse:collapse;border:none;empty-cells:show;max-width:100%;box-=
+sizing:border-box" width=3D"700">
+<tbody style=3D"box-sizing:border-box">
+<tr style=3D"box-sizing:border-box">
+<td style=3D"padding:0cm;height:15pt;min-width:5px;box-sizing:border-box">
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"width:525p=
+t;border-collapse:collapse;border:none;empty-cells:show;max-width:100%;box-=
+sizing:border-box" width=3D"700">
+<tbody style=3D"box-sizing:border-box">
+<tr style=3D"box-sizing:border-box">
+<td style=3D"padding:0cm;min-width:5px;box-sizing:border-box">
+<p style=3D"margin:0cm;font-size:15px;font-family:Calibri,sans-serif;box-si=
+zing:border-box">
+<strong style=3D"font-weight:700;box-sizing:border-box"><span style=3D"font=
+-size:18px;color:black;font-family:Arial,Helvetica,sans-serif;box-sizing:bo=
+rder-box">Kevin Doherty</span></strong></p>
+</td>
+</tr>
+<tr style=3D"box-sizing:border-box">
+<td style=3D"padding:0cm;height:15pt;min-width:5px;box-sizing:border-box"><=
+span style=3D"font-family:Arial,Helvetica,sans-serif;box-sizing:border-box"=
+><br style=3D"box-sizing:border-box">
+</span></td>
+</tr>
+<tr style=3D"box-sizing:border-box">
+<td style=3D"padding:0cm;min-width:5px;box-sizing:border-box">
+<p style=3D"margin:0cm;font-size:15px;font-family:Calibri,sans-serif;box-si=
+zing:border-box">
+<span style=3D"font-family:Arial,Helvetica,sans-serif;box-sizing:border-box=
+"><span style=3D"color:rgb(31,73,125);box-sizing:border-box"><img width=3D"=
+200" src=3D"http://track.codem-composites.com/api/froala/files/tea_NfYyMpjZ=
+5LayPy6cN-6001bc8f655e1d227c7ea5f14c4fc96a" alt=3D"Description: CODEM Compo=
+sites Ltd" style=3D"vertical-align: middle; border-style: none; cursor: poi=
+nter; padding: 0px 1px; max-width: 100%; box-sizing: border-box;"></span><s=
+pan style=3D"color:rgb(153,51,102);box-sizing:border-box">&nbsp;
+ &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</span><span style=3D"color:rgb(31,73,125=
+);box-sizing:border-box"><img width=3D"101" src=3D"http://track.codem-compo=
+sites.com/api/froala/files/tea_NfYyMpjZ5LayPy6cN-ba66bf715631fc5ad46e49d087=
+9aa5bc" alt=3D"cid:image009.jpg@01D362BA.5DA65FA0" style=3D"vertical-align:=
+ middle; border-style: none; cursor: pointer; padding: 0px 1px; max-width: =
+100%; box-sizing: border-box;">&nbsp;
+ &nbsp; &nbsp; &nbsp; </span><span style=3D"color:rgb(153,51,102);box-sizin=
+g:border-box">&nbsp;</span><span style=3D"color:rgb(31,73,125);box-sizing:b=
+order-box"><img width=3D"120" src=3D"http://track.codem-composites.com/api/=
+froala/files/tea_NfYyMpjZ5LayPy6cN-95ab1f987261409b5d768873a676560b" alt=3D=
+"cid:image008.jpg@01D362BA.5DA65FA0" style=3D"vertical-align: middle; borde=
+r-style: none; cursor: pointer; padding: 0px 1px; max-width: 100%; box-sizi=
+ng: border-box;"></span></span></p>
+</td>
+</tr>
+<tr style=3D"box-sizing:border-box">
+<td style=3D"padding:0cm;height:15pt;min-width:5px;box-sizing:border-box"><=
+span style=3D"font-family:Arial,Helvetica,sans-serif;box-sizing:border-box"=
+><br style=3D"box-sizing:border-box">
+</span></td>
+</tr>
+<tr style=3D"box-sizing:border-box">
+<td style=3D"padding:0cm;min-width:5px;box-sizing:border-box">
+<p style=3D"margin:0cm;font-size:15px;font-family:Calibri,sans-serif;box-si=
+zing:border-box">
+<span style=3D"font-family:Arial,Helvetica,sans-serif;box-sizing:border-box=
+"><span style=3D"font-size:10px;color:rgb(31,73,125);box-sizing:border-box"=
+>CODEM Composites Ltd Unit E Harrier Park, Southgate Way, Orton Southgate, =
+Peterborough PE2 6YQ</span></span></p>
+</td>
+</tr>
+<tr style=3D"box-sizing:border-box">
+<td style=3D"padding:0cm;height:22.5pt;min-width:5px;box-sizing:border-box"=
+><span style=3D"font-family:Arial,Helvetica,sans-serif;box-sizing:border-bo=
+x"><br style=3D"box-sizing:border-box">
+</span></td>
+</tr>
+<tr style=3D"box-sizing:border-box">
+<td style=3D"padding:0cm;min-width:5px;box-sizing:border-box">
+<p style=3D"margin:0cm;font-size:15px;font-family:Calibri,sans-serif;box-si=
+zing:border-box">
+<span style=3D"font-family:Arial,Helvetica,sans-serif;box-sizing:border-box=
+"><strong style=3D"font-weight:700;box-sizing:border-box"><span style=3D"fo=
+nt-size:10px;color:rgb(31,73,125);box-sizing:border-box">Tel: +44 (0) 1487 =
+832123<br style=3D"box-sizing:border-box">
+Mob: +44 (0) 7785 996218<br style=3D"box-sizing:border-box">
+Email:&nbsp;</span></strong><strong style=3D"font-weight:700;box-sizing:bor=
+der-box"><span style=3D"font-size:10px;color:rgb(31,73,125);box-sizing:bord=
+er-box"><a href=3D"mailto:kevin@codemcomposites.com" style=3D"color:rgb(0,1=
+84,255);text-decoration:none;background-color:transparent;box-sizing:border=
+-box"><span style=3D"color:blue;box-sizing:border-box">kevin@codem-composit=
+es.com</span></a></span></strong><strong style=3D"font-weight:700;box-sizin=
+g:border-box"><span style=3D"font-size:10px;color:rgb(31,73,125);box-sizing=
+:border-box"><br style=3D"box-sizing:border-box">
+Web:&nbsp;</span></strong><strong style=3D"font-weight:700;box-sizing:borde=
+r-box"><span style=3D"font-size:10px;color:rgb(31,73,125);box-sizing:border=
+-box"><a href=3D"http://track.codem-composites.com/api/t/c/usr_a8xLmetmsZe2=
+dZKhP/tsk_7dwGShCZHkWQC98Jj/aHR0cDovL3d3dy5jb2RlbWNvbXBvc2l0ZXMuY29tLw=3D=
+=3D" style=3D"color:rgb(0,184,255);text-decoration:none;background-color:tr=
+ansparent;box-sizing:border-box"><span style=3D"color:blue;box-sizing:borde=
+r-box">www.codem-composites.com</span></a></span></strong></span></p>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr style=3D"box-sizing:border-box">
+<td style=3D"padding:0cm;min-width:5px;box-sizing:border-box"><span style=
+=3D"font-family:Arial,Helvetica,sans-serif;box-sizing:border-box"><br style=
+=3D"box-sizing:border-box">
+</span></td>
+</tr>
+</tbody>
+</table>
+</p>
+<p style=3D"margin-top:0px;margin-bottom:1rem;box-sizing:border-box"><span =
+style=3D"font-size:10px;font-family:Arial,Helvetica,sans-serif;box-sizing:b=
+order-box">As a GDPR compliant company, we would like to explain why you ha=
+ve received this email. We believe that
+ Cummins has a legitimate interest in the products and services that Codem =
+Composites offers. Our research has identified your email address
+<a href=3D"mailto:john.clark@cummins.com">john.clark@cummins.com</a> as the=
+ appropriate contact within your organisation. If you have received this em=
+ail in error or do not wish to receive further communications from Codem Co=
+mposites, just hit
+<a href=3D"http://track.codem-composites.com/api/unsubscribe/cam_dpCiXy7uz9=
+SNiJCbN/am9obi5jbGFya0BjdW1taW5zLmNvbQ=3D=3D" style=3D"color:rgb(0,184,255)=
+;text-decoration:none;background-color:transparent;box-sizing:border-box">
+unsubscribe</a>.</span></p>
+</span>
+<p></p>
+</div>
+<br>
+<div class=3D"gmail_extra"><br>
+<div class=3D"gmail_signature" data-smartmail=3D"gmail_signature">
+<div dir=3D"ltr">
+<div>
+<div dir=3D"ltr"></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<img alt=3D"picture" src=3D"http://track.codem-composites.com/api/reply/dat=
+a-ll-tsk_7dwGShCZHkWQC98Jj" style=3D"opacity:0;display:none;width:0;height:=
+0;">
+<img alt=3D"logo" src=3D"http://track.codem-composites.com/api/track/open/u=
+sr_a8xLmetmsZe2dZKhP/tsk_7dwGShCZHkWQC98Jj" height=3D"1" width=3D"1">
+</div>
+</body>
+</html>
+
+--00000000000045e0a705af7e1ea5--
+
+--d487ef9f-f68f-4855-8832-6e931a50e1c9--

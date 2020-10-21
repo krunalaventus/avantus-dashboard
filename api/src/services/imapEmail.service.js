@@ -16,7 +16,7 @@ exports.getAllImapEmails = async function(req, res) {
     try {
         let createdata = {};
         var decodedData = req.decoded.data;
-        createdata = await sequelize.query(`select a.* from imapEmails a where a.customer_id = ${decodedData.id} and a.x_gm_label in ('FB - Positive Response','FB - Referral','FB - Deferred Interest')`, { type: QueryTypes.SELECT });
+        createdata = await sequelize.query(`select a.* from imapEmails a where a.customer_id = ${decodedData.id} and a.x_gm_label in ('FB - Positive Response','FB - Referral','FB - Deferred Interest') order by a.id desc`, { type: QueryTypes.SELECT });
         
         if (createdata) {
             return {
@@ -138,13 +138,19 @@ exports.getEmailDetail = async function(params, res) {
         var fs = require("fs"),
         path = require("path"),
         util = require("util");
-        find.forEach(element => {
-            fs.readFile(path.join(`imap/${element.email_id}/msg-${element.email_seq}.txt`), 'utf8', function (err, data) {
+        find.forEach(async element => {
+            fs.readFile(path.join(`imap/${element.email_id}/msg-${element.email_seq}.txt`), 'utf8', async function (err, data) {
                 if (err) {
                     console.log("==================================")
                     console.log(element.id)
                 }
-                const gdata= (data ?? '').replace(/3D"/g, '"').replace(/=09/g,'').replace(/=20/g,'').replace(/=C2=A0=/g,'').replace(/=C2=A0/g,'').replace(/=C2=A9/g,'').replace(/=E2=82=B9/g,'').replace(/<=\r\n/g, '<').replace(/=\r\n/g,'');
+                var quotedPrintable = require('quoted-printable');
+                var utf8 = require('utf8');
+                var gdata = quotedPrintable.decode(data ?? '').toString('utf8');
+                // const simpleParser = require('mailparser').simpleParser;
+                // let gdata = await simpleParser(data??'');
+                // const gdata= decodeURI(data ?? '');
+                //.replace(/3D"/g, '"').replace(/=09/g,'').replace(/=20/g,'').replace(/=C2=A0=/g,'').replace(/=C2=A0/g,'').replace(/=C2=A9/g,'').replace(/=E2=82=B9/g,'').replace(/<=\r\n/g, '<').replace(/=\r\n/g,'');
                 // var gdata = new Buffer(data.replace(/=([A-Fa-f0-9]{2})/g, function(m, byte) {
                 //   return String.fromCharCode(parseInt(byte, 16));
                 // }), 'binary').toString('utf8');

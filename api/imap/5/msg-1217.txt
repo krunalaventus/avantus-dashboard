@@ -1,0 +1,150 @@
+To: kevin@codem-composites.com
+Date: Tue, 20 Oct 2020 06:34:31 -0700 (PDT)
+From: Mail Delivery Subsystem <mailer-daemon@googlemail.com>
+Subject: Delivery Status Notification (Failure)
+
+0000000007647b605b21a4a8b"
+
+--0000000000007647b605b21a4a8b
+Content-Type: text/plain; charset="UTF-8"
+
+
+** Address not found **
+
+Your message wasn't delivered to kashton@smmt.co.uk because the address couldn't be found, or is unable to receive mail.
+
+
+
+The response from the remote server was:
+550 permanent failure for one or more recipients (kashton@smmt.co.uk:550 5.4.1 All recipient addresses rejected : Access denied. AS(201806271) [CWLGBR01FT013.eop-gbr01...)
+
+--0000000000007647b605b21a4a8b
+Content-Type: text/html; charset="UTF-8"
+
+
+<html>
+<head>
+<style>
+* {
+font-family:Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+</style>
+</head>
+<body>
+<table cellpadding="0" cellspacing="0" class="email-wrapper" style="padding-top:32px;background-color:#ffffff;"><tbody>
+<tr><td>
+<table cellpadding=0 cellspacing=0><tbody>
+<tr><td style="max-width:560px;padding:24px 24px 32px;background-color:#fafafa;border:1px solid #e0e0e0;border-radius:2px">
+<img style="padding:0 24px 16px 0;float:left" width=72 height=72 alt="Error Icon" src="cid:icon.png">
+<table style="min-width:272px;padding-top:8px"><tbody>
+<tr><td><h2 style="font-size:20px;color:#212121;font-weight:bold;margin:0">
+Address not found
+</h2></td></tr>
+<tr><td style="padding-top:20px;color:#757575;font-size:16px;font-weight:normal;text-align:left">
+Your message wasn't delivered to <a style='color:#212121;text-decoration:none'><b>kashton@smmt.co.uk</b></a> because the address couldn't be found, or is unable to receive mail.
+</td></tr>
+</tbody></table>
+</td></tr>
+</tbody></table>
+</td></tr>
+<tr style="border:none;background-color:#fff;font-size:12.8px;width:90%">
+<td align="left" style="padding:48px 10px">
+The response from the remote server was:<br/>
+<p style="font-family:monospace">
+550 permanent failure for one or more recipients (kashton@smmt.co.uk:550 5.4.1 All recipient addresses rejected : Access denied. AS(201806271) [CWLGBR01FT013.eop-gbr01...)
+</p>
+</td>
+</tr>
+</tbody></table>
+</body>
+</html>
+
+--0000000000007647b605b21a4a8b--
+--0000000000007647b005b21a4a8a
+Content-Type: image/png; name="icon.png"
+Content-Disposition: attachment; filename="icon.png"
+Content-Transfer-Encoding: base64
+Content-ID: <icon.png>
+
+iVBORw0KGgoAAAANSUhEUgAAAJAAAACQCAYAAADnRuK4AAAACXBIWXMAABYlAAAWJQFJUiTwAAAA
+GXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAABTdJREFUeNrsnD9sFEcUh5+PRMqZ
+yA0SPhAUQAQFUkyTgiBASARo6QApqVIkfdxGFJFSgGhJAUIiBaQB0ZIOKVCkwUgURjIg2fxL4kS+
+YDvkbC/388bi8N16Z4/d7J/5PsniuD3fyePP772ZeTsDQRAYQL/UGAJAIEAgQCBAIAAEAgQCBAIE
+AkAgyJT3Mv+Eq7vYK8mTE+MDRCAghQECAeRQA5V2ZOpmg5vDx3NPzRbmGRMEcmTrEbNNB8zWfRD+
+f/Efs2e3zCZvMjaksBg27TfbcuSNPEKP9ZyuAQKtHX2O9ncNgWC57umMPKvRNb0GEKgnLoUyxTQC
+rcns0/6uIRAs8/hGf9cQCJZpTpjdO2f25/03z+mxntM1eLtsZAgiUtX4JcaBCAQIBAgECARQ8CJa
+G5jab4J4pm4WZmO3OALVh802fIwcLkyPkcKAGggAgQCBAIEAgQCBABAIEAjKA/1AnahhbO5FdOOY
+VsrrDbPBYcYKgf5D2wLaV3p+22xh1u17tO3S+DTcvxvagUDeivPgx/a/95J/73w7Sj26Hn4pKo2M
+ehuV/KyBJM6d0f7k6RKx/R63vvL2tmf/ItDdM2ZTP6f7nkp9Y2fDx1v9akmpIU+KSCLVUghUQfSL
+zVKeTklbLxGoctw/nzC5rw8L5KRNbkpnKq6pgSqEClzNnFzY+XnYWrt6VpVk1vbwWvg+RKCKMOUw
+Q1LEOXA+/MX3mpJvGDHb265xtnzmFoUK1HaKQGlMtePYM+q2KKjXuaS1NJYIEKgI8jhEgqHt4cqy
+Ky53j3hyHz2bqSLp2o2LbJ7MxKovkGqXteoWpaOk96O9/yF/dF7NwlS36AuIQIBA5celQK4PIxBE
+4LLzrtoLgaALdSy6CJRkWQCBPGLsTHznomZ9nszUECgJ2ml3WWHe+QVFNPSQx6UdZNtxr9pbEShN
+eTTz8mQXHoHSlke7+Z+c9m6VGoHSkEfs/trLW3wQKApN1V3lGfnGu2Z6BFoLtYCs3GWBPAiUCLVh
+/HoaeRCoT9R873KLM/IgUBfapnCpe5AHgXry4pf412ihEHkQqCdxd5VqrcezhUIESsJMTJ+Pdthp
+Z0WgyNlXXPHc2Mc4IVAELl2Gnh8mhUDvCkfbIVAkcbf/aOoO3fMKhqAD3frTa4quwpn0hUDOkQhI
+YYBAgECAQAAU0QlYObl+5Ug8NcprZkZxjUCxRPVA6zmtEXHCBykskrhjgHXN09PoEcgFl4M4H11j
+nBAoApcj6ZoPGScEAgTKApcDoTw5sgWB+sGlz1n90IBAPdE6j1o21PfcC11jLagL1oFWRyGlKU3p
+OxcSJQ7NZAjkhHp/uG2HFAYIBAgECASAQIBAgECAQAAIBOkxEARBtp9wdVfAMOfIifEBIhCQwgCB
+ABAI0oV2jhxZ+nfBatuPZfgBCy0Eqqo8c01b+uu51XZvzOgDWoHNTGR+pCwpLEd5svuAZXlO2uEr
+PyEQ8hRWHgRCHmqg0sjTnLalv6crJQ8C/U8stqNO0I4+VZOHFIY8COS1PGL2ybd5yUMKK7s8zYmL
+dujyd3n+nESgcsvzZd4/KwIhDwIhT35QA6UyE1qyxZnfvJMHgdKS549JC1qvvJOHFIY8CFR5eV5O
+XimqPAhUdHnmfx+zgxdOFXkoqIGKKs/cswnb/8Oeog8HEai48nxUhiFBIORBIOShBioskkbySCLk
+IQIhDwIhj28p7FApR6b1qlEbHGpkO/rr6215vi/zH1r2x7tApSGFAQIBAgECAQIBIBAgECAQIBBA
+LK8FGADCTxYrr+EVJgAAAABJRU5ErkJggg==
+--0000000000007647b005b21a4a8a--
+--0000000000007639e205b21a4a70
+Content-Type: message/delivery-status
+
+Reporting-MTA: dns; googlemail.com
+Arrival-Date: Tue, 20 Oct 2020 06:34:26 -0700 (PDT)
+X-Original-Message-ID: <CAK4cLxhp2eEJstip8hoyTAm6LiTbnA3Ai0QQfCcpiYB9r0jO+Q@mail.gmail.com>
+
+Final-Recipient: rfc822; kashton@smmt.co.uk
+Action: failed
+Status: 5.0.0
+Remote-MTA: dns; d216045.a.ess.uk.barracudanetworks.com. (35.176.92.100, the
+ server for the domain smmt.co.uk.)
+Diagnostic-Code: smtp; 550 permanent failure for one or more recipients (kashton@smmt.co.uk:550 5.4.1 All recipient addresses rejected : Access denied. AS(201806271) [CWLGBR01FT013.eop-gbr01...)
+Last-Attempt-Date: Tue, 20 Oct 2020 06:34:31 -0700 (PDT)
+
+--0000000000007639e205b21a4a70
+Content-Type: message/rfc822
+
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=codem-composites.com; s=google;
+        h=from:mime-version:date:message-id:subject:to;
+        bh=OoboA5/S+KEdNLeX3hnPLHD4tG+NzLscINOkcV6YHCQ=;
+        b=TsrdK1Ddxwvwi9DfmdEVyViAG2D+kaSukfneGeeqDaSPjWimc3Vqi0PDfWq7KGx4lG
+         I2XLukHZXcVUU3VWMUn2tu5KgcObZtNn/YROV29zZihYDGaRH1SpZF+ofpRErGtbKzgD
+         pIWpS/7a1AGEi7aaYL7sg6xFfdTvFbP8q3LsT6GUJlpI999M+P7WUMIWSgJ0aA6qjtSc
+         GS50aIE387bTkX9ZR4YWw56HwwHjiVHH1eu0nOkBfWaGe0k51GGRPR8aM5DInupZXbZq
+         dfU/wBJjLOZTNlHkizsUK8GP31mtFZWZEIPb9wvRo6Dn9sBsSkj3dmXNq4mnTT3B/AEo
+         6gVw==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20161025;
+        h=x-gm-message-state:from:mime-version:date:message-id:subject:to;
+        bh=OoboA5/S+KEdNLeX3hnPLHD4tG+NzLscINOkcV6YHCQ=;
+        b=ZuH0VqLXzAtNqHDnlYr2h9bMHdKD8qDj+L31AUtgmVCCspV2nD1wiF9DaR8mniArSX
+         x2kjEOOwJfaSUqas76RBzWeIEKQOr72gbs27cjm+dAo+OPlATPRCnHvgxSndHpdEILHz
+         y4b3Gjd5IxpqJ+Kps4BueXcVb33ddVTRG6hsnuqSSavklG5QPXEW+3jA09hsCbacqhow
+         Ns5cLbs+iApfbI+N3qcFxOTcZasHt5dH5x7SXMn+NfPbR+ApHrJ9I8UfjOL7AjbRCbqe
+         ayCl7Vm8ejxWcoeqWACwv+oFN4mu3T64Tw19mhYxTm0xyarDeF09Rdhn41Y+iZpoztKu
+         nEbw==
+X-Gm-Message-State: AOAM531hjGzaKQ/LisrO+Jv54NjC0NVxF2ps+d6VnKNG8XyEXdAsXHbS
+	g86arObR47eHFP9wXEa6nLDyxQROntCme2vT7zCMH8gguTmdcA==
+X-Google-Smtp-Source: ABdhPJwg4Gis08/TUW0p5YYRAXEcz6a7r9f7ypt9Rzun802tMCighOwPLGTJjHYDgNil201QOloU2NoUJAQLBq5Jvqk=
+X-Received: by 2002:a17:90a:cb92:: with SMTP id a18mr2776977pju.136.1603200866499;
+ Tue, 20 Oct 2020 06:34:26 -0700 (PDT)
+Received: from 696963989851 named unknown by gmailapi.google.com with
+ HTTPREST; Tue, 20 Oct 2020 06:34:25 -0700
+From: Kevin Doherty <kevin@codem-composites.com>
+MIME-Version: 1.0
+Date: Tue, 20 Oct 2020 06:34:25 -0700
+Message-ID: <CAK4cLxhp2eEJstip8hoyTAm6LiTbnA3Ai0QQfCcpiYB9r0jO+Q@mail.gmail.com>
+Subject: Quick Question, Keith
+To: kashton@smmt.co.uk
+Content-Type: multipart/alternative; boundary="00000000000026d25105b21a4a27"
+
+----- Message truncated -----
+--0000000000007639e205b21a4a70--

@@ -3,8 +3,3 @@ To: <kevin@codem-composites.com>
 Date: Wed, 23 Sep 2020 11:32:40 +0000
 Subject: Undeliverable: Quick Question, Mathew
 
-l-Recipient: rfc822;mathew.gard@greatwesternrail.com
-Action: failed
-Status: 5.1.10
-Diagnostic-Code: smtp;550 5.1.10 RESOLVER.ADR.RecipientNotFound; Recipient mathew.gard@greatwesternrail.com not found by SMTP address lookup
-

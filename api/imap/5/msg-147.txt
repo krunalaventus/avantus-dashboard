@@ -1,3 +1,30 @@
+From: Mail Delivery System <MAILER-DAEMON@messagelabs.com>
+To: <kevin@codem-composites.com>
+Subject: Mail Delivery Failure
+Date: Fri, 04 Sep 2020 15:06:30 +0000
+
+Email Security.cloud.
+
+I was unable to deliver your message to the following addresses:
+
+paul.horstmann@scl.org
+
+Reason: 550 5.4.1 Recipient address rejected: Access denied. AS(201806281) =
+[AM5EUR02FT029.eop-EUR02.prod.protection.outlook.com]
+
+The message subject was: Quick Question, Paul
+The message date was: Fri, 4 Sep 2020 15:06:25 +0000
+The message identifier was: DA/8A-59114-5F7525F5
+The message reference was: server-28.tower-246.messagelabs.com!1599231987!9=
+25605!1
+
+Please do not reply to this email as it is sent from an unattended mailbox.
+Contact your email administrator if you need more information, or
+instructions for resolving this issue.
+
+--dsn_001599231990_002042814849
+Content-Type: message/delivery-status
+
 Arrival-Date: Fri, 04 Sep 2020 15:06:29 +0000
 Reporting-MTA: dns; server-4.bemta.az-b.eu-central-1.aws.symcld.net
 
@@ -6,3 +33,80 @@ Last-Attempt-Date: Fri, 04 Sep 2020 15:06:30 +0000
 Status: 5.4.1
 Final-Recipient: rfc822; paul.horstmann@scl.org
 Action: failed
+
+--dsn_001599231990_002042814849
+Content-Type: text/rfc822-headers
+
+Return-Path: <kevin@codem-composites.com>
+Received: from [100.113.5.174] (using TLSv1.2 with cipher DHE-RSA-AES256-GCM-SHA384 (256 bits))
+	by server-4.bemta.az-b.eu-central-1.aws.symcld.net id DA/8A-59114-5F7525F5; Fri, 04 Sep 2020 15:06:29 +0000
+Authentication-Results: mx.messagelabs.com; spf=pass 
+  (server-28.tower-246.messagelabs.com: domain of codem-composites.com 
+  designates 209.85.166.182 as permitted sender) 
+  smtp.mailfrom=codem-composites.com; dkim=pass (good signature) 
+  header.i=@codem-composites.com header.s=google; dmarc=pass (p=none 
+  adkim=r aspf=r) header.from=codem-composites.com
+X-Brightmail-Tracker: H4sIAAAAAAAAA+NgFupileJIrShJLcpLzFFi42K5GLpsm+6X8KB
+  4g+0rzC1eLD3H4sDo0XezhyWAMYo1My8pvyKBNWPv+5esBV+SKh73LmVtYHwV3cXIxSEk0M8o
+  sXjVImYQh0XgKYvEswN32UAcCYEfLBIdC5awQzhNjBK3Lhxl7WLkBHKKJPZ1rWGBsQ/+O88EY
+  gsJ5EtMajrCDmKzCRhIdJz9zQxi8woISpyc+QSongNohYrEliVmICavQIDEnbvVIKawgKzElR
+  /OIMUiAlISEx4sYQOxmQV8JGYu/Mo+gZFvFpI5s5CkIGxNidbtv6FsbYllC18zQ9gaEgvu7GN
+  EFl/AyLaK0TKpKDM9oyQ3MTNH19DAQNfQ0FjXVNfIxFAvsUo3SS+1VDc5Na+kKBEoq5dYXqxX
+  XJmbnJOil5dasokRGNgphawfdzAeev1B7xCjJAeTkihvjGNQvBBfUn5KZUZicUZ8UWlOavEhR
+  hkODiUJXoUwoJxgUWp6akVaZg4wymDSEhw8SiK8S0HSvMUFibnFmekQqVOM4RxLNs5bxMzR8W
+  sRkHz3czGQvL1qCZD8CCa/g8m2jSBy1YHpq5iFWPLy81KlxHltQMYJgIzLKM2DWwZLIpcYZaW
+  EeRkZGBiEeApSi3IzS1DlXzGKczAqCfPyAFOSEE9mXgncTa+AzmUCOveoaSDIuSWJCCmpBqa0
+  aDPbeSHpEz5H3HsleOXMcYvYdNkqwc0l7MIJ1/TNe0O+S4gtWbOi9m9dQcsDX/YZNt55l0MXb
+  Tmck3j2H/PN7g0Zvx9631o0/3qDkrjHx3uL7GUL8rbd6WH+t7hB4f/UgzFajQmxhyXdBT/N05
+  INOnJ9g6JEwLFPEYdsff0iX4ed6GD1iwnv4/qZ0BbhXfBR5dEZS5ut7ELNoVuzeaP+vSw0fON
+  4ajPn17UMpmfnv+X66rT/3uPzupwFv28YmzRYn/8+51640QuRV2auNw7ONhP5Iip4JoiXK3r1
+  hEfC6xIqjqu6HlsRFHi/4pL2nZ3M34P3PvO5fOV7Xjxn2eO8wKkmdVybrt9PK6hz9VdiKc5IN
+  NRiLipOBADB+xpJnQMAAA==
+X-Env-Sender: kevin@codem-composites.com
+X-Msg-Ref: server-28.tower-246.messagelabs.com!1599231987!925605!1
+X-Newsletter-Flag: YES
+X-Originating-IP: [209.85.166.182]
+X-StarScan-Received:
+X-StarScan-Version: 9.50.3; banners=-,-,scl.org
+Received: (qmail 16698 invoked from network); 4 Sep 2020 15:06:28 -0000
+Received: from mail-il1-f182.google.com (HELO mail-il1-f182.google.com) (209.85.166.182)
+  by server-28.tower-246.messagelabs.com with ECDHE-RSA-AES256-GCM-SHA384 encrypted SMTP; 4 Sep 2020 15:06:28 -0000
+Received: by mail-il1-f182.google.com with SMTP id w3so6625110ilh.5
+        for <paul.horstmann@scl.org>; Fri, 04 Sep 2020 08:06:28 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=codem-composites.com; s=google;
+        h=from:mime-version:date:message-id:subject:to;
+        bh=Lj3FdcxbSd4DwTXTbvpWTKoTUQIUn7aP0EaZtMDFuAw=;
+        b=MpHfyPh3jEW7izXw8ohsA9Rq1V/sKcP3M/n6HBEZLlGPGjkC736aDIB217amxAGAlU
+         lu9kO3dQ97SF/LSdTnaMPevMlX6eDRo1rzSlt62uIDJkrjBBp7kKwnVWyWNNqfhr/6ci
+         FDoNDWSQIzW8lEKvrYYbMrjSQ5lJHhQH/pQCgfXLgw+0LxpirPvngxMCnyBjCNueV4mb
+         aJXAvH1RtcPyCd+KY7YlZubPMfFZhJYVmQxuWnUNj8jaFQ7aNA73hRskkS26XCIVYTxd
+         y7fKt8fQEqWSzexdKgTeqNLZcnkKvvbx5rpCUiWeC0VX93CJuOylZ2uCCgADLcsMADQm
+         ecuA==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20161025;
+        h=x-gm-message-state:from:mime-version:date:message-id:subject:to;
+        bh=Lj3FdcxbSd4DwTXTbvpWTKoTUQIUn7aP0EaZtMDFuAw=;
+        b=CNQYimTloQLhl+mDUwNx/QkevIgnwo7tS54cI/87PNgeQzGuqkdBY0mPAOUfwRbWIZ
+         2X0e4nIcbXfKAhkNrWtN8CrTcTlNeOfJeDPzhr0d+r93eenRyqg2CACr4vYuRWd6efAC
+         KMSrwVMxKLdl0cz2i5IqP23QiRNyr68AYJTvcLdx7adVrqQFNJvEYfkJXwhXc/NSmYMA
+         2humwYn83OWOX1vXId3cT0rRfd0WGpIdfBw586sIgIQEzGChtTZHKfElpZ7nOrCIT28w
+         IXh9wHxK6RlsNsrUx+8wWmCGVZLr9Bxv4GZmP2fQ5XYwGTBVInpBg1sm//eSL1cEBDno
+         RmTg==
+X-Gm-Message-State: AOAM530zmUnmZYKtjGGRn7vEOos1ljnXo280+vtvGcCEsYJCp3CO0jBe
+	+f2Jc7vd3T7BLEf5PqJiLA8jzNbxA7Ueks/wYLMXieXrptBr+g==
+X-Google-Smtp-Source: ABdhPJxtT+PKB5z6dWqmMm6h3/pyHfhMxurfrN2grHVwBAYIAUwaNw401ToiW8NKY+nZy8IDF9fhDVUSTc33BX1RepM=
+X-Received: by 2002:a92:108:: with SMTP id 8mr8226700ilb.207.1599231986501;
+ Fri, 04 Sep 2020 08:06:26 -0700 (PDT)
+Received: from 696963989851 named unknown by gmailapi.google.com with
+ HTTPREST; Fri, 4 Sep 2020 15:06:25 +0000
+From: Kevin Doherty <kevin@codem-composites.com>
+MIME-Version: 1.0
+Date: Fri, 4 Sep 2020 15:06:25 +0000
+Message-ID: <CAK4cLxhbL-GVtuo8fubnNy-r25iKS15AQ9OQNDDo-AgvucDdEA@mail.gmail.com>
+Subject: Quick Question, Paul
+To: paul.horstmann@scl.org
+Content-Type: multipart/alternative; boundary="0000000000007816ac05ae7e36d1"
+
+--dsn_001599231990_002042814849--
+

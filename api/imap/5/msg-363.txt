@@ -1,3 +1,22 @@
+--_000_9c0f1a5bc7dd4472896384d2e17cb5d7SCCULM8005ccebscorp_
+Content-Type: text/plain; charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+Dear sender,
+
+I am currently out of office with no access to my emails and will return on=
+ Monday 14th September. Your email will not be forwarded.
+
+In urgent cases, please contact Cat Rees.
+
+Best regards
+Sean Turner
+
+
+--_000_9c0f1a5bc7dd4472896384d2e17cb5d7SCCULM8005ccebscorp_
+Content-Type: text/html; charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
 <html xmlns:o=3D"urn:schemas-microsoft-com:office:office" xmlns:w=3D"urn:sc=
 hemas-microsoft-com:office:word" xmlns:m=3D"http://schemas.microsoft.com/of=
 fice/2004/12/omml" xmlns=3D"http://www.w3.org/TR/REC-html40">
@@ -69,3 +88,5 @@ ze:8.5pt;font-family:&quot;Tahoma&quot;,&quot;sans-serif&quot;"><o:p>&nbsp;=
 </div>
 </body>
 </html>
+
+--_000_9c0f1a5bc7dd4472896384d2e17cb5d7SCCULM8005ccebscorp_--

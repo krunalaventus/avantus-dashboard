@@ -1,0 +1,634 @@
+From: <postmaster@jacobs.com>
+To: <kevin@codem-composites.com>
+Date: Wed, 14 Oct 2020 13:10:16 +0100
+Subject: Undeliverable: [EXTERNAL] Quick Question, Ruth
+
+17a-eef3-4058-9188-b3a9de889fba
+Content-Type: text/plain; charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+Delivery has failed to these recipients or groups:
+
+rp@jacobs.com<mailto:rp@jacobs.com>
+There's a problem with the recipient's mailbox. Please try resending the me=
+ssage. If the problem continues, please contact your helpdesk.
+
+
+
+
+
+
+
+Diagnostic information for administrators:
+
+Generating server: jacobs.com
+
+rp@jacobs.com
+#554 5.2.0 STOREDRV.Deliver.Exception:AccessDeniedException.MapiExceptionNo=
+tAuthorized; Failed to process message due to a permanent exception with me=
+ssage Cannot complete delivery-time processing. 16.55847:AC260000, 17.43559=
+:000000009E020000000000000600000000000000, 255.23226:00000000, 255.27962:0A=
+000000, 255.27962:0E000000, 255.27962:0A000000, 255.27962:9E000000, 255.170=
+82:D6040000, 0.18273:00000000, 4.21921:D6040000, 255.27962:FA000000, 255.14=
+94:0A000000, 255.1238:0A000000, 4.13800:0F010480, 4.9448:0F010480, 0.25720:=
+0F010480, 4.7716:0F010480, 2.22787:00000000, 4.13800:0F010480, 4.9448:0F010=
+480, 0.25720:0F010480, 4.7716:0F010480, 0.17692:0F010480, 6.5587:0F01048002=
+014D0E0F010480, 4.33375:0F010480, 2.17597:00000000, 2.22787:00000000, 4.130=
+32:0F010480, 2.22787:00000000, 4.13032:0F010480, 0.26000:0F010480, 4.4580:0=
+5000780, 0.26640:0F010480, 4.4408:05000780, 4.7637:D8040000, 0.49797:0F0104=
+80, 4.5093:D6040000, 4.5318:D6040000, 4.10104:D6040000, 0.57449:0F010480, 4=
+.6025:05000780, 4.5257:05000780, 4.4606:D6040000, 255.1750:00000000, 0.2684=
+9:00000000, 255.21817:D6040000 ##
+
+Original message headers:
+
+Received: from USLAS0-MSG011.jacobs.com (10.80.16.154) by
+ GBMNC0-MSG006.europe.jacobs.com (10.144.8.92) with Microsoft SMTP Server
+ (TLS) id 14.3.487.0; Wed, 14 Oct 2020 13:10:15 +0100
+Received: from USLAS0-MSG102.jacobs.com (10.80.16.41) by
+ USLAS0-MSG011.jacobs.com (10.80.16.154) with Microsoft SMTP Server (TLS) i=
+d
+ 14.3.487.0; Wed, 14 Oct 2020 05:10:13 -0700
+Received: from USLAS0-MSG120.jacobs.com (10.80.16.52) by
+ USLAS0-MSG102.jacobs.com (10.80.16.41) with Microsoft SMTP Server
+ (version=3DTLS1_2, cipher=3DTLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256) id
+ 15.1.1979.3; Wed, 14 Oct 2020 05:10:12 -0700
+Received: from mx0a-0025cf01.pphosted.com (10.80.10.250) by
+ USLAS0-MSG120.jacobs.com (10.80.16.52) with Microsoft SMTP Server
+ (version=3DTLS1_2, cipher=3DTLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256) id 15.1=
+.1979.3
+ via Frontend Transport; Wed, 14 Oct 2020 05:10:12 -0700
+Received: from pps.filterd (m0144711.ppops.net [127.0.0.1])     by
+ mx0a-0025cf01.pphosted.com (8.16.0.42/8.16.0.42) with SMTP id 09EC3lei0292=
+32
+        for <rp@jacobs.com>; Wed, 14 Oct 2020 12:10:12 GMT
+Authentication-Results: ppops.net;
+        spf=3Dpass smtp.mailfrom=3Dkevin@codem-composites.com;
+        dkim=3Dpass header.s=3Dgoogle header.d=3Dcodem-composites.com;
+        dmarc=3Dpass header.from=3Dcodem-composites.com
+Received: from mail-io1-f48.google.com (mail-io1-f48.google.com
+ [209.85.166.48])       by mx0a-0025cf01.pphosted.com with ESMTP id 343phnc=
+uw7-1
+        (version=3DTLSv1.2 cipher=3DECDHE-RSA-AES128-GCM-SHA256 bits=3D128 =
+verify=3DNOT)        for
+ <rp@jacobs.com>; Wed, 14 Oct 2020 12:10:11 +0000
+Received: by mail-io1-f48.google.com with SMTP id r4so4784407ioh.0        f=
+or
+ <rp@jacobs.com>; Wed, 14 Oct 2020 05:10:11 -0700 (PDT)
+DKIM-Signature: v=3D1; a=3Drsa-sha256; c=3Drelaxed/relaxed;
+        d=3Dcodem-composites.com; s=3Dgoogle;
+        h=3Dfrom:mime-version:date:message-id:subject:to;
+        bh=3DbJina1ZyJMmM56krtYrbi7GnTdnj7G86uWpYr7a5ago=3D;
+        b=3DMMlrdoyaPFrE7f2IuMzdPNTCpyn0uPgQv8ckASCl9j+xg1jWVE9fW8jHxKPH/Hs=
+4r8
+         4k1Y6sqkDaz0QCq6g8dV1TWYDaeYGmYP5uvCptjBaq7WV3QoSPOVCKtEydi9OUoU67=
+SH
+         xMu/ZEelKCX9m/Avl84yeBjqvms2Jlp7+s1jj6BJ/VOoosUiUzy7Ygb4UcSHnB0Gf3=
+pj
+         UOyhqBePRNTNohyxhmBMTlmOpR3uUdVTuQXVMvxeOeU3D3S/8FFdFDsk3VSXcYwvEW=
+Un
+         w5RvHCLDdPIMhLLhdRYFYBalGv8688T+T2MQOVX76AIgDdzUyUDgTkr8rSbgOHKjWp=
+Vt
+         62tQ=3D=3D
+X-Google-DKIM-Signature: v=3D1; a=3Drsa-sha256; c=3Drelaxed/relaxed;
+        d=3D1e100.net; s=3D20161025;
+        h=3Dx-gm-message-state:from:mime-version:date:message-id:subject:to=
+;
+        bh=3DbJina1ZyJMmM56krtYrbi7GnTdnj7G86uWpYr7a5ago=3D;
+        b=3DQDhCQykiwrpxhz1pTKFW7OFCOLv95s/6jnuHbVVKP9/byhzintNXobBj5ahMHH3=
+w3f
+         e2xvggFuYCIGRs+KKf18eV9VWMVb+k+mTe0vbS1v45ghlP0pTfmrQUlSwnez2hal9h=
+oZ
+         Tm8g1pXK2M2uJTlLgf+BGRUpuzILE+HUSBLXIrQiu+MrYUz46iueDFQGKK4sWFLR+k=
+uq
+         Klxl0xf+242KdDadf3ZccuyIbaftqjm1BedR2sLZoERJqTHzLzq99MJgbq1TJGF84u=
+jD
+         REZ3QVWaScjsi3GIs9AgQRybUB8m7uHt/v8wauXVG0khHohKagjhCpmRCjp1YXg0Vp=
+HJ
+         e2IA=3D=3D
+X-Gm-Message-State: AOAM5317CrZagz5Jx22m5XCKwxciPdfJdiYkQ4rOXOlpLGg50YAdz7P=
+Y
+        SCMxKcWdunYcB5it9RIFQd6tPBvM+PEJok0llI4wloFvrYP1Tg=3D=3D
+X-Google-Smtp-Source: ABdhPJza3YeOqo42Qu4SLXaArjZb1wzuGq1juMXOEpJjf/Atj421M=
+1CSn8jB4w38PthQCOOel+oId218pdcbsxXHoyo=3D
+X-Received: by 2002:a05:6602:29d4:: with SMTP id z20mr2483171ioq.207.160267=
+7410387;
+ Wed, 14 Oct 2020 05:10:10 -0700 (PDT)
+Received: from 696963989851 named unknown by gmailapi.google.com with
+ HTTPREST; Wed, 14 Oct 2020 05:10:10 -0700
+From: Kevin Doherty <kevin@codem-composites.com>
+Date: Wed, 14 Oct 2020 05:10:10 -0700
+Message-ID: <CAK4cLxjA7iiaCvGNp4CyMz2Zk59STk1Hn4Xj--u0eOZ0O+tYVA@mail.gmail=
+.com>
+To: <rp@jacobs.com>
+Content-Type: multipart/alternative; boundary=3D"000000000000bc681d05b1a069=
+21"
+X-CLX-Response: 1TFkXGx8aEQpMehcaEQpZRBdga2xJY1t7bkcaXhEKWFgXbR5iXlxgR1NIRU=
+Q RCnhOF2BNf2VeUx1lQGZtEQp5TBdgfGdmfVpvHmJYehEKQ0gXBxwdGBEKQ1kXBxsYEQpDSRca=
+BB oaGhEKWU0XZ2ZyEQpZSRcacRoQGncGGxkacRsTEBp3BhgaBhoRClleF2xseREKSUYXQEtJRU=
+hZT
+ 0RNTVhadUJFWV5PThEKQ04XEkdfRE9LU3tOaxIeZB1PYB9Ze2IYUlxncxxEe24fX0wRClhcFx8=
+E GgQYGxwFGxoEGxoaBB4SBBgZEBseGh8aEQpeWRd9XGMSBREKTVwXBxsZEQpMWhdpbGlCb2kRC=
+kx GF29ra2traxEKQk8XelB4ZGtaUnJaRkYRCkNaFxgaEwQSHwQbHBwEHhIRCkJeFxsRCkJcFxs=
+RCl
+ 5OFxsRCkJLF2BNf2VeUx1lQGZtEQpCSRdgTX9lXlMdZUBmbREKQkUXbFxuRRljHn1+ExwRCkJO=
+F 2BNf2VeUx1lQGZtEQpCTBdtHmJeXGBHU0hFRBEKQmwXZHJAZkBaHExpeWMRCkJAF2ZIX0kSSU=
+0T QWceEQpCWBduUmBcXGFTfFBESxEKTV4XGxEKWlgXGBEKeUMXbG9+eF5HGB5cX00RCllLFxwS=
+EQp
+ wZxdueG5OXmVYHmVNWBAZGhEKcGgXaFhiZkdyYnhnHRwQGRoRCnBoF2B+BWBBAX8TSF9NEBkaE=
+Q pwaBdhbUVkH2lmZhxdGBAaEQpwaBdhbGVZHQFhTkBTHxAZGhEKcGgXY2liblMBbUBDbkIQGhE=
+Kc GcXZWN9WGgbcFJnHHkQGRoRCnBnF2QfSx9SXhtDaRoTEBkaEQpwfRdveWFhb3NrZx1DExAaE=
+Qpw
+ fRdgG0dpZGlLUFl+YhAaEQpwfRdoZ0ViSRxHSGVNfxAZGhEKcH0XbGJFfWlwHmhyc1gQGRoRCn=
+B 9F2x/X31+eBlIRl1QEBkaEQpwfRdgEkITXBl/QmhiExAaEQpwfRdocxIbT09YaXseQhAaEQpw=
+fx dpaHNCGn5bX15NThAZGhEKcF8XbRxtY29OQEJOfkUQGRoRCnBfF2NQR0NSXEVjQF5SEBkaEQ=
+pwX
+ xdif3phYBNiGFNPbRAZGhEKcF8XYEBOGWRJQm1Mcm8QGhEKcF8XaEBOQF5bGkxNc1sQGhEKcGw=
+X Ymdweh5FcHh8RUAQGxoSEQptfhcbEQpYTRdLESA=3D
+X-CLX-Shades: MLX
+MIME-Version: 1.0
+Subject: [EXTERNAL] Quick Question, Ruth
+X-Proofpoint-Virus-Version: vendor=3Dfsecure engine=3D2.50.10434:6.0.235,18=
+.0.687
+ definitions=3D2020-10-14_07:2020-10-14,2020-10-14 signatures=3D0
+X-Proofpoint-Spam-Details: rule=3Dinbound_notspam policy=3Dinbound score=3D=
+0 bulkscore=3D4 mlxscore=3D0
+ suspectscore=3D34 impostorscore=3D0 lowpriorityscore=3D4 malwarescore=3D0
+ clxscore=3D150 phishscore=3D0 priorityscore=3D0 adultscore=3D0 mlxlogscore=
+=3D999
+ spamscore=3D0 classifier=3Dspam adjust=3D0 reason=3Dmlx scancount=3D1
+ engine=3D8.12.0-2009150000 definitions=3Dmain-2010140090
+Return-Path: kevin@codem-composites.com
+
+
+--e830b17a-eef3-4058-9188-b3a9de889fba
+Content-Type: text/html; charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<html>
+<Head></head><body>
+<p><b><font color=3D"#000066" size=3D"3" face=3D"Arial">Delivery has failed=
+ to these recipients or groups:</font></b></p>
+<font color=3D"#000000" size=3D"2" face=3D"Tahoma"><p><a href=3D"mailto:rp@=
+jacobs.com">rp@jacobs.com</a><br>
+There's a problem with the recipient's mailbox. Please try resending the me=
+ssage. If the problem continues, please contact your helpdesk.<br>
+</p>
+</font>
+<br><br><br><br><br><br>
+<font color=3D"#808080" size=3D"2" face=3D"Tahoma"><p><b>Diagnostic informa=
+tion for administrators:</b></p>
+<p>Generating server: jacobs.com</p>
+<p>rp@jacobs.com<br>
+ #554 5.2.0 STOREDRV.Deliver.Exception:AccessDeniedException.MapiExceptionN=
+otAuthorized; Failed to process message due to a permanent exception with m=
+essage Cannot complete delivery-time processing. 16.55847:AC260000, 17.4355=
+9:000000009E020000000000000600000000000000, 255.23226:00000000, 255.27962:0=
+A000000, 255.27962:0E000000, 255.27962:0A000000, 255.27962:9E000000, 255.17=
+082:D6040000, 0.18273:00000000, 4.21921:D6040000, 255.27962:FA000000, 255.1=
+494:0A000000, 255.1238:0A000000, 4.13800:0F010480, 4.9448:0F010480, 0.25720=
+:0F010480, 4.7716:0F010480, 2.22787:00000000, 4.13800:0F010480, 4.9448:0F01=
+0480, 0.25720:0F010480, 4.7716:0F010480, 0.17692:0F010480, 6.5587:0F0104800=
+2014D0E0F010480, 4.33375:0F010480, 2.17597:00000000, 2.22787:00000000, 4.13=
+032:0F010480, 2.22787:00000000, 4.13032:0F010480, 0.26000:0F010480, 4.4580:=
+05000780, 0.26640:0F010480, 4.4408:05000780, 4.7637:D8040000, 0.49797:0F010=
+480, 4.5093:D6040000, 4.5318:D6040000, 4.10104:D6040000, 0.57449:0F010480, =
+4.6025:05000780, 4.5257:05000780, 4.4606:D6040000, 255.1750:00000000, 0.268=
+49:00000000, 255.21817:D6040000 ##</p>
+<p>Original message headers:</p>
+<pre>Received: from USLAS0-MSG011.jacobs.com (10.80.16.154) by
+ GBMNC0-MSG006.europe.jacobs.com (10.144.8.92) with Microsoft SMTP Server
+ (TLS) id 14.3.487.0; Wed, 14 Oct 2020 13:10:15 +0100
+Received: from USLAS0-MSG102.jacobs.com (10.80.16.41) by
+ USLAS0-MSG011.jacobs.com (10.80.16.154) with Microsoft SMTP Server (TLS) i=
+d
+ 14.3.487.0; Wed, 14 Oct 2020 05:10:13 -0700
+Received: from USLAS0-MSG120.jacobs.com (10.80.16.52) by
+ USLAS0-MSG102.jacobs.com (10.80.16.41) with Microsoft SMTP Server
+ (version=3DTLS1_2, cipher=3DTLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256) id
+ 15.1.1979.3; Wed, 14 Oct 2020 05:10:12 -0700
+Received: from mx0a-0025cf01.pphosted.com (10.80.10.250) by
+ USLAS0-MSG120.jacobs.com (10.80.16.52) with Microsoft SMTP Server
+ (version=3DTLS1_2, cipher=3DTLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256) id 15.1=
+.1979.3
+ via Frontend Transport; Wed, 14 Oct 2020 05:10:12 -0700
+Received: from pps.filterd (m0144711.ppops.net [127.0.0.1])	by
+ mx0a-0025cf01.pphosted.com (8.16.0.42/8.16.0.42) with SMTP id 09EC3lei0292=
+32
+	for &lt;rp@jacobs.com&gt;; Wed, 14 Oct 2020 12:10:12 GMT
+Authentication-Results: ppops.net;
+	spf=3Dpass smtp.mailfrom=3Dkevin@codem-composites.com;
+	dkim=3Dpass header.s=3Dgoogle header.d=3Dcodem-composites.com;
+	dmarc=3Dpass header.from=3Dcodem-composites.com
+Received: from mail-io1-f48.google.com (mail-io1-f48.google.com
+ [209.85.166.48])	by mx0a-0025cf01.pphosted.com with ESMTP id 343phncuw7-1
+	(version=3DTLSv1.2 cipher=3DECDHE-RSA-AES128-GCM-SHA256 bits=3D128 verify=
+=3DNOT)	for
+ &lt;rp@jacobs.com&gt;; Wed, 14 Oct 2020 12:10:11 +0000
+Received: by mail-io1-f48.google.com with SMTP id r4so4784407ioh.0        f=
+or
+ &lt;rp@jacobs.com&gt;; Wed, 14 Oct 2020 05:10:11 -0700 (PDT)
+DKIM-Signature: v=3D1; a=3Drsa-sha256; c=3Drelaxed/relaxed;
+        d=3Dcodem-composites.com; s=3Dgoogle;
+        h=3Dfrom:mime-version:date:message-id:subject:to;
+        bh=3DbJina1ZyJMmM56krtYrbi7GnTdnj7G86uWpYr7a5ago=3D;
+        b=3DMMlrdoyaPFrE7f2IuMzdPNTCpyn0uPgQv8ckASCl9j+xg1jWVE9fW8jHxKPH/Hs=
+4r8
+         4k1Y6sqkDaz0QCq6g8dV1TWYDaeYGmYP5uvCptjBaq7WV3QoSPOVCKtEydi9OUoU67=
+SH
+         xMu/ZEelKCX9m/Avl84yeBjqvms2Jlp7+s1jj6BJ/VOoosUiUzy7Ygb4UcSHnB0Gf3=
+pj
+         UOyhqBePRNTNohyxhmBMTlmOpR3uUdVTuQXVMvxeOeU3D3S/8FFdFDsk3VSXcYwvEW=
+Un
+         w5RvHCLDdPIMhLLhdRYFYBalGv8688T+T2MQOVX76AIgDdzUyUDgTkr8rSbgOHKjWp=
+Vt
+         62tQ=3D=3D
+X-Google-DKIM-Signature: v=3D1; a=3Drsa-sha256; c=3Drelaxed/relaxed;
+        d=3D1e100.net; s=3D20161025;
+        h=3Dx-gm-message-state:from:mime-version:date:message-id:subject:to=
+;
+        bh=3DbJina1ZyJMmM56krtYrbi7GnTdnj7G86uWpYr7a5ago=3D;
+        b=3DQDhCQykiwrpxhz1pTKFW7OFCOLv95s/6jnuHbVVKP9/byhzintNXobBj5ahMHH3=
+w3f
+         e2xvggFuYCIGRs+KKf18eV9VWMVb+k+mTe0vbS1v45ghlP0pTfmrQUlSwnez2hal9h=
+oZ
+         Tm8g1pXK2M2uJTlLgf+BGRUpuzILE+HUSBLXIrQiu+MrYUz46iueDFQGKK4sWFLR+k=
+uq
+         Klxl0xf+242KdDadf3ZccuyIbaftqjm1BedR2sLZoERJqTHzLzq99MJgbq1TJGF84u=
+jD
+         REZ3QVWaScjsi3GIs9AgQRybUB8m7uHt/v8wauXVG0khHohKagjhCpmRCjp1YXg0Vp=
+HJ
+         e2IA=3D=3D
+X-Gm-Message-State: AOAM5317CrZagz5Jx22m5XCKwxciPdfJdiYkQ4rOXOlpLGg50YAdz7P=
+Y
+	SCMxKcWdunYcB5it9RIFQd6tPBvM+PEJok0llI4wloFvrYP1Tg=3D=3D
+X-Google-Smtp-Source: ABdhPJza3YeOqo42Qu4SLXaArjZb1wzuGq1juMXOEpJjf/Atj421M=
+1CSn8jB4w38PthQCOOel+oId218pdcbsxXHoyo=3D
+X-Received: by 2002:a05:6602:29d4:: with SMTP id z20mr2483171ioq.207.160267=
+7410387;
+ Wed, 14 Oct 2020 05:10:10 -0700 (PDT)
+Received: from 696963989851 named unknown by gmailapi.google.com with
+ HTTPREST; Wed, 14 Oct 2020 05:10:10 -0700
+From: Kevin Doherty &lt;kevin@codem-composites.com&gt;
+Date: Wed, 14 Oct 2020 05:10:10 -0700
+Message-ID: &lt;CAK4cLxjA7iiaCvGNp4CyMz2Zk59STk1Hn4Xj--u0eOZ0O+tYVA@mail.gm=
+ail.com&gt;
+To: &lt;rp@jacobs.com&gt;
+Content-Type: multipart/alternative; boundary=3D&quot;000000000000bc681d05b=
+1a06921&quot;
+X-CLX-Response: 1TFkXGx8aEQpMehcaEQpZRBdga2xJY1t7bkcaXhEKWFgXbR5iXlxgR1NIRU=
+Q RCnhOF2BNf2VeUx1lQGZtEQp5TBdgfGdmfVpvHmJYehEKQ0gXBxwdGBEKQ1kXBxsYEQpDSRca=
+BB oaGhEKWU0XZ2ZyEQpZSRcacRoQGncGGxkacRsTEBp3BhgaBhoRClleF2xseREKSUYXQEtJRU=
+hZT
+ 0RNTVhadUJFWV5PThEKQ04XEkdfRE9LU3tOaxIeZB1PYB9Ze2IYUlxncxxEe24fX0wRClhcFx8=
+E GgQYGxwFGxoEGxoaBB4SBBgZEBseGh8aEQpeWRd9XGMSBREKTVwXBxsZEQpMWhdpbGlCb2kRC=
+kx GF29ra2traxEKQk8XelB4ZGtaUnJaRkYRCkNaFxgaEwQSHwQbHBwEHhIRCkJeFxsRCkJcFxs=
+RCl
+ 5OFxsRCkJLF2BNf2VeUx1lQGZtEQpCSRdgTX9lXlMdZUBmbREKQkUXbFxuRRljHn1+ExwRCkJO=
+F 2BNf2VeUx1lQGZtEQpCTBdtHmJeXGBHU0hFRBEKQmwXZHJAZkBaHExpeWMRCkJAF2ZIX0kSSU=
+0T QWceEQpCWBduUmBcXGFTfFBESxEKTV4XGxEKWlgXGBEKeUMXbG9+eF5HGB5cX00RCllLFxwS=
+EQp
+ wZxdueG5OXmVYHmVNWBAZGhEKcGgXaFhiZkdyYnhnHRwQGRoRCnBoF2B+BWBBAX8TSF9NEBkaE=
+Q pwaBdhbUVkH2lmZhxdGBAaEQpwaBdhbGVZHQFhTkBTHxAZGhEKcGgXY2liblMBbUBDbkIQGhE=
+Kc GcXZWN9WGgbcFJnHHkQGRoRCnBnF2QfSx9SXhtDaRoTEBkaEQpwfRdveWFhb3NrZx1DExAaE=
+Qpw
+ fRdgG0dpZGlLUFl+YhAaEQpwfRdoZ0ViSRxHSGVNfxAZGhEKcH0XbGJFfWlwHmhyc1gQGRoRCn=
+B 9F2x/X31+eBlIRl1QEBkaEQpwfRdgEkITXBl/QmhiExAaEQpwfRdocxIbT09YaXseQhAaEQpw=
+fx dpaHNCGn5bX15NThAZGhEKcF8XbRxtY29OQEJOfkUQGRoRCnBfF2NQR0NSXEVjQF5SEBkaEQ=
+pwX
+ xdif3phYBNiGFNPbRAZGhEKcF8XYEBOGWRJQm1Mcm8QGhEKcF8XaEBOQF5bGkxNc1sQGhEKcGw=
+X Ymdweh5FcHh8RUAQGxoSEQptfhcbEQpYTRdLESA=3D
+X-CLX-Shades: MLX
+MIME-Version: 1.0
+Subject: [EXTERNAL] Quick Question, Ruth
+X-Proofpoint-Virus-Version: vendor=3Dfsecure engine=3D2.50.10434:6.0.235,18=
+.0.687
+ definitions=3D2020-10-14_07:2020-10-14,2020-10-14 signatures=3D0
+X-Proofpoint-Spam-Details: rule=3Dinbound_notspam policy=3Dinbound score=3D=
+0 bulkscore=3D4 mlxscore=3D0
+ suspectscore=3D34 impostorscore=3D0 lowpriorityscore=3D4 malwarescore=3D0
+ clxscore=3D150 phishscore=3D0 priorityscore=3D0 adultscore=3D0 mlxlogscore=
+=3D999
+ spamscore=3D0 classifier=3Dspam adjust=3D0 reason=3Dmlx scancount=3D1
+ engine=3D8.12.0-2009150000 definitions=3Dmain-2010140090
+Return-Path: kevin@codem-composites.com
+</pre>
+</font>
+</body>
+</html>=
+
+--e830b17a-eef3-4058-9188-b3a9de889fba--
+
+--9b95f930-2acc-4c3d-a3d5-f307a41c062e
+Content-Type: message/delivery-status
+
+Reporting-MTA: dns;jacobs.com
+Received-From-MTA: dns;USLAS0-MSG011.jacobs.com
+Arrival-Date: Wed, 14 Oct 2020 12:10:15 +0000
+
+Final-Recipient: rfc822;rp@jacobs.com
+Action: failed
+Status: 5.2.0
+Diagnostic-Code: smtp;554 5.2.0 STOREDRV.Deliver.Exception:AccessDeniedException.MapiExceptionNotAuthorized; Failed to process message due to a permanent exception with message Cannot complete delivery-time processing. 16.55847:AC260000, 17.43559:000000009E020000000000000600000000000000, 255.23226:00000000, 255.27962:0A000000, 255.27962:0E000000, 255.27962:0A000000, 255.27962:9E000000, 255.17082:D6040000, 0.18273:00000000, 4.21921:D6040000, 255.27962:FA000000, 255.1494:0A000000, 255.1238:0A000000, 4.13800:0F010480, 4.9448:0F010480, 0.25720:0F010480, 4.7716:0F010480, 2.22787:00000000, 4.13800:0F010480, 4.9448:0F010480, 0.25720:0F010480, 4.7716:0F010480, 0.17692:0F010480, 6.5587:0F01048002014D0E0F010480, 4.33375:0F010480, 2.17597:00000000, 2.22787:00000000, 4.13032:0F010480, 2.22787:00000000, 4.13032:0F010480, 0.26000:0F010480, 4.4580:05000780, 0.26640:0F010480, 4.4408:05000780, 4.7637:D8040000, 0.49797:0F010480, 4.5093:D6040000, 4.5318:D6040000, 4.10104:D6040000, 0.57449:0F010480, 4.6
+ 025:05000780, 4.5257:05000780, 4.4606:D6040000, 255.1750:00000000, 0.26849:00000000, 255.21817:D6040000
+
+
+--9b95f930-2acc-4c3d-a3d5-f307a41c062e
+Content-Type: message/rfc822
+
+Received: from USLAS0-MSG011.jacobs.com (10.80.16.154) by
+ GBMNC0-MSG006.europe.jacobs.com (10.144.8.92) with Microsoft SMTP Server
+ (TLS) id 14.3.487.0; Wed, 14 Oct 2020 13:10:15 +0100
+Received: from USLAS0-MSG102.jacobs.com (10.80.16.41) by
+ USLAS0-MSG011.jacobs.com (10.80.16.154) with Microsoft SMTP Server (TLS) id
+ 14.3.487.0; Wed, 14 Oct 2020 05:10:13 -0700
+Received: from USLAS0-MSG120.jacobs.com (10.80.16.52) by
+ USLAS0-MSG102.jacobs.com (10.80.16.41) with Microsoft SMTP Server
+ (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256) id
+ 15.1.1979.3; Wed, 14 Oct 2020 05:10:12 -0700
+Received: from mx0a-0025cf01.pphosted.com (10.80.10.250) by
+ USLAS0-MSG120.jacobs.com (10.80.16.52) with Microsoft SMTP Server
+ (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256) id 15.1.1979.3
+ via Frontend Transport; Wed, 14 Oct 2020 05:10:12 -0700
+Received: from pps.filterd (m0144711.ppops.net [127.0.0.1])	by
+ mx0a-0025cf01.pphosted.com (8.16.0.42/8.16.0.42) with SMTP id 09EC3lei029232
+	for <rp@jacobs.com>; Wed, 14 Oct 2020 12:10:12 GMT
+Authentication-Results: ppops.net;
+	spf=pass smtp.mailfrom=kevin@codem-composites.com;
+	dkim=pass header.s=google header.d=codem-composites.com;
+	dmarc=pass header.from=codem-composites.com
+Received: from mail-io1-f48.google.com (mail-io1-f48.google.com
+ [209.85.166.48])	by mx0a-0025cf01.pphosted.com with ESMTP id 343phncuw7-1
+	(version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128 verify=NOT)	for
+ <rp@jacobs.com>; Wed, 14 Oct 2020 12:10:11 +0000
+Received: by mail-io1-f48.google.com with SMTP id r4so4784407ioh.0        for
+ <rp@jacobs.com>; Wed, 14 Oct 2020 05:10:11 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=codem-composites.com; s=google;
+        h=from:mime-version:date:message-id:subject:to;
+        bh=bJina1ZyJMmM56krtYrbi7GnTdnj7G86uWpYr7a5ago=;
+        b=MMlrdoyaPFrE7f2IuMzdPNTCpyn0uPgQv8ckASCl9j+xg1jWVE9fW8jHxKPH/Hs4r8
+         4k1Y6sqkDaz0QCq6g8dV1TWYDaeYGmYP5uvCptjBaq7WV3QoSPOVCKtEydi9OUoU67SH
+         xMu/ZEelKCX9m/Avl84yeBjqvms2Jlp7+s1jj6BJ/VOoosUiUzy7Ygb4UcSHnB0Gf3pj
+         UOyhqBePRNTNohyxhmBMTlmOpR3uUdVTuQXVMvxeOeU3D3S/8FFdFDsk3VSXcYwvEWUn
+         w5RvHCLDdPIMhLLhdRYFYBalGv8688T+T2MQOVX76AIgDdzUyUDgTkr8rSbgOHKjWpVt
+         62tQ==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20161025;
+        h=x-gm-message-state:from:mime-version:date:message-id:subject:to;
+        bh=bJina1ZyJMmM56krtYrbi7GnTdnj7G86uWpYr7a5ago=;
+        b=QDhCQykiwrpxhz1pTKFW7OFCOLv95s/6jnuHbVVKP9/byhzintNXobBj5ahMHH3w3f
+         e2xvggFuYCIGRs+KKf18eV9VWMVb+k+mTe0vbS1v45ghlP0pTfmrQUlSwnez2hal9hoZ
+         Tm8g1pXK2M2uJTlLgf+BGRUpuzILE+HUSBLXIrQiu+MrYUz46iueDFQGKK4sWFLR+kuq
+         Klxl0xf+242KdDadf3ZccuyIbaftqjm1BedR2sLZoERJqTHzLzq99MJgbq1TJGF84ujD
+         REZ3QVWaScjsi3GIs9AgQRybUB8m7uHt/v8wauXVG0khHohKagjhCpmRCjp1YXg0VpHJ
+         e2IA==
+X-Gm-Message-State: AOAM5317CrZagz5Jx22m5XCKwxciPdfJdiYkQ4rOXOlpLGg50YAdz7PY
+	SCMxKcWdunYcB5it9RIFQd6tPBvM+PEJok0llI4wloFvrYP1Tg==
+X-Google-Smtp-Source: ABdhPJza3YeOqo42Qu4SLXaArjZb1wzuGq1juMXOEpJjf/Atj421M1CSn8jB4w38PthQCOOel+oId218pdcbsxXHoyo=
+X-Received: by 2002:a05:6602:29d4:: with SMTP id z20mr2483171ioq.207.1602677410387;
+ Wed, 14 Oct 2020 05:10:10 -0700 (PDT)
+Received: from 696963989851 named unknown by gmailapi.google.com with
+ HTTPREST; Wed, 14 Oct 2020 05:10:10 -0700
+From: Kevin Doherty <kevin@codem-composites.com>
+Date: Wed, 14 Oct 2020 05:10:10 -0700
+Message-ID: <CAK4cLxjA7iiaCvGNp4CyMz2Zk59STk1Hn4Xj--u0eOZ0O+tYVA@mail.gmail.com>
+To: <rp@jacobs.com>
+Content-Type: multipart/alternative; boundary="000000000000bc681d05b1a06921"
+X-CLX-Response: 1TFkXGx8aEQpMehcaEQpZRBdga2xJY1t7bkcaXhEKWFgXbR5iXlxgR1NIRUQ RCnhOF2BNf2VeUx1lQGZtEQp5TBdgfGdmfVpvHmJYehEKQ0gXBxwdGBEKQ1kXBxsYEQpDSRcaBB oaGhEKWU0XZ2ZyEQpZSRcacRoQGncGGxkacRsTEBp3BhgaBhoRClleF2xseREKSUYXQEtJRUhZT
+ 0RNTVhadUJFWV5PThEKQ04XEkdfRE9LU3tOaxIeZB1PYB9Ze2IYUlxncxxEe24fX0wRClhcFx8E GgQYGxwFGxoEGxoaBB4SBBgZEBseGh8aEQpeWRd9XGMSBREKTVwXBxsZEQpMWhdpbGlCb2kRCkx GF29ra2traxEKQk8XelB4ZGtaUnJaRkYRCkNaFxgaEwQSHwQbHBwEHhIRCkJeFxsRCkJcFxsRCl
+ 5OFxsRCkJLF2BNf2VeUx1lQGZtEQpCSRdgTX9lXlMdZUBmbREKQkUXbFxuRRljHn1+ExwRCkJOF 2BNf2VeUx1lQGZtEQpCTBdtHmJeXGBHU0hFRBEKQmwXZHJAZkBaHExpeWMRCkJAF2ZIX0kSSU0T QWceEQpCWBduUmBcXGFTfFBESxEKTV4XGxEKWlgXGBEKeUMXbG9+eF5HGB5cX00RCllLFxwSEQp
+ wZxdueG5OXmVYHmVNWBAZGhEKcGgXaFhiZkdyYnhnHRwQGRoRCnBoF2B+BWBBAX8TSF9NEBkaEQ pwaBdhbUVkH2lmZhxdGBAaEQpwaBdhbGVZHQFhTkBTHxAZGhEKcGgXY2liblMBbUBDbkIQGhEKc GcXZWN9WGgbcFJnHHkQGRoRCnBnF2QfSx9SXhtDaRoTEBkaEQpwfRdveWFhb3NrZx1DExAaEQpw
+ fRdgG0dpZGlLUFl+YhAaEQpwfRdoZ0ViSRxHSGVNfxAZGhEKcH0XbGJFfWlwHmhyc1gQGRoRCnB 9F2x/X31+eBlIRl1QEBkaEQpwfRdgEkITXBl/QmhiExAaEQpwfRdocxIbT09YaXseQhAaEQpwfx dpaHNCGn5bX15NThAZGhEKcF8XbRxtY29OQEJOfkUQGRoRCnBfF2NQR0NSXEVjQF5SEBkaEQpwX
+ xdif3phYBNiGFNPbRAZGhEKcF8XYEBOGWRJQm1Mcm8QGhEKcF8XaEBOQF5bGkxNc1sQGhEKcGwX Ymdweh5FcHh8RUAQGxoSEQptfhcbEQpYTRdLESA=
+X-CLX-Shades: MLX
+MIME-Version: 1.0
+Subject: [EXTERNAL] Quick Question, Ruth
+X-Proofpoint-Virus-Version: vendor=fsecure engine=2.50.10434:6.0.235,18.0.687
+ definitions=2020-10-14_07:2020-10-14,2020-10-14 signatures=0
+X-Proofpoint-Spam-Details: rule=inbound_notspam policy=inbound score=0 bulkscore=4 mlxscore=0
+ suspectscore=34 impostorscore=0 lowpriorityscore=4 malwarescore=0
+ clxscore=150 phishscore=0 priorityscore=0 adultscore=0 mlxlogscore=999
+ spamscore=0 classifier=spam adjust=0 reason=mlx scancount=1
+ engine=8.12.0-2009150000 definitions=main-2010140090
+Return-Path: kevin@codem-composites.com
+
+--000000000000bc681d05b1a06921
+Content-Type: text/plain; charset="UTF-8"
+Content-Transfer-Encoding: Quoted-printable
+
+Hi Ruth,
+
+
+I trust this Wednesday afternoon is treating you well. I came across your
+LinkedIn profile whilst looking for the right person at Jacobs for a quick
+chat, so wanted to drop you a line by way of introduction.
+
+
+I head up the team here at Codem Composites and we provide end-to-end
+solutions for all things carbon fibre. Recently we=E2=80=99ve worked on pro=
+jects
+with Mercedes F1, manufactured Raytheon's military antennas and produced
+props for the latest Star Wars movie, just to name a few.
+
+
+The reason for my email is that I think there's great synergy between Codem
+and Jacobs, so I'm hoping that you can spare me a few minutes to chat.
+
+
+I'm available for a quick call on Thursday or Friday afternoon. If that
+doesn=E2=80=99t work, tell me what does, and I=E2=80=99ll make it happen.
+
+
+Best regards,
+
+
+*Kevin Doherty*
+
+[image: Description: CODEM Composites Ltd]          [image:
+cid:image009.jpg@01D362BA.5DA65FA0]         [image:
+cid:image008.jpg@01D362BA.5DA65FA0]
+
+CODEM Composites Ltd Unit E Harrier Park, Southgate Way, Orton Southgate,
+Peterborough PE2 6YQ
+
+
+
+*Tel: +44 (0) 1487 832123 Mob: +44 (0) 7785 996218Email:
+**kevin@codem-composites.com
+<kevin@codemcomposites.com>*
+*Web: **https://urldefense.com/v3/__http://www.codem-composites.com__;!!B5c=
+ixuoO7ltTeg!WsvQnMvODD_i0wt00bOH03s_q2I9Th35StQ0zkaMTfmf37AArhsX4fR-JW8$=20
+<https://urldefense.com/v3/__http://track.codem-composites.com/api/t/c/usr_=
+a8xLmetmsZe2dZKhP/tsk_CbqkMFyEagZ8zAwTi/aHR0cDovL3d3dy5jb2RlbWNvbXBvc2l0ZXM=
+uY29tLw=3D=3D__;!!B5cixuoO7ltTeg!WsvQnMvODD_i0wt00bOH03s_q2I9Th35StQ0zkaMTf=
+mf37AArhsXkVZE_oE$ >*
+
+As a GDPR compliant company, we would like to explain why you have received
+this email. We believe that Jacobs has a legitimate interest in the
+products and services that Codem Composites offers. Our research has
+identified your email address rp@jacobs.com as the appropriate contact
+within your organisation. If you have received this email in error or do
+not wish to receive further communications from Codem Composites, just hit
+unsubscribe
+<https://urldefense.com/v3/__http://track.codem-composites.com/api/unsubscr=
+ibe/cam_dpCiXy7uz9SNiJCbN/cnBAamFjb2JzLmNvbQ=3D=3D__;!!B5cixuoO7ltTeg!WsvQn=
+MvODD_i0wt00bOH03s_q2I9Th35StQ0zkaMTfmf37AArhsXm7z_qgA$ >
+.
+
+
+[image: picture] [image: logo]
+
+--000000000000bc681d05b1a06921
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: Quoted-printable
+
+<html><div style=3D"min-width:360px"></div><div dir=3D"ltr">
+    <div><p style=3D"margin:0px;box-sizing:border-box"><span style=3D"font-=
+family:Arial,Helvetica,sans-serif;box-sizing:border-box">Hi Ruth,=C2=A0</sp=
+an></p><p style=3D"margin:0px;box-sizing:border-box"><span style=3D"font-fa=
+mily:Arial,Helvetica,sans-serif"><span style=3D"box-sizing:border-box"><br =
+style=3D"box-sizing:border-box"></span></span></p><p style=3D"margin:0px;bo=
+x-sizing:border-box"><span style=3D"font-family:Arial,Helvetica,sans-serif"=
+><span style=3D"box-sizing:border-box">I trust this Wednesday</span></span>=
+<span style=3D"font-family:Arial,Helvetica,sans-serif"><span style=3D"box-s=
+izing:border-box">=C2=A0afternoon=20
+is treating you well. I came across your LinkedIn profile whilst looking fo=
+r the right person at Jacobs for a quick chat, so wanted to drop you a line=
+ by way of introduction.</span></span></p><p style=3D"margin:0px;box-sizing=
+:border-box"><span style=3D"font-family:Arial,Helvetica,sans-serif"><span s=
+tyle=3D"box-sizing:border-box"><br style=3D"box-sizing:border-box"></span><=
+/span></p><p style=3D"margin:0px;box-sizing:border-box"><span style=3D"font=
+-family:Arial,Helvetica,sans-serif"><span style=3D"box-sizing:border-box"> =
+I head up the team here at  Codem Composites and we provide end-to-end solu=
+tions for all things carbon fibre. Recently we=E2=80=99ve worked on project=
+s with Mercedes F1, manufactured Raytheon&#39;s military antennas and produ=
+ced props for the latest Star Wars movie, just to name a few.</span></span>=
+</p><p style=3D"margin:0px;box-sizing:border-box"><span style=3D"font-famil=
+y:Arial,Helvetica,sans-serif"><br></span></p><p style=3D"margin:0px;box-siz=
+ing:border-box"><span style=3D"font-family:Arial,Helvetica,sans-serif"><spa=
+n style=3D"box-sizing:border-box">The reason for my email is that I think t=
+here&#39;s great synergy between Codem and Jacobs, so I&#39;m hoping that y=
+ou can spare me a few minutes to chat.=C2=A0</span></span></p><p style=3D"m=
+argin:0px;box-sizing:border-box"><span style=3D"font-family:Arial,Helvetica=
+,sans-serif"><br></span></p><p style=3D"margin:0px;box-sizing:border-box"><=
+span style=3D"font-family:Arial,Helvetica,sans-serif"><span style=3D"box-si=
+zing:border-box"></span>I&#39;m available for a quick call on Thursday or F=
+riday afternoon. If that doesn=E2=80=99t work, tell me what does, and I=E2=
+=80=99ll make it happen.
+<br></span></p><p style=3D"margin:0px;box-sizing:border-box"><span style=3D=
+"font-family:Arial,Helvetica,sans-serif"><span style=3D"box-sizing:border-b=
+ox"></span></span></p><p style=3D"margin:0px;box-sizing:border-box"><span s=
+tyle=3D"font-family:Arial,Helvetica,sans-serif"><span style=3D"box-sizing:b=
+order-box"><br style=3D"box-sizing:border-box"></span></span></p><p style=
+=3D"margin:0px;box-sizing:border-box"><span style=3D"font-family:Arial,Helv=
+etica,sans-serif">  Best regards, </span></p><p style=3D"margin:0px;box-siz=
+ing:border-box"><span style=3D"font-family:Arial,Helvetica,sans-serif"><spa=
+n style=3D"box-sizing:border-box"><br style=3D"box-sizing:border-box"></spa=
+n></span></p><p style=3D"margin:0px;box-sizing:border-box"><span style=3D"f=
+ont-family:Arial,Helvetica,sans-serif;box-sizing:border-box"><table border=
+=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"width:525pt;border-coll=
+apse:collapse;border:none;empty-cells:show;max-width:100%;box-sizing:border=
+-box" width=3D"700"><tbody style=3D"box-sizing:border-box"><tr style=3D"box=
+-sizing:border-box"><td style=3D"padding:0cm;height:15pt;min-width:5px;box-=
+sizing:border-box"><table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" =
+style=3D"width:525pt;border-collapse:collapse;border:none;empty-cells:show;=
+max-width:100%;box-sizing:border-box" width=3D"700"><tbody style=3D"box-siz=
+ing:border-box"><tr style=3D"box-sizing:border-box"><td style=3D"padding:0c=
+m;min-width:5px;box-sizing:border-box"><p style=3D"margin:0cm;font-size:15p=
+x;font-family:Calibri,sans-serif;box-sizing:border-box"><strong style=3D"fo=
+nt-weight:700;box-sizing:border-box"><span style=3D"font-size:18px;color:bl=
+ack;font-family:Arial,Helvetica,sans-serif;box-sizing:border-box">Kevin Doh=
+erty</span></strong></p></td></tr><tr style=3D"box-sizing:border-box"><td s=
+tyle=3D"padding:0cm;height:15pt;min-width:5px;box-sizing:border-box"><span =
+style=3D"font-family:Arial,Helvetica,sans-serif;box-sizing:border-box"><br =
+style=3D"box-sizing:border-box"></span></td></tr><tr style=3D"box-sizing:bo=
+rder-box"><td style=3D"padding:0cm;min-width:5px;box-sizing:border-box"><p =
+style=3D"margin:0cm;font-size:15px;font-family:Calibri,sans-serif;box-sizin=
+g:border-box"><span style=3D"font-family:Arial,Helvetica,sans-serif;box-siz=
+ing:border-box"><span style=3D"color:rgb(31,73,125);box-sizing:border-box">=
+<img width=3D"200" src=3D"http://track.codem-composites.com/api/froala/file=
+s/tea_NfYyMpjZ5LayPy6cN-6001bc8f655e1d227c7ea5f14c4fc96a" alt=3D"Descriptio=
+n: CODEM Composites Ltd" style=3D"vertical-align: middle; border-style: non=
+e; cursor: pointer; padding: 0px 1px; max-width: 100%; box-sizing: border-b=
+ox;"></span><span style=3D"color:rgb(153,51,102);box-sizing:border-box">=C2=
+=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0=C2=A0</span><span style=3D"color:rgb(31,73,=
+125);box-sizing:border-box"><img width=3D"101" src=3D"http://track.codem-co=
+mposites.com/api/froala/files/tea_NfYyMpjZ5LayPy6cN-ba66bf715631fc5ad46e49d=
+0879aa5bc" alt=3D"cid:image009.jpg@01D362BA.5DA65FA0" style=3D"vertical-ali=
+gn: middle; border-style: none; cursor: pointer; padding: 0px 1px; max-widt=
+h: 100%; box-sizing: border-box;">=C2=A0 =C2=A0 =C2=A0 =C2=A0 </span><span =
+style=3D"color:rgb(153,51,102);box-sizing:border-box">=C2=A0</span><span st=
+yle=3D"color:rgb(31,73,125);box-sizing:border-box"><img width=3D"120" src=
+=3D"http://track.codem-composites.com/api/froala/files/tea_NfYyMpjZ5LayPy6c=
+N-95ab1f987261409b5d768873a676560b" alt=3D"cid:image008.jpg@01D362BA.5DA65F=
+A0" style=3D"vertical-align: middle; border-style: none; cursor: pointer; p=
+adding: 0px 1px; max-width: 100%; box-sizing: border-box;"></span></span></=
+p></td></tr><tr style=3D"box-sizing:border-box"><td style=3D"padding:0cm;he=
+ight:15pt;min-width:5px;box-sizing:border-box"><span style=3D"font-family:A=
+rial,Helvetica,sans-serif;box-sizing:border-box"><br style=3D"box-sizing:bo=
+rder-box"></span></td></tr><tr style=3D"box-sizing:border-box"><td style=3D=
+"padding:0cm;min-width:5px;box-sizing:border-box"><p style=3D"margin:0cm;fo=
+nt-size:15px;font-family:Calibri,sans-serif;box-sizing:border-box"><span st=
+yle=3D"font-family:Arial,Helvetica,sans-serif;box-sizing:border-box"><span =
+style=3D"font-size:10px;color:rgb(31,73,125);box-sizing:border-box">CODEM C=
+omposites Ltd Unit E Harrier Park, Southgate Way, Orton Southgate, Peterbor=
+ough PE2 6YQ</span></span></p></td></tr><tr style=3D"box-sizing:border-box"=
+><td style=3D"padding:0cm;height:22.5pt;min-width:5px;box-sizing:border-box=
+"><span style=3D"font-family:Arial,Helvetica,sans-serif;box-sizing:border-b=
+ox"><br style=3D"box-sizing:border-box"></span></td></tr><tr style=3D"box-s=
+izing:border-box"><td style=3D"padding:0cm;min-width:5px;box-sizing:border-=
+box"><p style=3D"margin:0cm;font-size:15px;font-family:Calibri,sans-serif;b=
+ox-sizing:border-box"><span style=3D"font-family:Arial,Helvetica,sans-serif=
+;box-sizing:border-box"><strong style=3D"font-weight:700;box-sizing:border-=
+box"><span style=3D"font-size:10px;color:rgb(31,73,125);box-sizing:border-b=
+ox">Tel: +44 (0) 1487 832123<br style=3D"box-sizing:border-box"> Mob: +44 (=
+0) 7785 996218<br style=3D"box-sizing:border-box">Email:=C2=A0</span></stro=
+ng><strong style=3D"font-weight:700;box-sizing:border-box"><span style=3D"f=
+ont-size:10px;color:rgb(31,73,125);box-sizing:border-box"><a href=3D"mailto=
+:kevin@codemcomposites.com" style=3D"color:rgb(0,184,255);text-decoration:n=
+one;background-color:transparent;box-sizing:border-box"><span style=3D"colo=
+r:blue;box-sizing:border-box">kevin@codem-composites.com</span></a></span><=
+/strong><strong style=3D"font-weight:700;box-sizing:border-box"><span style=
+=3D"font-size:10px;color:rgb(31,73,125);box-sizing:border-box"><br style=3D=
+"box-sizing:border-box">Web:=C2=A0</span></strong><strong style=3D"font-wei=
+ght:700;box-sizing:border-box"><span style=3D"font-size:10px;color:rgb(31,7=
+3,125);box-sizing:border-box"><a href=3D"https://urldefense.com/v3/__http:/=
+/track.codem-composites.com/api/t/c/usr_a8xLmetmsZe2dZKhP/tsk_CbqkMFyEagZ8z=
+AwTi/aHR0cDovL3d3dy5jb2RlbWNvbXBvc2l0ZXMuY29tLw=3D=3D__;!!B5cixuoO7ltTeg!Ws=
+vQnMvODD_i0wt00bOH03s_q2I9Th35StQ0zkaMTfmf37AArhsXkVZE_oE$" style=3D"color:=
+rgb(0,184,255);text-decoration:none;background-color:transparent;box-sizing=
+:border-box"><span style=3D"color:blue;box-sizing:border-box">www.codem-com=
+posites.com</span></a></span></strong></span></p></td></tr></tbody></table>=
+</td></tr><tr style=3D"box-sizing:border-box"><td style=3D"padding:0cm;min-=
+width:5px;box-sizing:border-box"><span style=3D"font-family:Arial,Helvetica=
+,sans-serif;box-sizing:border-box"><br style=3D"box-sizing:border-box"></sp=
+an></td></tr></tbody></table><p style=3D"margin-top:0px;margin-bottom:1rem;=
+box-sizing:border-box"><span style=3D"font-size:10px;font-family:Arial,Helv=
+etica,sans-serif;box-sizing:border-box">As a GDPR compliant company, we wou=
+ld like to explain why you have received this email. We believe that Jacobs=
+ has a legitimate interest in the products and services that Codem Composit=
+es offers. Our research has identified your email address <a href=3D"mailto=
+:rp@jacobs.com">rp@jacobs.com</a> as the appropriate contact within your or=
+ganisation. If you have received this email in error or do not wish to rece=
+ive further communications from Codem Composites, just hit <a href=3D"https=
+://urldefense.com/v3/__http://track.codem-composites.com/api/unsubscribe/ca=
+m_dpCiXy7uz9SNiJCbN/cnBAamFjb2JzLmNvbQ=3D=3D__;!!B5cixuoO7ltTeg!WsvQnMvODD_=
+i0wt00bOH03s_q2I9Th35StQ0zkaMTfmf37AArhsXm7z_qgA$" style=3D"color:rgb(0,184=
+,255);text-decoration:none;background-color:transparent;box-sizing:border-b=
+ox">unsubscribe</a>.</span></p></span></p></div>
+    <br><div class=3D"gmail_extra"><br>
+      <div class=3D"gmail_signature" data-smartmail=3D"gmail_signature"><di=
+v dir=3D"ltr"><div><div dir=3D"ltr"></div></div></div></div>
+=20=20=20=20=20=20
+    </div>
+    </div>
+<img alt=3D"picture" src=3D"http://track.codem-composites.com/api/reply/dat=
+a-ll-tsk_CbqkMFyEagZ8zAwTi" style=3D"opacity:0;display:none;width:0;height:=
+0;">
+<img alt=3D"logo" src=3D"http://track.codem-composites.com/api/track/open/u=
+sr_a8xLmetmsZe2dZKhP/tsk_CbqkMFyEagZ8zAwTi" height=3D"1" width=3D"1"></html>
+
+--000000000000bc681d05b1a06921--
+
+--9b95f930-2acc-4c3d-a3d5-f307a41c062e--

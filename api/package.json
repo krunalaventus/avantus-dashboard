@@ -34,6 +34,7 @@
     "nodemailer": "^6.4.2",
     "otp-generator": "^1.1.0",
     "path": "^0.12.7",
+    "quoted-printable": "^1.0.1",
     "sequelize": "^5.21.3",
     "sha1": "^1.1.1",
     "shortid": "^2.2.15",

@@ -3,10 +3,609 @@ To: <kevin@codem-composites.com>
 Date: Tue, 8 Sep 2020 12:13:25 +0100
 Subject: Undeliverable: Quick Question, Stephen
 
+--b18dd281-5385-4f7b-895b-6125a3130381
+Content-Type: text/plain; charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
 
+Delivery has failed to these recipients or groups:
+
+s.gibson@surrey.ac.uk<mailto:s.gibson@surrey.ac.uk>
+The email address you entered couldn't be found. Please check the recipient=
+'s email address and try to resend the message. If the problem continues, p=
+lease contact your email admin.
+
+
+
+
+
+
+
+
+Diagnostic information for administrators:
+
+Generating server: exch01v.surrey.ac.uk
+
+s.gibson@surrey.ac.uk
+Remote Server returned '550 5.1.10 RESOLVER.ADR.RecipientNotFound; Recipien=
+t not found by SMTP address lookup'
+
+Original message headers:
+
+Received: from exch02v.surrey.ac.uk (10.201.50.18) by exch01v.surrey.ac.uk
+ (10.201.50.17) with Microsoft SMTP Server (version=3DTLS1_2,
+ cipher=3DTLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256_P256) id 15.1.1913.5; Tue, =
+8 Sep
+ 2020 12:13:25 +0100
+Received: from EUR05-AM6-obe.outbound.protection.outlook.com (131.227.131.2=
+44)
+ by exch02v.surrey.ac.uk (10.201.50.18) with Microsoft SMTP Server
+ (version=3DTLS1_2, cipher=3DTLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256_P256) id
+ 15.1.1913.5 via Frontend Transport; Tue, 8 Sep 2020 12:13:25 +0100
+Received: from AM6P195CA0036.EURP195.PROD.OUTLOOK.COM (2603:10a6:209:81::49=
+)
+ by AM6PR06MB5269.eurprd06.prod.outlook.com (2603:10a6:20b:8f::18) with
+ Microsoft SMTP Server (version=3DTLS1_2,
+ cipher=3DTLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.3348.16; Tue, 8 S=
+ep
+ 2020 11:13:23 +0000
+Received: from VE1EUR02FT029.eop-EUR02.prod.protection.outlook.com
+ (2603:10a6:209:81:cafe::59) by AM6P195CA0036.outlook.office365.com
+ (2603:10a6:209:81::49) with Microsoft SMTP Server (version=3DTLS1_2,
+ cipher=3DTLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.3348.16 via Front=
+end
+ Transport; Tue, 8 Sep 2020 11:13:23 +0000
+Authentication-Results: spf=3Dpass (sender IP is 209.85.166.51)
+ smtp.mailfrom=3Dcodem-composites.com; surrey.ac.uk; dkim=3Dpass (signature=
+ was
+ verified) header.d=3Dcodem-composites.com;surrey.ac.uk; dmarc=3Dpass actio=
+n=3Dnone
+ header.from=3Dcodem-composites.com;compauth=3Dpass reason=3D100
+Received-SPF: Pass (protection.outlook.com: domain of codem-composites.com
+ designates 209.85.166.51 as permitted sender)
+ receiver=3Dprotection.outlook.com; client-ip=3D209.85.166.51;
+ helo=3Dmail-io1-f51.google.com;
+Received: from mail-io1-f51.google.com (209.85.166.51) by
+ VE1EUR02FT029.mail.protection.outlook.com (10.152.12.82) with Microsoft SM=
+TP
+ Server (version=3DTLS1_2, cipher=3DTLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) =
+id
+ 15.20.3348.16 via Frontend Transport; Tue, 8 Sep 2020 11:13:23 +0000
+Received: by mail-io1-f51.google.com with SMTP id u6so6708489iow.9
+        for <s.gibson@surrey.ac.uk>; Tue, 08 Sep 2020 04:13:23 -0700 (PDT)
+DKIM-Signature: v=3D1; a=3Drsa-sha256; c=3Drelaxed/relaxed;
+        d=3Dcodem-composites.com; s=3Dgoogle;
+        h=3Dfrom:mime-version:date:message-id:subject:to;
+        bh=3D1+gXmwCbNKQ0ZS7M94TY+ieWuDI9zeVhUouS1nKnpsY=3D;
+        b=3DFDr8DyEso9PDIQ7TZzlhHC7O68fAAmGESlRB/zTMXezZP6GXJ7s1sOEjuWUuN+0=
+HCi
+         sVSg4FA5Zvf1qKKMJ9OCt9nYPAou4orZgUTsqphx4fOqueYDyc9Evg00ucNKEnsVCw=
+Y5
+         bzqi/f8WhnswtKFg14ySh4F9PWwf8pjVaOupko2tU1Iu5aRQlFOmFesiO+F0vN9n7Z=
+eI
+         8UdPSOjwnbreOqdk6Oz5upaTH5VaAYy0nrNDeE+GlSFPCtC2AqWQjFvI6I+liZrBwg=
+/i
+         iOEZB5ajE0DZ/pIRnjqQfroGmvvqoXUP2cVL2pvN3RkMzsZl0oXg6oIq6dI4uGdIws=
+3R
+         A+qA=3D=3D
+X-Google-DKIM-Signature: v=3D1; a=3Drsa-sha256; c=3Drelaxed/relaxed;
+        d=3D1e100.net; s=3D20161025;
+        h=3Dx-gm-message-state:from:mime-version:date:message-id:subject:to=
+;
+        bh=3D1+gXmwCbNKQ0ZS7M94TY+ieWuDI9zeVhUouS1nKnpsY=3D;
+        b=3Dp4tLtCzhelZ5KA8EHX8lMDn1Lqc0wQ7oUbYpdfb1uYQeNrum72fab1BcFA9PibO=
+9ES
+         1LhUJGsOs0SBiB+CgBhV9w/y+UU1iJ3tbbiOvzH3Ek/CXmM7SM8GiMbwOvo9u9A/+R=
+sm
+         qfvkuBRvNdzG7djGnRome3U0pnsr5CIIL7KMtd0AgP3bmLSrcZwdWVx0qv7d4rqXZu=
+Af
+         JSNsEehIOWLG2PgiNmtsFVtK6C44A8f5z6wBB1VyfVYD7QhbVLjHqFWPyK6e5cQSLM=
+/S
+         YWyJPTwdk9Ot8vEt9+QcKstVNHTdx9PUVWwZlDzdFl117cX4enLVkk2/4Fqw6Px94U=
+2R
+         E3LA=3D=3D
+X-Gm-Message-State: AOAM533DgoJk5hY/ljKaVzPK27nFRQX+50payyBd6YxLkDvKHY0Sh9T=
+T
+        QU8ozYk1qvEsMgzBS4HgAUbYOwr/trCxy/uaP/HfsWQzjAE=3D
+X-Google-Smtp-Source: ABdhPJwbSavz5v/PmJbkkl1KlzzpACXLfNoRpAEUQvVZAnKGICPnS=
+YiExgfuD01N+6dGznJo7ApD7Uh5MIZZNouemdA=3D
+X-Received: by 2002:a02:95ae:: with SMTP id b43mr22995024jai.19.15995636019=
+61;
+ Tue, 08 Sep 2020 04:13:21 -0700 (PDT)
+Received: from 696963989851 named unknown by gmailapi.google.com with
+ HTTPREST; Tue, 8 Sep 2020 11:13:21 +0000
+From: Kevin Doherty <kevin@codem-composites.com>
+MIME-Version: 1.0
+Date: Tue, 8 Sep 2020 11:13:21 +0000
+Message-ID: <CAK4cLxjdVzh6wNFSou1efq=3DCvwoY33AH6eWDTnB74Z30C03=3Dfg@mail.g=
+mail.com>
+Subject: Quick Question, Stephen
+To: <s.gibson@surrey.ac.uk>
+Content-Type: multipart/alternative; boundary=3D"0000000000004b002905aecb6c=
+0d"
+Return-Path: kevin@codem-composites.com
+X-EOPAttributedMessage: 0
+X-EOPTenantAttributedMessage: 6b902693-1074-40aa-9e21-d89446a2ebb5:0
+X-MS-PublicTrafficType: Email
+X-MS-Office365-Filtering-Correlation-Id: 82a67dd7-d1e7-4094-6e64-08d853e833=
+97
+X-MS-TrafficTypeDiagnostic: AM6PR06MB5269:
+X-MS-Exchange-AtpMessageProperties: SA|SL
+X-MS-Oob-TLC-OOBClassifiers: OLM:8882;
+X-Microsoft-Antispam: BCL:0;
+X-Microsoft-Antispam-Message-Info: =3D?utf-8?B?QWFoUmpSRyt6QUViY0JHcGRnRi9k=
+TXBHaWpiZlJUVkdoWmJpYnpyQUZnTEhG?=3D
+ =3D?utf-8?B?cjhneHlmK2x4bFZhaGs2LzFaZWtVcXo1emdEV3U3MnlmOS9VaVpWN3diQU1L?=
+=3D
+ =3D?utf-8?B?ZnJ3VzFtbDZoU2ZvVnRxZkJPWUUvVkt2SW9UQm1oWFJWQ1I1dWY2RFdaVThJ?=
+=3D
+ =3D?utf-8?B?eVd0MUZlUXU1U1pNYXBxRDJxRXFteXdMUElNSTVhOElBenpiNm9pYldmUEl0?=
+=3D
+ =3D?utf-8?B?M2Zla0VzOFhFRXVzN3A2TGF4Y2w1V0JPM0NYWDFJMm8vNFI4cmd5bkRBYmZO?=
+=3D
+ =3D?utf-8?B?dTlhdk9DZTkwbk40MlgrZEZ2SmdXVXgyTUJhRzlySG9keWFzOERoMStMRzB1?=
+=3D
+ =3D?utf-8?B?ejVhVjRubTZSYWwrZFhydmtrcUcwdlZKalM4NndmSTdmZ1EzNVJsQVNDWXhZ?=
+=3D
+ =3D?utf-8?B?bW1OTEtSb2J6ZEpkN2I5ZFBCcTNhRzBHTGpobHl6T2NBYVVhZlNjdkZlYXlj?=
+=3D
+ =3D?utf-8?B?ZTdNVWR4ZkwvMExzcVA2a3pZNVVkanZUTCtHa2NqcC82UW1Dd2NpellRdXQw?=
+=3D
+ =3D?utf-8?B?Q2tvRms1NVkvdmNuOUIyQXdET05KWkNWOHk3cUQydnV2ZDFXNVlqV3pTME5k?=
+=3D
+ =3D?utf-8?B?ejVMdGpVRWsvcjFaRy9sdHpiYXJoazNEREUzMlgzMGY4YjBpb1FvL0Y0dDdu?=
+=3D
+ =3D?utf-8?B?OSt6Y01FbS93U1Y2bDlsbnJxU0RFZXh4a3hpUVdPajJiZ01FM2ViZGNObHlI?=
+=3D
+ =3D?utf-8?B?SGZxckQvQlVOTzVQZzRSdU9IVC9pYjQwS0UvMitrN2JTcjRLV2xRTG0vSW9U?=
+=3D
+ =3D?utf-8?B?bUZHM3dIR01mMnhKMWlnNU9lc3pKTUJBcFhsb0dsNU5NaE1UZU81UUh3UUNy?=
+=3D
+ =3D?utf-8?B?SENuT1hNUTFhclRzMXNnS3JyNlhUZlU1MW5qMTJrRyt5bmpIVENsNDhHOXBa?=
+=3D
+ =3D?utf-8?B?Q2VJSlR1Z01ZaWZGQVQ5cExIK2VYUXJmMUJCZ1QrTmJ3Vm9yZjFlMmR1Nm9S?=
+=3D
+ =3D?utf-8?B?QS9weURPNE1xRnZNcnNuNXJxcGtwRHNSNUg2MWY3K2UyRlUza0s4T1crRFhZ?=
+=3D
+ =3D?utf-8?B?aFRZQ3hIUmI0a0FpcUtTajlSb3crYzNBSllzRk5zRHBGUjc2RUxRZkUrU2pm?=
+=3D
+ =3D?utf-8?B?U3IxZitHM1NFcXZEODk0bTBGOGRxZW1KRXMxMlEvL2svY1VoYUpzMlgwSVda?=
+=3D
+ =3D?utf-8?B?cVl3R08xUUdMS2pTSHJxWWVEUUhVSXZRaGJGM0Fia01vK3NWdnV6YU95Zllh?=
+=3D
+ =3D?utf-8?B?SUN1V3BxWndiRDhkb0xGbFduSTFicUZRaFhZaEMwRS9DQVZ3MGR4cGhUT2lI?=
+=3D
+ =3D?utf-8?B?aFkvZ29jRnZpWEhvSi83b3Y4YzI1clhGTmp3cnRwTkVuRjJxcFhoVzgrcnIy?=
+=3D
+ =3D?utf-8?B?aFl6bVY5TjMwaUQvd1k3alI1dWlLMVFtTHB5OUNPYVYrY1BwQlh3R2RzaFZw?=
+=3D
+ =3D?utf-8?B?QlF6YW9XeWdqWUV0U1FsT0k0SWFUT1lURFJadUtNazBUNFlEaTl1RzlKQzhQ?=
+=3D
+ =3D?utf-8?B?QVNQV2l2UVUzSEQxSUwyT2F3cTJiNkJlQmZJaWMxcHBJQzhZU1BLWnB4aG5R?=
+=3D
+ =3D?utf-8?B?MzZGSHY0bmhLRTJsbU9ZQzNRK09BYXdqTUdxV3NSdmk1aGpydW5IY2tpN09p?=
+=3D
+ =3D?utf-8?B?YWp1aVFqWmswYW1nSWRLUE5HbmpwRkdwVnVBTll2bXdzZVkrWEY2MnBLVk1P?=
+=3D
+ =3D?utf-8?B?MzhUQUlZM1NMR1QzeTVrTW1WRXptbzJ2bzhqeWN3bXV6NENMZGt0VUlVUGRZ?=
+=3D
+ =3D?utf-8?B?czdORFYvOGJCR3B4WjVXUFhIa3JjK3J1L2NabWl3T0xLcnFKOFBLK0xYdzFy?=
+=3D
+ =3D?utf-8?B?SlJlS3BXQnE2eDdIeGkvRmVTS1JwUFlmTUp1SjhaNDEya0dnQVpnTkxwamtv?=
+=3D
+ =3D?utf-8?B?TG04ZFZzUEdFSUVtL3N5dz09?=3D
+X-Forefront-Antispam-Report: CIP:209.85.166.51;CTRY:US;LANG:en;SCL:1;SRV:;I=
+PV:NLI;SFV:NSPM;H:mail-io1-f51.google.com;PTR:mail-io1-f51.google.com;CAT:N=
+ONE;SFS:(4636009)(356005)(166002)(1096003)(6916009)(55446002)(83380400001)(=
+76236003)(9686003)(4006050)(86362001)(7636003)(7596003)(8676002)(4508040000=
+2)(33964004)(26005)(2160300002)(336012)(19627405001)(7066003)(5660300002)(7=
+5640400001)(43950500001)(44020500001);DIR:INB;
+X-MS-Exchange-Safelinks-Url-KeyVer: 1
+X-MS-Exchange-Safelinks-Url-KeyVer: 1
+X-MS-Exchange-ATPSafeLinks-Stat: 0
+X-MS-Exchange-ATPSafeLinks-BitVector: 1000:0x0|0x0|0x1000;
+X-MS-Exchange-CrossTenant-OriginalArrivalTime: 08 Sep 2020 11:13:23.5975
+ (UTC)
+X-MS-Exchange-CrossTenant-Network-Message-Id: 82a67dd7-d1e7-4094-6e64-08d85=
+3e83397
+X-MS-Exchange-CrossTenant-Id: 6b902693-1074-40aa-9e21-d89446a2ebb5
+X-MS-Exchange-CrossTenant-AuthSource: VE1EUR02FT029.eop-EUR02.prod.protecti=
+on.outlook.com
+X-MS-Exchange-CrossTenant-AuthAs: Anonymous
+X-MS-Exchange-CrossTenant-FromEntityHeader: Internet
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: AM6PR06MB5269
+X-OrganizationHeadersPreserved: AM6PR06MB5269.eurprd06.prod.outlook.com
+X-CrossPremisesHeadersPromoted: exch02v.surrey.ac.uk
+X-CrossPremisesHeadersFiltered: exch02v.surrey.ac.uk
+X-OriginatorOrg: surrey.ac.uk
+
+
+--b18dd281-5385-4f7b-895b-6125a3130381
+Content-Type: text/html; charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<html>
+<Head></head><body>
+<p><b><font color=3D"#000066" size=3D"3" face=3D"Arial">Delivery has failed=
+ to these recipients or groups:</font></b></p>
+<font color=3D"#000000" size=3D"2" face=3D"Tahoma"><p><a href=3D"mailto:s.g=
+ibson@surrey.ac.uk">s.gibson@surrey.ac.uk</a><br>
+</font>
+<font color=3D"#000000" size=3D"3" face=3D"Arial">The email address you ent=
+ered couldn't be found. Please check the recipient's email address and try =
+to resend the message. If the problem continues, please contact your email =
+admin.<br>
+</font>
+<font color=3D"#000000" size=3D"2" face=3D"Tahoma"><br>
+</p>
+</font>
+<br><br><br><br><br><br>
+<font color=3D"#808080" size=3D"2" face=3D"Tahoma"><p><b>Diagnostic informa=
+tion for administrators:</b></p>
+<p>Generating server: exch01v.surrey.ac.uk<br>
+</p>
+<p>s.gibson@surrey.ac.uk<br>
+Remote Server  returned '550 5.1.10 RESOLVER.ADR.RecipientNotFound; Recipie=
+nt not found by SMTP address lookup'<br>
+</p>
+<p>Original message headers:</p>
+<pre>Received: from exch02v.surrey.ac.uk (10.201.50.18) by exch01v.surrey.a=
+c.uk
+ (10.201.50.17) with Microsoft SMTP Server (version=3DTLS1_2,
+ cipher=3DTLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256_P256) id 15.1.1913.5; Tue, =
+8 Sep
+ 2020 12:13:25 +0100
+Received: from EUR05-AM6-obe.outbound.protection.outlook.com (131.227.131.2=
+44)
+ by exch02v.surrey.ac.uk (10.201.50.18) with Microsoft SMTP Server
+ (version=3DTLS1_2, cipher=3DTLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256_P256) id
+ 15.1.1913.5 via Frontend Transport; Tue, 8 Sep 2020 12:13:25 +0100
+Received: from AM6P195CA0036.EURP195.PROD.OUTLOOK.COM (2603:10a6:209:81::49=
+)
+ by AM6PR06MB5269.eurprd06.prod.outlook.com (2603:10a6:20b:8f::18) with
+ Microsoft SMTP Server (version=3DTLS1_2,
+ cipher=3DTLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.3348.16; Tue, 8 S=
+ep
+ 2020 11:13:23 +0000
+Received: from VE1EUR02FT029.eop-EUR02.prod.protection.outlook.com
+ (2603:10a6:209:81:cafe::59) by AM6P195CA0036.outlook.office365.com
+ (2603:10a6:209:81::49) with Microsoft SMTP Server (version=3DTLS1_2,
+ cipher=3DTLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.3348.16 via Front=
+end
+ Transport; Tue, 8 Sep 2020 11:13:23 +0000
+Authentication-Results: spf=3Dpass (sender IP is 209.85.166.51)
+ smtp.mailfrom=3Dcodem-composites.com; surrey.ac.uk; dkim=3Dpass (signature=
+ was
+ verified) header.d=3Dcodem-composites.com;surrey.ac.uk; dmarc=3Dpass actio=
+n=3Dnone
+ header.from=3Dcodem-composites.com;compauth=3Dpass reason=3D100
+Received-SPF: Pass (protection.outlook.com: domain of codem-composites.com
+ designates 209.85.166.51 as permitted sender)
+ receiver=3Dprotection.outlook.com; client-ip=3D209.85.166.51;
+ helo=3Dmail-io1-f51.google.com;
+Received: from mail-io1-f51.google.com (209.85.166.51) by
+ VE1EUR02FT029.mail.protection.outlook.com (10.152.12.82) with Microsoft SM=
+TP
+ Server (version=3DTLS1_2, cipher=3DTLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) =
+id
+ 15.20.3348.16 via Frontend Transport; Tue, 8 Sep 2020 11:13:23 +0000
+Received: by mail-io1-f51.google.com with SMTP id u6so6708489iow.9
+        for &lt;s.gibson@surrey.ac.uk&gt;; Tue, 08 Sep 2020 04:13:23 -0700 =
+(PDT)
+DKIM-Signature: v=3D1; a=3Drsa-sha256; c=3Drelaxed/relaxed;
+        d=3Dcodem-composites.com; s=3Dgoogle;
+        h=3Dfrom:mime-version:date:message-id:subject:to;
+        bh=3D1+gXmwCbNKQ0ZS7M94TY+ieWuDI9zeVhUouS1nKnpsY=3D;
+        b=3DFDr8DyEso9PDIQ7TZzlhHC7O68fAAmGESlRB/zTMXezZP6GXJ7s1sOEjuWUuN+0=
+HCi
+         sVSg4FA5Zvf1qKKMJ9OCt9nYPAou4orZgUTsqphx4fOqueYDyc9Evg00ucNKEnsVCw=
+Y5
+         bzqi/f8WhnswtKFg14ySh4F9PWwf8pjVaOupko2tU1Iu5aRQlFOmFesiO+F0vN9n7Z=
+eI
+         8UdPSOjwnbreOqdk6Oz5upaTH5VaAYy0nrNDeE+GlSFPCtC2AqWQjFvI6I+liZrBwg=
+/i
+         iOEZB5ajE0DZ/pIRnjqQfroGmvvqoXUP2cVL2pvN3RkMzsZl0oXg6oIq6dI4uGdIws=
+3R
+         A+qA=3D=3D
+X-Google-DKIM-Signature: v=3D1; a=3Drsa-sha256; c=3Drelaxed/relaxed;
+        d=3D1e100.net; s=3D20161025;
+        h=3Dx-gm-message-state:from:mime-version:date:message-id:subject:to=
+;
+        bh=3D1+gXmwCbNKQ0ZS7M94TY+ieWuDI9zeVhUouS1nKnpsY=3D;
+        b=3Dp4tLtCzhelZ5KA8EHX8lMDn1Lqc0wQ7oUbYpdfb1uYQeNrum72fab1BcFA9PibO=
+9ES
+         1LhUJGsOs0SBiB+CgBhV9w/y+UU1iJ3tbbiOvzH3Ek/CXmM7SM8GiMbwOvo9u9A/+R=
+sm
+         qfvkuBRvNdzG7djGnRome3U0pnsr5CIIL7KMtd0AgP3bmLSrcZwdWVx0qv7d4rqXZu=
+Af
+         JSNsEehIOWLG2PgiNmtsFVtK6C44A8f5z6wBB1VyfVYD7QhbVLjHqFWPyK6e5cQSLM=
+/S
+         YWyJPTwdk9Ot8vEt9+QcKstVNHTdx9PUVWwZlDzdFl117cX4enLVkk2/4Fqw6Px94U=
+2R
+         E3LA=3D=3D
+X-Gm-Message-State: AOAM533DgoJk5hY/ljKaVzPK27nFRQX+50payyBd6YxLkDvKHY0Sh9T=
+T
+	QU8ozYk1qvEsMgzBS4HgAUbYOwr/trCxy/uaP/HfsWQzjAE=3D
+X-Google-Smtp-Source: ABdhPJwbSavz5v/PmJbkkl1KlzzpACXLfNoRpAEUQvVZAnKGICPnS=
+YiExgfuD01N+6dGznJo7ApD7Uh5MIZZNouemdA=3D
+X-Received: by 2002:a02:95ae:: with SMTP id b43mr22995024jai.19.15995636019=
+61;
+ Tue, 08 Sep 2020 04:13:21 -0700 (PDT)
+Received: from 696963989851 named unknown by gmailapi.google.com with
+ HTTPREST; Tue, 8 Sep 2020 11:13:21 +0000
+From: Kevin Doherty &lt;kevin@codem-composites.com&gt;
+MIME-Version: 1.0
+Date: Tue, 8 Sep 2020 11:13:21 +0000
+Message-ID: &lt;CAK4cLxjdVzh6wNFSou1efq=3DCvwoY33AH6eWDTnB74Z30C03=3Dfg@mai=
+l.gmail.com&gt;
+Subject: Quick Question, Stephen
+To: &lt;s.gibson@surrey.ac.uk&gt;
+Content-Type: multipart/alternative; boundary=3D&quot;0000000000004b002905a=
+ecb6c0d&quot;
+Return-Path: kevin@codem-composites.com
+X-EOPAttributedMessage: 0
+X-EOPTenantAttributedMessage: 6b902693-1074-40aa-9e21-d89446a2ebb5:0
+X-MS-PublicTrafficType: Email
+X-MS-Office365-Filtering-Correlation-Id: 82a67dd7-d1e7-4094-6e64-08d853e833=
+97
+X-MS-TrafficTypeDiagnostic: AM6PR06MB5269:
+X-MS-Exchange-AtpMessageProperties: SA|SL
+X-MS-Oob-TLC-OOBClassifiers: OLM:8882;
+X-Microsoft-Antispam: BCL:0;
+X-Microsoft-Antispam-Message-Info: =3D?utf-8?B?QWFoUmpSRyt6QUViY0JHcGRnRi9k=
+TXBHaWpiZlJUVkdoWmJpYnpyQUZnTEhG?=3D
+ =3D?utf-8?B?cjhneHlmK2x4bFZhaGs2LzFaZWtVcXo1emdEV3U3MnlmOS9VaVpWN3diQU1L?=
+=3D
+ =3D?utf-8?B?ZnJ3VzFtbDZoU2ZvVnRxZkJPWUUvVkt2SW9UQm1oWFJWQ1I1dWY2RFdaVThJ?=
+=3D
+ =3D?utf-8?B?eVd0MUZlUXU1U1pNYXBxRDJxRXFteXdMUElNSTVhOElBenpiNm9pYldmUEl0?=
+=3D
+ =3D?utf-8?B?M2Zla0VzOFhFRXVzN3A2TGF4Y2w1V0JPM0NYWDFJMm8vNFI4cmd5bkRBYmZO?=
+=3D
+ =3D?utf-8?B?dTlhdk9DZTkwbk40MlgrZEZ2SmdXVXgyTUJhRzlySG9keWFzOERoMStMRzB1?=
+=3D
+ =3D?utf-8?B?ejVhVjRubTZSYWwrZFhydmtrcUcwdlZKalM4NndmSTdmZ1EzNVJsQVNDWXhZ?=
+=3D
+ =3D?utf-8?B?bW1OTEtSb2J6ZEpkN2I5ZFBCcTNhRzBHTGpobHl6T2NBYVVhZlNjdkZlYXlj?=
+=3D
+ =3D?utf-8?B?ZTdNVWR4ZkwvMExzcVA2a3pZNVVkanZUTCtHa2NqcC82UW1Dd2NpellRdXQw?=
+=3D
+ =3D?utf-8?B?Q2tvRms1NVkvdmNuOUIyQXdET05KWkNWOHk3cUQydnV2ZDFXNVlqV3pTME5k?=
+=3D
+ =3D?utf-8?B?ejVMdGpVRWsvcjFaRy9sdHpiYXJoazNEREUzMlgzMGY4YjBpb1FvL0Y0dDdu?=
+=3D
+ =3D?utf-8?B?OSt6Y01FbS93U1Y2bDlsbnJxU0RFZXh4a3hpUVdPajJiZ01FM2ViZGNObHlI?=
+=3D
+ =3D?utf-8?B?SGZxckQvQlVOTzVQZzRSdU9IVC9pYjQwS0UvMitrN2JTcjRLV2xRTG0vSW9U?=
+=3D
+ =3D?utf-8?B?bUZHM3dIR01mMnhKMWlnNU9lc3pKTUJBcFhsb0dsNU5NaE1UZU81UUh3UUNy?=
+=3D
+ =3D?utf-8?B?SENuT1hNUTFhclRzMXNnS3JyNlhUZlU1MW5qMTJrRyt5bmpIVENsNDhHOXBa?=
+=3D
+ =3D?utf-8?B?Q2VJSlR1Z01ZaWZGQVQ5cExIK2VYUXJmMUJCZ1QrTmJ3Vm9yZjFlMmR1Nm9S?=
+=3D
+ =3D?utf-8?B?QS9weURPNE1xRnZNcnNuNXJxcGtwRHNSNUg2MWY3K2UyRlUza0s4T1crRFhZ?=
+=3D
+ =3D?utf-8?B?aFRZQ3hIUmI0a0FpcUtTajlSb3crYzNBSllzRk5zRHBGUjc2RUxRZkUrU2pm?=
+=3D
+ =3D?utf-8?B?U3IxZitHM1NFcXZEODk0bTBGOGRxZW1KRXMxMlEvL2svY1VoYUpzMlgwSVda?=
+=3D
+ =3D?utf-8?B?cVl3R08xUUdMS2pTSHJxWWVEUUhVSXZRaGJGM0Fia01vK3NWdnV6YU95Zllh?=
+=3D
+ =3D?utf-8?B?SUN1V3BxWndiRDhkb0xGbFduSTFicUZRaFhZaEMwRS9DQVZ3MGR4cGhUT2lI?=
+=3D
+ =3D?utf-8?B?aFkvZ29jRnZpWEhvSi83b3Y4YzI1clhGTmp3cnRwTkVuRjJxcFhoVzgrcnIy?=
+=3D
+ =3D?utf-8?B?aFl6bVY5TjMwaUQvd1k3alI1dWlLMVFtTHB5OUNPYVYrY1BwQlh3R2RzaFZw?=
+=3D
+ =3D?utf-8?B?QlF6YW9XeWdqWUV0U1FsT0k0SWFUT1lURFJadUtNazBUNFlEaTl1RzlKQzhQ?=
+=3D
+ =3D?utf-8?B?QVNQV2l2UVUzSEQxSUwyT2F3cTJiNkJlQmZJaWMxcHBJQzhZU1BLWnB4aG5R?=
+=3D
+ =3D?utf-8?B?MzZGSHY0bmhLRTJsbU9ZQzNRK09BYXdqTUdxV3NSdmk1aGpydW5IY2tpN09p?=
+=3D
+ =3D?utf-8?B?YWp1aVFqWmswYW1nSWRLUE5HbmpwRkdwVnVBTll2bXdzZVkrWEY2MnBLVk1P?=
+=3D
+ =3D?utf-8?B?MzhUQUlZM1NMR1QzeTVrTW1WRXptbzJ2bzhqeWN3bXV6NENMZGt0VUlVUGRZ?=
+=3D
+ =3D?utf-8?B?czdORFYvOGJCR3B4WjVXUFhIa3JjK3J1L2NabWl3T0xLcnFKOFBLK0xYdzFy?=
+=3D
+ =3D?utf-8?B?SlJlS3BXQnE2eDdIeGkvRmVTS1JwUFlmTUp1SjhaNDEya0dnQVpnTkxwamtv?=
+=3D
+ =3D?utf-8?B?TG04ZFZzUEdFSUVtL3N5dz09?=3D
+X-Forefront-Antispam-Report: CIP:209.85.166.51;CTRY:US;LANG:en;SCL:1;SRV:;I=
+PV:NLI;SFV:NSPM;H:mail-io1-f51.google.com;PTR:mail-io1-f51.google.com;CAT:N=
+ONE;SFS:(4636009)(356005)(166002)(1096003)(6916009)(55446002)(83380400001)(=
+76236003)(9686003)(4006050)(86362001)(7636003)(7596003)(8676002)(4508040000=
+2)(33964004)(26005)(2160300002)(336012)(19627405001)(7066003)(5660300002)(7=
+5640400001)(43950500001)(44020500001);DIR:INB;
+X-MS-Exchange-Safelinks-Url-KeyVer: 1
+X-MS-Exchange-Safelinks-Url-KeyVer: 1
+X-MS-Exchange-ATPSafeLinks-Stat: 0
+X-MS-Exchange-ATPSafeLinks-BitVector: 1000:0x0|0x0|0x1000;
+X-MS-Exchange-CrossTenant-OriginalArrivalTime: 08 Sep 2020 11:13:23.5975
+ (UTC)
+X-MS-Exchange-CrossTenant-Network-Message-Id: 82a67dd7-d1e7-4094-6e64-08d85=
+3e83397
+X-MS-Exchange-CrossTenant-Id: 6b902693-1074-40aa-9e21-d89446a2ebb5
+X-MS-Exchange-CrossTenant-AuthSource: VE1EUR02FT029.eop-EUR02.prod.protecti=
+on.outlook.com
+X-MS-Exchange-CrossTenant-AuthAs: Anonymous
+X-MS-Exchange-CrossTenant-FromEntityHeader: Internet
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: AM6PR06MB5269
+X-OrganizationHeadersPreserved: AM6PR06MB5269.eurprd06.prod.outlook.com
+X-CrossPremisesHeadersPromoted: exch02v.surrey.ac.uk
+X-CrossPremisesHeadersFiltered: exch02v.surrey.ac.uk
+X-OriginatorOrg: surrey.ac.uk
+</pre>
+</font>
+</body>
+</html>=
+
+--b18dd281-5385-4f7b-895b-6125a3130381--
+
+--bfeb302c-c9d5-43b4-8914-eae69874f2b1
+Content-Type: message/delivery-status
+
+Reporting-MTA: dns;exch01v.surrey.ac.uk
+Received-From-MTA: dns;EUR05-AM6-obe.outbound.protection.outlook.com
+Arrival-Date: Tue, 8 Sep 2020 11:13:25 +0000
 
 Final-Recipient: rfc822;s.gibson@surrey.ac.uk
 Action: failed
 Status: 5.1.10
 Diagnostic-Code: smtp;550 5.1.10 RESOLVER.ADR.RecipientNotFound; Recipient not found by SMTP address lookup
 
+
+--bfeb302c-c9d5-43b4-8914-eae69874f2b1
+Content-Type: text/rfc822-headers
+
+Received: from exch02v.surrey.ac.uk (10.201.50.18) by exch01v.surrey.ac.uk
+ (10.201.50.17) with Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256_P256) id 15.1.1913.5; Tue, 8 Sep
+ 2020 12:13:25 +0100
+Received: from EUR05-AM6-obe.outbound.protection.outlook.com (131.227.131.244)
+ by exch02v.surrey.ac.uk (10.201.50.18) with Microsoft SMTP Server
+ (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256_P256) id
+ 15.1.1913.5 via Frontend Transport; Tue, 8 Sep 2020 12:13:25 +0100
+Received: from AM6P195CA0036.EURP195.PROD.OUTLOOK.COM (2603:10a6:209:81::49)
+ by AM6PR06MB5269.eurprd06.prod.outlook.com (2603:10a6:20b:8f::18) with
+ Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.3348.16; Tue, 8 Sep
+ 2020 11:13:23 +0000
+Received: from VE1EUR02FT029.eop-EUR02.prod.protection.outlook.com
+ (2603:10a6:209:81:cafe::59) by AM6P195CA0036.outlook.office365.com
+ (2603:10a6:209:81::49) with Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.3348.16 via Frontend
+ Transport; Tue, 8 Sep 2020 11:13:23 +0000
+Authentication-Results: spf=pass (sender IP is 209.85.166.51)
+ smtp.mailfrom=codem-composites.com; surrey.ac.uk; dkim=pass (signature was
+ verified) header.d=codem-composites.com;surrey.ac.uk; dmarc=pass action=none
+ header.from=codem-composites.com;compauth=pass reason=100
+Received-SPF: Pass (protection.outlook.com: domain of codem-composites.com
+ designates 209.85.166.51 as permitted sender)
+ receiver=protection.outlook.com; client-ip=209.85.166.51;
+ helo=mail-io1-f51.google.com;
+Received: from mail-io1-f51.google.com (209.85.166.51) by
+ VE1EUR02FT029.mail.protection.outlook.com (10.152.12.82) with Microsoft SMTP
+ Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id
+ 15.20.3348.16 via Frontend Transport; Tue, 8 Sep 2020 11:13:23 +0000
+Received: by mail-io1-f51.google.com with SMTP id u6so6708489iow.9
+        for <s.gibson@surrey.ac.uk>; Tue, 08 Sep 2020 04:13:23 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=codem-composites.com; s=google;
+        h=from:mime-version:date:message-id:subject:to;
+        bh=1+gXmwCbNKQ0ZS7M94TY+ieWuDI9zeVhUouS1nKnpsY=;
+        b=FDr8DyEso9PDIQ7TZzlhHC7O68fAAmGESlRB/zTMXezZP6GXJ7s1sOEjuWUuN+0HCi
+         sVSg4FA5Zvf1qKKMJ9OCt9nYPAou4orZgUTsqphx4fOqueYDyc9Evg00ucNKEnsVCwY5
+         bzqi/f8WhnswtKFg14ySh4F9PWwf8pjVaOupko2tU1Iu5aRQlFOmFesiO+F0vN9n7ZeI
+         8UdPSOjwnbreOqdk6Oz5upaTH5VaAYy0nrNDeE+GlSFPCtC2AqWQjFvI6I+liZrBwg/i
+         iOEZB5ajE0DZ/pIRnjqQfroGmvvqoXUP2cVL2pvN3RkMzsZl0oXg6oIq6dI4uGdIws3R
+         A+qA==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20161025;
+        h=x-gm-message-state:from:mime-version:date:message-id:subject:to;
+        bh=1+gXmwCbNKQ0ZS7M94TY+ieWuDI9zeVhUouS1nKnpsY=;
+        b=p4tLtCzhelZ5KA8EHX8lMDn1Lqc0wQ7oUbYpdfb1uYQeNrum72fab1BcFA9PibO9ES
+         1LhUJGsOs0SBiB+CgBhV9w/y+UU1iJ3tbbiOvzH3Ek/CXmM7SM8GiMbwOvo9u9A/+Rsm
+         qfvkuBRvNdzG7djGnRome3U0pnsr5CIIL7KMtd0AgP3bmLSrcZwdWVx0qv7d4rqXZuAf
+         JSNsEehIOWLG2PgiNmtsFVtK6C44A8f5z6wBB1VyfVYD7QhbVLjHqFWPyK6e5cQSLM/S
+         YWyJPTwdk9Ot8vEt9+QcKstVNHTdx9PUVWwZlDzdFl117cX4enLVkk2/4Fqw6Px94U2R
+         E3LA==
+X-Gm-Message-State: AOAM533DgoJk5hY/ljKaVzPK27nFRQX+50payyBd6YxLkDvKHY0Sh9TT
+	QU8ozYk1qvEsMgzBS4HgAUbYOwr/trCxy/uaP/HfsWQzjAE=
+X-Google-Smtp-Source: ABdhPJwbSavz5v/PmJbkkl1KlzzpACXLfNoRpAEUQvVZAnKGICPnSYiExgfuD01N+6dGznJo7ApD7Uh5MIZZNouemdA=
+X-Received: by 2002:a02:95ae:: with SMTP id b43mr22995024jai.19.1599563601961;
+ Tue, 08 Sep 2020 04:13:21 -0700 (PDT)
+Received: from 696963989851 named unknown by gmailapi.google.com with
+ HTTPREST; Tue, 8 Sep 2020 11:13:21 +0000
+From: Kevin Doherty <kevin@codem-composites.com>
+MIME-Version: 1.0
+Date: Tue, 8 Sep 2020 11:13:21 +0000
+Message-ID: <CAK4cLxjdVzh6wNFSou1efq=CvwoY33AH6eWDTnB74Z30C03=fg@mail.gmail.com>
+Subject: Quick Question, Stephen
+To: s.gibson@surrey.ac.uk
+Content-Type: multipart/alternative; boundary="0000000000004b002905aecb6c0d"
+Return-Path: kevin@codem-composites.com
+X-EOPAttributedMessage: 0
+X-EOPTenantAttributedMessage: 6b902693-1074-40aa-9e21-d89446a2ebb5:0
+X-MS-PublicTrafficType: Email
+X-MS-Office365-Filtering-Correlation-Id: 82a67dd7-d1e7-4094-6e64-08d853e83397
+X-MS-TrafficTypeDiagnostic: AM6PR06MB5269:
+X-MS-Exchange-AtpMessageProperties: SA|SL
+X-MS-Oob-TLC-OOBClassifiers: OLM:8882;
+X-Microsoft-Antispam: BCL:0;
+X-Microsoft-Antispam-Message-Info: =?utf-8?B?QWFoUmpSRyt6QUViY0JHcGRnRi9kTXBHaWpiZlJUVkdoWmJpYnpyQUZnTEhG?=
+ =?utf-8?B?cjhneHlmK2x4bFZhaGs2LzFaZWtVcXo1emdEV3U3MnlmOS9VaVpWN3diQU1L?=
+ =?utf-8?B?ZnJ3VzFtbDZoU2ZvVnRxZkJPWUUvVkt2SW9UQm1oWFJWQ1I1dWY2RFdaVThJ?=
+ =?utf-8?B?eVd0MUZlUXU1U1pNYXBxRDJxRXFteXdMUElNSTVhOElBenpiNm9pYldmUEl0?=
+ =?utf-8?B?M2Zla0VzOFhFRXVzN3A2TGF4Y2w1V0JPM0NYWDFJMm8vNFI4cmd5bkRBYmZO?=
+ =?utf-8?B?dTlhdk9DZTkwbk40MlgrZEZ2SmdXVXgyTUJhRzlySG9keWFzOERoMStMRzB1?=
+ =?utf-8?B?ejVhVjRubTZSYWwrZFhydmtrcUcwdlZKalM4NndmSTdmZ1EzNVJsQVNDWXhZ?=
+ =?utf-8?B?bW1OTEtSb2J6ZEpkN2I5ZFBCcTNhRzBHTGpobHl6T2NBYVVhZlNjdkZlYXlj?=
+ =?utf-8?B?ZTdNVWR4ZkwvMExzcVA2a3pZNVVkanZUTCtHa2NqcC82UW1Dd2NpellRdXQw?=
+ =?utf-8?B?Q2tvRms1NVkvdmNuOUIyQXdET05KWkNWOHk3cUQydnV2ZDFXNVlqV3pTME5k?=
+ =?utf-8?B?ejVMdGpVRWsvcjFaRy9sdHpiYXJoazNEREUzMlgzMGY4YjBpb1FvL0Y0dDdu?=
+ =?utf-8?B?OSt6Y01FbS93U1Y2bDlsbnJxU0RFZXh4a3hpUVdPajJiZ01FM2ViZGNObHlI?=
+ =?utf-8?B?SGZxckQvQlVOTzVQZzRSdU9IVC9pYjQwS0UvMitrN2JTcjRLV2xRTG0vSW9U?=
+ =?utf-8?B?bUZHM3dIR01mMnhKMWlnNU9lc3pKTUJBcFhsb0dsNU5NaE1UZU81UUh3UUNy?=
+ =?utf-8?B?SENuT1hNUTFhclRzMXNnS3JyNlhUZlU1MW5qMTJrRyt5bmpIVENsNDhHOXBa?=
+ =?utf-8?B?Q2VJSlR1Z01ZaWZGQVQ5cExIK2VYUXJmMUJCZ1QrTmJ3Vm9yZjFlMmR1Nm9S?=
+ =?utf-8?B?QS9weURPNE1xRnZNcnNuNXJxcGtwRHNSNUg2MWY3K2UyRlUza0s4T1crRFhZ?=
+ =?utf-8?B?aFRZQ3hIUmI0a0FpcUtTajlSb3crYzNBSllzRk5zRHBGUjc2RUxRZkUrU2pm?=
+ =?utf-8?B?U3IxZitHM1NFcXZEODk0bTBGOGRxZW1KRXMxMlEvL2svY1VoYUpzMlgwSVda?=
+ =?utf-8?B?cVl3R08xUUdMS2pTSHJxWWVEUUhVSXZRaGJGM0Fia01vK3NWdnV6YU95Zllh?=
+ =?utf-8?B?SUN1V3BxWndiRDhkb0xGbFduSTFicUZRaFhZaEMwRS9DQVZ3MGR4cGhUT2lI?=
+ =?utf-8?B?aFkvZ29jRnZpWEhvSi83b3Y4YzI1clhGTmp3cnRwTkVuRjJxcFhoVzgrcnIy?=
+ =?utf-8?B?aFl6bVY5TjMwaUQvd1k3alI1dWlLMVFtTHB5OUNPYVYrY1BwQlh3R2RzaFZw?=
+ =?utf-8?B?QlF6YW9XeWdqWUV0U1FsT0k0SWFUT1lURFJadUtNazBUNFlEaTl1RzlKQzhQ?=
+ =?utf-8?B?QVNQV2l2UVUzSEQxSUwyT2F3cTJiNkJlQmZJaWMxcHBJQzhZU1BLWnB4aG5R?=
+ =?utf-8?B?MzZGSHY0bmhLRTJsbU9ZQzNRK09BYXdqTUdxV3NSdmk1aGpydW5IY2tpN09p?=
+ =?utf-8?B?YWp1aVFqWmswYW1nSWRLUE5HbmpwRkdwVnVBTll2bXdzZVkrWEY2MnBLVk1P?=
+ =?utf-8?B?MzhUQUlZM1NMR1QzeTVrTW1WRXptbzJ2bzhqeWN3bXV6NENMZGt0VUlVUGRZ?=
+ =?utf-8?B?czdORFYvOGJCR3B4WjVXUFhIa3JjK3J1L2NabWl3T0xLcnFKOFBLK0xYdzFy?=
+ =?utf-8?B?SlJlS3BXQnE2eDdIeGkvRmVTS1JwUFlmTUp1SjhaNDEya0dnQVpnTkxwamtv?=
+ =?utf-8?B?TG04ZFZzUEdFSUVtL3N5dz09?=
+X-Forefront-Antispam-Report: CIP:209.85.166.51;CTRY:US;LANG:en;SCL:1;SRV:;IPV:NLI;SFV:NSPM;H:mail-io1-f51.google.com;PTR:mail-io1-f51.google.com;CAT:NONE;SFS:(4636009)(356005)(166002)(1096003)(6916009)(55446002)(83380400001)(76236003)(9686003)(4006050)(86362001)(7636003)(7596003)(8676002)(45080400002)(33964004)(26005)(2160300002)(336012)(19627405001)(7066003)(5660300002)(75640400001)(43950500001)(44020500001);DIR:INB;
+X-MS-Exchange-Safelinks-Url-KeyVer: 1
+X-MS-Exchange-Safelinks-Url-KeyVer: 1
+X-MS-Exchange-ATPSafeLinks-Stat: 0
+X-MS-Exchange-ATPSafeLinks-BitVector: 1000:0x0|0x0|0x1000;
+X-MS-Exchange-CrossTenant-OriginalArrivalTime: 08 Sep 2020 11:13:23.5975
+ (UTC)
+X-MS-Exchange-CrossTenant-Network-Message-Id: 82a67dd7-d1e7-4094-6e64-08d853e83397
+X-MS-Exchange-CrossTenant-Id: 6b902693-1074-40aa-9e21-d89446a2ebb5
+X-MS-Exchange-CrossTenant-AuthSource: VE1EUR02FT029.eop-EUR02.prod.protection.outlook.com
+X-MS-Exchange-CrossTenant-AuthAs: Anonymous
+X-MS-Exchange-CrossTenant-FromEntityHeader: Internet
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: AM6PR06MB5269
+X-OrganizationHeadersPreserved: AM6PR06MB5269.eurprd06.prod.outlook.com
+X-MS-Exchange-Organization-OriginalArrivalTime: 08 Sep 2020 11:13:25.4143
+ (UTC)
+X-MS-Exchange-Organization-Network-Message-Id: bf00d434-2df6-40a2-93d4-08d853e834ae
+X-MS-Exchange-Organization-OriginalServerIPAddress: 10.201.50.18
+X-MS-Exchange-Organization-OriginalClientIPAddress: 209.85.166.51
+X-MS-Exchange-Organization-TransportTrafficType: Email
+X-MS-Exchange-Organization-Antispam-ScanContext: DIR:Incoming;SFV:NSPM;SKIP:0;XPREM:true;
+X-MS-Exchange-Organization-SCL: 1
+X-MS-Exchange-Organization-Processed-By-Journaling: Journal Agent
+X-CrossPremisesHeadersPromoted: exch02v.surrey.ac.uk
+X-MS-Exchange-Organization-Cross-Premises-Headers-Promoted: exch02v.surrey.ac.uk
+X-CrossPremisesHeadersFiltered: exch02v.surrey.ac.uk
+X-MS-Exchange-Organization-Cross-Premises-Headers-Processed: exch02v.surrey.ac.uk
+X-MS-Exchange-Organization-OrderedPrecisionLatencyInProgress: LSRV=exch02v.surrey.ac.uk:TOTAL-FE=0.015|SMR=0.016(SMRPI=0.002(SMRPI-FrontendProxyAgent=0.002));2020-09-08T11:13:25.429Z
+X-MS-Exchange-Forest-ArrivalHubServer: exch01v.surrey.ac.uk
+X-MS-Exchange-Organization-AuthSource:
+	VE1EUR02FT029.eop-EUR02.prod.protection.outlook.com
+X-MS-Exchange-Organization-AuthAs: Anonymous
+X-MS-Exchange-Organization-FromEntityHeader: Internet
+X-MS-Exchange-Organization-OriginatorOrganization: surrey.ac.uk
+X-OriginatorOrg: surrey.ac.uk
+X-MS-Exchange-Organization-OriginalSize: 24314
+X-MS-Exchange-Organization-HygienePolicy: Standard
+X-MS-Exchange-Organization-MessageLatency:
+	SRV=exch02v.surrey.ac.uk:TOTAL-FE=0.217|SMR=0.016(SMRPI=0.002(SMRPI-FrontendProxyAgent=0.002))|SMS=0.202
+X-MS-Exchange-Organization-AVStamp-Enterprise: 1.0
+X-MS-Exchange-Organization-Recipient-Limit-Verified: True
+X-MS-Exchange-Organization-TotalRecipientCount: 1
+
+--bfeb302c-c9d5-43b4-8914-eae69874f2b1--

@@ -44,6 +44,10 @@ function MailDetails(props) {
 			setState({ loading: false });
 		})();
 	}, []);
+	function getUrl(uid, emailId) {
+		const url = `http://localhost:3009?uid=${uid}&emailId=${emailId}`;
+		return url;
+	}
 	console.log(state.loading);
 	return state.loading ? (
 		<Loader type="Puff" color="#00BFFF" height={100} width={100} />
@@ -118,8 +122,16 @@ function MailDetails(props) {
 								</div>
 							)}
 						</div>
-
-						<Typography variant="body2" dangerouslySetInnerHTML={{ __html: email.body }} />
+						<div>
+							<iframe
+								title="emailBody"
+								src={getUrl(email.data.email_uid, email.data.email_id)}
+								frameBorder="0"
+								height="400px"
+								width="100%"
+							/>
+						</div>
+						{/* <Typography variant="body2" dangerouslySetInnerHTML={{ __html: email.body }} /> */}
 
 						<Divider className="my-16" />
 

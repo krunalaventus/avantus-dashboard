@@ -1,3 +1,289 @@
+--24760f7a-8abb-41e0-963e-ebccd768a87c
+Content-Type: multipart/alternative; differences=Content-Type;
+	boundary="6103e659-77ba-47f1-921a-8518186ea79b"
+
+--6103e659-77ba-47f1-921a-8518186ea79b
+Content-Type: text/plain; charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+Delivery has failed to these recipients or groups:
+
+rodwell@scanna-msc.com<mailto:rodwell@scanna-msc.com>
+The email address you entered couldn't be found. Please check the recipient=
+'s email address and try to resend the message. If the problem continues, p=
+lease contact your helpdesk.
+
+
+
+
+
+
+
+
+Diagnostic information for administrators:
+
+Generating server: SWNEXCH.scanna.local
+
+rodwell@scanna-msc.com
+Remote Server returned '550 5.1.1 RESOLVER.ADR.RecipNotFound; not found'
+
+Original message headers:
+
+Received: from SWNEXCH.scanna.local (10.9.0.23) by SWNEXCH.scanna.local
+ (10.9.0.23) with Microsoft SMTP Server (TLS) id 15.0.1497.2; Fri, 4 Sep 20=
+20
+ 15:31:10 +0100
+Received: from mail6.bemta26.messagelabs.com (85.158.142.156) by
+ SWNEXCH.scanna.local (10.9.0.23) with Microsoft SMTP Server (TLS) id
+ 15.0.1497.2 via Frontend Transport; Fri, 4 Sep 2020 15:31:10 +0100
+Return-Path: <kevin@codem-composites.com>
+Received: from [100.113.6.244] (using TLSv1.2 with cipher DHE-RSA-AES256-GC=
+M-SHA384 (256 bits))
+        by server-5.bemta.az-b.eu-central-1.aws.symcld.net id D7/9C-08547-D=
+AF425F5; Fri, 04 Sep 2020 14:31:09 +0000
+Authentication-Results: mx.messagelabs.com; spf=3Dpass
+  (server-25.tower-239.messagelabs.com: domain of codem-composites.com
+  designates 209.85.166.45 as permitted sender)
+  smtp.mailfrom=3Dcodem-composites.com; dkim=3Dpass (good signature)
+  header.i=3D@codem-composites.com header.s=3Dgoogle; dmarc=3Dpass (p=3Dnon=
+e
+  adkim=3Dr aspf=3Dr) header.from=3Dcodem-composites.com
+X-Brightmail-Tracker: H4sIAAAAAAAAA+NgFuplleJIrShJLcpLzFFi42K5GLpMV3etf1C
+  8wYvNLBYrDmxlcmD0WLbsKlsAYxRrZl5SfkUCa8ayR8vZC3qSKx5/n8zewNgU08XIxSEk0Mco
+  cfrsdhYQh0XgKYtEz7bDjCCOhMAPFokXD98wQzhNjBLfzixi7WLkBHKKJBY/mMEIYZdIHJv/h
+  w3EFhLIl3h4+jZYnE3AQKLj7G9mEJtXQFDi5MwnLCA2i4CKRNvG+6wQ8QCJ/s9XmEBsYQEFiT
+  vvroDNERGQkjh/ejKYzSzgI7Fn9QbGCYx8s5CMmoUkBWFrSrRu/80OYWtLLFv4mhnC1pBYcGc
+  fI7L4Aka2VYyWSUWZ6RkluYmZObqGBga6hobGuua6RsaGeolVukl6qaW6yal5JUWJQFm9xPJi
+  veLK3OScFL281JJNjMDwTilkf76DcdWbD3qHGCU5mJREeWMcg+KF+JLyUyozEosz4otKc1KLD
+  zHKcHAoSfCm+gDlBItS01Mr0jJzgLEGk5bg4FES4W31BUrzFhck5hZnpkOkTjGGcyzZOG8RM0
+  fHr0VA8t3PxUDy9qolQPIjmPwOJts2gshVB6avYhZiycvPS5US53UDGScAMi6jNA9uGSyVXGK
+  UlRLmZWRgYBDiKUgtys0sQZV/xSjOwagkzHsPZApPZl4J3E2vgM5lAjr3qGkgyLkliQgpqQYm
+  lZYHC212HvDkdvz3ZXkag//KgGcTWHS5LA887Pxj2Hx2es8u0XSbKRcvHA3tdL2QWG4jFnNs7
+  mnR09PFkncafDoY8WWl4aVyzuNqJ0x89QMuiYh58Jvv9i69l5kbcIxLcJXzw1V1RycxGrl2RE
+  /qP7hR4Mledea7WaJ3Xf7se2PN8uyB7eKzJ9lYyx4+3ebr8iF2jsyKhau/8t458ye8gHWWhpR
+  ufmNbsNyUCR56er0hUy58iyrido9qXCQxpefK7/Dzka9rc9Y3s5/aqzH7vAxf4+UJAXMv6S7I
+  DLbZNCVQ1sX7rI1EPOe0eZsyNzHIN06+PPOWlUlx+LZ1FYdj+UUNzRyt1tx1sbLY8fabEktxR
+  qKhFnNRcSIACPOzNqADAAA=3D
+X-Env-Sender: kevin@codem-composites.com
+X-Msg-Ref: server-25.tower-239.messagelabs.com!1599229867!38209!1
+X-Originating-IP: [209.85.166.45]
+X-SYMC-ESS-Newsletter-Ignored: YES
+X-SpamReason: Yes, hits=3D0.0 required=3D7.0 tests=3Dnewsletters: ,
+  newsletters: Newsletter detected: 9.13 > 5,newsletters: Newsletter
+  detected: 9.13 > 5,HTML_MESSAGE,UNPARSEABLE_RELAY,domain_age:
+  codem-composites.com:a=3D26,s=3Denv; {END},Newsletter detected heuristica=
+lly
+  [ML_RADAR_NL_1,ML_RADAR_NL_2,ML_RADAR_NL_2A,ML_RADAR_NL_2CP,
+  ML_RADAR_NL_2F]: 9.13 > 5
+X-StarScan-Received:
+X-StarScan-Version: 9.60.3; banners=3D-,-,scanna-msc.com
+X-VirusChecked: Checked
+Received: (qmail 17480 invoked from network); 4 Sep 2020 14:31:08 -0000
+Received: from mail-io1-f45.google.com (HELO mail-io1-f45.google.com) (209.=
+85.166.45)
+  by server-25.tower-239.messagelabs.com with ECDHE-RSA-AES256-GCM-SHA384 e=
+ncrypted SMTP; 4 Sep 2020 14:31:08 -0000
+Received: by mail-io1-f45.google.com with SMTP id j2so7279601ioj.7
+        for <rodwell@scanna-msc.com>; Fri, 04 Sep 2020 07:31:08 -0700 (PDT)
+DKIM-Signature: v=3D1; a=3Drsa-sha256; c=3Drelaxed/relaxed;
+        d=3Dcodem-composites.com; s=3Dgoogle;
+        h=3Dfrom:mime-version:date:message-id:subject:to;
+        bh=3D2vX+mb74FyLbq1787nnu00j/eCqC704uZwZyuShbXRo=3D;
+        b=3DHoMKjpG8PJY54lA0egHQcVPizMEKlEK+0mYRgg3BFoYIXHXKTpsm7Kh2Q6ziayF=
+wAg
+         rYnRIRwjUTlsVrpQLJVKzVMPm7FAD9e3+M3BDH7iRyvhWdALby/LuWPThQcBFC3NtX=
+6+
+         HLEnbVCdYDgjzdMKLVFQ8nV/9KYYMOAVW8ayXBqKmVfhuyJtLnk8vlab9kphdkaaAz=
+Kh
+         hNHunNMEmwlUtR0hx3hc+koEIyMjL3+0lXyktGpC+TsJoe2gOiLX903Wtsq7sKqsdJ=
+vR
+         ew2hGIqKFWbzUFh7gKeBUywvqAxQujk65GoD5+jzMj7GalSkSEMbJ55p9tIcPsBQSf=
+k5
+         nfHQ=3D=3D
+X-Google-DKIM-Signature: v=3D1; a=3Drsa-sha256; c=3Drelaxed/relaxed;
+        d=3D1e100.net; s=3D20161025;
+        h=3Dx-gm-message-state:from:mime-version:date:message-id:subject:to=
+;
+        bh=3D2vX+mb74FyLbq1787nnu00j/eCqC704uZwZyuShbXRo=3D;
+        b=3DTYPg47W9jhjG9+vUhSVtCRaqnB/ef39YTAfS7nPRYBR4zfzC5fnd2iOAHEUJqA/=
+f7m
+         JdZP1tm2i4nLCCSlIGLWiCzahRhAgJDY+ezG4EWXnpLmTIqtkQR+L/L1BXDFlOEntT=
+S5
+         7eN/ykFjmid3/RdHrFvsRPwj7967iwqhztEiMDTu8DE38XtdxcJ/tZ8CmsPNgY29U9=
+NF
+         YphCVBSoMUFddIiRRdu2N41A77CTvsB7kRzInsjr20jqAFx+vTwlfEfcRaJJyY3yLG=
+K4
+         ggVHnRamqN2ELBkwXMqdn3rsx99yIgJP25qwpL+TnpPsH9Y6Hoc+gG0n0gErVxJdYQ=
+RW
+         P3iQ=3D=3D
+X-Gm-Message-State: AOAM5310z7mYFj6DjeqC8N1QCB02rjY2+kib88kkMIwFpN8n0NllaNb=
+O
+        MvxDFjsWUWaLYG4319BPXmPy1WRJ6Im1VF/ejDMjaAPAPldMZA=3D=3D
+X-Google-Smtp-Source: ABdhPJza74ECELBB3nTIyOEYVSe5diz4aFDfNQwXiGNDUx0itJvQR=
+7Io8pK1N4Lw0S8sEaedqZKY5QcZOr+SZk89sHg=3D
+X-Received: by 2002:a5e:8d04:: with SMTP id m4mr7537523ioj.107.159922986634=
+0;
+ Fri, 04 Sep 2020 07:31:06 -0700 (PDT)
+Received: from 696963989851 named unknown by gmailapi.google.com with
+ HTTPREST; Fri, 4 Sep 2020 14:31:05 +0000
+From: Kevin Doherty <kevin@codem-composites.com>
+MIME-Version: 1.0
+Date: Fri, 4 Sep 2020 14:31:05 +0000
+Message-ID: <CAK4cLxgxezujv9dGqZLk60uLKe1fHdrHYEMjBWBv-nu+_xfk0w@mail.gmail=
+.com>
+Subject: Quick Question, Graydon
+To: <rodwell@scanna-msc.com>
+Content-Type: multipart/alternative; boundary=3D"00000000000018ffd905ae7db8=
+27"
+
+
+--6103e659-77ba-47f1-921a-8518186ea79b
+Content-Type: text/html; charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<html>
+<Head></head><body>
+<p><b><font color=3D"#000066" size=3D"3" face=3D"Arial">Delivery has failed=
+ to these recipients or groups:</font></b></p>
+<font color=3D"#000000" size=3D"2" face=3D"Tahoma"><p><a href=3D"mailto:rod=
+well@scanna-msc.com">rodwell@scanna-msc.com</a><br>
+</font>
+<font color=3D"#000000" size=3D"3" face=3D"Arial">The email address you ent=
+ered couldn't be found. Please check the recipient's email address and try =
+to resend the message. If the problem continues, please contact your helpde=
+sk.<br>
+</font>
+<font color=3D"#000000" size=3D"2" face=3D"Tahoma"><br>
+</p>
+</font>
+<br><br><br><br><br><br>
+<font color=3D"#808080" size=3D"2" face=3D"Tahoma"><p><b>Diagnostic informa=
+tion for administrators:</b></p>
+<p>Generating server: SWNEXCH.scanna.local<br>
+</p>
+<p>rodwell@scanna-msc.com<br>
+Remote Server  returned '550 5.1.1 RESOLVER.ADR.RecipNotFound; not found'<b=
+r>
+</p>
+<p>Original message headers:</p>
+<pre>Received: from SWNEXCH.scanna.local (10.9.0.23) by SWNEXCH.scanna.loca=
+l
+ (10.9.0.23) with Microsoft SMTP Server (TLS) id 15.0.1497.2; Fri, 4 Sep 20=
+20
+ 15:31:10 +0100
+Received: from mail6.bemta26.messagelabs.com (85.158.142.156) by
+ SWNEXCH.scanna.local (10.9.0.23) with Microsoft SMTP Server (TLS) id
+ 15.0.1497.2 via Frontend Transport; Fri, 4 Sep 2020 15:31:10 +0100
+Return-Path: &lt;kevin@codem-composites.com&gt;
+Received: from [100.113.6.244] (using TLSv1.2 with cipher DHE-RSA-AES256-GC=
+M-SHA384 (256 bits))
+	by server-5.bemta.az-b.eu-central-1.aws.symcld.net id D7/9C-08547-DAF425F5=
+; Fri, 04 Sep 2020 14:31:09 +0000
+Authentication-Results: mx.messagelabs.com; spf=3Dpass=20
+  (server-25.tower-239.messagelabs.com: domain of codem-composites.com=20
+  designates 209.85.166.45 as permitted sender)=20
+  smtp.mailfrom=3Dcodem-composites.com; dkim=3Dpass (good signature)=20
+  header.i=3D@codem-composites.com header.s=3Dgoogle; dmarc=3Dpass (p=3Dnon=
+e=20
+  adkim=3Dr aspf=3Dr) header.from=3Dcodem-composites.com
+X-Brightmail-Tracker: H4sIAAAAAAAAA+NgFuplleJIrShJLcpLzFFi42K5GLpMV3etf1C
+  8wYvNLBYrDmxlcmD0WLbsKlsAYxRrZl5SfkUCa8ayR8vZC3qSKx5/n8zewNgU08XIxSEk0Mco
+  cfrsdhYQh0XgKYtEz7bDjCCOhMAPFokXD98wQzhNjBLfzixi7WLkBHKKJBY/mMEIYZdIHJv/h
+  w3EFhLIl3h4+jZYnE3AQKLj7G9mEJtXQFDi5MwnLCA2i4CKRNvG+6wQ8QCJ/s9XmEBsYQEFiT
+  vvroDNERGQkjh/ejKYzSzgI7Fn9QbGCYx8s5CMmoUkBWFrSrRu/80OYWtLLFv4mhnC1pBYcGc
+  fI7L4Aka2VYyWSUWZ6RkluYmZObqGBga6hobGuua6RsaGeolVukl6qaW6yal5JUWJQFm9xPJi
+  veLK3OScFL281JJNjMDwTilkf76DcdWbD3qHGCU5mJREeWMcg+KF+JLyUyozEosz4otKc1KLD
+  zHKcHAoSfCm+gDlBItS01Mr0jJzgLEGk5bg4FES4W31BUrzFhck5hZnpkOkTjGGcyzZOG8RM0
+  fHr0VA8t3PxUDy9qolQPIjmPwOJts2gshVB6avYhZiycvPS5US53UDGScAMi6jNA9uGSyVXGK
+  UlRLmZWRgYBDiKUgtys0sQZV/xSjOwagkzHsPZApPZl4J3E2vgM5lAjr3qGkgyLkliQgpqQYm
+  lZYHC212HvDkdvz3ZXkag//KgGcTWHS5LA887Pxj2Hx2es8u0XSbKRcvHA3tdL2QWG4jFnNs7
+  mnR09PFkncafDoY8WWl4aVyzuNqJ0x89QMuiYh58Jvv9i69l5kbcIxLcJXzw1V1RycxGrl2RE
+  /qP7hR4Mledea7WaJ3Xf7se2PN8uyB7eKzJ9lYyx4+3ebr8iF2jsyKhau/8t458ye8gHWWhpR
+  ufmNbsNyUCR56er0hUy58iyrido9qXCQxpefK7/Dzka9rc9Y3s5/aqzH7vAxf4+UJAXMv6S7I
+  DLbZNCVQ1sX7rI1EPOe0eZsyNzHIN06+PPOWlUlx+LZ1FYdj+UUNzRyt1tx1sbLY8fabEktxR
+  qKhFnNRcSIACPOzNqADAAA=3D
+X-Env-Sender: kevin@codem-composites.com
+X-Msg-Ref: server-25.tower-239.messagelabs.com!1599229867!38209!1
+X-Originating-IP: [209.85.166.45]
+X-SYMC-ESS-Newsletter-Ignored: YES
+X-SpamReason: Yes, hits=3D0.0 required=3D7.0 tests=3Dnewsletters: ,
+  newsletters: Newsletter detected: 9.13 &gt; 5,newsletters: Newsletter=20
+  detected: 9.13 &gt; 5,HTML_MESSAGE,UNPARSEABLE_RELAY,domain_age:=20
+  codem-composites.com:a=3D26,s=3Denv; {END},Newsletter detected heuristica=
+lly=20
+  [ML_RADAR_NL_1,ML_RADAR_NL_2,ML_RADAR_NL_2A,ML_RADAR_NL_2CP,
+  ML_RADAR_NL_2F]: 9.13 &gt; 5
+X-StarScan-Received:
+X-StarScan-Version: 9.60.3; banners=3D-,-,scanna-msc.com
+X-VirusChecked: Checked
+Received: (qmail 17480 invoked from network); 4 Sep 2020 14:31:08 -0000
+Received: from mail-io1-f45.google.com (HELO mail-io1-f45.google.com) (209.=
+85.166.45)
+  by server-25.tower-239.messagelabs.com with ECDHE-RSA-AES256-GCM-SHA384 e=
+ncrypted SMTP; 4 Sep 2020 14:31:08 -0000
+Received: by mail-io1-f45.google.com with SMTP id j2so7279601ioj.7
+        for &lt;rodwell@scanna-msc.com&gt;; Fri, 04 Sep 2020 07:31:08 -0700=
+ (PDT)
+DKIM-Signature: v=3D1; a=3Drsa-sha256; c=3Drelaxed/relaxed;
+        d=3Dcodem-composites.com; s=3Dgoogle;
+        h=3Dfrom:mime-version:date:message-id:subject:to;
+        bh=3D2vX+mb74FyLbq1787nnu00j/eCqC704uZwZyuShbXRo=3D;
+        b=3DHoMKjpG8PJY54lA0egHQcVPizMEKlEK+0mYRgg3BFoYIXHXKTpsm7Kh2Q6ziayF=
+wAg
+         rYnRIRwjUTlsVrpQLJVKzVMPm7FAD9e3+M3BDH7iRyvhWdALby/LuWPThQcBFC3NtX=
+6+
+         HLEnbVCdYDgjzdMKLVFQ8nV/9KYYMOAVW8ayXBqKmVfhuyJtLnk8vlab9kphdkaaAz=
+Kh
+         hNHunNMEmwlUtR0hx3hc+koEIyMjL3+0lXyktGpC+TsJoe2gOiLX903Wtsq7sKqsdJ=
+vR
+         ew2hGIqKFWbzUFh7gKeBUywvqAxQujk65GoD5+jzMj7GalSkSEMbJ55p9tIcPsBQSf=
+k5
+         nfHQ=3D=3D
+X-Google-DKIM-Signature: v=3D1; a=3Drsa-sha256; c=3Drelaxed/relaxed;
+        d=3D1e100.net; s=3D20161025;
+        h=3Dx-gm-message-state:from:mime-version:date:message-id:subject:to=
+;
+        bh=3D2vX+mb74FyLbq1787nnu00j/eCqC704uZwZyuShbXRo=3D;
+        b=3DTYPg47W9jhjG9+vUhSVtCRaqnB/ef39YTAfS7nPRYBR4zfzC5fnd2iOAHEUJqA/=
+f7m
+         JdZP1tm2i4nLCCSlIGLWiCzahRhAgJDY+ezG4EWXnpLmTIqtkQR+L/L1BXDFlOEntT=
+S5
+         7eN/ykFjmid3/RdHrFvsRPwj7967iwqhztEiMDTu8DE38XtdxcJ/tZ8CmsPNgY29U9=
+NF
+         YphCVBSoMUFddIiRRdu2N41A77CTvsB7kRzInsjr20jqAFx+vTwlfEfcRaJJyY3yLG=
+K4
+         ggVHnRamqN2ELBkwXMqdn3rsx99yIgJP25qwpL+TnpPsH9Y6Hoc+gG0n0gErVxJdYQ=
+RW
+         P3iQ=3D=3D
+X-Gm-Message-State: AOAM5310z7mYFj6DjeqC8N1QCB02rjY2+kib88kkMIwFpN8n0NllaNb=
+O
+	MvxDFjsWUWaLYG4319BPXmPy1WRJ6Im1VF/ejDMjaAPAPldMZA=3D=3D
+X-Google-Smtp-Source: ABdhPJza74ECELBB3nTIyOEYVSe5diz4aFDfNQwXiGNDUx0itJvQR=
+7Io8pK1N4Lw0S8sEaedqZKY5QcZOr+SZk89sHg=3D
+X-Received: by 2002:a5e:8d04:: with SMTP id m4mr7537523ioj.107.159922986634=
+0;
+ Fri, 04 Sep 2020 07:31:06 -0700 (PDT)
+Received: from 696963989851 named unknown by gmailapi.google.com with
+ HTTPREST; Fri, 4 Sep 2020 14:31:05 +0000
+From: Kevin Doherty &lt;kevin@codem-composites.com&gt;
+MIME-Version: 1.0
+Date: Fri, 4 Sep 2020 14:31:05 +0000
+Message-ID: &lt;CAK4cLxgxezujv9dGqZLk60uLKe1fHdrHYEMjBWBv-nu+_xfk0w@mail.gm=
+ail.com&gt;
+Subject: Quick Question, Graydon
+To: &lt;rodwell@scanna-msc.com&gt;
+Content-Type: multipart/alternative; boundary=3D&quot;00000000000018ffd905a=
+e7db827&quot;
+</pre>
+</font>
+</body>
+</html>=
+
+--6103e659-77ba-47f1-921a-8518186ea79b--
+
+--24760f7a-8abb-41e0-963e-ebccd768a87c
+Content-Type: message/delivery-status
+
 Reporting-MTA: dns;SWNEXCH.scanna.local
 Received-From-MTA: dns;mail6.bemta26.messagelabs.com
 Arrival-Date: Fri, 4 Sep 2020 14:31:10 +0000
@@ -7,3 +293,325 @@ Action: failed
 Status: 5.1.1
 Diagnostic-Code: smtp;550 5.1.1 RESOLVER.ADR.RecipNotFound; not found
 
+
+--24760f7a-8abb-41e0-963e-ebccd768a87c
+Content-Type: message/rfc822
+
+Received: from SWNEXCH.scanna.local (10.9.0.23) by SWNEXCH.scanna.local
+ (10.9.0.23) with Microsoft SMTP Server (TLS) id 15.0.1497.2; Fri, 4 Sep 2020
+ 15:31:10 +0100
+Received: from mail6.bemta26.messagelabs.com (85.158.142.156) by
+ SWNEXCH.scanna.local (10.9.0.23) with Microsoft SMTP Server (TLS) id
+ 15.0.1497.2 via Frontend Transport; Fri, 4 Sep 2020 15:31:10 +0100
+Return-Path: <kevin@codem-composites.com>
+Received: from [100.113.6.244] (using TLSv1.2 with cipher DHE-RSA-AES256-GCM-SHA384 (256 bits))
+	by server-5.bemta.az-b.eu-central-1.aws.symcld.net id D7/9C-08547-DAF425F5; Fri, 04 Sep 2020 14:31:09 +0000
+Authentication-Results: mx.messagelabs.com; spf=pass 
+  (server-25.tower-239.messagelabs.com: domain of codem-composites.com 
+  designates 209.85.166.45 as permitted sender) 
+  smtp.mailfrom=codem-composites.com; dkim=pass (good signature) 
+  header.i=@codem-composites.com header.s=google; dmarc=pass (p=none 
+  adkim=r aspf=r) header.from=codem-composites.com
+X-Brightmail-Tracker: H4sIAAAAAAAAA+NgFuplleJIrShJLcpLzFFi42K5GLpMV3etf1C
+  8wYvNLBYrDmxlcmD0WLbsKlsAYxRrZl5SfkUCa8ayR8vZC3qSKx5/n8zewNgU08XIxSEk0Mco
+  cfrsdhYQh0XgKYtEz7bDjCCOhMAPFokXD98wQzhNjBLfzixi7WLkBHKKJBY/mMEIYZdIHJv/h
+  w3EFhLIl3h4+jZYnE3AQKLj7G9mEJtXQFDi5MwnLCA2i4CKRNvG+6wQ8QCJ/s9XmEBsYQEFiT
+  vvroDNERGQkjh/ejKYzSzgI7Fn9QbGCYx8s5CMmoUkBWFrSrRu/80OYWtLLFv4mhnC1pBYcGc
+  fI7L4Aka2VYyWSUWZ6RkluYmZObqGBga6hobGuua6RsaGeolVukl6qaW6yal5JUWJQFm9xPJi
+  veLK3OScFL281JJNjMDwTilkf76DcdWbD3qHGCU5mJREeWMcg+KF+JLyUyozEosz4otKc1KLD
+  zHKcHAoSfCm+gDlBItS01Mr0jJzgLEGk5bg4FES4W31BUrzFhck5hZnpkOkTjGGcyzZOG8RM0
+  fHr0VA8t3PxUDy9qolQPIjmPwOJts2gshVB6avYhZiycvPS5US53UDGScAMi6jNA9uGSyVXGK
+  UlRLmZWRgYBDiKUgtys0sQZV/xSjOwagkzHsPZApPZl4J3E2vgM5lAjr3qGkgyLkliQgpqQYm
+  lZYHC212HvDkdvz3ZXkag//KgGcTWHS5LA887Pxj2Hx2es8u0XSbKRcvHA3tdL2QWG4jFnNs7
+  mnR09PFkncafDoY8WWl4aVyzuNqJ0x89QMuiYh58Jvv9i69l5kbcIxLcJXzw1V1RycxGrl2RE
+  /qP7hR4Mledea7WaJ3Xf7se2PN8uyB7eKzJ9lYyx4+3ebr8iF2jsyKhau/8t458ye8gHWWhpR
+  ufmNbsNyUCR56er0hUy58iyrido9qXCQxpefK7/Dzka9rc9Y3s5/aqzH7vAxf4+UJAXMv6S7I
+  DLbZNCVQ1sX7rI1EPOe0eZsyNzHIN06+PPOWlUlx+LZ1FYdj+UUNzRyt1tx1sbLY8fabEktxR
+  qKhFnNRcSIACPOzNqADAAA=
+X-Env-Sender: kevin@codem-composites.com
+X-Msg-Ref: server-25.tower-239.messagelabs.com!1599229867!38209!1
+X-Originating-IP: [209.85.166.45]
+X-SYMC-ESS-Newsletter-Ignored: YES
+X-SpamReason: Yes, hits=0.0 required=7.0 tests=newsletters: ,
+  newsletters: Newsletter detected: 9.13 > 5,newsletters: Newsletter 
+  detected: 9.13 > 5,HTML_MESSAGE,UNPARSEABLE_RELAY,domain_age: 
+  codem-composites.com:a=26,s=env; {END},Newsletter detected heuristically 
+  [ML_RADAR_NL_1,ML_RADAR_NL_2,ML_RADAR_NL_2A,ML_RADAR_NL_2CP,
+  ML_RADAR_NL_2F]: 9.13 > 5
+X-StarScan-Received:
+X-StarScan-Version: 9.60.3; banners=-,-,scanna-msc.com
+X-VirusChecked: Checked
+Received: (qmail 17480 invoked from network); 4 Sep 2020 14:31:08 -0000
+Received: from mail-io1-f45.google.com (HELO mail-io1-f45.google.com) (209.85.166.45)
+  by server-25.tower-239.messagelabs.com with ECDHE-RSA-AES256-GCM-SHA384 encrypted SMTP; 4 Sep 2020 14:31:08 -0000
+Received: by mail-io1-f45.google.com with SMTP id j2so7279601ioj.7
+        for <rodwell@scanna-msc.com>; Fri, 04 Sep 2020 07:31:08 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=codem-composites.com; s=google;
+        h=from:mime-version:date:message-id:subject:to;
+        bh=2vX+mb74FyLbq1787nnu00j/eCqC704uZwZyuShbXRo=;
+        b=HoMKjpG8PJY54lA0egHQcVPizMEKlEK+0mYRgg3BFoYIXHXKTpsm7Kh2Q6ziayFwAg
+         rYnRIRwjUTlsVrpQLJVKzVMPm7FAD9e3+M3BDH7iRyvhWdALby/LuWPThQcBFC3NtX6+
+         HLEnbVCdYDgjzdMKLVFQ8nV/9KYYMOAVW8ayXBqKmVfhuyJtLnk8vlab9kphdkaaAzKh
+         hNHunNMEmwlUtR0hx3hc+koEIyMjL3+0lXyktGpC+TsJoe2gOiLX903Wtsq7sKqsdJvR
+         ew2hGIqKFWbzUFh7gKeBUywvqAxQujk65GoD5+jzMj7GalSkSEMbJ55p9tIcPsBQSfk5
+         nfHQ==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20161025;
+        h=x-gm-message-state:from:mime-version:date:message-id:subject:to;
+        bh=2vX+mb74FyLbq1787nnu00j/eCqC704uZwZyuShbXRo=;
+        b=TYPg47W9jhjG9+vUhSVtCRaqnB/ef39YTAfS7nPRYBR4zfzC5fnd2iOAHEUJqA/f7m
+         JdZP1tm2i4nLCCSlIGLWiCzahRhAgJDY+ezG4EWXnpLmTIqtkQR+L/L1BXDFlOEntTS5
+         7eN/ykFjmid3/RdHrFvsRPwj7967iwqhztEiMDTu8DE38XtdxcJ/tZ8CmsPNgY29U9NF
+         YphCVBSoMUFddIiRRdu2N41A77CTvsB7kRzInsjr20jqAFx+vTwlfEfcRaJJyY3yLGK4
+         ggVHnRamqN2ELBkwXMqdn3rsx99yIgJP25qwpL+TnpPsH9Y6Hoc+gG0n0gErVxJdYQRW
+         P3iQ==
+X-Gm-Message-State: AOAM5310z7mYFj6DjeqC8N1QCB02rjY2+kib88kkMIwFpN8n0NllaNbO
+	MvxDFjsWUWaLYG4319BPXmPy1WRJ6Im1VF/ejDMjaAPAPldMZA==
+X-Google-Smtp-Source: ABdhPJza74ECELBB3nTIyOEYVSe5diz4aFDfNQwXiGNDUx0itJvQR7Io8pK1N4Lw0S8sEaedqZKY5QcZOr+SZk89sHg=
+X-Received: by 2002:a5e:8d04:: with SMTP id m4mr7537523ioj.107.1599229866340;
+ Fri, 04 Sep 2020 07:31:06 -0700 (PDT)
+Received: from 696963989851 named unknown by gmailapi.google.com with
+ HTTPREST; Fri, 4 Sep 2020 14:31:05 +0000
+From: Kevin Doherty <kevin@codem-composites.com>
+MIME-Version: 1.0
+Date: Fri, 4 Sep 2020 14:31:05 +0000
+Message-ID: <CAK4cLxgxezujv9dGqZLk60uLKe1fHdrHYEMjBWBv-nu+_xfk0w@mail.gmail.com>
+Subject: Quick Question, Graydon
+To: <rodwell@scanna-msc.com>
+Content-Type: multipart/alternative; boundary="00000000000018ffd905ae7db827"
+
+--00000000000018ffd905ae7db827
+Content-Type: text/plain; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+Hi Graydon,
+
+
+I trust this Friday afternoon is treating you well. I came across your
+LinkedIn profile whilst looking for the right person at Scanna for a quick=
+
+chat, so wanted to drop you a line by way of introduction.
+
+
+I'm the Managing Director here at Codem Composites and we provide
+end-to-end solutions for all things carbon fibre. Recently we=E2=80=99ve w=
+orked on
+projects with Mercedes F1, manufactured Raytheon's military antennas and
+produced props for the latest Star Wars movie, just to name a few.
+
+
+The reason for my email is that I think there's great synergy between Code=
+m
+and Scanna, so I'm hoping that you can spare me a few minutes to chat.
+
+
+I'm available for a quick call on Monday or Tuesday afternoon. If that
+doesn=E2=80=99t work, tell me what does, and I=E2=80=99ll make it happen.
+
+
+Hope you have a great weekend.
+
+
+*Kevin Doherty*
+
+[image: Description: CODEM Composites Ltd]          [image:
+cid:image009.jpg@01D362BA.5DA65FA0]         [image:
+cid:image008.jpg@01D362BA.5DA65FA0]
+
+CODEM Composites Ltd Unit E Harrier Park, Southgate Way, Orton Southgate,
+Peterborough PE2 6YQ
+
+
+
+*Tel: +44 (0) 1487 832123 Mob: +44 (0) 7785 996218Email:
+**kevin@codem-composites.com
+<kevin@codemcomposites.com>*
+*Web: **www.codem-composites.com
+<http://track.codem-composites.com/api/t/c/usr_a8xLmetmsZe2dZKhP/tsk_o4vzJ=
+tRg6ecPGMEgu/aHR0cDovL3d3dy5jb2RlbWNvbXBvc2l0ZXMuY29tLw=3D=3D>*
+
+As a GDPR compliant company, we would like to explain why you have receive=
+d
+this email. We believe that Scanna has a legitimate interest in the
+products and services that Codem Composites offers. Our research has
+identified your email address rodwell@scanna-msc.com as the appropriate
+contact within your organisation. If you have received this email in error=
+
+or do not wish to receive further communications from Codem Composites,
+just hit unsubscribe
+<http://track.codem-composites.com/api/unsubscribe/cam_Tpngwt2LiEY62Nqmw/c=
+m9kd2VsbEBzY2FubmEtbXNjLmNvbQ=3D=3D>
+.
+
+
+[image: picture] [image: logo]
+
+________________________________________________________________________
+This e-mail has been scanned for all viruses by Claranet. The
+service is powered by MessageLabs. For more information on a proactive
+anti-virus service working around the clock, around the globe, visit:
+http://www.claranet.co.uk
+________________________________________________________________________
+--00000000000018ffd905ae7db827
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<html><div style=3D"min-width:360px"></div><div dir=3D"ltr">
+    <div><p style=3D"margin:0px;box-sizing:border-box"><span style=3D"font=
+-family:Arial,Helvetica,sans-serif;box-sizing:border-box">Hi Graydon,=C2=A0=
+</span></p><p style=3D"margin:0px;box-sizing:border-box"><span style=3D"fo=
+nt-family:Arial,Helvetica,sans-serif"><span style=3D"box-sizing:border-box=
+"><br style=3D"box-sizing:border-box"></span></span></p><p style=3D"margin=
+:0px;box-sizing:border-box"><span style=3D"font-family:Arial,Helvetica,san=
+s-serif"><span style=3D"box-sizing:border-box">I trust this Friday</span><=
+/span><span style=3D"font-family:Arial,Helvetica,sans-serif"><span style=3D=
+"box-sizing:border-box">=C2=A0afternoon=20
+is treating you well. I came across your LinkedIn profile whilst looking f=
+or the right person at Scanna for a quick chat, so wanted to drop you a li=
+ne by way of introduction.</span></span></p><p style=3D"margin:0px;box-siz=
+ing:border-box"><span style=3D"font-family:Arial,Helvetica,sans-serif"><sp=
+an style=3D"box-sizing:border-box"><br style=3D"box-sizing:border-box"></s=
+pan></span></p><p style=3D"margin:0px;box-sizing:border-box"><span style=3D=
+"font-family:Arial,Helvetica,sans-serif"><span style=3D"box-sizing:border-=
+box"> I&#39;m the Managing Director here at  Codem Composites and we provi=
+de end-to-end solutions for all things carbon fibre. Recently we=E2=80=99v=
+e worked on projects with Mercedes F1, manufactured Raytheon&#39;s militar=
+y antennas and produced props for the latest Star Wars movie, just to name=
+ a few.</span></span></p><p style=3D"margin:0px;box-sizing:border-box"><sp=
+an style=3D"font-family:Arial,Helvetica,sans-serif"><br></span></p><p styl=
+e=3D"margin:0px;box-sizing:border-box"><span style=3D"font-family:Arial,He=
+lvetica,sans-serif"><span style=3D"box-sizing:border-box">The reason for m=
+y email is that I think there&#39;s great synergy between Codem and Scanna=
+, so I&#39;m hoping that you can spare me a few minutes to chat.=C2=A0</sp=
+an></span></p><p style=3D"margin:0px;box-sizing:border-box"><span style=3D=
+"font-family:Arial,Helvetica,sans-serif"><br></span></p><p style=3D"margin=
+:0px;box-sizing:border-box"><span style=3D"font-family:Arial,Helvetica,san=
+s-serif"><span style=3D"box-sizing:border-box"></span>I&#39;m available fo=
+r a quick call on Monday or Tuesday afternoon. If that doesn=E2=80=99t wor=
+k, tell me what does, and I=E2=80=99ll make it happen.
+<span style=3D"box-sizing:border-box"></span></span></p><p style=3D"margin=
+:0px;box-sizing:border-box"><span style=3D"font-family:Arial,Helvetica,san=
+s-serif"><span style=3D"box-sizing:border-box"><br style=3D"box-sizing:bor=
+der-box"></span></span></p><p style=3D"margin:0px;box-sizing:border-box"><=
+span style=3D"font-family:Arial,Helvetica,sans-serif">  Hope you have a gr=
+eat weekend. </span></p><p style=3D"margin:0px;box-sizing:border-box"><spa=
+n style=3D"font-family:Arial,Helvetica,sans-serif"><span style=3D"box-sizi=
+ng:border-box"><br style=3D"box-sizing:border-box"></span></span></p><p st=
+yle=3D"margin:0px;box-sizing:border-box"><span style=3D"font-family:Arial,=
+Helvetica,sans-serif;box-sizing:border-box"><table border=3D"0" cellpaddin=
+g=3D"0" cellspacing=3D"0" style=3D"width:525pt;border-collapse:collapse;bo=
+rder:none;empty-cells:show;max-width:100%;box-sizing:border-box" width=3D"=
+700"><tbody style=3D"box-sizing:border-box"><tr style=3D"box-sizing:border=
+-box"><td style=3D"padding:0cm;height:15pt;min-width:5px;box-sizing:border=
+-box"><table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"wid=
+th:525pt;border-collapse:collapse;border:none;empty-cells:show;max-width:1=
+00%;box-sizing:border-box" width=3D"700"><tbody style=3D"box-sizing:border=
+-box"><tr style=3D"box-sizing:border-box"><td style=3D"padding:0cm;min-wid=
+th:5px;box-sizing:border-box"><p style=3D"margin:0cm;font-size:15px;font-f=
+amily:Calibri,sans-serif;box-sizing:border-box"><strong style=3D"font-weig=
+ht:700;box-sizing:border-box"><span style=3D"font-size:18px;color:black;fo=
+nt-family:Arial,Helvetica,sans-serif;box-sizing:border-box">Kevin Doherty<=
+/span></strong></p></td></tr><tr style=3D"box-sizing:border-box"><td style=
+=3D"padding:0cm;height:15pt;min-width:5px;box-sizing:border-box"><span sty=
+le=3D"font-family:Arial,Helvetica,sans-serif;box-sizing:border-box"><br st=
+yle=3D"box-sizing:border-box"></span></td></tr><tr style=3D"box-sizing:bor=
+der-box"><td style=3D"padding:0cm;min-width:5px;box-sizing:border-box"><p =
+style=3D"margin:0cm;font-size:15px;font-family:Calibri,sans-serif;box-sizi=
+ng:border-box"><span style=3D"font-family:Arial,Helvetica,sans-serif;box-s=
+izing:border-box"><span style=3D"color:rgb(31,73,125);box-sizing:border-bo=
+x"><img width=3D"200" src=3D"http://track.codem-composites.com/api/froala/=
+files/tea_NfYyMpjZ5LayPy6cN-6001bc8f655e1d227c7ea5f14c4fc96a" alt=3D"Descr=
+iption: CODEM Composites Ltd" style=3D"vertical-align: middle; border-styl=
+e: none; cursor: pointer; padding: 0px 1px; max-width: 100%; box-sizing: b=
+order-box;"></span><span style=3D"color:rgb(153,51,102);box-sizing:border-=
+box">=C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0=C2=A0</span><span style=3D"color:r=
+gb(31,73,125);box-sizing:border-box"><img width=3D"101" src=3D"http://trac=
+k.codem-composites.com/api/froala/files/tea_NfYyMpjZ5LayPy6cN-ba66bf715631=
+fc5ad46e49d0879aa5bc" alt=3D"cid:image009.jpg@01D362BA.5DA65FA0" style=3D"=
+vertical-align: middle; border-style: none; cursor: pointer; padding: 0px =
+1px; max-width: 100%; box-sizing: border-box;">=C2=A0 =C2=A0 =C2=A0 =C2=A0=
+ </span><span style=3D"color:rgb(153,51,102);box-sizing:border-box">=C2=A0=
+</span><span style=3D"color:rgb(31,73,125);box-sizing:border-box"><img wid=
+th=3D"120" src=3D"http://track.codem-composites.com/api/froala/files/tea_N=
+fYyMpjZ5LayPy6cN-95ab1f987261409b5d768873a676560b" alt=3D"cid:image008.jpg=
+@01D362BA.5DA65FA0" style=3D"vertical-align: middle; border-style: none; c=
+ursor: pointer; padding: 0px 1px; max-width: 100%; box-sizing: border-box;=
+"></span></span></p></td></tr><tr style=3D"box-sizing:border-box"><td styl=
+e=3D"padding:0cm;height:15pt;min-width:5px;box-sizing:border-box"><span st=
+yle=3D"font-family:Arial,Helvetica,sans-serif;box-sizing:border-box"><br s=
+tyle=3D"box-sizing:border-box"></span></td></tr><tr style=3D"box-sizing:bo=
+rder-box"><td style=3D"padding:0cm;min-width:5px;box-sizing:border-box"><p=
+ style=3D"margin:0cm;font-size:15px;font-family:Calibri,sans-serif;box-siz=
+ing:border-box"><span style=3D"font-family:Arial,Helvetica,sans-serif;box-=
+sizing:border-box"><span style=3D"font-size:10px;color:rgb(31,73,125);box-=
+sizing:border-box">CODEM Composites Ltd Unit E Harrier Park, Southgate Way=
+, Orton Southgate, Peterborough PE2 6YQ</span></span></p></td></tr><tr sty=
+le=3D"box-sizing:border-box"><td style=3D"padding:0cm;height:22.5pt;min-wi=
+dth:5px;box-sizing:border-box"><span style=3D"font-family:Arial,Helvetica,=
+sans-serif;box-sizing:border-box"><br style=3D"box-sizing:border-box"></sp=
+an></td></tr><tr style=3D"box-sizing:border-box"><td style=3D"padding:0cm;=
+min-width:5px;box-sizing:border-box"><p style=3D"margin:0cm;font-size:15px=
+;font-family:Calibri,sans-serif;box-sizing:border-box"><span style=3D"font=
+-family:Arial,Helvetica,sans-serif;box-sizing:border-box"><strong style=3D=
+"font-weight:700;box-sizing:border-box"><span style=3D"font-size:10px;colo=
+r:rgb(31,73,125);box-sizing:border-box">Tel: +44 (0) 1487 832123<br style=3D=
+"box-sizing:border-box"> Mob: +44 (0) 7785 996218<br style=3D"box-sizing:b=
+order-box">Email:=C2=A0</span></strong><strong style=3D"font-weight:700;bo=
+x-sizing:border-box"><span style=3D"font-size:10px;color:rgb(31,73,125);bo=
+x-sizing:border-box"><a href=3D"mailto:kevin@codemcomposites.com" style=3D=
+"color:rgb(0,184,255);text-decoration:none;background-color:transparent;bo=
+x-sizing:border-box"><span style=3D"color:blue;box-sizing:border-box">kevi=
+n@codem-composites.com</span></a></span></strong><strong style=3D"font-wei=
+ght:700;box-sizing:border-box"><span style=3D"font-size:10px;color:rgb(31,=
+73,125);box-sizing:border-box"><br style=3D"box-sizing:border-box">Web:=C2=
+=A0</span></strong><strong style=3D"font-weight:700;box-sizing:border-box"=
+><span style=3D"font-size:10px;color:rgb(31,73,125);box-sizing:border-box"=
+><a href=3D"http://track.codem-composites.com/api/t/c/usr_a8xLmetmsZe2dZKh=
+P/tsk_o4vzJtRg6ecPGMEgu/aHR0cDovL3d3dy5jb2RlbWNvbXBvc2l0ZXMuY29tLw=3D=3D" =
+style=3D"color:rgb(0,184,255);text-decoration:none;background-color:transp=
+arent;box-sizing:border-box"><span style=3D"color:blue;box-sizing:border-b=
+ox">www.codem-composites.com</span></a></span></strong></span></p></td></t=
+r></tbody></table></td></tr><tr style=3D"box-sizing:border-box"><td style=3D=
+"padding:0cm;min-width:5px;box-sizing:border-box"><span style=3D"font-fami=
+ly:Arial,Helvetica,sans-serif;box-sizing:border-box"><br style=3D"box-sizi=
+ng:border-box"></span></td></tr></tbody></table><p style=3D"margin-top:0px=
+;margin-bottom:1rem;box-sizing:border-box"><span style=3D"font-size:10px;f=
+ont-family:Arial,Helvetica,sans-serif;box-sizing:border-box">As a GDPR com=
+pliant company, we would like to explain why you have received this email.=
+ We believe that Scanna has a legitimate interest in the products and serv=
+ices that Codem Composites offers. Our research has identified your email =
+address <a href=3D"mailto:rodwell@scanna-msc.com">rodwell@scanna-msc.com</=
+a> as the appropriate contact within your organisation. If you have receiv=
+ed this email in error or do not wish to receive further communications fr=
+om Codem Composites, just hit <a href=3D"http://track.codem-composites.com=
+/api/unsubscribe/cam_Tpngwt2LiEY62Nqmw/cm9kd2VsbEBzY2FubmEtbXNjLmNvbQ=3D=3D=
+" style=3D"color:rgb(0,184,255);text-decoration:none;background-color:tran=
+sparent;box-sizing:border-box">unsubscribe</a>.</span></p></span></p></div=
+>
+    <br><div class=3D"gmail_extra"><br>
+      <div class=3D"gmail_signature" data-smartmail=3D"gmail_signature"><d=
+iv dir=3D"ltr"><div><div dir=3D"ltr"></div></div></div></div>
+     =20
+    </div>
+    </div>
+<img alt=3D"picture" src=3D"http://track.codem-composites.com/api/reply/da=
+ta-ll-tsk_o4vzJtRg6ecPGMEgu" style=3D"opacity:0;display:none;width:0;heigh=
+t:0;">
+<img alt=3D"logo" src=3D"http://track.codem-composites.com/api/track/open/=
+usr_a8xLmetmsZe2dZKhP/tsk_o4vzJtRg6ecPGMEgu" height=3D"1" width=3D"1"><br =
+clear=3D"both">
+________________________________________________________________________<B=
+R>
+This e-mail has been scanned for all viruses by Claranet. The<BR>
+service is powered by MessageLabs. For more information on a proactive<BR>=
+
+anti-virus service working around the clock, around the globe, visit:<BR>
+http://www.claranet.co.uk<BR>
+________________________________________________________________________<B=
+R>
+</html>
+
+--00000000000018ffd905ae7db827--
+
+--24760f7a-8abb-41e0-963e-ebccd768a87c--

@@ -1,0 +1,80 @@
+--_000_6ea0cfa4bded441c81b78b17d6a72658DM6PR14MB3163namprd14pr_
+Content-Type: text/plain; charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+I am currently out of the office until Monday the 19th October.
+For anything urgent please call +441619755300.
+
+Regards,
+Alan
+
+
+--_000_6ea0cfa4bded441c81b78b17d6a72658DM6PR14MB3163namprd14pr_
+Content-Type: text/html; charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<html xmlns:o=3D"urn:schemas-microsoft-com:office:office" xmlns:w=3D"urn:sc=
+hemas-microsoft-com:office:word" xmlns:m=3D"http://schemas.microsoft.com/of=
+fice/2004/12/omml" xmlns=3D"http://www.w3.org/TR/REC-html40">
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dus-ascii"=
+>
+<meta name=3D"Generator" content=3D"Microsoft Word 15 (filtered medium)">
+<style><!--
+/* Font Definitions */
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:"Yu Gothic";
+	panose-1:2 11 4 0 0 0 0 0 0 0;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+@font-face
+	{font-family:"\@Yu Gothic";
+	panose-1:2 11 4 0 0 0 0 0 0 0;}
+@font-face
+	{font-family:"Segoe UI";
+	panose-1:2 11 5 2 4 2 4 2 2 3;}
+/* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0cm;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
+span.EmailStyle17
+	{mso-style-type:personal-compose;
+	font-family:"Calibri",sans-serif;}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	font-family:"Calibri",sans-serif;}
+@page WordSection1
+	{size:612.0pt 792.0pt;
+	margin:72.0pt 72.0pt 72.0pt 72.0pt;}
+div.WordSection1
+	{page:WordSection1;}
+--></style>
+</head>
+<body lang=3D"EN-GB" link=3D"#0563C1" vlink=3D"#954F72" style=3D"word-wrap:=
+break-word">
+<div class=3D"WordSection1">
+<p class=3D"MsoNormal" style=3D"mso-margin-top-alt:5.0pt;margin-right:0cm;m=
+argin-bottom:5.0pt;margin-left:0cm;text-autospace:none">
+I am currently out of the office until Monday the 19th October.<o:p></o:p><=
+/p>
+<p class=3D"MsoNormal" style=3D"mso-margin-top-alt:5.0pt;margin-right:0cm;m=
+argin-bottom:5.0pt;margin-left:0cm;text-autospace:none">
+For anything urgent please call +441619755300.<o:p></o:p></p>
+<p class=3D"MsoNormal" style=3D"mso-margin-top-alt:5.0pt;margin-right:0cm;m=
+argin-bottom:5.0pt;margin-left:0cm;text-autospace:none">
+<br>
+Regards,<br>
+Alan<o:p></o:p></p>
+<p class=3D"MsoNormal" style=3D"text-autospace:none"><span style=3D"font-si=
+ze:8.5pt;font-family:&quot;Segoe UI&quot;,sans-serif"><o:p>&nbsp;</o:p></sp=
+an></p>
+</div>
+</body>
+</html>
+
+--_000_6ea0cfa4bded441c81b78b17d6a72658DM6PR14MB3163namprd14pr_--
