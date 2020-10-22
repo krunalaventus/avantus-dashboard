@@ -261,6 +261,9 @@ exports.loadEmails =async function(req, res){
                                   .replace(/([a-z]+)(: ?[\[\n])/g, '"$1"$2')
                                   .replace(/\\/g, '')
                                   .replace(/from/g, '"from"')
+                                  .replace(/to/g, '"to"')
+                                  .replace(/subject/g, '"subject"')
+                                  .replace(/date/g, '"date"')
                                   .replace(/""/g, '"');
                     const data = JSON.parse(rawData)
                     console.log(data);
@@ -293,7 +296,11 @@ exports.loadEmails =async function(req, res){
                 });
               });
               msg.once('attributes', async function(attrs) {
-                const rawattributes = inspect(attrs, false, 8).replace('date: ','date: \'').replace('Z,','Z\',').replace(/'/g,'"').replace(/\[ "/g,'[ \'').replace(/" ]/g,'\' ]').replace(/'/g, '"').replace(/-/g,'_').replace('date','"date"').replace('uid','"uid"').replace('modseq','"modseq"').replace('flags','"flags"').replace(/\\/g, '').replace(/from/g, '"from"').replace(/""/g, '"');
+                const rawattributes = inspect(attrs, false, 8).replace('date: ','date: \'').replace('Z,','Z\',').replace(/'/g,'"').replace(/\[ "/g,'[ \'').replace(/" ]/g,'\' ]').replace(/'/g, '"').replace(/-/g,'_').replace('date','"date"').replace('uid','"uid"').replace('modseq','"modseq"').replace('flags','"flags"').replace(/\\/g, '').replace(/from/g, '"from"')
+                .replace(/to/g, '"to"')
+                .replace(/subject/g, '"subject"')
+                .replace(/date/g, '"date"')
+                .replace(/""/g, '"');
                 // console.log(rawattributes)
                 const data = JSON.parse(rawattributes)
                 imapEmails.email_uid = data.uid;
