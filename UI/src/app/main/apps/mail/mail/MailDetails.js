@@ -44,6 +44,10 @@ function MailDetails(props) {
 			setState({ loading: false });
 		})();
 	}, []);
+	function getDatep(date) {
+		const maildates = new Date(date);
+		return `${maildates.getMonth()}/${maildates.getDate()}/${maildates.getFullYear()} ${maildates.getHours()}:${maildates.getMinutes()}:${maildates.getSeconds()}`;
+	}
 	function getUrl(uid, emailId) {
 		const url = `http://13.58.82.135/coreapi/?uid=${uid}&emailId=${emailId}`;
 		return url;
@@ -76,7 +80,7 @@ function MailDetails(props) {
 					<div>
 						<div className="flex items-start justify-between">
 							<div className="flex items-center justify-start">
-								<Avatar>{email.data.email_from}</Avatar>
+								<Avatar />
 								<div className="flex flex-col mx-8">
 									<span>{email.data.email_from}</span>
 									<Typography
@@ -90,9 +94,6 @@ function MailDetails(props) {
 									</Typography>
 								</div>
 							</div>
-							<IconButton>
-								<Icon>more_vert</Icon>
-							</IconButton>
 						</div>
 
 						<div className="my-16">
@@ -117,7 +118,7 @@ function MailDetails(props) {
 									<Typography variant="body2" color="textSecondary" className="px-4 flex flex-col">
 										<span>{email.data.email_from}</span>
 										<span>{email.data.email_to}</span>
-										<span>{email.data.email_date}</span>
+										<span>{getDatep(email.data.email_date)}</span>
 									</Typography>
 								</div>
 							)}

@@ -181,15 +181,14 @@ exports.getEmailDetail = async function(params, res) {
 };
 
 exports.loadEmails =async function(req, res){
+  console.log
     var decodedData = req.decoded.data;
     const email = await Emails.findOne({where:{status: 1, customer_id: decodedData.id}});
+    await ImapEmails.destroy({where:{email_id: email.id}});
     try{
-      if (!fs.existsSync(`imap/${email.id}`)) {
-        fs.mkdirSync(`imap/${email.id}`);
-      }
       var Imap = require('imap'),
           inspect = require('util').inspect;
-
+          let allImapEmails = [];
       var imap = new Imap({
         user: email.username,
         password: email.password,
@@ -351,6 +350,11 @@ exports.loadEmails =async function(req, res){
 
       imap.once('end', function() {
         console.log('Connection ended');
+        res.json({
+          status: 200,
+          message: 'success',
+          success: true
+        })
       });
 
       imap.connect();

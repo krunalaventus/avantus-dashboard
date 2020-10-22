@@ -10,9 +10,6 @@ const empty = require('empty-folder');
 cron.schedule('0 */4 * * *', async function() {
   console.log("=========================start=========================")
     try{
-      empty('./imap', false, (o)=>{
-        if(o.error) console.error(o.error);
-      });
         await ImapEmails.destroy({ truncate: true });
       const emails = await Emails.findAll({where:{status: 1}});
       let allImapEmails = [];

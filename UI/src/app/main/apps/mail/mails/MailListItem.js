@@ -47,6 +47,8 @@ const MailListItem = props => {
 	const classes = useStyles(props);
 	const toPath = pathToRegexp.compile(props.match.path);
 	const checked = selectedMailIds.length > 0 && selectedMailIds.find(id => id === props.mail.id) !== undefined;
+	const maildates = new Date(props.mail.email_date);
+	const maildate = `${maildates.getMonth()}/${maildates.getDate()}/${maildates.getFullYear()} ${maildates.getHours()}:${maildates.getMinutes()}:${maildates.getSeconds()}`;
 	return (
 		<ListItem
 			dense
@@ -72,13 +74,13 @@ const MailListItem = props => {
 			<div className="flex flex-1 flex-col relative overflow-hidden">
 				<div className="flex items-center justify-between px-16 pb-8">
 					<div className="flex items-center">
-						<Avatar className={classes.avatar}>{props.mail.email_from}</Avatar>
+						<Avatar className={classes.avatar} />
 						<Typography variant="subtitle1" className="mx-8">
 							{props.mail.email_from}
 						</Typography>
 						{/* <b>{props.mail.count} email</b> */}
 					</div>
-					<Typography variant="subtitle1">{props.mail.email_date}</Typography>
+					<Typography variant="subtitle1">{maildate}</Typography>
 				</div>
 
 				<div className="flex flex-col px-16 py-0">
