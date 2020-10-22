@@ -258,7 +258,8 @@ exports.loadEmails =async function(req, res){
                                   .replace(/Undeliverable:/g, 'Undeliverable')
                                   .replace(/Fwd:/g, 'Fwd')
                                   .replace(/Automatic reply:/g, 'Automatic reply')
-                                  .replace(/([a-z]+)(: ?[\[\n])/g, '"$1"$2');
+                                  .replace(/([a-z]+)(: ?[\[\n])/g, '"$1"$2')
+                                  .replace(/\\/g, '\\\\');
                     const data = JSON.parse(rawData)
                     console.log(data);
                     try{
@@ -290,7 +291,7 @@ exports.loadEmails =async function(req, res){
                 });
               });
               msg.once('attributes', async function(attrs) {
-                const rawattributes = inspect(attrs, false, 8).replace('date: ','date: \'').replace('Z,','Z\',').replace(/'/g,'"').replace(/\[ "/g,'[ \'').replace(/" ]/g,'\' ]').replace(/'/g, '"').replace(/-/g,'_').replace('date','"date"').replace('uid','"uid"').replace('modseq','"modseq"').replace('flags','"flags"');
+                const rawattributes = inspect(attrs, false, 8).replace('date: ','date: \'').replace('Z,','Z\',').replace(/'/g,'"').replace(/\[ "/g,'[ \'').replace(/" ]/g,'\' ]').replace(/'/g, '"').replace(/-/g,'_').replace('date','"date"').replace('uid','"uid"').replace('modseq','"modseq"').replace('flags','"flags"').replace(/\\/g, '\\\\');
                 // console.log(rawattributes)
                 const data = JSON.parse(rawattributes)
                 imapEmails.email_uid = data.uid;
