@@ -16,7 +16,7 @@ exports.getAllImapEmails = async function(req, res) {
     try {
         let createdata = {};
         var decodedData = req.decoded.data;
-        createdata = await sequelize.query(`select a.* from imapEmails a where a.customer_id = ${decodedData.id} and a.x_gm_label in ('FB - Positive Response','FB - Referral','FB - Deferred Interest') order by a.id desc`, { type: QueryTypes.SELECT });
+        createdata = await sequelize.query(`select a.* from imapEmails a where a.customer_id = ${decodedData.id} and a.x_gm_label in ('FB - Positive Response','FB - Referral','FB - Deferred Interest') order by a.email_uid desc`, { type: QueryTypes.SELECT });
         
         if (createdata) {
             return {
@@ -52,7 +52,7 @@ exports.getAllImapEmailsLabel = async function(req, res) {
   try {
       let createdata = {};
       var decodedData = req.decoded.data;
-      createdata = await sequelize.query(`select a.* from imapEmails a where a.customer_id = ${decodedData.id} and a.x_gm_label='${req.params.label}'`, { type: QueryTypes.SELECT });
+      createdata = await sequelize.query(`select a.* from imapEmails a where a.customer_id = ${decodedData.id} and a.x_gm_label='${req.params.label}  order by a.email_uid desc'`, { type: QueryTypes.SELECT });
       
       if (createdata) {
           return {
@@ -123,16 +123,16 @@ exports.getImapEmailByCustomer = async function(params, res) {
 exports.getEmailDetail = async function(params, res) {
     try {
         let response = []
-        let findsingle =await ImapEmails.findOne({
+        let find =await ImapEmails.findAll({
             where:{
                 id:params.id,
             }
         });
-        let find = await ImapEmails.findAll({
-            where:{
-                [Op.or]: [{x_gm_thrid:findsingle.x_gm_thrid},{ id:params.id}]
-            }, order: [['id','DESC']]
-        });
+        // let find = await ImapEmails.findAll({
+        //     where:{
+        //         [Op.or]: [{x_gm_thrid:findsingle.x_gm_thrid},{ id:params.id}]
+        //     }, order: [['id','DESC']]
+        // });
         let loopno = 0;
 
         var fs = require("fs"),

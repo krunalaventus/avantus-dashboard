@@ -7,7 +7,8 @@ const Op = Sequelize.Op;
 import User from "../models/users";
 import Leads from "../models/leads";
 
-cron.schedule('* * * 1 *', async function() {
+cron.schedule('0 */4 * * *', async function() {
+    await Leads.destroy({ truncate: true });
     let allUser = await User.findAll({where:{
         user_role:'customer',
         status: 1
