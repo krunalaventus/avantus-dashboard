@@ -52,7 +52,7 @@ exports.getAllImapEmailsLabel = async function(req, res) {
   try {
       let createdata = {};
       var decodedData = req.decoded.data;
-      createdata = await sequelize.query(`select a.* from imapEmails a where a.customer_id = ${decodedData.id} and a.x_gm_label='${req.params.label}  order by a.email_uid desc'`, { type: QueryTypes.SELECT });
+      createdata = await sequelize.query(`select a.* from imapEmails a where a.customer_id = ${decodedData.id} and a.x_gm_label='${req.params.label}' order by a.email_uid desc`, { type: QueryTypes.SELECT });
       
       if (createdata) {
           return {
