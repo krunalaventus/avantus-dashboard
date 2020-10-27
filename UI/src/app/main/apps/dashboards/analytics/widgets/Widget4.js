@@ -9,7 +9,10 @@ import _ from '@lodash';
 function Widget4(props) {
 	const theme = useTheme();
 	const data = _.merge({}, props.data);
-	let per = Math.round((data.repliedCount ?? 0 * 100) / data.totalCount ?? 0);
+	if (isNaN(data.repliedCount)) {
+		data.repliedCount = 0;
+	}
+	let per = Math.round((data.repliedCount * 100) / data.totalCount);
 	if (isNaN(per)) {
 		per = 0;
 	}
